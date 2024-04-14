@@ -12,17 +12,9 @@ export default {
       'link',
       {
         rel: 'icon',
-        href: '/images/dolphin-platform-logo-small.svg',
+        href: 'images/icon.png',
         type: 'image/svg+xm',
       }
-    ],
-    [
-      'link',
-      {
-        rel: 'mask-icon',
-        href: '/safari-pinned-tab.svg',
-        color: '#5bbad5',
-      },
     ],
     [
       'meta',

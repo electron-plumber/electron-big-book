@@ -28,7 +28,7 @@ const currentLink = computed(() => {
         <a :href="currentLink">
           <img
             class="logo"
-            src="/images/dolphin-platform-logo.svg"
+            src="/logo.png"
             alt="Dolphin Platform Logo"
           />
         </a>

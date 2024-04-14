@@ -1,7 +1,7 @@
 {
   "zh-CN": {
     "basic": {
-      "text": "基础课笔记",
+      "text": "基础课",
       "children": [
         {
           "text": "第一节",
@@ -9,8 +9,21 @@
         }
       ]
     },
+    "words": {
+      "text": "单词",
+      "children": [
+        {
+          "text": "2024-04-14",
+          "link": "/words/2024-04-14"
+        },
+        {
+          "text": "2024-04-15",
+          "link": "/words/2024-04-15"
+        }
+      ]
+    },
     "advanced": {
-      "text": "正式课笔记",
+      "text": "正式课",
       "children": []
     }
   }

@@ -1,7 +1,7 @@
 {
   "zh-CN": {
     "basic": {
-      "text": "基础课笔记",
+      "text": "基础课",
       "children": [
         {
           "text": "第一节",
@@ -10,7 +10,7 @@
       ]
     },
     "advanced": {
-      "text": "正式课笔记",
+      "text": "正式课",
       "children": []
     }
   }
