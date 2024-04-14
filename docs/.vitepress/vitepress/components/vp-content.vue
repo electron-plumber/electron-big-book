@@ -29,11 +29,11 @@ watch(
 
 onUpdated(() => {
   // 延迟更新,导航栏才对点击后会VPDocContent内容会缓存,导致onUpdated比clickEventListener先执行
-  nextTick(() => {
+  setTimeout(() => {
     if (shouldUpdateProgress.value) {
       nprogress.done()
     }
-  })
+  }, 300)
 })
 </script>
 
