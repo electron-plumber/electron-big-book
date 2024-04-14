@@ -33,7 +33,7 @@ onUpdated(() => {
     if (shouldUpdateProgress.value) {
       nprogress.done()
     }
-  }, 200)
+  }, 100)
 })
 </script>
 
