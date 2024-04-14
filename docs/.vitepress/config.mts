@@ -20,7 +20,7 @@ export default {
       'meta',
       {
         name: 'theme-color',
-        content: '#409eff',
+        content: '#F6F6F6',
       },
     ]
   ],
