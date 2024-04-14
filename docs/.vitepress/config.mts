@@ -12,7 +12,7 @@ export default {
       'link',
       {
         rel: 'icon',
-        href: 'images/icon.png',
+        href: '/images/icon.png',
         type: 'image/svg+xm',
       }
     ],
