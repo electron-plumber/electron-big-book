@@ -1,0 +1,33 @@
+{
+  "zh-CN": [
+    {
+      "text": "逻辑",
+      "link": "/logic/第一节",
+      "activeMatch": "/logic/",
+      "homeCardType": "microservice",
+      "description": "管理类硕士逻辑笔记。"
+    },
+    {
+      "text": "数学",
+      "link": "/math/第一节",
+      "activeMatch": "/math/",
+      "homeCardType": "vue3",
+      "description": "管理类硕士数学笔记。"
+    },
+    {
+      "text": "英语",
+      "link": "/english/第一节",
+      "activeMatch": "/english/",
+      "homeCardType": "ios",
+      "description": "管理类硕士英语笔记"
+
+    },
+    {
+      "text": "写作",
+      "link": "/write/第一节",
+      "activeMatch": "/write/",
+      "homeCardType": "android",
+      "description": "管理类硕士写作笔记"
+    }
+  ]
+}
