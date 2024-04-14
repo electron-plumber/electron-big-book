@@ -66,10 +66,3 @@ jobs:
           repository-name: wangxiang4/vercel-publish
           git-config-name: wangxiang4
           git-config-email: 1827945911@qq.com
-
-      # Sync Third Party Triggering Deploy Hook
-      # https://vercel.com/docs/concepts/git/deploy-hooks
-      - name: Sync
-        env:
-          TRIGGERSYNCURL: ${{ secrets.TRIGGERSYNCURL }}
-        run: curl -k "$TRIGGERSYNCURL"
