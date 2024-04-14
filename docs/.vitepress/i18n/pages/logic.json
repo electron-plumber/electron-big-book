@@ -5,7 +5,7 @@
       "children": [
         {
           "text": "第一节",
-          "link": "/第一节"
+          "link": "basic/第一节"
         }
       ]
     },
@@ -14,7 +14,7 @@
       "children": [
         {
           "text": "第一节",
-          "link": "/第一节"
+          "link": "advanced/第一节"
         }
       ]
     }

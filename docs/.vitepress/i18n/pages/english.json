@@ -5,7 +5,7 @@
       "children": [
         {
           "text": "第一节",
-          "link": "/第一节"
+          "link": "basic/第一节"
         }
       ]
     },
@@ -14,11 +14,11 @@
       "children": [
         {
           "text": "2024-04-14",
-          "link": "/words/2024-04-14"
+          "link": "words/2024-04-14"
         },
         {
           "text": "2024-04-15",
-          "link": "/words/2024-04-15"
+          "link": "words/2024-04-15"
         }
       ]
     },
@@ -27,7 +27,7 @@
       "children": [
         {
           "text": "第一节",
-          "link": "/第一节"
+          "link": "advanced/第一节"
         }
       ]
     }
