@@ -28,9 +28,9 @@ watch(
 )
 
 onUpdated(() => {
-  if (shouldUpdateProgress.value) {
+  //if (shouldUpdateProgress.value) {
     nprogress.done()
-  }
+  //}
 })
 </script>
 
