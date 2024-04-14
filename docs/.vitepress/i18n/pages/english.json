@@ -24,7 +24,12 @@
     },
     "advanced": {
       "text": "正式课",
-      "children": []
+      "children": [
+        {
+          "text": "第一节",
+          "link": "/第一节"
+        }
+      ]
     }
   }
 }
