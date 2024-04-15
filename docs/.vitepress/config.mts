@@ -28,8 +28,8 @@ export default {
     sidebars,
     nav,
     agolia: {
-      apiKey: '01ac5b2a54f0f72478b584dacf8acc29',
-      appId: 'EGEB2XPPPP',
+      apiKey: 'd0e40e4eeaa574ebf46358f5e0b23a08',
+      appId: 'PVEXLTFZ5B',
     },
   },
   lang: 'zh-CN',
