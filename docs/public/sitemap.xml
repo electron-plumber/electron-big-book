@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://note.godolphinx.org</loc>
+    <loc>https://note.godolphinx.org</loc>
     <lastmod>2024-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -9,13 +9,13 @@
 
   <!--逻辑-->
   <url>
-    <loc>http://note.godolphinx.org/logic/basic/第一节.html</loc>
+    <loc>https://note.godolphinx.org/logic/basic/第一节.html</loc>
     <lastmod>2024-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://note.godolphinx.org/logic/advanced/第一节.html</loc>
+    <loc>https://note.godolphinx.org/logic/advanced/第一节.html</loc>
     <lastmod>2024-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -23,13 +23,13 @@
 
   <!--数学-->
   <url>
-    <loc>http://note.godolphinx.org/math/basic/第一节.html</loc>
+    <loc>https://note.godolphinx.org/math/basic/第一节.html</loc>
     <lastmod>2024-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://note.godolphinx.org/math/advanced/第一节.html</loc>
+    <loc>https://note.godolphinx.org/math/advanced/第一节.html</loc>
     <lastmod>2024-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -37,25 +37,25 @@
 
   <!--英语-->
   <url>
-    <loc>http://note.godolphinx.org/english/basic/第一节.html</loc>
+    <loc>https://note.godolphinx.org/english/basic/第一节.html</loc>
     <lastmod>2024-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://note.godolphinx.org/english/advanced/第一节.html</loc>
+    <loc>https://note.godolphinx.org/english/advanced/第一节.html</loc>
     <lastmod>2024-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://note.godolphinx.org/english/words/2024-04-14.html</loc>
+    <loc>https://note.godolphinx.org/english/words/2024-04-14.html</loc>
     <lastmod>2024-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://note.godolphinx.org/english/words/2024-04-15.html</loc>
+    <loc>https://note.godolphinx.org/english/words/2024-04-15.html</loc>
     <lastmod>2024-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -63,13 +63,13 @@
 
   <!--写作-->
   <url>
-    <loc>http://note.godolphinx.org/write/basic/第一节.html</loc>
+    <loc>https://note.godolphinx.org/write/basic/第一节.html</loc>
     <lastmod>2024-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://note.godolphinx.org/write/advanced/第一节.html</loc>
+    <loc>https://note.godolphinx.org/write/advanced/第一节.html</loc>
     <lastmod>2024-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
