@@ -24,6 +24,9 @@ export default {
       },
     ]
   ],
+  sitemap: {
+    hostname: 'https://note.godolphinx.org'
+  },
   themeConfig: {
     sidebars,
     nav,
