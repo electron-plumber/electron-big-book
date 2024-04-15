@@ -5,11 +5,9 @@ import '@vue/runtime-core'
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    AndroidSvg: typeof import('./.vitepress/vitepress/components/home/svg/android-svg.vue')['default']
     Dark: typeof import('./.vitepress/vitepress/components/icons/dark.vue')['default']
     EnglishSvg: typeof import('./.vitepress/vitepress/components/home/svg/english-svg.vue')['default']
     HomeCards: typeof import('./.vitepress/vitepress/components/home/home-cards.vue')['default']
-    IosSvg: typeof import('./.vitepress/vitepress/components/home/svg/ios-svg.vue')['default']
     IRiCodeLine: typeof import('~icons/ri/code-line')['default']
     IRiExternalLinkLine: typeof import('~icons/ri/external-link-line')['default']
     IRiFileCopyLine: typeof import('~icons/ri/file-copy-line')['default']
@@ -18,7 +16,6 @@ declare module '@vue/runtime-core' {
     Light: typeof import('./.vitepress/vitepress/components/icons/light.vue')['default']
     LogicSvg: typeof import('./.vitepress/vitepress/components/home/svg/logic-svg.vue')['default']
     MathSvg: typeof import('./.vitepress/vitepress/components/home/svg/math-svg.vue')['default']
-    MicroServiceSvg: typeof import('./.vitepress/vitepress/components/home/svg/micro-service-svg.vue')['default']
     ParallaxHome: typeof import('./.vitepress/vitepress/components/globals/parallax-home.vue')['default']
     RightBottomLayerRapidsSvg: typeof import('./.vitepress/vitepress/components/home/svg/right-bottom-layer-rapids-svg.vue')['default']
     RightBottomLayerSvg: typeof import('./.vitepress/vitepress/components/home/svg/right-bottom-layer-svg.vue')['default']
@@ -53,7 +50,6 @@ declare module '@vue/runtime-core' {
     VpSubnav: typeof import('./.vitepress/vitepress/components/vp-subnav.vue')['default']
     VpTableOfContent: typeof import('./.vitepress/vitepress/components/doc-content/vp-table-of-content.vue')['default']
     VpThemeToggler: typeof import('./.vitepress/vitepress/components/navbar/vp-theme-toggler.vue')['default']
-    Vue3Svg: typeof import('./.vitepress/vitepress/components/home/svg/vue3-svg.vue')['default']
     WriteSvg: typeof import('./.vitepress/vitepress/components/home/svg/write-svg.vue')['default']
   }
 }
