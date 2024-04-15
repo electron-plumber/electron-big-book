@@ -1,0 +1,29 @@
+{
+  "index_name": "note-mba",
+  "start_urls": ["https://note.godolphinx.org"],
+  "sitemap_urls": ["https://note.godolphinx.org/sitemap.xml"],
+  "stop_urls": ["/search"],
+  "selectors": {
+    "lvl0": ".router-link-active",
+    "lvl1": ".dropdown-item",
+    "lvl2": ".hero-info h1",
+    "lvl3": "h2",
+    "lvl4": "h3",
+    "lvl5": "h4",
+    "lvl6": "h5",
+    "text": "p, li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "zh-CN"
+    }
+  },
+  "indexHeadings": true,
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  }
+}
