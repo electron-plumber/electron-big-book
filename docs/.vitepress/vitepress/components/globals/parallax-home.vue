@@ -139,13 +139,13 @@ useEventListener(window, 'scroll', handleScroll)
                                          :style="rightBottomRapidsLayer"
                                          alt="banner"
                                          class="cursor-pointer"
-                                         @click="jumpTo('https://vuejs.godolphinx.org')"
+                                         @click="jumpTo('https://github.com/ericwali')"
           />
           <right-bottom-layer-svg v-show="!isDark"
                                   :style="rightBottomLayer"
                                   alt="banner"
                                   class="cursor-pointer"
-                                  @click="jumpTo('https://vuejs.godolphinx.org')"
+                                  @click="jumpTo('https://github.com/ericwali')"
           />
           <left-layer-svg :style="leftLayer" alt="banner" />
           <left-bottom-layer-svg :style="leftBottomLayer" alt="banner" />
