@@ -28,7 +28,7 @@ export default {
     sidebars,
     nav,
     agolia: {
-      apiKey: 'd0e40e4eeaa574ebf46358f5e0b23a08',
+      apiKey: 'f6c169e48ebc81ecfaad4657c39c9ba4',
       appId: 'PVEXLTFZ5B',
     },
   },
