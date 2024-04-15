@@ -17,12 +17,6 @@ const locale = computed(() => heroContentLocale[lang.value])
     </p>
     <p class="mt-1">
       {{ locale['text2'] }}
-      <a
-        href="https://github.com/wangxiang4/dolphin-ecology-docs"
-        target="_blank"
-        rel="noopener noreferer"
-        > Star </a
-      >
     </p>
   </div>
 </template>
