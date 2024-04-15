@@ -37,23 +37,13 @@
 
   <!--英语-->
   <url>
-    <loc>https://note.godolphinx.org/english/basic/第一节.html</loc>
-    <lastmod>2024-04-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://note.godolphinx.org/english/advanced/第一节.html</loc>
     <lastmod>2024-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-  <url>
-    <loc>https://note.godolphinx.org/english/words/2024-04-14.html</loc>
-    <lastmod>2024-04-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
+
+  <!--英语单词-->
   <url>
     <loc>https://note.godolphinx.org/english/words/2024-04-15.html</loc>
     <lastmod>2024-04-15</lastmod>

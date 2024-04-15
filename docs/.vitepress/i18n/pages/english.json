@@ -1,11 +1,11 @@
 {
   "zh-CN": {
-    "basic": {
-      "text": "基础课",
+    "advanced": {
+      "text": "正式课",
       "children": [
         {
           "text": "第一节",
-          "link": "/basic/第一节"
+          "link": "/advanced/第一节"
         }
       ]
     },
@@ -13,21 +13,8 @@
       "text": "单词",
       "children": [
         {
-          "text": "2024-04-14",
-          "link": "/words/2024-04-14"
-        },
-        {
           "text": "2024-04-15",
           "link": "/words/2024-04-15"
-        }
-      ]
-    },
-    "advanced": {
-      "text": "正式课",
-      "children": [
-        {
-          "text": "第一节",
-          "link": "/advanced/第一节"
         }
       ]
     }
