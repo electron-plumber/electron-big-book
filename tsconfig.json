@@ -4,8 +4,8 @@
  * vite内部使用esbuild对typescript编译成js
  * vite天然对typescript的支持文档: https://vitejs.bootcss.com/guide/features.html#typescript
  * 配置官方文档: https://www.typescriptlang.org/docs/handbook/compiler-options.html
- * @author: entfrm开发团队-王翔
- * @create: 2023/1/4
+ * @author: wangxiang4
+ * @create: 2024/3/4
  */
 {
   "compilerOptions": {

@@ -4,21 +4,21 @@
       "text": "逻辑",
       "link": "/logic/basic/第一节",
       "activeMatch": "/logic/",
-      "homeCardType": "microservice",
+      "homeCardType": "logic",
       "description": "管理类硕士逻辑文档。"
     },
     {
       "text": "数学",
       "link": "/math/basic/第一节",
       "activeMatch": "/math/",
-      "homeCardType": "vue3",
+      "homeCardType": "math",
       "description": "管理类硕士数学文档。"
     },
     {
       "text": "英语",
       "link": "/english/basic/第一节",
       "activeMatch": "/english/",
-      "homeCardType": "ios",
+      "homeCardType": "english",
       "description": "管理类硕士英语文档"
 
     },
@@ -26,7 +26,7 @@
       "text": "写作",
       "link": "/write/basic/第一节",
       "activeMatch": "/write/",
-      "homeCardType": "android",
+      "homeCardType": "write",
       "description": "管理类硕士写作文档"
     }
   ]
