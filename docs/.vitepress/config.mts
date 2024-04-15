@@ -29,6 +29,7 @@ export default {
     nav,
     agolia: {
       apiKey: 'f6c169e48ebc81ecfaad4657c39c9ba4',
+      indexName: 'note-mba',
       appId: 'PVEXLTFZ5B',
     },
   },
