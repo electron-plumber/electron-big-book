@@ -6,7 +6,7 @@ import { nav } from './config/nav'
 export default {
   base: "/",
   title: '管理类硕士',
-  description: '管理类硕士课程记录笔记',
+  description: '管理类硕士课程文档',
   head: [
     [
       'link',
