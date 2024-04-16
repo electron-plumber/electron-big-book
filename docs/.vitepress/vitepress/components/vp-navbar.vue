@@ -28,8 +28,8 @@ const currentLink = computed(() => {
         <a :href="currentLink">
           <img
             class="logo"
-            src="/logo.png"
-            alt="Dolphin Platform Logo"
+            title="美其名曰俯卧撑"
+            src="/images/pushuns.gif"
           />
         </a>
       </div>
