@@ -2,31 +2,30 @@
   "zh-CN": [
     {
       "text": "逻辑",
-      "link": "/logic/basic/第一节",
+      "link": "/logic/basic/1.conceptual-zh",
       "activeMatch": "/logic/",
-      "homeCardType": "logic",
+      "home-card-type": "logic",
       "description": "管理类硕士逻辑文档。"
     },
     {
       "text": "数学",
-      "link": "/math/basic/第一节",
+      "link": "/math/basic/1.arithmetic-zh",
       "activeMatch": "/math/",
-      "homeCardType": "math",
+      "home-card-type": "math",
       "description": "管理类硕士数学文档。"
     },
     {
       "text": "英语",
-      "link": "/english/advanced/第一节",
+      "link": "/english/advanced/1.vocabularies-zh",
       "activeMatch": "/english/",
-      "homeCardType": "english",
+      "home-card-type": "english",
       "description": "管理类硕士英语文档"
-
     },
     {
       "text": "写作",
-      "link": "/write/basic/第一节",
+      "link": "/write/basic/1.expository-essay-zh",
       "activeMatch": "/write/",
-      "homeCardType": "write",
+      "home-card-type": "write",
       "description": "管理类硕士写作文档"
     }
   ]

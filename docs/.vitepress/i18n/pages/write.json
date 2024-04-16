@@ -4,8 +4,8 @@
       "text": "基础课",
       "children": [
         {
-          "text": "第一节",
-          "link": "/basic/第一节"
+          "text": "论效文",
+          "link": "/basic/1.expository-essay-zh"
         }
       ]
     },
@@ -13,8 +13,8 @@
       "text": "正式课",
       "children": [
         {
-          "text": "第一节",
-          "link": "/advanced/第一节"
+          "text": "论证有效性分析大纲解析",
+          "link": "/advanced/1.argument-effectiveness-analysis-zh"
         }
       ]
     }

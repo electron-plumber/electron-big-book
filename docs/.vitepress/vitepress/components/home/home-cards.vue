@@ -10,14 +10,14 @@ const { lang } = useData(), navs = useNav(), homeLang = computed(() => homeLocal
   <div class="cards">
     <ul class="container">
       <li v-for="item in navs" :key="item.link">
-        <div class="card" v-if="item.hasOwnProperty('homeCardType')">
-          <logic-svg v-if="item.homeCardType == 'logic' " w="40" m="y-12" />
-          <math-svg v-if="item.homeCardType == 'math' " w="40" m="y-12" />
-          <english-svg v-if="item.homeCardType == 'english' " w="40" m="y-12" />
-          <write-svg v-if="item.homeCardType == 'write' " w="40" m="y-12" />
+        <div class="card" v-if="item.hasOwnProperty('home-card-type')">
+          <logic-svg v-if="item['home-card-type'] == 'logic' " w="40" m="y-12" />
+          <math-svg v-if="item['home-card-type'] == 'math' " w="40" m="y-12" />
+          <english-svg v-if="item['home-card-type'] == 'english' " w="40" m="y-12" />
+          <write-svg v-if="item['home-card-type'] == 'write' " w="40" m="y-12" />
           <h3>{{ item.text }}</h3>
           <p>{{ item.description }}</p>
-          <a :href="item.link">{{ homeLang['2'] }}</a>
+          <a :href="item.link">{{ homeLang['card-title'] }}</a>
         </div>
       </li>
     </ul>

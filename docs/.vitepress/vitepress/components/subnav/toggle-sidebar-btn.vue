@@ -12,7 +12,7 @@ const locale = computed(() => subNavLocale[lang.value])
     <ElIcon :size="20" class="mr-2">
       <ToggleButton />
     </ElIcon>
-    <span class="leading-6">{{ locale['text1'] }}</span>
+    <span class="leading-6">{{ locale['text'] }}</span>
   </div>
 </template>
 

@@ -4,8 +4,20 @@
       "text": "基础课",
       "children": [
         {
-          "text": "第一节",
-          "link": "/basic/第一节"
+          "text": "概念",
+          "link": "/basic/1.conceptual-zh"
+        },
+        {
+          "text": "直言判断",
+          "link": "/basic/2.talk-bluntly-judgement-zh"
+        },
+        {
+          "text": "假言判断",
+          "link": "/basic/3.talk-hypothetical-judgment-zh"
+        },
+        {
+          "text": "联言、选言判断",
+          "link": "/basic/4.talk-joint-and-selected-judgement-zh"
         }
       ]
     },
@@ -13,8 +25,8 @@
       "text": "正式课",
       "children": [
         {
-          "text": "第一节",
-          "link": "/advanced/第一节"
+          "text": "假言、联言、选言判断",
+          "link": "/advanced/1.hypothetical-joint-selected-judgment-zh"
         }
       ]
     }

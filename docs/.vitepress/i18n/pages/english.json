@@ -4,8 +4,8 @@
       "text": "正式课",
       "children": [
         {
-          "text": "第一节",
-          "link": "/advanced/第一节"
+          "text": "中频词汇",
+          "link": "/advanced/1.vocabularies-zh"
         }
       ]
     },
@@ -14,11 +14,11 @@
       "children": [
         {
           "text": "2024-04-15",
-          "link": "/words/2024-04-15"
+          "link": "/words/2024-04-15-zh"
         },
         {
           "text": "2024-04-16",
-          "link": "/words/2024-04-16"
+          "link": "/words/2024-04-16-zh"
         }
       ]
     }

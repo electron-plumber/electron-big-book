@@ -16,7 +16,7 @@ const { lang } = useData(), locale = homeLocale[lang.value]
     <ToggleSidebarBtn v-if="hasSidebar" @click="$emit('open-menu')" />
     <Transition name="shifting">
       <ElLink :class="{ 'go-back-top': true, show: shouldShow }" :underline="false" class="height-5" size="small" @click.prevent.stop="scrollToTop">
-        {{ locale['1'] }}
+        {{ locale['back-top'] }}
       </ElLink>
     </Transition>
   </div>

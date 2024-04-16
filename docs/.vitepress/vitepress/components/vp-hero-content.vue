@@ -13,10 +13,10 @@ const locale = computed(() => heroContentLocale[lang.value])
   <el-divider style="margin-bottom: 0" />
   <div class="text-center py-6 text-xs">
     <p class="mb-1">
-      {{ locale['text1'] }}
+      {{ locale['text'] }}
     </p>
     <p class="mt-1">
-      {{ locale['text2'] }}
+      {{ locale['sub-text'] }}
     </p>
   </div>
 </template>

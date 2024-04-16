@@ -4,8 +4,8 @@
       "text": "基础课",
       "children": [
         {
-          "text": "第一节",
-          "link": "/basic/第一节"
+          "text": "算数",
+          "link": "/basic/1.arithmetic-zh"
         }
       ]
     },
@@ -13,8 +13,8 @@
       "text": "正式课",
       "children": [
         {
-          "text": "第一节",
-          "link": "/advanced/第一节"
+          "text": "数学导学（上）",
+          "link": "/advanced/1.guid-zh"
         }
       ]
     }

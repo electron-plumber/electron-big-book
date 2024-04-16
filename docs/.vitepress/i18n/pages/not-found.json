@@ -1,10 +1,12 @@
 {
   "en-US": {
-    "title": "404",
-    "buttonTitle": "Back to Home"
+    "title": "Resource not found",
+    "button-title": "Back to Home",
+    "desc": "The page you requested does not exist"
   },
   "zh-CN": {
-    "title": "404",
-    "buttonTitle": "返回首页"
+    "title": "Resource not found",
+    "button-title": "Back to Home",
+    "desc": "The page you requested does not exist"
   }
 }
