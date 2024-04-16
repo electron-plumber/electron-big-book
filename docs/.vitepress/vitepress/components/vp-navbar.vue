@@ -30,7 +30,7 @@ const currentLink = computed(() => {
             class="logo"
             title="美其名曰俯卧撑"
             src="/images/pushuns.gif"
-          />
+            alt="俯卧撑"/>
         </a>
       </div>
       <div class="content">
@@ -59,7 +59,8 @@ const currentLink = computed(() => {
   }
   .logo {
     position: relative;
-    height: 100%;
+    width: 22px;
+    height: 22px;
   }
 }
 </style>
