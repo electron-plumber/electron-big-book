@@ -15,3 +15,11 @@ coverage/
 *.njsproj
 *.sln
 .eslintcache
+
+# idea ignore
+.idea/
+!/.idea/icon.svg
+!/.idea/vcs.xml
+*.ipr
+*.iml
+*.iws
