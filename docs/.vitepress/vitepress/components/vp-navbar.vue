@@ -59,6 +59,7 @@ const currentLink = computed(() => {
   }
   .logo {
     position: relative;
+    top: 5px;
     width: 22px;
     height: 22px;
   }
