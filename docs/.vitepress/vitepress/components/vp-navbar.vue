@@ -28,7 +28,7 @@ const currentLink = computed(() => {
         <a :href="currentLink">
           <img
             class="logo"
-            title="美其名曰俯卧撑"
+            title="这位同学罚你去做100个俯卧撑"
             src="/images/pushuns.gif"
             alt="俯卧撑"/>
         </a>
