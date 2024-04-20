@@ -9,9 +9,9 @@
     "docs:serve": "NODE_ENV=production vitepress serve docs --port 5001"
   },
   "keywords": [
-    "dolphin",
-    "dolphin-ecology",
-    "dolphin-ecology-docs"
+    "mba",
+    "docs",
+    "dolphin"
   ],
   "author": "dolphin ecologically wangxaing4",
   "license": "MIT",
