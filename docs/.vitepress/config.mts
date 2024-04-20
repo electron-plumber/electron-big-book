@@ -5,14 +5,14 @@ import { nav } from './config/nav'
 
 export default {
   base: "/",
-  title: '管理类硕士',
-  description: '管理类硕士课程文档',
+  title: 'master of management',
+  description: 'master of management lesson notes',
   head: [
     [
       'link',
       {
         rel: 'icon',
-        href: '/images/icon.png',
+        href: '/images/mba.jpg',
         type: 'image/svg+xm',
       }
     ],
@@ -33,7 +33,7 @@ export default {
       appId: 'PVEXLTFZ5B',
     },
   },
-  lang: 'zh-CN',
+  lang: 'en-US',
   markdown: {
     config: (md) => mdPlugin(md),
   },

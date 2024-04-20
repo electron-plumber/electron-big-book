@@ -1,11 +1,11 @@
 {
-  "zh-CN": {
+  "en-US": {
     "advanced": {
-      "text": "正式课",
+      "text": "Formal lesson",
       "children": [
         {
-          "text": "中频词汇",
-          "link": "/advanced/1.vocabularies-zh"
+          "text": "midrange vocabularies",
+          "link": "/advanced/1.midrange-vocabularies-en"
         }
       ]
     }

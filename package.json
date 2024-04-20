@@ -2,7 +2,7 @@
   "name": "mba-exam-docs",
   "version": "1.0.0",
   "packageManager": "pnpm@7.3.0",
-  "description": "管理类硕士课程文档",
+  "description": "mba management class master notes for lesson",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "NODE_ENV=production && vitepress build docs",
@@ -13,7 +13,7 @@
     "dolphin-ecology",
     "dolphin-ecology-docs"
   ],
-  "author": "海豚生态-开发人员-王翔",
+  "author": "dolphin ecologically wangxaing4",
   "license": "MIT",
   "dependencies": {
     "@docsearch/js": "^3.1.0",

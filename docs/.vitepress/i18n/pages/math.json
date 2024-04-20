@@ -1,20 +1,20 @@
 {
-  "zh-CN": {
+  "en-US": {
     "basic": {
-      "text": "基础课",
+      "text": "Basic lesson",
       "children": [
         {
-          "text": "算数",
-          "link": "/basic/1.arithmetic-zh"
+          "text": "math",
+          "link": "/basic/1.arithmetic-en"
         }
       ]
     },
     "advanced": {
-      "text": "正式课",
+      "text": "Formal lesson",
       "children": [
         {
-          "text": "数学导学（上）",
-          "link": "/advanced/1.guid-zh"
+          "text": "math guide（first）",
+          "link": "/advanced/1.math-guid-en"
         }
       ]
     }

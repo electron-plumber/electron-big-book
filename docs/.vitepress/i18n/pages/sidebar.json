@@ -1,32 +1,32 @@
 {
-  "zh-CN": [
+  "en-US": [
     {
-      "text": "逻辑",
-      "link": "/logic/basic/1.conceptual-zh",
+      "text": "Logic",
+      "link": "/logic/basic/1.conceptual-en",
       "activeMatch": "/logic/",
       "home-card-type": "logic",
-      "description": "管理类硕士逻辑文档。"
+      "description": "master of management logic notes."
     },
     {
-      "text": "数学",
-      "link": "/math/basic/1.arithmetic-zh",
+      "text": "Math",
+      "link": "/math/basic/1.arithmetic-en",
       "activeMatch": "/math/",
       "home-card-type": "math",
-      "description": "管理类硕士数学文档。"
+      "description": "master of management math notes."
     },
     {
-      "text": "英语",
-      "link": "/english/advanced/1.vocabularies-zh",
+      "text": "English",
+      "link": "/english/advanced/1.midrange-vocabularies-en",
       "activeMatch": "/english/",
       "home-card-type": "english",
-      "description": "管理类硕士英语文档"
+      "description": "master of management english notes."
     },
     {
-      "text": "写作",
-      "link": "/write/basic/1.expository-essay-zh",
+      "text": "Write",
+      "link": "/write/basic/1.expository-essay-en",
       "activeMatch": "/write/",
       "home-card-type": "write",
-      "description": "管理类硕士写作文档"
+      "description": "master of management write notes."
     }
   ]
 }

@@ -1,4 +1,8 @@
 {
+  "en-US": {
+    "text": "Menu",
+    "theme-toggler": "Theme Switch"
+  },
   "zh-CN": {
     "text": "菜单",
     "theme-toggler": "主题切换"

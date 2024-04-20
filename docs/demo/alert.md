@@ -1,6 +1,6 @@
 ---
-title: demo组件容器alert演示
-lang: zh-CN
+title: demo component container alert demo
+lang: en-US
 page: true
 ---
 

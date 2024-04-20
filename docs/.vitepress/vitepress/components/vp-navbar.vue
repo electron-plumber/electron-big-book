@@ -28,9 +28,9 @@ const currentLink = computed(() => {
         <a :href="currentLink">
           <img
             class="logo"
-            title="这位同学罚你去做100个俯卧撑"
-            src="/images/pushuns.gif"
-            alt="俯卧撑"/>
+            title="mba exam"
+            src="/images/mba.jpg"
+            alt="mba"/>
         </a>
       </div>
       <div class="content">
@@ -60,8 +60,7 @@ const currentLink = computed(() => {
   .logo {
     position: relative;
     top: 5px;
-    width: 22px;
-    height: 22px;
+    height: 100%;
   }
 }
 </style>

@@ -1,20 +1,20 @@
 {
-  "zh-CN": {
+  "en-US": {
     "basic": {
-      "text": "基础课",
+      "text": "Basic lesson",
       "children": [
         {
-          "text": "论效文",
-          "link": "/basic/1.expository-essay-zh"
+          "text": "expository essay",
+          "link": "/basic/1.expository-essay-en"
         }
       ]
     },
     "advanced": {
-      "text": "正式课",
+      "text": "Formal lesson",
       "children": [
         {
-          "text": "论证有效性分析大纲解析",
-          "link": "/advanced/1.argument-effectiveness-analysis-zh"
+          "text": "argument effectiveness analysis syllabus explanation",
+          "link": "/advanced/1.argument-effectiveness-analysis-syllabus-explanation-en"
         }
       ]
     }

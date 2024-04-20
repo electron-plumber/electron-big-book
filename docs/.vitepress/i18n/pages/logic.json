@@ -1,32 +1,32 @@
 {
-  "zh-CN": {
+  "en-US": {
     "basic": {
-      "text": "基础课",
+      "text": "Basic lesson",
       "children": [
         {
-          "text": "概念",
-          "link": "/basic/1.conceptual-zh"
+          "text": "conceptual",
+          "link": "/basic/1.conceptual-en"
         },
         {
-          "text": "直言判断",
-          "link": "/basic/2.talk-bluntly-judgement-zh"
+          "text": "straightforward judgement",
+          "link": "/basic/2.straightforward-judgement-en"
         },
         {
-          "text": "假言判断",
-          "link": "/basic/3.talk-hypothetical-judgment-zh"
+          "text": "hypothetical judgement",
+          "link": "/basic/3.hypothetical-judgment-en"
         },
         {
-          "text": "联言、选言判断",
-          "link": "/basic/4.talk-joint-and-selected-judgement-zh"
+          "text": "joint and selective judgement",
+          "link": "/basic/4.joint-selective-judgement-en"
         }
       ]
     },
     "advanced": {
-      "text": "正式课",
+      "text": "Formal lesson",
       "children": [
         {
-          "text": "假言、联言、选言判断",
-          "link": "/advanced/1.hypothetical-joint-selected-judgment-zh"
+          "text": "hypothetical、composition、selective judgement",
+          "link": "/advanced/1.hypothetical-joint-selective-judgment-en"
         }
       ]
     }

@@ -10,6 +10,7 @@ export default define<Theme>({
   NotFound,
   Layout: VPApp,
   enhanceApp: ({ app }) => {
+    // @ts-ignore
     app.use(ElementPlus)
   },
 })
