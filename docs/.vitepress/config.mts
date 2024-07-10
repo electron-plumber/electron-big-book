@@ -37,8 +37,6 @@ export default {
   markdown: {
     config: (md) => {
       mdPlugin(md)
-      // 支持md图片中文路径url解码 mdurl.decode
-      md.use(require("markdown-it-disable-url-encode"));
     }
   },
 } as UserConfig
