@@ -36,7 +36,6 @@ dependencies:
   clipboard-copy: 4.0.1
   dayjs: 1.11.3
   element-plus: 2.7.0_vue@3.2.36
-  medium-zoom: 1.1.0
   nprogress: 0.2.0
   prism-theme-vars: 0.2.3
   vue: 3.2.36
@@ -49,6 +48,7 @@ devDependencies:
   escape-html: 1.0.3
   markdown-it: 13.0.1
   markdown-it-container: 3.0.0
+  medium-zoom: 1.1.0
   prismjs: 1.28.0
   sass: 1.52.2
   typescript: 4.7.3
@@ -1229,7 +1229,7 @@ packages:
 
   /medium-zoom/1.1.0:
     resolution: {integrity: sha512-ewyDsp7k4InCUp3jRmwHBRFGyjBimKps/AJLjRSox+2q/2H4p/PNpQf+pwONWlJiOudkBXtbdmVbFjqyybfTmQ==}
-    dev: false
+    dev: true
 
   /memoize-one/6.0.0:
     resolution: {integrity: sha512-rkpe71W0N0c0Xz6QD0eJETuWAJGnJ9afsl1srmwPrI+yBCkge5EycXXbYRyvL29zZVUWQCY7InPRCv3GDXuZNw==}
