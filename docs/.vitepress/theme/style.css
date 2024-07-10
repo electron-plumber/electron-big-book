@@ -64,3 +64,11 @@
     transform: rotate(1turn);
   }
 }
+
+.medium-zoom-overlay {
+  z-index: 2147483646;
+}
+
+.medium-zoom-image {
+  z-index: 2147483647;
+}

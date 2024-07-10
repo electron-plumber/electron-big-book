@@ -15,6 +15,7 @@ specifiers:
   escape-html: ^1.0.3
   markdown-it: ^13.0.1
   markdown-it-container: ^3.0.0
+  medium-zoom: ^1.1.0
   nprogress: ^0.2.0
   prism-theme-vars: ^0.2.3
   prismjs: ^1.28.0
@@ -35,6 +36,7 @@ dependencies:
   clipboard-copy: 4.0.1
   dayjs: 1.11.3
   element-plus: 2.7.0_vue@3.2.36
+  medium-zoom: 1.1.0
   nprogress: 0.2.0
   prism-theme-vars: 0.2.3
   vue: 3.2.36
@@ -1224,6 +1226,10 @@ packages:
   /mdurl/1.0.1:
     resolution: {integrity: sha512-/sKlQJCBYVY9Ers9hqzKou4H6V5UWc/M59TH2dvkt+84itfnq7uFOMLpOiOS4ujvHP4etln18fmIxA5R5fll0g==}
     dev: true
+
+  /medium-zoom/1.1.0:
+    resolution: {integrity: sha512-ewyDsp7k4InCUp3jRmwHBRFGyjBimKps/AJLjRSox+2q/2H4p/PNpQf+pwONWlJiOudkBXtbdmVbFjqyybfTmQ==}
+    dev: false
 
   /memoize-one/6.0.0:
     resolution: {integrity: sha512-rkpe71W0N0c0Xz6QD0eJETuWAJGnJ9afsl1srmwPrI+yBCkge5EycXXbYRyvL29zZVUWQCY7InPRCv3GDXuZNw==}

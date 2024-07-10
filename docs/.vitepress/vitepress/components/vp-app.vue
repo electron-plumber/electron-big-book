@@ -1,5 +1,4 @@
 <script setup lang="ts">
-  import { onMounted } from 'vue'
   import nprogress from 'nprogress'
   import { useToggle } from '@vueuse/core'
   import { useSidebar } from '../composables/sidebar'
@@ -10,6 +9,9 @@
   import VPSidebar from './vp-sidebar.vue'
   import VPContent from './vp-content.vue'
   import VPOverlay from './vp-overlay.vue'
+  import { nextTick, onMounted, watch } from 'vue'
+  import { useRoute } from 'vitepress'
+  import mediumZoom from 'medium-zoom'
 
   const [isSidebarOpen, toggleSidebar] = useToggle(false)
   const { hasSidebar } = useSidebar()
@@ -20,7 +22,20 @@
     }
   })
 
+  const route = useRoute();
+  // 初始化点击图片放大
+  const initZoom = () => {
+    //mediumZoom('[data-zoomable]', { background: 'var(--vp-c-bg)' });
+    mediumZoom('.doc-content img', { background: 'var(--vp-c-bg)' });
+  };
+
+  watch(
+    () => route.path,
+    () => nextTick(() => initZoom())
+  );
+
   onMounted(async () => {
+    initZoom();
     window.addEventListener(
       'click',
       (e) => {
