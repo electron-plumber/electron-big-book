@@ -6,7 +6,6 @@ import Icons from 'unplugin-icons/vite'
 import IconsResolver from 'unplugin-icons/resolver'
 import UnoCSS from 'unocss/vite'
 import { presetUno, presetIcons, presetAttributify  } from 'unocss'
-import { photoSwipePlugin } from '@vuepress/plugin-photo-swipe'
 
 export default defineConfig({
   resolve: {
@@ -83,7 +82,5 @@ export default defineConfig({
     }),
 
     MarkdownTransform(),
-
-    photoSwipePlugin
   ]
 })
