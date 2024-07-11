@@ -2,28 +2,28 @@
   "en-US": [
     {
       "text": "Logic",
-      "link": "/logic/basic/1.conceptual-en",
+      "link": "/logic/basic/1【管综逻辑基础课】导学总述",
       "activeMatch": "/logic/",
       "home-card-type": "logic",
       "description": "master of management logic notes."
     },
     {
       "text": "Math",
-      "link": "/math/basic/1.arithmetic-en",
+      "link": "/math/basic/1【管综数学基础课】导学课",
       "activeMatch": "/math/",
       "home-card-type": "math",
       "description": "master of management math notes."
     },
     {
       "text": "English",
-      "link": "/english/advanced/1.midrange-vocabularies-en",
+      "link": "/english/advanced/1 基础必修—英语（二）词汇（中频）（20231218）",
       "activeMatch": "/english/",
       "home-card-type": "english",
       "description": "master of management english notes."
     },
     {
       "text": "Write",
-      "link": "/write/basic/1.expository-essay-en",
+      "link": "/write/basic/1【管综写作基础课】总论",
       "activeMatch": "/write/",
       "home-card-type": "write",
       "description": "master of management write notes."

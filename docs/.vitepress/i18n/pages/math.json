@@ -4,8 +4,12 @@
       "text": "Basic lesson",
       "children": [
         {
-          "text": "math",
-          "link": "/basic/1.arithmetic-en"
+          "text": "1【管综数学基础课】导学课",
+          "link": "/basic/1【管综数学基础课】导学课"
+        },
+        {
+          "text": "2【管综数学基础课】第一章 算数 第一节至第三节",
+          "link": "/basic/2【管综数学基础课】第一章 算数 第一节至第三节"
         }
       ]
     },
@@ -13,8 +17,8 @@
       "text": "Formal lesson",
       "children": [
         {
-          "text": "math guide（first）",
-          "link": "/advanced/1.math-guide-en"
+          "text": "1 专项强化-管综（数学）导学（上）",
+          "link": "/advanced/1 专项强化-管综（数学）导学（上）"
         }
       ]
     }

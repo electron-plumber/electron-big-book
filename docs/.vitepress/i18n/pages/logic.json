@@ -5,19 +5,31 @@
       "children": [
         {
           "text": "conceptual",
-          "link": "/basic/1.conceptual-en"
+          "link": "/basic/1 conceptual-en"
         },
         {
-          "text": "straightforward judgement",
-          "link": "/basic/2.straightforward-judgement-en"
+          "text": "1【管综逻辑基础课】导学总述",
+          "link": "/basic/1【管综逻辑基础课】导学总述"
         },
         {
-          "text": "hypothetical judgement",
-          "link": "/basic/3.hypothetical-judgment-en"
+          "text": "2【管综逻辑基础课】概念",
+          "link": "/basic/2【管综逻辑基础课】概念"
         },
         {
-          "text": "joint and selective judgement",
-          "link": "/basic/4.joint-selective-judgement-en"
+          "text": "3【管综逻辑基础课】假言判断",
+          "link": "/basic/3【管综逻辑基础课】假言判断"
+        },
+        {
+          "text": "4【管综逻辑基础课】直言判断",
+          "link": "/basic/4【管综逻辑基础课】直言判断"
+        },
+        {
+          "text": "5【管综逻辑基础课】联言、选言判断",
+          "link": "/basic/5【管综逻辑基础课】联言、选言判断"
+        },
+        {
+          "text": "6【管综逻辑基础课】复合推理",
+          "link": "/basic/6【管综逻辑基础课】复合推理"
         }
       ]
     },
@@ -25,8 +37,8 @@
       "text": "Formal lesson",
       "children": [
         {
-          "text": "hypothetical、composition、selective judgement",
-          "link": "/advanced/1.hypothetical-composition-selective-judgment-en"
+          "text": "1 基础必修—管综（逻辑）假言、联言、选言判断（20240319）",
+          "link": "/advanced/1 基础必修—管综（逻辑）假言、联言、选言判断（20240319）"
         }
       ]
     }
