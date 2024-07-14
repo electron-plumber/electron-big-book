@@ -1,15 +1,17 @@
 <script lang="ts" setup>
-import { computed } from "vue"
-import { useNav } from '../../composables/nav'
-import homeLocale from '../../../i18n/pages/home.json'
-import { useData } from 'vitepress'
-const { lang } = useData(), navs = useNav(), homeLang = computed(() => homeLocale[lang.value])
+  import { computed } from "vue"
+  import { useNav } from '../../composables/nav'
+  import homeLocale from '../../../i18n/pages/home.json'
+  import { useData } from 'vitepress'
+  const { lang } = useData(), navs = useNav(), homeLang = computed(() => homeLocale[lang.value])
+  // 固定首页 View Detail 标签
+  const navData = navs.value.slice(0, 4)
 </script>
 
 <template>
   <div class="cards">
     <ul class="container">
-      <li v-for="item in navs" :key="item.link">
+      <li v-for="item in navData" :key="item.link">
         <div class="card" v-if="item.hasOwnProperty('home-card-type')">
           <logic-svg v-if="item['home-card-type'] == 'logic' " w="40" m="y-12" />
           <math-svg v-if="item['home-card-type'] == 'math' " w="40" m="y-12" />
