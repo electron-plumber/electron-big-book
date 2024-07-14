@@ -27,6 +27,13 @@
       "activeMatch": "/write/",
       "home-card-type": "write",
       "description": "master of management write notes."
+    },
+    {
+      "text": "Resource",
+      "link": "/resource/online/1 管综资料2023",
+      "activeMatch": "/resource/",
+      "home-card-type": "resource",
+      "description": "master of management resource."
     }
   ]
 }

@@ -2,6 +2,7 @@ import logic from '../i18n/pages/logic.json'
 import math from '../i18n/pages/math.json'
 import english from '../i18n/pages/english.json'
 import write from '../i18n/pages/write.json'
+import resource from '../i18n/pages/resource.json'
 
 // 逻辑笔记
 function getLogicSidebar() {
@@ -43,6 +44,16 @@ function getWriteSideBar() {
   )
 }
 
+// 在线预览管综资源
+function getResourceSideBar() {
+  return Object.fromEntries(
+    Object.entries(resource).map(([lang, val]) => [
+      lang,
+      Object.values(val).map((item) => mapPrefix(item, lang, '/resource')),
+    ])
+  )
+}
+
 // return sidebar with language configs.
 // this might create duplicated data but the overhead is ignorable
 const getSidebars = () => {
@@ -51,6 +62,7 @@ const getSidebars = () => {
     '/math/': getMathSideBar(),
     '/english/': getEnglishSideBar(),
     '/write/': getWriteSideBar(),
+    '/resource/': getResourceSideBar()
   }
 }
 

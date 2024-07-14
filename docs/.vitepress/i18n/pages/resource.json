@@ -1,0 +1,17 @@
+{
+  "en-US": {
+    "online": {
+      "text": "Online courseware preview",
+      "children": [
+        {
+          "text": "刷题练习2024",
+          "link": "/online/2 刷题练习2024"
+        },
+        {
+          "text": "管综资料2023",
+          "link": "/online/1 管综资料2023"
+        }
+      ]
+    }
+  }
+}
