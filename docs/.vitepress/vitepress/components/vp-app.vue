@@ -25,8 +25,8 @@
   const route = useRoute();
   // 初始化点击图片放大
   const initZoom = () => {
-    //mediumZoom('[data-zoomable]', { background: 'var(--vp-c-bg)' });
-    mediumZoom('.doc-content img', { background: 'var(--vp-c-bg)' });
+    //mediumZoom('[data-zoomable]', { background: 'var(--bg-color)' });
+    mediumZoom('.doc-content img:not(a img)', { background: 'var(--bg-color)' });
   };
 
   watch(
