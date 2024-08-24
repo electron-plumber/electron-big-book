@@ -25,6 +25,7 @@ declare module '@vue/runtime-core' {
     ToggleButton: typeof import('./.vitepress/vitepress/components/icons/toggle-button.vue')['default']
     ToggleSidebarBtn: typeof import('./.vitepress/vitepress/components/subnav/toggle-sidebar-btn.vue')['default']
     VersionTag: typeof import('./.vitepress/vitepress/components/dev/VersionTag.vue')['default']
+    VpAnswer: typeof import('./.vitepress/vitepress/components/library/vp-answer.vue')['default']
     VpApp: typeof import('./.vitepress/vitepress/components/vp-app.vue')['default']
     VpContent: typeof import('./.vitepress/vitepress/components/vp-content.vue')['default']
     VpDemo: typeof import('./.vitepress/vitepress/components/vp-demo.vue')['default']
@@ -32,6 +33,7 @@ declare module '@vue/runtime-core' {
     VpExample: typeof import('./.vitepress/vitepress/components/demo/vp-example.vue')['default']
     VpHamburger: typeof import('./.vitepress/vitepress/components/navbar/vp-hamburger.vue')['default']
     VpHeroContent: typeof import('./.vitepress/vitepress/components/vp-hero-content.vue')['default']
+    VpLibrary: typeof import('./.vitepress/vitepress/components/vp-library.vue')['default']
     VpLink: typeof import('./.vitepress/vitepress/components/common/vp-link.vue')['default']
     VpMenu: typeof import('./.vitepress/vitepress/components/navbar/vp-menu.vue')['default']
     VpMenuLink: typeof import('./.vitepress/vitepress/components/navbar/vp-menu-link.vue')['default']
@@ -50,6 +52,7 @@ declare module '@vue/runtime-core' {
     VpSubnav: typeof import('./.vitepress/vitepress/components/vp-subnav.vue')['default']
     VpTableOfContent: typeof import('./.vitepress/vitepress/components/doc-content/vp-table-of-content.vue')['default']
     VpThemeToggler: typeof import('./.vitepress/vitepress/components/navbar/vp-theme-toggler.vue')['default']
+    VpTitle: typeof import('./.vitepress/vitepress/components/library/vp-title.vue')['default']
     WriteSvg: typeof import('./.vitepress/vitepress/components/home/svg/write-svg.vue')['default']
   }
 }
