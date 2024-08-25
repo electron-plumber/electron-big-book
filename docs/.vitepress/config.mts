@@ -1,5 +1,4 @@
 import type { UserConfig } from 'vitepress'
-import { mdPlugin } from './config/plugins'
 import { sidebars } from './config/sidebars'
 import { nav } from './config/nav'
 
@@ -38,9 +37,6 @@ export default {
     image: {
       // 默认禁用图片懒加载
       lazyLoading: true
-    },
-    config: (md) => {
-      mdPlugin(md)
     }
   },
 } as UserConfig
