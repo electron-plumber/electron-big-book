@@ -16,7 +16,7 @@
       "selector": "/html/@lang",
       "type": "xpath",
       "global": true,
-      "default_value": "en-US"
+      "default_value": "zh-CN"
     }
   },
   "indexHeadings": true,

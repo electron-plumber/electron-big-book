@@ -1,6 +1,7 @@
 import type { UserConfig } from 'vitepress'
 import { sidebars } from './config/sidebars'
 import { nav } from './config/nav'
+import { imagePlugin } from './plugins/image'
 
 export default {
   base: "/",
@@ -32,11 +33,13 @@ export default {
       appId: 'PVEXLTFZ5B',
     },
   },
-  lang: 'en-US',
+  lang: 'zh-CN',
   markdown: {
-    image: {
-      // 默认禁用图片懒加载
-      lazyLoading: true
+    config: (md) => {
+      imagePlugin(md, {
+        lazyLoading:true
+      })
     }
   },
+
 } as UserConfig

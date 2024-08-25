@@ -1,5 +1,5 @@
 {
-  "en-US": [
+  "zh-CN": [
     {
       "text": "Logic",
       "link": "/logic/basic/1【管综逻辑基础课】导学总述",
@@ -9,7 +9,7 @@
     },
     {
       "text": "Math",
-      "link": "/math/basic/1【管综数学基础课】导学课",
+      "link": "/math/1.数学-基础知识/1.【管综数学基础课】导学课",
       "activeMatch": "/math/",
       "home-card-type": "math",
       "description": "master of management math notes."
@@ -30,14 +30,14 @@
     },
     {
       "text": "Resource",
-      "link": "/resource/online/3 课件视频观看",
+      "link": "/resource/1.课件视频观看",
       "activeMatch": "/resource/",
       "home-card-type": "resource",
       "description": "master of management resource."
     },
     {
       "text": "Library₂₀₂₄",
-      "link": "/library2024/1 数学零基础练习/1 第一章算术第一节实数",
+      "link": "/library2024/1.数学零基础练习/1.第一章算术第一节实数",
       "activeMatch": "/library2024/",
       "home-card-type": "library2024",
       "description": "master of management library."
