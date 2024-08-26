@@ -23,16 +23,17 @@ export const imagePlugin = (md: MarkdownIt, { lazyLoading, asyncDecoding }: Opti
   md.renderer.rules.image = (tokens, idx, options, env, self) => {
     const token = tokens[idx]
     let url = token.attrGet('src')
+    const decodeURI = decodeURIComponent(url)
     // 解决idea拖入资源文件自动编码不处理解码会导致打包无法找到资源文件
     if (url && !EXTERNAL_URL_RE.test(url)) {
       if (!/^\.?\//.test(url)) url = './' + url
-      const decodeURI = decodeURIComponent(url)
       token.attrSet('src', decodeURI)
-      token.attrSet('data-src', decodeURI)
     }
 
     // lazysizes懒加载图片
     if (lazyLoading) {
+      // 去掉资源文件的public目录,lazysizes内部会重新给src赋值指向跟路径,有public会找不到文件
+      token.attrSet('data-src', decodeURI.replace(/public\//, ''))
       token.attrSet('src', '')
       token.attrSet('class', 'lazyload')
     }
