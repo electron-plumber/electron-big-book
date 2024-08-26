@@ -23,10 +23,10 @@ export const imagePlugin = (md: MarkdownIt, { lazyLoading, asyncDecoding }: Opti
   md.renderer.rules.image = (tokens, idx, options, env, self) => {
     const token = tokens[idx]
     let url = token.attrGet('src')
-    const decodeURI = decodeURIComponent(url)
+    if (!/^\.?\//.test(url)) url = './' + url
     // 解决idea拖入资源文件自动编码不处理解码会导致打包无法找到资源文件
+    const decodeURI = decodeURIComponent(url)
     if (url && !EXTERNAL_URL_RE.test(url)) {
-      if (!/^\.?\//.test(url)) url = './' + url
       token.attrSet('src', decodeURI)
     }
 
