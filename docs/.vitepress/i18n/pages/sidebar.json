@@ -2,7 +2,7 @@
   "zh-CN": [
     {
       "text": "Logic",
-      "link": "/logic/basic/1【管综逻辑基础课】导学总述",
+      "link": "/logic/1.逻辑-基础知识/1.【管综逻辑基础课】导学总述",
       "activeMatch": "/logic/",
       "home-card-type": "logic",
       "description": "master of management logic notes."
@@ -16,14 +16,14 @@
     },
     {
       "text": "English",
-      "link": "/english/advanced/1 基础必修—英语（二）词汇（中频）（20231218）",
+      "link": "/english/1.英语二-正式课/1.基础必修—英语（二）词汇（中频）（20231218）",
       "activeMatch": "/english/",
       "home-card-type": "english",
       "description": "master of management english notes."
     },
     {
       "text": "Write",
-      "link": "/write/basic/1【管综写作基础课】总论",
+      "link": "/write/1.写作-基础知识/1.【管综写作基础课】总论",
       "activeMatch": "/write/",
       "home-card-type": "write",
       "description": "master of management write notes."
