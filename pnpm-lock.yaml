@@ -9,16 +9,13 @@ specifiers:
   '@types/node': ^17.0.38
   '@types/nprogress': 0.2.0
   '@vueuse/core': ^8.6.0
-  clipboard-copy: ^4.0.1
-  dayjs: ^1.11.3
   element-plus: ^2.7.0
-  escape-html: ^1.0.3
+  lazysizes: ^5.3.2
   markdown-it: ^13.0.1
   markdown-it-container: ^3.0.0
   medium-zoom: ^1.1.0
   nprogress: ^0.2.0
   prism-theme-vars: ^0.2.3
-  prismjs: ^1.28.0
   sass: ^1.52.2
   typescript: ^4.7.2
   unocss: ^0.37.4
@@ -33,9 +30,8 @@ dependencies:
   '@docsearch/js': 3.1.0
   '@element-plus/icons-vue': 2.0.4_vue@3.2.36
   '@vueuse/core': 8.6.0_vue@3.2.36
-  clipboard-copy: 4.0.1
-  dayjs: 1.11.3
   element-plus: 2.7.0_vue@3.2.36
+  lazysizes: 5.3.2
   nprogress: 0.2.0
   prism-theme-vars: 0.2.3
   vue: 3.2.36
@@ -45,11 +41,9 @@ devDependencies:
   '@iconify-json/ri': 1.1.2
   '@types/node': 17.0.38
   '@types/nprogress': 0.2.0
-  escape-html: 1.0.3
   markdown-it: 13.0.1
   markdown-it-container: 3.0.0
   medium-zoom: 1.1.0
-  prismjs: 1.28.0
   sass: 1.52.2
   typescript: 4.7.3
   unocss: 0.37.4_vite@2.9.15
@@ -699,10 +693,6 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /clipboard-copy/4.0.1:
-    resolution: {integrity: sha512-wOlqdqziE/NNTUJsfSgXmBMIrYmfd5V0HCGsR8uAKHcg+h9NENWINcfRjtWGU77wDHC8B8ijV4hMTGYbrKovng==}
-    dev: false
-
   /colorette/2.0.17:
     resolution: {integrity: sha512-hJo+3Bkn0NCHybn9Tu35fIeoOKGOk5OCC32y4Hz2It+qlCO2Q3DeQ1hRn/tDDMQKRYUEzqsl7jbF6dYKjlE60g==}
     dev: true
@@ -999,6 +989,7 @@ packages:
 
   /escape-html/1.0.3:
     resolution: {integrity: sha512-NiSupZ4OeuGwr68lGIeym/ksIZMJodUGOSCZ/FSnTxcrekbvqrgdUxlJOMpijaKZVjAJrWrGs/6Jy8OMuyj9ow==}
+    dev: false
 
   /estree-walker/2.0.2:
     resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==}
@@ -1148,6 +1139,10 @@ packages:
   /kolorist/1.6.0:
     resolution: {integrity: sha512-dLkz37Ab97HWMx9KTes3Tbi3D1ln9fCAy2zr2YVExJasDRPGRaKcoE4fycWNtnCAJfjFqe0cnY+f8KT2JePEXQ==}
     dev: true
+
+  /lazysizes/5.3.2:
+    resolution: {integrity: sha512-22UzWP+Vedi/sMeOr8O7FWimRVtiNJV2HCa+V8+peZOw6QbswN9k58VUhd7i6iK5bw5QkYrF01LJbeJe0PV8jg==}
+    dev: false
 
   /linkify-it/4.0.1:
     resolution: {integrity: sha512-C7bfi1UZmoj8+PQx22XyeXCuBlokoyWQL5pWSP+EI6nzRylyThouddufc2c1NDIcP9k5agmN9fLpA7VNJfIiqw==}

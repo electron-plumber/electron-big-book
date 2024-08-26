@@ -37,7 +37,8 @@ export default {
   markdown: {
     config: (md) => {
       imagePlugin(md, {
-        lazyLoading:true
+        lazyLoading:true,
+        asyncDecoding: true
       })
     }
   },

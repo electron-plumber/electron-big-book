@@ -308,3 +308,15 @@ details {
 .dark::view-transition-new(root) {
   z-index: 1;
 }
+
+// element lazy loading excessive
+.lazyload,
+.lazyloading {
+  opacity: 0;
+}
+
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 300ms,
+              transform .3s cubic-bezier(.2,0,.2,1) !important;
+}

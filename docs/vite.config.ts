@@ -26,22 +26,7 @@ export default defineConfig({
       scss: {
         charset: false
       }
-    },
-    postcss: {
-      plugins: [
-        {
-          // 消除含义中文vxe-table样式@charset:UTF-8警告
-          postcssPlugin: 'internal:charset-removal',
-          AtRule: {
-            charset: (atRule) => {
-              if (atRule.name === 'charset') {
-                atRule.remove();
-              }
-            }
-          }
-        }
-      ],
-    },
+    }
   },
 
   build: {
