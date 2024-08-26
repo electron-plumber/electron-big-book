@@ -2,6 +2,7 @@ import type { UserConfig } from 'vitepress'
 import { sidebars } from './config/sidebars'
 import { nav } from './config/nav'
 import { imagePlugin } from './plugins/image'
+import { linkPlugin } from './plugins/link'
 
 export default {
   base: "/",
@@ -39,6 +40,10 @@ export default {
       imagePlugin(md, {
         lazyLoading:true,
         asyncDecoding: true
+      })
+      linkPlugin(md, {
+        target: '_blank',
+        rel: 'noreferrer'
       })
     }
   },
