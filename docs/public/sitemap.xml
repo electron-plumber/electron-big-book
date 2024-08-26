@@ -9,31 +9,73 @@
 
   <!--logic-->
   <url>
-    <loc>https://note.godolphinx.org/logic/basic/1.conceptual-en.html</loc>
+    <loc>https://note.godolphinx.org/logic/1.逻辑-基础知识/1.【管综逻辑基础课】导学总述.html</loc>
     <lastmod>2024-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://note.godolphinx.org/logic/advanced/2.straightforward-judgement-en.html</loc>
+    <loc>https://note.godolphinx.org/logic/1.逻辑-基础知识/2.【管综逻辑基础课】概念.html</loc>
     <lastmod>2024-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://note.godolphinx.org/logic/advanced/3.hypothetical-judgment-en.html</loc>
+    <loc>https://note.godolphinx.org/logic//1.逻辑-基础知识/3.【管综逻辑基础课】假言判断.html</loc>
     <lastmod>2024-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://note.godolphinx.org/logic/advanced/4.joint-selective-judgement-en.html</loc>
+    <loc>https://note.godolphinx.org/logic//1.逻辑-基础知识/4.【管综逻辑基础课】直言判断.html</loc>
     <lastmod>2024-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://note.godolphinx.org/logic/advanced/1.hypothetical-composition-selective-judgment-en.html</loc>
+    <loc>https://note.godolphinx.org/logic/1.逻辑-基础知识/5.【管综逻辑基础课】联言、选言判断.html</loc>
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/logic/1.逻辑-基础知识/6.【管综逻辑基础课】复合推理.html</loc>
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/logic/1.逻辑-基础知识/7.【管综逻辑基础课】推理结构、集合推理.html</loc>
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/logic/1.逻辑-基础知识/8.【管综逻辑基础课】分析推理-排除与代入.html</loc>
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/logic/1.逻辑-基础知识/9.【管综逻辑基础课】分析推理-辅助技巧与材料题.html</loc>
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/logic/1.逻辑-基础知识/10.【管综逻辑基础课】论证-论证总述、削弱论证.html</loc>
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/logic/1.逻辑-基础知识/11.【管综逻辑基础课】论证-加强论证.html</loc>
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/logic/2.逻辑-正式课/1.基础必修—管综（逻辑）假言、联言、选言判断（20240319）.html</loc>
     <lastmod>2024-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -41,13 +83,121 @@
 
   <!--math-->
   <url>
-    <loc>https://note.godolphinx.org/math/basic/1.arithmetic-en.html</loc>
+    <loc>https://note.godolphinx.org/math/1.数学-基础知识/1.【管综数学基础课】导学课.html</loc>
     <lastmod>2024-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://note.godolphinx.org/math/advanced/1.math-guide-en.html</loc>
+    <loc>https://note.godolphinx.org/math/1.数学-基础知识/2.【管综数学基础课】第一章 算数 第一节至第三节.html</loc>
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/math/1.数学-基础知识/3.【管综数学基础课】第一章 算数 第四节 数据描述.html</loc>
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/math/1.数学-基础知识/4.【管综数学基础课】第一章 算数 第五节 数轴与绝对值.html</loc>
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/math/1.数学-基础知识/5.【管综数学基础课】第二章 代数 第一节 整式及其运算.html</loc>
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/math/1.数学-基础知识/6.【管综数学基础课】第二章 代数 第二节 分式及其运算.html</loc>
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/math/1.数学-基础知识/7.【管综数学基础课】第二章 代数 第三节 函数.html</loc>
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/math/1.数学-基础知识/8.【管综数学基础课】第二章 代数 第四节 代数方程.html</loc>
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/math/1.数学-基础知识/9.【管综数学基础课】第二章 代数 第五节 不等式.html</loc>
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/math/1.数学-基础知识/10.【管综数学基础课】第三章 数列 第一节 数列.html</loc>
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/math/1.数学-基础知识/11.【管综数学基础课】第三章 数列 第二节 等差数列.html</loc>
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/math/1.数学-基础知识/12.【管综数学基础课】第三章 数列 第三节 等比数列.html</loc>
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/math/1.数学-基础知识/13.【管综数学基础课】第三章 数列 第四节 数列的综合应用.html</loc>
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/math/1.数学-基础知识/14.【管综数学基础课】第四章 几何 第一节 平面几何.html</loc>
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/math/1.数学-基础知识/15.【管综数学基础课】第四章 几何 第二节 立体几何.html</loc>
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/math/1.数学-基础知识/16.【管综数学基础课】第四章 几何 第三节 解析几何.html</loc>
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/math/1.数学-基础知识/17.【管综数学基础课】第五章 数据分析 第一节 排列与组合.html</loc>
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/math/1.数学-基础知识/18.【管综数学基础课】第五章 数据分析 第二节概率.html</loc>
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/math/1.数学-基础知识/19.【管综数学基础课】第六章 应用题.html</loc>
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/math/2.数学-正式课/1.专项强化-管综（数学）导学（上）.html</loc>
     <lastmod>2024-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -55,7 +205,7 @@
 
   <!--english-->
   <url>
-    <loc>https://note.godolphinx.org/english/advanced/1.midrange-vocabularies-en.html</loc>
+    <loc>https://note.godolphinx.org/english/1.英语二-正式课/1.基础必修—英语（二）词汇（中频）（20231218）.html</loc>
     <lastmod>2024-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -63,13 +213,13 @@
 
   <!--write-->
   <url>
-    <loc>https://note.godolphinx.org/write/basic/1.expository-essay-en.html</loc>
+    <loc>https://note.godolphinx.org/write/1.写作-基础知识/1.【管综写作基础课】总论.html</loc>
     <lastmod>2024-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://note.godolphinx.org/write/advanced/1.argument-effectiveness-analysis-syllabus-explanation-en.html</loc>
+    <loc>https://note.godolphinx.org/write/2.写作-正式课/1.专项强化-管综（写作）第1讲：论证有效性分析大纲解析.html</loc>
     <lastmod>2024-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
