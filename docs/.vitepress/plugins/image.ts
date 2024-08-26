@@ -32,7 +32,7 @@ export const imagePlugin = (md: MarkdownIt, { lazyLoading, asyncDecoding }: Opti
 
     // lazysizes懒加载图片
     if (lazyLoading) {
-      // 去掉资源文件的public目录,lazysizes内部会重新给src赋值指向跟路径,有public会找不到文件
+      // 去掉资源文件的public目录,vite不处理data-src的路径编译,有public会找不到文件
       token.attrSet('data-src', decodeURI.replace(/public\//, ''))
       token.attrSet('src', '')
       token.attrSet('class', 'lazyload')
