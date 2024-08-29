@@ -13,8 +13,8 @@
     <ul class="container">
       <li v-for="item in navData" :key="item.link">
         <div class="card" v-if="item.hasOwnProperty('home-card-type')">
-          <logic-svg v-if="item['home-card-type'] == 'logic' " w="40" m="y-12" />
           <math-svg v-if="item['home-card-type'] == 'math' " w="40" m="y-12" />
+          <logic-svg v-if="item['home-card-type'] == 'logic' " w="40" m="y-12" />
           <english-svg v-if="item['home-card-type'] == 'english' " w="40" m="y-12" />
           <write-svg v-if="item['home-card-type'] == 'write' " w="40" m="y-12" />
           <h3>{{ item.text }}</h3>
