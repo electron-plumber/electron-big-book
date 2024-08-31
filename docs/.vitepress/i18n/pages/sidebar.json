@@ -34,13 +34,6 @@
       "activeMatch": "/resource/",
       "home-card-type": "resource",
       "description": "master of management resource."
-    },
-    {
-      "text": "Library₂₀₂₄",
-      "link": "/library2024/1.数学零基础练习/1.第一章算术第一节实数",
-      "activeMatch": "/library2024/",
-      "home-card-type": "library2024",
-      "description": "master of management library."
     }
   ]
 }
