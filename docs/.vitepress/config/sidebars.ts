@@ -3,7 +3,6 @@ import math from '../i18n/pages/math.json'
 import english from '../i18n/pages/english.json'
 import write from '../i18n/pages/write.json'
 import resource from '../i18n/pages/resource.json'
-import library2024 from '../i18n/pages/library-2024.json'
 
 // 逻辑笔记
 function getLogicSidebar() {
@@ -55,26 +54,6 @@ function getResourceSideBar() {
   )
 }
 
-// 题库2024
-function getLibrary2024SideBar() {
-  return Object.fromEntries(
-    Object.entries(library2024).map(([lang, val]) => [
-      lang,
-      Object.values(val).map((item) => mapPrefix(item, lang, '/library2024')),
-    ])
-  )
-}
-
-// 题库2025
-/*function getLibrary2025SideBar() {
-  return Object.fromEntries(
-    Object.entries(library2025).map(([lang, val]) => [
-      lang,
-      Object.values(val).map((item) => mapPrefix(item, lang, '/library2025')),
-    ])
-  )
-}*/
-
 
 // return sidebar with language configs.
 // this might create duplicated data but the overhead is ignorable
@@ -84,8 +63,7 @@ const getSidebars = () => {
     '/math/': getMathSideBar(),
     '/english/': getEnglishSideBar(),
     '/write/': getWriteSideBar(),
-    '/resource/': getResourceSideBar(),
-    '/library2024/': getLibrary2024SideBar()
+    '/resource/': getResourceSideBar()
   }
 }
 
