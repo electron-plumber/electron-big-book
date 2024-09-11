@@ -1154,4 +1154,24 @@
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
+
+
+  <url>
+    <loc>https://note.godolphinx.org/resource/1.课件视频观看.html</loc>
+    <lastmod>2024-08-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/resource/2.学习资料重点2024.html</loc>
+    <lastmod>2024-08-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://note.godolphinx.org/resource/3.学习资料2024.html</loc>
+    <lastmod>2024-08-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
 </urlset>
