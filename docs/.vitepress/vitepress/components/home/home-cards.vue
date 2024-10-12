@@ -5,13 +5,19 @@
   import { useData } from 'vitepress'
   const { lang } = useData(), navs = useNav(), homeLang = computed(() => homeLocale[lang.value])
   // 固定首页 View Detail 标签
-  const navData = navs.value.slice(0, 4)
+  const targets = [
+    'logic',
+    'math',
+    'english',
+    'write'
+  ];
+  const fixedCard = navs.value.filter(item => targets.includes(item?.['home-card-type']))
 </script>
 
 <template>
   <div class="cards">
     <ul class="container">
-      <li v-for="item in navData" :key="item.link">
+      <li v-for="item in fixedCard" :key="item.link">
         <div class="card" v-if="item.hasOwnProperty('home-card-type')">
           <logic-svg v-if="item['home-card-type'] == 'logic' " w="40" m="y-12" />
           <math-svg v-if="item['home-card-type'] == 'math' " w="40" m="y-12" />
