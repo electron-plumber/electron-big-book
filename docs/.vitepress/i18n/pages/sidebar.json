@@ -36,6 +36,34 @@
       "description": "master of management write notes."
     },
     {
+      "text": "Logic25",
+      "link": "/logic25/1.逻辑-基础知识/1.【管综逻辑基础课】导学总述",
+      "activeMatch": "/logic25/",
+      "home-card-type": "logic25",
+      "description": "master of management logic25 notes."
+    },
+    {
+      "text": "Math25",
+      "link": "/math25/1.数学-基础知识/1.【管综数学基础课】导学课",
+      "activeMatch": "/math25/",
+      "home-card-type": "math25",
+      "description": "master of management math25 notes."
+    },
+    {
+      "text": "English25",
+      "link": "/english25/1.英语二-正式课/1.基础必修—英语",
+      "activeMatch": "/english25/",
+      "home-card-type": "english25",
+      "description": "master of management english25 notes."
+    },
+    {
+      "text": "Write25",
+      "link": "/write25/1.写作-基础知识/1.【管综写作基础课】总论",
+      "activeMatch": "/write25/",
+      "home-card-type": "write25",
+      "description": "master of management write25 notes."
+    },
+    {
       "text": "Resource",
       "link": "/resource/1.课件视频观看",
       "activeMatch": "/resource/",
