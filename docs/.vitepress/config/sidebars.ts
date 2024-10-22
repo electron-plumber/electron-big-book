@@ -4,10 +4,6 @@ import english from '../i18n/pages/english.json'
 import japanese from '../i18n/pages/japanese.json'
 import write from '../i18n/pages/write.json'
 import resource from '../i18n/pages/resource.json'
-import logic25 from '../i18n/pages/logic25.json'
-import math25 from '../i18n/pages/math25.json'
-import english25 from '../i18n/pages/english25.json'
-import write25 from '../i18n/pages/write25.json'
 
 // 逻辑笔记
 function getLogicSidebar() {
@@ -70,43 +66,6 @@ function getResourceSideBar() {
 }
 
 
-function getLogic25Sidebar() {
-  return Object.fromEntries(
-    Object.entries(logic25).map(([lang, val]) => [
-      lang,
-      Object.values(val).map((item) => mapPrefix(item, lang, "/logic25")),
-    ])
-  )
-}
-
-function getMath25SideBar() {
-  return Object.fromEntries(
-    Object.entries(math25).map(([lang, val]) => [
-      lang,
-      Object.values(val).map((item) => mapPrefix(item, lang, '/math25')),
-    ])
-  )
-}
-
-function getEnglish25SideBar() {
-  return Object.fromEntries(
-    Object.entries(english25).map(([lang, val]) => [
-      lang,
-      Object.values(val).map((item) => mapPrefix(item, lang, '/english25')),
-    ])
-  )
-}
-
-function getWrite25SideBar() {
-  return Object.fromEntries(
-    Object.entries(write25).map(([lang, val]) => [
-      lang,
-      Object.values(val).map((item) => mapPrefix(item, lang, '/write25')),
-    ])
-  )
-}
-
-
 // return sidebar with language configs.
 // this might create duplicated data but the overhead is ignorable
 const getSidebars = () => {
@@ -116,11 +75,7 @@ const getSidebars = () => {
     '/english/': getEnglishSideBar(),
     '/japanese/': getJapaneseSideBar(),
     '/write/': getWriteSideBar(),
-    '/resource/': getResourceSideBar(),
-    '/logic25/': getLogic25Sidebar(),
-    '/math25/': getMath25SideBar(),
-    '/english25/': getEnglish25SideBar(),
-    '/write25/': getWrite25SideBar(),
+    '/resource/': getResourceSideBar()
   }
 }
 
