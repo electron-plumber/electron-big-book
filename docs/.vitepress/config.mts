@@ -28,10 +28,17 @@ export default {
   themeConfig: {
     sidebars,
     nav,
+    // 使用DocSearchScraper手动爬取本地sitemap.xml地址内容推送(搜索api密钥)
+    // agolia: {
+    //   apiKey: 'f6c169e48ebc81ecfaad4657c39c9ba4',
+    //   indexName: 'note-mba',
+    //   appId: 'PVEXLTFZ5B',
+    // },
+    // 使用 https://docsearch.algolia.com/apply 审核通过(搜索api密钥)
     agolia: {
-      apiKey: 'f6c169e48ebc81ecfaad4657c39c9ba4',
-      indexName: 'note-mba',
-      appId: 'PVEXLTFZ5B',
+      apiKey: '34752809a811bc582957b71555a4c830',
+      indexName: 'godolphinx',
+      appId: 'YJ8K2SS9O7',
     },
   },
   lang: 'zh-CN',
