@@ -3,6 +3,7 @@ import { sidebars } from './config/sidebars'
 import { nav } from './config/nav'
 import { imagePlugin } from './plugins/image'
 import { linkPlugin } from './plugins/link'
+import tableWrapper from './plugins/table-wrapper'
 
 export default {
   base: "/",
@@ -44,6 +45,7 @@ export default {
   lang: 'zh-CN',
   markdown: {
     config: (md) => {
+      md.use(tableWrapper)
       imagePlugin(md, {
         lazyLoading:true,
         asyncDecoding: true
