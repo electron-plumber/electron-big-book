@@ -8,11 +8,11 @@
       "description": "master of management logic notes."
     },
     {
-      "text": "Math",
+      "text": "Math(理解自然律)",
       "link": "/math/1.数学-基础知识/1.【管综数学基础课】导学课",
       "activeMatch": "/math/",
       "home-card-type": "math",
-      "description": "master of management math notes."
+      "description": "数学是人类用抽象和逻辑的方式去描述、理解和揭示自然规律的工具,也是一种表达这些规律的语言."
     },
     {
       "text": "English",
