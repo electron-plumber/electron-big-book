@@ -22,13 +22,6 @@
       "description": "master of management english notes."
     },
     {
-      "text": "にほんご",
-      "link": "/japanese/1.音标与发音",
-      "activeMatch": "/japanese/",
-      "home-card-type": "japanese",
-      "description": "japanese notes."
-    },
-    {
       "text": "Write",
       "link": "/write/1.写作-基础知识/1.【管综写作基础课】总论",
       "activeMatch": "/write/",

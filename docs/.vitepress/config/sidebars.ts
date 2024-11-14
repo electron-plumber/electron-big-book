@@ -1,7 +1,6 @@
 import logic from '../i18n/pages/logic.json'
 import math from '../i18n/pages/math.json'
 import english from '../i18n/pages/english.json'
-import japanese from '../i18n/pages/japanese.json'
 import write from '../i18n/pages/write.json'
 import resource from '../i18n/pages/resource.json'
 
@@ -35,16 +34,6 @@ function getEnglishSideBar() {
   )
 }
 
-// 日语笔记
-function getJapaneseSideBar() {
-  return Object.fromEntries(
-    Object.entries(japanese).map(([lang, val]) => [
-      lang,
-      Object.values(val).map((item) => mapPrefix(item, lang, '/japanese')),
-    ])
-  )
-}
-
 // 写作笔记
 function getWriteSideBar() {
   return Object.fromEntries(
@@ -73,7 +62,6 @@ const getSidebars = () => {
     '/logic/': getLogicSidebar(),
     '/math/': getMathSideBar(),
     '/english/': getEnglishSideBar(),
-    '/japanese/': getJapaneseSideBar(),
     '/write/': getWriteSideBar(),
     '/resource/': getResourceSideBar()
   }
