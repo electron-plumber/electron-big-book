@@ -5,8 +5,7 @@ import { throttleAndDebounce } from '../utils'
 import type { Ref } from 'vue'
 
 export function useActiveSidebarLinks(
-  container: Ref<HTMLElement>,
-  marker: Ref<HTMLElement>
+  container: Ref<HTMLElement>
 ) {
   if (!isClient) return
 
@@ -51,11 +50,6 @@ export function useActiveSidebarLinks(
           ) as HTMLAnchorElement))
     if (activeLink) {
       activeLink.classList.add('active')
-      marker.value.style.opacity = '1'
-      marker.value.style.top = `${activeLink.offsetTop}px`
-    } else {
-      marker.value.style.opacity = '0'
-      marker.value.style.top = '33px'
     }
   }
 

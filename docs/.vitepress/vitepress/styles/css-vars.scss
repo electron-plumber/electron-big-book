@@ -33,10 +33,11 @@
   --header-height: 55px;
   --nav-height: 55px; // alias of --header-height
 
-  /* Screen Size */
-  --vp-screen-max-width: 1362px;
+  // outline item vars
+  --outline-item-height: calc(var(--header-height) + 32px);
 
   @include respond-to('xxl') {
+    --vp-screen-max-width: 1362px;
     --vp-sidebar-width-small: 234px;
   }
 
