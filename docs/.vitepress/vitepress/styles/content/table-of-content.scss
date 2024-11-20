@@ -5,10 +5,11 @@
   padding-left: 64px;
 
   .toc-content {
-    max-height: calc(100vh - var(--outline-item-height)) ;
+    // -position_top -main_padding -doc_content_padding
+    max-height: calc(100vh - var(--toc-height) - var(--nav-height) - 64px) ;
     overflow-y: auto;
     position: sticky;
-    top: var(--outline-item-height);
+    top: var(--toc-height);
     margin-top: 0;
     padding: 4px 8px 4px 12px;
     margin-bottom: 32px;
@@ -35,7 +36,6 @@
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
-        color: inherit;
 
         .toc-link {
           position: relative;
