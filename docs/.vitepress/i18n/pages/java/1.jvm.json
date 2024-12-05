@@ -1,7 +1,7 @@
 {
   "zh-CN": {
     "jvm": {
-      "text": "1.jvm",
+      "text": "",
       "children": [
         {
           "text": "1.虚拟机的前世今生和JVM内存区域",

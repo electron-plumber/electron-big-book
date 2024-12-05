@@ -3,7 +3,8 @@ import math from '../i18n/pages/math.json'
 import english from '../i18n/pages/english.json'
 import write from '../i18n/pages/write.json'
 import resource from '../i18n/pages/resource.json'
-import jvm from '../i18n/pages/java/jvm.json'
+import jvm from '../i18n/pages/java/1.jvm.json'
+import concurrentProgramming from '../i18n/pages/java/2.concurrent-programming.json'
 
 function getLogicSidebar() {
   return Object.fromEntries(
@@ -60,6 +61,16 @@ function getJvmSideBar() {
   )
 }
 
+
+function getConcurrentProgrammingSideBar() {
+  return Object.fromEntries(
+    Object.entries(concurrentProgramming).map(([lang, val]) => [
+      lang,
+      Object.values(val).map((item) => mapPrefix(item, lang, '/java/2.concurrentProgramming')),
+    ])
+  )
+}
+
 // return sidebar with language configs.
 // this might create duplicated data but the overhead is ignorable
 const getSidebars = () => {
@@ -70,6 +81,7 @@ const getSidebars = () => {
     '/write/': getWriteSideBar(),
     '/resource/': getResourceSideBar(),
     '/java/1.jvm/': getJvmSideBar(),
+    '/java/2.concurrentProgramming/': getConcurrentProgrammingSideBar(),
   }
 }
 

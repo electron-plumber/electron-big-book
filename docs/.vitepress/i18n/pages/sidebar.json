@@ -39,6 +39,11 @@
       "text": "Jvm",
       "link": "/java/1.jvm/1.虚拟机的前世今生和JVM内存区域",
       "activeMatch": "/java/1.jvm/"
+    },
+    {
+      "text": "并发编程",
+      "link": "/java/2.concurrentProgramming/1.java线程的本质、线程模型",
+      "activeMatch": "/java/2.concurrentProgramming/"
     }
   ]
 }
