@@ -27,11 +27,7 @@ const currentLink = computed(() => {
     <div class="header-container">
       <div class="logo-container">
         <a :href="currentLink">
-          <img
-            class="logo"
-            title="mba exam"
-            src="/images/mba.jpg"
-            alt="mba"/>
+          <apple-notes-svg class="logo"/>
         </a>
       </div>
       <div class="content">
@@ -57,11 +53,9 @@ const currentLink = computed(() => {
   height: var(--header-height);
   > a {
     height: 30px;
-    width: 250px;
   }
   .logo {
     position: relative;
-    top: 5px;
     height: 100%;
   }
 }

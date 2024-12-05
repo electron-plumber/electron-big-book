@@ -38,7 +38,7 @@ watch(
               v-for="(item, key) in expandMenus"
               :key="key"
               :class="{ 'menu-item': true, selected: item.activeMatch === currentActiveMatch }"
-              @click=" router.go(item.link)"
+              @click="router.go(item.link)"
             >
               {{ item.text }}
             </ElDropdownItem>

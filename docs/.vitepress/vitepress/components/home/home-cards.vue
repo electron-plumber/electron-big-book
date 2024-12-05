@@ -2,9 +2,11 @@
   import { computed } from "vue"
   import { useNav } from '../../composables/nav'
   import homeLocale from '../../../i18n/pages/home.json'
-  import { useData } from 'vitepress'
+  import { useData, useRouter } from 'vitepress';
+
+  const router = useRouter()
   const { lang } = useData(), navs = useNav(), homeLang = computed(() => homeLocale[lang.value])
-  // 固定首页 View Detail 标签
+  // 固定首页标签
   const targets = [
     'logic',
     'math',
@@ -18,15 +20,14 @@
   <div class="cards">
     <ul class="container">
       <li v-for="item in fixedCard" :key="item.link">
-        <div class="card" v-if="item.hasOwnProperty('home-card-type')">
-          <logic-svg v-if="item['home-card-type'] == 'logic' " w="40" m="y-12" />
-          <math-svg v-if="item['home-card-type'] == 'math' " w="40" m="y-12" />
-          <english-svg v-if="item['home-card-type'] == 'english' " w="40" m="y-12" />
-          <write-svg v-if="item['home-card-type'] == 'write' " w="40" m="y-12" />
+        <el-scrollbar class="card" v-if="item.hasOwnProperty('home-card-type')" @click="router.go(item.link)">
+          <logic-svg v-if="item['home-card-type'] == 'logic' " w="25" m="y-12" />
+          <math-svg v-if="item['home-card-type'] == 'math' " w="25" m="y-12" />
+          <english-svg v-if="item['home-card-type'] == 'english' " w="25" m="y-12" />
+          <write-svg v-if="item['home-card-type'] == 'write' " w="25" m="y-12" />
           <h3>{{ item.text }}</h3>
           <p>{{ item.description }}</p>
-          <a :href="item.link">{{ homeLang['card-title'] }}</a>
-        </div>
+        </el-scrollbar>
       </li>
     </ul>
   </div>
@@ -35,7 +36,7 @@
 <style lang="scss">
 .home-page {
   .cards {
-    margin: 110px auto;
+    margin: 20px auto;
     max-width: 1150px;
 
     .container {
@@ -60,15 +61,10 @@
       float: left;
       list-style: none;
     }
-
-    img {
-      width: 160px;
-      height: 120px;
-    }
   }
 
   .card {
-    height: 500px;
+    height: 400px;
     width: 100%;
     background: var(--bg-color);
     border: 1px solid var(--border-color);
@@ -82,10 +78,6 @@
     &:hover {
       box-shadow: 0px 12px 32px 4px rgba(237, 239, 245, 0.24),
         0px 8px 20px rgba(237, 239, 245, 0.48);
-    }
-
-    img {
-      margin: 48px auto;
     }
 
     h3 {
@@ -102,32 +94,6 @@
       line-height: 20px;
     }
 
-    a {
-      height: 53px;
-      line-height: 52px;
-      font-size: 14px;
-      color: var(--brand-color);
-      text-align: center;
-      border: 0;
-      border-top: 1px solid var(--border-color);
-      padding: 0;
-      cursor: pointer;
-      width: 100%;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      background-color: var(--bg-color);
-      border-radius: 0 0 5px 5px;
-      transition: all 0.3s;
-      text-decoration: none;
-      display: block;
-
-      &:hover {
-        color: #fff;
-        background: var(--brand-color);
-      }
-    }
-
     &:hover {
       bottom: 6px;
     }
@@ -140,15 +106,6 @@
       .container {
         width: 100%;
       }
-    }
-
-    .banner .container {
-      width: 100%;
-      box-sizing: border-box;
-    }
-
-    .banner img {
-      right: 0;
     }
   }
 }

@@ -14,7 +14,7 @@ export default {
       'link',
       {
         rel: 'icon',
-        href: '/images/mba.jpg',
+        href: '/images/notes.png',
         type: 'image/svg+xm',
       }
     ],
