@@ -36,7 +36,7 @@
 <style lang="scss">
 .home-page {
   .cards {
-    margin: 20px auto;
+    margin: 30px auto;
     max-width: 1150px;
 
     .container {

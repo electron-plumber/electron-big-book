@@ -4,5 +4,5 @@ page: true
 
 <!-- Placeholder -->
 <ClientOnly>
-  <ParallaxHome />
+  <Home />
 </ClientOnly>

@@ -1,21 +1,12 @@
 <script setup lang="ts">
-import { computed, reactive, ref, onMounted } from 'vue'
-import { useParallax } from '@vueuse/core'
+import { reactive, ref, onMounted } from 'vue'
 import { useData } from 'vitepress'
 import HomeCards from '../home/home-cards.vue'
 import homeLocale from '../../../i18n/pages/home.json'
 
 const target = ref<HTMLElement | null>(null)
-const parallax = reactive(useParallax(target))
 const jumbotronRef = ref<HTMLElement | null>(null)
 const { lang } = useData(), locale = homeLocale[lang.value]
-
-const cardStyle = computed(() => ({
-  height: '30rem',
-  width: '100%',
-  transition: '.3s ease-out all',
-  transform: `rotateX(${parallax.roll}deg) rotateY(${parallax.tilt}deg)`,
-}))
 
 onMounted(()=> {
   setTimeout(() => state.subTextDisplay = true , 100);
@@ -62,21 +53,20 @@ function startTyping() {
 <template>
   <div ref="target" class="home-page">
     <div ref="jumbotronRef" class="jumbotron">
-      <div class="parallax-container">
-        <div :style="cardStyle">
-          <div class="title">
-            <h1 class="typewriter">
-              {{ state.typingText }}
-            </h1>
-            <h1 :class="['typing-suffix', { 'typing-suffix_fade-out': !state.typingSuffixDisplay }]">
-              <dot-svg w="8"/>
-            </h1>
-          </div>
-          <transition name="slide-fade">
-            <p v-show="state.subTextDisplay" class="typography-site-body">
-              The all-new iPad Pro packs astonishing power into an unbelievably thin, light, and portable design. Push the limits of what’s possible on iPad with a superportable 11-inch model and an expansive 13-inch model that is the thinnest product Apple has ever created.            </p>
-          </transition>
+      <div class="home-container">
+        <div class="title">
+          <h1 class="typewriter">
+            {{ state.typingText }}
+          </h1>
+          <h1 :class="['typing-suffix', { 'typing-suffix_fade-out': !state.typingSuffixDisplay }]">
+            <dot-svg w="8"/>
+          </h1>
         </div>
+        <transition name="slide-fade">
+          <p v-show="state.subTextDisplay" class="typography-site-body">
+            The all-new iPad Pro packs astonishing power into an unbelievably thin, light, and portable design. Push the limits of what’s possible on iPad with a superportable 11-inch model and an expansive 13-inch model that is the thinnest product Apple has ever created.
+          </p>
+        </transition>
       </div>
     </div>
     <HomeCards />
@@ -91,7 +81,7 @@ function startTyping() {
     max-width: 653.33px;
     margin: 20px auto;
 
-    .parallax-container {
+    .home-container {
       .title {
         display: flex;
         align-items: center;
@@ -113,11 +103,11 @@ function startTyping() {
       }
 
       p {
-        text-align: justify;
-        margin-block-start: 1.5em;
+        text-align: center;
+        margin-block-start: 1em;
         margin-block-end: 1em;
-        margin-inline-start: 21px;
-        margin-inline-end: 21px;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
         unicode-bidi: isolate;
       }
 
@@ -126,7 +116,6 @@ function startTyping() {
         line-height: 1.381002381;
         font-weight: 600;
         letter-spacing: .011em;
-        text-indent: 0.1em;
       }
     }
   }
@@ -153,6 +142,35 @@ function startTyping() {
   @media (max-width: 768px) {
     .jumbotron {
       width: 60%;
+    }
+
+    .home-container {
+      .title {
+        h1 {
+          font-size: 19px !important;
+        }
+        svg {
+          width: 20px;
+          height: 20px;
+        }
+      }
+      .typography-site-body {
+        font-size: 14px !important;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .home-container {
+      .title {
+        h1 {
+          font-size: 12px !important;
+        }
+        svg {
+          width: 15px;
+          height: 15px;
+        }
+      }
     }
   }
 

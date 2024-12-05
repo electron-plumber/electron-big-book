@@ -9,6 +9,7 @@ declare module '@vue/runtime-core' {
     Dark: typeof import('./.vitepress/vitepress/components/icons/dark.vue')['default']
     DotSvg: typeof import('./.vitepress/vitepress/components/home/svg/dot-svg.vue')['default']
     EnglishSvg: typeof import('./.vitepress/vitepress/components/home/svg/english-svg.vue')['default']
+    Home: typeof import('./.vitepress/vitepress/components/globals/home.vue')['default']
     HomeCards: typeof import('./.vitepress/vitepress/components/home/home-cards.vue')['default']
     IRiExternalLinkLine: typeof import('~icons/ri/external-link-line')['default']
     IRiMenuLine: typeof import('~icons/ri/menu-line')['default']
