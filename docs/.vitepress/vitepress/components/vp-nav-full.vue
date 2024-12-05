@@ -16,8 +16,8 @@ const fullscreen = ref()
   <Transition name="el-fade-in" @enter="lock" @after-leave="cleanup">
     <div v-if="fullScreen" ref="fullscreen">
       <div class="full-screen-container">
-        <VPFullScreenMenu @close="$emit('close')" />
         <VPFullScreenThemeToggler />
+        <VPFullScreenMenu @close="$emit('close')" />
       </div>
     </div>
   </Transition>

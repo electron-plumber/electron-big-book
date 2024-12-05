@@ -7,6 +7,7 @@ import VPNavbarMenu from './navbar/vp-menu.vue'
 import VPNavbarThemeToggler from './navbar/vp-theme-toggler.vue'
 import VPNavbarSocialLinks from './navbar/vp-social-links.vue'
 import VPNavbarHamburger from './navbar/vp-hamburger.vue'
+import vpNavMenuExtension from './navbar/vp-menu-extension.vue'
 
 const { theme } = useData()
 
@@ -36,6 +37,7 @@ const currentLink = computed(() => {
       <div class="content">
         <VPNavbarSearch class="search" :options="theme.agolia" />
         <VPNavbarMenu class="menu" />
+        <vpNavMenuExtension class="menu-extension" />
         <VPNavbarThemeToggler class="theme-toggler" />
         <VPNavbarSocialLinks class="social-links" />
         <VPNavbarHamburger

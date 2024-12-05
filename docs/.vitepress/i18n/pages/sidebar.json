@@ -8,7 +8,7 @@
       "description": "master of management logic notes."
     },
     {
-      "text": "Math(理解自然律)",
+      "text": "Math",
       "link": "/math/1.数学-基础知识/1.【管综数学基础课】导学课",
       "activeMatch": "/math/",
       "home-card-type": "math",
@@ -34,6 +34,11 @@
       "activeMatch": "/resource/",
       "home-card-type": "resource",
       "description": "master of management resource."
+    },
+    {
+      "text": "Jvm",
+      "link": "/java/1.jvm/1.虚拟机的前世今生和JVM内存区域",
+      "activeMatch": "/java/1.jvm/"
     }
   ]
 }

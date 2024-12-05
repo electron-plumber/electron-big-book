@@ -3,7 +3,7 @@
 .navbar-menu {
   display: none;
 
-  @include respond-to('xl') {
+  @include respond-to('md') {
     display: flex;
   }
 }
