@@ -9,13 +9,11 @@ const jumbotronRef = ref<HTMLElement | null>(null)
 const { lang } = useData(), locale = homeLocale[lang.value]
 
 onMounted(()=> {
-  setTimeout(() => state.subTextDisplay = true , 100);
   startTyping()
 })
 
 interface State {
   typingText: string;
-  subTextDisplay: boolean;
   typingSuffixDisplay: boolean;
   typingSuffixSpeed: number;
   typingIndex: number;
@@ -24,9 +22,8 @@ interface State {
 
 const state = reactive<State>({
   typingText: '',
-  subTextDisplay: false,
   typingSuffixDisplay: true,
-  typingSuffixSpeed: 500,
+  typingSuffixSpeed: 3500,
   typingIndex: 0,
   typingSpeed: 30
 });
@@ -35,12 +32,12 @@ function startTyping() {
   const title: string = locale['title']
   if (title.trim() === '') return
 
-  // 使用 setInterval 来模拟打字效果
+  // Simulate typing effect using setInterval
   const typingInterval = setInterval(() => {
     state.typingText += title[state.typingIndex]
     state.typingIndex++
 
-    // 如果所有字符都已打印完毕，停止打字效果
+    // If all characters have been printed, stop the typing effect.
     if (state.typingIndex >= title.length) {
       clearInterval(typingInterval)
       setTimeout(()=> state.typingSuffixDisplay = false, state.typingSuffixSpeed)
@@ -62,11 +59,9 @@ function startTyping() {
             <dot-svg w="8"/>
           </h1>
         </div>
-        <transition name="slide-fade">
-          <p v-show="state.subTextDisplay" class="typography-site-body">
-            The all-new iPad Pro packs astonishing power into an unbelievably thin, light, and portable design. Push the limits of what’s possible on iPad with a superportable 11-inch model and an expansive 13-inch model that is the thinnest product Apple has ever created.
-          </p>
-        </transition>
+        <p class="typography-site-body">
+          {{ locale['title-sub'] }}
+        </p>
       </div>
     </div>
     <HomeCards />
@@ -86,7 +81,7 @@ function startTyping() {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 2px;
+        gap: 6px;
 
         h1 {
           color: var(--text-color);;
@@ -120,25 +115,6 @@ function startTyping() {
     }
   }
 
-  .typing-suffix {
-    opacity: 1;
-    transition: opacity 0.8s ease-out;
-
-    &_fade-out {
-      opacity: 0;
-    }
-  }
-
-  .slide-fade-enter-active {
-    transition: all 1s ease-out;
-  }
-
-  .slide-fade-enter-from,
-  .slide-fade-leave-to {
-    transform: translateY(20px);
-    opacity: 0;
-  }
-
   @media (max-width: 768px) {
     .jumbotron {
       width: 60%;
@@ -146,6 +122,8 @@ function startTyping() {
 
     .home-container {
       .title {
+        gap: 5px !important;
+
         h1 {
           font-size: 19px !important;
         }
@@ -158,11 +136,18 @@ function startTyping() {
         font-size: 14px !important;
       }
     }
+
+    .typing-suffix {
+      width: 24px !important;
+      height: 24px !important;
+    }
   }
 
   @media (max-width: 480px) {
     .home-container {
       .title {
+        gap: 4px !important;
+
         h1 {
           font-size: 12px !important;
         }
@@ -171,6 +156,11 @@ function startTyping() {
           height: 15px;
         }
       }
+    }
+
+    .typing-suffix {
+      width: 18px !important;
+      height: 18px !important;
     }
   }
 
@@ -188,6 +178,50 @@ function startTyping() {
     }
   }
 
+  // p tag animation
+  @keyframes slide-fadeIn {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .home-container p {
+    opacity: 0;
+    animation: slide-fadeIn 0.3s cubic-bezier(1, 0.5, 0.8, 1) forwards;
+  }
+
+  // typing-suffix ripple animation
+  @keyframes ripple-fadeInOut {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .typing-suffix {
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+
+    animation: ripple-fadeInOut 2.5s infinite;
+    background-color: var(--brand-color);
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+
+    &_fade-out {
+      opacity: 0;
+    }
+  }
 
 }
 </style>

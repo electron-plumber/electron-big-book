@@ -110,6 +110,36 @@
   }
 }
 
+/* louvres */
+@keyframes fadeIn {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.container li:nth-child(1) {
+  animation-delay: 0s;
+}
+.container li:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.container li:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.container li:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.container li {
+  opacity: 0;
+  animation: fadeIn 0.3s ease-in forwards;
+}
+
 .dark {
   .home-page {
     .card {
