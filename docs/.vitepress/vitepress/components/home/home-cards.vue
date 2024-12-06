@@ -21,10 +21,10 @@
     <ul class="container">
       <li v-for="item in fixedCard" :key="item.link">
         <el-scrollbar class="card" v-if="item.hasOwnProperty('home-card-type')" @click="router.go(item.link)">
-          <logic-svg v-if="item['home-card-type'] == 'logic' " w="25" m="y-12" />
-          <math-svg v-if="item['home-card-type'] == 'math' " w="25" m="y-12" />
-          <english-svg v-if="item['home-card-type'] == 'english' " w="25" m="y-12" />
-          <write-svg v-if="item['home-card-type'] == 'write' " w="25" m="y-12" />
+          <logic-svg v-if="item['home-card-type'] == 'logic' " w="25" m="t-12 b-10" />
+          <math-svg v-if="item['home-card-type'] == 'math' " w="25" m="t-12 b-10" />
+          <english-svg v-if="item['home-card-type'] == 'english' " w="25" m="t-12 b-10" />
+          <write-svg v-if="item['home-card-type'] == 'write' " w="25" m="t-12 b-10" />
           <h3>{{ item.text }}</h3>
           <p>{{ item.description }}</p>
         </el-scrollbar>
