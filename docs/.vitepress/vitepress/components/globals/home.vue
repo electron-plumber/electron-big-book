@@ -61,6 +61,8 @@ function startTyping() {
         </div>
         <p class="typography-site-body">
           {{ locale['title-sub'] }}
+          Inspired by <a href="https://en.wikipedia.org/wiki/Aaron_Swartz">Aaron Swartz</a>, I strive to carry forward his spirit by believing in the
+          power of open Creative Commons to create a brighter, more inclusive future for all.
         </p>
       </div>
     </div>

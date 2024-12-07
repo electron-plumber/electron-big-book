@@ -1,10 +1,10 @@
-## 🎓 Introduce
+## <img src="docs/public/images/notes.png" width="24" /> Introduce
 
-mba management class master notes
+MBA Exam and Java Advanced Course Notes
 
 ## 📦 Install
 ```
-pnpm i --frozen-lockfile
+pnpm i
 ```
 
 ```
@@ -20,5 +20,8 @@ you can use GitPod a online IDE（open source free）to run demo online
 
 ---
 <a href="https://github.com/element-plus/element-plus">
-  <img src="docs/public/images/element-plus-logo.svg" width="300" />
+  <img src="docs/public/images/el.svg" width="300" />
+</a>
+<a href="https://github.com/mui/material-ui">
+  <img src="docs/public/images/mui.svg" width="300" />
 </a>
