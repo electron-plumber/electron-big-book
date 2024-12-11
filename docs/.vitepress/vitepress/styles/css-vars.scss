@@ -61,6 +61,13 @@
   --overlay-z-index: 30;
   // --dropdown-z-index: 22;
 
+  // code block vars
+  --code-line-height: 1.4;
+  --code-font-size: var(--el-font-size-medium);
+  --code-bg-color: var(--el-fill-color-light);
+  --code-text-color: var(--text-color);
+  --code-font-family: var(--font-family-mono);
+
   // tip block
   --block-tip-bg-color: rgba(var(--el-color-primary-rgb), 0.1);
   --block-warning-bg-color: rgba(var(--el-color-danger-rgb), 0.1);
