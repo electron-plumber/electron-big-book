@@ -1,15 +1,32 @@
 <script lang="ts" setup>
 import { useSidebar } from '../composables/sidebar'
 import VPSidebarLink from './sidebar/vp-sidebar-link.vue'
+import { onMounted, ref } from 'vue'
 
 defineProps<{ open: boolean }>()
 defineEmits(['close'])
 
 const { sidebars, hasSidebar } = useSidebar()
+const scrollbar = ref()
+
+onMounted(()=> {
+  autoScrollToActiveMenu()
+})
+
+function autoScrollToActiveMenu() {
+  const scrollContainer = document.querySelector(".el-scrollbar__wrap")
+  const activeLink = document.querySelector(".el-scrollbar .link.active")
+  if (scrollContainer && activeLink) {
+    // 计算目标元素相对于滚动容器的偏移量
+    const targetPosition = activeLink.offsetTop - scrollContainer.offsetTop
+    scrollbar.value.scrollTo({ top: targetPosition })
+  }
+}
+
 </script>
 
 <template>
-  <el-scrollbar v-if="hasSidebar" :class="{ sidebar: true, open }">
+  <el-scrollbar ref="scrollbar" v-if="hasSidebar" :class="{ sidebar: true, open }">
     <aside>
       <slot name="top" />
       <div class="sidebar-groups">
