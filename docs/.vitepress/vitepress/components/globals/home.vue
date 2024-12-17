@@ -127,12 +127,12 @@ function startTyping() {
           gap: 5px;
 
           h1 {
-            font-size: 19px;
+            font-size: 18px;
           }
 
           svg {
-            width: 20px;
-            height: 20px;
+            width: 19px;
+            height: 19px;
           }
 
           .typing-suffix {
@@ -155,12 +155,12 @@ function startTyping() {
           gap: 4px;
 
           h1 {
-            font-size: 12px;
+            font-size: 13px;
           }
 
           svg {
-            width: 15px;
-            height: 15px;
+            width: 14px;
+            height: 14px;
           }
 
           .typing-suffix {
