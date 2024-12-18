@@ -1,7 +1,7 @@
 {
   "index_name": "note-mba",
-  "start_urls": ["https://note.godolphinx.org"],
-  "sitemap_urls": ["https://note.godolphinx.org/sitemap.xml"],
+  "start_urls": ["https://note.dolphinx.org"],
+  "sitemap_urls": ["https://note.dolphinx.org/sitemap.xml"],
   "stop_urls": ["/search"],
   "selectors": {
     "lvl0": ".router-link-active",
