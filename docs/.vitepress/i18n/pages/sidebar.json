@@ -2,28 +2,28 @@
   "zh-CN": [
     {
       "text": "Logic",
-      "link": "/logic/1.逻辑-基础知识/1.【管综逻辑基础课】导学总述",
+      "link": "/logic/1.逻辑-基础课/1.【管综逻辑基础课】导学总述",
       "activeMatch": "/logic/",
       "home-card-type": "logic",
       "description": "MAB logical reasoning section primarily assesses the candidate's ability to understand, analyze, judge, and synthesize various pieces of information, as well as their logical thinking skills in reasoning, argumentation, comparison, and evaluation."
     },
     {
       "text": "Math",
-      "link": "/math/1.数学-基础知识/1.【管综数学基础课】导学课",
+      "link": "/math/1.数学-基础强化课/1.专项强化-管综（数学）导学（上）",
       "activeMatch": "/math/",
       "home-card-type": "math",
       "description": "Mathematics is a human tool for describing, understanding and revealing the laws of nature in an abstract and logical way, and a language for expressing those laws."
     },
     {
       "text": "English",
-      "link": "/english/1.英语二-正式课/1.基础必修—英语（二）词汇（中频）（20231218）",
+      "link": "/english/1.英语二-基础课/1.【考研英语】基础必修词汇1",
       "activeMatch": "/english/",
       "home-card-type": "english",
       "description": "English section of the MBA exam in China, known as English II, is generally considered to have a lower difficulty level, focusing on basic language proficiency and practical business communication skills."
     },
     {
       "text": "Write",
-      "link": "/write/1.写作-基础知识/1.【管综写作基础课】总论",
+      "link": "/write/1.写作-基础强化课/1.专项强化-管综（写作）第1讲：论证有效性分析大纲解析",
       "activeMatch": "/write/",
       "home-card-type": "write",
       "description": "MAB Write reasoning section primarily assesses candidates' ability to construct clear, coherent, and persuasive arguments, demonstrating effective communication skills and critical thinking in addressing complex business scenarios."
