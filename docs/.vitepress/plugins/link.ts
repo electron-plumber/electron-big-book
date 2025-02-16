@@ -102,7 +102,7 @@ export const linkPlugin = (
         'man,mid,midi,mjs,mov,mp2,mp3,mp4,mpe,mpeg,mpg,mpp,oga,ogg,ogv,ogx,' +
         'opus,otf,p10,p7c,p7m,p7s,pdf,png,ps,qt,roff,rtf,rtx,ser,svg,t,tif,' +
         'tiff,tr,ts,tsv,ttf,txt,vtt,wav,weba,webm,webp,woff,woff2,xhtml,xml,' +
-        'yaml,yml,zip' +
+        'yaml,yml,zip,pptx' +
         (extraExts && typeof extraExts === 'string' ? ',' + extraExts : '')
       )
         .split(',')
