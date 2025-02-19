@@ -37,6 +37,6 @@ const locale = computed(() => heroContentLocale[lang.value])
 
 .hero-content-footer {
   opacity: 0;
-  animation: fadeIn 1s cubic-bezier(1, 1, 1, 1) 0.3s forwards;
+  animation: fadeIn 1s cubic-bezier(1, 1, 1, 1) 0.6s forwards;
 }
 </style>
