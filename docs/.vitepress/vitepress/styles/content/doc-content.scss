@@ -11,8 +11,13 @@
       width: 100%;
     }
 
+    // todo: Screen wider than 1482px are not current support, Need to be adjusted to % dynamic response
     @include respond-to('xxl') {
-      width: var(--vp-content-width);
+      min-width: var(--vp-content-width);
+
+      .fit-toc {
+        min-width: 1000px;
+      }
     }
   }
 

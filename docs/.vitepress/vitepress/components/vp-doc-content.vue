@@ -9,9 +9,9 @@ const { page } = useData()
 <template>
   <div class="doc-content-wrapper">
     <div class="doc-content-container">
-      <Content class="doc-content" />
+      <Content :class="['doc-content', {'fit-toc': page.headers.length == 0}]" />
       <VPPageNav />
     </div>
-    <VPTableOfContent v-if="page.headers" />
+    <VPTableOfContent v-if="page.headers.length > 0" />
   </div>
 </template>
