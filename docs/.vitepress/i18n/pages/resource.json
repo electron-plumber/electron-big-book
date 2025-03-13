@@ -5,16 +5,18 @@
       "children": [
         {
           "text": "1.课程在线观看",
-          "link": "/1.课程在线观看"
+          "link": "/1.课程在线观看",
+          "promotion": "Pending"
         },
         {
           "text": "2.课程离线观看",
-          "link": "/2.课程离线观看"
+          "link": "/2.课程离线观看",
+          "promotion": "Pending"
         },
         {
           "text": "3.语言转换",
           "link": "/3.语言转换",
-          "promotion": "仅供参考"
+          "promotion": "Pending"
         }
       ]
     }
