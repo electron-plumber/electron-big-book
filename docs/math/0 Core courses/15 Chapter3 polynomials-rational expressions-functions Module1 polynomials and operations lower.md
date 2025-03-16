@@ -1,5 +1,5 @@
 ---
-title: Chapter3 polynomials,rational expressions,functions Module1 polynomials and operations lower
+title: Chapter3 polynomials-rational expressions-functions Module1 polynomials and operations lower
 lang: en-US
 ---
 

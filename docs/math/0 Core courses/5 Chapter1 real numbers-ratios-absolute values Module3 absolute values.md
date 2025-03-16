@@ -1,10 +1,12 @@
 ---
-title: Chapter3 polynomials,rational expressions,functions Module2 rational expressions Module3 quadratic functions
+title: Chapter1 real numbers-ratios-absolute values Module3 absolute values
 lang: en-US
 ---
 
 | Platforms | Courses                                                                                      | Coursewares                                                       |
 |-----------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| YouTube   | [Watch](https://www.youtube.com/watch?v=ZPNYstpg-VU&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s) | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
+| YouTube   | [Watch](https://www.youtube.com/watch?v=cL4l9Ed5w-Q&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s) | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
 | Untitled  | Pending                                                                                      |                                                                   |
+
+
 

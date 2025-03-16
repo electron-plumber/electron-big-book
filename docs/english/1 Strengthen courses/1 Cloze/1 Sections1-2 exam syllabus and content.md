@@ -1,5 +1,5 @@
 ---
-title: Sections1,2 exam syllabus and content
+title: Sections1-2 exam syllabus and content
 lang: en-US
 ---
 

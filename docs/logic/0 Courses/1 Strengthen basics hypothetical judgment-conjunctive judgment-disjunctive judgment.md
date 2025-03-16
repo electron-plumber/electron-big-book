@@ -1,5 +1,5 @@
 ---
-title: Strengthen basics hypothetical judgment,conjunctive judgment,disjunctive judgment
+title: Strengthen basics hypothetical judgment-conjunctive judgment-disjunctive judgment
 lang: en-US
 ---
 

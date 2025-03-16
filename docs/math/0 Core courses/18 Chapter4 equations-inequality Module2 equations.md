@@ -1,5 +1,5 @@
 ---
-title: Chapter4 equations,inequality Module2 equations
+title: Chapter4 equations-inequality Module2 equations
 lang: en-US
 ---
 
