@@ -30,20 +30,20 @@ export default {
   themeConfig: {
     sidebars,
     nav,
-    // 使用DocSearchScraper手动爬取本地sitemap.xml地址内容推送(搜索api密钥)
+    // Use DocSearchScraper to manually crawl local sitemap.xml address content push(search api key)
     // agolia: {
     //   apiKey: 'f6c169e48ebc81ecfaad4657c39c9ba4',
     //   indexName: 'note-mba',
     //   appId: 'PVEXLTFZ5B',
     // },
-    // 使用 https://docsearch.algolia.com/apply 审核通过(搜索api密钥)
+    // Use https://docsearch.algolia.com/apply Approved(search api key)
     agolia: {
       apiKey: 'c8e09bde038a34837750f74707e89bac',
       indexName: 'dolphinx',
       appId: 'H7A0XFYKI1',
     },
   },
-  lang: 'zh-CN',
+  lang: 'en-US',
   markdown: {
     config: (md) => {
       md.use(tableWrapper)

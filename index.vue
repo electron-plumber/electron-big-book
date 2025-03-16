@@ -1,8 +1,8 @@
 <template>
 <!--
-用作github Languages语言统计，
-github不会检测docs、examples目录下的文件，
-所以不会显示Languages模块
+used as github linguist detection,
+github will not detect docs、examples directory of files,
+so not show languages module
 -->
 </template>
 

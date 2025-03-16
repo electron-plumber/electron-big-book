@@ -1,25 +1,25 @@
 import logic from '../i18n/pages/logic.json'
 import math from '../i18n/pages/math.json'
 import english from '../i18n/pages/english.json'
-import write from '../i18n/pages/write.json'
-import resource from '../i18n/pages/resource.json'
-import jvm from '../i18n/pages/java/1.jvm.json'
-import concurrentProgramming from '../i18n/pages/java/2.concurrent-programming.json'
-
-function getLogicSidebar() {
-  return Object.fromEntries(
-    Object.entries(logic).map(([lang, val]) => [
-      lang,
-      Object.values(val).map((item) => mapPrefix(item, lang, "/logic")),
-    ])
-  )
-}
+import writing from '../i18n/pages/writing.json'
+import resources from '../i18n/pages/resources.json'
+import jvm from '../i18n/pages/java/jvm.json'
+import javaConcurrentProgramming from '../i18n/pages/java/java-concurrent-programming.json'
 
 function getMathSideBar() {
   return Object.fromEntries(
     Object.entries(math).map(([lang, val]) => [
       lang,
       Object.values(val).map((item) => mapPrefix(item, lang, '/math')),
+    ])
+  )
+}
+
+function getLogicSidebar() {
+  return Object.fromEntries(
+    Object.entries(logic).map(([lang, val]) => [
+      lang,
+      Object.values(val).map((item) => mapPrefix(item, lang, "/logic")),
     ])
   )
 }
@@ -33,20 +33,20 @@ function getEnglishSideBar() {
   )
 }
 
-function getWriteSideBar() {
+function getWritingSideBar() {
   return Object.fromEntries(
-    Object.entries(write).map(([lang, val]) => [
+    Object.entries(writing).map(([lang, val]) => [
       lang,
-      Object.values(val).map((item) => mapPrefix(item, lang, '/write')),
+      Object.values(val).map((item) => mapPrefix(item, lang, '/writing')),
     ])
   )
 }
 
-function getResourceSideBar() {
+function getResourcesSideBar() {
   return Object.fromEntries(
-    Object.entries(resource).map(([lang, val]) => [
+    Object.entries(resources).map(([lang, val]) => [
       lang,
-      Object.values(val).map((item) => mapPrefix(item, lang, '/resource')),
+      Object.values(val).map((item) => mapPrefix(item, lang, '/resources')),
     ])
   )
 }
@@ -56,17 +56,17 @@ function getJvmSideBar() {
   return Object.fromEntries(
     Object.entries(jvm).map(([lang, val]) => [
       lang,
-      Object.values(val).map((item) => mapPrefix(item, lang, '/java/1.jvm')),
+      Object.values(val).map((item) => mapPrefix(item, lang, '/java/1 Jvm')),
     ])
   )
 }
 
 
-function getConcurrentProgrammingSideBar() {
+function getJavaConcurrentProgrammingSideBar() {
   return Object.fromEntries(
-    Object.entries(concurrentProgramming).map(([lang, val]) => [
+    Object.entries(javaConcurrentProgramming).map(([lang, val]) => [
       lang,
-      Object.values(val).map((item) => mapPrefix(item, lang, '/java/2.concurrentProgramming')),
+      Object.values(val).map((item) => mapPrefix(item, lang, '/java/2 Java concurrent programming')),
     ])
   )
 }
@@ -78,10 +78,10 @@ const getSidebars = () => {
     '/logic/': getLogicSidebar(),
     '/math/': getMathSideBar(),
     '/english/': getEnglishSideBar(),
-    '/write/': getWriteSideBar(),
-    '/resource/': getResourceSideBar(),
-    '/java/1.jvm/': getJvmSideBar(),
-    '/java/2.concurrentProgramming/': getConcurrentProgrammingSideBar(),
+    '/writing/': getWritingSideBar(),
+    '/resources/': getResourcesSideBar(),
+    '/java/1 Jvm/': getJvmSideBar(),
+    '/java/2 Java concurrent programming/': getJavaConcurrentProgrammingSideBar(),
   }
 }
 

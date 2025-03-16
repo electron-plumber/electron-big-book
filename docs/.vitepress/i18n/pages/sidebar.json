@@ -1,49 +1,49 @@
 {
-  "zh-CN": [
-    {
-      "text": "Logic",
-      "link": "/logic/1.逻辑-基础课/1.【管综逻辑基础课】导学总述",
-      "activeMatch": "/logic/",
-      "home-card-type": "logic",
-      "description": "MAB logical reasoning section primarily assesses the candidate's ability to understand, analyze, judge, and synthesize various pieces of information, as well as their logical thinking skills in reasoning, argumentation, comparison, and evaluation."
-    },
+  "en-US": [
     {
       "text": "Math",
-      "link": "/math/1.数学-基础强化课/1.专项强化-管综（数学）导学（上）",
+      "link": "/math/0 Core courses/1 Guidance upper",
       "activeMatch": "/math/",
       "home-card-type": "math",
       "description": "Mathematics is a human tool for describing, understanding and revealing the laws of nature in an abstract and logical way, and a language for expressing those laws."
     },
     {
       "text": "English",
-      "link": "/english/1.英语二-基础课/1.【考研英语】基础必修词汇1",
+      "link": "/english/0 Courses/1 Strengthen basics vocabulary medium frequency",
       "activeMatch": "/english/",
       "home-card-type": "english",
       "description": "English section of the MBA exam in China, known as English II, is generally considered to have a lower difficulty level, focusing on basic language proficiency and practical business communication skills."
     },
     {
-      "text": "Write",
-      "link": "/write/1.写作-基础强化课/1.专项强化-管综（写作）第1讲：论证有效性分析大纲解析",
-      "activeMatch": "/write/",
-      "home-card-type": "write",
-      "description": "MAB Write reasoning section primarily assesses candidates' ability to construct clear, coherent, and persuasive arguments, demonstrating effective communication skills and critical thinking in addressing complex business scenarios."
+      "text": "Logic",
+      "link": "/logic/0 Courses/1 Strengthen basics hypothetical judgment,conjunctive judgment,disjunctive judgment",
+      "activeMatch": "/logic/",
+      "home-card-type": "logic",
+      "description": "MAB logical reasoning section primarily assesses the candidate's ability to understand, analyze, judge, and synthesize various pieces of information, as well as their logical thinking skills in reasoning, argumentation, comparison, and evaluation."
     },
     {
-      "text": "Resource",
-      "link": "/resource/1.课程在线观看",
-      "activeMatch": "/resource/",
-      "home-card-type": "resource",
-      "description": "master of management resource."
+      "text": "Writing",
+      "link": "/writing/0 Core courses/1 Argument effectiveness syllabus",
+      "activeMatch": "/writing/",
+      "home-card-type": "writing",
+      "description": "MAB Writing reasoning section primarily assesses candidates' ability to construct clear, coherent, and persuasive arguments, demonstrating effective communication skills and critical thinking in addressing complex business scenarios."
+    },
+    {
+      "text": "Resources",
+      "link": "/resources/1 Mock exam",
+      "activeMatch": "/resources/",
+      "home-card-type": "resources",
+      "description": "master of management resources."
     },
     {
       "text": "Jvm",
-      "link": "/java/1.jvm/1.虚拟机的前世今生和JVM内存区域",
-      "activeMatch": "/java/1.jvm/"
+      "link": "/java/1 Jvm/1 Jvm memory areas",
+      "activeMatch": "/java/1 Jvm/"
     },
     {
-      "text": "并发编程",
-      "link": "/java/2.concurrentProgramming/1.java线程的本质、线程模型",
-      "activeMatch": "/java/2.concurrentProgramming/"
+      "text": "Java concurrent programming",
+      "link": "/java/2 Java concurrent programming/1 Java thread model",
+      "activeMatch": "/java/2 Java concurrent programming/"
     }
   ]
 }

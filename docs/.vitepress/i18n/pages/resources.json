@@ -1,0 +1,29 @@
+{
+  "en-US": {
+    "resources": {
+      "text": "",
+      "children": [
+        {
+          "text": "Mock exam",
+          "link": "/1 Mock exam",
+          "promotion": "Pending"
+        },
+        {
+          "text": "Past exam resolve",
+          "link": "/2 Past exam resolve",
+          "promotion": "Pending"
+        },
+        {
+          "text": "Interview",
+          "link": "/3 Interview",
+          "promotion": "Pending"
+        },
+        {
+          "text": "Fetch",
+          "link": "/4 Fetch",
+          "promotion": "Pending"
+        }
+      ]
+    }
+  }
+}

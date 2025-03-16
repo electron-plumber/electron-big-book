@@ -46,7 +46,7 @@ export const linkPlugin = (
           hrefAttr[1] = decodeURI(hrefAttr[1])
         }
 
-        // 去掉资源文件的public目录,vite不处理data-src的路径编译,有public会找不到文件
+        // remove the public directory of the resource file,vite does not process path compilation of data-src,exists public will not find file
         hrefAttr[1] = `${decodeURIComponent(hrefAttr[1]).replace(/public\//, '/')}`
                                                         .replace(/\/+/g, '/')
       }

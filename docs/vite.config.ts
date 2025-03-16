@@ -30,9 +30,9 @@ export default defineConfig({
   },
 
   build: {
-    // 关闭 brotliSize 显示可以稍微减少打包时间
+    // Turning off brotliSize display can slightly deduce packaging time
     brotliSize: false,
-    // 设置块大小警告限制提示
+    // Set block size warning limit prompt
     chunkSizeWarningLimit: 2000,
   },
 

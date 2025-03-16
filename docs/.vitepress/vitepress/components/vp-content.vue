@@ -28,7 +28,8 @@ watch(
 )
 
 onUpdated(() => {
-  // safari:延迟更新,导航栏才对点击后会VPDocContent内容会缓存,导致onUpdated比clickEventListener先执行
+  // Safari:solve init order wrong,lead to onUpdated than clickEventListener execute first
+  // Delay updating navigation bar only then will VPDocContent content will be cached after click
   setTimeout(() => {
     if (shouldUpdateProgress.value) {
       nprogress.done()

@@ -1,237 +1,183 @@
 {
-  "zh-CN": {
-    "1.数学-基础强化课": {
-      "text": "1.数学-基础强化课",
+  "en-US": {
+    "core-courses": {
+      "text": "Core courses",
       "children": [
         {
-          "text": "1.专项强化-管综（数学）导学（上）",
-          "link": "/1.数学-基础强化课/1.专项强化-管综（数学）导学（上）"
+          "text": "Guidance upper",
+          "link": "/0 Core courses/1 Guidance upper"
         },
         {
-          "text": "2.专项强化-管综（数学）导学（下）",
-          "link": "/1.数学-基础强化课/2.专项强化-管综（数学）导学（下）"
+          "text": "Guidance lower",
+          "link": "/0 Core courses/2 Guidance lower"
         },
         {
-          "text": "3.专项强化-管综（数学）第1章 实数、比例、绝对值-模块1整数、分数与小数",
-          "link": "/1.数学-基础强化课/3.专项强化-管综（数学）第1章 实数、比例、绝对值-模块1整数、分数与小数"
+          "text": "Chapter1 real numbers,ratios,absolute values Module1 integers,fractions and decimals",
+          "link": "/0 Core courses/3 Chapter1 real numbers,ratios,absolute values Module1 integers,fractions and decimals"
         },
         {
-          "text": "4.专项强化-管综（数学）第1章 实数、比例、绝对值-模块2比与比例",
-          "link": "/1.数学-基础强化课/4.专项强化-管综（数学）第1章 实数、比例、绝对值-模块2比与比例"
+          "text": "Chapter1 real numbers,ratios,absolute values Module2 ratios and proportions",
+          "link": "/0 Core courses/4 Chapter1 real numbers,ratios,absolute values Module2 ratios and proportions"
         },
         {
-          "text": "5.专项强化-管综（数学）第1章 实数、比例、绝对值-模块3绝对值",
-          "link": "/1.数学-基础强化课/5.专项强化-管综（数学）第1章 实数、比例、绝对值-模块3绝对值"
+          "text": "Chapter1 real numbers,ratios,absolute values Module3 absolute values",
+          "link": "/0 Core courses/5 Chapter1 real numbers,ratios,absolute values Module3 absolute values"
         },
         {
-          "text": "6.专项强化-管综（数学）第2章 应用题-模块1比例及百分率",
-          "link": "/1.数学-基础强化课/6.专项强化-管综（数学）第2章 应用题-模块1比例及百分率"
+          "text": "Chapter2 word problems Module1 ratios and percentages",
+          "link": "/0 Core courses/6 Chapter2 word problems Module1 ratios and percentages"
         },
         {
-          "text": "7.专项强化-管综（数学）第2章 应用题-模块2商品利润",
-          "link": "/1.数学-基础强化课/7.专项强化-管综（数学）第2章 应用题-模块2商品利润"
+          "text": "Chapter2 word problems Module2 product profits",
+          "link": "/0 Core courses/7 Chapter2 word problems Module2 product profits"
         },
         {
-          "text": "8.专项强化-管综（数学）第2章 应用题-模块3路程问题（上）",
-          "link": "/1.数学-基础强化课/8.专项强化-管综（数学）第2章 应用题-模块3路程问题（上）"
+          "text": "Chapter2 word problems Module3 distance problems upper",
+          "link": "/0 Core courses/8 Chapter2 word problems Module3 distance problems upper"
         },
         {
-          "text": "9.专项强化-管综（数学）第2章 应用题-模块3路程问题（中）",
-          "link": "/1.数学-基础强化课/9.专项强化-管综（数学）第2章 应用题-模块3路程问题（中）"
+          "text": "Chapter2 word problems Module3 distance problems middle",
+          "link": "/0 Core courses/9 Chapter2 word problems Module3 distance problems middle"
         },
         {
-          "text": "10.专项强化-管综（数学）第2章 应用题-模块3路程问题（下）",
-          "link": "/1.数学-基础强化课/10.专项强化-管综（数学）第2章 应用题-模块3路程问题（下）"
+          "text": "Chapter2 word problems Module3 distance problems lower",
+          "link": "/0 Core courses/10 Chapter2 word problems Module3 distance problems lower"
         },
         {
-          "text": "11.专项强化-管综（数学）第2章 应用题-模块4工程问题",
-          "link": "/1.数学-基础强化课/11.专项强化-管综（数学）第2章 应用题-模块4工程问题"
+          "text": "Chapter2 word problems Module4 engineering problems",
+          "link": "/0 Core courses/11 Chapter2 word problems Module4 engineering problems"
         },
         {
-          "text": "12.专项强化-管综（数学）第2章 应用题-模块5交叉比例法、模块6溶液浓度",
-          "link": "/1.数学-基础强化课/12.专项强化-管综（数学）第2章 应用题-模块5交叉比例法、模块6溶液浓度"
+          "text": "Chapter2 word problems Module5 cross proportional method Module6 solution concentrations",
+          "link": "/0 Core courses/12 Chapter2 word problems Module5 cross proportional method Module6 solution concentrations"
         },
         {
-          "text": "13.专项强化-管综（数学）第3章 整式分式与函数-模块1整式及其运算（上）",
-          "link": "/1.数学-基础强化课/13.专项强化-管综（数学）第3章 整式分式与函数-模块1整式及其运算（上）"
+          "text": "Chapter3 polynomials,rational expressions,functions Module1 polynomials and operations upper",
+          "link": "/0 Core courses/13 Chapter3 polynomials,rational expressions,functions Module1 polynomials and operations upper"
         },
         {
-          "text": "14.专项强化-管综（数学）第3章 整式分式与函数-模块1整式及其运算（中）",
-          "link": "/1.数学-基础强化课/14.专项强化-管综（数学）第3章 整式分式与函数-模块1整式及其运算（中）"
+          "text": "Chapter3 polynomials,rational expressions,functions Module1 polynomials and operations middle",
+          "link": "/0 Core courses/14 Chapter3 polynomials,rational expressions,functions Module1 polynomials and operations middle"
         },
         {
-          "text": "15.专项强化-管综（数学）第3章 整式分式与函数-模块1整式及其运算（下）",
-          "link": "/1.数学-基础强化课/15.专项强化-管综（数学）第3章 整式分式与函数-模块1整式及其运算（下）"
+          "text": "Chapter3 polynomials,rational expressions,functions Module1 polynomials and operations lower",
+          "link": "/0 Core courses/15 Chapter3 polynomials,rational expressions,functions Module1 polynomials and operations lower"
         },
         {
-          "text": "16.专项强化-管综（数学）第3章 整式分式与函数-模块2分式、模块3一元二次函数",
-          "link": "/1.数学-基础强化课/16.专项强化-管综（数学）第3章 整式分式与函数-模块2分式、模块3一元二次函数"
+          "text": "Chapter3 polynomials,rational expressions,functions Module2 rational expressions Module3 quadratic functions",
+          "link": "/0 Core courses/16 Chapter3 polynomials,rational expressions,functions Module2 rational expressions Module3 quadratic functions"
         },
         {
-          "text": "17.专项强化-管综（数学）第4章 方程与不等式-不等式",
-          "link": "/1.数学-基础强化课/17.专项强化-管综（数学）第4章 方程与不等式-不等式"
+          "text": "Chapter4 equations,inequality Module1 inequality",
+          "link": "/0 Core courses/17 Chapter4 equations,inequality Module1 inequality"
         },
         {
-          "text": "18.专项强化-管综（数学）第4章 方程与不等式-方程",
-          "link": "/1.数学-基础强化课/18.专项强化-管综（数学）第4章 方程与不等式-方程"
+          "text": "Chapter4 equations,inequality Module2 equations",
+          "link": "/0 Core courses/18 Chapter4 equations,inequality Module2 equations"
         },
         {
-          "text": "19.专项强化-管综（数学）第5章 数列-模块1数列定义",
-          "link": "/1.数学-基础强化课/19.专项强化-管综（数学）第5章 数列-模块1数列定义"
+          "text": "Chapter5 sequence Module1 sequence definition",
+          "link": "/0 Core courses/19 Chapter5 sequence Module1 sequence definition"
         },
         {
-          "text": "20.专项强化-管综（数学）第5章 数列-模块2等差数列（上）",
-          "link": "/1.数学-基础强化课/20.专项强化-管综（数学）第5章 数列-模块2等差数列（上）"
+          "text": "Chapter5 sequences Module2 arithmetic sequences upper",
+          "link": "/0 Core courses/20 Chapter5 sequences Module2 arithmetic sequences upper"
         },
         {
-          "text": "21.专项强化-管综（数学）第5章 数列-模块2等差数列（下）",
-          "link": "/1.数学-基础强化课/21.专项强化-管综（数学）第5章 数列-模块2等差数列（下）"
+          "text": "Chapter5 sequences Module2 arithmetic sequences lower",
+          "link": "/0 Core courses/21 Chapter5 sequences Module2 arithmetic sequences lower"
         },
         {
-          "text": "22.专项强化-管综（数学）第5章 数列-模块3等比数列",
-          "link": "/1.数学-基础强化课/22.专项强化-管综（数学）第5章 数列-模块3等比数列"
+          "text": "Chapter5 sequences Module3 geometric sequences",
+          "link": "/0 Core courses/22 Chapter5 sequences Module3 geometric sequences"
         },
         {
-          "text": "23.专项强化-管综（数学）第6章 平面几何-模块1平行直线、模块2三角形（上）",
-          "link": "/1.数学-基础强化课/23.专项强化-管综（数学）第6章 平面几何-模块1平行直线、模块2三角形（上）"
+          "text": "Chapter6 plane geometry Module1 parallel lines Module2 triangles upper",
+          "link": "/0 Core courses/23 Chapter6 plane geometry Module1 parallel lines Module2 triangles upper"
         },
         {
-          "text": "24.专项强化-管综（数学）第6章 平面几何-模块2三角形（中）",
-          "link": "/1.数学-基础强化课/24.专项强化-管综（数学）第6章 平面几何-模块2三角形（中）"
+          "text": "Chapter6 plane geometry Module2 triangles middle",
+          "link": "/0 Core courses/24 Chapter6 plane geometry Module2 triangles middle"
         },
         {
-          "text": "25.专项强化-管综（数学）第6章 平面几何-模块2三角形（下）",
-          "link": "/1.数学-基础强化课/25.专项强化-管综（数学）第6章 平面几何-模块2三角形（下）"
+          "text": "Chapter6 plane geometry Module2 triangles lower",
+          "link": "/0 Core courses/25 Chapter6 plane geometry Module2 triangles lower"
         },
         {
-          "text": "26.专项强化-管综（数学）第6章 平面几何-模块3四边形",
-          "link": "/1.数学-基础强化课/26.专项强化-管综（数学）第6章 平面几何-模块3四边形"
+          "text": "Chapter6 plane geometry Module3 quadrilaterals",
+          "link": "/0 Core courses/26 Chapter6 plane geometry Module3 quadrilaterals"
         },
         {
-          "text": "27.专项强化-管综（数学）第7章 解析几何-模块1平面直角坐标系、模块2直线（上）",
-          "link": "/1.数学-基础强化课/27.专项强化-管综（数学）第7章 解析几何-模块1平面直角坐标系、模块2直线（上）"
+          "text": "Chapter7 resolve geometry Module1 rectangular coordinate system Module2 straight line upper",
+          "link": "/0 Core courses/27 Chapter7 resolve geometry Module1 rectangular coordinate system Module2 straight line upper"
         },
         {
-          "text": "28.专项强化-管综（数学）第7章 解析几何-模块2直线（下）",
-          "link": "/1.数学-基础强化课/28.专项强化-管综（数学）第7章 解析几何-模块2直线（下）"
+          "text": "Chapter7 resolve geometry Module2 straight line lower",
+          "link": "/0 Core courses/28 Chapter7 resolve geometry Module2 straight line lower"
         },
         {
-          "text": "29.专项强化-管综（数学）第7章 解析几何-模块3圆",
-          "link": "/1.数学-基础强化课/29.专项强化-管综（数学）第7章 解析几何-模块3圆"
+          "text": "Chapter7 resolve geometry Module3 circle",
+          "link": "/0 Core courses/29 Chapter7 resolve geometry Module3 circle"
         },
         {
-          "text": "30.专项强化-管综（数学）第8章 立体几何",
-          "link": "/1.数学-基础强化课/30.专项强化-管综（数学）第8章 立体几何"
+          "text": "Chapter8 solid geometry",
+          "link": "/0 Core courses/30 Chapter8 solid geometry"
         },
         {
-          "text": "31.专项强化-管综（数学）第9章 排列组合-模块1基本理论知识",
-          "link": "/1.数学-基础强化课/31.专项强化-管综（数学）第9章 排列组合-模块1基本理论知识"
+          "text": "Chapter9 permutations and combinations Module1 basic theoretical knowledge",
+          "link": "/0 Core courses/31 Chapter9 permutations and combinations Module1 basic theoretical knowledge"
         },
         {
-          "text": "32.专项强化-管综（数学）第9章 排列组合-模块2六大基本方法",
-          "link": "/1.数学-基础强化课/32.专项强化-管综（数学）第9章 排列组合-模块2六大基本方法"
+          "text": "Chapter9 permutations and combinations Module2 six basic methods",
+          "link": "/0 Core courses/32 Chapter9 permutations and combinations Module2 six basic methods"
         },
         {
-          "text": "33.专项强化-管综（数学）第10章 概率初步",
-          "link": "/1.数学-基础强化课/33.专项强化-管综（数学）第10章 概率初步"
+          "text": "Chapter10 probability preliminary",
+          "link": "/0 Core courses/33 Chapter10 probability preliminary"
         },
         {
-          "text": "34.专项强化-管综（数学）第11章 数据描述",
-          "link": "/1.数学-基础强化课/34.专项强化-管综（数学）第11章 数据描述"
+          "text": "Chapter11 data description",
+          "link": "/0 Core courses/34 Chapter11 data description"
         },
         {
-          "text": "35.专项强化-管综（数学）幂函数-锥体",
-          "link": "/1.数学-基础强化课/35.专项强化-管综（数学）幂函数-锥体"
+          "text": "Chapter12 power function and cone",
+          "link": "/0 Core courses/35 Chapter12 power function and cone"
         }
       ]
     },
-    "2.数学-正式课": {
-      "text": "2.数学-正式课",
+    "courses": {
+      "text": "Courses",
       "children": [
         {
-          "text": "1.基础必修—管综（数学）排列组合（20240109）",
-          "link": "/2.数学-正式课/1.基础必修—管综（数学）排列组合（20240109）"
-        },
-        {
-          "text": "2.基础必修—管综（数学）概率（20240111）",
-          "link": "/2.数学-正式课/2.基础必修—管综（数学）概率（20240111）"
-        },
-        {
-          "text": "3.基础必修-管综（数学）应用题（一）（20240116）",
-          "link": "/2.数学-正式课/3.基础必修-管综（数学）应用题（一）（20240116）"
-        },
-        {
-          "text": "4.基础必修-管综（数学）应用题（二）（20240121）",
-          "link": "/2.数学-正式课/4.基础必修-管综（数学）应用题（二）（20240121）"
-        },
-        {
-          "text": "5.基础必修—管综（数学）算术（20240123）",
-          "link": "/2.数学-正式课/5.基础必修—管综（数学）算术（20240123）"
-        },
-        {
-          "text": "6.基础必修—管综（数学）整式与分式（20240125）",
-          "link": "/2.数学-正式课/6.基础必修—管综（数学）整式与分式（20240125）"
-        },
-        {
-          "text": "7.基础必修—管综（数学）函数方程（20240227）",
-          "link": "/2.数学-正式课/7.基础必修—管综（数学）函数方程（20240227）"
-        },
-        {
-          "text": "8.基础必修—管综（数学）不等式（20240229）",
-          "link": "/2.数学-正式课/8.基础必修—管综（数学）不等式（20240229）"
-        },
-        {
-          "text": "9.基础必修—管综（数学）等差数列（20240305）",
-          "link": "/2.数学-正式课/9.基础必修—管综（数学）等差数列（20240305）"
-        },
-        {
-          "text": "10.基础必修—管综（数学）等比数列（20240307）",
-          "link": "/2.数学-正式课/10.基础必修—管综（数学）等比数列（20240307）"
-        },
-        {
-          "text": "11.基础必修—管综（数学）解析几何（20240312）",
-          "link": "/2.数学-正式课/11.基础必修—管综（数学）解析几何（20240312）"
-        },
-        {
-          "text": "12.基础必修—管综（数学）平面几何与立体几何（20240314）",
-          "link": "/2.数学-正式课/12.基础必修—管综（数学）平面几何与立体几何（20240314）"
-        },
-        {
-          "text": "13.专题串讲课—管综（数学）1（20240706）",
-          "link": "/2.数学-正式课/13.专题串讲课—管综（数学）1（20240706）"
-        },
-        {
-          "text": "14.专题串讲课—管综（数学）2（20240706）",
-          "link": "/2.数学-正式课/14.专题串讲课—管综（数学）2（20240706）"
-        },
-        {
-          "text": "15.专题串讲课—管综（数学）3（20240713）",
-          "link": "/2.数学-正式课/15.专题串讲课—管综（数学）3（20240713）"
-        },
-        {
-          "text": "16.专题串讲课—管综（数学）4（20240713）",
-          "link": "/2.数学-正式课/16.专题串讲课—管综（数学）4（20240713）"
-        },
-        {
-          "text": "17.专题串讲课—管综（数学）5（20240715）",
-          "link": "/2.数学-正式课/17.专题串讲课—管综（数学）5（20240715）"
-        },
-        {
-          "text": "18.专题串讲课—管综（数学）6（20240717）",
-          "link": "/2.数学-正式课/18.专题串讲课—管综（数学）6（20240717）"
-        },
-        {
-          "text": "19.题海巩固课—管综（数学）（20240724）",
-          "link": "/2.数学-正式课/19.题海巩固课—管综（数学）（20240724）"
+          "text": "Strengthen basics permutations and combinations",
+          "link": "/1 Courses/1 Strengthen basics permutations and combinations"
         }
       ]
     },
-    "3.139分-数学课": {
-      "text": "3.139分-数学课",
+    "beginner-courses": {
+      "text": "Beginner courses",
       "children": [
         {
-          "text": "1.139核心考点",
-          "link": "/3.139分-数学课/1.139核心考点"
+          "text": "Guidance",
+          "link": "/2 Beginner courses/1 Guidance"
+        }
+      ]
+    },
+    "basic-courses": {
+      "text": "Basic courses",
+      "children": [
+        {
+          "text": "Guidance",
+          "link": "/3 Basic courses/1 Guidance"
+        }
+      ]
+    },
+    "139-points-courses": {
+      "text": "139 Points courses",
+      "children": [
+        {
+          "text": "Point1 real numbers",
+          "link": "/4 139 Points courses/1 Point1 real numbers"
         }
       ]
     }

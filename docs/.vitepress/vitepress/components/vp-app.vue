@@ -23,7 +23,7 @@
   })
 
   const route = useRoute();
-  // 初始化点击图片放大
+  // Initialization click the image zoom
   const initZoom = () => {
     //mediumZoom('[data-zoomable]', { background: 'var(--bg-color)' });
     mediumZoom('.doc-content img:not(a img)', { background: 'var(--bg-color)' });

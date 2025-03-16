@@ -1,96 +1,74 @@
 {
-  "zh-CN": {
-    "1.英语二-基础课": {
-      "text": "1.英语二-基础课",
+  "en-US": {
+    "courses": {
+      "text": "Courses",
       "children": [
         {
-          "text": "1.【考研英语】基础必修词汇1",
-          "link": "/1.英语二-基础课/1.【考研英语】基础必修词汇1"
-        },
-        {
-          "text": "2.【考研英语】基础必修词汇2",
-          "link": "/1.英语二-基础课/2.【考研英语】基础必修词汇2"
-        },
-        {
-          "text": "3.【考研英语】基础必修词汇3",
-          "link": "/1.英语二-基础课/3.【考研英语】基础必修词汇3"
-        },
-        {
-          "text": "4.【考研英语】基础必修词汇4",
-          "link": "/1.英语二-基础课/4.【考研英语】基础必修词汇4"
-        },
-        {
-          "text": "5.【考研英语】基础必修词汇5",
-          "link": "/1.英语二-基础课/5.【考研英语】基础必修词汇5"
-        },
-        {
-          "text": "6.【考研英语】基础必修词汇6",
-          "link": "/1.英语二-基础课/6.【考研英语】基础必修词汇6"
+          "text": "Strengthen basics vocabulary medium frequency",
+          "link": "/0 Courses/1 Strengthen basics vocabulary medium frequency"
         }
       ]
     },
-    "2.英语二-正式课": {
-      "text": "2.英语二-正式课",
+    "strengthen-courses": {
+      "text": "Strengthen courses",
       "children": [
         {
-          "text": "1.基础必修—英语（二）词汇（中频）（20231218）",
-          "link": "/2.英语二-正式课/1.基础必修—英语（二）词汇（中频）（20231218）"
+          "text": "Sections1,2 exam syllabus and content",
+          "link": "/1 Strengthen courses/1 Cloze/1 Sections1,2 exam syllabus and content",
+          "promotion": "Cloze"
         },
         {
-          "text": "2.基础必修—英语（二）语法（从句）（20231220）",
-          "link": "/2.英语二-正式课/2.基础必修—英语（二）语法（从句）（20231220）"
+          "text": "Sections1 exam syllabus",
+          "link": "/1 Strengthen courses/2 Translate/1 Sections1 exam syllabus",
+          "promotion": "Translate"
         },
         {
-          "text": "3.基础必修—英语（二）词汇（低频）（20231226）",
-          "link": "/2.英语二-正式课/3.基础必修—英语（二）词汇（低频）（20231226）"
+          "text": "A Sections1 exam syllabus",
+          "link": "/1 Strengthen courses/3 Reading comprehension/1 A Sections1 exam syllabus",
+          "promotion": "Reading comprehension"
         },
         {
-          "text": "4.基础必修—英语（二）语法（长难句）（20231228）",
-          "link": "/2.英语二-正式课/4.基础必修—英语（二）语法（长难句）（20231228）"
+          "text": "Part1 of section1",
+          "link": "/1 Strengthen courses/4 Writing/1 Part1 of section1",
+          "promotion": "Writing"
+        }
+      ]
+    },
+    "basic-courses": {
+      "text": "Basic courses",
+      "children": [
+        {
+          "text": "Basic vocabulary1",
+          "link": "/2 Basic courses/1 Basic vocabulary1"
         },
         {
-          "text": "5.基础必修—英语（二）词汇（高频）（20240102）",
-          "link": "/2.英语二-正式课/5.基础必修—英语（二）词汇（高频）（20240102）"
+          "text": "Basic vocabulary2",
+          "link": "/2 Basic courses/2 Basic vocabulary2"
         },
         {
-          "text": "6.基础必修—英语（二）语法（基础）（20240104）",
-          "link": "/2.英语二-正式课/6.基础必修—英语（二）语法（基础）（20240104）"
+          "text": "Basic vocabulary3",
+          "link": "/2 Basic courses/3 Basic vocabulary3"
         },
         {
-          "text": "7.专题串讲课—英语（二）阅读1（20240302）",
-          "link": "/2.英语二-正式课/7.专题串讲课—英语（二）阅读1（20240302）"
+          "text": "Basic vocabulary4",
+          "link": "/2 Basic courses/4 Basic vocabulary4"
         },
         {
-          "text": "8.专题串讲课—英语（二）阅读2（20240302）",
-          "link": "/2.英语二-正式课/8.专题串讲课—英语（二）阅读2（20240302）"
+          "text": "Basic vocabulary5",
+          "link": "/2 Basic courses/5 Basic vocabulary5"
         },
         {
-          "text": "9.题海巩固课—英语（二）阅读（20240309）",
-          "link": "/2.英语二-正式课/9.题海巩固课—英语（二）阅读（20240309）"
-        },
+          "text": "Basic vocabulary6",
+          "link": "/2 Basic courses/6 Basic vocabulary6"
+        }
+      ]
+    },
+    "60-points-courses": {
+      "text": "60 Points courses",
+      "children": [
         {
-          "text": "10.题海巩固课—英语（二）完型写作（20240316）",
-          "link": "/2.英语二-正式课/10.题海巩固课—英语（二）完型写作（20240316）"
-        },
-        {
-          "text": "11.专题串讲课—英语（二）完型（20240720）",
-          "link": "/2.英语二-正式课/11.专题串讲课—英语（二）完型（20240720）"
-        },
-        {
-          "text": "12.专题串讲课—英语（二）翻译（20240720）",
-          "link": "/2.英语二-正式课/12.专题串讲课—英语（二）翻译（20240720）"
-        },
-        {
-          "text": "13.题海巩固课—英语（二）完型翻译（20240727）",
-          "link": "/2.英语二-正式课/13.题海巩固课—英语（二）完型翻译（20240727）"
-        },
-        {
-          "text": "14.题海巩固课—英语（二）阅读（20240803）",
-          "link": "/2.英语二-正式课/14.题海巩固课—英语（二）阅读（20240803）"
-        },
-        {
-          "text": "15.题海巩固课—英语（二）完型翻译（20240815）",
-          "link": "/2.英语二-正式课/15.题海巩固课—英语（二）完型翻译（20240815）"
+          "text": "Point1 cloze",
+          "link": "/3 60 Points courses/1 Point1 cloze"
         }
       ]
     }

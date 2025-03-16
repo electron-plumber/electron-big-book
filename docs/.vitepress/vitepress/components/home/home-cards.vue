@@ -6,12 +6,12 @@
 
   const router = useRouter()
   const { lang } = useData(), navs = useNav(), homeLang = computed(() => homeLocale[lang.value])
-  // 固定首页标签
+  // Pin home page tab
   const targets = [
     'logic',
     'math',
     'english',
-    'write'
+    'writing'
   ];
   const fixedCard = navs.value.filter(item => targets.includes(item?.['home-card-type']))
 </script>
@@ -24,7 +24,7 @@
           <logic-svg v-if="item['home-card-type'] == 'logic' " w="25" m="t-12 b-10" />
           <math-svg v-if="item['home-card-type'] == 'math' " w="25" m="t-12 b-10" />
           <english-svg v-if="item['home-card-type'] == 'english' " w="25" m="t-12 b-10" />
-          <write-svg v-if="item['home-card-type'] == 'write' " w="25" m="t-12 b-10" />
+          <writing-svg v-if="item['home-card-type'] == 'writing' " w="25" m="t-12 b-10" />
           <h3>{{ item.text }}</h3>
           <p>{{ item.description }}</p>
         </el-scrollbar>

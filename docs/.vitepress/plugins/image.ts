@@ -15,7 +15,7 @@ export interface Options {
   asyncDecoding?: boolean
 }
 
-/** 匹配https外部url */
+/** Match https external url */
 const EXTERNAL_URL_RE = /^(?:[a-z]+:|\/\/)/i
 
 export const imagePlugin = (md: MarkdownIt, { lazyLoading, asyncDecoding }: Options = {}) => {
@@ -24,22 +24,22 @@ export const imagePlugin = (md: MarkdownIt, { lazyLoading, asyncDecoding }: Opti
     const token = tokens[idx]
     let url = token.attrGet('src')
     if (!/^\.?\//.test(url)) url = './' + url
-    // 解决idea拖入资源文件自动编码不处理解码会导致打包无法找到资源文件
+    // Solve idea drag in resource files automatic encoding,not handling decoding will lead to build unable to find resource file
     const decodeURI = decodeURIComponent(url)
     if (url && !EXTERNAL_URL_RE.test(url)) {
       token.attrSet('src', decodeURI)
     }
 
-    // lazysizes懒加载图片
+    // Lazysizes loading images
     if (lazyLoading) {
-      // 去掉资源文件的public目录,vite不处理data-src的路径编译,有public会找不到文件
+      // Remove public directory of resource file,vite does not process path compilation of data-src,exists public will not find file
       token.attrSet('data-src', decodeURI.replace(/public\//, '')
                                          .replace(/\/+/g, '/'))
       token.attrSet('src', '')
       token.attrSet('class', 'lazyload')
     }
 
-    // 异步解码图像数据,减少对页面渲染的阻塞
+    // Asynchronously decode image data,deduce blocking of page rendering
     if (asyncDecoding) {
       token.attrSet('decoding', 'async');
     }

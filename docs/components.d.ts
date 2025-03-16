@@ -42,7 +42,7 @@ declare module '@vue/runtime-core' {
     VpSubnav: typeof import('./.vitepress/vitepress/components/vp-subnav.vue')['default']
     VpTableOfContent: typeof import('./.vitepress/vitepress/components/doc-content/vp-table-of-content.vue')['default']
     VpThemeToggler: typeof import('./.vitepress/vitepress/components/navbar/vp-theme-toggler.vue')['default']
-    WriteSvg: typeof import('./.vitepress/vitepress/components/home/svg/write-svg.vue')['default']
+    WritingSvg: typeof import('./.vitepress/vitepress/components/home/svg/writing-svg.vue')['default']
   }
 }
 

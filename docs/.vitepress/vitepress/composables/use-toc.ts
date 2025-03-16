@@ -14,7 +14,7 @@ type Headers = EnhanceArrayElement<
 
 export const useToc = () => {
   const { page } = useData()
-  // 0.22.4版本不支持自定义headers，默认支持h2, h3
+  // 0.22.4 version not support customization headers，default support h2, h3
   // https://github.com/vuejs/vitepress/blob/v0.22.4/src/node/markdown/plugins/headings.ts
   return computed(() => resolveHeaders(page.value.headers))
 }

@@ -52,7 +52,7 @@ function startTyping() {
     <div ref="jumbotronRef" class="jumbotron">
       <div class="home-container">
         <div class="title">
-          <h1 class="typewriter">
+          <h1 class="typewriting">
             {{ state.typingText }}
           </h1>
           <h1 :class="['typing-suffix', { 'typing-suffix_fade-out': !state.typingSuffixDisplay }]">
@@ -94,7 +94,7 @@ function startTyping() {
           font-size: 35px;
         }
 
-        .typewriter {
+        .typewriting {
           transition: all 1s ease;
         }
       }

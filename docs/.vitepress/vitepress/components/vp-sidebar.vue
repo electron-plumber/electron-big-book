@@ -17,7 +17,7 @@ function autoScrollToActiveMenu() {
   const scrollContainer = document.querySelector(".el-scrollbar__wrap")
   const activeLink = document.querySelector(".el-scrollbar .link.active")
   if (scrollContainer && activeLink) {
-    // 计算目标元素相对于滚动容器的偏移量
+    // Calculate the offset of the target element relative to scroll container
     const targetPosition = activeLink.offsetTop - scrollContainer.offsetTop - 250
     scrollbar.value.scrollTo({ top: targetPosition })
   }
