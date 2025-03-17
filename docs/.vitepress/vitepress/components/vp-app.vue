@@ -23,7 +23,7 @@
   })
 
   const route = useRoute();
-  // Initialization click the image zoom
+  // Initialization clicks the image zoom
   const initZoom = () => {
     //mediumZoom('[data-zoomable]', { background: 'var(--bg-color)' });
     mediumZoom('.doc-content img:not(a img)', { background: 'var(--bg-color)' });

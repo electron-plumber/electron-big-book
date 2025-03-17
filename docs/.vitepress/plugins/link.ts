@@ -46,7 +46,8 @@ export const linkPlugin = (
           hrefAttr[1] = decodeURI(hrefAttr[1])
         }
 
-        // remove the public directory of the resource file,vite does not process path compilation of data-src,exists public will not find file
+        // remove the public directory of the resource file,
+        // vite doesn't process path compilation of data-src,exists public will not find a file
         hrefAttr[1] = `${decodeURIComponent(hrefAttr[1]).replace(/public\//, '/')}`
                                                         .replace(/\/+/g, '/')
       }
@@ -78,7 +79,7 @@ export const linkPlugin = (
       url = cleanUrl + parsed.search + parsed.hash
     }
 
-    // ensure leading . for relative paths
+    // ensure leading. for relative paths
     if (!url.startsWith('/') && !/^\.\//.test(url)) {
       url = './' + url
     }
@@ -95,7 +96,7 @@ export const linkPlugin = (
           (import.meta as any).env?.VITE_EXTRA_EXTENSIONS ||
           ''
 
-        // md, html? are intentionally omitted
+        // md, HTML? are intentionally omitted
       ;(
         '3g2,3gp,aac,ai,apng,au,avif,bin,bmp,cer,class,conf,crl,css,csv,dll,' +
         'doc,eps,epub,exe,gif,gz,ics,ief,jar,jpe,jpeg,jpg,js,json,jsonld,m4a,' +

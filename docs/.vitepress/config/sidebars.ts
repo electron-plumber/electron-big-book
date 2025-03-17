@@ -72,7 +72,7 @@ function getJavaConcurrentProgrammingSideBar() {
 }
 
 // return sidebar with language configs.
-// this might create duplicated data but the overhead is ignorable
+// this might create duplicated data, but the overhead is ignorable
 const getSidebars = () => {
   return {
     '/logic/': getLogicSidebar(),

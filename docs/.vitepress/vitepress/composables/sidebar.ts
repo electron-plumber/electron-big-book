@@ -59,7 +59,7 @@ export function getSidebarConfig(sidebar: Sidebar, path: string, lang: string) {
   }
   path = ensureStartingSlash(path)
   for (const dir in sidebar) {
-    // make sure the multi sidebar key starts with slash too
+    // make sure the multi-sidebar key starts with slash too
     if (path.startsWith(ensureStartingSlash(`${dir}`))) {
       return sidebar[dir][lang]
     }

@@ -78,7 +78,7 @@ function initialize(userOptions: any) {
             window.location.origin + suggestionUrl
           )
 
-          // Router doesn't handle same-page navigation so we use the native
+          // Router doesn't handle same-page navigation, so we use the native
           // browser location API for anchor navigation
           if (route.path === hitPathname) {
             window.location.assign(window.location.origin + suggestionUrl)
@@ -119,14 +119,14 @@ function initialize(userOptions: any) {
                 return
               }
 
-              // we rely on the native link scrolling when user is already on
+              // we rely on the native link scrolling when the user is already on
               // the right anchor because Router doesn't support duplicated
               // history entries
               if (route.path === relativeHit) {
                 return
               }
 
-              // if the hits goes to another page, we prevent the native link
+              // if the hits go to another page, we prevent the native link
               // behavior to leverage the Router loading feature
               if (route.path !== relativeHit) {
                 event.preventDefault()

@@ -1,4 +1,4 @@
-// markdown-it plugin for normalizing image source
+// markdown-it plugin for normalizing an image source
 import type MarkdownIt from 'markdown-it'
 
 export interface Options {
@@ -24,7 +24,8 @@ export const imagePlugin = (md: MarkdownIt, { lazyLoading, asyncDecoding }: Opti
     const token = tokens[idx]
     let url = token.attrGet('src')
     if (!/^\.?\//.test(url)) url = './' + url
-    // Solve idea drag in resource files automatic encoding,not handling decoding will lead to build unable to find resource file
+    // Solve idea drag in resource files automatic encoding,
+    // not handling decoding will lead to build unable to find a resource file
     const decodeURI = decodeURIComponent(url)
     if (url && !EXTERNAL_URL_RE.test(url)) {
       token.attrSet('src', decodeURI)
@@ -32,7 +33,8 @@ export const imagePlugin = (md: MarkdownIt, { lazyLoading, asyncDecoding }: Opti
 
     // Lazysizes loading images
     if (lazyLoading) {
-      // Remove public directory of resource file,vite does not process path compilation of data-src,exists public will not find file
+      // Remove the public directory of a resource file,
+      // vite doesn't process path compilation of data-src,exists public will not find a file
       token.attrSet('data-src', decodeURI.replace(/public\//, '')
                                          .replace(/\/+/g, '/'))
       token.attrSet('src', '')

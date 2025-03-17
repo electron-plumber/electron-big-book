@@ -28,8 +28,8 @@ watch(
 )
 
 onUpdated(() => {
-  // Safari:solve init order wrong,lead to onUpdated than clickEventListener execute first
-  // Delay updating navigation bar only then will VPDocContent content will be cached after click
+  // Safari:solve init order wrong,lead to onUpdated then clickEventListener execute first
+  // Delay updating navigation bar only then will VPDocContent content be cached after click
   setTimeout(() => {
     if (shouldUpdateProgress.value) {
       nprogress.done()

@@ -30,9 +30,9 @@ export default defineConfig({
   },
 
   build: {
-    // Turning off brotliSize display can slightly deduce packaging time
+    // Turning off the brotliSize display can slightly deduce packaging time
     brotliSize: false,
-    // Set block size warning limit prompt
+    // Set the block size warning limit prompt
     chunkSizeWarningLimit: 2000,
   },
 
@@ -49,7 +49,7 @@ export default defineConfig({
         IconsResolver(),
       ],
 
-      // allow auto import and register components used in markdown
+      // allow auto import and register components used in Markdown
       include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
     }),
 

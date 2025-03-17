@@ -11,8 +11,8 @@ pnpm i
 pnpm docs:dev
 ```
 
-## online one click setup
-you can use GitPod a online IDE（open source free）to run demo online 
+## online one-click setup
+you can use GitPod an online IDE（open source free）to run demo online 
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/wangxiang4/mba-exam-docs)
 

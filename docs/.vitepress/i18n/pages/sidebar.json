@@ -31,9 +31,7 @@
     {
       "text": "Resources",
       "link": "/resources/1 Mock exam",
-      "activeMatch": "/resources/",
-      "home-card-type": "resources",
-      "description": "master of management resources."
+      "activeMatch": "/resources/"
     },
     {
       "text": "Jvm",
