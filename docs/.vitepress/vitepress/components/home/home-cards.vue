@@ -98,16 +98,6 @@
       bottom: 6px;
     }
   }
-
-  @media (max-width: 1140px) {
-    .cards {
-      width: 100%;
-
-      .container {
-        width: 100%;
-      }
-    }
-  }
 }
 
 /* louvres */

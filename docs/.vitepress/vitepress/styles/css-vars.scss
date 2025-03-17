@@ -36,12 +36,12 @@
   // toc vars
   --toc-height: calc(var(--header-height) + 32px);
 
-  @include respond-to('xxl') {
+  @include up-from('xxl') {
     --vp-screen-max-width: 1362px;
     --vp-sidebar-width-small: 234px;
   }
 
-  @include respond-to('max') {
+  @include up-from('max') {
     --vp-screen-max-width: 1482px;
     --vp-sidebar-width-small: 290px;
   }

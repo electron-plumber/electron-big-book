@@ -13,7 +13,7 @@
   z-index: var(--sub-nav-z-index);
   overflow: hidden;
 
-  @media (max-width: 767px) {
+  @include down-to('md') {
     padding: 0 24px;
   }
 
@@ -27,7 +27,7 @@
     }
   }
 
-  @include respond-to('lg') {
+  @include up-from('lg') {
     display: none !important;
   }
 }

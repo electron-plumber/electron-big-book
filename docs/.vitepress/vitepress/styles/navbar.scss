@@ -8,18 +8,18 @@
   position: relative;
   border-bottom: 1px solid var(--border-color);
   height: var(--header-height);
-  padding: 0 12px 0 24px;
+  padding: 0 12px 0 16px;
   background-image: radial-gradient(transparent 1px, var(--bg-color) 1px);
   background-size: 4px 4px;
   backdrop-filter: saturate(50%) blur(4px);
   -webkit-backdrop-filter: saturate(50%) blur(4px);
   top: 0;
 
-  @include respond-to('md') {
-    padding: 0 12px 0 32px;
+  @include up-from('md') {
+    padding: 0 12px 0 24px;
   }
 
-  @include respond-to('xlg') {
+  @include up-from('xlg') {
     padding: 0 32px;
   }
 
@@ -35,17 +35,17 @@
       flex-grow: 1;
     }
 
-    @include respond-to('xxl') {
+    @include up-from('xxl') {
       max-width: calc(var(--vp-screen-max-width));
     }
 
-    @include respond-to('max') {
+    @include up-from('max') {
       // 36 = 2 * 18 for each side.
       max-width: calc(var(--vp-screen-max-width));
     }
   }
 
-  @include respond-to('md') {
+  @include up-from('md') {
     .content {
       padding-top: 1px;
     }
@@ -58,7 +58,7 @@
   position: relative;
   z-index: var(--nav-z-index);
 
-  @include respond-to('lg') {
+  @include up-from('lg') {
     position: sticky;
     width: 100%;
   }

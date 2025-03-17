@@ -1,6 +1,7 @@
 /* https://github.com/antfu/prism-theme-vars */
 @use 'node_modules/prism-theme-vars/base.css';
 @use 'node_modules/prism-theme-vars/marker.css';
+@use './mixins' as *;
 
 [class*='language-']:before {
   font-family: var(--code-font-family);
@@ -101,7 +102,7 @@ li > div[class*='language-'] {
   margin: 1rem -1.5rem 1rem -1.25rem;
 }
 
-@media (min-width: 420px) {
+@include up-from('p-420') {
   div[class*='language-'] {
     margin: 1rem 0;
     border-radius: 6px;

@@ -46,7 +46,7 @@
     }
   }
 
-  @include respond-to('md') {
+  @include up-from('md') {
     display: none;
   }
 }

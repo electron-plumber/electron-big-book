@@ -46,6 +46,7 @@ const onNavClick = (item: Link) => {
 </template>
 
 <style scoped lang="scss">
+@use '../../styles/mixins' as *;
 .is-menu-link {
   display: block;
   padding: 0 12px;
@@ -71,6 +72,10 @@ const onNavClick = (item: Link) => {
 
   .badge:deep(.is-dot) {
     right: 0;
+  }
+
+  @include down-to('p-825') {
+    padding: 0 10px;
   }
 }
 </style>

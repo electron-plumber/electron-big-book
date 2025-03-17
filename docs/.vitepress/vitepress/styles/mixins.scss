@@ -20,11 +20,22 @@ $breakpoints: (
   'xlg': #{$breakpoint-xlg},
   'xxl': #{$breakpoint-xxl},
   'max': #{$breakpoint-max},
+  'p-749': #{$breakpoint-u-749},
+  'p-420': #{$breakpoint-u-420},
+  'p-825': #{$breakpoint-u-825},
 ) !default;
 
-@mixin respond-to($breakpoint) {
+@mixin up-from($breakpoint) {
   @if #{map.has-key($breakpoints, $breakpoints)} {
     @media screen and (min-width: #{map.get($breakpoints, $breakpoint)}) {
+      @content;
+    }
+  }
+}
+
+@mixin down-to($breakpoint) {
+  @if #{map.has-key($breakpoints, $breakpoints)} {
+    @media screen and (max-width: #{map.get($breakpoints, $breakpoint)}) {
       @content;
     }
   }

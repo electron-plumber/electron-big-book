@@ -162,7 +162,7 @@ function initialize(userOptions: any) {
   //   display: flex;
   // }
 
-  @include respond-to('md') {
+  @include up-from('p-825') {
     min-width: 176.3px;
   }
 }
@@ -194,9 +194,15 @@ function initialize(userOptions: any) {
     margin-right: 8px;
   }
 
-  @media (max-width: 749px) {
+  @include down-to('p-749') {
     &.DocSearch-Button {
       margin: 0 12px;
+      padding: 0;
+    }
+  }
+
+  @include down-to('p-825') {
+    &.DocSearch-Button {
       padding: 0;
     }
   }
@@ -219,7 +225,7 @@ function initialize(userOptions: any) {
 
   background-color: transparent;
 
-  @include respond-to('md') {
+  @include up-from('md') {
     background-color: var(--docsearch-searchbox-background);
   }
 }

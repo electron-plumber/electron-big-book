@@ -28,7 +28,7 @@ const locale = computed(() => subNavLocale[lang.value])
   height: 24px;
   padding: 0 12px;
 
-  @include respond-to('md') {
+  @include up-from('md') {
     display: flex;
     align-items: center;
   }

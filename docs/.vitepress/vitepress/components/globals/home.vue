@@ -118,7 +118,7 @@ function startTyping() {
   }
 
   // jumbotron mobile adaptation
-  @media (max-width: 768px) {
+  @include down-to('md') {
     .jumbotron {
       width: 60%;
 
@@ -148,7 +148,7 @@ function startTyping() {
     }
   }
 
-  @media (max-width: 480px) {
+  @include down-to('sm') {
     .jumbotron {
       .home-container {
         .title {
@@ -173,7 +173,7 @@ function startTyping() {
   }
 
   // cards mobile adaptation
-  @media (max-width: 768px) {
+  @include down-to('md') {
     .cards {
       li {
         width: 80%;
@@ -187,7 +187,7 @@ function startTyping() {
     }
   }
 
-  @media (max-width: 480px) {
+  @include down-to('sm') {
     .cards {
       li {
         margin: 10px auto;

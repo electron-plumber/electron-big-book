@@ -53,11 +53,11 @@
     }
   }
 
-  @include respond-to('xxl') {
+  @include up-from('xxl') {
     display: block;
   }
 
-  @include respond-to('max') {
+  @include up-from('max') {
     padding-left: 96px;
     display: block;
   }

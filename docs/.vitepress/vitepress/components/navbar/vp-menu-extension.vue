@@ -51,14 +51,13 @@ watch(
 
 <style lang="scss" scoped>
 @use '../../styles/mixins' as *;
-
 .menu-extension-container {
   display: none;
   height: 24px;
   padding: 0 12px;
   cursor: pointer;
 
-  @include respond-to('md') {
+  @include up-from('md') {
     display: block;
   }
 }

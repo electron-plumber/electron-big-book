@@ -35,20 +35,20 @@
     }
   }
 
-  @media (max-width: 767px) {
+  @include down-to('md') {
     width: calc(var(--vp-sidebar-width-mobile) - 14px);
   }
 
-  @include respond-to('md') {
+  @include up-from('md') {
     width: calc(var(--vp-sidebar-width-small));
   }
 
-  @include respond-to('lg') {
+  @include up-from('lg') {
     top: var(--header-height);
     transform: translate(0);
   }
 
-  @include respond-to('xxl') {
+  @include up-from('xxl') {
     // 6px stands for 3px sidebar scrollbar width + 3 content scrollbar width
     padding: 48px 32px 96px calc((100% - var(--vp-screen-max-width)) / 2);
 
@@ -57,7 +57,7 @@
     );
   }
 
-  @include respond-to('max') {
+  @include up-from('max') {
     padding: 48px 48px 96px calc((100% - var(--vp-screen-max-width)) / 2);
 
     width: calc(
