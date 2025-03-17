@@ -8,13 +8,6 @@
       "description": "Mathematics is a human tool for describing, understanding and revealing the laws of nature in an abstract and logical way, and a language for expressing those laws."
     },
     {
-      "text": "English",
-      "link": "/english/0 Courses/1 Strengthen basics vocabulary medium frequency",
-      "activeMatch": "/english/",
-      "home-card-type": "english",
-      "description": "English section of the MBA exam in China, known as English II, is generally considered to have a lower difficulty level, focusing on basic language proficiency and practical business communication skills."
-    },
-    {
       "text": "Logic",
       "link": "/logic/0 Courses/1 Strengthen basics hypothetical judgment-conjunctive judgment-disjunctive judgment",
       "activeMatch": "/logic/",
@@ -27,6 +20,13 @@
       "activeMatch": "/writing/",
       "home-card-type": "writing",
       "description": "MAB Writing reasoning section primarily assesses candidates' ability to construct clear, coherent, and persuasive arguments, demonstrating effective communication skills and critical thinking in addressing complex business scenarios."
+    },
+    {
+      "text": "English",
+      "link": "/english/0 Courses/1 Strengthen basics vocabulary medium frequency",
+      "activeMatch": "/english/",
+      "home-card-type": "english",
+      "description": "English section of the MBA exam in China, known as English II, is generally considered to have a lower difficulty level, focusing on basic language proficiency and practical business communication skills."
     },
     {
       "text": "Resources",
