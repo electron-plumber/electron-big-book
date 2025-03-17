@@ -33,7 +33,7 @@ export default {
     // Use DocSearchScraper to manually crawl local sitemap.xml address content push(search api key)
     // agolia: {
     //   apiKey: 'f6c169e48ebc81ecfaad4657c39c9ba4',
-    //   indexName: 'note-mba',
+    //   indexName: 'note-mat',
     //   appId: 'PVEXLTFZ5B',
     // },
     // Use https://docsearch.algolia.com/apply Approved(search api key)

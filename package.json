@@ -2,16 +2,15 @@
   "name": "mba-exam-docs",
   "version": "1.0.0",
   "packageManager": "pnpm@7.3.0",
-  "description": "mba management class master notes for lesson",
+  "description": "For learners of MAT and Java in China",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "NODE_ENV=production && vitepress build docs",
     "docs:serve": "NODE_ENV=production vitepress serve docs --port 5001"
   },
   "keywords": [
-    "mba",
-    "docs",
-    "dolphin"
+    "mat",
+    "dolphinJs"
   ],
   "author": "dolphin ecologically wangxaing4",
   "license": "MIT",

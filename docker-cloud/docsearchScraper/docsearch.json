@@ -1,5 +1,5 @@
 {
-  "index_name": "note-mba",
+  "index_name": "note-mat",
   "start_urls": ["https://note.dolphinx.org"],
   "sitemap_urls": ["https://note.dolphinx.org/sitemap.xml"],
   "stop_urls": ["/search"],

@@ -1,6 +1,6 @@
 ## <img src="docs/public/images/notes.png" width="24" /> Introduce
 
-MBA Exam and Java Advanced Course Notes
+### For learners of Management admission test and Java in China
 
 ## 📦 Install
 ```
