@@ -6,5 +6,5 @@ lang: en-US
 | Platforms | Courses | Coursewares |
 |-----------|---------|-------------|
 | YouTube   | Pending |             |
-| Untitled  | Pending |             |
+| Dailymotion  | Pending |             |
 

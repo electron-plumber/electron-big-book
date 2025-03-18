@@ -6,7 +6,7 @@ lang: en-US
 | Platforms |   | Courses                                                                                      | Coursewares                                                       | Exercises                                                                           |
 |-----------|:--|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | YouTube   |   | [Watch](https://www.youtube.com/watch?v=xswEYoH6ybA&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s) | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) | [Exercise](../../public/math/Core%20courses/pdf/35%20Exercises.pdf)                 |
-| Untitled  |   | Pending                                                                                      |                                                                   | [Exercise answer](../../public/math/Core%20courses/pdf/35%20Exercise%20answers.pdf) |
+| Dailymotion  |   | Pending                                                                                      |                                                                   | [Exercise answer](../../public/math/Core%20courses/pdf/35%20Exercise%20answers.pdf) |
 
 
 
