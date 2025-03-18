@@ -3,10 +3,30 @@ title: Chapter5 sequences Module3 geometric sequences
 lang: en-US
 ---
 
-| Platforms | Courses                                                                                      | Coursewares                                                       |
-|-----------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| YouTube   | [Watch](https://www.youtube.com/watch?v=8Bum9KaQM4o&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s) | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
-| Dailymotion  | Pending                                                                                      |                                                                   |
+| Platforms   | Courses                                                                                      | Coursewares                                                       |
+|-------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| YouTube     | [Watch](https://www.youtube.com/watch?v=8Bum9KaQM4o&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s) | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
+| Dailymotion | Pending                                                                                      |                                                                   |
+
+
+# Module 5-03 Geometric sequence
+
+## 1 Definition  
+If in the sequence $\left\{ a_n \right\}, {a_{n+1} \over a_n}=q(constant) (n \in N_+)$, 
+called the sequence $\left\{ a_n \right\}$ for Geometric sequence, __q__ is the common ratio.  
+
+Essence: ratio value is constant (common ratio), relationship of multiples.  
+
+
+| Sequences       | Multiples | __Q__ Law                               |
+|-----------------|-----------|-----------------------------------------|
+| 2,-6,18,-54,··· | __-3__    | $q<0$ Alternation positive and negative |
+| 2,6,18,54,···   | __3__     | $q>0$ Same symbols                      |
+
+
+
+
+
 
 
 
