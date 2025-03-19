@@ -18,25 +18,22 @@ called the sequence $\left\{ a_n \right\}$ for Geometric sequence, __q__ is the 
 Essence: ratio value is constant (common ratio), relationship of multiples.  
 
 
-| Sequences       | Multiples | __Q__ Law                               |
-|-----------------|-----------|-----------------------------------------|
-| 2,-6,18,-54,··· | __-3__    | $q<0$ Alternation positive and negative |
-| 2,6,18,54,···   | __3__     | $q>0$ Same symbols                      |
+| Sequences         | Multiples(Q) | __Q__ Law                                |
+|-------------------|--------------|------------------------------------------|
+| 2,-6,18,-54,···   | __-3__       | $q<0$ Alternation positive and negative. |
+| 2,6,18,54,···     | __3__        | $q>0$ Same Sign Operators.               |
+| -2,-6,-18,-54,··· | __3__        | $q>0$ Same Sign Operators.               |
+
+
+
+## 2 General term  
+$a_n=a_1q^{n-1}=a_kq^{n-k}={a_1 \over q}q^n$.
+
+Remark: If two elements are known, need to know determine a common ratio ${a_n \over a_m}=q^{n-m}$.
 
 
 
 
-
-
-
-
-
-$\left\{ a_n \right\}, {a_n+1 \over an}=q$  
-$n \in N_+$
-
-$a_n=a_1q^{n-1}=a_kq^{n-k}={a_1 \over q}q^n$
-
-${a_n \over a_m}=q^{n-m}$
 
 - Addition: $a + b$
 - Subtraction: $a - b$
