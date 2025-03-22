@@ -35,6 +35,7 @@ Remark: If two elements are known, need to know determine a common ratio ${a_n \
 
 
 
+
 - Addition: $a + b$
 - Subtraction: $a - b$
 - Multiplication: $a \times b$ or $a \cdot b$
