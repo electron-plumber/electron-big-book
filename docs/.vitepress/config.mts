@@ -47,7 +47,17 @@ export default {
   markdown: {
     config: (md) => {
       md.use(tableWrapper)
-      md.use(mathjax3)
+      md.use(mathjax3, {
+        // https://docs.mathjax.org/en/latest/input/tex/extensions/index.html
+        tex: {
+          packages: {
+            '[+]': ['cancel','ams']
+          }
+        },
+        loader: {
+          load: ['[tex]/ams']
+        },
+      })
       imagePlugin(md, {
         lazyLoading:true,
         asyncDecoding: true

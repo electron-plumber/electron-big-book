@@ -12,24 +12,71 @@ lang: en-US
 # Module 5-03 Geometric sequence
 
 ## 1 Definition  
-If in the sequence $\left\{ a_n \right\}, {a_{n+1} \over a_n}=q(constant) (n \in N_+)$, 
+If in the sequence $\left\{ a_n \right\}, \frac{a_{n+1}}{a_n}=q(constant) (n \in N_+)$, 
 called the sequence $\left\{ a_n \right\}$ for Geometric sequence, __q__ is the common ratio.  
 
 Essence: ratio value is constant (common ratio), relationship of multiples.  
 
-
-| Sequences         | Multiples(Q) | __Q__ Law                                |
-|-------------------|--------------|------------------------------------------|
-| 2,-6,18,-54,···   | __-3__       | $q<0$ Alternation positive and negative. |
-| 2,6,18,54,···     | __3__        | $q>0$ Same Sign Operators.               |
-| -2,-6,-18,-54,··· | __3__        | $q>0$ Same Sign Operators.               |
+| Sequences             | Multiples(Q) | __Q__ Law                                |
+|-----------------------|--------------|------------------------------------------|
+| $2,-6,18,-54,\dots$   | __-3__       | $q<0$ Alternation positive and negative. |
+| $2,6,18,54,\dots$     | __3__        | $q>0$ Same Sign Operators.               |
+| $-2,-6,-18,-54,\dots$ | __3__        | $q>0$ Same Sign Operators.               |
 
 
 
 ## 2 General term  
-$a_n=a_1q^{n-1}=a_kq^{n-k}={a_1 \over q}q^n$.
+$$\mathbf{a_n=a_1q^{n-1}=a_{k}q^{n-k}=\frac{a_1}{q}q^n}$$
 
-Remark: If two elements are known, need to know determine a common ratio ${a_n \over a_m}=q^{n-m}$.
+$$\text{Remark: If two elements are known, need to know determine a common ratio} \frac{a_n}{a_m}=q^{n-m}$$
+
+### Formula derivations
+$\mathbf{a_n=a_1q^{n-1}}$  
+
+$
+\begin{array}{rl}
+\text{Step 1:} & \frac{a_{n+1}}{a_n}=q \\
+\text{Step 2:} & \frac{\cancel{a_2}}{a_1}=q,\frac{\cancel{a_3}}{\cancel{a_2}}=q,\dots,\frac{a_n}{\cancel{a_{n-1}}}=q \\
+\text{Step 3:} & \frac{a_n}{a_1}=q^{n-1} \\
+\text{Step 4:} & a_n=a_1q^{n-1}
+\end{array}
+$
+
+---
+
+$\mathbf{a_n=a_{k}q^{n-k}}$
+
+$
+\begin{array}{rl}
+\text{Step 1:} & \frac{a_{n+1}}{a_n}=q \\
+\text{Step 2:} & \frac{\cancel{a_2}}{a_k}=q,\frac{\cancel{a_3}}{\cancel{a_2}}=q,\dots,\frac{a_n}{\cancel{a_{n-1}}}=q\\
+\text{Step 3:} & \frac{a_n}{a_k}=q^{n-k} \\
+\text{Step 4:} & a_n=a_kq^{n-k} \\
+\text{k=1:} & a_n=a_1q^{n-1} \\
+\end{array}
+$
+
+---
+
+$\mathbf{a_n=\frac{a_1}{q}q^n}$
+
+$
+\begin{array}{rl}
+\text{Step 1:} & a_n=a_1q^{n-1} \\
+\text{Step 2:} & a_n=a_1 \frac{q^n}{q} \\
+\text{Step 3:} & a_n=\frac{a_1}{q}q^n \\
+\end{array}
+$
+
+---
+
+
+
+| Formulas               | Descriptions                                                              | Usages               |
+|------------------------|---------------------------------------------------------------------------|----------------------|
+| $a_n=a_1q^{n-1}$       | Need to know $a_1$ to use                                                 | $a_5=a_1q^4$         |
+| $a_n=a_kq^{n-k}$       | Knowing that any $a_n$ can be use, when $k=1$ it becomes $a_n=a_1q^{n-1}$ | $a_5=a_3q^2$         |
+| $a_n=\frac{a_1}{q}q^n$ | Need to know $a_1$ and $q$ to use, No constant term                       | $a_n=2 \times 3^{n}$ |
 
 
 
@@ -37,40 +84,11 @@ Remark: If two elements are known, need to know determine a common ratio ${a_n \
 
 
 
-- Addition: $a + b$
-- Subtraction: $a - b$
-- Multiplication: $a \times b$ or $a \cdot b$
-- Division: $a \div b$ or $\frac{a}{b}$
-- Equals: $a = b$
-- Not Equal: $a \neq b$
-- Approximate: $a \approx b$
 
 
-- Alpha: $\alpha$
-- Beta: $\beta$
-- Gamma: $\gamma$
-- Delta: $\delta$
-- Pi: $\pi$
-- Sigma: $\sigma$
-- Theta: $\theta$
 
 
-- Element of: $x \in A$
-- Not an element of: $x \notin A$
-- Subset: $A \subset B$
-- Superset: $A \supset B$
-- Union: $A \cup B$
-- Intersection: $A \cap B$
-- Empty Set: $\emptyset$
-- For all: $\forall$
-- Exists: $\exists$
 
-
-- Fraction: $\frac{a}{b}$
-- Square root: $\sqrt{x}$
-- nth root: $\sqrt[n]{x}$
-- Exponent: $a^b$
-- Subscript: $a_b$
 
 
 
