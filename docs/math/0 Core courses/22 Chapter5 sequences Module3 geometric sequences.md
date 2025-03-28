@@ -11,7 +11,7 @@ lang: en-US
 
 # Module 5-03 Geometric sequence
 
-## 1 Definition  
+## 1.Definition  
 If in the sequence $\left\{ a_n \right\}, \frac{a_{n+1}}{a_n}=q(constant) (n \in N_+)$, 
 called the sequence $\left\{ a_n \right\}$ for Geometric sequence, __q__ is the common ratio.  
 
@@ -25,7 +25,7 @@ Essence: ratio value is constant (common ratio), relationship of multiples.
 
 
 
-## 2 General term  
+## 2.General term  
 $$\mathbf{a_n=a_1q^{n-1}=a_{k}q^{n-k}=\frac{a_1}{q}q^n}$$
 
 $$\text{Remark: If two elements are known, need to know determine a common ratio} \frac{a_n}{a_m}=q^{n-m}$$
@@ -79,8 +79,17 @@ $
 | $a_n=\frac{a_1}{q}q^n$ | Need to know $a_1$ and $q$ to use, No constant term                       | $a_n=2 \times 3^{n}$ |
 
 
+## 3.Sum of the first n term  
 
-
+$$
+\mathbf{
+S_n=
+\begin{cases}
+na_1 & q=1 \\
+\frac{a_{1}(1-q^n)}{1-q}=\frac{a_{1}-a_{n}q}{1-q}=\frac{a_{1}-a_{n+1}}{1-q} & q \neq 1
+\end{cases}
+}
+$$
 
 
 
