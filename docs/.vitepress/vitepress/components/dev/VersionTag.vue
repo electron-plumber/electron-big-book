@@ -5,7 +5,7 @@ defineProps<{
 </script>
 
 <template>
-  <el-tag size="small" hit>
+  <ElTag size="small" hit>
     {{ version }}
-  </el-tag>
+  </ElTag>
 </template>

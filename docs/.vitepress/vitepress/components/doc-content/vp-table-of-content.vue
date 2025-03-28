@@ -11,7 +11,7 @@ useActiveSidebarLinks(container)
 <template>
 
     <aside ref="container" class="toc-wrapper">
-      <el-scrollbar class="toc-content">
+      <ElScrollbar class="toc-content">
         <nav>
           <h3 class="toc-content__heading">Contents</h3>
           <ul class="toc-items">
@@ -27,7 +27,7 @@ useActiveSidebarLinks(container)
             </li>
           </ul>
         </nav>
-      </el-scrollbar>
+      </ElScrollbar>
     </aside>
 
 </template>

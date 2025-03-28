@@ -11,7 +11,7 @@ const locale = computed(() => heroContentLocale[lang.value])
     <Content />
   </div>
   <div class="hero-content-footer">
-    <el-divider style="margin-bottom: 0" />
+    <ElDivider style="margin-bottom: 0" />
     <div class="text-center py-6 text-xs">
       <p class="mb-1">
         {{ locale['text'] }}

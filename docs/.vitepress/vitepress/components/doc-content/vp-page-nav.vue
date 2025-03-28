@@ -14,12 +14,16 @@ const { hasLinks, prev, next } = usePageNav()
           <ElIcon class="mr-1">
             <ArrowLeft />
           </ElIcon>
-          <span class="text">{{ prev.text }}</span>
+          <ElTooltip :content="prev.text" placement="top" effect="light" :show-after="600">
+            <span class="text">{{ prev.text }}</span>
+          </ElTooltip>
         </a>
       </div>
       <div class="next">
         <a v-if="next" class="link" :href="withBase(next.link)">
-          <span class="text">{{ next.text }}</span>
+          <ElTooltip :content="next.text" placement="top" effect="light" :show-after="600">
+            <span class="text">{{ next.text }}</span>
+          </ElTooltip>
           <ElIcon class="ml-1">
             <ArrowRight />
           </ElIcon>
@@ -86,6 +90,7 @@ const { hasLinks, prev, next } = usePageNav()
 .icon-prev {
   margin-right: 8px;
 }
+
 .icon-next {
   margin-left: 8px;
 }

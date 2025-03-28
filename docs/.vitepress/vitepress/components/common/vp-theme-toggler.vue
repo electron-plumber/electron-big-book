@@ -63,7 +63,7 @@ const beforeChange = (): Promise<boolean> => {
 <template>
   <div @click.stop="switchTheme">
     <ClientOnly>
-      <el-switch
+      <ElSwitch
           v-model="darkMode"
           :before-change="beforeChange"
           :active-action-icon="DarkIcon"

@@ -8,8 +8,8 @@ const { page } = useData()
 
 <template>
   <div class="doc-content-wrapper">
-    <div class="doc-content-container">
-      <Content :class="['doc-content', {'fit-toc': page.headers.length == 0}]" />
+    <div :class="['doc-content-container', {'adaptive-content': page.headers.length == 0}]">
+      <Content class="doc-content" />
       <VPPageNav />
     </div>
     <VPTableOfContent v-if="page.headers.length > 0" />

@@ -26,7 +26,7 @@ function autoScrollToActiveMenu() {
 </script>
 
 <template>
-  <el-scrollbar ref="scrollbar" v-if="hasSidebar" :class="{ sidebar: true, open }">
+  <ElScrollbar ref="scrollbar" v-if="hasSidebar" :class="{ sidebar: true, open }">
     <aside>
       <slot name="top" />
       <div class="sidebar-groups">
@@ -44,5 +44,5 @@ function autoScrollToActiveMenu() {
       </div>
       <slot name="bottom" />
     </aside>
-  </el-scrollbar>
+  </ElScrollbar>
 </template>
