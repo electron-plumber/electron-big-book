@@ -3,10 +3,10 @@ title: Chapter4 equations-inequality Module2 equations
 lang: en-US
 ---
 
-| Platforms | Courses                                                                                      | Coursewares                                                       |
-|-----------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| YouTube   | [Watch](https://www.youtube.com/watch?v=hK8elaKSvBI&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s) | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
-| Dailymotion  | Pending                                                                                      |                                                                   |
+| Platforms   | Courses                                                                                      | Coursewares                                                       |
+|-------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| YouTube     | [Watch](https://www.youtube.com/watch?v=hK8elaKSvBI&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s) | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
+| Dailymotion | [Watch](https://www.dailymotion.com/video/x9glvs0?playlist=x9h6d2)                           |                                                                   |
 
 
 ## 模块 4-01一次方程（组）
