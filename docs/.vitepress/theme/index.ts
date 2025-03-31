@@ -5,6 +5,7 @@ import { define } from '../utils/types'
 import 'uno.css'
 import './style.css'
 import type { Theme } from 'vitepress'
+import { mathjax } from "mathjax-full/js/mathjax.js";
 
 export default define<Theme>({
   NotFound,

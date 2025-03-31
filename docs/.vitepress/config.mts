@@ -4,7 +4,7 @@ import { nav } from './config/nav'
 import { imagePlugin } from './plugins/image'
 import { linkPlugin } from './plugins/link'
 import tableWrapper from './plugins/table-wrapper'
-import mathjax3 from 'markdown-it-mathjax3'
+import mathjax3 from './plugins/mathjax3'
 
 export default {
   base: "/",
@@ -54,9 +54,6 @@ export default {
           packages: {
             '[+]': ['cancel','ams']
           }
-        },
-        loader: {
-          load: ['[tex]/ams']
         },
       })
       imagePlugin(md, {
