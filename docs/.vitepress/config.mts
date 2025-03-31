@@ -38,7 +38,7 @@ export default {
     // },
     // Use https://docsearch.algolia.com/apply Approved(search api key)
     agolia: {
-      apiKey: 'c8e09bde038a34837750f74707e89bac',
+      apiKey: '832c04d8fd2cda5570526839420aaac1',
       indexName: 'dolphinx',
       appId: 'H7A0XFYKI1',
     },

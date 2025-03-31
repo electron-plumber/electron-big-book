@@ -1,6 +1,6 @@
 ## <img src="docs/public/images/notes.png" width="24" /> Introduce
 
-### For learners of Management admission test and Java in China
+### For learners of Management admission test and Java
 
 ## 📦 Install
 ```

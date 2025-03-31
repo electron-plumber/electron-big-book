@@ -61,7 +61,6 @@ function startTyping() {
         </div>
         <p class="typography-site-body">
           {{ locale['title-sub'] }}
-          This site was inspired by <a href="https://en.wikipedia.org/wiki/Aaron_Swartz">Aaron Swartz</a>.
         </p>
       </div>
     </div>
