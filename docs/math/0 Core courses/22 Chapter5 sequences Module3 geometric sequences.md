@@ -34,11 +34,11 @@ $$\text{Remark: If two elements are known, need to know determine a common ratio
 $\mathbf{a_n=a_1q^{n-1}}$  
 
 $
-\begin{array}{rl}
-\text{Step 1:} & \frac{a_{n+1}}{a_n}=q \\
-\text{Step 2:} & \frac{\cancel{a_2}}{a_1}=q,\frac{\cancel{a_3}}{\cancel{a_2}}=q,\dots,\frac{a_n}{\cancel{a_{n-1}}}=q \\
-\text{Step 3:} & \frac{a_n}{a_1}=q^{n-1} \\
-\text{Step 4:} & a_n=a_1q^{n-1}
+\begin{array}{ll}
+\frac{a_{n+1}}{a_n}=q \\
+\frac{\cancel{a_2}}{a_1}=q,\frac{\cancel{a_3}}{\cancel{a_2}}=q,\dots,\frac{a_n}{\cancel{a_{n-1}}}=q \\
+\frac{a_n}{a_1}=q^{n-1} \\
+a_n=a_1q^{n-1}
 \end{array}
 $
 
@@ -47,12 +47,12 @@ $
 $\mathbf{a_n=a_{k}q^{n-k}}$
 
 $
-\begin{array}{rl}
-\text{Step 1:} & \frac{a_{n+1}}{a_n}=q \\
-\text{Step 2:} & \frac{\cancel{a_2}}{a_k}=q,\frac{\cancel{a_3}}{\cancel{a_2}}=q,\dots,\frac{a_n}{\cancel{a_{n-1}}}=q\\
-\text{Step 3:} & \frac{a_n}{a_k}=q^{n-k} \\
-\text{Step 4:} & a_n=a_kq^{n-k} \\
-\text{k=1:} & a_n=a_1q^{n-1} \\
+\begin{array}{ll}
+\frac{a_{n+1}}{a_n}=q \\
+\frac{\cancel{a_2}}{a_k}=q,\frac{\cancel{a_3}}{\cancel{a_2}}=q,\dots,\frac{a_n}{\cancel{a_{n-1}}}=q\\
+\frac{a_n}{a_k}=q^{n-k} \\
+a_n=a_kq^{n-k} \\
+a_n=a_1q^{n-1} \; \text{When k=1} \\
 \end{array}
 $
 
@@ -61,10 +61,10 @@ $
 $\mathbf{a_n=\frac{a_1}{q}q^n}$
 
 $
-\begin{array}{rl}
-\text{Step 1:} & a_n=a_1q^{n-1} \\
-\text{Step 2:} & a_n=a_1 \frac{q^n}{q} \\
-\text{Step 3:} & a_n=\frac{a_1}{q}q^n \\
+\begin{array}{ll}
+a_n=a_1q^{n-1} \\
+a_n=a_1 \frac{q^n}{q} \\
+a_n=\frac{a_1}{q}q^n \\
 \end{array}
 $
 
@@ -91,15 +91,52 @@ na_1 & q=1 \\
 }
 $$
 
+### Formula derivations
+$\mathbf{S_n=na_1}$
+
+$
+\begin{array}{ll}
+S_n=a_1+a_1+a_1+\dots+a_n \; \text{Constant sequence} \\ 
+S_n=na_1 \\
+\end{array}
+$
+
+---
+$\mathbf{S_n=\frac{a_{1}-a_{n}q}{1-q}=\frac{a_{1}-a_{n+1}}{1-q}}$
+
+$
+\begin{array}{ll}
+S_n=a_1+a_2+\dots+a_{n-1}+a_n \\
+qS_n=q(a_1+a_2+\dots+a_{n-1}+a_n) \\
+qS_n=a_2+a_3+\dots+a_n+a_nq \\
+(S_n=a_1+a_2+\dots+a_{n-1}+a_n)-(qS_n=a_2+a_3+\dots+a_n+a_nq) \; \text{Displaced subtraction} \\
+(1-q)S_n=a_1-a_nq \\
+S_n=\frac{a_1-a_nq}{1-q} \lor S_n=\frac{a_1-a_{n+1}}{1-q}\\
+\end{array}
+$
+
+---
+$\mathbf{S_n=\frac{a_{1}(1-q^n)}{1-q}}$
+
+$
+\begin{array}{ll}
+S_n=\frac{a_1-a_nq}{1-q} \\
+a_n=a_1q^{n-1} \\
+S_n=\frac{a_1-a_1q^n}{1-q} \\
+S_n=\frac{a_1(1-q^n)}{1-q} \lor S_n=\frac{a_1}{1-q}(1-q^n) \\
+\end{array}
+$
+
+---
 
 
+## 4.Important property  
 
+1. If $m+n=k+t \,\fbox{arithmetic sequence}$ then $a_ma_n=a_ka_t \, \fbox{geometric sequence}$.
 
+2. $S_n$ is the sum of the first n term of a geometric sequence, then $S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots$ are still geometric sequences, and their common ratio is $q^n$.
 
-
-
-
-
+3. If $\left| q \right| < 1$, then the sum of all terms in the geometric sequence is $S=\lim\limits_{n \to \infty } S_n=\frac{a_1}{1-q}$.
 
 
 
