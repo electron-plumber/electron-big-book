@@ -48,6 +48,7 @@ export default {
     config: (md) => {
       md.use(tableWrapper)
       md.use(mathjax3, {
+        // https://docs.mathjax.org/en/latest/input/tex/macros/index.html
         // https://docs.mathjax.org/en/latest/input/tex/extensions/index.html
         tex: {
           packages: {

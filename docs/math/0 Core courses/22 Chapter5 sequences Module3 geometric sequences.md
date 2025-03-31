@@ -28,7 +28,7 @@ Essence: ratio value is constant (common ratio), relationship of multiples.
 ## 2.General term  
 $$\mathbf{a_n=a_1q^{n-1}=a_{k}q^{n-k}=\frac{a_1}{q}q^n}$$
 
-$$\text{Remark: If two elements are known, need to know determine a common ratio} \frac{a_n}{a_m}=q^{n-m}$$
+__Remark: If two elements are known, need to know determine a common ratio $\frac{a_n}{a_m}=q^{n-m}$__
 
 ### Formula derivations
 $\mathbf{a_n=a_1q^{n-1}}$  
@@ -130,13 +130,72 @@ $
 ---
 
 
-## 4.Important property  
+## 4.Important properties  
 
-1. If $m+n=k+t \,\fbox{arithmetic sequence}$ then $a_ma_n=a_ka_t \, \fbox{geometric sequence}$.
+1. __If $m+n=k+t \,\fbox{Arithmetic sequence}$ then $a_ma_n=a_ka_t \, \fbox{Geometric sequence}$.__  
+   $
+   \begin{array}{ll}
+   a_3·a_9=a_5·a_7 \\
+   a_3·q^2=a_5 \\
+   a_7·q^2=a_9 \\
+   a_3·a_9=a_5·a_7=a_6^2 \\
+   \end{array}
+   $
+2. __$S_n$ is the sum of the first n term of a geometric sequence,
+   then $S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots$ are still geometric sequences$\fbox{Segment summation}$,
+   and their common ratio is $q^n$.__  
+   $
+   \boxed{
+   \begin{array}{ll}
+   \underbrace{a_1 a_2 a_3}_{S_3} \; \underbrace{a_4 a_5 a_6}_{S_6-S_3} \;
+   \underbrace{a_7 a_8 a_9}_{S_9-S_6} \; \dots \\
+   \frac{a_4+a_5+a_6}{a_1+a_2+a_3}=\frac{(a_1+a_2+a_3)q^3}{a_1+a_2+a_3}=q^3
+   \end{array}
+   }
+   $
 
-2. $S_n$ is the sum of the first n term of a geometric sequence, then $S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots$ are still geometric sequences, and their common ratio is $q^n$.
+   $
+   \boxed{
+   \begin{array}{ll} 
+   S_n = \frac{a_1(1-q^n)}{1-q} \to \frac{S_m}{S_n} = \frac{1-q^m}{1-q^n} \\
+   \text{Special case} \: S_m = S_{2n}. \\
+   \frac{S_{2n}}{S_n} = \frac{1-q^{2n}}{1-q^n} = \frac{(1-q^n)(1+q^n)}{1-q^n} = 1+q^n \\
+   \text{Proof common ratio}. \\
+   \frac{S_{2n}-S_n}{S_n} = \frac{S_{2n}}{S_n}-1 = 1+q^n-1 = q^n
+   \end{array}
+   }
+   $
+3. __If $\left| q \right| < 1$,
+   then the sum of all terms in the geometric sequence is $S=\lim\limits_{n \to \infty } S_n=\frac{a_1}{1-q}$.__  
+   $
+   \begin{array}{ll}
+   \left| q \right| < 1 \implies n \to \infty \implies q^n \to 0 \\
+   \left( \frac{1}{3} \right)^{100} \approx 0 \\
+   S_n = \frac{a_10}{1-q} = \frac{a_1}{1-q}
+   \end{array}
+   $
 
-3. If $\left| q \right| < 1$, then the sum of all terms in the geometric sequence is $S=\lim\limits_{n \to \infty } S_n=\frac{a_1}{1-q}$.
+
+## 5.Focus 1
+__If three numbers $a,b,c$ form a geometric sequence, then b is called the geometric mean of a and c, that is $ac=b^2$.__  
+- __Important note__  
+  - $b = \pm \sqrt{ac}$  
+  - $a,c$ same sign operators
+
+
+### $\fbox{28}\:$If $\: e \:$form a geometric sequence, that is$\:x = \, \mathpunct{?}$.  
+$
+\begin{array}{lllll}
+(\text{A}) \: \log_{2}5 & 
+(\text{B}) \: \log_{2}6 & 
+(\text{C}) \: \log_{2}7 &
+(\text{D}) \: 3 &
+(\text{E}) \: 4 & \\
+\end{array}
+$
+
+
+
 
 
 
