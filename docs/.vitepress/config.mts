@@ -4,7 +4,7 @@ import { nav } from './config/nav'
 import { imagePlugin } from './plugins/image'
 import { linkPlugin } from './plugins/link'
 import tableWrapper from './plugins/table-wrapper'
-import mathjax3 from './plugins/mathjax3'
+import mathjax from './plugins/mathjax'
 
 export default {
   base: "/",
@@ -30,32 +30,18 @@ export default {
   themeConfig: {
     sidebars,
     nav,
-    // Use DocSearchScraper to manually crawl local sitemap.xml address content push(search api key)
-    // agolia: {
-    //   apiKey: 'f6c169e48ebc81ecfaad4657c39c9ba4',
-    //   indexName: 'note-mat',
-    //   appId: 'PVEXLTFZ5B',
-    // },
     // Use https://docsearch.algolia.com/apply Approved(search api key)
     agolia: {
       apiKey: '832c04d8fd2cda5570526839420aaac1',
       indexName: 'dolphinx',
       appId: 'H7A0XFYKI1',
-    },
+    }
   },
   lang: 'en-US',
   markdown: {
     config: (md) => {
       md.use(tableWrapper)
-      md.use(mathjax3, {
-        // https://docs.mathjax.org/en/latest/input/tex/macros/index.html
-        // https://docs.mathjax.org/en/latest/input/tex/extensions/index.html
-        tex: {
-          packages: {
-            '[+]': ['cancel','ams']
-          }
-        },
-      })
+      md.use(mathjax)
       imagePlugin(md, {
         lazyLoading:true,
         asyncDecoding: true
