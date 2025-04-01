@@ -10,7 +10,9 @@ const { page } = useData()
   <div class="doc-content-wrapper">
     <div :class="['doc-content-container', {'adaptive-content': page.headers.length == 0}]">
       <Content class="doc-content" />
-      <VPPageNav />
+      <ClientOnly>
+        <VPPageNav />
+      </ClientOnly>
     </div>
     <VPTableOfContent v-if="page.headers.length > 0" />
   </div>
