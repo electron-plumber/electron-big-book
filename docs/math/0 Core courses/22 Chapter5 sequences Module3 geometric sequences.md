@@ -183,7 +183,7 @@ __If three numbers $a,b,c$ form a geometric sequence, then b is called the geome
   - $a,c$ same sign operators
 
 
-### $\fbox{28}\:$If $\: e \:$form a geometric sequence, that is$\:x = \, \mathpunct{?}$.  
+### $\fbox{28}\:$If $\small \: 2, 2^x-1, 2^x+3 \:$form a geometric sequence, that is$\small \:x = \, \mathpunct{?}$.  
 $
 \begin{array}{lllll}
 (\text{A}) \: \log_{2}5 & 
@@ -195,14 +195,39 @@ $
 $
 
 #### Solution
-- step 
-- step
+- $\mathbf{2, 2^x-1, 2^x+3}$ form a geometric sequence; it means $\mathbf{a+c=b^2}$.   
 
+  $
+  \begin{array}{ll}
+  2 \times (2^x+3) = (2^x-1)^2 \\ 
+  2(t+3)=(t-1)^2 & t=2^x (t>0) \\
+  2(t+3)=t^2-2t+1 & (a-b)^2=a^2-2ab+b^2 \\
+  2t+6=t^2-2t+1 \\
+  t^2-4t-5=0 \\
+  (t-5)(t+1)=0 \\
+  t= 5 \lor -1 & t \ne -1 \\
+  t=5 \\
+  2^x=5 \\
+  x=\log_{2}5 & b^c=a \implies \log_{b}a=c \\
+  \end{array}
+  $
 
 #### Conclusion
-- step
-- step
-
+- Derived Solution
+  > $\mathbf{(A)}$  
+  > According to the Solution, get $x=\log_{2}5$, so choose $A$.
+- $t>0$   
+  > $t=2^x=a^x$  
+  > $a>0$ The range of the exponential function is $(0,\infty)$.   
+  > $a=0$ The exponent is only useful when $x>0$, and a negative exponent of 0 is undefined.  
+  > $a<0$ The result can be positive or negative.
+- Formula used
+  >$
+  \begin{array}{ll}
+  (a-b)^2=a^2-2ab+b^2 & \href{https://www.youtube.com/watch?v=Z3ZEPKVMXFI}{\text{Perfect Square Formula}} \\
+  b^c=a \implies \log_{b}a=c & \href{https://en.wikipedia.org/wiki/Logarithm}{\text{Definition of Logarithm}} \\
+  \end{array}
+  >$
 ---
 
 
