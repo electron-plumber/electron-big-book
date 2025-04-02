@@ -224,8 +224,8 @@ $
 - Formula used
   >$
   \begin{array}{ll}
-  (a-b)^2=a^2-2ab+b^2 & \href{https://www.youtube.com/watch?v=Z3ZEPKVMXFI}{\text{Perfect Square Formula}} \\
-  b^c=a \implies \log_{b}a=c & \href{https://en.wikipedia.org/wiki/Logarithm}{\text{Definition of Logarithm}} \\
+  (a-b)^2=a^2-2ab+b^2 & \href{https://www.youtube.com/watch?v=Z3ZEPKVMXFI}{\text{Perfect square formula}} \\
+  b^c=a \implies \log_{b}a=c & \href{https://en.wikipedia.org/wiki/Logarithm}{\text{Definition of logarithm}} \\
   \end{array}
   >$
 ---
