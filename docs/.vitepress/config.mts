@@ -8,8 +8,8 @@ import mathjax from './plugins/mathjax'
 
 export default {
   base: "/",
-  title: 'master of management',
-  description: 'master of management lesson notes',
+  title: 'MAT and Java courses',
+  description: 'For learners of Management admission test and Java',
   head: [
     [
       'link',
