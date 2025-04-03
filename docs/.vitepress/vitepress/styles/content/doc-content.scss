@@ -11,7 +11,7 @@
       width: 100%;
     }
 
-    // todo: Screen wider than 1482px are not current support, Need to be adjusted to % dynamic response
+    // TODO: Screen wider than 1482px are not current support, Need to be adjusted to % dynamic response
     @include up-from('xxl') {
       width: var(--vp-content-width);
     }
