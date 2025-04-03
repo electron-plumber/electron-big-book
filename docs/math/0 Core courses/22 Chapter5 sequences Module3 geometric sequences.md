@@ -177,10 +177,10 @@ $
 
 
 ## 5.Focus 1
-__If three numbers $a,b,c$ form a geometric sequence, then b is called the geometric mean of a and c, that is $ac=b^2$.__  
-- __Important note__  
-  - $b = \pm \sqrt{ac}$  
-  - $a,c$ same sign operators
+__Determination and definition of Geometric sequence.__  
+__If three numbers $a,b,c$ form a geometric sequence, then b is called the geometric mean of a and c, that is $ac=b^2$.__   
+- $b = \pm \sqrt{ac}$  
+- $a,c$ same sign operators
 
 
 ### $\fbox{28}\:$If $\small \: 2, 2^x-1, 2^x+3 \:$form a geometric sequence, that is$\small \:x = \, \mathpunct{?}$.  
@@ -230,6 +230,35 @@ $
   >$
 ---
 
+## 6.Focus 2
+__General term of geometric sequence.__  
+$\mathbf{a_n=a_1q^{n-1}=a_{k}q^{n-k}=\frac{a_1}{q}q^n}$  
+__No element in a geometric sequence can be 0, and the common ratio can't be 0.__  
+- $
+  \begin{array}{ll}
+  a_n= \text{constants} \times \text{exponents}  \\
+  q= \text{base} \\
+  a_n= \text{constants} & \text{Special case } q=1
+  \end{array}
+  $
 
+### $\fbox{29}\:$Following there are $\small \: \mathpunct{?} \:$that can be used as general term in geometric sequence.
 
+$
+\begin{array}{lllll}
+(\text{A}) \:  &
+(\text{B}) \:  &
+(\text{C}) \:  &
+(\text{D}) \:  &
+(\text{E}) \:  & \\
+\end{array}
+$
 
+#### Solution
+- solve
+
+#### Conclusion
+- Derived Solution
+  > $\mathbf{}$  
+  > According to the Solution, get $, so choose $.
+---
