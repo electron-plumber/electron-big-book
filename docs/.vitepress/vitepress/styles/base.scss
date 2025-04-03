@@ -171,8 +171,7 @@ svg a {
 a.header-anchor {
   position: absolute;
   margin-top: 0.125em;
-  margin-left: -0.87em;
-  padding-right: 0.23em;
+  margin-left: -1.2em;
   font-size: 0.85em;
   opacity: 0;
 
@@ -180,6 +179,19 @@ a.header-anchor {
   :focus {
     text-decoration: none;
   }
+}
+
+// Support screen reader to read hidden anchor link helper text.
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 figure {

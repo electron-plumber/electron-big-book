@@ -5,6 +5,7 @@ import { imagePlugin } from './plugins/image'
 import { linkPlugin } from './plugins/link'
 import tableWrapper from './plugins/table-wrapper'
 import mathjax from './plugins/mathjax'
+import { linkInsideHeader } from './plugins/permalink'
 
 export default {
   base: "/",
@@ -50,6 +51,15 @@ export default {
         target: '_blank',
         rel: 'noreferrer'
       })
+    },
+    anchor: {
+      permalink: linkInsideHeader({
+        symbol: `
+          <span class="visually-hidden">Jump to heading</span>
+          <span aria-hidden="true">🔗</span>
+        `,
+        placement: 'before',
+      }),
     }
   },
   vue: {
