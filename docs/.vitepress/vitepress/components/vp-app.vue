@@ -77,14 +77,7 @@
         <slot name="sidebar-bottom" />
       </template>
     </VPSidebar>
-    <VPContent :is-sidebar-open="isSidebarOpen">
-      <template #content-top>
-        <slot name="content-top" />
-      </template>
-      <template #content-bottom>
-        <slot name="content-bottom" />
-      </template>
-    </VPContent>
+    <VPContent :is-sidebar-open="isSidebarOpen"/>
     <Debug />
   </div>
 </template>
