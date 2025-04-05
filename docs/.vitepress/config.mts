@@ -6,6 +6,8 @@ import { linkPlugin } from './plugins/link'
 import tableWrapper from './plugins/table-wrapper'
 import mathjax from './plugins/mathjax'
 import { linkInsideHeader } from './plugins/permalink'
+import createWrapperContainer from './plugins/wrapper'
+import mdContainer from 'markdown-it-container'
 
 export default {
   base: "/",
@@ -51,6 +53,7 @@ export default {
         target: '_blank',
         rel: 'noreferrer'
       })
+      md.use(mdContainer, 'wrap', createWrapperContainer(md))
     },
     anchor: {
       permalink: linkInsideHeader({
