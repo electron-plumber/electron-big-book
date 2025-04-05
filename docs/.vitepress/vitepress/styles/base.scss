@@ -168,6 +168,11 @@ svg a {
   }
 }
 
+div .vp-mathjax {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
 a.header-anchor {
   position: absolute;
   margin-top: 0.125em;

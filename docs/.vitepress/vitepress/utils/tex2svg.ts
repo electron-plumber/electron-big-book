@@ -38,5 +38,9 @@ export function renderTeX(content: string, options?: OptionList = {}) {
   const mathDocument = mathjax.document(content, documentOptions)
   const html = adaptor.outerHTML(mathDocument.convert(content, convertOptions))
   const stylesheet = adaptor.outerHTML(documentOptions.OutputJax.styleSheet(mathDocument) as LiteElement)
-  return juice(html+stylesheet)
+
+  // Wrap mjx-container in div to enable mobile math formula scrolling.
+  const wrappedHtml = `<div class="vp-mathjax">${html}</div>`
+
+  return juice(wrappedHtml+stylesheet)
 }
