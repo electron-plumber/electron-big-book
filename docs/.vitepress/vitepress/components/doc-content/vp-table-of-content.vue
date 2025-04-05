@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 import { useToc } from '~/composables/use-toc'
 import { useActiveSidebarLinks } from '~/composables/active-bar'
-import { renderTeX } from '~/utils/tex2svg'
+import { renderTeX, clearRenderSettingsRegex } from '~/utils/tex2svg'
 
 const headers = useToc()
 const container = ref()
@@ -10,11 +10,16 @@ useActiveSidebarLinks(container)
 
 
 function renderTableOfContents(content: string): string {
-  let renderedContent = content.trim()
-  const mathInlineRegex = new RegExp('(?<!\\\\|\\$)\\$(?!\\$|\\s|\\t)((?:[^$]|\\\\\\$)*)(?<!\\\\|\\s|\\t)\\$(?!\\$)', 'g')
+  let renderedContent: string
+  // Trim the excess to remove unnecessary characters
+  let trimmedContent = content.trim()
+                              .replace(clearRenderSettingsRegex, '')
+
+  const mathInlineRegex = /(?<!\\|\$)\$(?!\$|\s|\t)((?:[^$]|\\\$)*)(?<!\\|\s|\t)\$(?!\$)/g
 
   // Rendering Mathematical Formulas
-  renderedContent = renderedContent.replace(mathInlineRegex, (match, formula) => renderTeX(formula))
+  renderedContent = trimmedContent.replace(mathInlineRegex, (match, formula) =>
+    renderTeX(formula, { rset: { wdiv: false }}))
 
   return renderedContent
 }
