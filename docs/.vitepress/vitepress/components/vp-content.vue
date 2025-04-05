@@ -42,9 +42,6 @@ onUpdated(() => {
   <main :class="{ 'page-content': true, 'has-sidebar': hasSidebar }">
     <VPNotFound v-if="isNotFound" />
     <VPHeroContent v-else-if="isHeroPost" />
-    <VPDocContent v-else>
-      <template #content-top><slot name="content-top" /></template>
-      <template #content-bottom><slot name="content-bottom" /></template>
-    </VPDocContent>
+    <VPDocContent v-else/>
   </main>
 </template>
