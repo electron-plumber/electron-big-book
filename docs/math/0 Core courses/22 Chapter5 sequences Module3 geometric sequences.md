@@ -292,7 +292,7 @@ $
 ::: wrap
 - Derived Solution
   > $\rset{wdiv=false} \mathbf{}$  
-  > According to the Solution, get $\rset{wdiv=false} $, so choose $\rset{wdiv=false} $.
+  > According to the Solution, get $\rset{wdiv=false} ...$, so choose $\rset{wdiv=false} ...$.
 
 :::
 ---
