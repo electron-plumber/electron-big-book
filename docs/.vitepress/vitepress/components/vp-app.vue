@@ -64,17 +64,6 @@
       },
       { capture: true }
     )
-
-    // TODO: Will cause link preloading related resources to fail,
-    // TODO: the problem of slow resource loading is not a big deal, and will be upgraded later (upgrade.json).
-    // Using mathjax's $\href{}$ symbol in markdown will causes error in
-    // svg pathname matching in VitePress's lazy loading prefetching
-    // Reason:https://github.com/vuejs/vitepress/blob/42d2e32f40872a7369fb5c5a838d1760fdd80ea6/src/client/app/composables/preFetch.ts#L78
-    // Fixed:https://github.com/vuejs/vitepress/commit/010b3e5ad99f5e61fd01e27d0c3144896a8f3d86#diff-caf1aa54e64c62c1b926a294d523f321adf4dd0c7c83e07d8118bc12d6883491L80-R77
-    if (import.meta.env.PROD) {
-      // Currently, all uncaught errors in the console are blocked.
-      window.onerror = () => true
-    }
   })
 </script>
 
