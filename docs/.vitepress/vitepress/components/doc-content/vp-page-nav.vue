@@ -2,8 +2,10 @@
 import { withBase } from 'vitepress'
 import { ArrowLeft, ArrowRight } from '@element-plus/icons-vue'
 import { usePageNav } from '../../composables/page-nav'
+import { deviceBreakpoints } from '~/constant'
 
 const { hasLinks, prev, next } = usePageNav()
+const isDesktop = deviceBreakpoints.greater('lg')
 </script>
 
 <template>
@@ -14,16 +16,30 @@ const { hasLinks, prev, next } = usePageNav()
           <ElIcon class="mr-1">
             <ArrowLeft />
           </ElIcon>
-          <ElTooltip :content="prev.text" placement="top" effect="light" :show-after="600">
-            <span class="text">{{ prev.text }}</span>
-          </ElTooltip>
+          <ClientOnly>
+            <ElTooltip v-if="isDesktop"
+                       :content="prev.text"
+                       placement="top"
+                       effect="light"
+                       :show-after="600">
+              <span class="text">{{ prev.text }}</span>
+            </ElTooltip>
+            <span v-else class="text">{{ prev.text }}</span>
+          </ClientOnly>
         </a>
       </div>
       <div class="next">
         <a v-if="next" class="link" :href="withBase(next.link)">
-          <ElTooltip :content="next.text" placement="top" effect="light" :show-after="600">
-            <span class="text">{{ next.text }}</span>
-          </ElTooltip>
+          <ClientOnly>
+            <ElTooltip v-if="isDesktop"
+                       :content="next.text"
+                       placement="top"
+                       effect="light"
+                       :show-after="600">
+              <span class="text">{{ next.text }}</span>
+            </ElTooltip>
+            <span v-else class="text">{{ next.text }}</span>
+          </ClientOnly>
           <ElIcon class="ml-1">
             <ArrowRight />
           </ElIcon>
