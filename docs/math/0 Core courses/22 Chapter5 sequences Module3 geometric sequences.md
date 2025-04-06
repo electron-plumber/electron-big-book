@@ -285,10 +285,12 @@ $
 - solve
 :::
 #### Conclusion
-::: wrap
+
 - Derived Solution
+  ::: wrap
   > $\mathbf{}$  
   > According to the Solution, get $$, so choose $$.
 
-:::
+  :::
+
 ---

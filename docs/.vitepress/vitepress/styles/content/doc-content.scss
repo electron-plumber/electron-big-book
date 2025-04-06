@@ -3,6 +3,7 @@
 
 .doc-content-wrapper {
   --vp-content-width: 800px;
+  --vp-adapt-content-no-toc-width: 1000px;
 
   padding: 32px 24px 96px;
 
@@ -11,14 +12,16 @@
       width: 100%;
     }
 
-    // TODO: Screen wider than 1482px are not current support, Need to be adjusted to % dynamic response
+    // Screen wider than 1482px are not current support
     @include up-from('xxl') {
       width: var(--vp-content-width);
     }
   }
 
-  .adaptive-content {
-    width: 1000px;
+  .doc-content-container.adaptive-content {
+    @include up-from('xxl') {
+      width: var(--vp-adapt-content-no-toc-width);
+    }
   }
 
   @include up-from('md') {
