@@ -45,6 +45,7 @@ export default {
     config: (md) => {
       md.use(tableWrapper)
       md.use(mathjax)
+      md.use(mdContainer, 'wrap', createWrapperContainer(md))
       imagePlugin(md, {
         lazyLoading:true,
         asyncDecoding: true
@@ -53,7 +54,6 @@ export default {
         target: '_blank',
         rel: 'noreferrer'
       })
-      md.use(mdContainer, 'wrap', createWrapperContainer(md))
     },
     anchor: {
       permalink: linkInsideHeader({

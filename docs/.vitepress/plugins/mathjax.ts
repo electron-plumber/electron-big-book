@@ -10,8 +10,7 @@ import type MarkdownIt from 'markdown-it'
 import type Token from 'markdown-it/lib/token'
 import type StateInline from 'markdown-it/lib/rules_inline/state_inline'
 import type StateBlock from 'markdown-it/lib/rules_block/state_block'
-import { renderTeX, renderSettingsRegex, clearRenderSettingsRegex } from '../vitepress/utils/tex2svg'
-import { parseEqualsObject } from '../utils'
+import { renderTeX } from '../vitepress/utils/tex2svg'
 
 // Test if the potential opening or closing delimiter
 // Assumes that there is a "$" at state.src[pos]
@@ -108,16 +107,7 @@ function math_inline(state: StateInline, silent: boolean) {
   if (!silent) {
     const token = state.push("math_inline", "math", 0)
     token.markup = "$"
-    let content = state.src.slice(start, match)
-
-    // Find and extract the first \rset{}
-    const renderSettingsMatch = content.match(renderSettingsRegex)
-    if (renderSettingsMatch) {
-      token.renderSettings = parseEqualsObject(renderSettingsMatch[1])
-      content = content.replace(clearRenderSettingsRegex, "")
-    }
-
-    token.content = content
+    token.content = state.src.slice(start, match)
   }
 
   state.pos = match + 1
@@ -181,21 +171,11 @@ function math_block(
 
   const token = state.push("math_block", "math", 0)
   token.block = true
-  token.map = [start, state.line]
-  token.markup = "$$"
-
-  let content = (firstLine && firstLine.trim() ? firstLine + "\n" : "") +
+  token.content = (firstLine && firstLine.trim() ? firstLine + "\n" : "") +
     state.getLines(start + 1, next, state.tShift[start], true) +
     (lastLine && lastLine.trim() ? lastLine : "")
-
-  // Find and extract the first \rset{}
-  const renderSettingsMatch = content.match(renderSettingsRegex)
-  if (renderSettingsMatch) {
-    token.renderSettings = parseEqualsObject(renderSettingsMatch[1])
-    content = content.replace(clearRenderSettingsRegex, "")
-  }
-
-  token.content = content
+  token.map = [start, state.line]
+  token.markup = "$$"
   return true
 }
 
@@ -206,10 +186,10 @@ function plugin(md: MarkdownIt) {
     alt: ["paragraph", "reference", "blockquote", "list"],
   })
   md.renderer.rules.math_inline = function (tokens: Token[], idx: number) {
-    return renderTeX(tokens[idx].content, { convert: { display: false }, rset: tokens[idx].renderSettings })
+    return renderTeX(tokens[idx].content, { convert: { display: false } })
   }
   md.renderer.rules.math_block = function (tokens: Token[], idx: number) {
-    return renderTeX(tokens[idx].content,{ convert: { display: true }, rset: tokens[idx].renderSettings })
+    return renderTeX(tokens[idx].content,{ convert: { display: true } })
   }
 }
 
