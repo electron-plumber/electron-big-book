@@ -273,25 +273,52 @@ __No element in a geometric sequence can be 0, and the common ratio can't be 0._
 ### $\fbox{29}\:$Following there are $\small \: \mathpunct{?} \:$that can be used as general term in geometric sequence.
 $
 \begin{array}{lllll}
-(\text{A}) \:  &
-(\text{B}) \:  &
-(\text{C}) \:  &
-(\text{D}) \:  &
-(\text{E}) \:  & \\
+(\text{1}) \: a_n=n^3 &
+(\text{2}) \: a_n=3^n &
+(\text{3}) \: a_n=\frac{1}{3} &
+(\text{4}) \: a_n=\frac{2_n}{3} & \\
+(\text{5}) \: a_n=3^{-n} &
+(\text{6}) \: a_n=(-1)^n &
+(\text{7}) \: a_n=2^n-1 & \\
+(\text{A}) \: 2 &
+(\text{B}) \: 3 &
+(\text{C}) \: 4 &
+(\text{D}) \: 5 &
+(\text{E}) \: 6 & \\
 \end{array}
 $  
 :::
 #### Solution
 ::: wrap
-- solve  
+- Currently, know the Expressions, can use appearance feature analysis $a_n=\text{Constant} \times \text{Exponent}$.
+  $
+  \begin{array}{ll}
+  (\text{1}) \: a_n=n^3 & \text{This is a power function} \; ❌\\
+  (\text{2}) \: a_n=3^n & \boxed{1 \times 3^n} \; q=3 \; ✅\\
+  (\text{3}) \: a_n=\frac{1}{3} & \boxed{\frac{1}{3} \times 1^{n-1}} \; q=1 \; ✅\\
+  (\text{4}) \: a_n=\frac{2_n}{3} & \boxed{\frac{1}{3} \times 2_n} \; q=2 \; ✅\\
+  (\text{5}) \: a_n=3^{-n} & \boxed{1 \times (\frac{1}{3})^n} \; q=\frac{1}{3} \; ✅\\
+  (\text{6}) \: a_n=(-1)^n & \boxed{1 \times (-1)^n} \; q=-1 \; ✅\\
+  (\text{7}) \: a_n=2^n-1 & \text{There is a constant term -1 after the exponent} \; ❌\\
+  \end{array}
+  $  
 :::
-#### Conclusion
+#### ConclusionS
 
 - Derived Solution  
   ::: wrap
-  > $\mathbf{}$  
-  > According to the Solution, get $$, so choose $$.
+  > $\mathbf{D}$  
+  > According to the Solution, get $(\text{2}),(\text{3}),(\text{4}),(\text{5}),(\text{6})$ correct, so choose $D$.
 
   :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  a_n=\text{Constant} \times \text{Exponent} & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#formula-derivations}{\text{General term feature}} \; \text{Use when know the Expressions} \\
+  \frac{a_n+1}{a_n}=q & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_1-definition}{\text{Geometric sequence definition}} \; \text{Use when don't know the Expressions}\\
+  \end{array}
+  >$
 
+  :::
 ---
