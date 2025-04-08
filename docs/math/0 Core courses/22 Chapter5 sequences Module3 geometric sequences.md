@@ -12,7 +12,7 @@ lang: en-US
 # Module 5-03 Geometric sequence
 
 ## 1.Definition  
-::: wrap
+::: wrap  
 If in the sequence $\left\{ a_n \right\}, \frac{a_{n+1}}{a_n}=q(constant) (n \in N_+)$, 
 called the sequence $\left\{ a_n \right\}$ for Geometric sequence, __q__ is the common ratio.  
 :::
@@ -28,14 +28,14 @@ Essence: ratio value is constant (common ratio), relationship of multiples.
 
 
 ## 2.General term  
-::: wrap
+::: wrap  
 $$\mathbf{a_n=a_1q^{n-1}=a_{k}q^{n-k}=\frac{a_1}{q}q^n}$$
 
-__Remark: If two elements are known, need to know determine a common ratio $\frac{a_n}{a_m}=q^{n-m}$__
+__Remark: If two elements are known, need to know determine a common ratio $\frac{a_n}{a_m}=q^{n-m}$__  
 :::
 
 ### Formula derivations
-::: wrap
+::: wrap  
 $\mathbf{a_n=a_1q^{n-1}}$  
 
 $
@@ -45,10 +45,10 @@ $
 \frac{a_n}{a_1}=q^{n-1} \\
 a_n=a_1q^{n-1}
 \end{array}
-$
+$  
 :::
 ---
-::: wrap
+::: wrap  
 $\mathbf{a_n=a_{k}q^{n-k}}$
 
 $
@@ -59,10 +59,10 @@ $
 a_n=a_kq^{n-k} \\
 a_n=a_1q^{n-1} \; \text{When k=1} \\
 \end{array}
-$
+$  
 :::
 ---
-::: wrap
+::: wrap  
 $\mathbf{a_n=\frac{a_1}{q}q^n}$
 
 $
@@ -71,7 +71,7 @@ a_n=a_1q^{n-1} \\
 a_n=a_1 \frac{q^n}{q} \\
 a_n=\frac{a_1}{q}q^n \\
 \end{array}
-$
+$  
 :::
 ---
 
@@ -85,7 +85,7 @@ $
 
 
 ## 3.Sum of the first n term  
-::: wrap
+::: wrap  
 $$
 \mathbf{
 S_n=
@@ -94,11 +94,11 @@ na_1 & q=1 \\
 \frac{a_{1}(1-q^n)}{1-q}=\frac{a_{1}-a_{n}q}{1-q}=\frac{a_{1}-a_{n+1}}{1-q} & q \neq 1
 \end{cases}
 }
-$$
+$$  
 :::
 
 ### Formula derivations
-::: wrap
+::: wrap  
 $\mathbf{S_n=na_1}$
 
 $
@@ -106,10 +106,10 @@ $
 S_n=a_1+a_1+a_1+\dots+a_n \; \text{Constant sequence} \\ 
 S_n=na_1 \\
 \end{array}
-$
+$  
 :::
 ---
-::: wrap
+::: wrap  
 $\mathbf{S_n=\frac{a_{1}-a_{n}q}{1-q}=\frac{a_{1}-a_{n+1}}{1-q}}$
 
 $
@@ -121,10 +121,10 @@ qS_n=a_2+a_3+\dots+a_n+a_nq \\
 (1-q)S_n=a_1-a_nq \\
 S_n=\frac{a_1-a_nq}{1-q} \lor S_n=\frac{a_1-a_{n+1}}{1-q}\\
 \end{array}
-$
+$  
 :::
 ---
-::: wrap
+::: wrap  
 $\mathbf{S_n=\frac{a_{1}(1-q^n)}{1-q}}$
 
 $
@@ -134,13 +134,13 @@ a_n=a_1q^{n-1} \\
 S_n=\frac{a_1-a_1q^n}{1-q} \\
 S_n=\frac{a_1(1-q^n)}{1-q} \lor S_n=\frac{a_1}{1-q}(1-q^n) \\
 \end{array}
-$
+$  
 :::
 ---
 
 
-## 4.Important properties  
-::: wrap
+## 4.Important properties
+::: wrap  
 1. __If $m+n=k+t \,\fbox{Arithmetic sequence}$ then $a_ma_n=a_ka_t \, \fbox{Geometric sequence}$.__
    $
    \begin{array}{ll}
@@ -149,9 +149,9 @@ $
    a_7·q^2=a_9 \\
    a_3·a_9=a_5·a_7=a_6^2 \\
    \end{array}
-   $
-:::
-::: wrap
+   $  
+:::  
+::: wrap  
 2. __$S_n$ is the sum of the first n term of a geometric sequence,
    then $S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots$ are still geometric sequences$\fbox{Segment summation}$,
    and their common ratio is $q^n$.__  
@@ -175,9 +175,9 @@ $
    \frac{S_{2n}-S_n}{S_n} = \frac{S_{2n}}{S_n}-1 = 1+q^n-1 = q^n
    \end{array}
    }
-   $
-:::
-::: wrap
+   $  
+:::  
+::: wrap  
 3. __If $\left| q \right| < 1$,
    then the sum of all terms in the geometric sequence is $S=\lim\limits_{n \to \infty } S_n=\frac{a_1}{1-q}$.__  
    $
@@ -186,15 +186,15 @@ $
    \left( \frac{1}{3} \right)^{100} \approx 0 \\
    S_n = \frac{a_10}{1-q} = \frac{a_1}{1-q}
    \end{array}
-   $
+   $  
 :::
 
 ## 5.Focus 1
 __Determination and definition of Geometric sequence.__  
-::: wrap
+::: wrap  
 __If three numbers $a,b,c$ form a geometric sequence, then b is called the geometric mean of a and c, that is $ac=b^2$.__   
 - $b = \pm \sqrt{ac}$  
-- $a,c$ same sign operators
+- $a,c$ same sign operators  
 :::
 
 ::: wrap
@@ -207,10 +207,10 @@ $
 (\text{D}) \: 3 &
 (\text{E}) \: 4 & \\
 \end{array}
-$
+$  
 :::
 #### Solution
-::: wrap
+::: wrap  
 - $\mathbf{2, 2^x-1, 2^x+3}$ form a geometric sequence; it means $\mathbf{a+c=b^2}$.
   $
   \begin{array}{ll}
@@ -225,11 +225,11 @@ $
   2^x=5 \\
   x=\log_{2}5 & b^c=a \implies \log_{b}a=c \\
   \end{array}
-  $
+  $  
 :::
 #### Conclusion
 
-- Derived Solution
+- Derived Solution  
   ::: wrap
   > $\mathbf{(A)}$  
   > According to the Solution, get $x=\log_{2}5$, so choose $A$.
@@ -243,7 +243,7 @@ $
   > $a<0$ The result can be positive or negative.
 
   :::
-- Formula used
+- Formula used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -251,12 +251,13 @@ $
   b^c=a \implies \log_{b}a=c & \href{https://en.wikipedia.org/wiki/Logarithm}{\text{Definition of logarithm}} \\
   \end{array}
   >$
+
   :::
 ---
 
 ## 6.Focus 2
-__General term of geometric sequence.__
-::: wrap
+__General term of geometric sequence.__  
+::: wrap  
 $\mathbf{a_n=a_1q^{n-1}=a_{k}q^{n-k}=\frac{a_1}{q}q^n}$  
 __No element in a geometric sequence can be 0, and the common ratio can't be 0.__  
 - $
@@ -265,10 +266,10 @@ __No element in a geometric sequence can be 0, and the common ratio can't be 0._
   q= \text{base} \\
   a_n= \text{constants} & \text{Special case } q=1
   \end{array}
-  $
+  $  
 :::
 
-::: wrap
+::: wrap  
 ### $\fbox{29}\:$Following there are $\small \: \mathpunct{?} \:$that can be used as general term in geometric sequence.
 $
 \begin{array}{lllll}
@@ -278,15 +279,15 @@ $
 (\text{D}) \:  &
 (\text{E}) \:  & \\
 \end{array}
-$
+$  
 :::
 #### Solution
 ::: wrap
-- solve
+- solve  
 :::
 #### Conclusion
 
-- Derived Solution
+- Derived Solution  
   ::: wrap
   > $\mathbf{}$  
   > According to the Solution, get $$, so choose $$.
