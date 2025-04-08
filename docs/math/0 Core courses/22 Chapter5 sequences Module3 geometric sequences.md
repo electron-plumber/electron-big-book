@@ -307,7 +307,7 @@ $
 
 - Derived Solution  
   ::: wrap
-  > $\mathbf{D}$  
+  > $\mathbf{(D)}$  
   > According to the Solution, get $(\text{2}),(\text{3}),(\text{4}),(\text{5}),(\text{6})$ correct, so choose $D$.
 
   :::
@@ -317,6 +317,68 @@ $
   \begin{array}{ll}
   a_n=\text{Constant} \times \text{Exponent} & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#formula-derivations}{\text{General term feature}} \; \text{Use when know the Expressions} \\
   \frac{a_n+1}{a_n}=q & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_1-definition}{\text{Geometric sequence definition}} \; \text{Use when don't know the Expressions}\\
+  \end{array}
+  >$
+
+  :::
+---
+::: wrap
+### $\fbox{30}\:$ If $\left\{ a_n \right\}$ is a geometric sequence, among the following four statements, the number of correct statements is $\mathpunct{?}$.  
+$
+\begin{array}{ll}
+(\text{1}) \: \text{The sequence} \: \left\{a_n^2 \right\} \: \text{is a geometric sequence.} &
+(\text{2}) \: \text{The sequence} \: \left\{a_{2n} \right\} \: \text{is a geometric sequence.} & \\
+(\text{3}) \: \text{The sequence} \: \left\{ \frac{1}{a_n} \right\} \: \text{is a geometric sequence.} &
+(\text{4}) \: \text{The sequence} \: \left\{ |a_n| \right\} \: \text{is a geometric sequence.} & \\
+\end{array}
+$
+
+$
+\begin{array}{lllll}
+(\text{A}) \: 0 &  
+(\text{B}) \: 1 & 
+(\text{C}) \: 2 &
+(\text{D}) \: 3 &
+(\text{E}) \: 4 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Currently, don't know the Expressions, can use Geometric sequence definition analysis $\frac{a_n+1}{a_n}=q$.  
+  $
+  \begin{array}{ll}
+  (\text{1}) \: \left\{ a_n^2 \right\} & \boxed{\frac{a_{n+1}^2}{a_n^2}=(\frac{a_{n+1}}{a_n})^2=q^2} \; ✅\\
+  (\text{2}) \: \left\{ a_{2n} \right\} & \boxed{\frac{a_{2(n+1)}}{a_{2n}}=q^2} \; ✅\\
+  (\text{3}) \: \left\{ \frac{1}{a_n} \right\} & \boxed{\frac{\frac{1}{a_{n+1}}}{\frac{1}{a_n}}=\frac{a_n}{a_{n+1}}=\frac{1}{q}} \; ✅\\
+  (\text{4}) \: \left\{ |a_n| \right\} & \boxed{\frac{|a_{n+1}|}{|a_n|}=\left| \frac{a_{n+1}}{a_n} \right|=|q|} \; ✅\\
+  \end{array}
+  $  
+:::
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(E)}$  
+  > According to the Solution, get $(\text{1}),(\text{2}),(\text{3}),(\text{4})$, so choose $E$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \frac{a_n+1}{a_n}=q & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_1-definition}{\text{Geometric sequence definition}} \; \text{Use when don't know the Expressions}\\
+  \end{array}
+  >$
+
+  :::
+- Reverse of geometric sequence        
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  (\text{1}) \: \left\{ a_n^2 \right\} & a_n^2=r \implies a_n= \pm\sqrt{r} \; ❌\\
+  (\text{2}) \: \left\{ a_{2n} \right\} & a_0,a_1,a_2,a_3,a_4,\dots \implies a_{2n} = a_0,a_2,a_4,a_6,\dots \; ❌\\
+  (\text{3}) \: \left\{ \frac{1}{a_n} \right\} & a_n=\frac{1}{\frac{1}{a_n}}=a_n \; ✅\\
+  (\text{4}) \: \left\{ |a_n| \right\} & a_n=\begin{cases} a_n \quad \text{If} a_n \ge 0 \\ -a_n \: \text{If} a_n < 0 \end{cases} \; ❌\\
   \end{array}
   >$
 
