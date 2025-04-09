@@ -198,7 +198,7 @@ __If three numbers $a,b,c$ form a geometric sequence, then b is called the geome
 :::
 
 ::: wrap
-### $\fbox{28}\:$If $\small \: 2, 2^x-1, 2^x+3 \:$form a geometric sequence, that is $\small \:x = \, \mathpunct{?}$.
+### $\fbox{28}\:$If $\small 2, 2^x-1, 2^x+3$ form a geometric sequence, that is $\small x = \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: \log_{2}5 & 
@@ -270,7 +270,7 @@ __No element in a geometric sequence can be 0, and the common ratio can't be 0._
 :::
 
 ::: wrap  
-### $\fbox{29}\:$Following there are $\small \: \mathpunct{?} \:$that can be used as general term in geometric sequence.
+### $\fbox{29}\:$Following there are $\small \mathpunct{?} \:$that can be used as general term in geometric sequence.
 $
 \begin{array}{lllll}
 (\text{1}) \: a_n=n^3 &
@@ -290,7 +290,7 @@ $
 :::
 #### Solution
 ::: wrap
-- Currently, know the Expressions, can use appearance feature analysis $a_n=\text{Constant} \times \text{Exponent}$.
+- Currently, know the Expressions can use appearance feature analysis $a_n=\text{Constant} \times \text{Exponent}$.
   $
   \begin{array}{ll}
   (\text{1}) \: a_n=n^3 & \text{This is a power function} \; ❌\\
@@ -315,20 +315,28 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  a_n=\text{Constant} \times \text{Exponent} & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#formula-derivations}{\text{General term feature}} \; \text{Use when know the Expressions} \\
-  \frac{a_n+1}{a_n}=q & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_1-definition}{\text{Geometric sequence definition}} \; \text{Use when don't know the Expressions}\\
+  \begin{cases}
+  \text{Use when know the Expressions} \\
+  a_n=\text{Constant} \times \text{Exponent}
+  \end{cases} 
+  & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#formula-derivations}{\text{General term feature}} \\
+  \begin{cases}
+  \text{Use when don't know the Expressions} \\
+  \frac{a_n+1}{a_n}=q
+  \end{cases}
+  & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_1-definition}{\text{Geometric sequence definition}} \\
   \end{array}
   >$
 
   :::
 ---
 ::: wrap
-### $\fbox{30}\:$ If $\left\{ a_n \right\}$ is a geometric sequence, among the following four statements, the number of correct statements is $\mathpunct{?}$.  
+### $\fbox{30}\:$If $\small \left\{ a_n \right\}$ is a geometric sequence, among the following four statements, the number of correct statements is $\small \mathpunct{?}$.  
 $
 \begin{array}{ll}
-(\text{1}) \: \text{The sequence} \: \left\{a_n^2 \right\} \: \text{is a geometric sequence.} &
+(\text{1}) \: \text{The sequence} \: \left\{a_n^2 \right\} \: \text{is a geometric sequence.} & \\
 (\text{2}) \: \text{The sequence} \: \left\{a_{2n} \right\} \: \text{is a geometric sequence.} & \\
-(\text{3}) \: \text{The sequence} \: \left\{ \frac{1}{a_n} \right\} \: \text{is a geometric sequence.} &
+(\text{3}) \: \text{The sequence} \: \left\{ \frac{1}{a_n} \right\} \: \text{is a geometric sequence.} & \\
 (\text{4}) \: \text{The sequence} \: \left\{ |a_n| \right\} \: \text{is a geometric sequence.} & \\
 \end{array}
 $
@@ -371,7 +379,7 @@ $
   >$
 
   :::
-- Reverse of geometric sequence        
+- Reverse of a geometric sequence        
   ::: wrap
   >$
   \begin{array}{ll}
@@ -383,4 +391,68 @@ $
   >$
 
   :::
+---
+::: wrap
+### $\fbox{31}\:$In the geometric sequence $\small \left\{ a_n \right\}$, if $\small a_4a_7=-512,a_3+a_8=124$ and the is common ratio is $\small q \in \mathbb{Z}$, then $\small a_{10} = \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 124 &
+(\text{B}) \: 64 &
+(\text{C}) \: 512 &
+(\text{D}) \: -124 &
+(\text{E}) \: -512 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- According to the characteristics of Vieta's formulas, rearrange the equation.  
+  $
+  \begin{array}{ll}
+  x^2-124x-512=0
+  \begin{cases} 
+  a_4a_7=a_3a_8=-512 \\
+  a_3+a_8=124
+  \end{cases} \\
+  (1+4)(1-128)=0 \\
+  x=-4 \lor 128 \\
+  q \in \mathbb{z} 
+  \begin{cases}
+  a_3=-4 \\
+  a_8=128
+  \end{cases} \\ 
+  \frac{a_8}{a_3}=\frac{128}{-4}=-32=q^{\frac{\log32}{\log2}}=q^5 \\
+  q^5=-32 \implies \sqrt[5]{-32} \\
+  q=-2 \\
+  a_{10}=a_8q^2=128 \times (-2)^2=512 \\
+  \end{array}
+  $  
+:::
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(C)}$  
+  > According to the Solution, get $a_{10}=512$, so choose $C$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \begin{cases}
+  \text{1.Sum of the roots} \\
+  x_1 + x_2=-\frac{b}{a} \\
+  \text{2.Product of the roots} \\
+  x_1 \cdot x_2=\frac{c}{a}
+  \end{cases}
+  & \text{Vieta's formulas} \\
+  b^c=a \implies \log_{b}a=c & \text{Definition of logarithm} \\
+  y^2=x \implies \sqrt[2]{x} & \text{Definition of square root} \\
+  a_n=a_{k}q^{n-k} & \text{General term} \\
+  \end{array}
+  >$
+
+  :::
+- $q \in \mathbb{z}$  
+  > $|a_n|$ Monotonically increasing.
 ---
