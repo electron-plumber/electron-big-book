@@ -859,7 +859,73 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_4-important-properties}{\text{Sum of the first }S_n \,\text{terms}} \\
+  S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_4-important-properties}{\text{The property that }S_n \,\text{is the sum of the first n terms}} \\
+  \end{array}
+  >$
+
+  :::
+---
+::: wrap
+### $\fbox{38}\:$It is known that $\small S_n$ is the sum of the first n terms for the geometric sequence $\small \left\{ a_n \right\}$, if $\small S_4=30,S_8=150$, then common ratio $\small q= \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: \pm2 &
+(\text{B}) \: \sqrt{2} &
+(\text{C}) \: \pm\sqrt{2} &
+(\text{D}) \: \pm\frac{1}{2} &
+(\text{E}) \: -\sqrt{2}& \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- All indexs in $S_{\text{index}}$ are even numbers.  
+
+  $
+  \begin{array}{ll}
+  \underbrace{S_4}_{30} \; \underbrace{S_8-S_4}_{150-30=120} \; \dots & q^4\\
+  \frac{120}{30}=4 \\
+  q^4=4 \\
+  \sqrt{q^{2^2}}=\sqrt{2^2} \\
+  q^2=2 \\
+  q=\pm\sqrt{2}
+  \end{array}
+  $   
+:::  
+::: wrap  
+- All indexs in $S_{\text{index}}$ aren't even numbers.   
+
+  $
+  \begin{array}{ll}
+  \frac{S_m}{S_n} = \frac{1-q^m}{1-q^n} \\
+  \frac{S_8}{S_4}=1+q^4 & S_m=S_{2n} \\
+  \frac{150}{30}=5 \\
+  5=1+q^4 \\
+  q^4=4 \\
+  \sqrt{q^{2^2}}=\sqrt{2^2} \\
+  q^2=2 \\
+  q=\pm\sqrt{2}
+  \end{array}
+  $   
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(C)}$  
+  > According to the Solution, get $q=\pm\sqrt{2}$, so choose $C$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  S_n=
+  \begin{cases}
+  \frac{S_{2n}}{S_n} = 1+q^n & S_m=S_{2n} \\
+  \frac{S_m}{S_n} = \frac{1-q^m}{1-q^n} & S_m \neq S_{2n}
+  \end{cases} & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_4-important-properties}{\text{The property that }S_n \,\text{is the sum of the first n terms}} \\\\
+  S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_4-important-properties}{\text{The property that }S_n \,\text{is the sum of the first n terms}} \\
+  y^2=x \implies \sqrt[2]{x} & \text{Definition of square root} \\  
   \end{array}
   >$
 
