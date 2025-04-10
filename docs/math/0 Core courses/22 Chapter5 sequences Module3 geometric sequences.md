@@ -84,7 +84,7 @@ $
 | $a_n=\frac{a_1}{q}q^n$ | Need to know $a_1$ and $q$ to use, No constant term                       | $a_n=2 \times 3^{n}$ |
 
 
-## 3.Sum of the first n term  
+## 3.Sum of the first n terms  
 ::: wrap  
 $$
 \mathbf{
@@ -152,7 +152,7 @@ $
    $  
 :::  
 ::: wrap  
-2. __$S_n$ is the sum of the first n term for a geometric sequence,
+2. __$S_n$ is the sum of the first n terms for a geometric sequence,
    then $S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots$ are still geometric sequences$\fbox{Segment summation}$,
    and their common ratio is $q^n$.__  
    $
@@ -520,7 +520,7 @@ $
 ---
 
 ## 7.Focus 3
-__Sum of the first n term for geometric sequence.__  
+__Sum of the first n terms for geometric sequence.__  
 ::: wrap  
 $
 \mathbf{
@@ -544,7 +544,7 @@ $
 :::
 
 ::: wrap
-### $\fbox{33}\:$Following there are $\small \mathpunct{?}$ that can be used as a sum of the first n term for a geometric sequence.
+### $\fbox{33}\:$Following there are $\small \mathpunct{?}$ that can be used as a sum of the first n terms for a geometric sequence.
 $
 \begin{array}{lllll}
 (\text{1}) \: S_n=\frac{1}{3} &
@@ -602,7 +602,7 @@ $
   S_n=na_1 & q=1 \\
   S_n=k-kq^n & q \neq 1 \\
   \end{cases}
-  & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_7-focus-3}{\text{Characteristics for the sum of the first n term}} \\
+  & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_7-focus-3}{\text{Characteristics for the sum of the first n terms}} \\
   \end{array}
   >$
 
@@ -631,7 +631,7 @@ $
   :::
 ---
 ::: wrap
-### $\fbox{34}\:$It is known that $\small S_n$ is the sum of the first n term for the geometric sequence $\small \left\{ a_n \right\}$, if $\small S_2+S_5=2S_8$, then common ratio $\small q= \, \mathpunct{?}$.
+### $\fbox{34}\:$It is known that $\small S_n$ is the sum of the first n terms for the geometric sequence $\small \left\{ a_n \right\}$, if $\small S_2+S_5=2S_8$, then common ratio $\small q= \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: 1 \lor -2 &
@@ -689,7 +689,7 @@ $
   \begin{cases}
   na_1 & q=1 \\
   \frac{a_{1}(1-q^n)}{1-q}=\frac{a_{1}-a_{n}q}{1-q}=\frac{a_{1}-a_{n+1}}{1-q} & q \neq 1
-  \end{cases} & \text{Sum of the first n term} \\ 
+  \end{cases} & \text{Sum of the first n terms} \\ 
   b^c=a \implies \log_{b}a=c & \text{Definition of logarithm} \\
   y^2=x \implies \sqrt[2]{x} & \text{Definition of square root} \\
   \end{array}
@@ -811,6 +811,52 @@ $
   \sqrt{a_1^2}=\sqrt{\frac{25}{4}} \\
   a_1=\frac{5}{2} \\
   a_3+a_5=a_1+a_1=\frac{10}{2}=5 \\
+  \end{array}
+  >$
+
+  :::
+---
+
+## 9.Focus 5
+__The sum property of the first n terms for geometric sequence.__  
+::: wrap  
+- __If $S_n$ is the sum of the first n terms for a geometric sequence,
+  then $S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots$ are still geometric sequences$\fbox{Segment summation}$,
+  and their common ratio is $q^n$.__     
+:::
+
+::: wrap
+### $\fbox{37}\:$In the geometric sequence $\small \left\{ a_n \right\}$, knew $\small S_n=36,S_{2n}=54$, then $\small S_{3n}=\,\mathpunct{?}$
+$
+\begin{array}{lllll}
+(\text{A}) \: 63 &
+(\text{B}) \: 68 &
+(\text{C}) \: 76 &
+(\text{D}) \: 89 &
+(\text{E}) \: 92 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap
+$
+\begin{array}{ll}
+ & \text{} \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{()}$  
+  > According to the Solution, get $ $, so choose $ $. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots & \text{Sum of the first }S_n \,\text{terms} \\
   \end{array}
   >$
 
