@@ -697,3 +697,54 @@ $
 
   :::
 ---
+
+## 8.Focus 4
+__Properties of geometric sequence elements.__  
+::: wrap  
+- __If $k \in \mathbb{z_+},m+n=k+t$, then $a_m \cdot a_n = a_k \cdot a_t$__.   
+:::
+
+::: wrap
+### $\fbox{35}\:$In the geometric sequence $\small \left\{ a_n \right\}$, $\small a_3,a_8$ are the two roots of the equation $\small 3^x+2x-18=0$, then $\small a_4a_7= \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: -9 &
+(\text{B}) \: -8 &
+(\text{C}) \: -6 &
+(\text{D}) \: 6 &
+(\text{E}) \: 8 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+a_4a_7=a_3a_8=\frac{-18}{3}=-6 \\
+\end{array}
+$  
+:::
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(C)}$  
+  > According to the Solution, get $a_4a_7=-6$, so choose $C$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \text{Vieta's formulas}
+  \begin{cases}
+  \text{1.Sum of the roots} \\
+  x_1 + x_2=-\frac{b}{a} \\
+  \text{2.Product of the roots} \\
+  x_1 \cdot x_2=\frac{c}{a}
+  \end{cases} \\
+  a_n=a_1q^{n-1} & \text{General term} \\
+  \end{array}
+  >$
+
+  :::
+---
