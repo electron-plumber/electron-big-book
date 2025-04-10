@@ -313,11 +313,13 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
+  a_n=
   \begin{cases}
   \text{Use when know the Expressions} \\
   a_n=\text{Constant} \times \text{Exponent}
   \end{cases} 
   & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#formula-derivations}{\text{General term feature}} \\
+  \left\{ a_n \right\}=
   \begin{cases}
   \text{Use when don't know the Expressions} \\
   \frac{a_n+1}{a_n}=q
@@ -439,13 +441,13 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
+  \text{Vieta's formulas}
   \begin{cases}
   \text{1.Sum of the roots} \\
   x_1 + x_2=-\frac{b}{a} \\
   \text{2.Product of the roots} \\
   x_1 \cdot x_2=\frac{c}{a}
-  \end{cases}
-  & \text{Vieta's formulas} \\
+  \end{cases} \\
   b^c=a \implies \log_{b}a=c & \text{Definition of logarithm} \\
   y^2=x \implies \sqrt[2]{x} & \text{Definition of square root} \\
   a_n=a_{k}q^{n-k} & \text{General term} \\
