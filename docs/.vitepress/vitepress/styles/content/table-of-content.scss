@@ -15,18 +15,10 @@
     margin-bottom: 32px;
     width: 200px;
 
-    &__heading {
-      font-size: 12px;
-      color: var(--text-color-light);
-      font-weight: 600;
-      text-transform: uppercase;
-      margin-top: 0;
-    }
-
     .toc-items {
       list-style: none;
       padding: 0;
-      margin: 12px 0 0;
+      margin: -2px 0 0;
       line-height: 1.2;
 
       .toc-item {

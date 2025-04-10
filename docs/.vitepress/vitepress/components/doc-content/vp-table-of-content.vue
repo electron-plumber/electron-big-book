@@ -26,7 +26,6 @@ function renderTableOfContents(content: string): string {
     <aside ref="container" class="toc-wrapper">
       <ElScrollbar class="toc-content">
         <nav>
-          <h3 class="toc-content__heading">Contents</h3>
           <ul class="toc-items">
             <li v-for="{ link, text, children } in headers" :key="link" class="toc-item">
               <a class="toc-link" :href="link" :title="text">
