@@ -192,9 +192,9 @@ $
 ## 5.Focus 1
 __Determination and definition of Geometric sequence.__  
 ::: wrap  
-__If three numbers $a,b,c$ form a geometric sequence, then b is called the geometric mean of a and c, that is $ac=b^2$.__   
-- $b = \pm \sqrt{ac}$  
-- $a,c$ same sign operators  
+- __If three numbers $a,b,c$ form a geometric sequence, then b is called the geometric mean of a and c, that is $ac=b^2$.__   
+  - $b = \pm \sqrt{ac}$  
+  - $a,c$ same sign operators  
 :::
 
 ::: wrap
@@ -259,14 +259,10 @@ $
 __General term of geometric sequence.__  
 ::: wrap  
 $\mathbf{a_n=a_1q^{n-1}=a_{k}q^{n-k}=\frac{a_1}{q}q^n}$  
-__No element in a geometric sequence can be 0, and the common ratio can't be 0.__  
-- $
-  \begin{array}{ll}
-  a_n= \text{constants} \times \text{exponents}  \\
-  q= \text{base} \\
-  a_n= \text{constants} & \text{Special case } q=1
-  \end{array}
-  $  
+- __No element in a geometric sequence can be 0, and the common ratio can't be 0.__  
+  - $a_n= \text{constants} \times \text{exponents}$   
+  - $q= \text{base}$  
+  - $a_n= \text{constants} \quad \text{Special case } q=1$  
 :::
 
 ::: wrap  
@@ -516,3 +512,28 @@ $
 
   :::
 ---
+
+## 7.Focus 3
+__Sum of the first n term of geometric sequence.__  
+::: wrap  
+$
+\mathbf{
+S_n=
+\begin{cases}
+na_1 & q=1 \\
+\frac{a_{1}(1-q^n)}{1-q}=\frac{a_{1}-a_{n}q}{1-q}=\frac{a_{1}-a_{n+1}}{1-q} & q \neq 1
+\end{cases}
+}
+$  
+- __$q=1$__
+  - $S_n=na_1 \quad \text{linear function}$
+- __$q \neq 1$__
+  - $S_n=\frac{a_1}{1-q} \times (1-q^n)=k(1-q^n)=\boxed{k-kq^n}$    
+- __$S_n=a+bq^n$__  
+  - $a+b \neq 0 \quad \text{it is not }S_n$  
+    - Form $a_2$ onwards it is still a geometric sequence.  
+  - $a+b=0 \quad \text{it is }S_n$   
+    - $S_n=3-3q^n$ ✅$\quad k-k=0$  
+    - $S_n=5-3q^n$ ❌$\quad k-k\neq0$   
+:::
+
