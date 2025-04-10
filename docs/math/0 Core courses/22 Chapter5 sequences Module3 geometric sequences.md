@@ -57,7 +57,7 @@ $
 \frac{\cancel{a_2}}{a_k}=q,\frac{\cancel{a_3}}{\cancel{a_2}}=q,\dots,\frac{a_n}{\cancel{a_{n-1}}}=q\\
 \frac{a_n}{a_k}=q^{n-k} \\
 a_n=a_kq^{n-k} \\
-a_n=a_1q^{n-1} \; \text{When k=1} \\
+a_n=a_1q^{n-1} & k=1 \\
 \end{array}
 $  
 :::
@@ -103,7 +103,7 @@ $\mathbf{S_n=na_1}$
 
 $
 \begin{array}{ll}
-S_n=a_1+a_1+a_1+\dots+a_n \; \text{Constant sequence} \\ 
+S_n=a_1+a_1+a_1+\dots+a_n & \text{Constant sequence} \\ 
 S_n=na_1 \\
 \end{array}
 $  
@@ -117,7 +117,7 @@ $
 S_n=a_1+a_2+\dots+a_{n-1}+a_n \\
 qS_n=q(a_1+a_2+\dots+a_{n-1}+a_n) \\
 qS_n=a_2+a_3+\dots+a_n+a_nq \\
-(S_n=a_1+a_2+\dots+a_{n-1}+a_n)-(qS_n=a_2+a_3+\dots+a_n+a_nq) \; \text{Displaced subtraction} \\
+(S_n=a_1+a_2+\dots+a_{n-1}+a_n)-(qS_n=a_2+a_3+\dots+a_n+a_nq) & \text{Displaced subtraction} \\
 (1-q)S_n=a_1-a_nq \\
 S_n=\frac{a_1-a_nq}{1-q} \lor S_n=\frac{a_1-a_{n+1}}{1-q}\\
 \end{array}
@@ -374,7 +374,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{a_n+1}{a_n}=q & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_1-definition}{\text{Geometric sequence definition}} \; \text{Use when don't know the Expressions}\\
+  \frac{a_n+1}{a_n}=q & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_1-definition}{\text{Geometric sequence definition}} \\
   \end{array}
   >$
 
@@ -383,7 +383,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  (\text{1}) \: \left\{ a_n^2 \right\} & a_n^2=r \implies a_n= \pm\sqrt{r} \; ❌\\
+  (\text{1}) \: \left\{ a_n^2 \right\} & a_n^2=x \implies a_n= \pm\sqrt{x} \; ❌\\
   (\text{2}) \: \left\{ a_{2n} \right\} & a_0,a_1,a_2,a_3,a_4,\dots \implies a_{2n} = a_0,a_2,a_4,a_6,\dots \; ❌\\
   (\text{3}) \: \left\{ \frac{1}{a_n} \right\} & a_n=\frac{1}{\frac{1}{a_n}}=a_n \; ✅\\
   (\text{4}) \: \left\{ |a_n| \right\} & a_n=\begin{cases} a_n \quad \text{If} a_n \ge 0 \\ -a_n \: \text{If} a_n < 0 \end{cases} \; ❌\\
@@ -455,4 +455,64 @@ $
   :::
 - $q \in \mathbb{z}$  
   > $|a_n|$ Monotonically increasing.
+---
+::: wrap
+### $\fbox{32}\:$In the known geometric sequence $\small \left\{ a_n \right\}$, if $\small a_3+a_9=130,a_3-a_9=-126$, then common ratio $\small q= \, \mathpunct{?}$.  
+$
+\begin{array}{lllll}
+(\text{A}) \: 2 \lor -2 &
+(\text{B}) \: 2 &
+(\text{C}) \: 3 &
+(\text{D}) \: -3 &
+(\text{E}) \: -2 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+a_3+a_9+a_3-a_9=130-126
+\begin{cases}
+a_3+a_9=130 \\
+a_3-a_9=-126
+\end{cases} \\ 
+2a_3=4 \\ 
+a_3=\frac{4}{2}=2 \\
+a_3+a_9=130 \\
+2+a_9=130 \\
+a_9=130-2=128 \\
+\frac{a_9}{a_3}=\frac{128}{2}=64=q^{\frac{\log64}{\log2}}=q^6 \\
+q^6=64 \implies \pm\sqrt[6]{64} \\
+q=\pm2 \\
+\end{array}
+$  
+:::
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(A)}$  
+  > According to the Solution, get $q=\pm2$, so choose $A$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  b^c=a \implies \log_{b}a=c & \text{Definition of logarithm} \\
+  y^2=x \implies \sqrt[2]{x} & \text{Definition of square root} \\
+  \end{array}
+  >$
+
+  :::
+- Even powers are $\pm\sqrt{x}$  
+  ::: wrap  
+  >$
+  \begin{array}{ll}
+  x^2=\pm\sqrt{x} & 3^2=9 \land -3^2=9 \\
+  x^3=\sqrt{x} & 3^3=27 \lor -3^3=-27 \\
+  \end{array}
+  >$
+
+  :::
 ---
