@@ -212,6 +212,7 @@ $
 #### Solution
 ::: wrap  
 - $\mathbf{2, 2^x-1, 2^x+3}$ form a geometric sequence; it means $\mathbf{a+c=b^2}$.
+
   $
   \begin{array}{ll}
   2 \times (2^x+3) = (2^x-1)^2 \\ 
@@ -287,6 +288,7 @@ $
 #### Solution
 ::: wrap
 - Currently, know the Expressions can use appearance feature analysis $a_n=\text{Constant} \times \text{Exponent}$.
+
   $
   \begin{array}{ll}
   (\text{1}) \: a_n=n^3 & \text{This is a power function} \; ❌\\
@@ -350,6 +352,7 @@ $
 #### Solution
 ::: wrap  
 - Currently, don't know the Expressions, can use Geometric sequence definition analysis $\frac{a_n+1}{a_n}=q$.  
+
   $
   \begin{array}{ll}
   (\text{1}) \: \left\{ a_n^2 \right\} & \boxed{\frac{a_{n+1}^2}{a_n^2}=(\frac{a_{n+1}}{a_n})^2=q^2} \; ✅\\
@@ -403,6 +406,7 @@ $
 #### Solution
 ::: wrap  
 - According to the characteristics of Vieta's formulas, rearrange the equation.  
+
   $
   \begin{array}{ll}
   x^2-124x-512=0
@@ -559,7 +563,9 @@ $
 #### Solution
 ::: wrap  
 - Currently, know the Expressions can use appearance feature analysis.  
+
   $
+  S_n=
   \begin{cases}
   S_n=na_1 & q=1 \\
   S_n=k-kq^n & q \neq 1 \\
@@ -589,6 +595,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
+  S_n=
   \begin{cases}
   S_n=na_1 & q=1 \\
   S_n=k-kq^n & q \neq 1 \\
@@ -635,20 +642,54 @@ $
 :::
 #### Solution
 ::: wrap  
-- solve  
-:::
+- $q=1$  
+
+  $
+  \begin{array}{ll}
+  2a_1+5a_1=2 \times 8a_1 \\
+  7a_1=16a_1 \\
+  0=9a_1 \\
+  a_1=\frac{0}{9}=0 & \text{No any element in a geometric sequence can be 0} \; ❌\\
+  \end{array}
+  $ 
+:::  
+::: wrap  
+- $q \ne 1$  
+
+  $
+  \begin{array}{ll}
+  \frac{a_1(1-q^2)}{1-q}+\frac{a_1(1-q^5)}{1-q}=\frac{2a_1(1-q^8)}{1-q} \\
+  1-q^2+1-q^5=2(1-q^8) \\
+  q^2+q^5=2q^8 \\
+  \frac{q^2+q^5}{q^2}=\frac{2q^8}{q^2} & q \,\text{is not 0, divide both sides by } q^2, \text{similar to } q^{\frac{\log_{10}x}{\log_{10}2}} \\
+  \frac{q^2}{q^2}+\frac{q^2+q^3}{q^2}=\frac{2(q^2+q^6)}{q^2} \\
+  1+q^3=2q^6 \\
+  2t^2-t-1=0 & t=q^3 \\
+  (1t-1)(2t+1)=0 \\
+  t=1 \lor -\frac{1}{2} & t \ne 1 \,\text{if }t=1 \,\text{then } q=1 \\
+  q^3=-\frac{1}{2} \\
+  q=-\frac{1}{\sqrt[3]{2}}=-\frac{\sqrt[3]{4}}{\sqrt[3]{8}}=-\frac{\sqrt[3]{4}}{2} \\
+  \end{array}
+  $  
+:::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{()}$  
-  > According to the Solution, get $ $, so choose $ $. 
+  > $\mathbf{(D)}$  
+  > According to the Solution, get $q=-\frac{\sqrt[3]{4}}{2} \,\text{in } q \ne 1$, so choose $D$. 
 
   :::
 - Formula used  
   ::: wrap
   >$
   \begin{array}{ll}
-   & \text{} \\
+  S_n=
+  \begin{cases}
+  na_1 & q=1 \\
+  \frac{a_{1}(1-q^n)}{1-q}=\frac{a_{1}-a_{n}q}{1-q}=\frac{a_{1}-a_{n+1}}{1-q} & q \neq 1
+  \end{cases} & \text{Sum of the first n term} \\ 
+  b^c=a \implies \log_{b}a=c & \text{Definition of logarithm} \\
+  y^2=x \implies \sqrt[2]{x} & \text{Definition of square root} \\
   \end{array}
   >$
 
