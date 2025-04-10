@@ -152,7 +152,7 @@ $
    $  
 :::  
 ::: wrap  
-2. __$S_n$ is the sum of the first n term of a geometric sequence,
+2. __$S_n$ is the sum of the first n term for a geometric sequence,
    then $S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots$ are still geometric sequences$\fbox{Segment summation}$,
    and their common ratio is $q^n$.__  
    $
@@ -330,9 +330,9 @@ $
 ### $\fbox{30}\:$If $\small \left\{ a_n \right\}$ is a geometric sequence, among the following four statements, the number of correct statements is $\small \mathpunct{?}$.  
 $
 \begin{array}{ll}
-(\text{1}) \: \text{The sequence} \: \left\{a_n^2 \right\} \: \text{is a geometric sequence.} & \\
+(\text{1}) \: \text{The sequence} \: \left\{a_n^2 \right\} \: \text{is a geometric sequence.} &
 (\text{2}) \: \text{The sequence} \: \left\{a_{2n} \right\} \: \text{is a geometric sequence.} & \\
-(\text{3}) \: \text{The sequence} \: \left\{ \frac{1}{a_n} \right\} \: \text{is a geometric sequence.} & \\
+(\text{3}) \: \text{The sequence} \: \left\{ \frac{1}{a_n} \right\} \: \text{is a geometric sequence.} &
 (\text{4}) \: \text{The sequence} \: \left\{ |a_n| \right\} \: \text{is a geometric sequence.} & \\
 \end{array}
 $
@@ -514,7 +514,7 @@ $
 ---
 
 ## 7.Focus 3
-__Sum of the first n term of geometric sequence.__  
+__Sum of the first n term for geometric sequence.__  
 ::: wrap  
 $
 \mathbf{
@@ -537,3 +537,65 @@ $
     - $S_n=5-3q^n$ ❌$\quad k-k\neq0$   
 :::
 
+::: wrap
+### $\fbox{33}\:$Following there are $\small \mathpunct{?}$ that can be used as a sum of the first n term for a geometric sequence.
+$
+\begin{array}{lllll}
+(\text{1}) \: S_n=\frac{1}{3} &
+(\text{2}) \: S_n=2n &
+(\text{3}) \: S_n=2n-1 &
+(\text{4}) \: S_n=2^n & \\
+(\text{5}) \: S_n=2^n-1 &
+(\text{6}) \: S_n=2^n+1 &
+(\text{7}) \: S_n=3(2^n-1) & \\
+(\text{A}) \: 2 &
+(\text{B}) \: 3 &
+(\text{C}) \: 4 &
+(\text{D}) \: 5 &
+(\text{E}) \: 6 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Currently, know the Expressions can use appearance feature analysis.  
+  $
+  \begin{cases}
+  S_n=na_1 & q=1 \\
+  S_n=k-kq^n & q \neq 1 \\
+  \end{cases}
+  $
+
+  $
+  \begin{array}{ll}
+  (\text{1}) \: S_n=\frac{1}{3} & S_n \,\text{cannot be a constant, but } a_n \,\text{can be a constant} \; ❌\\
+  (\text{2}) \: S_n=2n & \boxed{n2} \; q=1 \; ✅\\
+  (\text{3}) \: S_n=2n-1 & 2n-1 \,\text{is not the } q^n \,\text{exponential} \; ❌\\
+  (\text{4}) \: S_n=2^n & \text{There is no constant term after }2^n \; ❌\\
+  (\text{5}) \: S_n=2^n-1 & \boxed{1-1 \cdot 2^n} \; q=2 \; ✅\\
+  (\text{6}) \: S_n=2^n+1 & \text{Does not satisfy } k-k=0 \; ❌\\
+  (\text{7}) \: S_n=3(2^n-1) & \boxed{3-3 \cdot 2^n} \; q=2 \; ✅\\
+  \end{array}
+  $  
+:::
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $(\text{2}),(\text{5}),(\text{7})$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \begin{cases}
+  S_n=na_1 & q=1 \\
+  S_n=k-kq^n & q \neq 1 \\
+  \end{cases}
+  & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_7-focus-3}{\text{Sum of the first n term feature}} \\
+  \end{array}
+  >$
+
+  :::
+---
