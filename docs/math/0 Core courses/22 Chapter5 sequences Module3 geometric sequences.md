@@ -598,4 +598,59 @@ $
   >$
 
   :::
+- $S_n$ corresponds $a_n$  
+  ::: wrap  
+  >$
+  a_n=
+  \begin{cases}
+  a_1=S_1 & n=1 \\
+  S_n-S_{n-1} & n \ge 1 \\
+  \end{cases}
+  >$
+
+  >$
+  \begin{array}{ll}
+  (\text{1}) \: S_n=\frac{1}{3} & \boxed{a_n=\begin{cases} \frac{1}{3} & n=1 \\ 0 & n \ge 1 \\ \end{cases}} \\
+  (\text{2}) \: S_n=2n & \boxed{a_n=2} \\
+  (\text{3}) \: S_n=2n-1 & \boxed{a_n=\begin{cases} 1 & n=1 \\ 2 & n \ge 1 \\ \end{cases}} \\
+  (\text{4}) \: S_n=2^n & \boxed{a_n=\begin{cases} 2 & n=1 \\ 2^n-2^{n-1}=(2 \times 2^{n-1})-2^{n-1}=2^{n-1} & n \ge 1 \\ \end{cases}} \\
+  (\text{5}) \: S_n=2^n-1 & \boxed{a_n=1 \times 2^{n-1}} \\
+  (\text{6}) \: S_n=2^n+1 & \boxed{a_n=\begin{cases} 3 & n=1 \\ 2^{n-1} & n \ge 1 \\ \end{cases}} \\
+  (\text{7}) \: S_n=3(2^n-1) & \boxed{a_n=3 \times 2^{n-1}} \\
+  \end{array}
+  >$  
+  :::
+---
+::: wrap
+### $\fbox{34}\:$It is known that $\small S_n$ is the sum of the first n term for the geometric sequence $\small \left\{ a_n \right\}$, if $\small S_2+S_5=2S_8$, then common ratio $\small q= \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 1 \lor -2 &
+(\text{B}) \: 2 &
+(\text{C}) \: 1 \lor -\frac{\sqrt[3]{4}}{2} &
+(\text{D}) \: -\frac{\sqrt[3]{4}}{2} &
+(\text{E}) \: -2 \lor -\frac{\sqrt[3]{4}}{2} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- solve  
+:::
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{()}$  
+  > According to the Solution, get $ $, so choose $ $. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+   & \text{} \\
+  \end{array}
+  >$
+
+  :::
 ---
