@@ -54,7 +54,7 @@ $\mathbf{a_n=a_{k}q^{n-k}}$
 $
 \begin{array}{ll}
 \frac{a_{n+1}}{a_n}=q \\
-\frac{\cancel{a_2}}{a_k}=q,\frac{\cancel{a_3}}{\cancel{a_2}}=q,\dots,\frac{a_n}{\cancel{a_{n-1}}}=q\\
+\frac{\cancel{a_2}}{a_k}=q,\frac{\cancel{a_3}}{\xcancel{a_2}}=q,\dots,\frac{a_n}{\cancel{a_{n-1}}}=q\\
 \frac{a_n}{a_k}=q^{n-k} \\
 a_n=a_kq^{n-k} \\
 a_n=a_1q^{n-1} & k=1 \\
@@ -826,7 +826,7 @@ __The sum property of the first n terms for geometric sequence.__
 :::
 
 ::: wrap
-### $\fbox{37}\:$In the geometric sequence $\small \left\{ a_n \right\}$, knew $\small S_n=36,S_{2n}=54$, then $\small S_{3n}=\,\mathpunct{?}$
+### $\fbox{37}\:$In the geometric sequence $\small \left\{ a_n \right\}$, knew $\small S_n=36,S_{2n}=54$, then $\small S_{3n}=\,\mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: 63 &
@@ -838,25 +838,28 @@ $
 $  
 :::
 #### Solution
-::: wrap
+::: wrap  
 $
 \begin{array}{ll}
- & \text{} \\
+\underbrace{S_n}_{36} \; \underbrace{S_{2n}-S_n}_{54-36=18} \; \underbrace{S_{3n}-S_{2n}}_{\frac{18}{2}=9} \; \dots\\
+S_3=S_{2n}+9 \lor \bcancel{S_n}+\cancel{S_{2n}}-\bcancel{S_n}+S_{3n}-\cancel{S_{2n}} \\
+S_3=54+9 \lor 36+18+9 \\
+S_3=63 \\
 \end{array}
 $  
 :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{()}$  
-  > According to the Solution, get $ $, so choose $ $. 
+  > $\mathbf{(A)}$  
+  > According to the Solution, get $S_3=63$, so choose $A$. 
 
   :::
 - Formula used  
   ::: wrap
   >$
   \begin{array}{ll}
-  S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots & \text{Sum of the first }S_n \,\text{terms} \\
+  S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_4-important-properties}{\text{Sum of the first }S_n \,\text{terms}} \\
   \end{array}
   >$
 
