@@ -287,7 +287,7 @@ $
 :::
 #### Solution
 ::: wrap
-- Currently, know the Expressions can use appearance feature analysis $a_n=\text{Constant} \times \text{Exponent}$.
+- Currently, know the Expressions can use characterization analysis $a_n=\text{Constant} \times \text{Exponent}$.
 
   $
   \begin{array}{ll}
@@ -318,7 +318,7 @@ $
   \text{Use when know the Expressions} \\
   a_n=\text{Constant} \times \text{Exponent}
   \end{cases} 
-  & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#formula-derivations}{\text{General term feature}} \\
+  & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#formula-derivations}{\text{General term characteristics}} \\
   \left\{ a_n \right\}=
   \begin{cases}
   \text{Use when don't know the Expressions} \\
@@ -564,7 +564,7 @@ $
 :::
 #### Solution
 ::: wrap  
-- Currently, know the Expressions can use appearance feature analysis.  
+- Currently, know the Expressions can use characterization analysis.  
 
   $
   S_n=
@@ -602,7 +602,7 @@ $
   S_n=na_1 & q=1 \\
   S_n=k-kq^n & q \neq 1 \\
   \end{cases}
-  & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_7-focus-3}{\text{Sum of the first n term feature}} \\
+  & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_7-focus-3}{\text{Characteristics for the sum of the first n term}} \\
   \end{array}
   >$
 
@@ -743,6 +743,74 @@ $
   x_1 \cdot x_2=\frac{c}{a}
   \end{cases} \\
   a_n=a_1q^{n-1} & \text{General term} \\
+  \end{array}
+  >$
+
+  :::
+---
+::: wrap
+### $\fbox{36}\:$If the geometric sequence a satisfies $\small a_2a_4+2a_3a_5+a_2a_8=25$ and $\small a_1 > 0$, then $\small a_3+a_5=\,\mathpunct{?}$. 
+$
+\begin{array}{lllll}
+(\text{A}) \: 8 &
+(\text{B}) \: 5 &
+(\text{C}) \: 2 &
+(\text{D}) \: -2 &
+(\text{E}) \: -5 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+a_3^2+2a_3a_5+a_5^2=25 \\
+(a_3+a_5)^2=25 \\
+\sqrt{(a_3+a_5)^2}=\sqrt{25} \\
+a_3+a_5=\pm5 \\
+a_3+a_5=5 & a_1>0 \,\text{so }a_1q^{n-1}>0 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $a_3+a_5=5$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  ac=b^2 & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_5-focus-1}{\text{Geometric mean}} \\
+  a_n=a_1q^{n-1} & \text{General term} \\
+  \end{array}
+  >$
+
+  :::
+- Characteristics of Same sign operators in a geometric sequence   
+  ::: wrap  
+  >$
+  \begin{array}{ll}
+  a_1,a_3,a_5,\dots \\
+  a_1,a_1q^2,a_1q^4,\dots & \text{Same sign operators}\\
+  a_2,a_4,a_6,\dots \\
+  a_1q,a_1q^3,a_1q^5,\dots & \text{Same sign operators}\\
+  \end{array}
+  >$
+
+  :::
+- Trick solution  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  a_3^2+2a_3a_5+a_5^2=25 \\
+  a_1^2+2a_1^2+a_1^2=25 & q=1 \\
+  a_1^2=\frac{25}{4} \\
+  \sqrt{a_1^2}=\sqrt{\frac{25}{4}} \\
+  a_1=\frac{5}{2} \\
+  a_3+a_5=a_1+a_1=\frac{10}{2}=5 \\
   \end{array}
   >$
 
