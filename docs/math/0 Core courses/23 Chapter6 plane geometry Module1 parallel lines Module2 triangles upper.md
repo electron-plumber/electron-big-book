@@ -77,7 +77,8 @@ $
 
   :::
 - Another solution $l_2$ elongation  
-  ![Question parallel lines figure 6-4 solve-2.svg](../../public/math/Core%20courses/Question%20parallel%20lines%20figure%206-4%20solve-2.svg)  
+  ::: wrap  
+  > ![Question parallel lines figure 6-4 solve-2.svg](../../public/math/Core%20courses/Question%20parallel%20lines%20figure%206-4%20solve-2.svg)  
   $
   \begin{array}{ll}
   \angle4=180^\circ-\angle1 & \text{Corresponding angles} \\
@@ -85,6 +86,8 @@ $
   \angle\alpha+\angle4=\angle2 & \text{Alternate interior angles} \\
   \angle\alpha=\angle2-\angle4=140^\circ-75^\circ=65^\circ \\
   \end{array}
-  $
+  >$
+
+  :::
 ---
 
