@@ -44,29 +44,47 @@ $
 ![Question parallel lines figure 6-4.svg](../../public/math/Core%20courses/Question%20parallel%20lines%20figure%206-4.svg)  
 #### Solution
 ::: wrap  
-- solve  
-
+- Show parallel lines  
+  ![Question parallel lines figure 6-4 solve-1.svg](../../public/math/Core%20courses/Question%20parallel%20lines%20figure%206-4%20solve-1.svg)  
   $
   \begin{array}{ll}
-   & \text{} \\
+  \angle3=180^\circ-\angle2 & \text{Adjacent interior angles} \\ 
+  180^\circ-140^\circ=40^\circ \\
+  \angle3+\angle\alpha=\angle1 & \text{Corresponding angles} \\
+  \angle\alpha=\angle1-\angle3=105^\circ-40^\circ=65^\circ \\
   \end{array}
   $  
 :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{()}$  
-  > According to the Solution, get $ $, so choose $ $. 
+  > $\mathbf{(D)}$  
+  > According to the Solution, get $\angle\alpha=65^\circ$, so choose $D$. 
 
   :::
 - Formula used  
   ::: wrap
   >$
   \begin{array}{ll}
-   & \text{} \\
+  \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-definition}{\text{Angle relationship}}
+  \begin{cases}
+  \angle1=\angle4 \\
+  \angle2=\angle4 \\
+  \angle1+\angle4=180^\circ \\
+  \end{cases} \\
   \end{array}
   >$
 
   :::
+- Another solution $l_2$ elongation  
+  ![Question parallel lines figure 6-4 solve-2.svg](../../public/math/Core%20courses/Question%20parallel%20lines%20figure%206-4%20solve-2.svg)  
+  $
+  \begin{array}{ll}
+  \angle4=180^\circ-\angle1 & \text{Corresponding angles} \\
+  180^\circ-105^\circ=75^\circ \\
+  \angle\alpha+\angle4=\angle2 & \text{Alternate interior angles} \\
+  \angle\alpha=\angle2-\angle4=140^\circ-75^\circ=65^\circ \\
+  \end{array}
+  $
 ---
 
