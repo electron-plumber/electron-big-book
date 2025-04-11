@@ -13,11 +13,15 @@ lang: en-US
 
 ## 1.Definition  
 ::: wrap  
-- __Angle between a straight line and parallel__     
-    
+- __Angle between a straight line and parallel__.     
+  - $\angle 1 \, \text{and} \, \angle 4$ are corresponding angles, corresponding angles are equal.  
+  - $\angle 2 \, \text{and} \, \angle 4$ are alternate interior angles, alternate interior angles are equal.
+  - $\angle 3 \, \text{and} \, \angle 4$ are adjacent interior angles, adjacent interior angles are complementary.  
   ![1.svg](../../public/math/Core%20courses/svg/1.svg)  
 
-- __lines__    
+- __The segments intercepted by a set of parallel lines are proportional.__    
+  - Up-down ratio $\frac{a}{b}=\frac{c}{d}$.  
+  - Left-right ratio $\frac{a}{c}=\frac{b}{d}$.  
   ![2.svg](../../public/math/Core%20courses/svg/2.svg)
 
 ::: 
