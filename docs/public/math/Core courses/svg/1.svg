@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 521 369.41" width="256" height="200">
+  <defs>
+    <style>
+      .cls-1 {
+      fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+      stroke: #337ecc;
+      stroke-miterlimit: 10;
+      stroke-width: 3px;
+      }
+
+      .cls-2 {
+      fill: none;
+      }
+
+      .cls-3, .cls-4 {
+      fill: #008cdc;
+      font-family: AcuminConcept-ExtraCondSemibold, 'Acumin Variable Concept';
+      font-size: 24px;
+      font-variation-settings: 'wght' 600, 'wdth' 50, 'slnt' 0;
+      font-weight: 600;
+      }
+
+      .cls-4 {
+      letter-spacing: .02em;
+      }
+    </style>
+  </defs>
+  <line class="cls-1" y1="114.21" x2="521" y2="114.21"/>
+  <line class="cls-2" y1="259.71" x2="521" y2="259.71"/>
+  <line class="cls-2" x1="422" y1=".71" x2="54" y2="368.71"/>
+  <path class="cls-2" d="M308.5,114.21l29.24-29.24c9.08,7.48,14.26,18.11,14.26,29.24,0,21.67-19.64,39.5-43.5,39.5s-43.5-17.83-43.5-39.5h43.5Z"/>
+  <text class="cls-3" transform="translate(362.9 100.24)"><tspan x="0" y="0">1</tspan></text>
+  <text class="cls-3" transform="translate(347.07 166.81)"><tspan x="0" y="0">3</tspan></text>
+  <text class="cls-4" transform="translate(250.57 145.81)"><tspan x="0" y="0">2</tspan></text>
+  <path class="cls-2" d="M163,260.07l29.24-29.24c4.27,3.52,7.72,7.77,10.16,12.52,2.58,5,3.97,10.44,4.08,15.97l-43.49.76Z"/>
+  <text class="cls-3" transform="translate(212.19 245.42)"><tspan x="0" y="0">4</tspan></text>
+</svg>
