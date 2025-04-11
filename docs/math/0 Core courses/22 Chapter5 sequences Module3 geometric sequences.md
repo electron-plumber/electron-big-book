@@ -54,7 +54,7 @@ $\mathbf{a_n=a_{k}q^{n-k}}$
 $
 \begin{array}{ll}
 \frac{a_{n+1}}{a_n}=q \\
-\frac{\cancel{a_2}}{a_k}=q,\frac{\cancel{a_3}}{\xcancel{a_2}}=q,\dots,\frac{a_n}{\cancel{a_{n-1}}}=q\\
+\frac{\cancel{a_2}}{a_k}=q,\frac{\cancel{a_3}}{\cancel{a_2}}=q,\dots,\frac{a_n}{\cancel{a_{n-1}}}=q\\
 \frac{a_n}{a_k}=q^{n-k} \\
 a_n=a_kq^{n-k} \\
 a_n=a_1q^{n-1} & k=1 \\
