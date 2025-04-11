@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a,a as r}from"./app.d18ac234.js";const f='{"title":"Guidance","description":"","frontmatter":{"title":"Guidance","lang":"en-US"},"headers":[],"relativePath":"logic/1 Basic courses/1 Guidance.md"}',s={},o=r("",1),d=[o];function c(i,_,n,l,h,u){return a(),e("div",null,d)}var m=t(s,[["render",c]]);export{f as __pageData,m as default};

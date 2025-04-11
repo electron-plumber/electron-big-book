@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as r,a}from"./app.d18ac234.js";const m='{"title":"Guidance lower","description":"","frontmatter":{"title":"Guidance lower","lang":"en-US"},"headers":[],"relativePath":"math/0 Core courses/2 Guidance lower.md"}',o={},d=a("",1),s=[d];function _(c,l,n,i,h,u){return r(),e("div",null,s)}var f=t(o,[["render",_]]);export{m as __pageData,f as default};

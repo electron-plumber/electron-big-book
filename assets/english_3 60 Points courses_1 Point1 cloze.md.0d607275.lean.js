@@ -1,0 +1,1 @@
+import{_ as t,c as e,o,a as r}from"./app.d18ac234.js";const f='{"title":"Point1 cloze","description":"","frontmatter":{"title":"Point1 cloze","lang":"en-US"},"headers":[],"relativePath":"english/3 60 Points courses/1 Point1 cloze.md"}',a={},s=r("",1),d=[s];function _(n,c,i,l,h,p){return o(),e("div",null,d)}var P=t(a,[["render",_]]);export{f as __pageData,P as default};

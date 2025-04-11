@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a,a as r}from"./app.d18ac234.js";const v='{"title":"Jvm memory areas","description":"","frontmatter":{"title":"Jvm memory areas","lang":"en-US"},"headers":[],"relativePath":"java/1 Jvm/1 Jvm memory areas.md"}',o={},s=r("",1),_=[s];function d(m,n,c,h,l,i){return a(),e("div",null,_)}var f=t(o,[["render",d]]);export{v as __pageData,f as default};

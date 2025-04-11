@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as r,a}from"./app.d18ac234.js";const l='{"title":"Thematic1","description":"","frontmatter":{"title":"Thematic1","lang":"en-US"},"headers":[],"relativePath":"writing/1 Courses/1 Thematic1.md"}',s={},o=a("",1),i=[o];function d(_,c,n,h,f,p){return r(),e("div",null,i)}var m=t(s,[["render",d]]);export{l as __pageData,m as default};

@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as r,a}from"./app.d18ac234.js";const m='{"title":"Guidance upper","description":"","frontmatter":{"title":"Guidance upper","lang":"en-US"},"headers":[],"relativePath":"math/0 Core courses/1 Guidance upper.md"}',o={},d=a("",1),s=[d];function _(c,n,i,l,p,h){return r(),e("div",null,s)}var f=t(o,[["render",_]]);export{m as __pageData,f as default};
