@@ -24,5 +24,10 @@ lang: en-US
   ![The segment intercepted by a set of parallel lines are proportional.svg](../../public/math/Core%20courses/The%20segment%20intercepted%20by%20a%20set%20of%20parallel%20lines%20are%20proportional.svg)
 
 
+## 1.Focus 
+__Solution angle__   
+- Note that the angle formed by the combination of parallel lines and other special figures not only have the relationship between the angles of parallel lines, but also the relationship between the angle of special figures.
+
+
 
 
