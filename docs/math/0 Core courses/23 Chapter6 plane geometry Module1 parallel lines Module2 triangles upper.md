@@ -26,8 +26,47 @@ lang: en-US
 
 ## 1.Focus 
 __Solution angle__   
-- Note that the angle formed by the combination of parallel lines and other special figures not only have the relationship between the angles of parallel lines, but also the relationship between the angle of special figures.
+- Note that the angle formed by the combination of parallel lines and other special figures not only has the relationship between the angles of parallel lines, but also the relationship between the angle of special figures.  
+  - Special figures similar Right triangle, Isosceles triangle.
 
+::: wrap
+### $\fbox{1}\:$Figure 6-4, $\small l_1 \parallel l_2$, $\small \angle1 = 105^\circ$, $\small \angle2 = 140^\circ$, then $\small \angle \alpha = \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 50^\circ &
+(\text{B}) \: 55^\circ &
+(\text{C}) \: 60^\circ &
+(\text{D}) \: 65^\circ &
+(\text{E}) \: 70^\circ & \\
+\end{array}
+$  
+:::  
+![Question parallel lines figure 6-4.svg](../../public/math/Core%20courses/Question%20parallel%20lines%20figure%206-4.svg)  
+#### Solution
+::: wrap  
+- solve  
 
+  $
+  \begin{array}{ll}
+   & \text{} \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{()}$  
+  > According to the Solution, get $ $, so choose $ $. 
 
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+   & \text{} \\
+  \end{array}
+  >$
+
+  :::
+---
 
