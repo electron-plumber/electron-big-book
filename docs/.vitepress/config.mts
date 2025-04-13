@@ -11,8 +11,8 @@ import mdContainer from 'markdown-it-container'
 
 export default {
   base: "/",
-  title: 'MAT and Java courses',
-  description: 'For learners of Management admission test and Java',
+  title: 'Books or Courses of MAT and Java',
+  description: 'Free open source books for learners of Management admission test and Java',
   head: [
     [
       'link',

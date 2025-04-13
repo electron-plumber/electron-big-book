@@ -1,7 +1,7 @@
 {
   "name": "apple-big-book",
   "packageManager": "pnpm@7.3.0",
-  "description": "For learners of MAT and Java",
+  "description": "Free open source books for learners of MAT and Java",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "NODE_ENV=production && vitepress build docs",

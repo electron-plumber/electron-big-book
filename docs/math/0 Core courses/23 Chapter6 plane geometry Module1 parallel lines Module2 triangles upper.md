@@ -90,4 +90,42 @@ $
 
   :::
 ---
+::: wrap
+### $\fbox{2}\:$
+$
+\begin{array}{lllll}
+(\text{A}) \:  &
+(\text{B}) \:  &
+(\text{C}) \:  &
+(\text{D}) \:  &
+(\text{E}) \:  & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- solve  
 
+  $
+  \begin{array}{ll}
+   & \text{} \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{()}$  
+  > According to the Solution, get $ $, so choose $ $. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+   & \text{} \\
+  \end{array}
+  >$
+
+  :::
+---

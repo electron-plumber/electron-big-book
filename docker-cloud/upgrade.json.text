@@ -7,7 +7,7 @@
 {
   "name": "mat-java-courses",
   "packageManager": "pnpm@9.15.4",
-  "description": "For learners of MAT and Java",
+  "description": "Free open source books for learners of MAT and Java",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "NODE_ENV=production && vitepress build docs",
