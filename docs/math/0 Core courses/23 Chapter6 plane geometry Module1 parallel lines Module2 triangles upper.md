@@ -91,17 +91,18 @@ $
   :::
 ---
 ::: wrap
-### $\fbox{2}\:$
+### $\fbox{2}\:$Figure 6-5, $\small AB \parallel CD$, $\small \angle \alpha =\, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \:  &
-(\text{B}) \:  &
-(\text{C}) \:  &
-(\text{D}) \:  &
-(\text{E}) \:  & \\
+(\text{A}) \: 70^\circ &
+(\text{B}) \: 80^\circ &
+(\text{C}) \: 85^\circ &
+(\text{D}) \: 90^\circ &
+(\text{E}) \: 95^\circ & \\
 \end{array}
 $  
-:::
+:::  
+![Question parallel lines figure 6-5.svg](../../public/math/Core%20courses/Question%20parallel%20lines%20figure%206-5.svg)  
 #### Solution
 ::: wrap  
 - solve  
