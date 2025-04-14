@@ -105,26 +105,34 @@ $
 ![Question parallel lines figure 6-5.svg](../../public/math/Core%20courses/Question%20parallel%20lines%20figure%206-5.svg)  
 #### Solution
 ::: wrap  
-- solve  
-
+- Show parallel lines    
+  ![Question parallel lines figure 6-5 solve-1.svg](../../public/math/Core%20courses/Question%20parallel%20lines%20figure%206-5%20solve-1.svg)  
   $
   \begin{array}{ll}
-   & \text{} \\
+  \angle 1=180^\circ-\angle B & \text{Adjacent interior angles} \\
+  180^\circ-120^\circ=60^\circ \\
+  \angle 2= \angle C=25^\circ & \text{Alternate interior angles} \\
+  \angle \alpha = 60^\circ + 25^\circ = 85^\circ  \\
   \end{array}
   $  
 :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(env)}$  
-  > According to the Solution, get $ $, so choose $ $. 
+  > $\mathbf{C}$  
+  > According to the Solution, get $\angle \alpha = 85^\circ$, so choose $C$. 
 
   :::
 - Formula used  
   ::: wrap
   >$
   \begin{array}{ll}
-   & \text{} \\
+  \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-definition}{\text{Angle relationship}}
+  \begin{cases}
+  \angle1=\angle4 \\
+  \angle2=\angle4 \\
+  \angle1+\angle4=180^\circ \\
+  \end{cases} \\
   \end{array}
   >$
 
