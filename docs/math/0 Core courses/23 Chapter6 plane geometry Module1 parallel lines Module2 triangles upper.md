@@ -11,14 +11,13 @@ lang: en-US
 
 # Module 5-03 Parallel lines
 
-## 1.Definition
-- __Angle between a straight line and parallel__.     
+## 1.Angle between a straight line and parallel     
   - $\angle 1 \, \text{and} \, \angle 4$ are corresponding angles, corresponding angles are equal.  
   - $\angle 2 \, \text{and} \, \angle 4$ are alternate interior angles, alternate interior angles are equal.
   - $\angle 3 \, \text{and} \, \angle 4$ are adjacent interior angles, adjacent interior angles are complementary.  
   ![Angle between a straight line and parallel.svg](../../public/math/Core%20courses/Angle%20between%20a%20straight%20line%20and%20parallel.svg)  
 
-- __The segments intercepted by a set of parallel lines are proportional.__    
+## 2.The segments intercepted by a set of parallel lines are proportional    
   - Up-down ratio $\frac{a}{b}=\frac{c}{d}$.  
   - Left-right ratio $\frac{a}{c}=\frac{b}{d}$.  
   ![The segment intercepted by a set of parallel lines are proportional.svg](../../public/math/Core%20courses/The%20segment%20intercepted%20by%20a%20set%20of%20parallel%20lines%20are%20proportional.svg)
@@ -66,7 +65,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-definition}{\text{Angle relationship}}
+  \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-parallel}{\text{Angle relationship}}
   \begin{cases}
   \angle1=\angle4 \\
   \angle2=\angle4 \\
@@ -127,7 +126,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-definition}{\text{Angle relationship}}
+  \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-parallel}{\text{Angle relationship}}
   \begin{cases}
   \angle1=\angle4 \\
   \angle2=\angle4 \\
@@ -177,7 +176,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-definition}{\text{Angle relationship}}
+  \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-parallel}{\text{Angle relationship}}
   \begin{cases}
   \angle1=\angle4 \\
   \angle2=\angle4 \\
@@ -228,7 +227,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{a}{c}=\frac{b}{d} & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-definition}{\text{Left-right ratio}} \\
+  \frac{a}{c}=\frac{b}{d} & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-the-segments-intercepted-by-a-set-of-parallel-lines-are-proportional}{\text{Left-right ratio}} \\
   \end{array}
   >$
 
@@ -271,7 +270,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-definition}{\text{Parallel line segments proportion}}
+  \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-the-segments-intercepted-by-a-set-of-parallel-lines-are-proportional}{\text{Parallel line segments proportion}}
   \begin{cases}
   \frac{a}{b}=\frac{c}{d} \\
   \frac{a}{c}=\frac{b}{d} \\
@@ -281,3 +280,6 @@ $
 
   :::
 ---
+
+# Module 6-02 Triangle  
+
