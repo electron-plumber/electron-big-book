@@ -44,7 +44,7 @@
 
         const { protocol, hostname, pathname, target } = link
         const currentUrl = window.location
-        const extMatch = pathname.match(/\.\w+$/)
+        const extMatch = pathname?.match(/\.\w+$/)
         // only intercept inbound links
         if (
           !e.ctrlKey &&
