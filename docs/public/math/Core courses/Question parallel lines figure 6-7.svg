@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 281.81 256.36" width="256" height="168">
+  <defs>
+    <style>
+      .cls-1 {
+      letter-spacing: 0em;
+      }
+
+      .cls-2 {
+      fill: #008cdc;
+      }
+
+      .cls-2, .cls-3 {
+      font-family: MyriadPro-Regular, 'Myriad Pro';
+      font-size: 24px;
+      }
+
+      .cls-4 {
+      fill: none;
+      stroke: #337ecc;
+      stroke-miterlimit: 10;
+      stroke-width: 3px;
+      }
+
+      .cls-3 {
+      fill: #337ecc;
+      }
+
+      .cls-5 {
+      letter-spacing: -.03em;
+      }
+
+      .cls-6 {
+      letter-spacing: -.01em;
+      }
+    </style>
+  </defs>
+  <line class="cls-4" y1="43.89" x2="280.77" y2="43.89"/>
+  <line class="cls-4" y1="198.88" x2="280.77" y2="198.88"/>
+  <line class="cls-4" x1="1.04" y1="118.92" x2="281.81" y2="118.92"/>
+  <line class="cls-4" x1="189.17" y1=".34" x2="242.21" y2="229.75"/>
+  <line class="cls-4" x1="102.15" y1=".53" x2="46.46" y2="231.21"/>
+  <text class="cls-2" transform="translate(73.31 36.63)"><tspan x="0" y="0">A</tspan></text>
+  <text class="cls-2" transform="translate(55.31 115.05)"><tspan x="0" y="0">B</tspan></text>
+  <text class="cls-2" transform="translate(35.91 195.59)"><tspan x="0" y="0">C</tspan></text>
+  <text class="cls-2" transform="translate(203.25 36.63)"><tspan x="0" y="0">D</tspan></text>
+  <text class="cls-2" transform="translate(222.95 113.37)"><tspan x="0" y="0">E</tspan></text>
+  <text class="cls-2" transform="translate(240.43 195.59)"><tspan x="0" y="0">F</tspan></text>
+  <text class="cls-3" transform="translate(95.95 250.36)"><tspan class="cls-5" x="0" y="0">F</tspan><tspan class="cls-1" x="11.06" y="0">igu</tspan><tspan class="cls-6" x="43.32" y="0">r</tspan><tspan x="50.93" y="0">e 6–7</tspan></text>
+</svg>

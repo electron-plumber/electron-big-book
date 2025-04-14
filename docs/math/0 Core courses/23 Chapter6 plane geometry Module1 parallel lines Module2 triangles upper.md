@@ -24,13 +24,13 @@ lang: en-US
   ![The segment intercepted by a set of parallel lines are proportional.svg](../../public/math/Core%20courses/The%20segment%20intercepted%20by%20a%20set%20of%20parallel%20lines%20are%20proportional.svg)
 
 
-## 1.Focus 
+## 2.Focus 1
 __Solution angle__   
 - Note that the angle formed by the combination of parallel lines and other special figures not only has the relationship between the angles of parallel lines, but also the relationship between the angle of special figures.  
   - Special figures similar Right triangle, Isosceles triangle.
 
 ::: wrap
-### $\fbox{1}\:$Figure 6-4, $\small l_1 \parallel l_2$, $\small \angle1 = 105^\circ$, $\small \angle2 = 140^\circ$, then $\small \angle \alpha = \, \mathpunct{?}$.
+### $\fbox{1}\:$Figure 6–4, $\small l_1 \parallel l_2$, $\small \angle1 = 105^\circ$, $\small \angle2 = 140^\circ$, then $\small \angle \alpha = \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: 50^\circ &
@@ -184,6 +184,49 @@ $
   \angle1+\angle4=180^\circ \\
   \end{cases} \\
   \angle BAC = 180^\circ & \text{The sum of the interior angles for triangle is }180^\circ \\
+  \end{array}
+  >$
+
+  :::
+---
+
+## 3.Focus 2
+__Solution length__
+- __Analysis based on the parallel line segments ratio formula.__  
+
+::: wrap
+### $\fbox{4}\:$Figure 6–7, if the four-line segments $\small AB, BC, DE, EF$ are proportional, and $\small AB=2, BC=3, DE=4$, then $\small EF= \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 3 &
+(\text{B}) \: 4 &
+(\text{C}) \: 5 &
+(\text{D}) \: 6 &
+(\text{E}) \: 8 & \\
+\end{array}
+$  
+:::  
+![Question parallel lines figure 6-7.svg](../../public/math/Core%20courses/Question%20parallel%20lines%20figure%206-7.svg)  
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+EF=2 \times BC = 6
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(D)}$  
+  > According to the Solution, get $EF=6$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \frac{a}{c}=\frac{b}{d} & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-definition}{\text{Left-right ratio}} \\
   \end{array}
   >$
 
