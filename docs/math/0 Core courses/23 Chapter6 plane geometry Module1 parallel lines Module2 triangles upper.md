@@ -293,3 +293,10 @@ the exterior angle of a triangle is equal to the sum of its two non-adjacent int
   $a+b>c, a+c>b, b+c>a$  
 - The difference between any two sides is less than the third side, then $a-b<c$.  
   $|a-b|<c, |a-c|<b, |b-c|<a$  
+
+## 3.Focus 1
+__Solution angle__  
+- __Note: The angles
+  formed when parallel lines are combined with other special figures not only have the relationship between the angles of parallel lines, 
+  but also the relationship between the angles of special figures.__  
+
