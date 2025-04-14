@@ -209,11 +209,13 @@ $
 ![Question parallel lines figure 6-7.svg](../../public/math/Core%20courses/Question%20parallel%20lines%20figure%206-7.svg)  
 #### Solution
 ::: wrap  
-$
-\begin{array}{ll}
-EF=2 \times BC = 6
-\end{array}
-$  
+- Show known conditions  
+  ![Question parallel lines figure 6-7 solve-1.svg](../../public/math/Core%20courses/Question%20parallel%20lines%20figure%206-7%20solve-1.svg)  
+  $
+  \begin{array}{ll}
+  EF=2 \times BC = 6
+  \end{array}
+  $  
 :::  
 #### Conclusion
 - Derived Solution  
@@ -227,6 +229,53 @@ $
   >$
   \begin{array}{ll}
   \frac{a}{c}=\frac{b}{d} & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-definition}{\text{Left-right ratio}} \\
+  \end{array}
+  >$
+
+  :::
+---
+::: wrap
+### $\fbox{5}\:$Figure 6–8, Known straight lines $\small l_1 \parallel l_2 \parallel l_3, DE=6, EF=9, AB=5,$ then $\small AC = \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 10 &
+(\text{B}) \: 12 &
+(\text{C}) \: 12.5 &
+(\text{D}) \: 14 &
+(\text{E}) \: 16 & \\
+\end{array}
+$  
+:::  
+![Question parallel lines figure 6-8.svg](../../public/math/Core%20courses/Question%20parallel%20lines%20figure%206-8.svg)    
+#### Solution
+::: wrap  
+- Show known conditions  
+  ![Question parallel lines figure 6-8 solve-1.svg](../../public/math/Core%20courses/Question%20parallel%20lines%20figure%206-8%20solve-1.svg)  
+  $
+  \begin{array}{ll}
+  \frac{DE}{EF}=\frac{AB}{BC} \\
+  \frac{6}{9}=\frac{5}{BC} \\
+  BC=\frac{45}{6}=7.5 \\
+  AC=AB+BC=5+7.5=12.5 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(C)}$  
+  > According to the Solution, get $AC=12.5$, so choose $C$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-definition}{\text{Parallel line segments proportion}}
+  \begin{cases}
+  \frac{a}{b}=\frac{c}{d} \\
+  \frac{a}{c}=\frac{b}{d} \\
+  \end{cases} \\
   \end{array}
   >$
 

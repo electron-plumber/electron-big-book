@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 281.81 231.56" width="216" height="168">
+  <defs>
+    <style>
+      .cls-1 {
+      fill: #7ac943;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+      font-family: MyriadPro-Regular, 'Myriad Pro';
+      font-size: 24px;
+      }
+
+      .cls-2 {
+      fill: #008cdc;
+      }
+
+      .cls-5 {
+      stroke: #7ac943;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+      fill: none;
+      stroke-miterlimit: 10;
+      stroke-width: 3px;
+      }
+
+      .cls-3 {
+      fill: #ff7bac;
+      }
+
+      .cls-4 {
+      fill: #93278f;
+      }
+
+      .cls-6 {
+      stroke: #337ecc;
+      }
+
+      .cls-7 {
+      stroke: #bdccd4;
+      }
+
+      .cls-8 {
+      stroke: #ff7bac;
+      }
+
+      .cls-9 {
+      stroke: #93278f;
+      }
+    </style>
+  </defs>
+  <line class="cls-6" y1="43.89" x2="280.77" y2="43.89"/>
+  <line class="cls-6" y1="198.88" x2="280.77" y2="198.88"/>
+  <line class="cls-6" x1="1.04" y1="118.92" x2="281.81" y2="118.92"/>
+  <line class="cls-6" x1="235.07" y1="198.88" x2="242.21" y2="229.75"/>
+  <line class="cls-7" x1="216.58" y1="118.92" x2="235.07" y2="198.88"/>
+  <line class="cls-8" x1="199.24" y1="43.89" x2="216.58" y2="118.92"/>
+  <line class="cls-6" x1="189.17" y1=".34" x2="199.24" y2="43.89"/>
+  <line class="cls-6" x1="54.27" y1="198.88" x2="46.46" y2="231.21"/>
+  <line class="cls-9" x1="73.57" y1="118.92" x2="54.27" y2="198.88"/>
+  <line class="cls-5" x1="91.68" y1="43.89" x2="73.57" y2="118.92"/>
+  <line class="cls-6" x1="102.15" y1=".53" x2="91.68" y2="43.89"/>
+  <text class="cls-2" transform="translate(73.31 36.63)"><tspan x="0" y="0">A</tspan></text>
+  <text class="cls-2" transform="translate(55.31 115.05)"><tspan x="0" y="0">B</tspan></text>
+  <text class="cls-2" transform="translate(35.91 195.59)"><tspan x="0" y="0">C</tspan></text>
+  <text class="cls-2" transform="translate(203.25 36.63)"><tspan x="0" y="0">D</tspan></text>
+  <text class="cls-2" transform="translate(222.95 113.37)"><tspan x="0" y="0">E</tspan></text>
+  <text class="cls-2" transform="translate(240.43 195.59)"><tspan x="0" y="0">F</tspan></text>
+  <text class="cls-1" transform="translate(90.51 87.46)"><tspan x="0" y="0">2</tspan></text>
+  <text class="cls-3" transform="translate(188.7 87.81)"><tspan x="0" y="0">2</tspan></text>
+  <text class="cls-4" transform="translate(70.8 170.39)"><tspan x="0" y="0">2</tspan></text>
+</svg>
