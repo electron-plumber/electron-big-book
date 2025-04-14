@@ -91,7 +91,7 @@ $
   :::
 ---
 ::: wrap
-### $\fbox{2}\:$Figure 6-5, $\small AB \parallel CD$, $\small \angle \alpha =\, \mathpunct{?}$.
+### $\fbox{2}\:$Figure 6–5, $\small AB \parallel CD$, $\small \angle \alpha =\, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: 70^\circ &
@@ -133,6 +133,57 @@ $
   \angle2=\angle4 \\
   \angle1+\angle4=180^\circ \\
   \end{cases} \\
+  \end{array}
+  >$
+
+  :::
+---
+::: wrap
+### $\fbox{3}\:$Figure 6–6, $\small AB=AC, \angle BAC=80^\circ, AD=BD, CM \parallel AB,$ intersects the extended line of $\small AD$ at point $\small M$, then $\small \angle M= \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 30^\circ &
+(\text{B}) \: 40^\circ &
+(\text{C}) \: 50^\circ &
+(\text{D}) \: 60^\circ &
+(\text{E}) \: 70^\circ & \\
+\end{array}
+$  
+![Question parallel lines figure 6-6.svg](../../public/math/Core%20courses/Question%20parallel%20lines%20figure%206-6.svg)  
+:::
+#### Solution
+::: wrap  
+- Show corresponding line relationships    
+  ![Question parallel lines figure 6-6 solve-1.svg](../../public/math/Core%20courses/Question%20parallel%20lines%20figure%206-6%20solve-1.svg)  
+  $
+  \begin{array}{ll}
+  \angle B = \angle ACB & \text{Interior angles of triangle} \\
+  \angle B = \frac{180^\circ-80^\circ}{2}=50^\circ \\
+  \angle BAM = \angle M & \text{Alternate interior angles}\\
+  BD=AD & \text{This is an isosceles triangle}\\
+  \angle BAM = \angle B = 50^\circ \\
+  \angle M = 50^\circ \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(C)}$  
+  > According to the Solution, get $\angle M = 50^\circ$, so choose $C$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-definition}{\text{Angle relationship}}
+  \begin{cases}
+  \angle1=\angle4 \\
+  \angle2=\angle4 \\
+  \angle1+\angle4=180^\circ \\
+  \end{cases} \\
+  \angle BAC = 180^\circ & \text{The sum of the interior angles for triangle is }180^\circ \\
   \end{array}
   >$
 
