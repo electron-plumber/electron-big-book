@@ -23,7 +23,7 @@ lang: en-US
   ![The segment intercepted by a set of parallel lines are proportional.svg](../../public/math/Core%20courses/The%20segment%20intercepted%20by%20a%20set%20of%20parallel%20lines%20are%20proportional.svg)
 
 
-## 2.Focus 1
+## 3.Focus 1
 __Solution angle__   
 - Note that the angle formed by the combination of parallel lines and other special figures not only has the relationship between the angles of parallel lines, but also the relationship between the angle of special figures.  
   - Special figures similar Right triangle, Isosceles triangle.
@@ -182,14 +182,14 @@ $
   \angle2=\angle4 \\
   \angle1+\angle4=180^\circ \\
   \end{cases} \\
-  \angle BAC = 180^\circ & \text{The sum of the interior angles for triangle is }180^\circ \\
+  \angle BAC = 180^\circ & \text{The sum of the interior angles for a triangle is }180^\circ \\
   \end{array}
   >$
 
   :::
 ---
 
-## 3.Focus 2
+## 4.Focus 2
 __Solution length__
 - __Analysis based on the parallel line segments ratio formula.__  
 
@@ -283,3 +283,13 @@ $
 
 # Module 6-02 Triangle  
 
+## 1.Sum of interior angles for a triangle
+$\angle1+\angle2+\angle3=\pi$,
+the exterior angle of a triangle is equal to the sum of its two non-adjacent interior angles.  
+![Sum of interior angles for a triangle.svg](../../public/math/Core%20courses/Sum%20of%20interior%20angles%20for%20a%20triangle.svg)  
+
+## 2.The relationship between the three sides of a triangle  
+- The sum of any two sides is greater than the third side, then $a+b>c$.  
+  $a+b>c, a+c>b, b+c>a$  
+- The difference between any two sides is less than the third side, then $a-b<c$.  
+  $|a-b|<c, |a-c|<b, |b-c|<a$  
