@@ -45,6 +45,7 @@ $
 ::: wrap  
 - Show parallel lines  
   ![Question parallel lines figure 6-4 solve-1.svg](../../public/math/Core%20courses/Question%20parallel%20lines%20figure%206-4%20solve-1.svg)  
+  
   $
   \begin{array}{ll}
   \angle3=180^\circ-\angle2 & \text{Adjacent interior angles} \\ 
@@ -106,6 +107,7 @@ $
 ::: wrap  
 - Show parallel lines    
   ![Question parallel lines figure 6-5 solve-1.svg](../../public/math/Core%20courses/Question%20parallel%20lines%20figure%206-5%20solve-1.svg)  
+  
   $
   \begin{array}{ll}
   \angle 1=180^\circ-\angle B & \text{Adjacent interior angles} \\
@@ -154,6 +156,7 @@ $
 ::: wrap  
 - Show corresponding line relationships    
   ![Question parallel lines figure 6-6 solve-1.svg](../../public/math/Core%20courses/Question%20parallel%20lines%20figure%206-6%20solve-1.svg)  
+  
   $
   \begin{array}{ll}
   \angle B = \angle ACB & \text{Interior angles of triangle} \\
@@ -210,6 +213,7 @@ $
 ::: wrap  
 - Show known conditions  
   ![Question parallel lines figure 6-7 solve-1.svg](../../public/math/Core%20courses/Question%20parallel%20lines%20figure%206-7%20solve-1.svg)  
+  
   $
   \begin{array}{ll}
   EF=2 \times BC = 6
@@ -234,7 +238,7 @@ $
   :::
 ---
 ::: wrap
-### $\fbox{5}\:$Figure 6–8, Known straight lines $\small l_1 \parallel l_2 \parallel l_3, DE=6, EF=9, AB=5,$ then $\small AC = \, \mathpunct{?}$.
+### $\fbox{5}\:$Figure 6–8, Known straight lines $\small l_1 \parallel l_2 \parallel l_3, DE=6, EF=9, AB=5, $ then $\small AC = \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: 10 &
@@ -250,6 +254,7 @@ $
 ::: wrap  
 - Show known conditions  
   ![Question parallel lines figure 6-8 solve-1.svg](../../public/math/Core%20courses/Question%20parallel%20lines%20figure%206-8%20solve-1.svg)  
+  
   $
   \begin{array}{ll}
   \frac{DE}{EF}=\frac{AB}{BC} \\
@@ -292,7 +297,7 @@ the exterior angle of a triangle is equal to the sum of its two non-adjacent int
 - The sum of any two sides is greater than the third side, then $a+b>c$.  
   $a+b>c, a+c>b, b+c>a$  
 - The difference between any two sides is less than the third side, then $a-b<c$.  
-  $|a-b|&lt;c, |a-c|&lt;b, |b-c|&lt;a$  
+  $|a-b| \lt c, |a-c| \lt b, |b-c| \lt a$  
 
 ## 3.Focus 1
 __Solution angle__  
@@ -300,3 +305,55 @@ __Solution angle__
   formed when parallel lines are combined with other special figures not only have the relationship between the angles of parallel lines, 
   but also the relationship between the angles of special figures.__  
 
+::: wrap
+### $\fbox{6}\:$Figure 6–9, if $\small AB \parallel CE, CE=DE,$ and $\small y=45^\circ,$ then $\small x= \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 45^\circ &
+(\text{B}) \: 60^\circ &
+(\text{C}) \: 67.5^\circ &
+(\text{D}) \: 112.5^\circ &
+(\text{E}) \: 135^\circ & \\
+\end{array}
+$  
+:::  
+![Question triangle figure 6-9.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-9.svg)  
+#### Solution
+::: wrap  
+- Show known conditions  
+  ![Question triangle figure 6-9 solve-1.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-9%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  AB \parallel CE \implies \angle C= \angle B & \text{Corresponding angles} \\
+  \angle C= x \\
+  CE = ED \implies \angle C=\angle D & \text{Isosceles triangle} \\
+  \angle D = x \\
+  y+2x=180^\circ \\
+  x=\frac{180^\circ-45^\circ}{2}=67.5^\circ \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{©}$  
+  > According to the Solution, get $x=67.5^\circ$, so choose $C$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-parallel}{\text{Angle relationship}}
+  \begin{cases}
+  \angle1=\angle4 \\
+  \angle2=\angle4 \\
+  \angle1+\angle4=180^\circ \\
+  \end{cases} \\
+  \angle BAC = 180^\circ & \text{The sum of the interior angles for a triangle is }180^\circ \\
+  \end{array}
+  >$
+
+  :::
+---
