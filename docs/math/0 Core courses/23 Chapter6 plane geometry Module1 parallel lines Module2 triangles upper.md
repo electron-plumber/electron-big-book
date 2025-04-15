@@ -357,3 +357,54 @@ $
 
   :::
 ---
+::: wrap
+### $\fbox{7}\:$Figure 6–10, in right angle $\small \triangle ABC, \angle C$ is a right angle, points $\small E, D, F$ are on the right-angled side $\small AC$ and the hypotenuse $\small AB$ respectively, and $\small AF=FE=ED=DC=CB$, then $\small \angle C = \, \mathpunct{?}$.  
+$
+\begin{array}{lllll}
+(\text{A}) \: \frac{\pi}{8} &
+(\text{B}) \: \frac{\pi}{9} &
+(\text{C}) \: \frac{\pi}{10} &
+(\text{D}) \: \frac{\pi}{11} &
+(\text{E}) \: \frac{\pi}{12} & \\
+\end{array}
+$  
+:::  
+![Question triangle figure 6-10.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-10.svg)  
+#### Solution
+::: wrap  
+- Show known conditions  
+  ![Question triangle figure 6-10 solve-1.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-10%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  \angle A + \angle B = \frac{\pi}{2} \\
+  \angle A=x \\
+  \angle DFE = 2x \\
+  \angle DEC = 3x \\
+  \angle BDC = 4x \\
+  \angle B = 4x \\
+  \angle A + \angle B = 4x+x = \frac{\pi}{2} \\
+  5x = \frac{\pi}{2} \\
+  \angle A= \frac{\pi}{10} \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(C)}$  
+  > According to the Solution, get $\angle A= \frac{\pi}{10}$, so choose $C$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  A \perp B = 90^\circ & \href{https://www.mathsisfun.com/right_angle_triangle.html}{\text{Right-Angled triangle}} \\
+  90^\circ=\frac{\pi}{2} & \href{https://www.mathsisfun.com/geometry/radians.html}{\text{Degree to radian conversion}} \\
+  \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-sum-of-interior-angles-for-a-triangle}{\text{Exterior angle of a triangle}} = \angle A + \angle B \\ 
+  \end{array}
+  >$
+
+  :::
+---
