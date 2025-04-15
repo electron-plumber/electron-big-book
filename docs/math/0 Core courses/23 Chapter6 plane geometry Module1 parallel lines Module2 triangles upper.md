@@ -337,7 +337,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{©}$  
+  > $\mathbf{(C)}$  
   > According to the Solution, get $x=67.5^\circ$, so choose $C$. 
 
   :::
