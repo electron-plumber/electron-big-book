@@ -292,7 +292,7 @@ the exterior angle of a triangle is equal to the sum of its two non-adjacent int
 - The sum of any two sides is greater than the third side, then $a+b>c$.  
   $a+b>c, a+c>b, b+c>a$  
 - The difference between any two sides is less than the third side, then $a-b<c$.  
-  $|a-b|<c, |a-c|<b, |b-c|<a$  
+  $|a-b|&lt;c, |a-c|&lt;b, |b-c|&lt;a$  
 
 ## 3.Focus 1
 __Solution angle__  
