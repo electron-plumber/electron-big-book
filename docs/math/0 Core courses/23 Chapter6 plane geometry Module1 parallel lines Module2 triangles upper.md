@@ -408,3 +408,13 @@ $
 
   :::
 ---
+
+## 4.Focus 2 
+__Trilateral relations__   
+- __According to the relationship between the three sides of a triangle, 
+  the requirements of a triangle can be analyzed, 
+  The sum of any two sides is greater than the third side, 
+  and the difference between any two sides is less third side,
+  As long as one of the two sides is met, 
+  a triangle can be formed.__
+
