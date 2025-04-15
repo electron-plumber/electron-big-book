@@ -296,7 +296,7 @@ the exterior angle of a triangle is equal to the sum of its two non-adjacent int
 ## 2.The relationship between the three sides of a triangle  
 - The sum of any two sides is greater than the third side, then $a+b>c$.  
   $a+b>c, a+c>b, b+c>a$  
-- The difference between any two sides is less than the third side, then $a-b<c$.  
+- The difference between any two sides is less than the third side, then $|a-b|<c$.  
   $|a-b| \lt c, |a-c| \lt b, |b-c| \lt a$  
 
 ## 3.Focus 1
@@ -414,7 +414,142 @@ __Trilateral relations__
 - __According to the relationship between the three sides of a triangle, 
   the requirements of a triangle can be analyzed, 
   The sum of any two sides is greater than the third side, 
-  and the difference between any two sides is less third side,
+  and the difference between any two sides is less third side, 
   As long as one of the two sides is met, 
   a triangle can be formed.__
 
+
+::: wrap
+### $\fbox{8}\:$There are seven wooden sticks with length of $\small 1,2,3,4,5,6,7$, if any three of them are chosen, can form $\small \, \mathpunct{?}$ triangles. 
+$
+\begin{array}{lllll}
+(\text{A}) \: 13 &
+(\text{B}) \: 14 &
+(\text{C}) \: 15 &
+(\text{D}) \: 16 &
+(\text{E}) \: 17 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- $\fbox{1}\:c\:$is the minimum side  
+
+  $
+  \begin{array}{ll}
+  \cancel{1},2,3,4,5,6,7 \\
+  \boxed{
+  \lt 2
+  \begin{cases}
+  7-6=1 \\
+  6-5=1 \\
+  5-4=1 \\
+  4-3=1 \\
+  \end{cases}}
+  \boxed{
+  \lt 3
+  \begin{cases}
+  5-4=1 \\
+  6-4=2 \\
+  6-5=1 \\
+  7-5=2 \\
+  7-6=1 \\
+  \end{cases}}
+  \boxed{
+  \lt 4
+  \begin{cases}
+  6-5=1 \\
+  7-5=2 \\
+  7-6=1 \\
+  \end{cases}}
+  \boxed{
+  \lt 5
+  \begin{cases}
+  7-6=1 \\
+  \end{cases}} \\
+  \text{A total of 13 types for triangles can be formed.} 
+  \end{array}
+  $  
+:::  
+::: wrap  
+- $\fbox{2}\:c\:$is the maximum side
+
+  $
+  \begin{array}{ll}
+  7,6,5,4,3,2,\cancel{1} \\
+  \boxed{
+  \gt 7
+  \begin{cases}
+  6+5=11 \\
+  6+4=10 \\
+  6+3=9 \\
+  6+2=8 \\
+  5+4=9 \\
+  5+3=8 \\
+  \end{cases}}
+  \boxed{
+  \gt 6
+  \begin{cases}
+  5+4=9 \\
+  5+3=8 \\
+  5+2=7 \\
+  4+3=7 \\
+  \end{cases}}
+  \boxed{
+  \gt 5
+  \begin{cases}
+  4+3=7 \\
+  4+2=6 \\
+  \end{cases}}
+  \boxed{
+  \gt 4
+  \begin{cases}
+  3+2=5 \\
+  \end{cases}}\\
+  \text{A total of 13 types for triangles can be formed.}
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(A)}$  
+  > According to the Solution, can form $13$ triangles, so choose $A$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \boxed{
+  \begin{array}{ll}
+  a+b>c, \,a+c>b, \,b+c>a \\
+  \text{Know the maximum side of c} \\
+  a+b>\underset{\triangle}c \Rightarrow (a+\underset{\triangle}c>b) \land (b+\underset{\triangle}c>a) \\
+  \end{array}
+  } \iff
+  \boxed{
+  \begin{array}{ll}
+  |a-b| \lt c, \,|a-c| \lt b, \,|b-c| \lt a \\
+  \text{Know the minimum side of c} \\
+  |a-b|\lt \underset{\triangle}c \Rightarrow 
+  \underbrace{(|a-\underset{\triangle}c|\lt b)}_{
+  \begin{array}{ll}
+  a-c \lt b \\
+  a \lt b+c \\
+  \end{array}
+  } 
+  \land
+  \underbrace{(|b-\underset{\triangle}c|\lt a)}_{
+  \begin{array}{ll}
+  b-c \lt a \\
+  b \lt a+c \\
+  \end{array}
+  } \\
+  \end{array}
+  } & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-the-relationship-between-the-three-sides-of-a-triangle}{\text{Trilateral relations}} \\
+  \end{array}
+  >$
+
+  :::
+---

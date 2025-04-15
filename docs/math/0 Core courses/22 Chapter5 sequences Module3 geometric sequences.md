@@ -879,7 +879,7 @@ $
 :::
 #### Solution
 ::: wrap  
-- All indexs in $S_{\text{index}}$ are even numbers.  
+- $\fbox{1}\:$All indexs in $S_{\text{index}}$ are even numbers.  
 
   $
   \begin{array}{ll}
@@ -893,7 +893,7 @@ $
   $   
 :::  
 ::: wrap  
-- All indexs in $S_{\text{index}}$ aren't even numbers.   
+- $\fbox{2}\:$All indexs in $S_{\text{index}}$ aren't even numbers.   
 
   $
   \begin{array}{ll}
