@@ -185,7 +185,7 @@ $
   \angle2=\angle4 \\
   \angle1+\angle4=180^\circ \\
   \end{cases} \\
-  \angle BAC = 180^\circ & \text{The sum of the interior angles for a triangle is }180^\circ \\
+  \angle BAC = 180^\circ & \text{The sum of the interior angles of a triangle is }180^\circ \\
   \end{array}
   >$
 
@@ -288,10 +288,10 @@ $
 
 # Module 6-02 Triangle  
 
-## 1.Sum of interior angles for a triangle
+## 1.Sum of interior angles of a triangle
 $\angle1+\angle2+\angle3=\pi$,
 the exterior angle of a triangle is equal to the sum of its two non-adjacent interior angles.  
-![Sum of interior angles for a triangle.svg](../../public/math/Core%20courses/Sum%20of%20interior%20angles%20for%20a%20triangle.svg)  
+![Sum of interior angles of a triangle.svg](../../public/math/Core%20courses/Sum%20of%20interior%20angles%20of%20a%20triangle.svg)  
 
 ## 2.The relationship between the three sides of a triangle  
 - The sum of any two sides is greater than the third side, then $a+b>c$.  
@@ -351,7 +351,7 @@ $
   \angle2=\angle4 \\
   \angle1+\angle4=180^\circ \\
   \end{cases} \\
-  \angle BAC = 180^\circ & \text{The sum of the interior angles for a triangle is }180^\circ \\
+  \angle BAC = 180^\circ & \text{The sum of the interior angles of a triangle is }180^\circ \\
   \end{array}
   >$
 
@@ -467,7 +467,7 @@ $
   \begin{cases}
   7-6=1 \\
   \end{cases}} \\
-  \text{A total of 13 types for triangles can be formed.} 
+  \text{A total of 13 types of triangles can be formed.} 
   \end{array}
   $  
 :::  
@@ -506,7 +506,7 @@ $
   \begin{cases}
   3+2=5 \\
   \end{cases}}\\
-  \text{A total of 13 types for triangles can be formed.}
+  \text{A total of 13 types of triangles can be formed.}
   \end{array}
   $  
 :::  
@@ -554,7 +554,7 @@ $
   :::
 ---
 ::: wrap
-### $\fbox{9}\:$If the lengths of the sides for a triangle are integers, and the perimeter is 11, and one of the sides is 3, among all possible triangles, the longest side length is $\small \mathpunct{?}$.
+### $\fbox{9}\:$If the lengths of the sides of a triangle are integers, and the perimeter is 11, and one of the sides is 3, among all possible triangles, the longest side length is $\small \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: 3 &
@@ -708,6 +708,45 @@ $
   } \\
   \end{array}
   } & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-the-relationship-between-the-three-sides-of-a-triangle}{\text{Trilateral relations}} \\
+  \end{array}
+  >$
+
+  :::
+---
+::: wrap
+### $\fbox{11}\:$In $\small \triangle ABC, AB=5, AC=3$, when $\small \angle A$ changes between $\small (0,T)$, the range   
+$
+\begin{array}{lllll}
+(\text{A}) \:  &
+(\text{B}) \:  &
+(\text{C}) \:  &
+(\text{D}) \:  &
+(\text{E}) \:  & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- solve  
+
+  $
+  \begin{array}{ll}
+   & \text{} \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{()}$  
+  > According to the Solution, get $ $, so choose $ $. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+   & \text{} \\
   \end{array}
   >$
 

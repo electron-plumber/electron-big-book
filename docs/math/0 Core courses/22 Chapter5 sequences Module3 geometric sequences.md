@@ -152,7 +152,7 @@ $
    $  
 :::  
 ::: wrap  
-2. __$S_n$ is the sum of the first n terms for a geometric sequence,
+2. __$S_n$ is the sum of the first n terms of a geometric sequence,
    then $S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots$ are still geometric sequences$\fbox{Segment summation}$,
    and their common ratio is $q^n$.__  
    $
@@ -520,7 +520,7 @@ $
 ---
 
 ## 7.Focus 3
-__Sum of the first n terms for geometric sequence.__  
+__Sum of the first n terms of geometric sequence.__  
 ::: wrap  
 $
 \mathbf{
@@ -544,7 +544,7 @@ $
 :::
 
 ::: wrap
-### $\fbox{33}\:$Following there are $\small \mathpunct{?}$ that can be used as a sum of the first n terms for a geometric sequence.
+### $\fbox{33}\:$Following there are $\small \mathpunct{?}$ that can be used as a sum of the first n terms of a geometric sequence.
 $
 \begin{array}{lllll}
 (\text{1}) \: S_n=\frac{1}{3} &
@@ -602,7 +602,7 @@ $
   S_n=na_1 & q=1 \\
   S_n=k-kq^n & q \neq 1 \\
   \end{cases}
-  & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_7-focus-3}{\text{Characteristics for the sum of the first n terms}} \\
+  & \href{/math/0%20Core%20courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_7-focus-3}{\text{Characteristics of the sum of the first n terms}} \\
   \end{array}
   >$
 
@@ -631,7 +631,7 @@ $
   :::
 ---
 ::: wrap
-### $\fbox{34}\:$It is known that $\small S_n$ is the sum of the first n terms for the geometric sequence $\small \left\{ a_n \right\}$, if $\small S_2+S_5=2S_8$, then common ratio $\small q= \, \mathpunct{?}$.
+### $\fbox{34}\:$It is known that $\small S_n$ is the sum of the first n terms of the geometric sequence $\small \left\{ a_n \right\}$, if $\small S_2+S_5=2S_8$, then common ratio $\small q= \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: 1 \lor -2 &
@@ -818,9 +818,9 @@ $
 ---
 
 ## 9.Focus 5
-__The sum property of the first n terms for geometric sequence.__  
+__The sum property of the first n terms of geometric sequence.__  
 ::: wrap  
-- __If $S_n$ is the sum of the first n terms for a geometric sequence,
+- __If $S_n$ is the sum of the first n terms of a geometric sequence,
   then $S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots$ are still geometric sequences$\fbox{Segment summation}$,
   and their common ratio is $q^n$.__     
 :::
@@ -866,7 +866,7 @@ $
   :::
 ---
 ::: wrap
-### $\fbox{38}\:$It is known that $\small S_n$ is the sum of the first n terms for the geometric sequence $\small \left\{ a_n \right\}$, if $\small S_4=30,S_8=150$, then common ratio $\small q= \, \mathpunct{?}$.
+### $\fbox{38}\:$It is known that $\small S_n$ is the sum of the first n terms of the geometric sequence $\small \left\{ a_n \right\}$, if $\small S_4=30,S_8=150$, then common ratio $\small q= \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: \pm2 &
