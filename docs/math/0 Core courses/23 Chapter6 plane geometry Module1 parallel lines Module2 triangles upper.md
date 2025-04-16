@@ -627,3 +627,89 @@ $
 
   :::
 ---
+::: wrap
+### $\fbox{10}\:$Let the three-line segments $\small 3a-1, 4a+1, 12-a$ from a triangle, then the range of a is $\small \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 1 \lt a \lt 4 &
+(\text{B}) \: \frac{3}{2} \lt a \lt 5 &
+(\text{C}) \: \frac{3}{2} \lt a \lt 4 & \\
+(\text{D}) \: 0 \lt a \lt 5 &
+(\text{E}) \: a \gt 5 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- The longest side is unknown and can't be simplified. Use $a+b>c, \,a+c>b, \,b+c>a$ without adding absolute values to unknown numbers. 
+
+  $
+  \begin{array}{ll}
+  \boxed{
+  \begin{array}{ll}
+  a=3a-1 \\ 
+  b=4a+1 \\ 
+  c=12-a \\
+  \end{array}}
+  \begin{cases}
+  7a>12-a \\
+  2a+11>4a+1 \\
+  3a+13>3a-1 \\
+  \end{cases}
+  \begin{cases}
+  a>\frac{3}{2} \\
+  a<5 \\
+  13>-1 & \text{Identically true} \\
+  \end{cases} \\
+  \begin{array}{ll}
+  a>\frac{3}{2} \\
+  a<5 \\
+  \end{array}
+  \xrightarrow{\overset{\text{Intersection}}{}}
+  \frac{3}{2} \lt a \lt 5
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $\frac{3}{2} \lt a \lt 5$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \boxed{
+  \begin{array}{ll}
+  a+b>c, \,a+c>b, \,b+c>a \\
+  \text{Know the maximum side of c} \\
+  a+b>\underset{\triangle}c \Rightarrow (a+\underset{\triangle}c>b) \land (b+\underset{\triangle}c>a) \\
+  \end{array}
+  } \iff
+  \boxed{
+  \begin{array}{ll}
+  |a-b| \lt c, \,|a-c| \lt b, \,|b-c| \lt a \\
+  \text{Know the minimum side of c} \\
+  |a-b|\lt \underset{\triangle}c \Rightarrow
+  \underbrace{(|a-\underset{\triangle}c|\lt b)}_{
+  \begin{array}{ll}
+  a-c \lt b \\
+  a \lt b+c \\
+  \end{array}
+  }
+  \land
+  \underbrace{(|b-\underset{\triangle}c|\lt a)}_{
+  \begin{array}{ll}
+  b-c \lt a \\
+  b \lt a+c \\
+  \end{array}
+  } \\
+  \end{array}
+  } & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-the-relationship-between-the-three-sides-of-a-triangle}{\text{Trilateral relations}} \\
+  \end{array}
+  >$
+
+  :::
+---
