@@ -514,7 +514,7 @@ $
 - Derived Solution  
   ::: wrap
   > $\mathbf{(A)}$  
-  > According to the Solution, can form $13$ triangles, so choose $A$. 
+  > According to the Solution, $13$ types of triangles can be formed, so choose $A$. 
 
   :::
 - Formula used  
@@ -539,6 +539,80 @@ $
   a \lt b+c \\
   \end{array}
   } 
+  \land
+  \underbrace{(|b-\underset{\triangle}c|\lt a)}_{
+  \begin{array}{ll}
+  b-c \lt a \\
+  b \lt a+c \\
+  \end{array}
+  } \\
+  \end{array}
+  } & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-the-relationship-between-the-three-sides-of-a-triangle}{\text{Trilateral relations}} \\
+  \end{array}
+  >$
+
+  :::
+---
+::: wrap
+### $\fbox{9}\:$If the lengths of the sides for a triangle are integers, and the perimeter is 11, and one of the sides is 3, among all possible triangles, the longest side length is $\small \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 3 &
+(\text{B}) \: 4 &
+(\text{C}) \: 5 &
+(\text{D}) \: 6 &
+(\text{E}) \: 7 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Show known conditions  
+  ![Question triangle figure Q-9 solve-1.svg](../../public/math/Core%20courses/Question%20triangle%20figure%20Q-9%20solve-1.svg)  
+  
+  $
+  \begin{array}{ll}
+  |a-b|<3 \\
+  \underbrace{a+b=8}_{
+  \begin{array}{ll}
+  6-2=4 \; ❌\; 4>3\\
+  5-3=2 \; ✅ \\
+  4-4=0 \; ✅ \\
+  \end{array}
+  } \\
+  \text{The longest is 5.}
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(C)}$  
+  > According to the Solution, get the longest side length, which is $5$, so choose $C$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \boxed{
+  \begin{array}{ll}
+  a+b>c, \,a+c>b, \,b+c>a \\
+  \text{Know the maximum side of c} \\
+  a+b>\underset{\triangle}c \Rightarrow (a+\underset{\triangle}c>b) \land (b+\underset{\triangle}c>a) \\
+  \end{array}
+  } \iff
+  \boxed{
+  \begin{array}{ll}
+  |a-b| \lt c, \,|a-c| \lt b, \,|b-c| \lt a \\
+  \text{Know the minimum side of c} \\
+  |a-b|\lt \underset{\triangle}c \Rightarrow
+  \underbrace{(|a-\underset{\triangle}c|\lt b)}_{
+  \begin{array}{ll}
+  a-c \lt b \\
+  a \lt b+c \\
+  \end{array}
+  }
   \land
   \underbrace{(|b-\underset{\triangle}c|\lt a)}_{
   \begin{array}{ll}
