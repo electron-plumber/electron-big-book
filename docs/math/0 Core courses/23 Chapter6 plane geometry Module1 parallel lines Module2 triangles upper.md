@@ -714,41 +714,105 @@ $
   :::
 ---
 ::: wrap
-### $\fbox{11}\:$In $\small \triangle ABC, AB=5, AC=3$, when $\small \angle A$ changes between $\small (0,T)$, the range   
+### $\fbox{11}\:$In $\small \triangle ABC, AB=5, AC=3$, when $\small \angle A$ changes between $\small (0,\pi)$, the range of the length of the median on side $\small BC$ of the triangle is $\small \mathpunct{?}$.  
 $
 \begin{array}{lllll}
-(\text{A}) \:  &
-(\text{B}) \:  &
-(\text{C}) \:  &
-(\text{D}) \:  &
-(\text{E}) \:  & \\
+(\text{A}) \: (0,5) &
+(\text{B}) \: (1,4) &
+(\text{C}) \: (3,4) &
+(\text{D}) \: (2,5) &
+(\text{E}) \: (3,5) & \\
 \end{array}
 $  
 :::
 #### Solution
 ::: wrap  
-- solve  
+- Show trilateral relations  
+  ![Question triangle figure Q-11-1 solve-1.svg](../../public/math/Core%20courses/Question%20triangle%20figure%20Q-11-1%20solve-1.svg)  
 
   $
   \begin{array}{ll}
-   & \text{} \\
+  AE=\frac{5}{2} \\
+  ED=\frac{AC}{2}=\frac{3}{2} & \text{Median is equal}\\
+  AE-DE \lt AD \lt AE+DE \\
+  1 < AD < 4 \\
+  \end{array}
+  $  
+:::  
+::: wrap  
+- Use the formula for the median range of the third side in a triangle  
+
+  $
+  \begin{array}{ll}
+  \frac{|AB-AC|}{2} < AD < \frac{AB+AC}{2}  \\
+  \frac{|5-3|}{2} < AD < \frac{5+3}{2} \\
+  1 < AD < 4 \\
   \end{array}
   $  
 :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{()}$  
-  > According to the Solution, get $ $, so choose $ $. 
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $1 < AD < 4$, so choose $B$. 
 
   :::
 - Formula used  
   ::: wrap
   >$
   \begin{array}{ll}
-   & \text{} \\
+  \boxed{
+  \begin{array}{ll}
+  a+b>c, \,a+c>b, \,b+c>a \\
+  \text{Know the maximum side of c} \\
+  a+b>\underset{\triangle}c \Rightarrow (a+\underset{\triangle}c>b) \land (b+\underset{\triangle}c>a) \\
+  \end{array}
+  } \iff
+  \boxed{
+  \begin{array}{ll}
+  |a-b| \lt c, \,|a-c| \lt b, \,|b-c| \lt a \\
+  \text{Know the minimum side of c} \\
+  |a-b|\lt \underset{\triangle}c \Rightarrow
+  \underbrace{(|a-\underset{\triangle}c|\lt b)}_{
+  \begin{array}{ll}
+  a-c \lt b \\
+  a \lt b+c \\
+  \end{array}
+  }
+  \land
+  \underbrace{(|b-\underset{\triangle}c|\lt a)}_{
+  \begin{array}{ll}
+  b-c \lt a \\
+  b \lt a+c \\
+  \end{array}
+  } \\
+  \end{array}
+  } & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-the-relationship-between-the-three-sides-of-a-triangle}{\text{Trilateral relations}} \\
+  \frac{|AB-AC|}{2} < AD < \frac{AB+AC}{2}  & \text{The formula for the median range of the third side in a triangle} \\
   \end{array}
   >$
+
+  :::
+- For ranges, the limit solution can be used   
+  ::: wrap  
+
+  >- $\angle A \rightarrow 0^\circ$  
+   ![Question triangle figure Q-11-2 solve-1.svg](../../public/math/Core%20courses/Question%20triangle%20figure%20Q-11-2%20solve-1.svg)  
+   Note that D is the midpoint of BC.  
+   $AD \rightarrow 4$
+  >- $\angle A \rightarrow 0^\circ$  
+   ![Question triangle figure Q-11-2 solve-2.svg](../../public/math/Core%20courses/Question%20triangle%20figure%20Q-11-2%20solve-2.svg)  
+   $AD \rightarrow 1$  
+  ---
+  >$
+  \boxed{
+  \begin{array}{ll}
+  AD \rightarrow 4 \\
+  AD \rightarrow 1 \\
+  \end{array}}
+  \xrightarrow{\overset{\text{Intersection}}{}}
+  1<AD<4
+  >$ 
 
   :::
 ---
