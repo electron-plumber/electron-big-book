@@ -238,7 +238,7 @@ $
   :::
 ---
 ::: wrap
-### $\fbox{5}\:$Figure 6–8, Known straight lines $\small l_1 \parallel l_2 \parallel l_3, DE=6, EF=9, AB=5, $ then $\small AC = \, \mathpunct{?}$.
+### $\fbox{5}\:$Figure 6–8, Known straight lines $\small l_1 \parallel l_2 \parallel l_3, DE=6, EF=9, AB=5$, then $\small AC = \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: 10 &
@@ -800,7 +800,7 @@ $
    ![Question triangle figure Q-11-2 solve-1.svg](../../public/math/Core%20courses/Question%20triangle%20figure%20Q-11-2%20solve-1.svg)  
    Note that D is the midpoint of BC.  
    $AD \rightarrow 4$
-  >- $\angle A \rightarrow 0^\circ$  
+  >- $\angle A \rightarrow 180^\circ$  
    ![Question triangle figure Q-11-2 solve-2.svg](../../public/math/Core%20courses/Question%20triangle%20figure%20Q-11-2%20solve-2.svg)  
    $AD \rightarrow 1$  
   ---
