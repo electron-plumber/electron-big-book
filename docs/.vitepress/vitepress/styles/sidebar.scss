@@ -10,7 +10,7 @@
   z-index: var(--sidebar-z-index);
   width: var(--sidebar-width-xs);
   background-color: var(--bg-color);
-  padding: 48px 32px 0;
+  padding: 48px 0 0 18px;
   overflow-y: auto;
   transform: translate(-100%);
   transition: background-color var(--el-transition-duration-fast), opacity 0.25s,
@@ -44,13 +44,13 @@
   }
 
   @include up-from('lg') {
+    padding: 48px 8px 0 32px;
     top: var(--header-height);
     transform: translate(0);
   }
 
   @include up-from('xxl') {
-    // 6px stands for 3px sidebar scrollbar width + 3 content scrollbar width
-    padding: 48px 32px 96px calc((100% - var(--vp-screen-max-width)) / 2);
+    padding: 48px 8px 96px calc((100% - var(--vp-screen-max-width)) / 2);
 
     width: calc(
       (100% - var(--vp-screen-max-width)) / 2 + var(--vp-sidebar-width-small)
