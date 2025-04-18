@@ -8,3 +8,8 @@
   transition: opacity 0.5s;
   z-index: var(--overlay-z-index);
 }
+
+.overlay-lock-scroll {
+  touch-action: none;
+  overflow: hidden;
+}

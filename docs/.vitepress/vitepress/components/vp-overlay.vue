@@ -1,7 +1,22 @@
 <script setup lang="ts">
-defineProps<{
-  show: boolean
-}>()
+  import { watch } from 'vue'
+
+  const props = defineProps<{
+    show: boolean
+  }>()
+
+  /**
+   * When opening the side on the mobile,
+   * lock the main scrollbar to prevent the main scrollbar from scrolling when scrolling the side.
+   */
+  watch(() => props.show, (val) => {
+      if (val) {
+        document.body.classList.add('overlay-lock-scroll')
+      } else {
+        document.body.classList.remove('overlay-lock-scroll')
+      }
+    }
+  )
 </script>
 
 <template>
