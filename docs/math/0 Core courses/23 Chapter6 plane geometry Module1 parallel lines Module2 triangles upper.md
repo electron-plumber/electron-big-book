@@ -3,10 +3,11 @@ title: Chapter6 plane geometry Module1 parallel lines Module2 triangles upper
 lang: en-US
 ---
 
-| Platforms   | Courses                                                                                      | Coursewares                                                       |
-|-------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| YouTube     | [Watch](https://www.youtube.com/watch?v=blPgDW_ybeg&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s) | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
-| Dailymotion | [Watch](https://www.dailymotion.com/video/x9gncm8?playlist=x9h6d2)                           |                                                                   |
+| Platforms   | Courses                                                                                                            | Coursewares                                                       |
+|-------------|--------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| YouTube     | [Watch](https://www.youtube.com/watch?v=blPgDW_ybeg&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s)                       | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
+| Dailymotion | [Watch](https://www.dailymotion.com/video/x9gncm8?playlist=x9h6d2)                                                 |                                                                   |
+| Rumble      | [Watch](https://rumble.com/v6s95ch-23-chapter6-plane-geometry-module1-parallel-lines-module2-triangles-upper.html) |                                                                   |
 
 
 # Module 5-03 Parallel lines
