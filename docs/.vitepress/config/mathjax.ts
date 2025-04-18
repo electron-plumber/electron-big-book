@@ -4,7 +4,7 @@ export default {
   // https://docs.mathjax.org/en/latest/options/input/tex.html#the-configuration-block
   tex: {
     packages: {
-      '[+]': ['cancel', 'ams', 'textcomp', 'html']
+      '[+]': ['cancel', 'ams', 'textcomp', 'html', 'color']
     },
   },
   // For properties of the output processor svg configuration:
