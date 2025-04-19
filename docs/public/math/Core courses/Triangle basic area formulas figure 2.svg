@@ -4,13 +4,13 @@
     <style>
       .cls-1 {
       fill: none;
-      stroke: #0071bc;
+      stroke: #22b573;
       stroke-miterlimit: 10;
       stroke-width: 3px;
       }
 
       .cls-2 {
-      fill: #0071bc;
+      fill: #29abe2;
       font-family: MyriadPro-Regular, 'Myriad Pro';
       font-size: 24px;
       }
