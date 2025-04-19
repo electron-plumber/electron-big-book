@@ -27,7 +27,7 @@ lang: en-US
 ## 3.Focus 1
 __Solution angle__   
 - Note that the angle formed by the combination of parallel lines and other special figures not only has the relationship between the angles of parallel lines, but also the relationship between the angle of special figures.  
-  - Special figures similar Right triangle, Isosceles triangle.
+- Special figures similar Right triangle, Isosceles triangle.
 
 ::: wrap
 ### $\fbox{1}\:$Figure 6–4, $\small l_1 \parallel l_2$, $\small \angle1 = 105^\circ$, $\small \angle2 = 140^\circ$, then $\small \angle \alpha = \, \mathpunct{?}$.
@@ -195,7 +195,7 @@ $
 
 ## 4.Focus 2
 __Solution length__
-- __Analysis based on the parallel line segments ratio formula.__  
+- Analysis based on the parallel line segments ratio formula.    
 
 ::: wrap
 ### $\fbox{4}\:$Figure 6–7, if the four-line segments $\small AB, BC, DE, EF$ are proportional, and $\small AB=2, BC=3, DE=4$, then $\small EF= \, \mathpunct{?}$.
@@ -302,9 +302,9 @@ the exterior angle of a triangle is equal to the sum of its two non-adjacent int
 
 ## 3.Focus 1
 __Solution angle__  
-- __Note: The angles
+- Note: The angles
   formed when parallel lines are combined with other special figures not only have the relationship between the angles of parallel lines, 
-  but also the relationship between the angles of special figures.__  
+  but also the relationship between the angles of special figures.  
 
 ::: wrap
 ### $\fbox{6}\:$Figure 6–9, if $\small AB \parallel CE, CE=DE,$ and $\small y=45^\circ,$ then $\small x= \, \mathpunct{?}$.
@@ -412,12 +412,12 @@ $
 
 ## 4.Focus 2 
 __Trilateral relations__   
-- __According to the relationship between the three sides of a triangle, 
+- According to the relationship between the three sides of a triangle, 
   the requirements of a triangle can be analyzed, 
   The sum of any two sides is greater than the third side, 
   and the difference between any two sides is less third side, 
   As long as one of the two sides is met, 
-  a triangle can be formed.__
+  a triangle can be formed.  
 
 
 ::: wrap

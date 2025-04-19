@@ -193,7 +193,7 @@ $
 ## 5.Focus 1
 __Determination and definition of Geometric sequence.__  
 ::: wrap  
-- __If three numbers $a,b,c$ form a geometric sequence, then b is called the geometric mean of a and c, that is $ac=b^2$.__   
+- If three numbers $a,b,c$ form a geometric sequence, then b is called the geometric mean of a and c, that is $ac=b^2$.   
   - $b = \pm \sqrt{ac}$  
   - $a,c$ same sign operators  
 :::
@@ -261,7 +261,7 @@ $
 __General term of geometric sequence.__  
 ::: wrap  
 $\mathbf{a_n=a_1q^{n-1}=a_{k}q^{n-k}=\frac{a_1}{q}q^n}$  
-- __No element in a geometric sequence can be 0, and the common ratio can't be 0.__  
+- No element in a geometric sequence can be 0, and the common ratio can't be 0.    
   - $a_n= \text{constants} \times \text{exponents}$   
   - $q= \text{base}$  
   - $a_n= \text{constants} \quad \text{Special case } q=1$  
@@ -821,9 +821,9 @@ $
 ## 9.Focus 5
 __The sum property of the first n terms of geometric sequence.__  
 ::: wrap  
-- __If $S_n$ is the sum of the first n terms of a geometric sequence,
+- If $S_n$ is the sum of the first n terms of a geometric sequence,
   then $S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots$ are still geometric sequences$\fbox{Segment summation}$,
-  and their common ratio is $q^n$.__     
+  and their common ratio is $q^n$.     
 :::
 
 ::: wrap

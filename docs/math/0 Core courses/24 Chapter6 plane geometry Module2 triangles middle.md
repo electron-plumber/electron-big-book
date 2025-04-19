@@ -31,3 +31,26 @@ lang: en-US
 - Application  
   When the three sides of a triangle are known, this formula can be used to calculate the area.
   ![Triangle basic area formulas figure 2.svg](../../public/math/Core%20courses/Triangle%20basic%20area%20formulas%20figure%202.svg)  
+
+
+## 6.Focus 3
+__Use the relationship between base and height to calculate area.__  
+- When two triangles have the same height, the ratio of their areas is equal to the ratio of their bases.    
+  ![Triangle Focus 6 figure 1.svg](../../public/math/Core%20courses/Triangle%20Focus%206%20figure%201.svg)    
+- When two triangles have the same base, the ratio of their areas is equal to the ratio of their heights.   
+  ![Question triangle figure 6-9 solve-1.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-9%20solve-1.svg)   
+- When two triangles have the same base and the same height, their areas are equal.      
+
+::: wrap  
+$
+\begin{array}{ll}
+S=\frac{1}{2} 
+\begin{cases}
+\frac{S_1}{S_2}=\frac{a_1}{a_2} & \text{h same} \\
+\frac{S_1}{S_2}=\frac{h_1}{h_2} & \text{a same} \\
+\frac{S_1}{S_2} & \text{a, h same} \\
+\end{cases}
+\end{array}  
+$  
+:::
+
