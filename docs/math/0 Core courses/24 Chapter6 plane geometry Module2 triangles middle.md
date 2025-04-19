@@ -38,7 +38,7 @@ __Use the relationship between base and height to calculate area.__
 - When two triangles have the same height, the ratio of their areas is equal to the ratio of their bases.    
   ![Triangle Focus 6 figure 1.svg](../../public/math/Core%20courses/Triangle%20Focus%206%20figure%201.svg)    
 - When two triangles have the same base, the ratio of their areas is equal to the ratio of their heights.   
-  ![Question triangle figure 6-9 solve-1.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-9%20solve-1.svg)   
+  ![Triangle Focus 6 figure 2.svg](../../public/math/Core%20courses/Triangle%20Focus%206%20figure%202.svg)    
 - When two triangles have the same base and the same height, their areas are equal.      
 
 ::: wrap  
