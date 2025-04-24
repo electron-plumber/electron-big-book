@@ -44,13 +44,84 @@ __Use the relationship between base and height to calculate area.__
 ::: wrap  
 $
 \begin{array}{ll}
-S=\frac{1}{2} 
+S=\frac{1}{2}ah 
 \begin{cases}
 \frac{S_1}{S_2}=\frac{a_1}{a_2} & \text{h same} \\
 \frac{S_1}{S_2}=\frac{h_1}{h_2} & \text{a same} \\
-\frac{S_1}{S_2} & \text{a, h same} \\
+S_1=S_2 & \text{a, h same} \\
 \end{cases}
 \end{array}  
 $  
 :::
 
+
+::: wrap
+### $\fbox{12}\:$Figure 6-13, if the area of $\small \triangle ABC$ is $\small 1$, and the areas of $\small \triangle AEC, \triangle DEC, \triangle BED$ are equal, then the area of $\small \triangle AED$ is $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: \frac{1}{3} &
+(\text{B}) \: \frac{1}{6} &
+(\text{C}) \: \frac{1}{5} &
+(\text{D}) \: \frac{1}{4} &
+(\text{E}) \: \frac{2}{5} & \\
+\end{array}
+$  
+:::  
+![Question triangle figure 6-13.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-13.svg)  
+#### Solution
+::: wrap  
+- Show known conditions  
+  ![Question triangle figure 6-13 solve-1.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-13%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  S_{\triangle AEC} = S_{\triangle DEC} = S_{\triangle BED} = \frac{1}{3} & \text{} \\
+  \end{array}
+  $  
+:::   
+::: wrap  
+- $\textcolor{#228B22}{\fbox{1}}\:$solve according to the position of point D  
+
+  $
+  \begin{array}{ll}
+  S_{\triangle BDE}=S_{\triangle CDE} \Rightarrow D\text{ is the midpoint of }BC
+  & S_1=S_2\text{ The height and area of the pink and orange triangles are equal}\\
+  S_{\triangle ABD}=\frac{1}{2}S_{\triangle ABC}=\frac{1}{2} & AD\text{ is the median line }\triangle ABC\\
+  S_{\triangle AED}=\frac{1}{2}-\frac{1}{3}=\frac{1}{6} \\
+  \end{array}
+  $  
+:::  
+::: wrap
+- $\textcolor{#228B22}{\fbox{2}}\:$solve according to the position of point E  
+
+  $
+  \begin{array}{ll}
+  S_{\triangle BCE}=2S_{\triangle ACE} 
+  & \text{The pink + orange triangle is 2x of the green triangle} \\
+  BE=2AE & \frac{S_1}{S_2}=\frac{a_1}{a_2} \text{ h same}\\
+  S_{\triangle AED}=\frac{1}{2}S_{\triangle BDE}=\frac{1}{6} & \frac{a_1}{a_2}=\frac{S_1}{S_2} \text{ h same}\\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $S_{\triangle AED}=\frac{1}{6}$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  S=\frac{1}{2}ah
+  \begin{cases}
+  \frac{S_1}{S_2}=\frac{a_1}{a_2} & \text{h same} \\
+  \frac{S_1}{S_2}=\frac{h_1}{h_2} & \text{a same} \\
+  S_1=S_2 & \text{a, h same} \\
+  \end{cases} & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\text{Triangle area formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
