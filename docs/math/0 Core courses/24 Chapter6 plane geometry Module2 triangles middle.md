@@ -228,3 +228,41 @@ $
 
   :::
 ---
+::: wrap
+### $\fbox{15}\:$If a triangle has two sides of length 4 and 6, and the length of the third side is changing, then the maximum area of the triangle is $\small \, \mathpunct{?}$. 
+$
+\begin{array}{lllll}
+(\text{A}) \: 18 &
+(\text{B}) \: 16 &
+(\text{C}) \: 14 &
+(\text{D}) \: 12 &
+(\text{E}) \: 10 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+S_{max}=\frac{1}{2}\times 4 \times 6 \times sin90^\circ \\
+sin90^\circ= 12 & \text{When the area of the triangle reaches its maximum }sinC=1\\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(D)}$  
+  > According to the Solution, get $S_{max}=sin90^\circ=12$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  S=\frac{1}{2}absinC & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-angle-between-sides}{\text{Triangle area formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
