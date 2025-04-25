@@ -25,7 +25,7 @@ lang: en-US
 
 
 ## 3.Focus 1
-__Solution angle__   
+__Solve angle__   
 - Note that the angle formed by the combination of parallel lines and other special figures not only has the relationship between the angles of parallel lines, but also the relationship between the angle of special figures.  
 - Special figures similar Right triangle, Isosceles triangle.
 
@@ -194,7 +194,7 @@ $
 ---
 
 ## 4.Focus 2
-__Solution length__
+__Solve length__
 - Analysis based on the parallel line segments ratio formula.    
 
 ::: wrap
@@ -301,7 +301,7 @@ the exterior angle of a triangle is equal to the sum of its two non-adjacent int
   $|a-b| \lt c, |a-c| \lt b, |b-c| \lt a$  
 
 ## 3.Focus 1
-__Solution angle__  
+__Solve angle__  
 - Note: The angles
   formed when parallel lines are combined with other special figures not only have the relationship between the angles of parallel lines, 
   but also the relationship between the angles of special figures.  

@@ -183,3 +183,8 @@ $
 
   :::
 ---
+
+## 7.Focus 4
+__Using angle to solve an area.__  
+- We know two sides and the angle between them in a triangle, can use the formula to solve the area $S=\frac{1}{2}absinC$, need to memorize the trigonometric values for common angles.
+
