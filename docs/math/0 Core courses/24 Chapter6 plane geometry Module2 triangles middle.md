@@ -188,3 +188,43 @@ $
 __Using angle to solve an area.__  
 - We know two sides and the angle between them in a triangle, can use the formula to solve the area $S=\frac{1}{2}absinC$, need to memorize the trigonometric values for common angles.
 
+::: wrap
+### $\fbox{14}\:$If a triangle has two sides of length 4 and 6, and the area of the triangle is $\small 6\sqrt{2}$, then the angle between the two sides is $\small \, \mathpunct{?}$. 
+$
+\begin{array}{lllll}
+(\text{A}) \: 30^\circ &
+(\text{B}) \: 45^\circ \lor 135^\circ &
+(\text{C}) \: 60^\circ \lor 120^\circ &
+(\text{D}) \: 75^\circ &
+(\text{E}) \: 90^\circ & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+S=\frac{1}{2}\times 4 \times 6 \times sinC = 6\sqrt{2} \\
+12sinC=6\sqrt{2} \\
+sinC=\frac{6\sqrt{2}}{12}=\frac{√2}{2} \\
+sinC=\frac{√2}{2}=45^\circ \lor 135^\circ \\ 
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $sinC=45^\circ \lor 135^\circ$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  S=\frac{1}{2}absinC & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-angle-between-sides}{\text{Triangle area formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
