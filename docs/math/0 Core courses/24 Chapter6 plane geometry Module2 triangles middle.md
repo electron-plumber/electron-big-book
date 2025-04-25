@@ -266,3 +266,8 @@ $
 
   :::
 ---
+
+## 8.Focus 5
+__Given the three sides, use Heron's formula to find the area.__
+- When the three sides of a triangle are known, you can find the area using the formula $S=\sqrt{p(p-a)(p-b)(p-c)}$, where $p=\frac{1}{2}(a+b+c)$. 
+
