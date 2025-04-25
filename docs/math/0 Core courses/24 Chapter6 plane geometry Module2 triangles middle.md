@@ -125,3 +125,61 @@ $
 
   :::
 ---
+::: wrap
+### $\fbox{13}\:$Figure 6–14, known $\small CD=5, DE=7, EF=15, FG=6$, the line segment $\small AB$ divides the figure into two parts, the area of the left part is 38, and the area of the right part is 65, then the area of triangle $\small ADG$ is $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 40 &
+(\text{B}) \: 35 &
+(\text{C}) \: 33 &
+(\text{D}) \: 32 &
+(\text{E}) \: 31 & \\
+\end{array}
+$  
+:::  
+![Question triangle figure 6-14.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-14.svg)  
+#### Solution
+::: wrap  
+- show known conditions and assume that the unknown variable in the overall area     
+  ![Question triangle figure 6-14 solve-1.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-14%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  \triangle ADE=x \quad \triangle BCE=y \\
+  \triangle AEG=\frac{15+6}{7}x=3x \\
+  \triangle BEG=\frac{15}{7+5}y=\frac{5}{4}y \\
+  \begin{cases}
+  x+y=38 \\
+  3x+\frac{5}{4}y=65 \\
+  \end{cases} \\
+  y=38-x \\
+  3x+\frac{5}{4}(38-x)=65 \\
+  3x+\frac{5}{4}\times 38 -\frac{5}{4}\times x= 65 \\
+  3x+\frac{190}{4}-\frac{5}{4}x=65 \\
+  4(3x)+4(\frac{190}{4})-4(\frac{5}{4}x)=4(65) \\
+  12x-5x+190=260 \\
+  7x=260-190 \\
+  7x=70 \\
+  x=\frac{70}{7}=10 \\ 
+  y=38-10=28 \\
+  S_{\triangle ADG}=x+3x=4\times10=40
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(A)}$  
+  > According to the Solution, get $S_{\triangle ADG}=40$, so choose $A$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \frac{a}{b}=\frac{c}{d} & \text{Proportion} \\
+  \end{array}
+  >$
+
+  :::
+---
