@@ -27,7 +27,7 @@ lang: en-US
   When two sides and the angle are known, this formula can be used to calculate the area.  
   ![Triangle basic area formulas figure 1.svg](../../public/math/Core%20courses/Triangle%20basic%20area%20formulas%20figure%201.svg)  
 
-### $\textcolor{#1E3A5F}{\fbox{3}\:}\: \small S=\sqrt{p(p-1)(p-b)(p-c)}$, where $\small p=\frac{1}{2}(a+b+c)$.
+### $\textcolor{#1E3A5F}{\fbox{3}\:}\: \small S=\sqrt{p(p-a)(p-b)(p-c)}$, where $\small p=\frac{1}{2}(a+b+c)$.
 - Application  
   When the three sides of a triangle are known, this formula can be used to calculate the area.
   ![Triangle basic area formulas figure 2.svg](../../public/math/Core%20courses/Triangle%20basic%20area%20formulas%20figure%202.svg)  
@@ -271,3 +271,45 @@ $
 __Given the three sides, use Heron's formula to find the area.__
 - When the three sides of a triangle are known, you can find the area using the formula $S=\sqrt{p(p-a)(p-b)(p-c)}$, where $p=\frac{1}{2}(a+b+c)$. 
 
+::: wrap
+### $\fbox{16}\:$If the three sides of a triangle are 7,8,9 then its area is $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 16\sqrt{2} &
+(\text{B}) \: 12\sqrt{3} &
+(\text{C}) \: 18\sqrt{3} &
+(\text{D}) \: 12\sqrt{5} &
+(\text{E}) \: 18\sqrt{5} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+p=\frac{7+8+9}{2}=12 \\
+S=\sqrt{12(12-7)(12-8)(12-9)} \\
+S=\sqrt{12\times5\times4\times3}=12\sqrt{5} \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(D)}$  
+  > According to the Solution, get $S=12\sqrt{5}$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \begin{cases}
+  p=\frac{1}{2}(a+b+c) \\
+  S=\sqrt{p(p-a)(p-b)(p-c)} \\
+  \end{cases} & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where}{\text{Heron's formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
