@@ -344,7 +344,7 @@ $
 
 ## 10.Bird's Head Theorem  
 ::: wrap
-- Two triangles are called congruent-angle triangles if they share an equal or complementary angle.    
+- Two triangles are called congruent-angle triangles if they share an equal or supplementary angle.    
 - Their area ratio is the same as the ratio of the products of the sides around those angles.   
 - Figure 6–11, in $\angle ABC$ and $\angle ADE$, __the sine of $\mathbf{\angle A}$ is the same (same angles)__, so $\boxed{S_{\triangle ABC}:S_{\triangle ADE}=(AB \cdot AC):(AD \cdot AE)}$.     
   ![Bird's Head Theorem Figure 6-11.svg](../../public/math/Core%20courses/Bird%27s%20Head%20Theorem%20Figure%206-11.svg)     
@@ -353,3 +353,54 @@ $
 :::  
 
 
+## 11.Focus 6
+__Solve area using the Bird's Head theorem.__   
+- When two triangles share a common angle or have equal angles, the __Bird's Head theorem__ can be used: the ratio of their areas is equal to the ratio of the products of the sides adjacent to the corresponding angles (whether the angles are equal or supplementary).
+
+
+::: wrap
+### $\fbox{17}\:$Figure 6–15, in $\small \triangle ABC$, $\small D, E$ are points on $\small AB, AC$ respectively, and $\small AD:AB=2:5, AE:AC=4:7, S_{\triangle ADE}=16$, then the area of $\small \triangle ABC$ is $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 56 &
+(\text{B}) \: 65 &
+(\text{C}) \: 66 &
+(\text{D}) \: 70 &
+(\text{E}) \: 72 & \\
+\end{array}
+$  
+:::  
+![Question triangle figure 6-15.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-15.svg)  
+#### Solution
+::: wrap  
+- Show known conditions  
+  ![Question triangle figure 6-15 solve-1.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-15%20solve-1.svg)   
+
+  $
+  \begin{array}{ll}
+  \frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{AD\times AE}{AB \times AC}=\frac{2}{5}\times \frac{4}{7}= \frac{8}{35} \\
+  S_{\triangle ADE}=16 \\  
+  \frac{16}{S_{\triangle ABC}}=\frac{8}{35} \\
+  16\times 35=S_{\triangle ABC}\times 8 \\
+  560 = S_{\triangle ABC}\times 8 \\
+  S_{\triangle ABC}=\frac{560}{8}=70 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(D)}$  
+  > According to the Solution, get $S_{\triangle ABC}=70$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{AD\times AE}{AB \times AC} & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_10-bird-s-head-theorem}{\text{Bird's Head theorem}} \\
+  \end{array}
+  >$
+
+  :::
+---

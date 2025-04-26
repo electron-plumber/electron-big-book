@@ -15,7 +15,7 @@ lang: en-US
 ## 1.Angle between a straight line and parallel     
   - $\angle 1 \, \text{and} \, \angle 4$ are corresponding angles, corresponding angles are equal.  
   - $\angle 2 \, \text{and} \, \angle 4$ are alternate interior angles, alternate interior angles are equal.
-  - $\angle 3 \, \text{and} \, \angle 4$ are adjacent interior angles, adjacent interior angles are complementary.  
+  - $\angle 3 \, \text{and} \, \angle 4$ are adjacent interior angles, adjacent interior angles are supplementary.  
   ![Angle between a straight line and parallel.svg](../../public/math/Core%20courses/Angle%20between%20a%20straight%20line%20and%20parallel.svg)  
 
 ## 2.The segments intercepted by a set of parallel lines are proportional    
