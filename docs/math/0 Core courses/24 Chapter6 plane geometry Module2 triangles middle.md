@@ -12,10 +12,14 @@ lang: en-US
 
 ## 5.Basic area formulas  
 
+::: wrap
 ### $\textcolor{#1E3A5F}{\fbox{1}}\: \small S=\frac{1}{2}ah$, where $\small h$ is the height of side $\small a$. 
 - Application   
-  When the base and height are known, this formula can be used to calculate the area.
+  When the base and height are known, this formula can be used to calculate the area.  
 
+::: 
+
+::: wrap
 ### $\textcolor{#1E3A5F}{\fbox{2}}\: \small S=\frac{1}{2}absinC$, where $\small C$ is the angle between sides $\small a,b$.
 - Angle-sine Chart   
 
@@ -25,13 +29,17 @@ lang: en-US
 
 - Application  
   When two sides and the angle are known, this formula can be used to calculate the area.  
-  ![Triangle basic area formulas figure 1.svg](../../public/math/Core%20courses/Triangle%20basic%20area%20formulas%20figure%201.svg)  
+  ![Triangle basic area formulas figure 1.svg](../../public/math/Core%20courses/Triangle%20basic%20area%20formulas%20figure%201.svg)    
 
+:::     
+
+::: wrap
 ### $\textcolor{#1E3A5F}{\fbox{3}\:}\: \small S=\sqrt{p(p-a)(p-b)(p-c)}$, where $\small p=\frac{1}{2}(a+b+c)$.
 - Application  
   When the three sides of a triangle are known, this formula can be used to calculate the area.
-  ![Triangle basic area formulas figure 2.svg](../../public/math/Core%20courses/Triangle%20basic%20area%20formulas%20figure%202.svg)  
+  ![Triangle basic area formulas figure 2.svg](../../public/math/Core%20courses/Triangle%20basic%20area%20formulas%20figure%202.svg)    
 
+:::   
 
 ## 6.Focus 3
 __Use the relationship between base and height to calculate area.__  
@@ -316,22 +324,32 @@ $
 
 ## 9.Area of special triangles  
 
-### $\textcolor{#1E3A5F}{\fbox{1}}\:$ Right triangle.
-- Pythagorean theorem $a^2+b^2=c^2$      
-- Commonly used pythagorean numbers $(3,4,5)$,$(6,8,10)$,$(5,12,13)$,$(7,24,25)$,$(8,15,17)$,$(9,12,15)$    
-  The scaled pythagorean theorem $(ka)^2+(kb)^2=(kc)^2$.  
-- The ratio of the three sides of an isosceles right triangle is $1:1:\sqrt{2}$  
+### $\textcolor{#1E3A5F}{\fbox{1}}\:$ Right triangle.  
+- Pythagorean theorem $a^2+b^2=c^2$.      
+- Commonly used pythagorean numbers $(3,4,5)$,$(6,8,10)$,$(5,12,13)$,$(7,24,25)$,$(8,15,17)$,$(9,12,15)$.    
+  - The scaled pythagorean theorem $(ka)^2+(kb)^2=(kc)^2$.  
+- The ratio of the three sides of an isosceles right triangle is $1:1:\sqrt{2}$.  
   ![The ratio of the three sides of an isosceles right triangle.svg](../../public/math/Core%20courses/The%20ratio%20of%20the%20three%20sides%20of%20an%20isosceles%20right%20triangle.svg)  
-- The area of an isosceles right triangle is $S=\frac{1}{2}a^2=\frac{1}{4}c^2$, where $a$ is the length of the right angle side, and $c$ is the length of the hypotenuse   
-- In a triangle with angles $30^\circ,60^\circ,90^\circ$, the sides are always in the ratio $1:\sqrt{3}:2$   
+- The area of an isosceles right triangle is $S=\frac{1}{2}a^2=\frac{1}{4}c^2$, where $a$ is the length of the right angle side, and $c$ is the length of the hypotenuse.     
+- In a triangle with angles $30^\circ,60^\circ,90^\circ$, the sides are always in the ratio $1:\sqrt{3}:2$.   
   ![In a triangle with angles 30-60-90 the sides are always in the ratio.svg](../../public/math/Core%20courses/In%20a%20triangle%20with%20angles%2030-60-90%20the%20sides%20are%20always%20in%20the%20ratio.svg)  
 
 ### $\textcolor{#1E3A5F}{\fbox{2}}\:$ Equilateral triangle.
-- The ratio of the height to the side of an equilateral triangle is $\sqrt{3}:2=\frac{\sqrt{3}}{2}:1$   
-  $h=\frac{\sqrt{3}}{2}a$  
-- The area of an equilateral triangle is $S=\frac{\sqrt{3}}{4}a^2$, where $a$ is the length of the side  
-  $S=\frac{1}{2}a\times\frac{\sqrt{3}}{2}a=\frac{\sqrt{3}}{4}a^2$   
+- The ratio of the height to the side of an equilateral triangle is $\sqrt{3}:2=\frac{\sqrt{3}}{2}:1$.   
+  - $h=\frac{\sqrt{3}}{2}a$  
+- The area of an equilateral triangle is $S=\frac{\sqrt{3}}{4}a^2$, where $a$ is the length of the side.  
+  - $S=\frac{1}{2}a\times\frac{\sqrt{3}}{2}a=\frac{\sqrt{3}}{4}a^2$   
 
 ![The area of an equilateral triangle.svg](../../public/math/Core%20courses/The%20area%20of%20an%20equilateral%20triangle.svg)  
 
 ## 10.Bird's Head Theorem  
+::: wrap
+- Two triangles are called congruent-angle triangles if they share an equal or complementary angle.    
+- Their area ratio is the same as the ratio of the products of the sides around those angles.   
+- Figure 6–11, in $\angle ABC$ and $\angle ADE$, __the sine of $\mathbf{\angle A}$ is the same (same angles)__, so $\boxed{S_{\triangle ABC}:S_{\triangle ADE}=(AB \cdot AC):(AD \cdot AE)}$.     
+  ![Bird's Head Theorem Figure 6-11.svg](../../public/math/Core%20courses/Bird%27s%20Head%20Theorem%20Figure%206-11.svg)     
+  $\frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{\cancel{\frac{1}{2}}AD\times AE \times \cancel{sinA}}{\cancel{\frac{1}{2}}AB\times AC \times \cancel{sinA}}=\frac{AD\times AE}{AB \times AC}$  
+
+:::  
+
+

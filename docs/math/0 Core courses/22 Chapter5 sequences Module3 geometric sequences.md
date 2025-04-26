@@ -32,7 +32,7 @@ Essence: ratio value is constant (common ratio), relationship of multiples.
 ::: wrap  
 $$\mathbf{a_n=a_1q^{n-1}=a_{k}q^{n-k}=\frac{a_1}{q}q^n}$$
 
-__Remark: If two elements are known, need to know determine a common ratio $\frac{a_n}{a_m}=q^{n-m}$__  
+__Remark: If two elements are known, need to know determine a common ratio $\frac{a_n}{a_m}=q^{n-m}$__.  
 :::
 
 ### Formula derivations
