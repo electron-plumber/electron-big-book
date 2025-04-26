@@ -359,7 +359,7 @@ __Solve area using the Bird's Head theorem.__
 
 
 ::: wrap
-### $\fbox{17}\:$Figure 6–15, in $\small \triangle ABC$, $\small D, E$ are points on $\small AB, AC$ respectively, and $\small AD:AB=2:5, AE:AC=4:7, S_{\triangle ADE}=16$, then the area of $\small \triangle ABC$ is $\small \, \mathpunct{?}$.
+### $\fbox{17}\:$Figure 6–15, in $\small \triangle ABC$, points $\small D, E$ lie onside $\small AB, AC$ respectively, and $\small AD: AB=2:5, AE: AC=4:7, S_{\triangle ADE}=16$, then the area of $\small \triangle ABC$ is $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: 56 &
@@ -392,6 +392,52 @@ $
   ::: wrap
   > $\mathbf{(D)}$  
   > According to the Solution, get $S_{\triangle ABC}=70$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{AD\times AE}{AB \times AC} & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_10-bird-s-head-theorem}{\text{Bird's Head theorem}} \\
+  \end{array}
+  >$
+
+  :::
+---
+::: wrap
+### $\fbox{18}\:$Figure 6–15, in $\small \triangle ABC$, point $\small D$ lies on the extension of side $\small BA$, and point $\small E$ lies onside $\small AC$, give that $AB: AD=5:2, AE: EC=3:2, S_{\triangle ADE}=12$, then the area of $\small \triangle ABC$ is $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 30 &
+(\text{B}) \: 35 &
+(\text{C}) \: 43 &
+(\text{D}) \: 48 &
+(\text{E}) \: 50 & \\
+\end{array}
+$  
+:::  
+![Question triangle figure 6-16.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-16.svg)  
+#### Solution
+::: wrap  
+- Show known conditions  
+  ![Question triangle figure 6-16 solve-1.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-16%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  \frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{AD \times AE}{AB \times AC}=\frac{2 \times 3}{5 \times(3+2)}=\frac{6}{25} \\
+  S_{\triangle ADE}=12 \\
+  \frac{12}{S_{\triangle ABC}}=\frac{6}{25} \\
+  12\times 25=S_{\triangle ABC}\times 6 \\
+  300=S_{\triangle ABC}\times 6 \\
+  S_{\triangle ABC}=\frac{300}{6}=50 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(E)}$  
+  > According to the Solution, get $S_{\triangle ABC}=50$, so choose $E$. 
 
   :::
 - Formula used  
