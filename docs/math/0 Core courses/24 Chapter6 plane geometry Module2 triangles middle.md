@@ -64,7 +64,7 @@ $
 
 
 ::: wrap
-### $\fbox{12}\:$Figure 6-13, if the area of $\small \triangle ABC$ is $\small 1$, and the areas of $\small \triangle AEC, \triangle DEC, \triangle BED$ are equal, then the area of $\small \triangle AED$ is $\small \, \mathpunct{?}$.
+### $\fbox{12}\:$Figure 6–13, if the area of $\small \triangle ABC$ is $\small 1$, and the areas of $\small \triangle AEC, \triangle DEC, \triangle BED$ are equal, then the area of $\small \triangle AED$ is $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: \frac{1}{3} &
@@ -448,5 +448,23 @@ $
   \end{array}
   >$
 
+  :::
+---
+
+## 12.Focus 7
+__Solve area using the Swallowtail theorem (equal altitudes)__  
+- When a point inside a triangle is joined to each of the triangle's vertices, the __Swallowtail theorem__ can be applied for analysis.   
+  ![Solve area using the Swallowtail theorem.svg](../../public/math/Core%20courses/Solve%20area%20using%20the%20Swallowtail%20theorem.svg)  
+- __Formula derivations__   
+  ::: wrap    
+  ![Solve area using the Swallowtail theorem formula derivations.svg](../../public/math/Core%20courses/Solve%20area%20using%20the%20Swallowtail%20theorem%20formula%20derivations.svg)   
+
+  $
+  \begin{array}{ll}
+  \frac{S_{\triangle ABD}}{S_{\triangle ACD}}= \frac{S_{\triangle BOD}}{S_{\triangle COD}}=\frac{BD}{CD} & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\text{equal altitudes,
+  h same }}\frac{S_1}{S_2}=\frac{a_1}{a_2} \\
+  \frac{S_{\triangle ABD}-S_{\triangle BOD}}{S_{\triangle ACD}-S_{\triangle COD}}=\frac{S_{\triangle AOB}}{S_{\triangle AOC}} \\
+  \end{array}
+  $  
   :::
 ---
