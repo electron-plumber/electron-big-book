@@ -491,3 +491,50 @@ __Solve area using the Swallowtail theorem (equal altitudes)__
   :::
 
 
+::: wrap
+### $\fbox{19}\:$Figure 6–17, in triangle $\small ABC$, $\small BD:DC=4:9, CE:EA=4:3$, then $\small AF:FB=\, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 27:17 &
+(\text{B}) \: 27:14 &
+(\text{C}) \: 25:16 &
+(\text{D}) \: 28:15 &
+(\text{E}) \: 27:16 & \\
+\end{array}
+$  
+:::  
+![Question triangle figure 6-17.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-17.svg)  
+#### Solution
+::: wrap  
+- Show known conditions     
+  ![Question triangle figure 6-17 solve-1.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-17%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  ① \;\, \frac{BD}{CD}=\frac{S_{\triangle AOB}}{S_{\triangle AOC}} \\
+  ② \;\, \frac{CE}{AE}=\frac{S_{\triangle BOC}}{S_{\triangle AOB}} \\
+  ③ \;\, \frac{AF}{BF}=\frac{S_{\triangle AOC}}{S_{\triangle BOC}} \\
+  \frac{BD}{CD}\times \frac{CE}{AE}\times \frac{AF}{BF}=\frac{\cancel{S_{\triangle AOB}}}{\cancel{S_{\triangle AOC}}}\times \frac{\cancel{S_{\triangle BOC}}}{\cancel{S_{\triangle AOB}}}\times \frac{\cancel{S_{\triangle AOC}}}{\cancel{S_{\triangle BOC}}}=1 \\
+  \frac{4}{9}\times \frac{4}{3}\times \frac{AF}{BF}=1 \\
+  \frac{27}{16}(\frac{16}{27})\times \frac{AF}{BF}=\frac{27}{16}(1) \\
+  \frac{AF}{BF}=\frac{27}{16} \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(E)}$  
+  > According to the Solution, get $\frac{AF}{BF}=\frac{27}{16}$, so choose $E$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \frac{S_{\triangle AOB}}{S_{\triangle AOC}}=\frac{BD}{CD} & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_12-swallowtail-theorem}{\text{Swallowtail theorem}} \\
+  \end{array}
+  >$
+
+  :::
+---
