@@ -451,7 +451,29 @@ $
   :::
 ---
 
-## 12.Focus 7
+## 12.Swallowtail theorem  
+::: wrap  
+- Figure 6–12, within triangle $ABC$, the lines $AD, AE, CF$ are concurrent at point $O$, then $S_{\triangle ABO}:S_{\triangle ACO}=BD:DC$.   
+  ![Swallowtail theorem figure 6-12.svg](../../public/math/Core%20courses/Swallowtail%20theorem%20figure%206-12.svg)   
+- This theorem provides a new method for converting an area ratio into a segment ratio,
+  because the shapes of $\triangle ABO$ and $\triangle ACO$ resemble a Swallow's tail,
+  the theorem is known as the __Swallowtail Theorem__. 
+  it is widely applied in various geometric problems;
+  its particular significance lies in the fact that it can exist within any triangle, 
+  offering a way to relate the areas of sub-triangles to the corresponding segments on the base.  
+- __Derivation process: Since $\triangle ABD$ and $\triangle ACD$ have equal altitude__.  
+  $
+  \begin{array}{ll}
+  S_{\triangle ABD}:S_{\triangle ACD} = BD:CD & \triangle ABD \text{ and } \triangle ACD \text{ have equal altitude} \\
+  S_{\triangle BOD}:S_{\triangle COD} = BD:CD & \triangle BOD \text{ and } \triangle COD \text{ have equal altitude} \\
+  S_{\triangle ABO}:S_{\triangle ACO} = BD:CD & (S_{\triangle ABD}-S_{\triangle BOD}):(S_{\triangle ACD}-S_{\triangle COD})=BD:CD \\
+  \end{array}
+  $  
+
+:::
+
+
+## 13.Focus 7
 __Solve area using the Swallowtail theorem (equal altitudes)__  
 - When a point inside a triangle is joined to each of the triangle's vertices, the __Swallowtail theorem__ can be applied for analysis.   
   ![Solve area using the Swallowtail theorem.svg](../../public/math/Core%20courses/Solve%20area%20using%20the%20Swallowtail%20theorem.svg)  
@@ -467,4 +489,5 @@ __Solve area using the Swallowtail theorem (equal altitudes)__
   \end{array}
   $  
   :::
----
+
+
