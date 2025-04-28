@@ -24,3 +24,12 @@ The three sides are equal, or the three interior angles are equal, or the four c
 
 ## 17.Isosceles triangle
 A triangle with two equal sides or two equal angles.
+
+
+## 18.Focus 8
+__Triangle identification__  
+- The main approach is 
+  to use the conditions involving the relationships between the interior angles and the three sides of a triangle, 
+  combined with the properties of triangles to determine the shape of the triangle.  
+- Focus should be placed on mastering the __characteristics of Equilateral triangles, Isosceles triangles, Right triangles, Isosceles right triangles__.  
+- When the given conditions in a problem involve the side lengths of a triangle, the key is to use identity transformations to find the relationships among $a,b,c$.  
