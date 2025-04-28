@@ -130,3 +130,94 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{22}\:$The three sides of $\small \triangle ABC$ are $\small a,b,c$. If $\small a^2+2bc=b^2+2ac=c^2+2ab=27$, then $\small \triangle ABC =\, \mathpunct{?}$. 
+$
+\begin{array}{lllll}
+(\text{A}) \: \text{Isosceles triangle} &
+(\text{B}) \: \text{Isosceles right triangle} &
+(\text{C}) \: \text{Obtuse triangle} & \\
+(\text{D}) \: \text{Right triangle} &
+(\text{E}) \: \text{Equilateral triangle} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap   
+$
+\begin{array}{ll}
+\begin{cases}
+a^2+2bc=27 \; ①\\
+b^2+2ac=27 \; ②\\
+c^2+2ab=27 \; ③\\
+\end{cases}
+ & \text{} \\
+a^2+b^2+c^2+2ab+2ac+2bc=27\times3 & \text{Add all terms together to form a perfect square} \\
+(a+b+c)^2=81 \\
+a+b+c=\sqrt{81}=9 \\
+(a^2+2bc)-(b^2+2ac)=27-27 & ①\,-② \\
+a^2-b^2+2bc-2ac=0 \\
+(a+b)(a-b)+2c(b-a)=0 \\
+(a-b)(a+b-2c)=0 \\
+a=b \lor a+b=2c & (0)(a+b-2c)=0 \lor (a-b)(0)=0 \\
+a=b
+\begin{cases}
+a+b+c=9  \\
+\boxed{
+\begin{array}{ll}
+c+2a=9 \;\\
+a^2+2ac=27 & ② \;\\
+c^2+2a^2=27 & ③ \;\\
+(c^2+2a^2)-(a^2+2ac)=27-27 & ③\,-② \;\\
+c^2-2ac+a^2=0 \;\\
+(c-a)^2=0 \;\\
+c=a & (0)^2=0 \;\\
+c+2c=9 & a=c \;\\
+3c=9 \;\\
+c=\frac{9}{3}=3 \;\\
+a=b=c=3 \;\\
+\end{array}}
+\end{cases} \\
+a+b=2c
+\begin{cases}
+a+b+c=9  \\
+\boxed{
+\begin{array}{ll}
+2c+c=9 \;\\
+3c=9 \;\\
+c=\frac{9}{3}=3 \;\\
+a+b=6 \;\\
+b^2+6a=27 &  ② \;\; c=3 \;\\
+9+2ab=27 & ③ \;\; c=3 \;\\
+ab=\frac{18}{2}=9 & ③ \;\\
+6 \ge 2\sqrt{9} & a+b \ge 2\sqrt{ab} \;\\
+6=6 \Rightarrow \boxed{a=b \land a+b=6} \Rightarrow \boxed{a=b=3} \;\\
+a=b=c=3 \;\\
+\end{array}}
+\end{cases}
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(E)}$  
+  > According to the Solution, get $a=b=c=3$, so choose $E$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \begin{cases}
+  (a+b)^2=a^2+2ab+b^2 \\
+  (a-b)^2=a^2-2ab+b^2
+  \end{cases} & \text{Perfect square formula} \\
+  a^2-b^2=(a-b)(a+b) & \text{Difference of squares formula} \\
+  a+b \ge 2\sqrt{ab} & \text{Arithmetic Mean-Geometric Mean Inequality} \\
+  \end{array}
+  >$
+
+  :::
+---
