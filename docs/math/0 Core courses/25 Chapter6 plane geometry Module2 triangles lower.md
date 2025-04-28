@@ -87,3 +87,46 @@ $
 
   :::  
 ---
+
+::: wrap
+### $\fbox{21}\:$The three sides of $\small \triangle ABC$ are $\small a,b,c$ and they satisfy $\small 4a^2+4b^2+13c^2-8ac-12bc=0$, then $\small \triangle ABC =\, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: \text{Right triangle} &
+(\text{B}) \: \text{Isosceles triangle} &
+(\text{C}) \: \text{Equilateral triangle} & \\
+(\text{D}) \: \text{Isosceles right triangle} &
+(\text{E}) \: \text{Acute triangle} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Factoring by grouping into a perfect square form, Non-negative $(x)^2 \ge 0$
+
+  $
+  \begin{array}{ll}
+  4a^2-8ac+4c^2+4b^2-12bc+9c^2=0 \\
+  4(a-c)^2+(2b-3c)^2=0 \\
+  a=c \land 2b=3c & (x)^2=0 \\
+  \end{array}
+  $   
+  ![Question triangle figure Q-21 solve-1.svg](../../public/math/Core%20courses/Question%20triangle%20figure%20Q-21%20solve-1.svg)   
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $a=c \land 2b=3c$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  (a-b)^2=a^2-2ab+b^2 & \text{Perfect square formula} \\
+  \end{array}
+  >$
+
+  :::
+---
