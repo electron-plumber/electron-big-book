@@ -12,3 +12,15 @@ lang: en-US
 
 ## 14.Right triangle
 This can be determined by the Pythagorean theorem $\boxed{a^2+b^2=c^2}$ or by an angle of $\boxed{90^\circ}$.  
+
+
+## 15.Isosceles right triangle
+A right triangle where the three sides are in the ratio $\boxed{1:1:\sqrt{2}}$ or where $\boxed{\text{two sides are equal}}$.
+
+
+## 16.Equilateral triangle
+The three sides are equal, or the three interior angles are equal, or the four centers coincide. 
+
+
+## 17.Isosceles triangle
+A triangle with two equal sides or two equal angles.
