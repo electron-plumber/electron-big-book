@@ -266,3 +266,9 @@ Similarity can be identified by __two pairs of corresponding interior angles bei
   ![Similarity of triangle applications.svg](../../public/math/Core%20courses/Similarity%20of%20triangle%20applications.svg)    
   __Remark__:
   The properties of similar triangles __can be fully extended to other similar figures__, such as __quadrilaterals__.  
+
+
+## 21.Focus 9
+__Triangle congruence__   
+- When folding, symmetry, or reflection is involved, congruent analysis should be used.  
+

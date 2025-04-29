@@ -474,7 +474,7 @@ $
 
 
 ## 13.Focus 7
-__Solve area using the Swallowtail theorem (equal altitudes)__  
+__Solve area using the Swallowtail theorem (equal altitudes).__  
 - When a point inside a triangle is joined to each of the triangle's vertices, the __Swallowtail theorem__ can be applied for analysis.   
   ![Solve area using the Swallowtail theorem.svg](../../public/math/Core%20courses/Solve%20area%20using%20the%20Swallowtail%20theorem.svg)  
 - __Formula derivations__   
