@@ -221,3 +221,20 @@ $
 
   :::
 ---
+
+## 19.Congruence of triangle
+
+### $\textcolor{#1E3A5F}{\fbox{1}}\:$Definition
+If two triangles have the __same share and size__, they're said to be congruent. 
+
+### $\textcolor{#1E3A5F}{\fbox{2}}\:$Identification
+Congruence can be identified using __side-side-side (SSS),
+side-angle-side (SAS), angle-side-angle (ASA), angle-angle-side
+(AAS)__.
+
+### $\textcolor{#1E3A5F}{\fbox{3}}\:$Properties
+If two triangles are congruent, __their corresponding sides, corresponding angles, and areas are equal__. 
+In mathematics terms, the two triangles are equivalent, having the __same side lengths, angles, and areas__.
+
+### $\textcolor{#1E3A5F}{\fbox{4}}\:$Applications
+When __folding, symmetry, or rotation__ occurs, congruence analysis can be used.
