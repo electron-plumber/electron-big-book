@@ -225,7 +225,7 @@ $
 ## 19.Congruence of triangle
 
 ### $\textcolor{#1E3A5F}{\fbox{1}}\:$Definition
-If two triangles have the __same share and size__, they're said to be congruent. 
+If two triangles have __the same shape and size__, they're said to be congruent. 
 
 ### $\textcolor{#1E3A5F}{\fbox{2}}\:$Identification
 Congruence can be identified using __side-side-side (SSS),
@@ -234,7 +234,31 @@ side-angle-side (SAS), angle-side-angle (ASA), angle-angle-side
 
 ### $\textcolor{#1E3A5F}{\fbox{3}}\:$Properties
 If two triangles are congruent, __their corresponding sides, corresponding angles, and areas are equal__. 
-In mathematics terms, the two triangles are equivalent, having the __same side lengths, angles, and areas__.
+In mathematics terms, the two triangles are equivalent, having __the same side lengths, angles, and areas__.
 
 ### $\textcolor{#1E3A5F}{\fbox{4}}\:$Applications
 When __folding, symmetry, or rotation__ occurs, congruence analysis can be used.
+
+
+## 20.Similarity of triangle
+
+### $\textcolor{#1E3A5F}{\fbox{1}}\:$Definition
+If two triangles have __the same shape and their sizes are proportional__, they're said to be similar.
+- Proportionality of 1 implies congruence.  
+
+### $\textcolor{#1E3A5F}{\fbox{2}}\:$Identification
+Similarity can be identified by __two pairs of corresponding interior angles being equal__.   
+![Similarity of triangle similarity.svg](../../public/math/Core%20courses/Similarity%20of%20triangle%20similarity.svg)   
+
+### $\textcolor{#1E3A5F}{\fbox{3}}\:$Properties
+1. In similar triangles, __the ratios of corresponding sides are equal__.  
+   - Know as the similarity ratio: $\frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k$.  
+2. In similar triangles, __the ratio of the altitudes, medians, and angle bisectors are also equal to the similarity ratio__.    
+   ![Similarity of triangle properties.svg](../../public/math/Core%20courses/Similarity%20of%20triangle%20properties.svg)     
+3. In similar triangles, __the ratio of the perimeters is equal to the similarity ratio__.  
+   - $\frac{C_1}{C_2}=k$.
+4. In similar triangles, __the ratio of the area is equal to the square of the similarity ratio__. 
+   - $\mathbf{\frac{S_1}{S_2}=k^2}$.
+
+
+### $\textcolor{#1E3A5F}{\fbox{4}}\:$Applications
