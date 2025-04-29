@@ -324,7 +324,7 @@ $
 
 ## 9.Area of special triangles  
 
-### $\textcolor{#1E3A5F}{\fbox{1}}\:$ Right triangle.  
+### $\textcolor{#1E3A5F}{\fbox{1}}\:$ Right triangle  
 - Pythagorean theorem $a^2+b^2=c^2$.      
 - Commonly used pythagorean numbers $(3,4,5)$,$(6,8,10)$,$(5,12,13)$,$(7,24,25)$,$(8,15,17)$,$(9,12,15)$.    
   - The scaled pythagorean theorem $(ka)^2+(kb)^2=(kc)^2$.  
@@ -334,7 +334,7 @@ $
 - In a triangle with angles $30^\circ,60^\circ,90^\circ$, the sides are always in the ratio $1:\sqrt{3}:2$.   
   ![In a triangle with angles 30-60-90 the sides are always in the ratio.svg](../../public/math/Core%20courses/In%20a%20triangle%20with%20angles%2030-60-90%20the%20sides%20are%20always%20in%20the%20ratio.svg)  
 
-### $\textcolor{#1E3A5F}{\fbox{2}}\:$ Equilateral triangle.
+### $\textcolor{#1E3A5F}{\fbox{2}}\:$ Equilateral triangle
 - The ratio of the height to the side of an equilateral triangle is $\sqrt{3}:2=\frac{\sqrt{3}}{2}:1$.   
   - $h=\frac{\sqrt{3}}{2}a$  
 - The area of an equilateral triangle is $S=\frac{\sqrt{3}}{4}a^2$, where $a$ is the length of the side.  
