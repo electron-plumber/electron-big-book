@@ -272,3 +272,68 @@ Similarity can be identified by __two pairs of corresponding interior angles bei
 __Triangle congruence__   
 - When folding, symmetry, or reflection is involved, congruent analysis should be used.  
 
+
+::: wrap
+### $\fbox{23}\:$Figure 6–19, in triangle $\small \triangle ABC$, $\small AD \perp BC$ at point $\small D$, $\small CE \perp AB$ at point $\small E$, $\small AD$ and $\small CE$ intersect at point $\small H$, if $\small EH=EB=3, AE=4$, then $\small CH=\, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 1 &
+(\text{B}) \: \frac{4}{3} &
+(\text{C}) \: \frac{5}{3} &
+(\text{D}) \: \sqrt{3} &
+(\text{E}) \: 2 & \\
+\end{array}
+$  
+:::  
+![Question triangle figure 6-19.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-19.svg)   
+#### Solution
+::: wrap  
+- Find __the equal side and the equal angle (Acute angle)__ in two congruent right triangles   
+  ![Question triangle figure 6-19 solve-1.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-19%20solve-1.svg)    
+
+  $
+  \begin{array}{ll}
+  \text{Equal angle (Acute angle)}
+  \begin{cases}
+  \boxed{
+  \begin{array}{ll}
+  \angle 1 +\angle 2 = 90^\circ \\
+  \angle 3 +\angle 4 = 90^\circ \\
+  \angle 2 = \angle 3 & \text{Vertical angles are equal} \;\\
+  \end{array}}
+  \end{cases} \implies \angle 1 = \angle 4 \\
+  \text{Equal side}
+  \begin{cases}
+  \boxed{
+  \begin{array}{ll}
+  EH=EB
+  \end{array}}
+  \end{cases} \implies \triangle AEH \cong \triangle CEB \\
+  AE=CE=4 \\
+  CH=CE-EH=4-3=1 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(A)}$  
+  > According to the Solution, get $CH=CE-EH=1$, so choose $A$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \text{Right triangle congruence}
+  \begin{cases}
+  \text{Find a side and an angle (Acute angle)} \\
+  \text{Find their two sides
+  > (No need
+  > to find the third side because the } \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Pythagorean theorem}} \text{ is satisfied}) \\
+  \end{cases} & \text{} \\
+  \end{array}
+  >$
+
+  :::
+---
