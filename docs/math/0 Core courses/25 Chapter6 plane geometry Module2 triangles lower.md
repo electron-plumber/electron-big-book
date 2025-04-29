@@ -337,3 +337,44 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{24}\:$Figure 6–20, in a right triangle $\small ABC$, the hypotenuse $\small AB=13$ and the leg $\small AC=5$, the leg $\small AC$ is folded onto the hypotenuse $\small AB$ so that it coincides with the hypotenuse, and point $\small C$ coincides with point $\small E$, the fold is $\small AD$, what is the area of the shaded region in the figure $\small \, \mathpunct{?}$.  
+$
+\begin{array}{lllll}
+(\text{A}) \: 20 &
+(\text{B}) \: \frac{40}{3} &
+(\text{C}) \: \frac{38}{3} &
+(\text{D}) \: 14 &
+(\text{E}) \: 12 & \\
+\end{array}
+$  
+:::  
+![Question triangle figure 6-20.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-20.svg)  
+#### Solution
+::: wrap  
+- solve  
+
+  $
+  \begin{array}{ll}
+   & \text{} \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{()}$  
+  > According to the Solution, get $ $, so choose $ $. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+   & \text{} \\
+  \end{array}
+  >$
+
+  :::
+---
