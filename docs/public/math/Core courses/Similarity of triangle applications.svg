@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="512" height="246" viewBox="0 0 3041 1395" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <path d="M1510.51,1208.29l-682.778,-1202.04" style="fill:none;stroke:#0dcaf2;stroke-width:12.5px;"/>
+  <path d="M3034.57,1208.29l-930.251,-1202.04" style="fill:none;stroke:#0dcaf2;stroke-width:12.5px;"/>
+  <path d="M827.735,6.25l-821.485,1192.24" style="fill:none;stroke:#0dcaf2;stroke-width:12.5px;"/>
+  <path d="M2864.62,6.25l-958.454,1192.24" style="fill:none;stroke:#0dcaf2;stroke-width:12.5px;"/>
+  <path d="M1500.74,1208.29l-1494.49,-9.793" style="fill:none;stroke:#0dcaf2;stroke-width:12.5px;"/>
+  <path d="M3034.57,1208.29l-1128.41,-9.503" style="fill:none;stroke:#0dcaf2;stroke-width:12.5px;"/>
+  <path d="M2864.62,6.25l-760.298,0" style="fill:none;stroke:#0dcaf2;stroke-width:12.5px;"/>
+  <clipPath id="_clip1">
+        <path d="M417.034,613.518c-3.45,0.023 -6.269,-2.759 -6.291,-6.209c-0.023,-3.449 2.759,-6.268 6.208,-6.291l740.516,-4.897c3.449,-0.022 6.268,2.76 6.291,6.209c0.023,3.449 -2.759,6.268 -6.208,6.291l-740.516,4.897Z"/>
+    </clipPath>
+  <g clip-path="url(#_clip1)">
+        <use xlink:href="#_Image2" x="410.742" y="596.121" width="754px" height="18px"/>
+    </g>
+  <clipPath id="_clip3">
+        <path d="M315.001,-687.573c-3.449,-0 -6.25,-2.801 -6.25,-6.25c0,-3.45 2.801,-6.25 6.25,-6.25l1517.99,-0c3.449,-0 6.25,2.8 6.25,6.25c-0,3.449 -2.801,6.25 -6.25,6.25l-1517.99,-0Z"/>
+    </clipPath>
+  <g clip-path="url(#_clip3)">
+    </g>
+  <clipPath id="_clip4">
+        <path d="M2185.21,-687.573c-3.45,-0 -6.25,-2.801 -6.25,-6.25c-0,-3.45 2.8,-6.25 6.25,-6.25l1517.99,-0c3.449,-0 6.25,2.8 6.25,6.25c-0,3.449 -2.801,6.25 -6.25,6.25l-1517.99,-0Z"/>
+    </clipPath>
+  <g clip-path="url(#_clip4)">
+    </g>
+  <g transform="matrix(83.3333,0,0,83.3333,1090.61,1376.51)">
+    </g>
+  <text x="447.01px" y="1376.51px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:83.333px;fill:#1e3a5f;">pyramid similarity</text>
+  <g transform="matrix(83.3333,0,0,83.3333,2822.26,1376.51)">
+    </g>
+  <text x="2113.72px" y="1376.51px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:83.333px;fill:#1e3a5f;">hourglass similarity</text>
+  <defs>
+        <image id="_Image2" width="754px" height="18px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAvIAAAASCAYAAAA5QDrnAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACO0lEQVR4nO3dTUtUYRiH8WvOEYsiv0HUKmhtX6LPELQKCsJt2wINMpDsxbIw6QWKoBAEITKQoDdNgrJV+ZJZEWULJ3XGmpnTYkJQ58ycGWfcdP3gLM59n+fhXv55Fs9JRVEUAdye/8PxmSy1aN0ZMrx/B03BgZrWS5IkSfonDOHuDdi7p2S7hTwAAcDsSoETsytV7Z8mLD7ZHCMHDxniJUmSpHrI56G7J7adJgQgKADHZrIsFaKyH69/Vl28Ap/m6jW2JEmSpOcv4cVobDtNSNDz7TfPfuXXFGND+3qjr+D+QD1HliRJkgRwvqd4Oh8jaJtaThba11tchPYzEMWf5EuSJEmq0fRHGBiMbQc0N9e28dlz8P1HbWslSZIkVXa1v3iAXkJQ04aPR+Dh8GZGkiRJklTJwgJcv1myVX2Qn/8JnV2bHUmSJElSEvcewNznDeXqg3xHJyyk6zGSJEmSpEpyObhweUO5uiA/MFi8CkeSJEnS1nnyFMZfryklD/Jfvpa9mF6SJElSA3VfWnNjZLIgH0VwsgMymUaNJUmSJKmc95MwOLT6mizI37oDb981aiRJkiRJSfT2wfIykCTIf5iCa/2NHkmSJElSJfOP6NrXQgt5UtHYUvyvWXM5OHwEJqe3cDpJkiRJROMly9kCtE4s0VR2cW+fIV6SJElqtJjQXsr2ANp3byO1aywdpQk3fvFmAo62QaFQxwklSZKk/1wVoT12C4g5kc9k4NRpQ7wkSZK0GXUI7aWkgL/3CKmw6YdupwAAAABJRU5ErkJggg=="/>
+    </defs>
+</svg>

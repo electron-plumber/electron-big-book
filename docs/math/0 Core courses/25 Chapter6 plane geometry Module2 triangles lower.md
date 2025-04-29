@@ -248,7 +248,7 @@ If two triangles have __the same shape and their sizes are proportional__, they'
 
 ### $\textcolor{#1E3A5F}{\fbox{2}}\:$Identification
 Similarity can be identified by __two pairs of corresponding interior angles being equal__.   
-![Similarity of triangle similarity.svg](../../public/math/Core%20courses/Similarity%20of%20triangle%20similarity.svg)   
+![Similarity of triangle identification.svg](../../public/math/Core%20courses/Similarity%20of%20triangle%20identification.svg)    
 
 ### $\textcolor{#1E3A5F}{\fbox{3}}\:$Properties
 1. In similar triangles, __the ratios of corresponding sides are equal__.  
@@ -262,3 +262,7 @@ Similarity can be identified by __two pairs of corresponding interior angles bei
 
 
 ### $\textcolor{#1E3A5F}{\fbox{4}}\:$Applications
+- __When parallel lines appear, similarity should be used for analysis__.  
+  ![Similarity of triangle applications.svg](../../public/math/Core%20courses/Similarity%20of%20triangle%20applications.svg)    
+  __Remark__:
+  The properties of similar triangles __can be fully extended to other similar figures__, such as __quadrilaterals__.  
