@@ -351,28 +351,63 @@ $
 $  
 :::  
 ![Question triangle figure 6-20.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-20.svg)  
-#### Solution
+#### Solution  
 ::: wrap  
-- solve  
+- Show known conditions  
+  ![Question triangle figure 6-20 solve-1.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-20%20solve-1.svg)    
 
   $
   \begin{array}{ll}
-   & \text{} \\
+  BC=12 & \text{5,12,13} \\ 
+  \triangle ACD \cong \triangle AED \\  
+  AE=AC=5 \\
+  BE=13-5=8 \\ 
+  \end{array}
+  $   
+:::  
+::: wrap
+- $\textcolor{#228B22}{\fbox{1}}\:$solve for the $ED$ length of the shadow  
+
+  $
+  \begin{array}{ll}
+  \triangle BDE \sim \triangle BAC \\
+  \frac{DE}{AC}=\frac{BE}{BC} \Rightarrow \frac{DE}{5}=\frac{8}{12} \\
+  DE \times 12 = 8 \times 5 \\
+  DE \times 12 = 40 \\ 
+  DE=\frac{40}{12}=\frac{10}{3} \\
+  S_{\triangle BDE}=\frac{1}{2} \times \frac{10}{3} \times 8 = \frac{80}{6} = \frac{40}{3} \\
+  \end{array}
+  $  
+:::  
+::: wrap  
+- $\textcolor{#228B22}{\fbox{2}}\:$solve using the area ratio equal to the similarity ratio squared
+
+  $
+  \begin{array}{ll}
+  \frac{S_{\triangle BDE}}{S_{\triangle BAC}}=(\frac{8}{12})^2=(\frac{2}{3})^2=\frac{4}{9} \\
+  S_{\triangle BAC}=\frac{1}{2} \times 5 \times 12 = 30 \\
+  \frac{S_{\triangle BDE}}{30}=\frac{4}{9} \\
+  S_{\triangle BDE} \times 9 = 30 \times 4 \\
+  S_{\triangle BDE} \times 9 = 120 \\
+  S_{\triangle BDE} = \frac{120}{9} = \frac{40}{3} \\
   \end{array}
   $  
 :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{()}$  
-  > According to the Solution, get $ $, so choose $ $. 
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $S_{\triangle BDE}=\frac{40}{3}$, so choose $B$. 
 
   :::
 - Formula used  
   ::: wrap
   >$
   \begin{array}{ll}
-   & \text{} \\
+  (5,12,13)& \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Commonly used pythagorean numbers}} \\
+  \frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k & \href{/math/0%20Core%20courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Similar triangle properties}} \\
+  S=\frac{1}{2}ah & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\text{Triangle area formula}} \\
+  \frac{S_1}{S_2}=k^2 & \href{/math/0%20Core%20courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Similar triangle properties}} \\
   \end{array}
   >$
 
