@@ -475,3 +475,50 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{26}\:$Figure 6–21, in $\small \triangle ABC, DE, FG, BC$ are parallel to each other, $\small AD=DF=FB$, then $S_{\triangle ADE}:S_{\text{quadrilateral}\:DEGF}:S_{\text{quadrilateral}\:FGCB}=\,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 1:3:5 &
+(\text{B}) \: 1:2:5 &
+(\text{C}) \: 1:3:4 &
+(\text{D}) \: 1:3:6 &
+(\text{E}) \: 2:3:5 & \\
+\end{array}
+$  
+:::   
+![Question triangle figure 6-21.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-21.svg)   
+#### Solution
+::: wrap  
+- Show known conditions  
+  ![Question triangle figure 6-21 solve-1.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-21%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  \triangle ADE \sim \triangle AFG \sim \triangle ABC \\
+  S_{\triangle ADE}:S_{\triangle AFG}:S_{\triangle ABC}=AD^2:AF^2:AB^2 \\
+  S_{\triangle ADE}:S_{\triangle AFG}:S_{\triangle ABC}=1^2:2^2:3^2=1:4:9 \\
+  S_{\triangle ADE}:S_{\text{quadrilateral}\:DEGF}:S_{\text{quadrilateral}\:FGCB}=1:(4-1):(9-4) \\
+  S_{\triangle ADE}:S_{\text{quadrilateral}\:DEGF}:S_{\text{quadrilateral}\:FGCB}=1:3:5 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(A)}$  
+  > According to the Solution, get $S_{\triangle ADE}:S_{\text{quadrilateral}\:DEGF}:S_{\text{quadrilateral}\:FGCB}=1:3:5$, so choose $A$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \href{/math/0%20Core%20courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#definition-1}{\text{Similar triangle definition}} \\
+  \frac{S_1}{S_2}=k^2 & \href{/math/0%20Core%20courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Similar triangle properties}} \\
+  \end{array}
+  >$
+
+  :::
+---
