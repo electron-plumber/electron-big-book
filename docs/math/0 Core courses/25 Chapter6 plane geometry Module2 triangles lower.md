@@ -406,8 +406,70 @@ $
   \begin{array}{ll}
   (5,12,13)& \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Commonly used pythagorean numbers}} \\
   \frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k & \href{/math/0%20Core%20courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Similar triangle properties}} \\
-  S=\frac{1}{2}ah & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\text{Triangle area formula}} \\
   \frac{S_1}{S_2}=k^2 & \href{/math/0%20Core%20courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Similar triangle properties}} \\
+  S=\frac{1}{2}ah & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\text{Triangle area formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+## 22.Focus 10
+__Triangle similarity__  
+- When parallelism occurs, similarity analysis is used.
+  For the similar figure, the area ratio is equal to the square of a similarity ratio.  
+- Congruent shapes look at sides.   
+- Similar shapes look at angles.  
+
+
+::: wrap
+### $\fbox{25}\:$There are $\small \, \mathpunct{?}$ correct options below.
+$
+\begin{array}{lllll}
+(\text{1}) \: \text{All right triangles are similar} &
+(\text{2}) \: \text{All isosceles triangles are similar} & \\
+(\text{3}) \: \text{All parallelograms are similar} &
+(\text{4}) \: \text{All equilateral triangles are similar} & \\
+(\text{5}) \: \text{All trapezoids are similar} & 
+(\text{6}) \: \text{All squares are similar} & \\
+(\text{7}) \: \text{All rectangles are similar} &   
+(\text{8}) \: \text{All circles are similar} & \\
+(\text{A}) \: 1 &
+(\text{B}) \: 2 & \\
+(\text{C}) \: 3 &  
+(\text{D}) \: 4 & \\
+(\text{E}) \: 5 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+(\text{1}) \: \text{All right triangles are similar} & \triangle30^\circ60^\circ90^\circ \neq \triangle45^\circ45^\circ90^\circ \,\text{Two pairs of corresponding interior angles are not equal} \,❌\;\\
+(\text{2}) \: \text{All isosceles triangles are similar} & \text{Two pairs of corresponding interior angles are not equal} \,❌\;\\
+(\text{3}) \: \text{All parallelograms are similar} & \text{Four pairs of corresponding interior angles are not equal} \,❌\;\\
+(\text{4}) \: \text{All equilateral triangles are similar} & \triangle60^\circ60^\circ60^\circ = \triangle60^\circ60^\circ60^\circ \,\text{Two pairs of corresponding interior angles are equal} \,✅\;\\
+(\text{5}) \: \text{All trapezoids are similar} & \text{The corresponding interior angles are not equal and the corresponding sides are not proportional} \,❌\;\\
+(\text{6}) \: \text{All squares are similar} & \text{Four pairs of corresponding interior angles }90^\circ\text{ are equal} \,✅\;\\
+(\text{7}) \: \text{All rectangles are similar} & \text{The corresponding sides are not proportional} \,❌\;\\
+(\text{8}) \: \text{All circles are similar} & \text{The circles are similar because they have the same shape, just different sizes} \,✅\;\\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(C)}$  
+  > According to the Solution, get $(\text{4}),(\text{6}),(\text{8})$, so choose $C$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \href{/math/0%20Core%20courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#identification-1}{\text{Similar triangle identification}} \\
+  \frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k & \href{/math/0%20Core%20courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Similar triangle properties}} \\
   \end{array}
   >$
 
