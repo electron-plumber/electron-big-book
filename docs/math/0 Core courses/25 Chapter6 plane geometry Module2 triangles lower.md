@@ -522,3 +522,53 @@ $
 
   :::
 ---
+::: wrap
+### $\fbox{27}\:$Figure 6–22, in $\small \triangle ABC, D, E, F$ are points on $\small AB, AC, BC$ respectively, and $\small DE \parallel BC, EF \parallel AB, AD:DB=2:3, BC=20$, then $\small CF=\, \mathpunct{?}$. 
+$
+\begin{array}{lllll}
+(\text{A}) \: 15 &
+(\text{B}) \: \frac{40}{3} &
+(\text{C}) \: \frac{38}{3} &
+(\text{D}) \: 14 &
+(\text{E}) \: 12 & \\
+\end{array}
+$  
+:::  
+![Question triangle figure 6-22.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-22.svg)  
+#### Solution
+::: wrap  
+- show known conditions  
+  ![Question triangle figure 6-22 solve-1.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-22%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  DEFB \text{ is a parallelogram} \\
+  \triangle ADE \sim \triangle ABC \\
+  \frac{DE}{BC}=\frac{AD}{AB} \\
+  \frac{DE}{20}=\frac{2}{5} \\
+  DE \times 5 = 2 \times 20 \\
+  DE \times 5 = 40 \\
+  DE=\frac{40}{5}=8 \\
+  BF=DE=8 \\
+  CF=BC-BF=20-8=12 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(E)}$  
+  > According to the Solution, get $CF=12$, so choose $E$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k & \href{/math/0%20Core%20courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Similar triangle properties}} \\
+  \href{/math/0%20Core%20courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#applications-1}{\text{Similar triangle applications}} \\
+  \end{array}
+  >$
+
+  :::
+---
