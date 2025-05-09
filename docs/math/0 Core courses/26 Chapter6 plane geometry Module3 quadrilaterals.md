@@ -31,3 +31,9 @@ where $l_1,l_2$ are the lengths of the diagonals respective, and the perimeter i
 
 $S=\frac{1}{2}\times\frac{l_1}{2}\times\frac{l_2}{2}\times4=\frac{l_1 \cdot l_2}{2}$
 
+## 4.Square
+The length of the four sides of a square is $a$,
+the four internal angles are $90^\circ$, the area is $S=a^2$, and the perimeter is $C=4a$.   
+![The length of the four sides of a square.svg](../../public/math/Core%20courses/The%20length%20of%20the%20four%20sides%20of%20a%20square.svg)   
+
+
