@@ -36,4 +36,10 @@ The length of the four sides of a square is $a$,
 the four internal angles are $90^\circ$, the area is $S=a^2$, and the perimeter is $C=4a$.   
 ![The length of the four sides of a square.svg](../../public/math/Core%20courses/The%20length%20of%20the%20four%20sides%20of%20a%20square.svg)   
 
+## 5.Trapezoid
+- The upper base of the trapezoid is $a$, the lower base is $b$, the height is $h$,
+the median is $l=\frac{1}{2}(a+b)$, and the area is $S=\frac{1}{2}(a+b)h$.   
+  ![Trapezoid with base height median.svg](../../public/math/Core%20courses/Trapezoid%20with%20base%20height%20median.svg)   
 
+- Note: There are two special types of trapezoids — the isosceles trapezoid and the right trapezoid.   
+  ![There are two special types of trapezoids.svg](../../public/math/Core%20courses/There%20are%20two%20special%20types%20of%20trapezoids.svg)   
