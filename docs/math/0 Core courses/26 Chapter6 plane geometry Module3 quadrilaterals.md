@@ -21,3 +21,13 @@ the height with $b$ as the base is $h$, the area is $S=bh$, and the perimeter is
 ## 2.Rectangle
 The lengths of the two sides of the rectangle are $a,b$, the area is $S=ab$, the perimeter is $C=2(a+b)$, and the diagonal is $l=\sqrt{a^2+b^2}$.  
 ![The lengths of the two sides of the rectangle.svg](../../public/math/Core%20courses/The%20lengths%20of%20the%20two%20sides%20of%20the%20rectangle.svg)   
+
+
+## 3.Rhombus
+The length of the four sides of rhombus is $a$,
+the height with $a$ as the base is $h$, the area is $S=ah=\frac{1}{2}l_1l_2$,
+where $l_1,l_2$ are the lengths of the diagonals respective, and the perimeter is $C=4a$.   
+![The length of the four sides of rhombus.svg](../../public/math/Core%20courses/The%20length%20of%20the%20four%20sides%20of%20rhombus.svg)   
+
+$S=\frac{1}{2}\times\frac{l_1}{2}\times\frac{l_2}{2}\times4=\frac{l_1 \cdot l_2}{2}$
+
