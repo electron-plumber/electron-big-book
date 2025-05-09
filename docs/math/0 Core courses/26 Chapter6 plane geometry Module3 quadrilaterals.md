@@ -43,3 +43,27 @@ the median is $l=\frac{1}{2}(a+b)$, and the area is $S=\frac{1}{2}(a+b)h$.
 
 - Note: There are two special types of trapezoids — the isosceles trapezoid and the right trapezoid.   
   ![There are two special types of trapezoids.svg](../../public/math/Core%20courses/There%20are%20two%20special%20types%20of%20trapezoids.svg)   
+
+## 6.Butterfly Theorem
+The butterfly theorem provides us with a way
+to solve the area problem of irregular quadrilaterals by constructing a model;
+on the one hand, 
+the area relationship of the irregular quadrilateral can be linked to the triangles inside the quadrilateral,
+on the other hand, 
+the proportional relationship of the diagonal corresponding to the area can also be obtained.
+
+
+### $\textcolor{#1E3A5F}{\fbox{1}}\:$Proportional relations in any quadrilateral (Figure 6–23)  
+1. $\frac{S_1}{S_2}=\frac{S_4}{S_3}=\frac{OD}{OB}$   
+   According to the ratio of areas of triangles with equal heights being equal to the ratio of their bases,
+   we have $S_1 \times S_3=S_2 \times S_4$.   
+2. According to the geometric theorem $\frac{S_1}{S_2}=\frac{S_4}{S_3}=\frac{OD}{OB}=\frac{S_1+S_4}{S_2+S_3}$.         
+   Similarly, $\frac{S_1+S_2}{S_4+S_3}=\frac{AO}{OC}$.   
+
+### $\textcolor{#1E3A5F}{\fbox{2}}\:$The Butterfly theorem of Trapezoid and similar proportions (Figure 6–24)
+1. $\frac{S_1}{S_2}=\frac{S_4}{S_3}=\frac{OD}{OB}=\frac{a}{b}$. 
+2. $S_1 \times S_3=S_2 \times S_4$.
+3. $\frac{S_1}{S_3}=\frac{S_2}{S_2}$ (Similar).
+4. $S_2+S_3=S_4+S_3 \implies S_2=S_4$.
+
+- By combining the above four, the unified proportion is obtained: $S_1:S_3:S_2:S_4=a^2:b^2:ab:ab$.
