@@ -46,24 +46,62 @@ the median is $l=\frac{1}{2}(a+b)$, and the area is $S=\frac{1}{2}(a+b)h$.
 
 ## 6.Butterfly Theorem
 The butterfly theorem provides us with a way
-to solve the area problem of irregular quadrilaterals by constructing a model;
+to __solve the area problem of irregular quadrilaterals by constructing a model__;
 on the one hand, 
-the area relationship of the irregular quadrilateral can be linked to the triangles inside the quadrilateral,
+the area relationship of the irregular quadrilateral can be linked to __the triangles inside the quadrilateral__,
 on the other hand, 
 the proportional relationship of the diagonal corresponding to the area can also be obtained.
 
 
-### $\textcolor{#1E3A5F}{\fbox{1}}\:$Proportional relations in any quadrilateral (Figure 6–23)  
+### $\textcolor{#1E3A5F}{\fbox{1}}\:$Proportional relations in any quadrilateral (Figure 6–23)   
+![Butterfly theorem figure 6–23.svg](../../public/math/Core%20courses/Butterfly%20theorem%20figure%206%E2%80%9323.svg)   
+::: wrap   
 1. $\frac{S_1}{S_2}=\frac{S_4}{S_3}=\frac{OD}{OB}$   
    According to the ratio of areas of triangles with equal heights being equal to the ratio of their bases,
-   we have $S_1 \times S_3=S_2 \times S_4$.   
-2. According to the geometric theorem $\frac{S_1}{S_2}=\frac{S_4}{S_3}=\frac{OD}{OB}=\frac{S_1+S_4}{S_2+S_3}$.         
+   we have $S_1 \times S_3=S_2 \times S_4$ (__Top$\times$Bottom=Left$\times$Right__).   
+   ![Butterfly theorem figure 6–23 solve-1.svg](../../public/math/Core%20courses/Butterfly%20theorem%20figure%206%E2%80%9323%20solve-1.svg)   
+   
+   $\frac{S_1}{S_2}=\frac{OD}{OB}=\frac{S_4}{S_ 3} \quad \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\text{Equal height} \Rightarrow \text{area ratio}=\text{base ratio}}$       
+:::   
+::: wrap  
+2. According to the __basic proportionality theorem__ $\frac{S_1}{S_2}=\frac{S_4}{S_3}=\frac{OD}{OB}=\frac{S_1+S_4}{S_2+S_3}$.         
    Similarly, $\frac{S_1+S_2}{S_4+S_3}=\frac{AO}{OC}$.   
+   ![Butterfly theorem figure 6–23 solve-2.svg](../../public/math/Core%20courses/Butterfly%20theorem%20figure%206%E2%80%9323%20solve-2.svg)     
+:::  
 
-### $\textcolor{#1E3A5F}{\fbox{2}}\:$The Butterfly theorem of Trapezoid and similar proportions (Figure 6–24)
-1. $\frac{S_1}{S_2}=\frac{S_4}{S_3}=\frac{OD}{OB}=\frac{a}{b}$. 
-2. $S_1 \times S_3=S_2 \times S_4$.
-3. $\frac{S_1}{S_3}=\frac{S_2}{S_2}$ (Similar).
-4. $S_2+S_3=S_4+S_3 \implies S_2=S_4$.
+### $\textcolor{#1E3A5F}{\fbox{2}}\:$The Butterfly theorem of Trapezoid and similar proportions (Figure 6–24)   
+![Butterfly theorem figure 6–24.svg](../../public/math/Core%20courses/Butterfly%20theorem%20figure%206%E2%80%9324.svg)  
+::: wrap  
+1. $\overbrace{\frac{S_1}{S_2}=\frac{S_4}{S_3}=\frac{OD}{OB}}^{\text{any quadrilateral general}} = \frac{a}{b}$.    
+   ![Butterfly theorem figure 6–24 solve-1.svg](../../public/math/Core%20courses/Butterfly%20theorem%20figure%206%E2%80%9324%20solve-1.svg)    
+   $\frac{a}{b}=\frac{OD}{OB}=\frac{OA}{OC}$   
+:::   
+::: wrap
+2. $\overbrace{S_1 \times S_3=S_2 \times S_4}^{\text{any quadrilateral general}}$.    
+:::      
+::: wrap   
+3. $\frac{S_1}{S_3}=\frac{a_2}{b_2}$ (Similar).   
+:::   
+::: wrap
+4. $S_2+S_3=S_4+S_3 \implies S_2=S_4.$    
+   ![Butterfly theorem figure 6–24 solve-2.svg](../../public/math/Core%20courses/Butterfly%20theorem%20figure%206%E2%80%9324%20solve-2.svg)    
+   $S=\frac{1}{2}ah \quad \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\text{Equal base and height} \Rightarrow \text{same area}}$     
+:::   
+- By combining the above four, the unified proportion is obtained: $S_1:S_3:S_2:S_4=a^2:b^2:ab:ab.$    
+  ![Butterfly theorem figure 6–24 solve-3.svg](../../public/math/Core%20courses/Butterfly%20theorem%20figure%206%E2%80%9324%20solve-3.svg)    
 
-- By combining the above four, the unified proportion is obtained: $S_1:S_3:S_2:S_4=a^2:b^2:ab:ab$.
+  ##### Formula derivations
+  ::: wrap  
+  $\mathbf{S_1:S_3:S_2:S_4=a^2:b^2:ab:ab}$
+   
+  $
+  \begin{array}{ll}
+  \frac{S_1}{S_3}=\frac{a_2}{b_2} \\
+  \frac{S_1}{S_2}=\frac{a}{b} \\
+  \frac{S_1}{S_2}=\frac{a}{b}\times\frac{a}{a}=\frac{a^2}{ab} & S_1=a^2 \\
+  S_1:S_3:S_2:S_4=a^2:b^2:ab:ab \\
+  \end{array}
+  $  
+  :::
+  ---
+  

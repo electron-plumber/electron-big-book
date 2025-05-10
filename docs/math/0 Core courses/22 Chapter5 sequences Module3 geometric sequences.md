@@ -3,13 +3,6 @@ title: Chapter5 sequences Module3 geometric sequences
 lang: en-US
 ---
 
-| Platforms   | Courses                                                                                      | Coursewares                                                       |
-|-------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| YouTube     | [Watch](https://www.youtube.com/watch?v=8Bum9KaQM4o&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s) | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
-| Dailymotion | [Watch](https://www.dailymotion.com/video/x9gncjm?playlist=x9h6d2)                           |                                                                   |
-| Rumble      | [Watch](https://rumble.com/v6s95cd-22-chapter5-sequences-module3-geometric-sequences.html)   |                                                                   |
-
-
 # Module 5-03 Geometric sequence
 
 ## 1.Definition  
@@ -302,7 +295,7 @@ $
   \end{array}
   $  
 :::
-#### ConclusionS
+#### Conclusion
 
 - Derived Solution  
   ::: wrap
@@ -932,3 +925,9 @@ $
 
   :::
 ---
+
+| Platforms   | Courses                                                                                      | Coursewares                                                       |
+|-------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| YouTube     | [Watch](https://www.youtube.com/watch?v=8Bum9KaQM4o&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s) | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
+| Dailymotion | [Watch](https://www.dailymotion.com/video/x9gncjm?playlist=x9h6d2)                           |                                                                   |
+| Rumble      | [Watch](https://rumble.com/v6s95cd-22-chapter5-sequences-module3-geometric-sequences.html)   |                                                                   |
