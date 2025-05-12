@@ -105,3 +105,7 @@ the proportional relationship of the diagonal corresponding to the area can also
   :::
   ---
   
+## 7.Focus 1
+__Square__  
+- The length of the four sides is $a$, __the four interior angles are $90^\circ$, the area is $S=a^2$, and the perimeter is $C=4a$__.  
+
