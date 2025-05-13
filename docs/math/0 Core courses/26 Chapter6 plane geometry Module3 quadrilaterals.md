@@ -236,19 +236,23 @@ $
 ![Question quadrilateral figure 6-26.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-26.svg)    
 #### Solution
 ::: wrap  
-- Show  
+- Show known conditions  
+  ![Question quadrilateral figure 6-26 solve-1.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-26%20solve-1.svg)  
 
   $
   \begin{array}{ll}
-   & \text{} \\
+  DG=x \Rightarrow HE=x \Rightarrow DH=7-x \\
+  x^2+(7-x)^2=5^2 \\
+  (3,4,5) \Rightarrow x=4 \\
+  GE=\sqrt{4^2+7^2}=\sqrt{65} \\
   \end{array}
   $  
 :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{()}$  
-  > According to the Solution, get $ $, so choose $ $. 
+  > $\mathbf{(E)}$  
+  > According to the Solution, get $GE=\sqrt{65}$, so choose $E$. 
 
   :::
 - Formula used  
@@ -256,6 +260,7 @@ $
   >$
   \begin{array}{ll}
   c^2=a^2+b^2 \Rightarrow c=\sqrt{a^2+b^2} & \text{Pythagorean theorem} \\
+  (3,4,5) & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Commonly used pythagorean numbers}} \\
   \end{array}
   >$
 
