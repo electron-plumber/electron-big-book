@@ -205,7 +205,7 @@ $
 :::
 #### Solution
 ::: wrap  
-- $\mathbf{2, 2^x-1, 2^x+3}$ form a geometric sequence; it means $\mathbf{a+c=b^2}$.
+- $\mathbf{2, 2^x-1, 2^x+3}$ form a geometric sequence; it means $\mathbf{a+c=b^2}$
 
   $
   \begin{array}{ll}
@@ -281,7 +281,7 @@ $
 :::
 #### Solution
 ::: wrap
-- Currently, know the Expressions can use characterization analysis $a_n=\text{Constant} \times \text{Exponent}$.
+- Currently, know the Expressions can use characterization analysis $a_n=\text{Constant} \times \text{Exponent}$
 
   $
   \begin{array}{ll}
@@ -347,7 +347,7 @@ $
 :::
 #### Solution
 ::: wrap  
-- Currently, don't know the Expressions, can use Geometric sequence definition analysis $\frac{a_n+1}{a_n}=q$.  
+- Currently, don't know the Expressions, can use Geometric sequence definition analysis $\frac{a_n+1}{a_n}=q$  
 
   $
   \begin{array}{ll}
@@ -401,7 +401,7 @@ $
 :::
 #### Solution
 ::: wrap  
-- According to the characteristics of Vieta's formulas, rearrange the equation.  
+- According to the characteristics of Vieta's formulas, rearrange the equation  
 
   $
   \begin{array}{ll}
@@ -558,7 +558,7 @@ $
 :::
 #### Solution
 ::: wrap  
-- Currently, know the Expressions can use characterization analysis.  
+- Currently, know the Expressions can use characterization analysis  
 
   $
   S_n=
@@ -873,7 +873,7 @@ $
 :::
 #### Solution
 ::: wrap  
-- $\fbox{1}\:$All indexs in $S_{\text{index}}$ are even numbers.  
+- $\fbox{1}\:$All indexs in $S_{\text{index}}$ are even numbers  
 
   $
   \begin{array}{ll}
@@ -887,7 +887,7 @@ $
   $   
 :::  
 ::: wrap  
-- $\fbox{2}\:$All indexs in $S_{\text{index}}$ aren't even numbers.   
+- $\fbox{2}\:$All indexs in $S_{\text{index}}$ aren't even numbers   
 
   $
   \begin{array}{ll}

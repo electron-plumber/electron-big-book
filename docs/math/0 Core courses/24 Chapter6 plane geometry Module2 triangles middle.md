@@ -81,7 +81,7 @@ $
   $  
 :::   
 ::: wrap  
-- $\textcolor{#228B22}{\fbox{1}}\:$solve according to the position of point D  
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve according to the position of point D  
 
   $
   \begin{array}{ll}
@@ -93,7 +93,7 @@ $
   $  
 :::  
 ::: wrap
-- $\textcolor{#228B22}{\fbox{2}}\:$solve according to the position of point E  
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve according to the position of point E  
 
   $
   \begin{array}{ll}
@@ -141,7 +141,7 @@ $
 ![Question triangle figure 6-14.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-14.svg)  
 #### Solution
 ::: wrap  
-- show known conditions and assume that the unknown variable in the overall area     
+- Show known conditions and assume that the unknown variable in the overall area     
   ![Question triangle figure 6-14 solve-1.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-14%20solve-1.svg)  
 
   $

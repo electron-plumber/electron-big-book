@@ -359,7 +359,7 @@ $
   $   
 :::  
 ::: wrap
-- $\textcolor{#228B22}{\fbox{1}}\:$solve for the $ED$ length of the shadow  
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve for the $ED$ length of the shadow  
 
   $
   \begin{array}{ll}
@@ -373,7 +373,7 @@ $
   $  
 :::  
 ::: wrap  
-- $\textcolor{#228B22}{\fbox{2}}\:$solve using the area ratio equal to the similarity ratio squared
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve using the area ratio equal to the similarity ratio squared
 
   $
   \begin{array}{ll}

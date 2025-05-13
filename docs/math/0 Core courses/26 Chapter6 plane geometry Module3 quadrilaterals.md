@@ -126,7 +126,7 @@ $
 ![Question quadrilateral figure 6-25.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-25.svg)  
 #### Solution
 ::: wrap   
-- $\textcolor{#228B22}{\fbox{1}}\:$show known conditions $EG$ diagonal is the diameter of the circle     
+- $\textcolor{#228B22}{\fbox{1}}\:$Show known conditions $EG$ diagonal is the diameter of the circle     
   ![Question quadrilateral figure 6-25 solve-1.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-25%20solve-1.svg)   
 
   $
@@ -221,3 +221,43 @@ $
   :::   
 ---
 
+::: wrap
+### $\fbox{29}\:$Figure 6–26, a square with a perimeter of 20 is inscribed in a square with a perimeter of 28. The maximum distance between a vertex of the small square and a vertex of the large square is $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 3 &
+(\text{B}) \: 4 &
+(\text{C}) \: 5 &
+(\text{D}) \: \sqrt{58} &
+(\text{E}) \: \sqrt{65} & \\
+\end{array}
+$  
+:::  
+![Question quadrilateral figure 6-26.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-26.svg)    
+#### Solution
+::: wrap  
+- Show  
+
+  $
+  \begin{array}{ll}
+   & \text{} \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{()}$  
+  > According to the Solution, get $ $, so choose $ $. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  c^2=a^2+b^2 \Rightarrow c=\sqrt{a^2+b^2} & \text{Pythagorean theorem} \\
+  \end{array}
+  >$
+
+  :::
+---
