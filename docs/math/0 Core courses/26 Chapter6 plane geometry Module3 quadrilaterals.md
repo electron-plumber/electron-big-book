@@ -222,7 +222,7 @@ $
 ---
 
 ::: wrap
-### $\fbox{29}\:$Figure 6–26, a square with a perimeter of 20 is inscribed in a square with a perimeter of 28. The maximum distance between a vertex of the small square and a vertex of the large square is $\small \, \mathpunct{?}$.
+### $\fbox{29}\:$Figure 6–26, a square with a perimeter of $\small 20$ is inscribed in a square with a perimeter of $\small 28$. The maximum distance between a vertex of the small square and a vertex of the large square is $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: 3 &
@@ -261,6 +261,57 @@ $
   \begin{array}{ll}
   c^2=a^2+b^2 \Rightarrow c=\sqrt{a^2+b^2} & \text{Pythagorean theorem} \\
   (3,4,5) & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Commonly used pythagorean numbers}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+::: wrap
+### $\fbox{30}\:$Figure 6–27, quadrilateral $\small ABCD$ is square, $\small l_1,l_2,l_3$ pass through points $\small A,B$ and $\small C$ respectively, and $\small l_1 \parallel l_2 \parallel l_3$, $\small BM \perp l_1$ is at $\small M$, $\small BN \perp l_3$ is at $\small N$, if the distance between $\small l_1$ and $\small l_2$ is $\small 5$, and the distance between $\small l_2$ and $\small l_3$ is $\small 7$, then the area of square $\small ABCD$ is $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 70 &
+(\text{B}) \: 74 &
+(\text{C}) \: 140 &
+(\text{D}) \: 144 &
+(\text{E}) \: 148 & \\
+\end{array}
+$  
+:::  
+![Question quadrilateral figure 6-27.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-27.svg)  
+#### Solution
+::: wrap  
+- show known conditions    
+  ![Question quadrilateral figure 6-27 solve-1.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-27%20solve-1.svg)   
+
+  $
+  \begin{array}{ll}
+  S_{\triangle ABM} \cong S_{\triangle BCN} \\
+  AM=BN=7 \\
+  MB=NC=5 \\
+  AB^2=7^2+5^2=74 \\
+  S_{ABCD} = AB^2 = 74 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $S_{ABCD}=74$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  c^2=a^2+b^2 \Rightarrow c=\sqrt{a^2+b^2} & \text{Pythagorean theorem} \\
+  \begin{cases}
+  \text{Find a side and an angle (Acute angle)} \\
+  \text{Find their two sides} \\
+  \end{cases} & \text{Right triangle congruence} \\
+  S=a^2 & \href{/math/0%20Core%20courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_4-square}{\text{Square area formula}} \\
   \end{array}
   >$
 
