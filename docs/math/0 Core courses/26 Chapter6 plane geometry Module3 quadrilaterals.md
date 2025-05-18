@@ -317,3 +317,10 @@ $
 
   :::
 ---
+
+## 8.Focus 2
+__Rectangle__
+- The rectangle has two pairs of opposite sides that are perpendicular to each other, 
+  and its diagonals bisect each other.  
+- __The problem of a straight line appearing in a rectangle and dividing it into several triangles.__
+
