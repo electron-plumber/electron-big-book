@@ -324,3 +324,54 @@ __Rectangle__
   and its diagonals bisect each other.  
 - __The problem of a straight line appearing in a rectangle and dividing it into several triangles.__
 
+::: wrap
+### $\fbox{31}\:$Figure 6–28, the two sides of rectangle $\small ABCD$ are $\small 8$ and $\small 6$ respectively, and the area of quadrilateral $\small OEFG$ is $\small 4$, then the area of the shaded part is $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 32 &
+(\text{B}) \: 28 &
+(\text{C}) \: 24 &
+(\text{D}) \: 20 &
+(\text{E}) \: 16 & \\
+\end{array}
+$  
+:::  
+![Question quadrilateral figure 6-28.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-28.svg)   
+#### Solution
+::: wrap  
+- Show known conditions  
+  ![Question quadrilateral figure 6-28 solve-1.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-28%20solve-1.svg)   
+
+  $
+  \begin{array}{ll}
+  S_{ABCD}=6\times 8 = 48 \\
+  S_{\triangle AOD}=\frac{1}{4}S_{ABCD}=\frac{48}{4}=12 \\
+  S_a+S_b=S_{\triangle ADF}-S_{\triangle AOD}-S_{\triangle OEFG} \\
+  S_{\triangle ADF}=\frac{1}{2}S_{ABCD}=\frac{48}{2}=24 \\
+  S_{\triangle AOD}=12 \\
+  S_{\triangle OEFG}=4 \\
+  S_a+S_b=24-12-4=8 \\
+  S_\text{Shaded}=\frac{3}{4}\times 48-8=\frac{144}{4}-8=28 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $S_\text{Shaded}=28$, so choose $B$. 
+
+  :::
+- Diagonals of a rectangle divide it into four congruent right triangles, each with $\frac{1}{4}$ of the rectangle's area   
+  ::: wrap   
+  > ![Rectangle into four triangles.svg](../../public/math/Core%20courses/Rectangle%20into%20four%20triangles.svg)    
+  >$S_1=S_2=S_3=S_4$
+
+  :::
+- A triangle with base and height equal to those of a rectangle has $\frac{1}{2}$ the area of the rectangle     
+  ::: wrap
+  > ![Triangle half area.svg](../../public/math/Core%20courses/Triangle%20half%20area.svg)      
+  >$S_\triangle=\frac{1}{2}S_{ABCD}$
+
+  :::
+---
