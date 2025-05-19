@@ -375,3 +375,53 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{32}\:$Figure 6–29, in rectangle $\small ABCD$, points $\small E, F, G, H$ are on $\small AB, BC, CD, DA$ respectively, and point $\small P$ is inside rectangle $\small ABCD$. If $\small AB=4, BC=6$, $\small AE=CG=3, BF=DH=4$, and the area of quadrilateral $\small AEPH$ is $\small 5$, then the area of quadrilateral $\small PFCG$ is $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 5 &
+(\text{B}) \: 6 &
+(\text{C}) \: 8 &
+(\text{D}) \: 9 &
+(\text{E}) \: 10 & \\
+\end{array}
+$  
+:::  
+![Question quadrilateral figure 6-29.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-29.svg)  
+#### Solution
+::: wrap  
+- Solve by joining heights     
+  ![Question quadrilateral figure 6-29 solve-1.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-29%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  S_{\triangle APH}+S_{\triangle PCF} = (\frac{1}{2}\times 2\times h_1) + (\frac{1}{2}\times 2\times h_2) \\
+  = h_1+h_2=AB=4 \\
+  = \frac{2}{2}(h_1+h_2)=4 \\
+  S_{\triangle AEP}+S_{\triangle PCG} = (\frac{1}{2}\times 3\times h_3) + (\frac{1}{2}\times 3\times h_4) \\
+  = h_3+h_4=BC=6 \\
+  = \frac{3}{2}(h_3+h_4)=\frac{18}{2}=9 \\
+  S_{AEPH}+S_{PFCG}=4+9=13 \\
+  S_{AEPH}=5 \\
+  S_{PFCG}=13-5=8 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(C)}$  
+  > According to the Solution, get $C$, so choose $S_{PFCG}=8$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  S=\frac{1}{2}ah & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{\text{Triangle area formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
