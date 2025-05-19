@@ -486,9 +486,7 @@ $
   > | Add $\lor$ subtract __both sides__     | ❌ Do not flip the sign   |
 ---
 
-## .Focus 
-____  
-::: wrap  
--   
-:::  
+## 9.Focus 3
+__Rhombus__   
+- In a rhombus, the two diagonals bisect each other at right angles, __and its area equals half the product of the diagonals__.
 
