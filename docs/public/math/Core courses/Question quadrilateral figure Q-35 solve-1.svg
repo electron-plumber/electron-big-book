@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="266" height="186" viewBox="0 0 846 506" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <path d="M20.675,251.966l805.676,0" style="fill:none;stroke:#930df2;stroke-width:12.5px;"/>
+  <path d="M423.318,14.889l-0,475.149" style="fill:none;stroke:#ff7bac;stroke-width:12.5px;"/>
+  <path d="M-662.786,-1151.73l1039.55,0" style="fill:none;stroke:#33cc7b;stroke-width:12.5px;"/>
+  <path d="M685.66,-1148.14l657.257,-0" style="fill:none;stroke:#33cc7b;stroke-width:12.5px;"/>
+  <g transform="matrix(75,0,0,75,230.163,105.42)">
+    </g>
+  <text x="146.74px" y="105.42px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:75px;fill:#33cc7b;">13</text>
+  <g transform="matrix(75,0,0,75,688.19,105.42)">
+    </g>
+  <text x="604.767px" y="105.42px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:75px;fill:#33cc7b;">13</text>
+  <g transform="matrix(75,0,0,75,688.19,450.943)">
+    </g>
+  <text x="604.767px" y="450.943px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:75px;fill:#33cc7b;">13</text>
+  <g transform="matrix(66.6667,0,0,66.6667,458.49,311.116)">
+    </g>
+  <text x="384.337px" y="311.116px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:66.667px;fill:#930df2;">24</text>
+  <g transform="matrix(75,0,0,75,232.201,450.943)">
+    </g>
+  <text x="148.778px" y="450.943px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:75px;fill:#33cc7b;">13</text>
+  <g transform="matrix(62.5,0,0,62.5,655.894,241.67)">
+    </g>
+  <text x="586.375px" y="241.67px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:62.5px;fill:#f60;">12</text>
+  <g transform="matrix(62.5,0,0,62.5,468.796,171.659)">
+    </g>
+  <text x="434.036px" y="171.659px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:62.5px;fill:#f60;">5</text>
+  <path d="M422.822,6.25l416.572,246.313l-416.572,246.314l-416.572,-246.314l416.572,-246.313Z" style="fill:none;stroke:#33cc7b;stroke-width:12.5px;stroke-miterlimit:14;"/>
+</svg>

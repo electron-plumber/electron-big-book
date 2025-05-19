@@ -527,3 +527,48 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{35}\:$Given a rhombus with a perimeter of $\small 52$ and one diagonal of length $\small 24$, the area of the rhombus is $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 110 &
+(\text{B}) \: 120 &
+(\text{C}) \: 130 &
+(\text{D}) \: 140 &
+(\text{E}) \: 160 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Show known conditions    
+  ![Question quadrilateral figure Q-35 solve-1.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%20Q-35%20solve-1.svg)   
+
+  $
+  \begin{array}{ll}
+  \text{Side length}=\frac{52}{4}=13 \\
+  l_1=24 \\
+  l_2=(5,12,13) \implies 5\times 2 =10 \\
+  S=\frac{10\times 24}{2} = 120 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $S=120$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  (5,12,13)& \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Commonly used pythagorean numbers}} \\
+  S=\frac{l_1\cdot l_2}{2} & \href{/math/0%20Core%20courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_3-rhombus}{\text{Rhombus area formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
