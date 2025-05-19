@@ -490,3 +490,40 @@ $
 __Rhombus__   
 - In a rhombus, the two diagonals bisect each other at right angles, __and its area equals half the product of the diagonals__.
 
+::: wrap
+### $\fbox{34}\:$Given a rhombus whose two diagonals have lengths $\small 10$ and $\small 24$ respectively, the area of the rhombus is $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 110 &
+(\text{B}) \: 120 &
+(\text{C}) \: 130 &
+(\text{D}) \: 140 &
+(\text{E}) \: 160 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap
+$
+\begin{array}{ll}
+S=\frac{10\times 24}{2}=120 
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $S=120$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  S=\frac{l_1\cdot l_2}{2} & \href{/math/0%20Core%20courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_3-rhombus}{\text{Rhombus area formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
