@@ -485,3 +485,10 @@ $
   > | Multiply $\lor$ divide by __positive__ | ❌ Do not flip the sign   |
   > | Add $\lor$ subtract __both sides__     | ❌ Do not flip the sign   |
 ---
+
+## .Focus 
+____  
+::: wrap  
+-   
+:::  
+
