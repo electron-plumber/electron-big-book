@@ -425,3 +425,63 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{33}\:$A farmer wants to build a rectangular sheep pen with a perimeter of $\small 120$ and a diagonal no longer than $\small 50$, What is the minimum possible area of the pen $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 450 &
+(\text{B}) \: 500 &
+(\text{C}) \: 520 &
+(\text{D}) \: 540 &
+(\text{E}) \: 550 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Show known conditions   
+  ![Question quadrilateral figure Q-33 solve-1.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%20Q-33%20solve-1.svg)   
+
+  $
+  \begin{array}{ll}
+  C=120 \Rightarrow a+b=60 \\
+  c=\sqrt{a^2+b^2} \le 50 \\
+  2ab=(a+b)^2-(a^2+b^2) \\
+  S=ab=\frac{(a+b)^2-(a^2+b^2)}{2} \ge \frac{60^2-50^2}{2}=550 & \text{Since both sides are } - \times (a^2+b^2) \text{, Flip the sign} \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(E)}$  
+  > According to the Solution, get $S\ge 550$, so choose $E$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  c^2=a^2+b^2 \Rightarrow c=\sqrt{a^2+b^2} & \text{Pythagorean theorem} \\
+  S=ab & \href{/math/0%20Core%20courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_2-rectangle}{\text{Rectangle area formula}} \\ 
+  2ab=(a+b)^2-(a^2+b^2) & \text{Rectangle area identity} \\
+  y^2=x \implies \sqrt[2]{x} & \text{Definition of square root} \\
+  \end{array}
+  >$
+
+  :::
+- Additionally, __Cuboid surface area identity__   
+  ::: wrap
+  >$2ab+2bc+2ac=(a+b+c)^2-(a^2+b^2+c^2)$
+
+  :::
+- Inequality sign flips  
+  > <br/>
+  > 
+  > | Operation                              | Inequality sign changes? |
+  > |----------------------------------------|--------------------------|
+  > | Multiply $\lor$ divide by __negative__ | ✅ Flip the sign          |
+  > | Multiply $\lor$ divide by __positive__ | ❌ Do not flip the sign   |
+  > | Add $\lor$ subtract __both sides__     | ❌ Do not flip the sign   |
+---
