@@ -588,7 +588,7 @@ $
 ![Question quadrilateral figure 6-30.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-30.svg)  
 #### Solution
 ::: wrap  
-- Solved by Reflectional symmetry  
+- Solve by Reflectional symmetry  
   ![Question quadrilateral figure 6-30 solve-1.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-30%20solve-1.svg)  
 
   $
@@ -631,3 +631,39 @@ $
 __Parallelogram__  
 - The two pairs of opposite sides of a parallelogram are parallel and equal. __The core point of a parallelogram is the diagonal.__ In addition, if there are no other requirements, the parallelogram can be specialized into __a rectangle or square__ to find the answer. 
 
+::: wrap
+### $\fbox{37}\:$Figure 6–31, it is known that $\small P$ is a point inside the parallelogram $\small ABCD$, and $\small S_{\triangle PAB}=5, S_{\triangle PAD}=2$, then $\small S_{\triangle PAC}=\, \mathpunct{?}$. 
+$
+\begin{array}{lllll}
+(\text{A}) \: 2 &
+(\text{B}) \: 3 &
+(\text{C}) \: 3.5 &
+(\text{D}) \: 4 &
+(\text{E}) \: 5 & \\
+\end{array}
+$  
+:::  
+![Question quadrilateral figure 6-31.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-31.svg)  
+#### Solution
+::: wrap  
+- Solve by specializing to a square   
+  ![Question quadrilateral figure 6-31 solve-1.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-31%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  S_{\triangle ABD}=2+5=7 \\
+  S_{\triangle AOB}=\frac{7}{2}=3.5 \\
+  S_{\triangle AOP}=5-3.5=1.5 \\
+  S_{\triangle POC}=S_{\triangle AOP}=1.5 \\
+  S_{\triangle PAC}=S_{\triangle AOP}+S_{\triangle POC}=1.5+1.5=3
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $S_{\triangle PAC}=3$, so choose $B$. 
+
+  :::
+---

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="256" height="256" viewBox="0 0 904 832" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(100,0,0,100,198.41,332.456)">
+    </g>
+  <text x="142.794px" y="332.456px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:100px;fill:#930df2;stroke:#f20d0d;stroke-width:1px;">2</text>
+  <g transform="matrix(100,0,0,100,907.26,72.8027)">
+    </g>
+  <text x="835.043px" y="72.803px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:100px;fill:#8dcc33;">C</text>
+  <g transform="matrix(100,0,0,100,64.502,80.5382)">
+    </g>
+  <text x="-7.715px" y="80.538px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:100px;fill:#8dcc33;">D</text>
+  <g transform="matrix(100,0,0,100,68.5447,831.503)">
+    </g>
+  <text x="1.845px" y="831.503px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:100px;fill:#8dcc33;">A</text>
+  <g transform="matrix(100,0,0,100,906.839,819.945)">
+    </g>
+  <text x="840.14px" y="819.945px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:100px;fill:#8dcc33;">B</text>
+  <g transform="matrix(62.5,0,0,62.5,333.921,249.264)">
+    </g>
+  <text x="292.234px" y="249.264px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:62.5px;fill:#8dcc33;">P</text>
+  <g transform="matrix(62.5,0,0,62.5,473.065,391)">
+    </g>
+  <text x="424.451px" y="391px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:62.5px;fill:#8dcc33;">O</text>
+  <path d="M807.83,55.522l-718.551,719.376" style="fill:none;stroke:#33cc7b;stroke-width:8.33px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
+  <path d="M300.522,270.71l-211.243,504.188" style="fill:none;stroke:#f60;stroke-width:8.33px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
+  <path d="M304.544,265.594l504.188,-211.244" style="fill:none;stroke:#fc0;stroke-width:8.33px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
+  <path d="M88.867,55.935l719.376,718.551" style="fill:none;stroke:#ff7bac;stroke-width:8.33px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
+  <rect x="82.459" y="48.316" width="732.701" height="732.701" style="fill:none;stroke:#0dcaf2;stroke-width:12.5px;stroke-linecap:round;stroke-miterlimit:14;"/>
+  <g transform="matrix(33.3333,0,0,33.3333,314.609,470.493)">
+    </g>
+  <text x="268.271px" y="470.493px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:33.333px;fill:#f60;">1.5</text>
+  <g transform="matrix(33.3333,0,0,33.3333,489.409,287.011)">
+    </g>
+  <text x="443.071px" y="287.011px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:33.333px;fill:#fc0;">1.5</text>
+  <path d="M-831.015,-1001.99l1209.22,0" style="fill:none;stroke:#8dcc33;stroke-width:12.5px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
+  <circle cx="301.492" cy="269.545" r="11.378" style="fill:#ff0;"/>
+  <path d="M301.492,258.166c6.28,0 11.378,5.099 11.378,11.379c0,6.28 -5.098,11.378 -11.378,11.378c-6.28,-0 -11.378,-5.098 -11.378,-11.378c-0,-6.28 5.098,-11.379 11.378,-11.379Zm-0,1.808c-9.211,0.175 -12.713,11.217 -6.261,16.807c6.014,5.21 15.569,1.182 15.828,-6.989c0.136,-4.288 -3.003,-9.652 -9.567,-9.818Z" style="fill:#f33;"/>
+  <circle cx="447.97" cy="415.44" r="11.378" style="fill:#ff0;"/>
+  <path d="M447.97,404.062c6.279,-0 11.378,5.098 11.378,11.378c-0,6.28 -5.099,11.378 -11.378,11.378c-6.28,0 -11.379,-5.098 -11.379,-11.378c0,-6.28 5.099,-11.378 11.379,-11.378Zm-0,1.808c-9.211,0.175 -12.713,11.216 -6.261,16.806c6.014,5.21 15.569,1.183 15.828,-6.988c0.136,-4.288 -3.003,-9.652 -9.567,-9.818Z" style="fill:#f33;"/>
+  <g transform="matrix(100,0,0,100,346.346,603.908)">
+    </g>
+  <text x="290.731px" y="603.908px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:100px;fill:#930df2;stroke:#f20d0d;stroke-width:1px;">5</text>
+</svg>
