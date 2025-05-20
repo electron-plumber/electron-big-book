@@ -168,7 +168,7 @@ $
 
   :::
 - Derivation: Connecting the midpoints of the sides of any quadrilateral forms a new quadrilateral
-  whose area is half the area of the original one derivation   
+  whose area is half the area of the original one   
   ::: wrap
   > ![The inner quadrilateral is half of the outer quadrilateral.svg](../../public/math/Core%20courses/The%20inner%20quadrilateral%20is%20half%20of%20the%20outer%20quadrilateral.svg)    
   > In any triangle, the triangle formed by joining the midpoints of two sides has an area equal to $\frac{1}{4}$ of the original triangle.        
@@ -726,6 +726,47 @@ $
   S=\frac{a+b}{2}h & \href{/math/0%20Core%20courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_5-trapezoid}{\text{Trapezoid area formula}} \\
   \end{array}
   >$
+
+  :::
+---
+
+::: wrap
+### $\fbox{39}\:$Figure 6–33, in trapezoid $\small ABCD$, $\small AD \parallel BC$. Points $\small P, Q$ are the midpoints of $\small AD, BC$ respectively. Point $\small O$ is the midpoint of $\small PQ$. A line is drawn through point $\small O$, intersecting $\small AD$ at point $\small M$ and $small BC$ at point $\small N$. Then the area ratio of quadrilaterals $\small AMNB$ and $\small MDCN$ is $\small \, \mathpunct{?}$. 
+$
+\begin{array}{lllll}
+(\text{A}) \: \frac{1}{2} &
+(\text{B}) \: 1 &
+(\text{C}) \: \frac{2}{3} &
+(\text{D}) \: \frac{3}{2} &
+(\text{E}) \: 2 & \\
+\end{array}
+$  
+:::  
+![Question quadrilateral figure 6-33.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-33.svg)  
+#### Solution
+::: wrap  
+- Show known conditions    
+  ![Question quadrilateral figure 6-33 solve-1.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-33%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  S_{AMNB}=\frac{S_{ABCD}}{2}+S_{\triangle POM}-S_{\triangle NOQ} \\
+  \begin{cases}
+  \begin{array}{ll}
+  \angle NQO = \angle MPO & \text{Right angles are equal}\\
+  \angle POM = \angle NOQ & \text{Vertical angles are equal}\\
+  \end{array}
+  \end{cases} \Rightarrow \triangle NOQ \cong \triangle POM \\
+  S_{AMNB}=\frac{S_{ABCD}}{2} \Rightarrow S_{MDCN}=\frac{S_{ABCD}}{2} \\
+  \frac{S_{AMNB}}{S_{MDCN}} = \frac{1}{1} = 1 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $frac{S_{AMNB}}{S_{MDCN}}=1$, so choose $B$. 
 
   :::
 ---

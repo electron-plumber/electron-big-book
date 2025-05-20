@@ -179,7 +179,7 @@ $
   \angle2=\angle4 \\
   \angle1+\angle4=180^\circ \\
   \end{cases} \\
-  \angle BAC = 180^\circ & \text{The sum of the interior angles of a triangle is }180^\circ \\
+  \angle A + \angle B + \angle C = 180^\circ & \text{The sum of the interior angles of a triangle is }180^\circ \\
   \end{array}
   >$
 
@@ -345,7 +345,7 @@ $
   \angle2=\angle4 \\
   \angle1+\angle4=180^\circ \\
   \end{cases} \\
-  \angle BAC = 180^\circ & \text{The sum of the interior angles of a triangle is }180^\circ \\
+  \angle A + \angle B + \angle C = 180^\circ & \text{The sum of the interior angles of a triangle is }180^\circ \\
   \end{array}
   >$
 
