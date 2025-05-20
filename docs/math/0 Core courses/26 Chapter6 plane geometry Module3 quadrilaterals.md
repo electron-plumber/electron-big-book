@@ -626,3 +626,8 @@ $
 
   :::
 ---
+
+## 10.Focus 4
+__Parallelogram__  
+- The two pairs of opposite sides of a parallelogram are parallel and equal. __The core point of a parallelogram is the diagonal.__ In addition, if there are no other requirements, the parallelogram can be specialized into __a rectangle or square__ to find the answer. 
+
