@@ -667,3 +667,65 @@ $
 
   :::
 ---
+
+## 11.Focus 5
+__Trapezoid__
+- Analyze, according to the area formula and properties of trapezoid, paying attention to the two special types of trapezoids: __right trapezoids and isosceles trapezoids__.  
+
+::: wrap
+### $\fbox{38}\:$Figure 6–32, $\small AB \perp BC$ at point $\small B$, $\small CD \perp BC$ at point $\small C$, the angle bisectors of $\angle BAD$ and $\angle CDA$ intersect at point $\small E$ on $\small BC$, $\small AD=8, BC=6$, then the area of quadrilateral $\small ABCD$ is $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 12 &
+(\text{B}) \: 24 &
+(\text{C}) \: 36 &
+(\text{D}) \: 48 &
+(\text{E}) \: 96 & \\
+\end{array}
+$  
+:::  
+![Question quadrilateral figure 6-32.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-32.svg)  
+#### Solution
+::: wrap  
+- Show known conditions  
+  ![Question quadrilateral figure 6-32 solve-1.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-32%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  ABCD=\text{Right trapezoid} \\
+  AB \parallel CD \\
+  \angle BAD + \angle CDA=180^\circ & \text{adjacent interior angles }180^\circ \\
+  S_{ABCD}=\frac{AB+CD}{2}\times BC \\
+  \text{The points on the angle bisector divide} \\ 
+  \text{the left and right triangles into two congruent triangles.} \\
+  \triangle EFA \cong \triangle ABE \\
+  \triangle DFE \cong \triangle DEC \\
+  AF=AB \\
+  DF=CD \\
+  AF+DF=AB+CD=AD=8 \\
+  \frac{8}{2}\times 6=24 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $S_{ABCD}=24$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \begin{cases}
+  \angle1=\angle4 \\
+  \angle2=\angle4 \\
+  \angle1+\angle4=180^\circ \\
+  \end{cases} & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-parallel}{\text{Angle relationship}} \\
+  S=\frac{a+b}{2}h & \href{/math/0%20Core%20courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_5-trapezoid}{\text{Trapezoid area formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
