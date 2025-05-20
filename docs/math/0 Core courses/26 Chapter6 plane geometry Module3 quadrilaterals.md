@@ -770,3 +770,8 @@ $
 
   :::
 ---
+
+## 12.Focus 6
+__Other quadrilaterals__
+- When encountering other quadrilaterals, __you can divide them into triangles to solve the problem or analyze them using the properties of special quadrilaterals__.  
+
