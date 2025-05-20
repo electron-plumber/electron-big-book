@@ -572,3 +572,57 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{36}\:$Figure 6–30, in rhombus $\small ABCD$, the lengths of the two diagonals are $\small 6$ and $\small 8$ respectively, point $\small P$ is a moving point on $\small AC$, $\small M, N$ are the midpoints of $\small AB, AC$ respectively, then the minimum value of $\small PM+PN$ is $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 3 &
+(\text{B}) \: 4 &
+(\text{C}) \: 5 &
+(\text{D}) \: 6 &
+(\text{E}) \: 7 & \\
+\end{array}
+$  
+:::  
+![Question quadrilateral figure 6-30.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-30.svg)  
+#### Solution
+::: wrap  
+- Solved by Reflectional symmetry  
+  ![Question quadrilateral figure 6-30 solve-1.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-30%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  & \text{The symmetric point of }N\text{ about }AC\text{ is }N^\prime.\\
+  PM+PN=PM+PN^\prime \ge MN^\prime & a+b>c \\
+  MN^\prime=AD & \text{Let }M, N^\prime\text{ be the midpoints of }AB, DC\text{, respectively.} \\
+  (3,4,5) \implies DC=5 \\
+  AD=DC=5 \\
+  PM+PN^\prime \ge 5 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(C)}$  
+  > According to the Solution, get $PM+PN=PM+PN^\prime \ge 5$, so choose $C$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  (3,4,5)& \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Commonly used pythagorean numbers}} \\
+  a+b>c & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-the-relationship-between-the-three-sides-of-a-triangle}{\text{Trilateral relations}} \\
+  \end{array}
+  >$
+
+  :::
+- [Reflectional symmetry](https://en.wikipedia.org/wiki/Reflection_symmetry)      
+  ::: wrap
+  > ![Reflectional symmetry of rhombus.svg](../../public/math/Core%20courses/Reflectional%20symmetry%20of%20rhombus.svg)   
+  > After reaching the orange line by the shortest distance, return $B$. $A \to C \to B$
+
+  :::
+---
