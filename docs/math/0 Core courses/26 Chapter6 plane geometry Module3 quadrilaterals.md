@@ -368,7 +368,7 @@ $
   >$S_1=S_2=S_3=S_4$
 
   :::
-- A triangle with base and height equal to those of a rectangle has $\frac{1}{2}$ the area of the rectangle     
+- ###### A triangle with base and height equal to those of a rectangle has $\frac{1}{2}$ the area of the rectangle     
   ::: wrap
   > ![Triangle half area.svg](../../public/math/Core%20courses/Triangle%20half%20area.svg)      
   >$S_\triangle=\frac{1}{2}S_{ABCD}$
@@ -828,6 +828,56 @@ $
   >$
   \begin{array}{ll}
   S_1:S_3:S_2:S_4=a^2:b^2:ab:ab & \href{/math/0%20Core%20courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#the-butterfly-theorem-of-trapezoid-and-similar-proportions-figure-6%E2%80%9324}{\text{Butterfly theorem(Trapezoid) & Similarity proportions}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+::: wrap
+### $\fbox{41}\:$Figure 6–35, Rectangle $\small ABCD$ is divided into four pieces by $\small CE$ and $\small DF$. Given that the areas of three of the pieces are $\small 2, 5$ and $\small 8$ respectively. The area of the remaining quadrilateral $\small OFBC=\, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 10 &
+(\text{B}) \: 9 &
+(\text{C}) \: 8 &
+(\text{D}) \: 7 &
+(\text{E}) \: 6 & \\
+\end{array}
+$  
+:::  
+![Question quadrilateral figure 6-35.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-35.svg)  
+#### Solution
+::: wrap  
+- Solve by forming a trapezoid through the diagonals of irregular quadrilateral     
+  ![Question quadrilateral figure 6-35 solve-1.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-35%20solve-1.svg)   
+
+  $
+  \begin{array}{ll}
+  \text{Join the diagonal }CF\text{ and }DE \\
+  EDCF=\text{Trapezoid} \\
+  2\times 8= 4\times 4 & \text{Top}\times\text{Bottom}=\text{Left}\times\text{Right} \\
+  S_{\triangle EOD}=S_{\triangle COF}=4 \\
+  S_{\triangle CDF}=\frac{1}{2}S_{ABCD}=8+4=12 \\
+  S_{ABCD}=S_{\triangle CDF}\times 2=24 \\
+  S_{OFBC}=24-2-5-8=9 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $S_{OFBC}=9$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  S_1\times S_3=S_2 \times S_4 & \href{/math/0%20Core%20courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#proportional-relations-in-any-quadrilateral-figure-6%E2%80%9323}{\text{Top}\times\text{Bottom}=\text{Left}\times\text{Right}} \\
+  S_1:S_3:S_2:S_4=a^2:b^2:ab:ab & \href{/math/0%20Core%20courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#the-butterfly-theorem-of-trapezoid-and-similar-proportions-figure-6%E2%80%9324}{\text{Butterfly theorem(Trapezoid) & Similarity proportions}} \\
+  S_\triangle=\frac{1}{2}S_{ABCD} & \href{/math/0%20Core%20courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#a-triangle-with-base-and-height-equal-to-those-of-a-rectangle-has-the-area-of-the-rectangle}{\text{Half area rule}}
   \end{array}
   >$
 
