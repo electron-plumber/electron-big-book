@@ -775,3 +775,61 @@ $
 __Other quadrilaterals__
 - When encountering other quadrilaterals, __you can divide them into triangles to solve the problem or analyze them using the properties of special quadrilaterals__.  
 
+::: wrap
+### $\fbox{40}\:$Figure 6–34, given that $\small ABCD$ is a parallelogram, and $\small BC:CE=3:2$, and the area of triangle $\small ODE$ is $\small 6$. Then the area of the shaded region is $\small \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 20 &
+(\text{B}) \: 21 &
+(\text{C}) \: 22 &
+(\text{D}) \: 24 &
+(\text{E}) \: 26 & \\
+\end{array}
+$  
+:::  
+![Question quadrilateral figure 6-34.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-34.svg)  
+#### Solution
+::: wrap  
+- Solve by forming a trapezoid through the diagonals of irregular quadrilateral     
+  ![Question quadrilateral figure 6-34 solve-1.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-34%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  \text{Join the diagonal }AC \\
+  ACED=\text{Trapezoid} \\
+  AD=BC & \text{Parallelogram}\\
+  AD:CE=3:2 \\
+  \begin{cases}
+  a^2=3^2=9 \\
+  b^2=2^2=4 \\
+  ab=2\times 3=6 \\
+  \end{cases} \\
+  \frac{S_{\triangle ODE}}{ab} = \frac{6}{6} = 1 \implies
+  \begin{cases}
+  a^2=1\times9=9 \\
+  b^2=1\times4=4 \\
+  ab=1\times6=6 \\
+  \end{cases} \\
+  S_{\triangle ACD}=6+9=15 \\
+  S_{\triangle ABC}=S_{\triangle ACD}=15 \\
+  S_{Shaded}=15+6=21 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $S_{Shaded}=15+6=21$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  S_1:S_3:S_2:S_4=a^2:b^2:ab:ab & \href{/math/0%20Core%20courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#the-butterfly-theorem-of-trapezoid-and-similar-proportions-figure-6%E2%80%9324}{\text{Butterfly theorem(Trapezoid) & Similarity proportions}} \\
+  \end{array}
+  >$
+
+  :::
+---
