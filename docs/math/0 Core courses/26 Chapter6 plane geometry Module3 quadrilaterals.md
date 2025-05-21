@@ -724,7 +724,7 @@ $
 ---
 
 ::: wrap
-### $\fbox{39}\:$Figure 6–33, in trapezoid $\small ABCD$, $\small AD \parallel BC$. Points $\small P, Q$ are the midpoints of $\small AD, BC$ respectively. Point $\small O$ is the midpoint of $\small PQ$. A line is drawn through point $\small O$, intersecting $\small AD$ at point $\small M$ and $small BC$ at point $\small N$. Then the area ratio of quadrilaterals $\small AMNB$ and $\small MDCN$ is $\small \, \mathpunct{?}$. 
+### $\fbox{39}\:$Figure 6–33, in trapezoid $\small ABCD$, $\small AD \parallel BC$. Points $\small P, Q$ are the midpoints of $\small AD, BC$ respectively. Point $\small O$ is the midpoint of $\small PQ$. A line is drawn through point $\small O$, intersecting $\small AD$ at point $\small M$ and $\small BC$ at point $\small N$. Then the area ratio of quadrilaterals $\small AMNB$ and $\small MDCN$ is $\small \, \mathpunct{?}$. 
 $
 \begin{array}{lllll}
 (\text{A}) \: \frac{1}{2} &
