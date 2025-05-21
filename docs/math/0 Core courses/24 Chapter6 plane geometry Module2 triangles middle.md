@@ -330,7 +330,7 @@ $
 ### $\textcolor{#1E3A5F}{\fbox{2}}\:$ Equilateral triangle
 - The ratio of the height to the side of an equilateral triangle is $\sqrt{3}:2=\frac{\sqrt{3}}{2}:1$.   
   - $h=\frac{\sqrt{3}}{2}a$  
-- The area of an equilateral triangle is $S=\frac{\sqrt{3}}{4}a^2$, where $a$ is the length of the side.  
+- ###### The area of an equilateral triangle is $S=\frac{\sqrt{3}}{4}a^2$, where $a$ is the length of the side.  
   - $S=\frac{1}{2}a\times\frac{\sqrt{3}}{2}a=\frac{\sqrt{3}}{4}a^2$   
 
 ![The area of an equilateral triangle.svg](../../public/math/Core%20courses/The%20area%20of%20an%20equilateral%20triangle.svg)  

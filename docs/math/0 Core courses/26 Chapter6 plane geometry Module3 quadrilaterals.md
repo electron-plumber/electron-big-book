@@ -3,13 +3,6 @@ title: Chapter6 plane geometry Module3 quadrilaterals
 lang: en-US
 ---
 
-| Platforms   | Courses                                                                                      | Coursewares                                                       |
-|-------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| YouTube     | [Watch](https://www.youtube.com/watch?v=iYKiSxpr2Ls&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s) | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
-| Dailymotion | [Watch](https://www.dailymotion.com/video/x9gsuhs?playlist=x9h6d2)                           |                                                                   |
-| Rumble      | [Watch](https://rumble.com/v6s95h3-26-chapter6-plane-geometry-module3-quadrilaterals.html)   |                                                                   |
-
-
 # Module 6-03 Quadrilateral
 
 ## 1.Parallelogram
@@ -73,12 +66,12 @@ the proportional relationship of the diagonal corresponding to the area can also
 ### $\textcolor{#1E3A5F}{\fbox{2}}\:$The Butterfly theorem of Trapezoid and similar proportions (Figure 6–24)   
 ![Butterfly theorem figure 6–24.svg](../../public/math/Core%20courses/Butterfly%20theorem%20figure%206%E2%80%9324.svg)  
 ::: wrap  
-1. $\overbrace{\frac{S_1}{S_2}=\frac{S_4}{S_3}=\frac{OD}{OB}}^{\text{any quadrilateral general}} = \frac{a}{b}$.    
+1. $\overbrace{\frac{S_1}{S_2}=\frac{S_4}{S_3}=\frac{OD}{OB}}^{\text{General property of any quadrilateral}} = \frac{a}{b}$.    
    ![Butterfly theorem figure 6–24 solve-1.svg](../../public/math/Core%20courses/Butterfly%20theorem%20figure%206%E2%80%9324%20solve-1.svg)    
    $\frac{a}{b}=\frac{OD}{OB}=\frac{OA}{OC}$   
 :::   
 ::: wrap
-2. $\overbrace{S_1 \times S_3=S_2 \times S_4}^{\text{any quadrilateral general}}$.    
+2. $\overbrace{S_1 \times S_3=S_2 \times S_4}^{\text{General property of any quadrilateral}}$.    
 :::      
 ::: wrap   
 3. $\frac{S_1}{S_3}=\frac{a_2}{b_2}$ (Similar).   
@@ -883,3 +876,79 @@ $
 
   :::
 ---
+
+## 13.Focus 7
+__Polygon__  
+- When encountering polygon, 
+  __you can draw auxiliary lines (Usually by connecting the diagonals)
+  to divide it into several triangles for solving__.
+
+- ###### Regular Hexagon
+  ::: wrap    
+  ![Regular hexagon divided into equilateral triangles.svg](../../public/math/Core%20courses/Regular%20hexagon%20divided%20into%20equilateral%20triangles.svg)  
+
+  $
+  \begin{array}{ll}
+  \text{Divided into }6\text{ equilateral triangles} \\
+  S=\frac{\sqrt{3}}{4}a^2 & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#the-area-of-an-equilateral-triangle-is-where-is-the-length-of-the-side}{\text{Equilateral triangle area formula}} \\
+  S=\frac{\sqrt{3}}{4}a^2 \times 6 =\frac{3\sqrt{3}}{2}a^2 \\
+  \end{array}
+  $  
+  :::
+
+- Interior Angles of Common Regular Polygons  
+  > $\text{Each interior angle}=\frac{(n-2)\times 180^\circ}{n}$
+
+  | Regular Polygon      | Number of Sides(n) | Each Interior Angle($^\circ$)                 |
+  |----------------------|--------------------|-----------------------------------------------|
+  | Equilateral Triangle | 3                  | $\frac{(3-2)\times 180^\circ}{3}=60^\circ$    |
+  | Square               | 4                  | $\frac{(4-2)\times 180^\circ}{4}=90^\circ$    |
+  | Regular Pentagon     | 5                  | $\frac{(5-2)\times 180^\circ}{5}=108^\circ$   |
+  | Regular Hexagon      | 6                  | $\frac{(6-2)\times 180^\circ}{6}=120^\circ$   |
+  | Regular Octagon      | 8                  | $\frac{(8-2)\times 180^\circ}{8}=135^\circ$   |
+  | Regular Dodecagon    | 12                 | $\frac{(12-2)\times 180^\circ}{12}=150^\circ$ |
+
+
+::: wrap
+### $\fbox{42}\:$The area of a regular hexagon with a side length of $\small 2$ is $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 2\sqrt{3}  &
+(\text{B}) \: 3\sqrt{3} &
+(\text{C}) \: 4\sqrt{3} &
+(\text{D}) \: 6\sqrt{3} &
+(\text{E}) \: 8\sqrt{3} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+S=\frac{3\sqrt{3}}{2}a^2=\frac{3\sqrt{3}}{2}\times2^2=6\sqrt{3} \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(D)}$  
+  > According to the Solution, get $S=6\sqrt{3}$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  S=\frac{3\sqrt{3}}{2}a^2 & \href{/math/0%20Core%20courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#regular-hexagon}{\text{Regular hexagon area formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+| Platforms   | Courses                                                                                      | Coursewares                                                       |
+|-------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| YouTube     | [Watch](https://www.youtube.com/watch?v=iYKiSxpr2Ls&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s) | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
+| Dailymotion | [Watch](https://www.dailymotion.com/video/x9gsuhs?playlist=x9h6d2)                           |                                                                   |
+| Rumble      | [Watch](https://rumble.com/v6s95h3-26-chapter6-plane-geometry-module3-quadrilaterals.html)   |                                                                   |
