@@ -35,3 +35,18 @@ lang: en-US
     \end{array}
     $  
     :::
+
+## 3.Distance Formula Between Two Points
+- The distance between two points $A(x_1,y_1)$ and $B(x_2,y_2$ is $d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$.  
+- Special case: The distance between point $A(x,y)$ and the origin $(0,0)$ is $d=\sqrt{x^2+y^2}$.  
+- __Formula derivations__   
+  ::: wrap    
+  ![Distance formula between two points.svg](../../public/math/Core%20courses/Distance%20formula%20between%20two%20points.svg)
+
+  $
+  \begin{array}{ll}
+  c^2=a^2+b^2 \Rightarrow c=\sqrt{a^2+b^2} & \text{Pythagorean theorem} \\
+  AB=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} \\
+  \end{array}
+  $  
+  :::  
