@@ -50,3 +50,53 @@ lang: en-US
   \end{array}
   $  
   :::  
+
+## 4.Focus 1
+__Midpoint formula__   
+- Analyze using the midpoint formula $(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2})$.
+
+::: wrap
+### $\fbox{1}\:$Given three points $\small A(x,5),B(-2,y)$, and $\small C(1,1)$, if point $\small C$ is the midpoint of segment $\small AB$, then $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: x=4, y=-3 &
+(\text{B}) \: x=0, y=3 &
+(\text{C}) \: x=0, y=-3 & \\
+(\text{D}) \: x=-4, y=-3 &
+(\text{E}) \: x=3, y=-4 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+A+B=2C \\
+\begin{cases}
+x-2=1\times 2 \\
+5+y=1\times 2 \\
+\end{cases}\Rightarrow
+\begin{cases}
+x=4 \\
+y=-3 \\
+\end{cases}
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(A)}$  
+  > According to the Solution, get $\begin{cases} x=4 \\ y=-3 \\ \end{cases}$, so choose $A$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  (\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}) & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_2-coordinates-of-the-midpoint-between-two-points}{\text{Midpoint formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
