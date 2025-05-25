@@ -9,7 +9,7 @@ lang: en-US
 | Rumble      | [Watch](https://rumble.com/v6s95h9-27-chapter7-resolve-geometry-module1-rectangular-coordinate-system-module2-.html) |                                                                   |
 
 
-# Module 7–01 The Rectangular Coordinate Plane
+# Module 7–01 Rectangular Coordinate System
 
 ## 1.Coordinate Relationships Between Two points  
 ![Coordinate Relationships Between Two points.svg](../../public/math/Core%20courses/Coordinate%20Relationships%20Between%20Two%20points.svg)   
@@ -157,6 +157,78 @@ $
   (a+b)^2=a^2+2ab+b^2 \\
   (a-b)^2=a^2-2ab+b^2
   \end{cases} & \href{https://www.geeksforgeeks.org/perfect-squares/}{\text{Perfect square formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+::: wrap
+### $\fbox{3}\:$In an equilateral triangle $\small ABC$, two vertices are $\small A(2,0)$ and $\small B(5,3\sqrt{3})$. The coordinates of the third vertex are $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: (8, 0) &
+(\text{B}) \: (-8, 0) &
+(\text{C}) \: (1, -3\sqrt{3}) & \\
+(\text{D}) \: (8, 0) \lor (-1, 3\sqrt{3}) &
+(\text{E}) \: (6, 0) \lor (-1, 3\sqrt{3}) & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+![Question rectangular coordinate system figure Q-3 solve-1.svg](../../public/math/Core%20courses/Question%20rectangular%20coordinate%20system%20figure%20Q-3%20solve-1.svg)  
+
+$
+\begin{array}{ll}
+\href{/math/0%20Core%20courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#_16-equilateral-triangle}{\text{Equilateral triangle: }}AB=AC=BC \\
+\text{Let }C=(x, y) \\
+\sqrt{3^2+(3\sqrt{3})^2}=\sqrt{(x-2)^2+y^2}=\sqrt{(x-5)^2+(y-3\sqrt{3})^2} \\
+\sqrt{3^2+(3\sqrt{3})^2}=\sqrt{9+(9\times3)}=6\\
+\text{There are two equations and two unknowns, and solving them is too complicated, } \\
+\text{so it is better to substitute the options directly.}\\
+(\text{A}):(8, 0)
+\begin{cases}
+\begin{array}{ll}
+\sqrt{(8-2)^2+0^2}=6 \\
+\sqrt{(8-5)^2+(0-3\sqrt{3})^2}\ne6 \\
+\end{array}
+\end{cases}\,❌\; \\
+(\text{D}) \: (8, 0) \lor (-1, 3\sqrt{3})
+\begin{cases}
+\begin{array}{ll}
+\sqrt{(8-2)^2+0^2}=6 \\
+\sqrt{(-1-5)^2+(3\sqrt{3}-3\sqrt{3})^2}=6 \\
+\end{array}
+\end{cases}\,✅\; \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(D)}$  
+  > According to the Solution, get $\sqrt{(x-2)^2+y^2}=\sqrt{(x-5)^2+(y-3\sqrt{3})^2}=6$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_3-distance-formula-between-two-points}{\text{Distance formula}} \\
+  \end{array}
+  >$
+
+  :::
+- Additionally, if the problem is an isosceles right triangle  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \href{/math/0%20Core%20courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#_15-isosceles-right-triangle}{\text{Isosceles right triangle:
+  > }}AC=BC=\sqrt{2}AB \implies AB=\sqrt{2}AC=\sqrt{2}BC \\
+  \text{Let }C=(x, y) \\
+  \sqrt{3^2+(3\sqrt{3})^2}=\sqrt{2}\times\sqrt{(x-2)^2+y^2}=\sqrt{2}\times\sqrt{(x-5)^2+(y-3\sqrt{3})^2} \\
+  \text{After that, directly substitute the options.}\\
   \end{array}
   >$
 
