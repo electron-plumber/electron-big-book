@@ -9,7 +9,7 @@ lang: en-US
 | Rumble      | [Watch](https://rumble.com/v6s95h9-27-chapter7-resolve-geometry-module1-rectangular-coordinate-system-module2-.html) |                                                                   |
 
 
-# Module 7-01 The Rectangular Coordinate Plane
+# Module 7–01 The Rectangular Coordinate Plane
 
 ## 1.Coordinate Relationships Between Two points  
 ![Coordinate Relationships Between Two points.svg](../../public/math/Core%20courses/Coordinate%20Relationships%20Between%20Two%20points.svg)   
@@ -106,7 +106,7 @@ __Distance formula__
 - Analyze using the distance formula $d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$.
 
 ::: wrap
-### $\fbox{2}\:$Given that the length of segment $\small AB$ is $\small 12$, and the coordinates of point $\small A$ are $\small (-4, 8)$, while point $\small B$ has equal $\small x$- and $\small y$-coordinates, then the coordinates of point $\small B$ are $\small \, \mathpunct{?}$.
+### $\fbox{2}\:$Given that the length of a segment $\small AB$ is $\small 12$, and the coordinates of point $\small A$ are $\small (-4, 8)$, while point $\small B$ has equal $\small x$- and $\small y$-coordinates, then the coordinates of point $\small B$ are $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: (-4,-4) &
