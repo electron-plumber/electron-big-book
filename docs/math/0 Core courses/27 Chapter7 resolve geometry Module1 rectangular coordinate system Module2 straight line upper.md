@@ -100,3 +100,65 @@ $
 
   :::
 ---
+
+## 5.Focus 2
+__Distance formula__  
+- Analyze using the distance formula $d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$.
+
+::: wrap
+### $\fbox{2}\:$Given that the length of segment $\small AB$ is $\small 12$, and the coordinates of point $\small A$ are $\small (-4, 8)$, while point $\small B$ has equal $\small x$- and $\small y$-coordinates, then the coordinates of point $\small B$ are $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: (-4,-4) &
+(\text{B}) \: (8,8) & \\
+(\text{C}) \: (4,4) \lor (8,8) &
+(\text{D}) \: (-4,-4) \lor (8,8) & \\
+(\text{E}) \: (4,4) \lor (-8,-8) & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+\text{Let }B=(x, x) \\
+AB=\sqrt{(x+4)^2+(x-8)^2}=12 \\
+\sqrt{(x+4)^2+(x-8)^2}^2=12^2 \\
+(x+4)^2+(x-8)^2=144 \\
+(x+4)^2=x^2+8x+16 \\
+(x-8)^2=x^2-16x+64 \\
+x^2+8x+16+x^2-16x+64=144 \\
+2x^2-8x+80=144 \\
+2x^2-8x+80-144=0 \\
+2x^2-8x-64=0 \\
+\frac{2x^2-8x-64}{2}=\frac{0}{2} \\
+x^2-4x-32=0 \\
+x=\frac{-b\pm \sqrt{b^2-4ac}}{2a} \\
+\Delta=(-4)^2-4\times1\times(-32)=16+128=144 \\
+x=\frac{4\pm \sqrt{144}}{2}=\frac{4\pm 12}{2} \\
+x=\frac{4+12}{2}=8 \lor x=\frac{4-12}{2}=-4 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(D)}$  
+  > According to the Solution, get $x=8 \lor x=-4 \\$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_3-distance-formula-between-two-points}{\text{Distance formula}} \\
+  x=\frac{-b\pm \sqrt{b^2-4ac}}{2a} & \href{https://en.wikipedia.org/wiki/Quadratic_formula}{\text{Quadratic formula}} \\
+  \begin{cases}
+  (a+b)^2=a^2+2ab+b^2 \\
+  (a-b)^2=a^2-2ab+b^2
+  \end{cases} & \href{https://www.geeksforgeeks.org/perfect-squares/}{\text{Perfect square formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
