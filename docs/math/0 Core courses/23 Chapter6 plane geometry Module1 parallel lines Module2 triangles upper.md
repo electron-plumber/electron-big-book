@@ -60,7 +60,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-parallel}{\text{Angle relationship}}
+  \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-a-parallel-line}{\text{Angle relationship}}
   \begin{cases}
   \angle1=\angle4 \\
   \angle2=\angle4 \\
@@ -122,7 +122,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-parallel}{\text{Angle relationship}}
+  \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-a-parallel-line}{\text{Angle relationship}}
   \begin{cases}
   \angle1=\angle4 \\
   \angle2=\angle4 \\
@@ -173,7 +173,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-parallel}{\text{Angle relationship}}
+  \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-a-parallel-line}{\text{Angle relationship}}
   \begin{cases}
   \angle1=\angle4 \\
   \angle2=\angle4 \\
@@ -225,7 +225,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{a}{c}=\frac{b}{d} & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-the-segments-intercepted-by-a-set-of-parallel-lines-are-proportional}{\text{Left-right ratio}} \\
+  \frac{a}{c}=\frac{b}{d} & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-segments-intercepted-by-a-set-of-parallel-lines-are-proportional}{\text{Left-right ratio}} \\
   \end{array}
   >$
 
@@ -269,7 +269,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-the-segments-intercepted-by-a-set-of-parallel-lines-are-proportional}{\text{Parallel line segments proportion}}
+  \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-segments-intercepted-by-a-set-of-parallel-lines-are-proportional}{\text{Parallel line segments proportion}}
   \begin{cases}
   \frac{a}{b}=\frac{c}{d} \\
   \frac{a}{c}=\frac{b}{d} \\
@@ -339,7 +339,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-parallel}{\text{Angle relationship}}
+  \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-a-parallel-line}{\text{Angle relationship}}
   \begin{cases}
   \angle1=\angle4 \\
   \angle2=\angle4 \\
@@ -541,7 +541,7 @@ $
   \end{array}
   } \\
   \end{array}
-  } & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-the-relationship-between-the-three-sides-of-a-triangle}{\text{Trilateral relations}} \\
+  } & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\text{Trilateral relations}} \\
   \end{array}
   >$
 
@@ -615,7 +615,7 @@ $
   \end{array}
   } \\
   \end{array}
-  } & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-the-relationship-between-the-three-sides-of-a-triangle}{\text{Trilateral relations}} \\
+  } & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\text{Trilateral relations}} \\
   \end{array}
   >$
 
@@ -701,7 +701,7 @@ $
   \end{array}
   } \\
   \end{array}
-  } & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-the-relationship-between-the-three-sides-of-a-triangle}{\text{Trilateral relations}} \\
+  } & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\text{Trilateral relations}} \\
   \end{array}
   >$
 
@@ -781,7 +781,7 @@ $
   \end{array}
   } \\
   \end{array}
-  } & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-the-relationship-between-the-three-sides-of-a-triangle}{\text{Trilateral relations}} \\
+  } & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\text{Trilateral relations}} \\
   \frac{|AB-AC|}{2} < AD < \frac{AB+AC}{2}  & \text{The formula for the median range of the third side in a triangle} \\
   \end{array}
   >$

@@ -607,7 +607,7 @@ $
   >$
   \begin{array}{ll}
   (3,4,5)& \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Commonly used pythagorean numbers}} \\
-  a+b>c & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-the-relationship-between-the-three-sides-of-a-triangle}{\text{Trilateral relations}} \\
+  a+b>c & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\text{Trilateral relations}} \\
   \end{array}
   >$
 
@@ -715,7 +715,7 @@ $
   \angle1=\angle4 \\
   \angle2=\angle4 \\
   \angle1+\angle4=180^\circ \\
-  \end{cases} & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-parallel}{\text{Angle relationship}} \\
+  \end{cases} & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-a-parallel-line}{\text{Angle relationship}} \\
   S=\frac{a+b}{2}h & \href{/math/0%20Core%20courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_5-trapezoid}{\text{Trapezoid area formula}} \\
   \end{array}
   >$

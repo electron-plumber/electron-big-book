@@ -62,7 +62,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  a+b>c & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-the-relationship-between-the-three-sides-of-a-triangle}{\text{Triangle Inequality theorem}} \\
+  a+b>c & \href{/math/0%20Core%20courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\text{Triangle Inequality theorem}} \\
   \end{array}
   >$
 
