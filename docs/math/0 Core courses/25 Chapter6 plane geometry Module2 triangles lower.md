@@ -241,13 +241,13 @@ If two triangles have __the same shape and their sizes are proportional__, they'
 
 ### $\textcolor{#1E3A5F}{\fbox{2}}\:$Identification
 Similarity can be identified by __two pairs of corresponding interior angles being equal__.   
-![Similarity of triangle identification.svg](../../public/math/Core%20courses/Similarity%20of%20triangle%20identification.svg)    
+![Triangle similarity identification.svg](../../public/math/Core%20courses/Triangle%20similarity%20identification.svg)     
 
 ### $\textcolor{#1E3A5F}{\fbox{3}}\:$Properties
 1. In similar triangles, __the ratios of corresponding sides are equal__.  
    - Know as the similarity ratio: $\frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k$.  
 2. In similar triangles, __the ratio of the altitudes, medians, and angle bisectors are also equal to the similarity ratio__.    
-   ![Similarity of triangle properties.svg](../../public/math/Core%20courses/Similarity%20of%20triangle%20properties.svg)     
+   ![Triangle similarity properties.svg](../../public/math/Core%20courses/Triangle%20similarity%20properties.svg)       
 3. In similar triangles, __the ratio of the perimeters is equal to the similarity ratio__.  
    - $\frac{C_1}{C_2}=k$.
 4. In similar triangles, __the ratio of the area is equal to the square of the similarity ratio__. 
@@ -256,7 +256,7 @@ Similarity can be identified by __two pairs of corresponding interior angles bei
 
 ### $\textcolor{#1E3A5F}{\fbox{4}}\:$Applications
 - __When parallel lines appear, similarity should be used for analysis__.  
-  ![Similarity of triangle applications.svg](../../public/math/Core%20courses/Similarity%20of%20triangle%20applications.svg)    
+  ![Triangle similarity applications.svg](../../public/math/Core%20courses/Triangle%20similarity%20applications.svg)      
   __Remark__:
   The properties of similar triangles __can be fully extended to other similar figures__, such as __quadrilaterals__.  
 

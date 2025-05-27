@@ -22,7 +22,7 @@ lang: en-US
 
 - Application  
   When two sides and the angle are known, this formula can be used to calculate the area.  
-  ![Triangle basic area formulas figure 1.svg](../../public/math/Core%20courses/Triangle%20basic%20area%20formulas%20figure%201.svg)    
+  ![Triangle Area formula two sides angle.svg](../../public/math/Core%20courses/Triangle%20Area%20formula%20two%20sides%20angle.svg)     
 
 :::     
 
@@ -30,16 +30,16 @@ lang: en-US
 ### $\textcolor{#1E3A5F}{\fbox{3}\:}\: \small S=\sqrt{p(p-a)(p-b)(p-c)}$, where $\small p=\frac{1}{2}(a+b+c)$.
 - Application  
   When the three sides of a triangle are known, this formula can be used to calculate the area.
-  ![Triangle basic area formulas figure 2.svg](../../public/math/Core%20courses/Triangle%20basic%20area%20formulas%20figure%202.svg)    
+  ![Triangle area formula three sides.svg](../../public/math/Core%20courses/Triangle%20area%20formula%20three%20sides.svg)      
 
 :::   
 
 ## 6.Focus 3
 __Use the relationship between base and height to calculate area.__  
 - When two triangles have the same height, the ratio of their areas is equal to the ratio of their bases.    
-  ![Triangle Focus 6 figure 1.svg](../../public/math/Core%20courses/Triangle%20Focus%206%20figure%201.svg)    
+  ![Ratio of areas of two triangles with same height.svg](../../public/math/Core%20courses/Ratio%20of%20areas%20of%20two%20triangles%20with%20same%20height.svg)      
 - When two triangles have the same base, the ratio of their areas is equal to the ratio of their heights.   
-  ![Triangle Focus 6 figure 2.svg](../../public/math/Core%20courses/Triangle%20Focus%206%20figure%202.svg)    
+  ![Ratio of areas of two triangles with same base.svg](../../public/math/Core%20courses/Ratio%20of%20areas%20of%20two%20triangles%20with%20same%20base.svg)      
 - When two triangles have the same base and the same height, their areas are equal.      
 
 ::: wrap  
@@ -322,10 +322,10 @@ $
 - Commonly used pythagorean numbers $(3,4,5)$,$(6,8,10)$,$(5,12,13)$,$(7,24,25)$,$(8,15,17)$,$(9,12,15)$.    
   - The scaled pythagorean theorem $(ka)^2+(kb)^2=(kc)^2$.  
 - The ratio of the three sides of an isosceles right triangle is $1:1:\sqrt{2}$.  
-  ![The ratio of the three sides of an isosceles right triangle.svg](../../public/math/Core%20courses/The%20ratio%20of%20the%20three%20sides%20of%20an%20isosceles%20right%20triangle.svg)  
+  ![Side ratio of isosceles right triangle.svg](../../public/math/Core%20courses/Side%20ratio%20of%20isosceles%20right%20triangle.svg)   
 - The area of an isosceles right triangle is $S=\frac{1}{2}a^2=\frac{1}{4}c^2$, where $a$ is the length of the right angle side, and $c$ is the length of the hypotenuse.     
 - In a triangle with angles $30^\circ,60^\circ,90^\circ$, the sides are always in the ratio $1:\sqrt{3}:2$.   
-  ![In a triangle with angles 30-60-90 the sides are always in the ratio.svg](../../public/math/Core%20courses/In%20a%20triangle%20with%20angles%2030-60-90%20the%20sides%20are%20always%20in%20the%20ratio.svg)  
+  ![Triangle 30-60-90 side ratio.svg](../../public/math/Core%20courses/Triangle%2030-60-90%20side%20ratio.svg)    
 
 ### $\textcolor{#1E3A5F}{\fbox{2}}\:$ Equilateral Triangle
 - The ratio of the height to the side of an equilateral triangle is $\sqrt{3}:2=\frac{\sqrt{3}}{2}:1$.   
@@ -333,7 +333,7 @@ $
 - ###### The area of an equilateral triangle is $S=\frac{\sqrt{3}}{4}a^2$, where $a$ is the length of the side.  
   - $S=\frac{1}{2}a\times\frac{\sqrt{3}}{2}a=\frac{\sqrt{3}}{4}a^2$   
 
-![The area of an equilateral triangle.svg](../../public/math/Core%20courses/The%20area%20of%20an%20equilateral%20triangle.svg)  
+![Area of equilateral triangle.svg](../../public/math/Core%20courses/Area%20of%20equilateral%20triangle.svg)  
 
 ## 10.Bird's Head Theorem  
 ::: wrap
@@ -469,10 +469,10 @@ $
 ## 13.Focus 7
 __Solve area using the Swallowtail theorem (equal altitudes).__  
 - When a point inside a triangle is joined to each of the triangle's vertices, the __Swallowtail theorem__ can be applied for analysis.   
-  ![Solve area using the Swallowtail theorem.svg](../../public/math/Core%20courses/Solve%20area%20using%20the%20Swallowtail%20theorem.svg)  
+  ![Swallowtail theorem in triangle.svg](../../public/math/Core%20courses/Swallowtail%20theorem%20in%20triangle.svg)    
 - __Formula derivations__   
   ::: wrap    
-  ![Solve area using the Swallowtail theorem formula derivations.svg](../../public/math/Core%20courses/Solve%20area%20using%20the%20Swallowtail%20theorem%20formula%20derivations.svg)   
+  ![Swallowtail theorem formula derivations.svg](../../public/math/Core%20courses/Swallowtail%20theorem%20formula%20derivations.svg)    
 
   $
   \begin{array}{ll}

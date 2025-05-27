@@ -23,7 +23,7 @@ lang: en-US
   - Special case: The midpoint between point $p_1(x_1,y_1)$ and the origin $(0,0)$ is $(\frac{x_1}{2},\frac{y_1}{2})$.
   - __Formula derivations__   
     ::: wrap    
-    ![Coordinates of the midpoint between two points.svg](../../public/math/Core%20courses/Coordinates%20of%20the%20midpoint%20between%20two%20points.svg)   
+    ![Midpoint coordinates formula derivations.svg](../../public/math/Core%20courses/Midpoint%20coordinates%20formula%20derivations.svg)       
 
     $
     \begin{array}{ll}
@@ -41,7 +41,7 @@ lang: en-US
 - Special case: The distance between point $A(x,y)$ and the origin $(0,0)$ is $d=\sqrt{x^2+y^2}$.  
 - __Formula derivations__   
   ::: wrap    
-  ![Distance formula between two points.svg](../../public/math/Core%20courses/Distance%20formula%20between%20two%20points.svg)
+  ![Distance formula between two points derivations.svg](../../public/math/Core%20courses/Distance%20formula%20between%20two%20points%20derivations.svg)  
 
   $
   \begin{array}{ll}
@@ -239,5 +239,5 @@ $
 
 ## 1.Angle of Inclination
 - The angle formed between a straight line and the positive direction of the $x$-axis is called the angle of inclination, denoted as $\alpha$, where $\alpha \in [0, \pi)$.  
-  ![Angle of Inclination figure 7-3.svg](../../public/math/Core%20courses/Angle%20of%20Inclination%20figure%207-3.svg)  
+  ![Angle of inclination with x-axis figure 7-3.svg](../../public/math/Core%20courses/Angle%20of%20inclination%20with%20x-axis%20figure%207-3.svg)    
 - Note: When a line is horizontal, its angle of inclination is $0^\circ$. When a line is vertical, its angle of inclination is $90^\circ$.  

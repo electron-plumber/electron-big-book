@@ -9,12 +9,12 @@ lang: en-US
   - $\angle 1 \, \text{and} \, \angle 4$ are corresponding angles, corresponding angles are equal.  
   - $\angle 2 \, \text{and} \, \angle 4$ are alternate interior angles, alternate interior angles are equal.
   - $\angle 3 \, \text{and} \, \angle 4$ are adjacent interior angles, adjacent interior angles are supplementary.  
-  ![Angle between a straight line and parallel.svg](../../public/math/Core%20courses/Angle%20between%20a%20straight%20line%20and%20parallel.svg)  
+  ![Angle between line and parallel.svg](../../public/math/Core%20courses/Angle%20between%20line%20and%20parallel.svg)  
 
 ## 2.Segments Intercepted by a Set of Parallel Lines Are Proportional    
   - Up-down ratio $\frac{a}{b}=\frac{c}{d}$.  
   - Left-right ratio $\frac{a}{c}=\frac{b}{d}$.  
-  ![The segment intercepted by a set of parallel lines are proportional.svg](../../public/math/Core%20courses/The%20segment%20intercepted%20by%20a%20set%20of%20parallel%20lines%20are%20proportional.svg)
+  ![Proportional segments parallel lines.svg](../../public/math/Core%20courses/Proportional%20segments%20parallel%20lines.svg)   
 
 
 ## 3.Focus 1
@@ -285,7 +285,7 @@ $
 ## 1.Sum of Interior Angles of a Triangle
 $\angle1+\angle2+\angle3=\pi$,
 the exterior angle of a triangle is equal to the sum of its two non-adjacent interior angles.  
-![Sum of interior angles of a triangle.svg](../../public/math/Core%20courses/Sum%20of%20interior%20angles%20of%20a%20triangle.svg)  
+![Triangle interior angle sum.svg](../../public/math/Core%20courses/Triangle%20interior%20angle%20sum.svg)   
 
 ## 2.Relationship Between the Three Sides of a Triangle  
 - The sum of any two sides is greater than the third side, then $a+b>c$.  
@@ -722,7 +722,7 @@ $
 #### Solution
 ::: wrap  
 - Show trilateral relations  
-  ![Question triangle figure Q-11-1 solve-1.svg](../../public/math/Core%20courses/Question%20triangle%20figure%20Q-11-1%20solve-1.svg)  
+  ![Question triangle figure Q-11 solve-1.svg](../../public/math/Core%20courses/Question%20triangle%20figure%20Q-11%20solve-1.svg)   
 
   $
   \begin{array}{ll}
@@ -791,11 +791,11 @@ $
   ::: wrap  
 
   >- $\angle A \rightarrow 0^\circ$  
-   ![Question triangle figure Q-11-2 solve-1.svg](../../public/math/Core%20courses/Question%20triangle%20figure%20Q-11-2%20solve-1.svg)  
+   ![Question triangle figure Q-11 solve-2.svg](../../public/math/Core%20courses/Question%20triangle%20figure%20Q-11%20solve-2.svg)  
    Note that D is the midpoint of BC.  
    $AD \rightarrow 4$
   >- $\angle A \rightarrow 180^\circ$  
-   ![Question triangle figure Q-11-2 solve-2.svg](../../public/math/Core%20courses/Question%20triangle%20figure%20Q-11-2%20solve-2.svg)  
+   ![Question triangle figure Q-11 solve-3.svg](../../public/math/Core%20courses/Question%20triangle%20figure%20Q-11%20solve-3.svg)   
    $AD \rightarrow 1$  
   ---
   >$
