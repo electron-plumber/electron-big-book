@@ -47,7 +47,7 @@ on the other hand,
 the proportional relationship of the diagonal corresponding to the area can also be obtained.
 
 
-### $\textcolor{#1E3A5F}{\fbox{1}}\:$Proportional relations in any quadrilateral (Figure 6–23)   
+### $\textcolor{#1E3A5F}{\fbox{1}}\:$Proportional Relations in Any Quadrilateral (Figure 6–23)   
 ![Butterfly theorem figure 6–23.svg](../../public/math/Core%20courses/Butterfly%20theorem%20figure%206%E2%80%9323.svg)   
 ::: wrap   
 1. $\frac{S_1}{S_2}=\frac{S_4}{S_3}=\frac{OD}{OB}$   
@@ -63,7 +63,7 @@ the proportional relationship of the diagonal corresponding to the area can also
    ![Butterfly theorem figure 6–23 solve-2.svg](../../public/math/Core%20courses/Butterfly%20theorem%20figure%206%E2%80%9323%20solve-2.svg)     
 :::  
 
-### $\textcolor{#1E3A5F}{\fbox{2}}\:$The Butterfly theorem of Trapezoid and similar proportions (Figure 6–24)   
+### $\textcolor{#1E3A5F}{\fbox{2}}\:$The Butterfly Theorem of Trapezoid and Similar Proportions (Figure 6–24)   
 ![Butterfly theorem figure 6–24.svg](../../public/math/Core%20courses/Butterfly%20theorem%20figure%206%E2%80%9324.svg)  
 ::: wrap  
 1. $\overbrace{\frac{S_1}{S_2}=\frac{S_4}{S_3}=\frac{OD}{OB}}^{\text{General property of any quadrilateral}} = \frac{a}{b}$.    

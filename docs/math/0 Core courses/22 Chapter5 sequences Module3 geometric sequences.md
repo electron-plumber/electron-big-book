@@ -3,7 +3,7 @@ title: Chapter5 sequences Module3 geometric sequences
 lang: en-US
 ---
 
-# Module 5-03 Geometric sequence
+# Module 5-03 Geometric Sequence
 
 ## 1.Definition  
 ::: wrap  
@@ -21,7 +21,7 @@ Essence: ratio value is constant (common ratio), relationship of multiples.
 
 
 
-## 2.General term  
+## 2.General Term  
 ::: wrap  
 $$\mathbf{a_n=a_1q^{n-1}=a_{k}q^{n-k}=\frac{a_1}{q}q^n}$$
 
@@ -78,7 +78,7 @@ $
 | $a_n=\frac{a_1}{q}q^n$ | Need to know $a_1$ and $q$ to use, No constant term                       | $a_n=2 \times 3^{n}$ |
 
 
-## 3.Sum of the first n terms  
+## 3.Sum of the First N Terms  
 ::: wrap  
 $$
 \mathbf{
@@ -133,7 +133,7 @@ $
 ---
 
 
-## 4.Important properties
+## 4.Important Properties
 ::: wrap  
 1. __If $m+n=k+t \,\fbox{Arithmetic sequence}$ then $a_ma_n=a_ka_t \, \fbox{Geometric sequence}$.__
    $

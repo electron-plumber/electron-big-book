@@ -3,15 +3,15 @@ title: Chapter6 plane geometry Module1 parallel lines Module2 triangles upper
 lang: en-US
 ---
 
-# Module 5-03 Parallel lines
+# Module 5-03 Parallel Lines
 
-## 1.Angle between a straight line and parallel     
+## 1.Angle Between a Straight Line and a parallel Line   
   - $\angle 1 \, \text{and} \, \angle 4$ are corresponding angles, corresponding angles are equal.  
   - $\angle 2 \, \text{and} \, \angle 4$ are alternate interior angles, alternate interior angles are equal.
   - $\angle 3 \, \text{and} \, \angle 4$ are adjacent interior angles, adjacent interior angles are supplementary.  
   ![Angle between a straight line and parallel.svg](../../public/math/Core%20courses/Angle%20between%20a%20straight%20line%20and%20parallel.svg)  
 
-## 2.The segments intercepted by a set of parallel lines are proportional    
+## 2.Segments Intercepted by a Set of Parallel Lines Are Proportional    
   - Up-down ratio $\frac{a}{b}=\frac{c}{d}$.  
   - Left-right ratio $\frac{a}{c}=\frac{b}{d}$.  
   ![The segment intercepted by a set of parallel lines are proportional.svg](../../public/math/Core%20courses/The%20segment%20intercepted%20by%20a%20set%20of%20parallel%20lines%20are%20proportional.svg)
@@ -282,12 +282,12 @@ $
 
 # Module 6-02 Triangle  
 
-## 1.Sum of interior angles of a triangle
+## 1.Sum of Interior Angles of a Triangle
 $\angle1+\angle2+\angle3=\pi$,
 the exterior angle of a triangle is equal to the sum of its two non-adjacent interior angles.  
 ![Sum of interior angles of a triangle.svg](../../public/math/Core%20courses/Sum%20of%20interior%20angles%20of%20a%20triangle.svg)  
 
-## 2.The relationship between the three sides of a triangle  
+## 2.Relationship Between the Three Sides of a Triangle  
 - The sum of any two sides is greater than the third side, then $a+b>c$.  
   $a+b>c, a+c>b, b+c>a$  
 - The difference between any two sides is less than the third side, then $|a-b|<c$.  
