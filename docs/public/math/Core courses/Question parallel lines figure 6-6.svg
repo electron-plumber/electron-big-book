@@ -1,42 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 455.42 341.87" width="256" height="168">
-  <defs>
-    <style>
-      .cls-1 {
-      fill: #008cdc;
-      font-family: MyriadPro-Regular, 'Myriad Pro';
-      font-size: 24px;
-      }
-
-      .cls-2 {
-      letter-spacing: 0em;
-      }
-
-      .cls-3 {
-      fill: none;
-      stroke: #337ecc;
-      stroke-miterlimit: 10;
-      stroke-width: 3px;
-      }
-
-      .cls-4 {
-      letter-spacing: -.03em;
-      }
-
-      .cls-5 {
-      letter-spacing: 0em;
-      }
-    </style>
-  </defs>
-  <line class="cls-3" x1="16.98" y1="307.69" x2="423.84" y2="307.69"/>
-  <line class="cls-3" x1="16.98" y1="307.69" x2="61.55" y2="21.08"/>
-  <line class="cls-3" x1="423.84" y1="307.69" x2="61.55" y2="21.08"/>
-  <line class="cls-3" x1="16.98" y1="307.69" x2="435.65" y2="149.11"/>
-  <line class="cls-3" x1="423.84" y1="307.69" x2="435.65" y2="149.11"/>
-  <text class="cls-1" transform="translate(45.91 20.09)"><tspan x="0" y="0">B</tspan></text>
-  <text class="cls-1" transform="translate(281.93 233.82)"><tspan x="0" y="0">D</tspan></text>
-  <text class="cls-1" transform="translate(436.12 142.83)"><tspan x="0" y="0">M</tspan></text>
-  <text class="cls-1" transform="translate(0 317.66)"><tspan x="0" y="0">A</tspan></text>
-  <text class="cls-1" transform="translate(429.74 314.49)"><tspan x="0" y="0">C</tspan></text>
-  <text class="cls-1" transform="translate(201.89 335.87)"><tspan class="cls-4" x="0" y="0">F</tspan><tspan x="11.06" y="0">igu</tspan><tspan class="cls-5" x="43.32" y="0">r</tspan><tspan class="cls-2" x="50.93" y="0">e 6–6</tspan></text>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="256" height="168" viewBox="0 0 958 780" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(66.6667,0,0,66.6667,142.412,47.7214)">
+    </g>
+  <text x="97.946px" y="47.721px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:66.667px;fill:#008cdc;">B</text>
+  <g transform="matrix(66.6667,0,0,66.6667,635.788,502.73)">
+    </g>
+  <text x="587.644px" y="502.73px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:66.667px;fill:#008cdc;">D</text>
+  <g transform="matrix(66.6667,0,0,66.6667,962.349,294.558)">
+    </g>
+  <text x="906.815px" y="294.558px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:66.667px;fill:#008cdc;">M</text>
+  <g transform="matrix(66.6667,0,0,66.6667,947.595,671.601)">
+    </g>
+  <text x="899.45px" y="671.601px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:66.667px;fill:#008cdc;">C</text>
+  <g transform="matrix(66.6667,0,0,66.6667,44.5638,672.298)">
+    </g>
+  <text x="0.098px" y="672.298px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:66.667px;fill:#008cdc;">A</text>
+  <path d="M52.244,643.246l833.071,-0" style="fill:none;fill-rule:nonzero;stroke:#337ecc;stroke-width:8.33px;"/>
+  <path d="M52.244,643.246l91.26,-586.852" style="fill:none;fill-rule:nonzero;stroke:#337ecc;stroke-width:8.33px;"/>
+  <path d="M885.315,643.246l-741.811,-586.852" style="fill:none;fill-rule:nonzero;stroke:#337ecc;stroke-width:8.33px;"/>
+  <path d="M52.244,643.246l857.253,-324.703" style="fill:none;fill-rule:nonzero;stroke:#337ecc;stroke-width:8.33px;"/>
+  <path d="M885.315,643.246l24.182,-324.703" style="fill:none;fill-rule:nonzero;stroke:#337ecc;stroke-width:8.33px;"/>
+  <g transform="matrix(66.6667,0,0,66.6667,671.043,765.106)">
+    </g>
+  <text x="352.326px" y="765.106px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:66.667px;fill:#1e3a5f;">Figure 6–6</text>
+  <path d="M-2540.07,1340.14l921.111,-854.534" style="fill:none;stroke:#ff7bac;stroke-width:12.5px;stroke-linejoin:round;"/>
 </svg>

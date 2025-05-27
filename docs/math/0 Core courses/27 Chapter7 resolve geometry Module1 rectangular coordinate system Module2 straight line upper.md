@@ -234,3 +234,10 @@ $
 
   :::
 ---
+
+# Module 7–02 Straight Line
+
+## 1.Angle of Inclination
+- The angle formed between a straight line and the positive direction of the $x$-axis is called the angle of inclination, denoted as $\alpha$, where $\alpha \in [0, \pi)$.  
+  ![Angle of Inclination figure 7-3.svg](../../public/math/Core%20courses/Angle%20of%20Inclination%20figure%207-3.svg)  
+- Note: When a line is horizontal, its angle of inclination is $0^\circ$. When a line is vertical, its angle of inclination is $90^\circ$.  

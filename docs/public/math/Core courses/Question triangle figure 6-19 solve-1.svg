@@ -1,64 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="190" height="210" viewBox="0 0 1525 1604" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g transform="matrix(100,0,0,100,464.246,934.897)">
-    </g>
-  <text x="397.546px" y="934.897px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:100px;fill:#8dcc33;">E</text>
-  <g transform="matrix(100,0,0,100,1528.9,1512.83)">
-    </g>
-  <text x="1456.69px" y="1512.83px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:100px;fill:#8dcc33;">C</text>
-  <g transform="matrix(100,0,0,100,59.375,1514.05)">
-    </g>
-  <text x="-7.324px" y="1514.05px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:100px;fill:#8dcc33;">B</text>
-  <g transform="matrix(58.3333,0,0,58.3333,1075.53,220.598)">
-    </g>
-  <text x="1043.08px" y="220.598px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:58.333px;fill:#ff7bac;">1</text>
-  <g transform="matrix(58.3333,0,0,58.3333,1067.89,1217.16)">
-    </g>
-  <text x="1035.45px" y="1217.16px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:58.333px;fill:#ff7bac;">2</text>
-  <g transform="matrix(75,0,0,75,792.337,1175.24)">
-    </g>
-  <text x="750.626px" y="1175.24px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:75px;fill:#96f;">3</text>
-  <g transform="matrix(75,0,0,75,757.401,545.675)">
-    </g>
-  <text x="715.689px" y="545.675px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:75px;fill:#96f;">4</text>
-  <g transform="matrix(75,0,0,75,263.59,1230.09)">
-    </g>
-  <text x="221.879px" y="1230.09px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:75px;fill:#96f;">3</text>
-  <g transform="matrix(58.3333,0,0,58.3333,1147.66,1392.07)">
-    </g>
-  <text x="1115.22px" y="1392.07px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:58.333px;fill:#ff7bac;">3</text>
-  <g transform="matrix(58.3333,0,0,58.3333,1337.53,1491.22)">
-    </g>
-  <text x="1305.08px" y="1491.22px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:58.333px;fill:#ff7bac;">4</text>
-  <g transform="matrix(100,0,0,100,1183.46,1280.02)">
-    </g>
-  <text x="1111.24px" y="1280.02px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:100px;fill:#8dcc33;">H</text>
-  <g transform="matrix(100,0,0,100,1124.57,1603.21)">
-    </g>
-  <text x="1052.35px" y="1603.21px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:100px;fill:#8dcc33;">D</text>
-  <g transform="matrix(100,0,0,100,1123.28,71.582)">
-    </g>
-  <text x="1056.58px" y="71.582px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:100px;fill:#8dcc33;">A</text>
-  <path d="M1432.6,1498.92l-340.575,-1400.28" style="fill:none;stroke:#0dcaf2;stroke-width:12.5px;"/>
-  <path d="M1432.6,1498.92l-937.137,-563.52" style="fill:none;stroke:#fc0;stroke-width:12.5px;"/>
-  <path d="M1424.38,1479.98l-332.351,-199.85" style="fill:none;stroke:#0dcaf2;stroke-width:12.5px;"/>
-  <path d="M1092.03,1280.13l-588.956,-354.152" style="fill:none;stroke:#33cc7b;stroke-width:12.5px;"/>
-  <path d="M526.866,958.392l-23.954,33.587" style="fill:none;stroke:#0dcaf2;stroke-width:12.5px;"/>
-  <path d="M468.274,972.86l32.811,20.212" style="fill:none;stroke:#0dcaf2;stroke-width:12.5px;"/>
-  <path d="M1085.75,1446.43l-43.772,-1.112" style="fill:none;stroke:#0dcaf2;stroke-width:12.5px;"/>
-  <path d="M1041.98,1445.31l-0,44.433" style="fill:none;stroke:#0dcaf2;stroke-width:12.5px;"/>
-  <path d="M1092.03,1280.02l0,-1181.38" style="fill:none;stroke:#33cc7b;stroke-width:12.5px;"/>
-  <path d="M1092.03,1494.61l0,-190.871" style="fill:none;stroke:#0dcaf2;stroke-width:12.5px;"/>
-  <path d="M1092.03,98.642l-597.147,827.334" style="fill:none;stroke:#33cc7b;stroke-width:12.5px;"/>
-  <path d="M488.074,935.403l-403.623,559.21" style="fill:none;stroke:#fc0;stroke-width:12.5px;"/>
-  <path d="M1432.6,1498.92l-1348.15,-4.31" style="fill:none;stroke:#fc0;stroke-width:12.5px;"/>
-  <path d="M1055.99,155.522l4.023,-5.462c6.625,4.879 14.638,7.512 22.866,7.512c1.036,-0 2.071,-0.042 3.104,-0.125l0.546,6.762c-1.214,0.098 -2.432,0.148 -3.65,0.148c-9.676,-0 -19.099,-3.096 -26.889,-8.835Z" style="fill:#f33;"/>
-  <path d="M1055.99,155.522l4.023,-5.462c6.625,4.879 14.638,7.512 22.866,7.512c1.036,-0 2.071,-0.042 3.104,-0.125l0.546,6.762c-1.214,0.098 -2.432,0.148 -3.65,0.148c-9.676,-0 -19.099,-3.096 -26.889,-8.835Zm2.55,-0.414c2.239,1.516 6.507,4.091 12.396,5.771c5.919,1.688 10.929,1.747 13.642,1.636l-0.255,-3.162c-2.539,0.095 -7.12,0.018 -12.517,-1.522c-5.369,-1.532 -9.284,-3.865 -11.385,-5.277l-1.881,2.554Z" style="fill:#ff7bac;"/>
-  <path d="M1097.84,1350.14l-0.103,-6.784c12.355,-0.188 23.871,-6.286 30.971,-16.4c0.595,-0.848 1.155,-1.72 1.68,-2.612l5.849,3.438c-0.617,1.05 -1.276,2.075 -1.976,3.071c-8.348,11.894 -21.892,19.066 -36.421,19.287Z" style="fill:#f33;"/>
-  <path d="M1097.84,1350.14l-0.103,-6.784c12.355,-0.188 23.871,-6.286 30.971,-16.4c0.595,-0.848 1.155,-1.72 1.68,-2.612l5.849,3.438c-0.617,1.05 -1.276,2.075 -1.976,3.071c-8.348,11.894 -21.892,19.066 -36.421,19.287Zm1.779,-1.873c3.655,-0.2 11.354,-1.097 19.57,-5.92c8.078,-4.743 12.579,-10.89 14.54,-13.943l-2.734,-1.607c-1.851,2.861 -6.013,8.474 -13.411,12.817c-7.523,4.416 -14.577,5.281 -18.013,5.481l0.048,3.172Z" style="fill:#ff7bac;"/>
-  <path d="M1372.42,1470.26l6.038,3.096c-2.938,5.728 -4.394,12.099 -4.237,18.534l-6.783,0.165c-0.184,-7.567 1.528,-15.059 4.982,-21.795Z" style="fill:#f33;"/>
-  <path d="M1372.42,1470.26l6.038,3.096c-2.938,5.728 -4.394,12.099 -4.237,18.534l-6.783,0.165c-0.184,-7.567 1.528,-15.059 4.982,-21.795Zm0.818,2.451c-0.818,1.769 -2.047,4.758 -2.911,8.538c-0.864,3.779 -1.056,7.005 -1.088,8.954l3.187,-0.078c0.138,-5.839 1.235,-10.64 3.649,-15.959l-2.837,-1.455Z" style="fill:#ff7bac;"/>
-  <path d="M1085.38,1221.35l-0.374,6.775c-8.216,-0.454 -16.362,1.733 -23.246,6.24c-4.745,3.107 -8.747,7.223 -11.719,12.054l-5.779,-3.555c3.496,-5.681 8.201,-10.522 13.782,-14.175c8.095,-5.301 17.674,-7.872 27.336,-7.339Z" style="fill:#f33;"/>
-  <path d="M1085.38,1221.35l-0.374,6.775c-8.216,-0.454 -16.362,1.733 -23.246,6.24c-4.745,3.107 -8.747,7.223 -11.719,12.054l-5.779,-3.555c3.496,-5.681 8.201,-10.522 13.782,-14.175c8.095,-5.301 17.674,-7.872 27.336,-7.339Zm-1.906,1.725c-5.356,-0.086 -21.44,0.905 -33.812,15.411c-1.099,1.288 -2.138,2.741 -2.867,3.814l2.688,1.653c2.083,-3.079 6.897,-9.246 15.472,-13.496c7.81,-3.871 14.901,-4.238 18.343,-4.196l0.176,-3.186Z" style="fill:#ff7bac;"/>
+<svg width="190" height="210" viewBox="0 0 792 875" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <text x="206.376px" y="506.49px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:51.913px;fill:#8dcc33;">E</text>
+  <text x="756.205px" y="806.51px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:51.913px;fill:#8dcc33;">C</text>
+  <text x="-3.802px" y="807.143px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:51.913px;fill:#8dcc33;">B</text>
+  <text x="541.49px" y="135.679px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30.282px;fill:#ff7bac;">1</text>
+  <text x="537.529px" y="653.02px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30.282px;fill:#ff7bac;">2</text>
+  <text x="389.669px" y="631.258px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:38.934px;fill:#96f;">3</text>
+  <text x="371.533px" y="304.435px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:38.934px;fill:#96f;">4</text>
+  <text x="115.183px" y="659.733px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:38.934px;fill:#96f;">3</text>
+  <text x="578.939px" y="743.82px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30.282px;fill:#ff7bac;">3</text>
+  <text x="677.501px" y="795.292px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30.282px;fill:#ff7bac;">4</text>
+  <text x="576.873px" y="685.652px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:51.913px;fill:#8dcc33;">H</text>
+  <text x="546.302px" y="853.429px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:51.913px;fill:#8dcc33;">D</text>
+  <text x="548.498px" y="58.321px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:51.913px;fill:#8dcc33;">A</text>
+  <path d="M743.699,799.289l-176.801,-726.921" style="fill:none;stroke:#0dcaf2;stroke-width:6.49px;"/>
+  <path d="M743.699,799.289l-486.491,-292.538" style="fill:none;stroke:#fc0;stroke-width:6.49px;"/>
+  <path d="M739.432,789.457l-172.532,-103.747" style="fill:none;stroke:#0dcaf2;stroke-width:6.49px;"/>
+  <path d="M566.901,685.71l-308.5,-185.508" style="fill:none;stroke:#33cc7b;stroke-width:6.55px;"/>
+  <path d="M273.51,518.687l-12.435,17.436" style="fill:none;stroke:#0dcaf2;stroke-width:6.49px;"/>
+  <path d="M243.093,526.198l17.033,10.492" style="fill:none;stroke:#0dcaf2;stroke-width:6.49px;"/>
+  <path d="M563.641,772.04l-22.723,-0.577" style="fill:none;stroke:#0dcaf2;stroke-width:6.49px;"/>
+  <path d="M540.919,771.459l-0,23.066" style="fill:none;stroke:#0dcaf2;stroke-width:6.49px;"/>
+  <path d="M566.901,685.652l-0,-613.284" style="fill:none;stroke:#33cc7b;stroke-width:6.49px;"/>
+  <path d="M566.901,797.052l-0,-99.086" style="fill:none;stroke:#0dcaf2;stroke-width:6.49px;"/>
+  <path d="M566.901,72.369l-308.979,428.083" style="fill:none;stroke:#33cc7b;stroke-width:6.47px;"/>
+  <path d="M254.602,505.048l-210.761,292.005" style="fill:none;stroke:#fc0;stroke-width:6.53px;"/>
+  <path d="M743.699,799.289l-699.859,-2.237" style="fill:none;stroke:#fc0;stroke-width:6.49px;"/>
+  <path d="M548.192,101.897l2.088,-2.836c3.439,2.533 7.599,3.9 11.87,3.9c0.538,-0 1.075,-0.022 1.612,-0.065l0.283,3.51c-0.63,0.051 -1.262,0.077 -1.895,0.077c-5.023,0 -9.914,-1.607 -13.958,-4.586Z" style="fill:#f33;"/>
+  <path d="M548.192,101.897l2.088,-2.836c3.439,2.533 7.599,3.9 11.87,3.9c0.538,-0 1.075,-0.022 1.612,-0.065l0.283,3.51c-0.63,0.051 -1.262,0.077 -1.895,0.077c-5.023,0 -9.914,-1.607 -13.958,-4.586Zm1.323,-0.215c1.163,0.787 3.378,2.123 6.435,2.996c3.073,0.876 5.674,0.907 7.082,0.849l-0.132,-1.642c-1.318,0.05 -3.696,0.01 -6.498,-0.79c-2.787,-0.795 -4.82,-2.006 -5.91,-2.739l-0.977,1.326Z" style="fill:#ff7bac;"/>
+  <path d="M569.917,722.054l-0.054,-3.522c6.414,-0.098 12.393,-3.263 16.078,-8.514c0.309,-0.44 0.6,-0.893 0.872,-1.356l3.037,1.785c-0.32,0.545 -0.663,1.077 -1.026,1.594c-4.334,6.175 -11.365,9.898 -18.907,10.013Z" style="fill:#f33;"/>
+  <path d="M569.917,722.054l-0.054,-3.522c6.414,-0.098 12.393,-3.263 16.078,-8.514c0.309,-0.44 0.6,-0.893 0.872,-1.356l3.037,1.785c-0.32,0.545 -0.663,1.077 -1.026,1.594c-4.334,6.175 -11.365,9.898 -18.907,10.013Zm0.923,-0.973c1.898,-0.104 5.895,-0.569 10.16,-3.073c4.193,-2.462 6.53,-5.653 7.548,-7.238l-1.419,-0.834c-0.961,1.485 -3.122,4.399 -6.962,6.653c-3.906,2.293 -7.568,2.742 -9.351,2.846l0.024,1.646Z" style="fill:#ff7bac;"/>
+  <path d="M712.458,784.411l3.135,1.607c-1.525,2.974 -2.281,6.281 -2.2,9.622l-3.521,0.085c-0.095,-3.928 0.793,-7.817 2.586,-11.314Z" style="fill:#f33;"/>
+  <path d="M712.458,784.411l3.135,1.607c-1.525,2.974 -2.281,6.281 -2.2,9.622l-3.521,0.085c-0.095,-3.928 0.793,-7.817 2.586,-11.314Zm0.425,1.272c-0.425,0.919 -1.063,2.47 -1.511,4.433c-0.449,1.961 -0.548,3.636 -0.565,4.648l1.655,-0.041c0.071,-3.031 0.641,-5.523 1.894,-8.284l-1.473,-0.756Z" style="fill:#ff7bac;"/>
+  <path d="M563.449,655.195l-0.195,3.517c-4.265,-0.235 -8.493,0.9 -12.067,3.24c-2.463,1.613 -4.541,3.749 -6.084,6.257l-3,-1.845c1.815,-2.949 4.258,-5.462 7.155,-7.359c4.202,-2.752 9.175,-4.086 14.191,-3.81Z" style="fill:#f33;"/>
+  <path d="M563.449,655.195l-0.195,3.517c-4.265,-0.235 -8.493,0.9 -12.067,3.24c-2.463,1.613 -4.541,3.749 -6.084,6.257l-3,-1.845c1.815,-2.949 4.258,-5.462 7.155,-7.359c4.202,-2.752 9.175,-4.086 14.191,-3.81Zm-0.99,0.896c-2.78,-0.045 -11.13,0.47 -17.552,8c-0.571,0.669 -1.11,1.423 -1.489,1.98l1.396,0.858c1.081,-1.598 3.58,-4.8 8.031,-7.006c4.055,-2.01 7.736,-2.2 9.523,-2.178l0.091,-1.654Z" style="fill:#ff7bac;"/>
 </svg>

@@ -1,45 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="256" height="168" viewBox="0 0 256 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+<svg width="256" height="168" viewBox="0 0 1067 700" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
     <g>
         <g>
             <g>
-                <clipPath id="_clip1">
-                    <path d="M60.489,112.193c-0,0.569 -0.462,1.031 -1.03,1.031c-0.569,-0.001 -1.03,-0.462 -1.03,-1.031l-0,-109.843c-0,-0.569 0.461,-1.03 1.03,-1.031c0.569,0.001 1.03,0.462 1.03,1.03l-0,109.844Z"/>
-                </clipPath>
-              <g clip-path="url(#_clip1)">
-                    <g>
-                        <use id="_Image2_" serif:id="_Image2" xlink:href="#_Image2" x="0" y="0" width="13px" height="679px" transform="matrix(1.07148,-3.25107e-06,-1.58766e-07,0.999359,58.4285,1.31962)"/>
+                <g>
+                    <clipPath id="_clip1">
+                        <path d="M252.038,546.638c-0.001,2.37 -1.926,4.295 -4.292,4.295c-2.371,-0.004 -4.292,-1.925 -4.292,-4.295l0,-457.68c0,-2.371 1.921,-4.291 4.292,-4.296c2.371,0.005 4.291,1.925 4.291,4.292l0,457.683Z"/>
+                    </clipPath>
+                  <g clip-path="url(#_clip1)">
+                        <g>
+                            <use id="_Image2_" serif:id="_Image2" xlink:href="#_Image2" x="0" y="0" width="2px" height="112px" transform="matrix(4.4645,-1.35461e-05,-6.61525e-07,4.164,243.452,84.6651)"/>
+                        </g>
                     </g>
                 </g>
             </g>
         </g>
       <g>
-            <text x="14.743px" y="57.334px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:17.729px;fill:#0dcaf2;">a</text>
+            <text x="61.429px" y="318.058px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:73.871px;fill:#0dcaf2;">a</text>
         </g>
       <g>
-            <g>
-                <use id="_Image3_" serif:id="_Image3" xlink:href="#_Image3" x="0" y="0" width="45px" height="73px" transform="matrix(1.0597,0,0,1.00279,104.903,117.6)"/>
-            </g>
+            <path id="MJX-101-TEX-I-1D44F" d="M455.083,569.765c-0,-0.473 0.107,-1.016 0.322,-1.631c0.216,-0.615 0.539,-0.922 0.969,-0.922c0.054,-0 1.991,-0.118 5.812,-0.355c3.82,-0.236 5.784,-0.378 5.892,-0.425c0.645,-0 0.968,0.213 0.968,0.638c0,0.426 -0.914,3.806 -2.744,10.142c-0.43,1.607 -0.888,3.262 -1.372,4.964c-0.484,1.703 -0.888,2.979 -1.211,3.83l-0.323,1.348c0,0.142 0.162,0.071 0.485,-0.213c2.636,-1.891 5.354,-2.837 8.152,-2.837c3.336,0 6.027,1.088 8.071,3.263c2.045,2.174 3.094,4.917 3.148,8.226c0,5.249 -2.125,10 -6.376,14.256c-4.251,4.255 -8.825,6.383 -13.722,6.383c-2.69,-0 -5.139,-0.899 -7.345,-2.695c-2.206,-1.797 -3.336,-4.705 -3.39,-8.724l-0,-0.638c-0,-0.993 0.215,-2.364 0.646,-4.113c0.43,-1.75 1.749,-6.407 3.955,-13.972c2.69,-9.315 4.036,-14.255 4.036,-14.823c-0,-0.567 -1.023,-0.898 -3.068,-0.993l-2.098,0c-0.162,0 -0.35,-0.071 -0.565,-0.212c-0.216,-0.142 -0.296,-0.308 -0.242,-0.497Zm21.228,22.837l-0,-0.426c-0,-3.498 -1.641,-5.248 -4.924,-5.248c-0.915,0 -1.856,0.189 -2.825,0.568c-0.969,0.378 -1.856,0.874 -2.664,1.489c-0.807,0.615 -1.506,1.182 -2.098,1.702c-0.592,0.52 -1.076,1.04 -1.453,1.56l-0.484,0.568l-1.695,6.099c-1.184,4.066 -1.776,6.95 -1.776,8.653c-0,2.269 0.646,3.971 1.937,5.106c0.861,0.756 1.937,1.135 3.229,1.135c1.775,-0 3.578,-0.757 5.408,-2.27c1.345,-1.087 2.421,-2.411 3.228,-3.971c0.807,-1.561 1.695,-4.043 2.664,-7.447c0.968,-3.405 1.453,-5.91 1.453,-7.518Z" style="fill:#0dcaf2;fill-rule:nonzero;"/>
         </g>
       <g>
-            <path d="M58.634,1.033l-57.604,111.114" style="fill:none;stroke:#33cc7b;stroke-width:2.06px;"/>
+            <path d="M244.308,83.471l-240.016,462.975" style="fill:none;stroke:#33cc7b;stroke-width:8.58px;"/>
         </g>
       <g>
-            <path d="M254.854,2.352l-57.604,111.114" style="fill:none;stroke:#33cc7b;stroke-width:2.06px;"/>
+            <path d="M1061.89,88.967l-240.017,462.975" style="fill:none;stroke:#33cc7b;stroke-width:8.58px;"/>
         </g>
       <g>
-            <path d="M197.085,113.761l-196.055,-1.566" style="fill:none;stroke:#33cc7b;stroke-width:2.06px;"/>
+            <path d="M821.188,553.171l-816.896,-6.525" style="fill:none;stroke:#33cc7b;stroke-width:8.58px;"/>
         </g>
       <g>
-            <path d="M58.634,1.03l196.22,1.319" style="fill:none;stroke:#33cc7b;stroke-width:2.06px;"/>
+            <path d="M244.308,83.458l817.584,5.496" style="fill:none;stroke:#33cc7b;stroke-width:8.58px;"/>
         </g>
       <g>
-            <text x="62.292px" y="54.814px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:9.616px;fill:#ff7bac;">h</text>
+            <text x="259.55px" y="307.558px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:40.067px;fill:#ff7bac;">h</text>
         </g>
     </g>
   <defs>
         <image id="_Image2" width="2px" height="112px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAABwCAYAAAA0XKHuAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAHUlEQVQokWP8X73mPwMDAwMTAxSMMkYZo4zhygAAF30EBcXEa3IAAAAASUVORK5CYII="/>
-    <image id="_Image3" width="7px" height="12px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAMCAYAAACulacQAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA40lEQVQYlW2PP0vDcBiEn/dNrH/aEuni5Obq5GAH0UUXUQRxE7+EH8VR/AaCi+LkbhulH0A3wUWnpBAkTX7nUAsRetNxDwd3dNNc7ZfxPnPk88KZ4pnpDPLF2unVUcjKrdWi0VTPnIcYnluVpe1BdsarptDEjaS3WlwCI3e7XinHm9ZNc0m6DeK86CeTpWHWiuEeWHaAWlwV/WQC8LOdlLg/AjsxgC1EH82VJn1jZtNBoV5vQsEaUDmAB7v4/1CnQeHp76eOO8PsC2MEdoK0IWfXJX2WkR0Ah4bdIe0FcWSVvf8CErxZhDszJGIAAAAASUVORK5CYII="/>
     </defs>
 </svg>

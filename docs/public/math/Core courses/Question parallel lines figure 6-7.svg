@@ -1,50 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 281.81 256.36" width="216" height="168">
-  <defs>
-    <style>
-      .cls-1 {
-      letter-spacing: 0em;
-      }
-
-      .cls-2 {
-      fill: #008cdc;
-      }
-
-      .cls-2, .cls-3 {
-      font-family: MyriadPro-Regular, 'Myriad Pro';
-      font-size: 24px;
-      }
-
-      .cls-4 {
-      fill: none;
-      stroke: #337ecc;
-      stroke-miterlimit: 10;
-      stroke-width: 3px;
-      }
-
-      .cls-3 {
-      fill: #337ecc;
-      }
-
-      .cls-5 {
-      letter-spacing: -.03em;
-      }
-
-      .cls-6 {
-      letter-spacing: -.01em;
-      }
-    </style>
-  </defs>
-  <line class="cls-4" y1="43.89" x2="280.77" y2="43.89"/>
-  <line class="cls-4" y1="198.88" x2="280.77" y2="198.88"/>
-  <line class="cls-4" x1="1.04" y1="118.92" x2="281.81" y2="118.92"/>
-  <line class="cls-4" x1="189.17" y1=".34" x2="242.21" y2="229.75"/>
-  <line class="cls-4" x1="102.15" y1=".53" x2="46.46" y2="231.21"/>
-  <text class="cls-2" transform="translate(73.31 36.63)"><tspan x="0" y="0">A</tspan></text>
-  <text class="cls-2" transform="translate(55.31 115.05)"><tspan x="0" y="0">B</tspan></text>
-  <text class="cls-2" transform="translate(35.91 195.59)"><tspan x="0" y="0">C</tspan></text>
-  <text class="cls-2" transform="translate(203.25 36.63)"><tspan x="0" y="0">D</tspan></text>
-  <text class="cls-2" transform="translate(222.95 113.37)"><tspan x="0" y="0">E</tspan></text>
-  <text class="cls-2" transform="translate(240.43 195.59)"><tspan x="0" y="0">F</tspan></text>
-  <text class="cls-3" transform="translate(95.95 250.36)"><tspan class="cls-5" x="0" y="0">F</tspan><tspan class="cls-1" x="11.06" y="0">igu</tspan><tspan class="cls-6" x="43.32" y="0">r</tspan><tspan x="50.93" y="0">e 6–7</tspan></text>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="216" height="168" viewBox="0 0 852 735" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:10;">
+    <path d="M41.162,160.077l766.653,0" style="fill:none;fill-rule:nonzero;stroke:#337ecc;stroke-width:8.19px;"/>
+  <path d="M41.162,583.283l766.653,-0" style="fill:none;fill-rule:nonzero;stroke:#337ecc;stroke-width:8.19px;"/>
+  <path d="M44.002,364.949l766.652,0" style="fill:none;fill-rule:nonzero;stroke:#337ecc;stroke-width:8.19px;"/>
+  <path d="M557.698,41.162l144.827,626.412" style="fill:none;fill-rule:nonzero;stroke:#337ecc;stroke-width:8.19px;"/>
+  <path d="M320.086,41.681l-152.063,629.88" style="fill:none;fill-rule:nonzero;stroke:#337ecc;stroke-width:8.19px;"/>
+  <g>
+        <text x="241.338px" y="140.253px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:43.689px;fill:#008cdc;">A</text>
+    </g>
+  <g>
+        <text x="192.188px" y="354.382px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:43.689px;fill:#008cdc;">B</text>
+    </g>
+  <g>
+        <text x="139.216px" y="574.299px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:43.689px;fill:#008cdc;">C</text>
+    </g>
+  <g>
+        <text x="596.144px" y="140.253px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:43.689px;fill:#008cdc;">D</text>
+    </g>
+  <g>
+        <text x="649.935px" y="349.795px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:43.689px;fill:#008cdc;">E</text>
+    </g>
+  <g>
+        <text x="697.665px" y="574.299px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:43.689px;fill:#008cdc;">F</text>
+    </g>
+  <g transform="matrix(66.6667,0,0,66.6667,596.133,720.7)">
+    </g>
+  <text x="277.415px" y="720.7px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:66.667px;fill:#1e3a5f;">Figure 6–7</text>
 </svg>
