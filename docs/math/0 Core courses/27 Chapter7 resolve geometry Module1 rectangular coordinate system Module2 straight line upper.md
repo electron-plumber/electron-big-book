@@ -242,10 +242,10 @@ $
   ![Angle of inclination with x-axis figure 7-3.svg](../../public/math/Core%20courses/Angle%20of%20inclination%20with%20x-axis%20figure%207-3.svg)    
 - Note: When a line is horizontal, its angle of inclination is $0^\circ$.
   When a line is vertical, its angle of inclination is $90^\circ$.  
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="../../public/math/Core%20courses/Angle%20of%20inclination%20with%20x-axis%20figure%207-3%20white%20solve-1.gif" />
-    <source media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)" srcset="../../public/math/Core%20courses/Angle%20of%20inclination%20with%20x-axis%20figure%207-3%20black%20solve-1.gif" />
-    <img src="../../public/math/Core%20courses/Angle%20of%20inclination%20with%20x-axis%20figure%207-3%20white%20solve-1.gif" width="300" alt="" />
-  </picture>
+  <ThemeAwareImage
+    darkUrl="/math/Core%20courses/Angle%20of%20inclination%20with%20x-axis%20figure%207-3%20black%20solve-1.gif"
+    lightUrl="/math/Core%20courses/Angle%20of%20inclination%20with%20x-axis%20figure%207-3%20white%20solve-1.gif"
+  />  
+
 
 

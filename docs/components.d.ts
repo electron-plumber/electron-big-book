@@ -16,6 +16,7 @@ declare module '@vue/runtime-core' {
     Light: typeof import('./.vitepress/vitepress/components/icons/light.vue')['default']
     LogicSvg: typeof import('./.vitepress/vitepress/components/home/svg/logic-svg.vue')['default']
     MathSvg: typeof import('./.vitepress/vitepress/components/home/svg/math-svg.vue')['default']
+    ThemeAwareImage: typeof import('./.vitepress/vitepress/components/globals/ThemeAwareImage.vue')['default']
     ToggleButton: typeof import('./.vitepress/vitepress/components/icons/toggle-button.vue')['default']
     ToggleSidebarBtn: typeof import('./.vitepress/vitepress/components/subnav/toggle-sidebar-btn.vue')['default']
     VersionTag: typeof import('./.vitepress/vitepress/components/dev/VersionTag.vue')['default']
