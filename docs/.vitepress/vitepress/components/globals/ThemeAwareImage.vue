@@ -11,8 +11,8 @@ import { computed } from 'vue'
 import { usePreferredColorScheme } from '@vueuse/core'
 
 interface Props {
-  lightUrl: string
-  darkUrl: string
+  lightSrc: string
+  darkSrc: string
   imgStyle?: Record<string, string | number>
   defaultDark?: boolean
 }
@@ -21,9 +21,9 @@ const props = defineProps<Props>()
 const colorScheme = usePreferredColorScheme()
 
 const imageSrc = computed(() => {
-  if (colorScheme.value === 'dark') return props.darkUrl
-  if (colorScheme.value === 'light') return props.lightUrl
-  return props.defaultDark ? props.darkUrl : props.lightUrl
+  if (colorScheme.value === 'dark') return props.darkSrc
+  if (colorScheme.value === 'light') return props.lightSrc
+  return props.defaultDark ? props.darkSrc : props.lightSrc
 })
 
 const defaultImgStyle = {

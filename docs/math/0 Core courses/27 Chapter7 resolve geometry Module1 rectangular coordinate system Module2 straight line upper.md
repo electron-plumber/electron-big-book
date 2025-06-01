@@ -239,13 +239,58 @@ $
 
 ## 1.Angle of Inclination
 - The angle formed between a straight line and the positive direction of the $x$-axis is called the angle of inclination, denoted as $\alpha$, where $\alpha \in [0, \pi)$.  
-  ![Angle of inclination with x-axis figure 7-3.svg](../../public/math/Core%20courses/Angle%20of%20inclination%20with%20x-axis%20figure%207-3.svg)    
+  ![Angle of inclination with x-axis figure 7-1.svg](../../public/math/Core%20courses/Angle%20of%20inclination%20with%20x-axis%20figure%207-1.svg)      
 - Note: When a line is horizontal, its angle of inclination is $0^\circ$.
   When a line is vertical, its angle of inclination is $90^\circ$.  
+  - Counterclockwise rotation increases $\alpha$.  
+  - Clockwise rotation decreases $\alpha$.  
+
   <ThemeAwareImage
-    darkUrl="/math/Core%20courses/Angle%20of%20inclination%20with%20x-axis%20figure%207-3%20black%20solve-1.gif"
-    lightUrl="/math/Core%20courses/Angle%20of%20inclination%20with%20x-axis%20figure%207-3%20white%20solve-1.gif"
+    dark-src="/math/Core%20courses/Angle%20of%20inclination%20with%20x-axis%20figure%207-1%20black%20solve-1.gif"
+    light-src="/math/Core%20courses/Angle%20of%20inclination%20with%20x-axis%20figure%207-1%20white%20solve-1.gif"
   />  
 
+
+## 2.Definition of Slope
+- The tangent of the inclination angle is the slope, denoted as $k=tan\alpha, \alpha=\frac{\pi}{2}$.  
+  - $\mathbf{\alpha=\frac{\text{opposite}}{\text{adjacent}}}$  
+  ![Tan alpha slope figure 7-2.svg](../../public/math/Core%20courses/Tan%20alpha%20slope%20figure%207-2.svg)  
+- Remarks: 
+  - When $\alpha=0, k=0$; __Zero numerator__
+  - When $0<\alpha<90^\circ, k>0$;
+  - When $\alpha=90^\circ$, $k$ is undefined; __Zero denominator__
+  - When $90^\circ<\alpha<180^\circ, k<0$;  
+
+  ![Tan alpha slope figure 7-2 solve-1.svg](../../public/math/Core%20courses/Tan%20alpha%20slope%20figure%207-2%20solve-1.svg)  
+
+## 3.Common Inclination Angles and Slope
+- Supplementary angles: their tangents are opposite numbers.
+  - $tan(180^\circ- \theta)=-tan\theta$.
+
+| Inclination Angle $(\alpha)$ | Slope $k=tan\alpha$    |
+|------------------------------|------------------------|
+| $0^\circ$                    | $0$                    |
+| $30^\circ$                   | $\frac{\sqrt{3}}{3}$   |
+| $45^\circ$                   | $1$                    |
+| $60^\circ$                   | $\sqrt{3}$             |
+| $90^\circ$                   | $\infty \lor$undefined |
+| $120^\circ$                  | $-\sqrt{3}$            |
+| $135^\circ$                  | $-1$                   |
+| $150^\circ$                  | $-\frac{\sqrt{3}}{3}$  |
+| $180^\circ$                  | $0$                    |
+
+
+## 4.Two-Point Slope Formula
+- Let there be two points $P_1(x_1,y_1)$ and $P_2(x_2,y_2)$ on a straight line $l$, then $k=\frac{y_2-y_1}{x_2-x_1}, \mathbf{x_1 \ne x_2}$.  
+- Special cases:
+  - If $y_2=y_1$, the line is __horizontal__, and $k=0$.
+  - If $x_2=x_1$, the line is __vertical__, and $k=\infty\lor$undefined.  
+
+  ![Line slope two points.svg](../../public/math/Core%20courses/Line%20slope%20two%20points.svg)
+
+
+## 5.Focus 1
+__Inclination angle and slope__  
+- Pay attention to special inclination angels, such as $90^\circ$, and observe the sign and magnitude changes of the slope.  
 
 
