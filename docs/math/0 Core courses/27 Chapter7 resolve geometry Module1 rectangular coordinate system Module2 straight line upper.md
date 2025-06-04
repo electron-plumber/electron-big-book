@@ -300,8 +300,8 @@ $
 \begin{array}{lllll}
 (\text{1}) \: \text{The greater the inclination angle, the greater the slope}; & \\
 (\text{2}) \: \text{When the inclination angle is }135^\circ\text{, the slope is }1; & \\ 
-(\text{3}) \: \text{When the inclination angle is less than }90^\circ\text{, the greater the inclination angle, the greater the slope}; & \\
-(\text{4}) \: \text{When the inclination angle is greater than}90^\circ\text{, the larger the inclination angle, the smaller the slope}; & \\
+(\text{3}) \: \text{When the inclination angle is less than }90^\circ, \\\quad\; \text{ the greater the inclination angle, the greater the slope}; & \\
+(\text{4}) \: \text{When the inclination angle is greater than}90^\circ, \\\quad\; \text{ the larger the inclination angle, the smaller the slope}; & \\
 (\text{A}) \: 0 & \\
 (\text{B}) \: 1 & \\
 (\text{C}) \: 2 & \\
@@ -343,10 +343,10 @@ $
   \end{array}
   >$
 
-  :::
+  :::  
+::: wrap
 - $\href{https://phet.colorado.edu/sims/html/graphing-slope-intercept/latest/graphing-slope-intercept_all.html}{\text{Variation of the slope-intercept line:
   } y = kx + b}$  
-  ::: wrap
   > Counterclockwise rotation: $k\uparrow$.  
   > Clockwise rotation: $k\downarrow$.  
   > - The size of $|k|$ indicates the steepness of the line.
