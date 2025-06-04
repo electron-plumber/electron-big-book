@@ -294,3 +294,64 @@ __Inclination angle and slope__
 - Pay attention to special inclination angels, such as $90^\circ$, and observe the sign and magnitude changes of the slope.  
 
 
+::: wrap
+### $\fbox{4}\:$Regarding inclination angles and slope, the correct statement is $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{1}) \: \text{The greater the inclination angle, the greater the slope}; & \\
+(\text{2}) \: \text{When the inclination angle is }135^\circ\text{, the slope is }1; & \\ 
+(\text{3}) \: \text{When the inclination angle is less than }90^\circ\text{, the greater the inclination angle, the greater the slope}; & \\
+(\text{4}) \: \text{When the inclination angle is greater than}90^\circ\text{, the larger the inclination angle, the smaller the slope}; & \\
+(\text{A}) \: 0 & \\
+(\text{B}) \: 1 & \\
+(\text{C}) \: 2 & \\
+(\text{D}) \: 3 & \\
+(\text{E}) \: 4 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+(\text{1}) \: \begin{cases}
+              \alpha=45^\circ \Rightarrow k=1 \\
+              \alpha=135^\circ \Rightarrow k=-1 \\
+              \end{cases} \,❌\;\\
+(\text{2}) \: \alpha>90^\circ \Rightarrow k<0 \,❌\;\\
+(\text{3}) \: \boxed{0 \le \alpha<90^\circ} \implies \alpha \uparrow \,\Rightarrow k \uparrow \,✅\;\\
+(\text{4}) \: \boxed{\alpha>90^\circ} \implies \alpha \uparrow \,\Rightarrow k \uparrow \,❌\;\\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $(\text{3})$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \begin{cases}
+  0<\alpha<90^\circ, k>0 \\
+  90^\circ<\alpha<180^\circ, k<0 \\
+  \end{cases} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_2-definition-of-slope}{\text{Definition of slope}} \\
+  135^\circ=-1 & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_3-common-inclination-angles-and-slope}{\text{Common inclination angles and slope}} \\
+  \end{array}
+  >$
+
+  :::
+- $\href{https://phet.colorado.edu/sims/html/graphing-slope-intercept/latest/graphing-slope-intercept_all.html}{\text{Variation of the slope-intercept line:
+  } y = kx + b}$  
+  ::: wrap
+  > Counterclockwise rotation: $k\uparrow$.  
+  > Clockwise rotation: $k\downarrow$.  
+  > - The size of $|k|$ indicates the steepness of the line.
+  >   - The larger $|k|$ is, the steeper the line becomes.
+  >   - The smaller $|k|$ is, the flatter the line becomes.
+
+  :::
+---
