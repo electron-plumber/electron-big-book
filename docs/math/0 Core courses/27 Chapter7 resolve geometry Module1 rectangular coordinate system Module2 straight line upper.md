@@ -19,7 +19,7 @@ lang: en-US
   - Points on y-axis $(0,y)$.
 
 ## 2.Coordinates of the Midpoint Between Two Points
-- The coordinates of the midpoint between two points $P_1(x_1,y_1)$ and $P_2(x_2,y_2)$ are $(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2})\boxed{\text{Average}}$.
+- The coordinates of the midpoint between two points $p_1(x_1,y_1)$ and $p_2(x_2,y_2)$ are $(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2})\boxed{\text{Average}}$.
   - Special case: The midpoint between point $p_1(x_1,y_1)$ and the origin $(0,0)$ is $(\frac{x_1}{2},\frac{y_1}{2})$.
   - __Formula derivations__   
     ::: wrap    
@@ -30,7 +30,7 @@ lang: en-US
     x_2-x=x-x_1 \\
     x=\frac{x_1+x_2}{2} \\
     y=\frac{y_1+y_2}{2} \\
-    p_1+p_2=2P \\
+    p_1+p_2=2p \\
     p=\frac{p_1+p_2}{2} \\
     \end{array}
     $  
@@ -281,10 +281,11 @@ $
 
 
 ## 4.Two-Point Slope Formula
-- Let there be two points $P_1(x_1,y_1)$ and $P_2(x_2,y_2)$ on a straight line $l$, then $k=\frac{y_2-y_1}{x_2-x_1}, \mathbf{x_1 \ne x_2}$.  
+- Let there be two points $P_1(x_1,y_1)$ and $P_2(x_2,y_2)$ in a straight line $l$, then $k=\frac{y_2-y_1}{x_2-x_1}, \mathbf{x_1 \ne x_2}$.  
 - Special cases:
   - If $y_2=y_1$, the line is __horizontal__, and $k=0$.
   - If $x_2=x_1$, the line is __vertical__, and $k=\infty\lor$undefined.  
+  - The slope between $(x,y)$ and $(0,0)$ is $k=\frac{y}{x}$.  
 
   ![Line slope two points.svg](../../public/math/Core%20courses/Line%20slope%20two%20points.svg)
 
@@ -352,6 +353,58 @@ $
   > - The size of $|k|$ indicates the steepness of the line.
   >   - The larger $|k|$ is, the steeper the line becomes.
   >   - The smaller $|k|$ is, the flatter the line becomes.
+
+  :::
+---
+
+::: wrap
+### $\fbox{5}\:$If the line $\small l$ intersects the lines $\small y=1$ and $\small x=7$ at points $\small P$ and $\small Q$ respectively, and the midpoint of the segment $\small PQ$ has coordinates $\small (1,−1)$, what is the slope of the line $\small l \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: \frac{1}{3} &
+(\text{B}) \: -\frac{1}{3} &
+(\text{C}) \: \frac{2}{3} &
+(\text{D}) \: -\frac{2}{3} &
+(\text{E}) \: \frac{3}{2} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Show known conditions    
+  ![Question straight line figure Q-5 solve-1.svg](../../public/math/Core%20courses/Question%20straight%20line%20figure%20Q-5%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  P(x,1) \quad Q(7,y) \\
+  \begin{cases}
+  x+7=1 \times 2 \\
+  1+y=(-1) \times 2 \\
+  \end{cases} \Rightarrow
+  \begin{cases}
+  x=-5 \\
+  y=-3 \\
+  \end{cases} \\
+  P(-5,1) \quad Q(7,-3) \\
+  k=\frac{1-(-3)}{-5-7}=\frac{4}{-12}=-\frac{1}{3} \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $k=-\frac{1}{3}$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_4-two-point-slope-formula}{\text{Two-point slope formula}} \\
+  (\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}) & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_2-coordinates-of-the-midpoint-between-two-points}{\text{Midpoint coordinates}} \\
+  \end{array}
+  >$
 
   :::
 ---
