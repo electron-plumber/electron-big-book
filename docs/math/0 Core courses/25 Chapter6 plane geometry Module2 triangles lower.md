@@ -244,8 +244,8 @@ Similarity can be identified by __two pairs of corresponding interior angles bei
 ![Triangle similarity identification.svg](../../public/math/Core%20courses/Triangle%20similarity%20identification.svg)     
 
 ### $\textcolor{#1E3A5F}{\fbox{3}}\:$Properties
-1. In similar triangles, __the ratios of corresponding sides are equal__.  
-   - Know as the similarity ratio: $\frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k$.  
+1. ###### In similar triangles, __the ratios of corresponding sides are equal__.  
+   - Known as the similarity ratio: $\frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k$.  
 2. In similar triangles, __the ratio of the altitudes, medians, and angle bisectors are also equal to the similarity ratio__.    
    ![Triangle similarity properties.svg](../../public/math/Core%20courses/Triangle%20similarity%20properties.svg)       
 3. In similar triangles, __the ratio of the perimeters is equal to the similarity ratio__.  
@@ -411,7 +411,7 @@ $
 __Triangle similarity__  
 - When parallelism occurs, similarity analysis is used.
   For the similar figure, the area ratio is equal to the square of a similarity ratio.  
-- Congruent shapes look at sides.   
+- Congruent shapes look at the sides.   
 - Similar shapes look at angles.  
 
 

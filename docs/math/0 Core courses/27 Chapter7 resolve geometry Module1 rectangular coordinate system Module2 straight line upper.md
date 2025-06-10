@@ -37,7 +37,7 @@ lang: en-US
     :::
 
 ## 3.Distance Formula Between Two Points
-- The distance between two points $A(x_1,y_1)$ and $B(x_2,y_2$ is $d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$.  
+- The distance between two points $A(x_1,y_1)$ and $B(x_2,y_2)$ is $d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$.  
 - Special case: The distance between point $A(x,y)$ and the origin $(0,0)$ is $d=\sqrt{x^2+y^2}$.  
 - __Formula derivations__   
   ::: wrap    
@@ -408,3 +408,115 @@ $
 
   :::
 ---
+
+## 6. Equation of a Line
+
+### $\textcolor{#1E3A5F}{\fbox{1}}\:$Slope-intercept form
+- If the slope $k$ and the $\overbrace{\text{y-intercept }b}^{\text{y-axis intersection}}$ are known, the equation of the line can be expressed as $y=kx+b$.  
+- Special cases:  
+  - $b=0: y=kx$ (Passing through the origin)   
+  - $k=0: y=b$ (Horizontal line)   
+
+![Slope-intercept form.svg](../../public/math/Core%20courses/Slope-intercept%20form.svg)  
+$\href{https://phet.colorado.edu/sims/html/graphing-slope-intercept/latest/graphing-slope-intercept_all.html}{\text{Slope-intercept demo}}$  
+
+### $\textcolor{#1E3A5F}{\fbox{2}}\:$Point-slope form
+- If the slope $k$ and a point $(x_0, y_0)$ are known,
+the equation of the line can be expressed as $y=y_0+k(x-x_0)$ or $\frac{y-y_0}{x-x_0}=k$.  
+- Special case: $(x_0, y_0) \longrightarrow (0,b)$ The point-slope form becomes the slope-intercept form.  
+- __Equation derivations__   
+  ::: wrap    
+  ![Point-slope equation derivations.svg](../../public/math/Core%20courses/Point-slope%20equation%20derivations.svg)  
+
+  $
+  \begin{array}{ll}
+  y=k(x-x_0)+y_0 \\
+  \frac{y-y_0}{x-x_0}=k & \text{Two-point slope formula} \\
+  y=y_0+k(x-x_0) \\
+  \end{array}
+  $  
+  :::
+
+$\href{https://phet.colorado.edu/sims/html/graphing-lines/latest/graphing-lines_all.html}{\text{Point-slope demo}}$
+
+### $\textcolor{#1E3A5F}{\fbox{3}}\:$Intercept form
+If the x-axis and y-axis intercepts are known to be $a$ and $b$ respectively,
+the equation of the line can be expressed as $\frac{x}{a}+\frac{y}{b}=1,\mathbf{(a,b \ne 0)}$.  
+![Intercept form.svg](../../public/math/Core%20courses/Intercept%20form.svg)  
+
+### $\textcolor{#1E3A5F}{\fbox{4}}\:$Two-point form
+If the coordinates of two points $(x_1, y_1)$ and $x_2,
+y_2$ are known, the equation of the line can be expressed as $\frac{x-x_1}{x_2-x_1}=\frac{y-y_1}{y_2-y_1}$.  
+- Special case: 
+  - The intercept form is a special case of the two-point form. 
+  - The two-point form can be changed into the point-slope form.
+- __Equation derivations__   
+  ::: wrap    
+  ![Two-point equation derivations.svg](../../public/math/Core%20courses/Two-point%20equation%20derivations.svg)  
+
+  $
+  \begin{array}{ll}
+  \frac{x-x_1}{x_2-x_1}=\frac{y-y_1}{y_2-y_1} & \href{/math/0%20Core%20courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#in-similar-triangles-the-ratios-of-corresponding-sides-are-equal}{\text{Similarity ratio}} \\
+  y-y_1=\frac{x-x_1}{x_2-x_1}(y_2-y_1) \\
+  y-y_1=\underbrace{\boxed{\frac{y_2-y_1}{x_2-x_1}}}_{k}(x-x_1) & \text{Point-slope form} \\
+  \end{array}
+  $  
+  :::
+
+
+### $\textcolor{#1E3A5F}{\fbox{5}}\:$General form
+- The above equations can all be transformed into a linear function $ax+by+c=0$,
+which is called the general form of the equation of a line.  
+- Remark: The general form is very important, as it allows you to quickly calculate the slope $k=-\frac{a}{b}$.
+  - __$k=-\frac{a}{b}$ derivations__   
+    ::: wrap    
+
+    $
+    \begin{array}{ll}
+    ax+by+c=0 \longrightarrow by=-ax-c \\
+    y=\underbrace{-\boxed{\frac{a}{b}}}_{k}x-\frac{c}{b} \\
+    \text{Example:} \\
+    4x+3y-5=0 \rightarrow k=-\frac{4}{3} \\
+    \end{array}
+    $  
+    :::
+- Quickly calculate the Intercept form  
+  ![General form calulate Intercept form.svg](../../public/math/Core%20courses/General%20form%20calulate%20Intercept%20form.svg)  
+
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  y=0 
+  \begin{cases}
+  \begin{array}{ll}
+  ax+b0+c=0 \\
+  ax+c=0 \\
+  ax=-c \\
+  x=-\frac{c}{a}
+  \end{array}
+  \end{cases} \\
+  x=0
+  \begin{cases}
+  \begin{array}{ll}
+  a0+by+c=0 \\
+  by+c=0 \\
+  by=-c \\
+  y=-\frac{c}{b} \\
+  \end{array}
+  \end{cases} \\
+  \text{Calculate the area of the triangle formed by the line and the axes:} \\
+  \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{S=\frac{1}{2}ah} \\
+  S=\frac{1}{2} \times -\frac{c}{a} \times -\frac{c}{b} \\
+  S=\frac{c^2}{2|ab|} \\
+  \end{array}
+  $  
+  :::  
+- Special case:
+  - $a=0:\:by+c=0$ (Horizontal line)
+  - $b=0:\:ax+c=0$ (Vertical line)
+  - $c=0:\:ax+by=0$ (Line passing through the origin)
+
+## 7.Focus 2
+__Equation of a line__  
+- Master the various forms of the equation of a line and their applicable situations, and understand the differences between the different forms of the equation. 
+
