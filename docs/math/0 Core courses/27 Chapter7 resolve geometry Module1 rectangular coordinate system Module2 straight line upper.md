@@ -576,3 +576,48 @@ $
   >| Two-point form       |        ❌         |       ❌        |                ✅                 |       ✅       | 
   >| General form         |        ✅         |       ✅        |                ✅                 |       ✅       |
 ---
+
+::: wrap
+### $\fbox{7}\:$Given $\small A(-1, 2), B(2, 4), C (x, 3)$ and $\small A, B, C$ are collinear, then $\small x=\, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: \frac{1}{5} &
+(\text{B}) \: \frac{1}{4} &
+(\text{C}) \: \frac{1}{3} &
+(\text{D}) \: \frac{1}{2} &
+(\text{E}) \: 1 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Three points collinear $\Leftrightarrow$ Any two points have the same slope $\Leftrightarrow$ They Can't form $\triangle$  
+
+  $
+  \begin{array}{ll}
+  k_{AB}=k_{BC}=k_{AC} \\
+  k_{AB}=k_{BC} & \text{First find }k\text{ without unknowns} \\
+  \frac{4-2}{2-(-1)}=\frac{4-3}{2-x} \\
+  \frac{2}{3}=\frac{1}{2-x} \\
+  4-2x=3 \\
+  x=\frac{1}{2} \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(D)}$  
+  > According to the Solution, get $x=\frac{1}{2}$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_4-two-point-slope-formula}{\text{Two-point slope formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
