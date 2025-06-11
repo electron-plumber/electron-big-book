@@ -591,7 +591,7 @@ $
 :::
 #### Solution
 ::: wrap  
-- Three points collinear $\Leftrightarrow$ Any two points have the same slope $\Leftrightarrow$ They Can't form $\triangle$  
+- Collinearity of three points $\Leftrightarrow$ Any two points have the same slope $\Leftrightarrow$ They Can't form $\triangle$  
 
   $
   \begin{array}{ll}
@@ -679,4 +679,65 @@ $
      ② Passes through the origin.   
 
   :::  
+---
+
+::: wrap
+### $\fbox{9}\:$What is the y-intercept of the line passing through the points $\small (1, -3)$ and $\small (3, 1) \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 5 &
+(\text{B}) \: -2 &
+(\text{C}) \: -3 &
+(\text{D}) \: -4 &
+(\text{E}) \: -5 & \\
+\end{array}
+$  
+:::
+#### Solution
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve using the point-slope form     
+
+  $
+  \begin{array}{ll}
+  k=\frac{y_2-y_1}{x_2-x_1} \\
+  k=\frac{4}{2}=2 \\
+  y=y_0+k(x-x_0) \\
+  y=-3+2(x-1) \Rightarrow y=2(x-1)-3 \\
+  y=2x-5 \\
+  y=kx+b \Rightarrow \text{y-intercept} = -5 \\
+  \end{array}
+  $  
+  :::  
+  ::: wrap
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve using the three-point collinearity method            
+
+  $
+  \begin{array}{ll}
+  \text{y-intercept}=(0,b) \\
+  \text{Collinearity of three points} \Leftrightarrow \text{Any two points have the same slope} \\
+  k=\frac{y_2-y_1}{x_2-x_1} \\
+  \frac{1-(-3)}{3-1}=\frac{b-1}{0-3} \\
+  2=\frac{b-1}{-3} \\
+  b=-5 \\
+  \end{array}
+  $  
+  :::
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(E)}$  
+  > According to the Solution, get $b=-5$, so choose $E$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_4-two-point-slope-formula}{\text{Two-point slope formula}} \\
+  \frac{x}{a}+\frac{y}{b}=1 & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#intercept-form}{\text{Intercept form}} \\
+  y=y_0+k(x-x_0) & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#point-slope-form}{\text{Point-slope form}} \\
+  y=kx+b & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#slope-intercept-form}{\text{Slope-intercept form}} \\
+  \end{array}
+  >$
+
+  :::
 ---

@@ -427,7 +427,7 @@ $
 :::
 #### Solution
 ::: wrap  
-- $\fbox{1}\:c\:$is the minimum side  
+- $\textcolor{#228B22}{\fbox{1}}\:c\:$is the minimum side  
 
   $
   \begin{array}{ll}
@@ -466,7 +466,7 @@ $
   $  
 :::  
 ::: wrap  
-- $\fbox{2}\:c\:$is the maximum side
+- $\textcolor{#228B22}{\fbox{2}}\:c\:$is the maximum side
 
   $
   \begin{array}{ll}
