@@ -2,12 +2,6 @@
 title: Chapter7 resolve geometry Module1 rectangular coordinate system Module2 straight line upper
 lang: en-US
 ---
-| Platforms   | Courses                                                                                                              | Coursewares                                                       |
-|-------------|----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| YouTube     | [Watch](https://www.youtube.com/watch?v=RgN-VMM4lXA&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s)                         | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
-| Dailymotion | [Watch](https://www.dailymotion.com/video/x9gsuhu?playlist=x9h6d2)                                                   |                                                                   |
-| Rumble      | [Watch](https://rumble.com/v6s95h9-27-chapter7-resolve-geometry-module1-rectangular-coordinate-system-module2-.html) |                                                                   |
-
 
 # Module 7–01 Rectangular Coordinate System
 
@@ -467,7 +461,7 @@ y_2$ are known, the equation of the line can be expressed as $\frac{x-x_1}{x_2-x
 ### $\textcolor{#1E3A5F}{\fbox{5}}\:$General form
 - The above equations can all be transformed into a linear function $ax+by+c=0$,
 which is called the general form of the equation of a line.  
-- Remark: The general form is very important, as it allows you to quickly calculate the slope $k=-\frac{a}{b}$.
+- ###### Remark: The general form is very important, as it allows you to quickly calculate the slope $k=-\frac{a}{b}$.
   - __$k=-\frac{a}{b}$ derivations__   
     ::: wrap    
 
@@ -512,7 +506,7 @@ which is called the general form of the equation of a line.
   $  
   :::  
 - Special case:
-  - $a=0:\:by+c=0$ (Horizontal line)
+  - ###### $a=0:\:by+c=0$ (Horizontal line)
   - $b=0:\:ax+c=0$ (Vertical line)
   - $c=0:\:ax+by=0$ (Line passing through the origin)
 
@@ -694,6 +688,7 @@ $
 $  
 :::
 #### Solution
+::: wrap  
 - $\textcolor{#228B22}{\fbox{1}}\:$Solve using the point-slope form     
 
   $
@@ -706,8 +701,8 @@ $
   y=kx+b \Rightarrow \text{y-intercept} = -5 \\
   \end{array}
   $  
-  :::  
-  ::: wrap
+:::   
+::: wrap  
 - $\textcolor{#228B22}{\fbox{2}}\:$Solve using the three-point collinearity method            
 
   $
@@ -720,7 +715,7 @@ $
   b=-5 \\
   \end{array}
   $  
-  :::
+:::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
@@ -800,3 +795,104 @@ $
 
   :::
 ---
+
+## 8.Focus 3
+__The line passes through quadrants__  
+- Analyze the graph based on the slope and intercepts of the line.   
+- Remember the conclusion: When $k>0$, the line must pass through the first and third quadrants; 
+when $k<0$, the line must pass through the second and fourth quadrants.  
+  ![Line cross quadrants.svg](../../public/math/Core%20courses/Line%20cross%20quadrants.svg)    
+
+::: wrap
+### $\fbox{11}\:$(Sufficiency judgment) Line $\small l:\: ax+bx+c=0$ definitely doesn't pass through the third quadrant.
+$
+\begin{array}{lllll}
+(\text{1}) \: ac \le 0, bc<0. &
+(\text{2}) \: ab>0, c<0. & \\
+(\text{A}) \: (\text{1}) &
+(\text{B}) \: (\text{2}) & \\
+(\text{C}) \: (\text{1})+(\text{2}) &  
+(\text{D}) \: (\text{1}),(\text{2}) & \\
+(\text{E}) \: \varnothing & \\
+\end{array}
+$  
+:::
+#### Solution 
+::: wrap  
+- Verify condition $\textcolor{#9333EA}{(1)}$   
+  ![Question straight line figure Q-11 solve-1.svg](../../public/math/Core%20courses/Question%20straight%20line%20figure%20Q-11%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  (ac<0 \lor ac=0),bc<0 \\ 
+  ① \begin{cases}
+  \begin{array}{ll}
+  ac<0 \\
+  bc<0 \\
+  \end{array}
+  \end{cases} \\
+  \text{x-intercept}=-\frac{c}{a}=-\frac{9}{-3}=3 \\
+  \text{y-intercept}=-\frac{c}{b}=-\frac{9}{-3}=3 \\
+  ② \begin{cases}
+  \begin{array}{ll}
+  a=0 & \text{Must satisfy } bc<0 \\
+  bc<0 \\
+  \end{array}
+  \end{cases} \\
+  a=0 \longrightarrow by+c=0 \Rightarrow -\frac{c}{a}=0 \\
+  \text{x-intercept}=-\frac{c}{a}=0 \\
+  \text{y-intercept}=-\frac{c}{b}=-\frac{9}{-3}=3 \\
+  \end{array}
+  $  
+:::  
+::: wrap  
+- Verify condition $\textcolor{#9333EA}{(2)}$  
+  ![Question straight line figure Q-11 solve-2.svg](../../public/math/Core%20courses/Question%20straight%20line%20figure%20Q-11%20solve-2.svg)  
+
+  $
+  \begin{array}{ll}
+  ab>0, c<0 \\
+  k=-\frac{a}{b}=-\frac{9}{3}=-3 \\
+  k<0 \Rightarrow 90^\circ<\alpha<180^\circ \\
+  \begin{cases}
+  \begin{array}{ll}
+  ac & \text{Unknown} \\
+  bc & \text{Unknown} \\
+  \end{array}
+  \end{cases} \\
+  \text{x-intercept}=-\frac{c}{a}=-\frac{9}{3}=-3 \\
+  \text{y-intercept}=-\frac{c}{b}=-\frac{9}{3}=-3 \\
+  \end{array}
+  $  
+:::  
+
+[//]: # (- Verify conditions &#40;1&#41; and &#40;2&#41; together)
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(A)}$  
+  > According to the Solution, get $(\text{1})\,✅\;,(\text{2})\,❌\;$, so choose $A$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \begin{cases}
+  \text{y-intercept}=-\frac{c}{b} \\
+  \text{x-intercept}=-\frac{c}{a} \\
+  \end{cases} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#quickly-calculate-the-intercept-form}{\text{Quickly convert the general form to the intercept form}} \\
+  a=0 \longrightarrow by+c=0 & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#horizontal-line}{\text{Horizontal line}} \\
+  k=-\frac{a}{b} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#remark-the-general-form-is-very-important-as-it-allows-you-to-quickly-calculate-the-slope}{\text{Quickly convert the general form to the slope}} \\
+  90^\circ<\alpha<180^\circ, k<0 & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_2-definition-of-slope}{\text{Definition of slope}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+| Platforms   | Courses                                                                                                              | Coursewares                                                       |
+|-------------|----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| YouTube     | [Watch](https://www.youtube.com/watch?v=RgN-VMM4lXA&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s)                         | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
+| Dailymotion | [Watch](https://www.dailymotion.com/video/x9gsuhu?playlist=x9h6d2)                                                   |                                                                   |
+| Rumble      | [Watch](https://rumble.com/v6s95h9-27-chapter7-resolve-geometry-module1-rectangular-coordinate-system-module2-.html) |                                                                   |
