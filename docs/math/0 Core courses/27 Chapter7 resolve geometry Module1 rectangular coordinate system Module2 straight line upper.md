@@ -285,7 +285,7 @@ $
 - Special cases:
   - If $y_2=y_1$, the line is __horizontal__, and $k=0$.
   - If $x_2=x_1$, the line is __vertical__, and $k=\infty\lor$undefined.  
-  - The slope between $(x,y)$ and $(0,0)$ is $k=\frac{y}{x}$.  
+  - ###### The slope between $(x,y)$ and $(0,0)$ is $k=\frac{y}{x}$.  
 
   ![Line slope two points.svg](../../public/math/Core%20courses/Line%20slope%20two%20points.svg)
 
@@ -414,7 +414,7 @@ $
 ### $\textcolor{#1E3A5F}{\fbox{1}}\:$Slope-intercept form
 - If the slope $k$ and the $\overbrace{\text{y-intercept }b}^{\text{y-axis intersection}}$ are known, the equation of the line can be expressed as $y=kx+b$.  
 - Special cases:  
-  - $b=0: y=kx$ (Passing through the origin)   
+  - ###### $b=0: y=kx$ (Passing through the origin)   
   - $k=0: y=b$ (Horizontal line)   
 
 ![Slope-intercept form.svg](../../public/math/Core%20courses/Slope-intercept%20form.svg)  
@@ -481,7 +481,7 @@ which is called the general form of the equation of a line.
     $  
     :::
 - Quickly calculate the Intercept form  
-  ![General form calulate Intercept form.svg](../../public/math/Core%20courses/General%20form%20calulate%20Intercept%20form.svg)  
+  ![General form calculate Intercept form.svg](../../public/math/Core%20courses/General%20form%20calculate%20Intercept%20form.svg)  
 
   ::: wrap  
   $
@@ -620,4 +620,63 @@ $
   >$
 
   :::
+---
+
+::: wrap
+### $\fbox{8}\:$What is the equation of the line passing through the point $\small (5, 8)$ and having intercepts that are opposites of each other $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: x-y+3=0 &
+(\text{B}) \: x+y+3=0 &
+(\text{C}) \: -x-y+3=0 & \\
+(\text{D}) \: x-y-3=0 &
+(\text{E}) \: x-y+3=0 \lor 8x-5y=0 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+\frac{x}{a}+\frac{y}{b}=1 \xrightarrow{\text{Opposite numbers}} b=-a \\
+\frac{x}{a}-\frac{y}{a}=1 \Rightarrow x-y=a \\
+(5, 8) \rightarrow 5-8=a \\
+a=-3 \rightarrow \frac{x}{-3}-\frac{y}{-3}=1 \Rightarrow x-y+3=0 \\
+\text{There is also a case where }\mathbf{(a,b=0)}\text{ is a line passing through the origin.}\\
+y=kx \quad k=\frac{y}{x} \\
+(5, 8) \rightarrow y=\frac{8}{5}x \\
+5y=8x \Rightarrow 8x-5y=0 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(E)}$  
+  > According to the Solution, get $x-y+3=0 \lor 8x-5y=0$, so choose $E$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \frac{x}{a}+\frac{y}{b}=1 & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#intercept-form}{\text{Intercept form}} \\
+  y=kx & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#passing-through-the-origin}{\text{Passing through the origin}} \\
+  k=\frac{y}{x} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#the-slope-between-and-is}{\text{Slope of the line passing through the origin}} \\
+  \end{array}
+  >$
+
+  :::
+- Opposite intercepts and equal Intercepts  
+  ::: wrap   
+  >- The intercepts are opposites.    
+     ![Opposite Intercepts.svg](../../public/math/Core%20courses/Opposite%20Intercepts.svg)    
+     ① $k=1$.  
+     ② Passes through the origin.  
+  >- The intercepts are equal.   
+     ![Equal Intercepts.svg](../../public/math/Core%20courses/Equal%20Intercepts.svg)     
+     ① $k=-1$.  
+     ② Passes through the origin.   
+
+  :::  
 ---
