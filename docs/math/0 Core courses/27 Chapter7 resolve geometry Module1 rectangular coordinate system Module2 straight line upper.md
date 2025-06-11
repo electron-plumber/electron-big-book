@@ -358,7 +358,7 @@ $
 ---
 
 ::: wrap
-### $\fbox{5}\:$If the line $\small l$ intersects the lines $\small y=1$ and $\small x=7$ at points $\small P$ and $\small Q$ respectively, and the midpoint of the segment $\small PQ$ has coordinates $\small (1,−1)$, what is the slope of the line $\small l \, \mathpunct{?}$.
+### $\fbox{5}\:$If the line $\small l$ intersects the lines $\small y=1$ and $\small x=7$ at points $\small P$ and $\small Q$ respectively, and the midpoint of the segment $\small PQ$ has coordinates $\small (1,−1)$, what is the slope of the line $\small l \, \mathpunct{?}.$
 $
 \begin{array}{lllll}
 (\text{A}) \: \frac{1}{3} &
@@ -480,7 +480,7 @@ which is called the general form of the equation of a line.
     \end{array}
     $  
     :::
-- Quickly calculate the Intercept form  
+- ###### Quickly calculate the Intercept form  
   ![General form calculate Intercept form.svg](../../public/math/Core%20courses/General%20form%20calculate%20Intercept%20form.svg)  
 
   ::: wrap  
@@ -504,7 +504,7 @@ which is called the general form of the equation of a line.
   y=-\frac{c}{b} \\
   \end{array}
   \end{cases} \\
-  \text{Calculate the area of the triangle formed by the line and the axes:} \\
+  \text{Calculate the area of the triangle formed by the intercept form:} \\
   \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{S=\frac{1}{2}ah} \\
   S=\frac{1}{2} \times -\frac{c}{a} \times -\frac{c}{b} \\
   S=\frac{c^2}{2|ab|} \\
@@ -578,7 +578,7 @@ $
 ---
 
 ::: wrap
-### $\fbox{7}\:$Given $\small A(-1, 2), B(2, 4), C (x, 3)$ and $\small A, B, C$ are collinear, then $\small x=\, \mathpunct{?}$.
+### $\fbox{7}\:$Given $\small A(-1, 2), B(2, 4), C (x, 3)$ and $\small A, B, C$ are collinear, then $\small x=\, \mathpunct{?}.$
 $
 \begin{array}{lllll}
 (\text{A}) \: \frac{1}{5} &
@@ -682,7 +682,7 @@ $
 ---
 
 ::: wrap
-### $\fbox{9}\:$What is the y-intercept of the line passing through the points $\small (1, -3)$ and $\small (3, 1) \, \mathpunct{?}$.
+### $\fbox{9}\:$What is the y-intercept of the line passing through the points $\small (1, -3)$ and $\small (3, 1) \, \mathpunct{?}.$
 $
 \begin{array}{lllll}
 (\text{A}) \: 5 &
@@ -736,6 +736,65 @@ $
   \frac{x}{a}+\frac{y}{b}=1 & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#intercept-form}{\text{Intercept form}} \\
   y=y_0+k(x-x_0) & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#point-slope-form}{\text{Point-slope form}} \\
   y=kx+b & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#slope-intercept-form}{\text{Slope-intercept form}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+::: wrap
+### $\fbox{10}\:$What is the product of the x- and y-intercepts of the line $\small 2x-3y+12=0 \, \mathpunct{?}.$
+$
+\begin{array}{lllll}
+(\text{A}) \: -48 &
+(\text{B}) \: -24 &
+(\text{C}) \: 24 &
+(\text{D}) \: -12 &
+(\text{E}) \: 12 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Show known conditions  
+  ![Question straight line figure Q-10 solve-1.svg](../../public/math/Core%20courses/Question%20straight%20line%20figure%20Q-10%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  \text{y-intercept}=-\frac{c}{b}=-\frac{12}{-3}=4 \\
+  \text{x-intercept}=-\frac{c}{a}=-\frac{12}{2}=-6 \\
+  4\times (-6)=-24 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $4\times (-6)=-24$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  ax+by+c=0 & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#general-form}{\text{General form}} \\
+  \begin{cases}
+  \text{y-intercept}=-\frac{c}{b} \\
+  \text{x-intercept}=-\frac{c}{a} \\
+  \end{cases} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#quickly-calculate-the-intercept-form}{\text{Quickly convert the general form to the intercept form}} \\
+  \end{array}
+  >$
+
+  :::
+- Additionally, If the problem is to calculate the area of the triangle formed by the intercept form    
+  ::: wrap
+  > ![Question straight line figure Q-10 solve-2.svg](../../public/math/Core%20courses/Question%20straight%20line%20figure%20Q-10%20solve-2.svg)  
+  >$
+  \begin{array}{ll}
+  2x-3y+12=0 \\
+  \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#quickly-calculate-the-intercept-form}{S=\frac{c^2}{2|ab|}} \\
+  S=\frac{12^2}{2|2\times-3|}=\frac{24}{12}=12 \\
   \end{array}
   >$
 

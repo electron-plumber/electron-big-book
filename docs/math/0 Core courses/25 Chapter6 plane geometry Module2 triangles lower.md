@@ -530,7 +530,7 @@ $
 ![Question triangle figure 6-22.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-22.svg)  
 #### Solution
 ::: wrap  
-- show known conditions  
+- Show known conditions  
   ![Question triangle figure 6-22 solve-1.svg](../../public/math/Core%20courses/Question%20triangle%20figure%206-22%20solve-1.svg)  
 
   $

@@ -273,7 +273,7 @@ $
 ![Question quadrilateral figure 6-27.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-27.svg)  
 #### Solution
 ::: wrap  
-- show known conditions    
+- Show known conditions    
   ![Question quadrilateral figure 6-27 solve-1.svg](../../public/math/Core%20courses/Question%20quadrilateral%20figure%206-27%20solve-1.svg)   
 
   $
