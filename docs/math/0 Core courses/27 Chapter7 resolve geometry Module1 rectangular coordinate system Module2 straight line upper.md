@@ -520,3 +520,59 @@ which is called the general form of the equation of a line.
 __Equation of a line__  
 - Master the various forms of the equation of a line and their applicable situations, and understand the differences between the different forms of the equation. 
 
+::: wrap
+### $\fbox{6}\:$How many of the following statements are correct$\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{1}) \: \text{A line passing through the origin can be represented in intercept form}. & \\
+(\text{2}) \: \text{A horizontal line can't be represented in intercept form}. & \\
+(\text{3}) \: \text{A vertical line can be represented in point-slope form}. & \\
+(\text{4}) \: \text{All lines can be represented in general form}. & \\
+(\text{A}) \: 0 & \\
+(\text{B}) \: 1 & \\
+(\text{C}) \: 2 & \\
+(\text{D}) \: 3 & \\
+(\text{E}) \: 4 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+(\text{1}) \: \frac{x}{a}+\frac{y}{b}=0 \,❌\;\\
+(\text{2}) \: \text{A horizontal line has no intersection with the x-axis} \,✅\;\\
+(\text{3}) \: \text{The slope of a vertical line doesn't exist} \,❌\;\\
+(\text{4}) \: \text{All lines can be transformed into the general form} \,✅\;\\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(C)}$  
+  > According to the Solution, get $(\text{2}),(\text{4})$, so choose $C$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \frac{x}{a}+\frac{y}{b}=1 & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#intercept-form}{\text{Intercept form}} \\
+  y=y_0+k(x-x_0) & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#point-slope-form}{\text{Point-slope form}} \\
+  ax+by+c=0 & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#general-form}{\text{General form}} \\
+  \end{array}
+  >$
+
+  :::
+- Line representation of the equation of a straight line  
+  > <br/>
+  >
+  >| Equations            | Horizontal Line  | Vertical Line  | Line Passing Through the Origin  |  Other Lines  |
+  >|:---------------------|:----------------:|:--------------:|:--------------------------------:|:-------------:|
+  >| Slope-intercept form |        ✅         |       ❌        |                ✅                 |       ✅       |
+  >| Point-slope form     |        ✅         |       ❌        |                ✅                 |       ✅       |
+  >| Intercept form       |        ❌         |       ❌        |                ❌                 |       ✅       | 
+  >| Two-point form       |        ❌         |       ❌        |                ✅                 |       ✅       | 
+  >| General form         |        ✅         |       ✅        |                ✅                 |       ✅       |
+---
