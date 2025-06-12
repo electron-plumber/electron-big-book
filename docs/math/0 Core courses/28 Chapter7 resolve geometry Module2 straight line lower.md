@@ -56,5 +56,62 @@ __Examples__
     \end{array}
     $
 
+## 10.Focus 4
+__Two lines are parallel__  
+- Analyze parallelism based on equal slopes, paying attention to the cases where the slope is $0$ or undefined. 
 
 
+::: wrap
+### $\fbox{12}\:$Given that the line $\small l_1:\;(k-3)x+(4-k)y+1=0$ is parallel to the line $\small l_2:\;2(k-3)x-2y+3=0$, what is the value of $\small k \, \mathpunct{?}.$
+$
+\begin{array}{lllll}
+(\text{A}) \: 3 &
+(\text{B}) \: 5 &
+(\text{C}) \: 1 &
+(\text{D}) \: -1 &
+(\text{E}) \: 3 \lor 5 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Substitute the options to verify the equation    
+
+  $
+  \begin{array}{ll}
+  \frac{a_1}{a_2}=\frac{b_1}{b_2} \ne \frac{c_1}{c_2} \\
+  \frac{k-3}{2(k-3)}=\frac{4-k}{-2} \ne \frac{1}{3} \\
+  \text{Pay attention to the special case where }k=3 \\
+  k=3
+  \begin{cases}
+  \begin{array}{ll}
+  l_1:\; y+1=0 & \text{Horizontal line }a=0 \\
+  l_2:\; -2y+3=0 & \text{Horizontal line }a=0 \\
+  \end{array}
+  \end{cases} \\
+  k=3 \longrightarrow l_1\text{ and }l_2\text{ are parallel} \\
+  \frac{1}{2}=\frac{4-k}{-2} \ne \frac{1}{3} \\
+  \text{Substitute }k=5 \\
+  \frac{1}{2}=\frac{4-5}{-2} \\
+  \frac{1}{2}=\frac{1}{2} \ne \frac{1}{3} \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(E)}$  
+  > According to the Solution, get $k=3,k=5 \; l_1\text{ and }l_2\text{ are parallel}$, so choose $E$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  l_1 \parallel l_2 \Leftrightarrow \frac{a_1}{a_2}=\frac{b_1}{b_2} \ne \frac{c_1}{c_2} & \href{/math/0%20Core%20courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_9-positional-relationships-between-two-lines}{\text{Positional relationship}} \\
+  a=0 \longrightarrow by+c=0 & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#horizontal-line}{\text{Horizontal line}} \\
+  \end{array}
+  >$
+
+  :::
+---
