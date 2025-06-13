@@ -819,7 +819,7 @@ $
 :::
 #### Solution 
 ::: wrap  
-- Verify condition $\textcolor{#9333EA}{(1)}$   
+- $\textcolor{#9333EA}{\text{Verify condition }(1)}$   
   ![Question straight line figure Q-11 solve-1.svg](../../public/math/Core%20courses/Question%20straight%20line%20figure%20Q-11%20solve-1.svg)  
 
   $
@@ -846,7 +846,7 @@ $
   $  
 :::  
 ::: wrap  
-- Verify condition $\textcolor{#9333EA}{(2)}$  
+- $\textcolor{#9333EA}{\text{Verify condition }(2)}$  
   ![Question straight line figure Q-11 solve-2.svg](../../public/math/Core%20courses/Question%20straight%20line%20figure%20Q-11%20solve-2.svg)  
 
   $

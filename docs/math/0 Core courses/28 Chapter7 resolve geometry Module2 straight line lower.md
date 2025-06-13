@@ -108,8 +108,63 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  l_1 \parallel l_2 \Leftrightarrow \frac{a_1}{a_2}=\frac{b_1}{b_2} \ne \frac{c_1}{c_2} & \href{/math/0%20Core%20courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_9-positional-relationships-between-two-lines}{\text{Positional relationship}} \\
+  l_1 \parallel l_2 \Leftrightarrow \frac{a_1}{a_2}=\frac{b_1}{b_2} \ne \frac{c_1}{c_2} & \href{/math/0%20Core%20courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_9-positional-relationships-between-two-lines}{\text{Parallel positional relationship}} \\
   a=0 \longrightarrow by+c=0 & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#horizontal-line}{\text{Horizontal line}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+## 11.Focus 5
+__Two lines are perpendicular__   
+- When the product of the slopes of two lines is -1,
+  or when their slopes are negative reciprocals of each other, the two lines are perpendicular.
+  Note the special cases when the slope is 0 or undefined.    
+
+::: wrap
+### $\fbox{13}\:$(Sufficiency judgment) Determine whether the condition that the lines $\small (m +2)x+3my+1=0$ and $\small (m-2)x+(m+2)y-3=0$ are perpendicular is sufficient.
+$
+\begin{array}{lllll}
+(\text{1}) \: m=\frac{1}{2}. &
+(\text{2}) \: m=-2. & \\
+(\text{A}) \: (\text{1}) &
+(\text{B}) \: (\text{2}) & \\
+(\text{C}) \: (\text{1})+(\text{2}) &  
+(\text{D}) \: (\text{1}),(\text{2}) & \\
+(\text{E}) \: \varnothing & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+a_1a_2+b_1b_2=0 \\
+(m+2)(m-2)+3m(m+2)=0 \\
+\textcolor{#9333EA}{\text{Verify condition }(1)} \\
+(\frac{1}{2}+2)(\frac{1}{2}-2)+3\frac{1}{2}(\frac{1}{2}+2)=0 \\
+(\frac{5}{2} \times -(\frac{3}{2})) + (3 \times \frac{5}{4})=0 \\
+-\frac{15}{4}+\frac{15}{4}=0 \\
+\textcolor{#9333EA}{\text{Verify condition }(2)} \\
+(-2+2)(-2-2)+3(-2)(-2+2)=0 \\
+(0\times (-4))+(-6 \times 0)=0 \\
+0+0=0 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(D)}$  
+  > According to the Solution, get $(\text{1})\,✅\;,(\text{2})\,✅\;$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  a_1a_2+b_1b_2=0 & \href{/math/0%20Core%20courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_9-positional-relationships-between-two-lines}{\text{Perpendicular positional relationship}} \\
   \end{array}
   >$
 
