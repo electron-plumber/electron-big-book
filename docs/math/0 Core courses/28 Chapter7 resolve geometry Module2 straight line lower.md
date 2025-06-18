@@ -170,3 +170,111 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{14}\:$If the line $\small mx+3y+5=0$ is perpendicular to the line $\small nx−2y+1=0$, how many sets of positive integer solutions $\small (m,n)$ satisfy this condition $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 1 &
+(\text{B}) \: 2 &
+(\text{C}) \: 3 &
+(\text{D}) \: 4 &
+(\text{E}) \: 5 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+a_1a_2+b_1b_2=0 \\
+mn+3\times (-2)=0 \\
+mn=6 \\
+6=1\times6 \\
+6=6\times1 \\
+6=2\times3 \\
+6=3\times2 \\
+\end{array}
+$   
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(D)}$  
+  > According to the Solution, get $4 \text{ sets}$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  a_1a_2+b_1b_2=0 & \href{/math/0%20Core%20courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_9-positional-relationships-between-two-lines}{\text{Perpendicular positional relationship}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+::: wrap
+### $\fbox{15}\:$Given point $\small A(1, -2)$ and point $\small B(m, 2)$, and the equation of the perpendicular bisector of line segment $\small AB$ is $\small x+2y−2=0$, what is the value of the real number $\small m \, \mathpunct{?}.$
+$
+\begin{array}{lllll}
+(\text{A}) \: 3 &
+(\text{B}) \: 4 &
+(\text{C}) \: 5 &
+(\text{D}) \: 6 &
+(\text{E}) \: 7 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve by setting up equations  
+  ![Question straight line figure Q-15 solve-1.svg](../../public/math/Core%20courses/Question%20straight%20line%20figure%20Q-15%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  (\frac{m+1}{2},0) & \text{Midpoint} \\
+  \frac{m+1}{2}+0-2=0 \\
+  m+1+0-2=2 \\
+  m+1=4 \\
+  m=3 \\
+  \end{array}
+  $  
+:::  
+::: wrap  
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve using slopes  
+
+  $
+  \begin{array}{ll}
+  k_{AB}=\frac{2-(-2)}{m-1} \\
+  k=-\frac{a}{b} \\
+  x+2y−2=0 \longrightarrow k=-\frac{1}{2} \\
+  \text{The slope of }AB\text{ and the slope of the line }x+2y−2=0 \\
+  \text{are negative reciprocals of each other, since }AB\text{ is perpendicular to }x+2y−2=0.\\
+  k_{AB} \Rightarrow \frac{2}{1} \\
+  k_{AB}=\frac{4}{m-1}=2 \\
+  4=2m-2 \\
+  \frac{6}{2}=m \\
+  m=3 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(A)}$  
+  > According to the Solution, get $m=3$, so choose $A$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  (\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}) & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_2-coordinates-of-the-midpoint-between-two-points}{\text{Midpoint formula}} \\
+  k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_4-two-point-slope-formula}{\text{Two-point slope formula}} \\
+  k=-\frac{a}{b} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#remark-the-general-form-is-very-important-as-it-allows-you-to-quickly-calculate-the-slope}{\text{Quickly convert the general form to the slope}} \\
+  \end{array}
+  >$
+
+  :::
+---
