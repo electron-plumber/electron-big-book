@@ -278,3 +278,95 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{16}\:$Given that the equation of line $\small l$ is $\small x+2y−4=0$, and point $\small A$ has coordinates $\small (5,7)$, a line is drawn through point $\small A$ perpendicular to line $\small l$. What is the x-coordinate of the foot of the perpendicular $\small \, \mathpunct{?}.$
+$
+\begin{array}{lllll}
+(\text{A}) \: 6 &
+(\text{B}) \: 5 &
+(\text{C}) \: 2 &
+(\text{D}) \: -2 &
+(\text{E}) \: -1 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap
+- Show known conditions  
+  ![Question straight line figure Q-16 solve-1.svg](../../public/math/Core%20courses/Question%20straight%20line%20figure%20Q-16%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  k=-\frac{a}{b} \\
+  l=x+2y−4=0 \longrightarrow k=-\frac{1}{2} \\
+  \end{array}
+  $  
+:::   
+::: wrap
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve by using the two-point slope formula to write the equation and find the point of intersection   
+
+  $
+  \begin{array}{ll}
+  \text{Let }B=(x_0,y_0) \\
+  k:\,l=-\frac{1}{2} \longrightarrow AB=\frac{2}{1}=2 \\
+  \begin{cases}
+  \begin{array}{ll}
+  x_0+2y_0-4=0 & \text{Point }B\text{ on line }l \\
+  \frac{y_0-7}{x_0-5}=2 & \text{The inclination from }A\text{ to }B \\
+  \end{array}
+  \end{cases} \\
+  x_0+2y_0-4=0 & \text{Simplify equation }1 \\
+  x_0=4-2y_0 \\
+  \frac{y_0-7}{x_0-5}=2 & \text{Simplify equation }2 \\
+  y_0-7=2(x_0-5) \\
+  y_0-7=2x_0-10 \\
+  y_0=2x_0-3 \\
+  y_0=2(4-2y_0)-3 & \text{Substitute }x_0 \\
+  y_0=8-4y_0-3 \\
+  y_0=5-4y_0 \\
+  5y_0=5 \\
+  y_0=1 \\
+  x_0=4-2\times1 & \text{Substitute }y_0 \\
+  x_0=2 \\
+  \end{array}
+  $  
+:::  
+::: wrap  
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve by using the point-slope form to write the equation and find the point of intersection    
+
+  $
+  \begin{array}{ll}
+  k:\,l=-\frac{1}{2} \longrightarrow AB=\frac{2}{1}=2 \\
+  y=2(x-5)+7=2x-3 & \text{The equation of the line }AB \\
+  \begin{cases}
+  x+2y−4=0 \\
+  y=2x-3 \\
+  \end{cases} \\
+  x+2(2x-3)−4=0 & \text{Substitute }y \\
+  x+4x-6-4=0 \\
+  5x-10=0 \\
+  5x=10 \\
+  x=2 \\
+  \end{array}
+  $  
+:::
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(C)}$  
+  > According to the Solution, get $x=2$, so choose $C$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_4-two-point-slope-formula}{\text{Two-point slope formula}} \\
+  k=-\frac{a}{b} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#remark-the-general-form-is-very-important-as-it-allows-you-to-quickly-calculate-the-slope}{\text{Quickly convert the general form to the slope}} \\
+  y=y_0+k(x-x_0) & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#point-slope-form}{\text{Point-slope form}} \\
+  \end{array}
+  >$
+
+  :::
+---
