@@ -304,7 +304,7 @@ $
   $  
 :::   
 ::: wrap
-- $\textcolor{#228B22}{\fbox{1}}\:$Solve by using the two-point slope formula to write the equation and find the point of intersection   
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve by using the two-point slope formula to write a system of equations and find the point of intersection   
 
   $
   \begin{array}{ll}
@@ -333,7 +333,7 @@ $
   $  
 :::  
 ::: wrap  
-- $\textcolor{#228B22}{\fbox{2}}\:$Solve by using the point-slope form to write the equation and find the point of intersection    
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve by using the point-slope form to write a system of equations and find the point of intersection    
 
   $
   \begin{array}{ll}
@@ -365,6 +365,61 @@ $
   k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_4-two-point-slope-formula}{\text{Two-point slope formula}} \\
   k=-\frac{a}{b} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#remark-the-general-form-is-very-important-as-it-allows-you-to-quickly-calculate-the-slope}{\text{Quickly convert the general form to the slope}} \\
   y=y_0+k(x-x_0) & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#point-slope-form}{\text{Point-slope form}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+## 12.Focus 6
+__Two lines intersect__  
+- When the slopes of two lines aren't equal, the lines intersect.
+  Additionally, you should know how to find the coordinates of the intersection point.
+- Intersection point $=$ Solve the system of equations formed by the two lines.
+
+::: wrap
+### $\fbox{17}\:$(Sufficiency judgment) Determine whether the condition that the lines $\small (m+1)x+3y+1=0$ and $\small 2x+my−3=0$ intersect is sufficient.
+$
+\begin{array}{lllll}
+(\text{1}) \: m>\frac{1}{2}. &
+(\text{2}) \: m<-4. & \\
+(\text{A}) \: (\text{1}) &
+(\text{B}) \: (\text{2}) & \\
+(\text{C}) \: (\text{1})+(\text{2}) &  
+(\text{D}) \: (\text{1}),(\text{2}) & \\
+(\text{E}) \: \varnothing & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+\frac{a_1}{a_2} \ne \frac{b_1}{b_2} & \text{Intersect} \rightarrow \text{Not proportional} \\
+\frac{m+1}{2} \ne \frac{3}{m} \\
+m^2+m-6 \ne 0 \\
+m^2+m-6=(m-2)(m+3)=0 \\
+m=2 \lor m=-3 \longrightarrow m\ne2 \land m\ne-3 \\
+m \in \mathbb{R} \setminus \{2, -3\} \\
+\textcolor{#9333EA}{\text{Verify condition }(1)} \\
+m>\frac{1}{2} \Rightarrow m=2 \\
+\textcolor{#9333EA}{\text{Verify condition }(2)} \\
+m<-4 \Rightarrow m\ne2 \land m\ne-3 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $m<-4 \Rightarrow m\ne2 \land m\ne-3$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \frac{a_1}{a_2} \ne \frac{b_1}{b_2} & \href{/math/0%20Core%20courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_9-positional-relationships-between-two-lines}{\text{Intersecting positional relationship}} \\
   \end{array}
   >$
 
