@@ -425,3 +425,51 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{18}\:$What is the distance from the intersection point of the lines $\small 2x+3y+4=0$ and $\small 3x+y−1=0$ to the origin $\small \, \mathpunct{?}.$
+$
+\begin{array}{lllll}
+(\text{A}) \: \sqrt{2} &
+(\text{B}) \: \sqrt{3} &
+(\text{C}) \: 2 &
+(\text{D}) \: \sqrt{5} &
+(\text{E}) \: \sqrt{7} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+\begin{cases}
+2x+3y+4=0 \\
+3x+y-1=0 \longrightarrow 9x+3y-3=0 \\
+\end{cases} \\
+(9x+3y-3)-(2x+3y+4) = 0-0 \\
+7x-7=0 \\
+x=1 \\
+3\times 1+y-1=0 & \text{Substitute }x \\
+y=-2 \\
+\text{The distance from }(1, -2)\text{ to the origin.} \\
+d=\sqrt{(1-0)^2+(-2-0)^2} = \sqrt{5} \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(D)}$  
+  > According to the Solution, get $d=\sqrt{5}$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_3-distance-formula-between-two-points}{\text{Distance formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
