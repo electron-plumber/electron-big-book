@@ -473,3 +473,29 @@ $
 
   :::
 ---
+
+## 13.Positional Relationship Between a Point and a Line
+- For a point $(x_0, y_0)$ and a line $l: \,y=kx+b$     
+  ::: wrap  
+  $
+  y_0
+  \begin{cases}
+  \gt kx_0+b,\text{ the point lies above the line.} \\
+  =kx_0+b,\text{ the point lies on the line.} \\
+  \lt kx_0+b,\text{ the point lies below the line.} \\
+  \end{cases}
+  $  
+  :::  
+  ![Point line relation.svg](../../public/math/Core%20courses/Point%20line%20relation.svg)  
+
+
+## 14.Distance from a Point to a Line 
+- For the line $l:\,ax+by+c=0,$ the distance from the point $(x_0, y_0)$ to the line is $d=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}.$  
+- Special case: The distance from $(0, 0)$ to the line $l$ is $d=\frac{|c|}{\sqrt{a^2+b^2}}.$   
+![Point line distance.svg](../../public/math/Core%20courses/Point%20line%20distance.svg)  
+
+
+## 15.Distance Between Two Parallel Lines
+- Given two parallel lines: $l_1: ax+by+c_1=0; l_2: ax+by+c_2=0.$ The distance between $l_1$ and $l_2$ is $d=\frac{|c_1-c_2|}{\sqrt{a^2+b^2}}.$  
+- Remark: The derivation process involves selecting an arbitrary point on one of the lines and then using the formula for the distance from a point to a line to calculate the distance between the two parallel lines.  
+  ![Parallel lines distance.svg](../../public/math/Core%20courses/Parallel%20lines%20distance.svg)  
