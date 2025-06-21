@@ -3,13 +3,6 @@ title: Chapter7 resolve geometry Module2 straight line lower
 lang: en-US
 ---
 
-| Platforms   | Courses                                                                                           | Coursewares                                                       |
-|-------------|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| YouTube     | [Watch](https://www.youtube.com/watch?v=rzjADVpR2JQ&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s)      | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
-| Dailymotion | [Watch](https://www.dailymotion.com/video/x9gsuak?playlist=x9h6d2)                                |                                                                   |
-| Rumble      | [Watch](https://rumble.com/v6s95hb-28-chapter7-resolve-geometry-module2-straight-line-lower.html) |                                                                   |
-
-
 ## 9. Positional Relationships Between Two Lines
 
 | Positional Relationship | Slope-Intercept Form<br/>$\mathbf{l_1:\;y=k_1x+b_1}$<br/>$\mathbf{l_2:\;y=k_2x+b_2}$ |          General Form<br/>$\mathbf{l_1:\;a_1x+b_1y+c_1=0}$<br/>$\mathbf{l_2:\;a_2x+b_2y+c_2=0}$          |
@@ -622,3 +615,57 @@ $
 
   :::
 ---
+
+## 18.Focus 9
+__Distance Between Two Parallel Lines__
+- To apply the distance formula between two parallel lines, make sure to first unify the coefficients of $x$ and $y$ in both equations, and then proceed with the calculation.
+
+
+::: wrap
+### $\fbox{21}\:$Given $\small l_1: 3x-4y+2=0, l_2: 6x-8y+9=0$, What is the distance between $\small l_1$ and $\small l_2 \,\mathpunct{?}.$ 
+$
+\begin{array}{lllll}
+(\text{A}) \: \frac{7}{10} &
+(\text{B}) \: \frac{1}{4} &
+(\text{C}) \: \frac{1}{3} &
+(\text{D}) \: \frac{1}{2} &
+(\text{E}) \: \frac{7}{5} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Unify the $x$ and $y$ coefficients of the two parallel lines before solving    
+
+  $
+  \begin{array}{ll}
+  l_1: 3x-4y+2=0 \rightarrow 6x-8y+4=0 & \text{Multiply both sides by }2 \\
+  l_2: 6x-8y+9=0 \\
+  d=\frac{|c_1-c_2|}{\sqrt{a^2+b^2}} \\
+  d=\frac{|9-4|}{\sqrt{6^2+8^2}} = \frac{5}{10} = \frac{1}{2}\\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(D)}$  
+  > According to the Solution, get $d=\frac{1}{2}$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  d=\frac{|c_1-c_2|}{\sqrt{a^2+b^2}} & \href{/math/0%20Core%20courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_15-distance-between-two-parallel-lines}{\text{Parallel Lines Distance Formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+| Platforms   | Courses                                                                                           | Coursewares                                                       |
+|-------------|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| YouTube     | [Watch](https://www.youtube.com/watch?v=rzjADVpR2JQ&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s)      | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
+| Dailymotion | [Watch](https://www.dailymotion.com/video/x9gsuak?playlist=x9h6d2)                                |                                                                   |
+| Rumble      | [Watch](https://rumble.com/v6s95hb-28-chapter7-resolve-geometry-module2-straight-line-lower.html) |                                                                   |
