@@ -499,3 +499,72 @@ $
 - Given two parallel lines: $l_1: ax+by+c_1=0; l_2: ax+by+c_2=0.$ The distance between $l_1$ and $l_2$ is $d=\frac{|c_1-c_2|}{\sqrt{a^2+b^2}}.$  
 - Remark: The derivation process involves selecting an arbitrary point on one of the lines and then using the formula for the distance from a point to a line to calculate the distance between the two parallel lines.  
   ![Parallel lines distance.svg](../../public/math/Core%20courses/Parallel%20lines%20distance.svg)  
+
+
+## 16.Focus 7
+__Positional Relationship Between a Point and a Line__   
+- First, convert the line into the form $y=kx+b$, then substitute the point into the equation to make a determination.
+- Note: Make sure the coefficient of $y$ is positive; otherwise, the result of the judgment will be reversed.
+- General form: $ax+by+c=0$  
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  b>0
+  \begin{cases}
+  \begin{array}{ll}
+  ax+by+c>0 & \text{The point is above the line.} \\
+  ax+by+c<0 & \text{The point is below the line.} \\
+  \end{array}
+  \end{cases} \\
+  b<0
+  \begin{cases}
+  \begin{array}{ll}
+  ax+by+c>0 & \text{The point is below the line.} \\
+  ax+by+c<0 & \text{The point is above the line.} \\
+  \end{array}
+  \end{cases}
+  \end{array}
+  $  
+  :::
+
+::: wrap
+### $\fbox{19}\:$Given the equation of line $\small l:\,x+2y-4=0,$ and the coordinates of point $\small A$ are $\small (5-m, m).$ If point $\small A$ is above the line $\small l,$  what is the range of values for $\small m \, \mathpunct{?}.$ 
+$
+\begin{array}{lllll}
+(\text{A}) \: m>1 &
+(\text{B}) \: m>-1 &
+(\text{C}) \: m>-2 &
+(\text{D}) \: m>-\frac{1}{2} &
+(\text{E}) \: m<-1 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+A:(5-m, m) \\
+5-m+2m-4 > 0 \\
+(5-4)+(-m+2m) > 0 \\
+1+m>0 \\
+m>-1 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $m>-1$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  y=kx+b & \href{/math/0%20Core%20courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_16-focus-7}{\text{Point-line position}} \\
+  \end{array}
+  >$
+
+  :::
+---
