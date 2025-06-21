@@ -568,3 +568,57 @@ $
 
   :::
 ---
+
+## 17.Focus 8
+__Distance from a Point to a Line__  
+- First, convert the line equation into general form, then apply the point-to-line distance formula.
+
+
+::: wrap
+### $\fbox{20}\:$Given point $\small C(2,−3)$, and points $\small M(5,5), N(−3,−1)$, what is the distance from point $\small C$ to the line $\small MN \,\mathpunct{?}.$
+$
+\begin{array}{lllll}
+(\text{A}) \: \frac{23}{5} &
+(\text{B}) \: \frac{22}{5} &
+(\text{C}) \: \frac{21}{5} &
+(\text{D}) \: \frac{19}{5} &
+(\text{E}) \: \frac{18}{5} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+K_{MN}=\frac{5-(-1)}{5-(-3)}=\frac{6}{8}=\frac{3}{4} \\
+3x-4y+c=0 & \text{Reverse-derive the general formula for }k=-\frac{a}{b} \\
+3 \times 5-4 \times 5+c=0 & \text{Substitute }M \lor N \\
+15-20+c=0 \\
+c=5 \\
+3x-4y+5=0 \\
+3\times 2-4\times (-3)+5=0 & \text{Substitute }C \\
+d=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}} \\
+d=\frac{6+12+5}{\sqrt{3^2+4^2}}=\frac{23}{5} \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(A)}$  
+  > According to the Solution, get $d=\frac{23}{5}$, so choose $A$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_4-two-point-slope-formula}{\text{Two-point slope formula}} \\
+  k=-\frac{a}{b} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#remark-the-general-form-is-very-important-as-it-allows-you-to-quickly-calculate-the-slope}{\text{Quickly convert the general form to the slope}} \\
+  ax+by+c=0 & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#general-form}{\text{General form}} \\
+  d=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}} & \href{/math/0%20Core%20courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_14-distance-from-a-point-to-a-line}{\text{point-to-line distance formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
