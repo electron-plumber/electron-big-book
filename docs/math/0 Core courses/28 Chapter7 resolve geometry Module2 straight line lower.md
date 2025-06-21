@@ -12,7 +12,8 @@ lang: en-US
 |      Perpendicular      |                      $l_1 \perp l_2 \Leftrightarrow k_1k_2=-1$                       | $l_1 \perp l_2 \Leftrightarrow \frac{a_1}{b_1} \cdot \frac{a_2}{b_2}=-1 \Leftrightarrow a_1a_2+b_1b_2=0$ |
 
 __Examples__  
-- Slope-Intercept Form
+- Slope-Intercept Form  
+  ::: wrap  
   - Parallel  
     $
     \begin{array}{ll}
@@ -29,8 +30,10 @@ __Examples__
     y=2x+3 \\
     k_1k_2=-1 \rightarrow (-\frac{1}{2})\times 2=-1 \\
     \end{array}
-    $
-- General Form
+    $  
+  :::   
+- General Form  
+  ::: wrap  
   - Parallel  
     $
     \begin{array}{ll}
@@ -47,7 +50,8 @@ __Examples__
     4x-3y+2=0 \\
     a_1a_2+b_1b_2=0 \rightarrow 3\times4+(4\times-3)=0 \\
     \end{array}
-    $
+    $  
+  :::  
 
 ## 10.Focus 4
 __Two lines are parallel__  
@@ -489,7 +493,7 @@ $
 
 
 ## 15.Distance Between Two Parallel Lines
-- Given two parallel lines: $l_1: ax+by+c_1=0; l_2: ax+by+c_2=0.$ The distance between $l_1$ and $l_2$ is $d=\frac{|c_1-c_2|}{\sqrt{a^2+b^2}}.$  
+- Given two parallel lines: $l_1: ax+by+c_1=0;$ $l_2: ax+by+c_2=0.$ The distance between $l_1$ and $l_2$ is $d=\frac{|c_1-c_2|}{\sqrt{a^2+b^2}}.$
 - Remark: The derivation process involves selecting an arbitrary point on one of the lines and then using the formula for the distance from a point to a line to calculate the distance between the two parallel lines.  
   ![Parallel lines distance.svg](../../public/math/Core%20courses/Parallel%20lines%20distance.svg)  
 
