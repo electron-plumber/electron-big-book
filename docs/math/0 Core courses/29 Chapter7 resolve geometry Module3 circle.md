@@ -18,7 +18,7 @@ lang: en-US
 - A circle with center $(x_0,y_0)$ and radius $r$ can be represented by the equation: $(x-x_0)^2+(y-y_0)^2=r^2.$
 - __Equation derivations__   
   ::: wrap    
-  ![Two-point equation derivations.svg](../../public/math/Core%20courses/Two-point%20equation%20derivations.svg)
+  ![Circle standard form derivation.svg](../../public/math/Core%20courses/Circle%20standard%20form%20derivation.svg)  
 
   $
   \begin{array}{ll}
@@ -33,4 +33,22 @@ lang: en-US
   :::
 
 ### $\textcolor{#1E3A5F}{\fbox{2}}\:$General Form
-- 
+- $x^2+y^2+ax+by+c=0.$  
+- It can be completed into the standard form: $(x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4}.$  
+  - Center: $(-frac{a}{2},-\frac{b}{2}).$
+  - Radius: $r=\frac{a^2+b^2-4c}{2}.$
+- Note: The condition for the general form to represent a circle is $a^2+b^2-4c>0.$  
+- __Equation derivations__   
+  ::: wrap    
+
+  $
+  \begin{array}{ll}
+  (x-x_0)^2+(y-y_0)^2 = r^2 & \text{Standard form} \\
+  x^2-2x_0x+x_0^2+y^2-2 y_0y+y_0^2 = r^2 & \text{Expand the perfect square} \\
+  x^2+y^2-2x_0x-2y_0y+(x_0^2+y_0^2)=r^2 \\
+  x^2+y^2-2x_0x-2y_0y+(x_0^2+y_0^2-r^2)=0 \\
+  \text{Let }a=-2x_0 \quad b=-2y_0 \quad c=x_0^2+y_0^2-r^2 \\
+  x^2+y^2+ax+by+c=0 \\
+  \end{array}
+  $  
+  :::
