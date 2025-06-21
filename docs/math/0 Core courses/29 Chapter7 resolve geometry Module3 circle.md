@@ -10,3 +10,27 @@ lang: en-US
 
 
 
+# Module 7–03 Circle
+
+## 1. Equation of a Circle
+
+### $\textcolor{#1E3A5F}{\fbox{1}}\:$Standard Form
+- A circle with center $(x_0,y_0)$ and radius $r$ can be represented by the equation: $(x-x_0)^2+(y-y_0)^2=r^2.$
+- __Equation derivations__   
+  ::: wrap    
+  ![Two-point equation derivations.svg](../../public/math/Core%20courses/Two-point%20equation%20derivations.svg)
+
+  $
+  \begin{array}{ll}
+  \sqrt{(x-x_0)^2+(y-y_0)^2} = r & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_3-distance-formula-between-two-points}{\text{Two-point distance formula}} \\
+  (x-x_0)^2+(y-y_0)^2 = r^2 \\
+  \text{Example:} \\
+  (x+3)^2+(y-2)^2=4 \\
+  \text{Center: }(-3,2) & \text{Letting }r=0\text{ makes the circle shrink to a point — the center} \\
+  \text{Radius: }r=2 & 2^2=4 \\
+  \end{array}
+  $  
+  :::
+
+### $\textcolor{#1E3A5F}{\fbox{2}}\:$General Form
+- 
