@@ -35,8 +35,12 @@ lang: en-US
 ### $\textcolor{#1E3A5F}{\fbox{2}}\:$General Form
 - $x^2+y^2+ax+by+c=0.$  
 - It can be completed into the standard form: $(x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4}.$  
-  - Center: $(-frac{a}{2},-\frac{b}{2}).$
+  - Center: $(-\frac{a}{2},-\frac{b}{2}).$
   - Radius: $r=\frac{a^2+b^2-4c}{2}.$
+- Special cases:
+  - $a=0: x^2+y^2+by+c=0.$ Center on the $y$-axis.
+  - $b=0: x^2+y^2+ax+c=0.$ Center on the $x$-axis. 
+  - $c=0: x^2+y^2+ax+by+c=0.$ The function passes through the origin.
 - Note: The condition for the general form to represent a circle is $a^2+b^2-4c>0.$  
 - __Equation derivations__   
   ::: wrap    
@@ -52,3 +56,15 @@ lang: en-US
   \end{array}
   $  
   :::
+
+## 2. Special Circles (Standard Form)  
+
+|  	Special Circles   |         Equations         |                                                               Graphs                                                               |       Properties        |
+|:-------------------:|:-------------------------:|:----------------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|
+|       $x_0=0$       |    $x^2+(y-y_0)^2=r^2$    | ![Special circles standard form graph 1.svg](../../public/math/Core%20courses/Special%20circles%20standard%20form%20graph%201.svg) | Center on the $y$-axis  |
+|       $y_0=0$       |    $(x-x_0)^2+y^2=r^2$    | ![Special circles standard form graph 2.svg](../../public/math/Core%20courses/Special%20circles%20standard%20form%20graph%202.svg) | Center on the $x$-axis  |
+|     $x_0=y_0=0$     |       $x^2+y^2=r^2$       | ![Special circles standard form graph 3.svg](../../public/math/Core%20courses/Special%20circles%20standard%20form%20graph%203.svg) |  Center at the origin   |
+|     $\|y_0\|=r$     | $(x-x_0)^2+(y-y_0)^2=r^2$ | ![Special circles standard form graph 4.svg](../../public/math/Core%20courses/Special%20circles%20standard%20form%20graph%204.svg) | Tangent to the $x$-axis |
+|     $\|x_0\|=r$     | $(x-x_0)^2+(y-y_0)^2=r^2$ | ![Special circles standard form graph 5.svg](../../public/math/Core%20courses/Special%20circles%20standard%20form%20graph%205.svg) | Tangent to the $y$-axis |
+| $\|x_0\|=\|y_0\|=r$ | $(x-x_0)^2+(y-y_0)^2=r^2$ | ![Special circles standard form graph 6.svg](../../public/math/Core%20courses/Special%20circles%20standard%20form%20graph%206.svg) |  Tangent to both axes   |
+
