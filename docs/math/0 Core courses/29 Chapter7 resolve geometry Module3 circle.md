@@ -186,3 +186,86 @@ $
 
   :::
 ---
+
+## 4.Focus 2
+__Intersection of a circle and the coordinate axes__
+- Let $y=0$ to find the points where the circle intersects the $x$-axis; 
+  let $x=0$ to find the points where it intersects the $y$-axis.
+  If the circle has only one point of intersection with an axis, then it is tangent to that axis.
+
+
+::: wrap
+### $\fbox{24}\:$What are the two points where the circle $\small x^2+(y-1)^2=4$ intersects the $x\text{-}$axis $\small\, \mathpunct{?}.$
+$
+\begin{array}{lllll}
+(\text{A}) \: (-\sqrt{5},0),(\sqrt{5},0) &
+(\text{B}) \: (-2,0),(2,0) & \\
+(\text{C}) \: (0,-\sqrt{5}),(0,\sqrt{5}) &
+(\text{D}) \: (-\sqrt{3},0),(\sqrt{3},0) & \\
+(\text{E}) \: (-\sqrt{2},-\sqrt{3}),(\sqrt{2},\sqrt{3}) & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+\text{Let }y=0 \\
+x^2+(0-1)^2=4 \\
+x^2+1=4 \\
+x=\pm\sqrt{3} \Rightarrow (-\sqrt{3},0),(\sqrt{3},0)\\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(D)}$  
+  > According to the Solution, get $x=\pm\sqrt{3} \Rightarrow (-\sqrt{3},0),(\sqrt{3},0)$, so choose $D$. 
+
+  :::
+---
+
+::: wrap
+### $\fbox{25}\:$What is the equation of the circle centered at $\small P(−2,3)$ and tangent to the $y\text{-}$axis$\small \, \mathpunct{?}.$
+$
+\begin{array}{lllll}
+(\text{A}) \: (x-2)^2+(y+3)^2=4 &
+(\text{B}) \: (x+2)^2+(y-3)^2=4 & \\
+(\text{C}) \: (x-2)+(y+3)^2=9 &
+(\text{D}) \: (x+2)^2+(y-3)^2=9 & \\
+(\text{E}) \: (x-3)^2+(y+2)^2=9 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- solve  
+
+  $
+  \begin{array}{ll}
+  |x_0|=r & \text{Tangent to the }y\text{-axis} \\
+  r=|-2|=2 \\
+  ((-2)-x_0)^2+(3-y_0)^2=2^2 \\ 
+  (x+2)^2+(y-3)^2=4 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $(x+2)^2+(y-3)^2=4$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  |x_0|=r & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#_2-special-circles-standard-form}{\text{Special circles in standard form}} \\
+  (x-x_0)^2+(y-y_0)^2=r^2 & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#standard-form}{\text{Standard form of a circle}} \\
+  \end{array}
+  >$
+
+  :::
+---
