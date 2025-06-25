@@ -98,8 +98,8 @@ $
   m<13 \\
   \end{array}
   $   
-  :::  
-  ::: wrap
+:::  
+::: wrap
 - $\textcolor{#228B22}{\fbox{2}}\:$Solve using the condition for the general form of a circle.
 
   $
@@ -113,7 +113,7 @@ $
   m<13 \\
   \end{array}
   $   
-  :::
+:::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
@@ -128,6 +128,59 @@ $
   (x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4} & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#it-can-be-completed-into-the-standard-form}{\text{Complete to standard form}} \\
   x^2+y^2+ax+by+c=0 & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#general-form}{\text{General form of a circle}} \\
   a^2+b^2-4c>0 & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#note-the-condition-for-the-general-form-to-represent-a-circle-is}{\text{General form circle condition}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+::: wrap
+### $\fbox{23}\:$If the equation of a circle is $\small x^2+y^2=1$, then what is the equation of its right semicircle (the part located in the first and fourth quadrants)$\small \,\mathpunct{?}.$
+$
+\begin{array}{lllll}
+(\text{A}) \: y-\sqrt{1-x^2}=0 &
+(\text{B}) \: x-\sqrt{1-y^2}=0 &
+(\text{C}) \: y+\sqrt{1-x^2}=0 & \\
+(\text{D}) \: x+\sqrt{1-y^2}=0 &
+(\text{E}) \: x^2+y^2=\frac{1}{2} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Show known conditions  
+  ![Question circle figure Q-23 solve-1.svg](../../public/math/Core%20courses/Question%20circle%20figure%20Q-23%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  x^2+y^2=1 \\
+  x^2=1-y^2 \\
+  x=\sqrt{1-y^2} & x > 0 \textsf{ since it's the right half.} \\
+  x-\sqrt{1-y^2}=0 & \textsf{right semicircle}\\
+  y-\sqrt{1-x^2}=0 \rightarrow y=\sqrt{1-x^2} & y \in \mathbb{R}^{+} \textsf{ upper semicircle} \\
+  y+\sqrt{1-x^2}=0 \rightarrow y=-\sqrt{1-x^2} & y \in \mathbb{R}^{-} \textsf{ lower semicircle} \\
+  x+\sqrt{1-y^2}=0 \rightarrow x=-\sqrt{1-y^2} & x \in \mathbb{R}^{-} \textsf{ left semicircle} \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $x-\sqrt{1-y^2}=0$, so choose $B$. 
+
+  :::
+- Additionally, if the problem is a standard form equation of a circle  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  (x-x_0)^2+(y-y_0)^2=r^2 \\
+  (x-x_0)^2=r^2-(y-y_0)^2 \\
+  x=x_0+\sqrt{r^2-(y-y_0)^2} & \textsf{left semicircle} \\
+  x=x_0-\sqrt{r^2-(y-y_0)^2} & \textsf{right semicircle} \\
+  (y-y_0)^2=r^2-(x-x_0)^2 \\
+  y=y_0+\sqrt{r^2-(x-x_0)^2} & \textsf{upper semicircle} \\
+  y=y_0-\sqrt{r^2-(x-x_0)^2} & \textsf{lower semicircle} \\
   \end{array}
   >$
 
