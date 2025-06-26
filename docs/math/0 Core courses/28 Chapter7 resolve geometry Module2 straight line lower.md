@@ -3,7 +3,7 @@ title: Chapter7 resolve geometry Module2 straight line lower
 lang: en-US
 ---
 
-## 9. Positional Relationships Between Two Lines
+## 9.Positional Relationships Between Two Lines
 
 | Positional Relationship | Slope-Intercept Form<br/>$\mathbf{l_1:\;y=k_1x+b_1}$<br/>$\mathbf{l_2:\;y=k_2x+b_2}$ |          General Form<br/>$\mathbf{l_1:\;a_1x+b_1y+c_1=0}$<br/>$\mathbf{l_2:\;a_2x+b_2y+c_2=0}$          |
 |:-----------------------:|:------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------:|

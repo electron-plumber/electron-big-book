@@ -12,7 +12,7 @@ lang: en-US
 
 # Module 7–03 Circle
 
-## 1. Equation of a Circle
+## 1.Equation of a Circle
 
 ### $\textcolor{#1E3A5F}{\fbox{1}}\:$Standard Form
 - A circle with center $(x_0,y_0)$ and radius $r$ can be represented by the equation: $(x-x_0)^2+(y-y_0)^2=r^2.$
@@ -57,7 +57,7 @@ lang: en-US
   $  
   :::
 
-## 2. Special Circles (Standard Form)  
+## 2.Special Circles (Standard Form)  
 
 |  	Special Circles   |         Equations         |                                                               Graphs                                                               |       Properties        |
 |:-------------------:|:-------------------------:|:----------------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|
@@ -269,3 +269,22 @@ $
 
   :::
 ---
+
+## 5.Position of a Point Relative to a Circle
+- Let $P(x_p, y_p)$ be a point, and let the circle be defined by $(x-x_0)^2+(y-y_0)^2=r^2$,   
+  Substitute the point into the circle's equation:  
+  ::: wrap  
+  $
+  (x_p-x_0)^2+(y_p-y_0)^2
+  \begin{cases}
+  <r^2\text{ the point lies inside the circle.} \\
+  =r^2\text{ the point lies on the circle.} \\
+  \ge r^2\text{ the point lies outside the circle.} \\
+  \end{cases}
+  $  
+  ::: 
+  ![Point circle relation.svg](../../public/math/Core%20courses/Point%20circle%20relation.svg)  
+
+## 6.Relationship Between a Line and a Circle
+Given the line $l:\,y=kx+b$ and the circle $O:\,(x-x_0)^2+(y-y_0)^2=r^2$, let $d$
+be the distance from the center of the circle $(x_0,y_0)$ to the line $l.$
