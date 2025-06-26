@@ -240,16 +240,14 @@ $
 :::
 #### Solution
 ::: wrap  
-- solve  
-
-  $
-  \begin{array}{ll}
-  |x_0|=r & \text{Tangent to the }y\text{-axis} \\
-  r=|-2|=2 \\
-  ((-2)-x_0)^2+(3-y_0)^2=2^2 \\ 
-  (x+2)^2+(y-3)^2=4 \\
-  \end{array}
-  $  
+$
+\begin{array}{ll}
+|x_0|=r & \text{Tangent to the }y\text{-axis} \\
+r=|-2|=2 \\
+((-2)-x_0)^2+(3-y_0)^2=2^2 \\ 
+(x+2)^2+(y-3)^2=4 \\
+\end{array}
+$  
 :::  
 #### Conclusion
 - Derived Solution  
@@ -304,10 +302,17 @@ $
 ## 7.Relationship Between Two Circles  
 - Let $O_1:\,(x-x_1)^2+(y-y_1)^2=r_1^2,$ and $O_2:\,(x-x_2)^2+(y-y_2)^2=r_2^2,$ where we may assume $r_1>r_2.$ Let $d$ be the distance between the centers $(x_1, y_1)$ and $(x_2, y_2).$
 
-|      Circle–Circle Position Relationship       |                                                          Diagram                                                           | Condition (Geometric Interpretation) | 	Number of Common Internal Tangents | Number of Common External Tangents |
-|:----------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|:------------------------------------:|:-----------------------------------:|:----------------------------------:|
-|        __Separate__<br/>No Intersection        | ![Two circles relationship diagram 1.svg](../../public/math/Core%20courses/Two%20circles%20relationship%20diagram%201.svg) |             $d>r_1+r_2$              |                  2                  |                 2                  |
-| __External Tangency__<br/>1 Intersection Point | ![Two circles relationship diagram 2.svg](../../public/math/Core%20courses/Two%20circles%20relationship%20diagram%202.svg) |             $d=r_1+r_2$              |                  1                  |                 2                  |
-|   __Intersection__<br/>2 Intersection Points   | ![Two circles relationship diagram 3.svg](../../public/math/Core%20courses/Two%20circles%20relationship%20diagram%203.svg) |    $\|r_1-r_2\|\lt d\lt r_1+r_2$     |                  0                  |                 2                  |
-| __Internal Tangency__<br/>1 Intersection Point | ![Two circles relationship diagram 4.svg](../../public/math/Core%20courses/Two%20circles%20relationship%20diagram%204.svg) |           $d=\|r_1-r_2\|$            |                  0                  |                 1                  |
-|      __Containment__<br/>No Intersection       | ![Two circles relationship diagram 5.svg](../../public/math/Core%20courses/Two%20circles%20relationship%20diagram%205.svg) |          $d\lt \|r_1-r_2\|$          |                  0                  |                 0                  |
+|       Circle–Circle Position Relationship       |                                                          Diagram                                                           | Condition (Geometric Interpretation) | 	Number of Common Internal Tangents | Number of Common External Tangents |
+|:-----------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|:------------------------------------:|:-----------------------------------:|:----------------------------------:|
+|   __Externally separate__<br/>No Intersection   | ![Two circles relationship diagram 1.svg](../../public/math/Core%20courses/Two%20circles%20relationship%20diagram%201.svg) |             $d>r_1+r_2$              |                  2                  |                 2                  |
+| __Externally tangent__<br/>1 Intersection Point | ![Two circles relationship diagram 2.svg](../../public/math/Core%20courses/Two%20circles%20relationship%20diagram%202.svg) |             $d=r_1+r_2$              |                  1                  |                 2                  |
+|   __Intersecting__<br/>2 Intersection Points    | ![Two circles relationship diagram 3.svg](../../public/math/Core%20courses/Two%20circles%20relationship%20diagram%203.svg) |    $\|r_1-r_2\|\lt d\lt r_1+r_2$     |                  0                  |                 2                  |
+| __Internally tangent__<br/>1 Intersection Point | ![Two circles relationship diagram 4.svg](../../public/math/Core%20courses/Two%20circles%20relationship%20diagram%204.svg) |           $d=\|r_1-r_2\|$            |                  0                  |                 1                  |
+|  __Internally contained__<br/>No Intersection   | ![Two circles relationship diagram 5.svg](../../public/math/Core%20courses/Two%20circles%20relationship%20diagram%205.svg) |          $d\lt \|r_1-r_2\|$          |                  0                  |                 0                  |
+
+- The range of the distance $d$ between the circles and their position relationship.       
+  ![Circle distance range position axis.svg](../../public/math/Core%20courses/Circle%20distance%20range%20position%20axis.svg)   
+
+
+
+  
