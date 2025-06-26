@@ -286,5 +286,17 @@ $
   ![Point circle relation.svg](../../public/math/Core%20courses/Point%20circle%20relation.svg)  
 
 ## 6.Relationship Between a Line and a Circle
-Given the line $l:\,y=kx+b$ and the circle $O:\,(x-x_0)^2+(y-y_0)^2=r^2$, let $d$
-be the distance from the center of the circle $(x_0,y_0)$ to the line $l.$
+- Given the line $l:\,y=kx+b$ and the circle $O:\,(x-x_0)^2+(y-y_0)^2=r^2$, let $d$
+  be the distance from the center of the circle $(x_0,y_0)$ to the line $l.$
+
+|        Line–Circle Position Relationship         |                                                          Diagram                                                           | Condition (Geometric Interpretation) |
+|:------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|:------------------------------------:|
+| Line and circle are separate<br/>No Intersection | ![Line circle relationship diagram 1.svg](../../public/math/Core%20courses/Line%20circle%20relationship%20diagram%201.svg) |                $d>r$                 |
+| Line tangent to circle<br/>1 Intersection Point  | ![Line circle relationship diagram 2.svg](../../public/math/Core%20courses/Line%20circle%20relationship%20diagram%202.svg) |                $d=r$                 |
+| Line intersects circle<br/>2 Intersection Points | ![Line circle relationship diagram 3.svg](../../public/math/Core%20courses/Line%20circle%20relationship%20diagram%203.svg) |                $d<r$                 |
+
+- Chord length of a circle   
+  - Derived from the Pythagorean theorem.   
+  - $\textsf{Chord length} = 2\sqrt{r^2-d^2}.$    
+    ![Circle chord length.svg](../../public/math/Core%20courses/Circle%20chord%20length.svg)  
+

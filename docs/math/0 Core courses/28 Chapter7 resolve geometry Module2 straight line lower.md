@@ -102,7 +102,7 @@ $
 
   :::
 - Formula used  
-  ::: wrap
+  ::: wrap  
   >$
   \begin{array}{ll}
   l_1 \parallel l_2 \Leftrightarrow \frac{a_1}{a_2}=\frac{b_1}{b_2} \ne \frac{c_1}{c_2} & \href{/math/0%20Core%20courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_9-positional-relationships-between-two-lines}{\text{Parallel positional relationship}} \\
