@@ -14,7 +14,7 @@ lang: en-US
 
 ## 1.Equation of a Circle
 
-### $\textcolor{#1E3A5F}{\fbox{1}}\:$Standard Form
+### $\textcolor{#1E3A5F}{\fbox{1}}\:$Standard Form  
 - A circle with center $(x_0,y_0)$ and radius $r$ can be represented by the equation: $(x-x_0)^2+(y-y_0)^2=r^2.$
 - __Equation derivations__   
   ::: wrap    
@@ -32,7 +32,7 @@ lang: en-US
   $  
   :::
 
-### $\textcolor{#1E3A5F}{\fbox{2}}\:$General Form
+### $\textcolor{#1E3A5F}{\fbox{2}}\:$General Form  
 - $x^2+y^2+ax+by+c=0.$  
 - ###### It can be completed into the standard form: $(x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4}.$  
   - Center: $(-\frac{a}{2},-\frac{b}{2}).$
@@ -277,12 +277,12 @@ $
   $
   (x_p-x_0)^2+(y_p-y_0)^2
   \begin{cases}
-  <r^2\text{ the point lies inside the circle.} \\
+  \lt r^2\text{ the point lies inside the circle.} \\
   =r^2\text{ the point lies on the circle.} \\
-  \ge r^2\text{ the point lies outside the circle.} \\
+  \gt r^2\text{ the point lies outside the circle.} \\
   \end{cases}
   $  
-  ::: 
+  :::   
   ![Point circle relation.svg](../../public/math/Core%20courses/Point%20circle%20relation.svg)  
 
 ## 6.Relationship Between a Line and a Circle
