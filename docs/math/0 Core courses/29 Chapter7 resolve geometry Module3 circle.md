@@ -314,5 +314,61 @@ $
   ![Circle distance range position axis.svg](../../public/math/Core%20courses/Circle%20distance%20range%20position%20axis.svg)   
 
 
+## 8.Focus 3
+__The positional relationship between a point and a circle__   
+- First, substitute the point into the equation of the circle, then make the judgment.  
 
+
+::: wrap
+### $\fbox{26}\:$If the point $\small P(2m, m)$ is inside the circle $\small x^2+y^2-4x+2y+1=0$, what is the range of values for $\small m\,\mathpunct{?}.$
+$
+\begin{array}{lllll}
+(\text{A}) \: \frac{1}{5} < m < 1 &
+(\text{B}) \: -\frac{1}{5} < m < 1 &
+(\text{C}) \: m \lt \frac{1}{5} \lor m \gt 1 & \\
+(\text{D}) \: -1 < m < \frac{1}{5} &
+(\text{E}) \: -1 < m < -\frac{1}{5} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+\textsf{The point is inside the circle}\Rightarrow < r^2 \\
+P(2m, m) \\
+4m^2+m^2-8m+2m+1<0 & \textsf{Substitute }P \\
+5m^2-6m+1<0 \\
+5m^2-6m+1\Rightarrow(1m-1)(5m-1)=0 \\
+m=1 \lor m=\frac{1}{5} \\
+\textsf{Parabola Analysis:}\\
+5>0:\, \textsf{Opens upward} \\
+\textsf{Roots}:\, \textsf{Intersects }m\textsf{-axis at }m=1\text{ and }m=\frac{1}{5} \\
+\textsf{Range}:\, f(x)<0\textsf{ between the two roots} \\
+f(x)<0 \longrightarrow \frac{1}{5} < m < 1 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(A)}$  
+  > According to the Solution, get $f(x)<0 \longrightarrow \frac{1}{5} < m < 1$, so choose $A$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  (x_p-x_0)^2+(y_p-y_0)^2
+  \begin{cases}
+  \lt r^2\text{ the point lies inside the circle.} \\
+  =r^2\text{ the point lies on the circle.} \\
+  \gt r^2\text{ the point lies outside the circle.} \\
+  \end{cases} & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#_5-position-of-a-point-relative-to-a-circle}{\text{Point-circle relationship}} \\
+  \end{array}
+  >$
+
+  :::
+---
   

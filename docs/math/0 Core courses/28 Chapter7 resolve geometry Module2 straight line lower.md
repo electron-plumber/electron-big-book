@@ -395,7 +395,7 @@ $
 \frac{a_1}{a_2} \ne \frac{b_1}{b_2} & \text{Intersect} \rightarrow \text{Not proportional} \\
 \frac{m+1}{2} \ne \frac{3}{m} \\
 m^2+m-6 \ne 0 \\
-m^2+m-6=(m-2)(m+3)=0 \\
+m^2+m-6\Rightarrow(m-2)(m+3)=0 \\
 m=2 \lor m=-3 \longrightarrow m\ne2 \land m\ne-3 \\
 m \in \mathbb{R} \setminus \{2, -3\} \\
 \textcolor{#9333EA}{\text{Verify condition }(1)} \\
