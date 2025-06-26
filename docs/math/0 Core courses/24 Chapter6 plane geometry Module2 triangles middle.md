@@ -324,7 +324,7 @@ $
 - The ratio of the three sides of an isosceles right triangle is $1:1:\sqrt{2}$.  
   ![Side ratio of isosceles right triangle.svg](../../public/math/Core%20courses/Side%20ratio%20of%20isosceles%20right%20triangle.svg)   
 - The area of an isosceles right triangle is $S=\frac{1}{2}a^2=\frac{1}{4}c^2$, where $a$ is the length of the right angle side, and $c$ is the length of the hypotenuse.     
-- In a triangle with angles $30^\circ,60^\circ,90^\circ$, the sides are always in the ratio $1:\sqrt{3}:2$.   
+- ###### In a triangle with angles $30^\circ,60^\circ,90^\circ$, the sides are always in the ratio $1:\sqrt{3}:2$.   
   ![Triangle 30-60-90 side ratio.svg](../../public/math/Core%20courses/Triangle%2030-60-90%20side%20ratio.svg)    
 
 ### $\textcolor{#1E3A5F}{\fbox{2}}\:$ Equilateral Triangle

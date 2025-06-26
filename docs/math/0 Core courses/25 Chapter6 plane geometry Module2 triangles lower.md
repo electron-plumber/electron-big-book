@@ -206,7 +206,7 @@ $
   \begin{cases}
   (a+b)^2=a^2+2ab+b^2 \\
   (a-b)^2=a^2-2ab+b^2
-  \end{cases} & \href{https://www.geeksforgeeks.org/perfect-squares/}{\text{Perfect square formula}} \\
+  \end{cases} & \text{Perfect square formula} \\
   a^2-b^2=(a-b)(a+b) & \text{Difference of squares formula} \\
   a+b \ge 2\sqrt{ab} & \text{Arithmetic Mean-Geometric Mean Inequality} \\
   \end{array}

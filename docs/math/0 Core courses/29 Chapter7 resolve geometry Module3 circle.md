@@ -372,3 +372,125 @@ $
   :::
 ---
   
+## 9.Focus 4
+__The positional relationship between a line and a circle__   
+- First, find the distance d from the center of the circle to the line. 
+  Then compare the sizes of d and r to determine their relationship. 
+  The most important positional relationship is tangency. 
+  Additionally, when the line intersects the circle, 
+  you should be able to use __the Pythagorean theorem__ to find the chord length:
+  $\textsf{Chord length} = 2\sqrt{r^2-d^2}.$
+
+::: wrap
+### $\fbox{27}\:$The line $\small y=k(x+2)$ is a tangent to the circle $\small x^2+y^2=1.$ What is the value of $\small k\,\mathpunct{?}.$
+$
+\begin{array}{lllll}
+(\text{A}) \: \pm\frac{\sqrt{3}}{2} &
+(\text{B}) \: \frac{\sqrt{3}}{3} &
+(\text{C}) \: -\frac{\sqrt{3}}{3} &
+(\text{D}) \: \pm\frac{\sqrt{3}}{3} &
+(\text{E}) \: \pm\sqrt{3} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve by using the geometric method with $r=d$ to find the intersection point           
+
+  $
+  \begin{array}{ll}
+  \textsf{To line's general form} \to \textsf{point-to-line distance formula.} \\
+  y=k(x+2) \\
+  y=kx+k2 \\
+  0=kx-y+k2 \\
+  \textsf{From center }(0,0) \to kx-y+k2=0 \\
+  d=\frac{|2k|}{\sqrt{k^2+1^2}}=1 & \textsf{r=1} \\
+  |2k|=\sqrt{k^2+1} \\
+  (2k)^2=(\sqrt{k^2+1})^2 \\
+  4k^2=k^2+1 \\
+  3k^2=1 \\
+  k^2=\frac{1}{3} \\
+  k=\pm\frac{1}{\sqrt{3}} \\
+  \frac{1}{\sqrt{3}} \times \frac{\sqrt{3}}{\sqrt{3}}=\frac{\sqrt{3}}{3} \\
+  k=\pm\frac{\sqrt{3}}{3} \\
+  \end{array}
+  $   
+:::  
+::: wrap  
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve by using the algebraic method with simultaneous equations to find the intersection point         
+
+  $
+  \begin{array}{ll}
+  \begin{cases}
+  y=k(x+2) \\
+  x^2+y^2=1 \\
+  \end{cases} \\
+  x^2+k^2(x+2)^2=1 \\
+  x^2+k^2(x^2+4x+4)=1 \\
+  x^2+k^2x^2+4k^2x+4k^2=1 \\
+  (1+k^2)x^2+4k^2x+(4k^2-1)=0 \\
+  \Delta=0 & \textsf{Tangent} \\
+  \Delta=(4k^2)^2-4(1+k^2)(4k^2-1)=0 \\
+  16k^4-4(1+k^2)(4k^2-1)=0 \\
+  16k^4-4[(1)(4k^2-1)+k^2(4k^2-1)]=0 \\
+  16k^4-4[4k^2-1+4k^4-k^2]=0 \\
+  16k^4-4[3k^2+4k^4-1]=0 \\
+  16k^4-[12k^2+16k^4-4]=0 \\
+  16k^4-16k^4-12k^2+4=0 \\
+  -12k^2+4=0 \\
+  k^2=\frac{-4}{-12}=\frac{1}{3} \\
+  k=\pm\frac{1}{\sqrt{3}} \\
+  \frac{1}{\sqrt{3}} \times \frac{\sqrt{3}}{\sqrt{3}}=\frac{\sqrt{3}}{3} \\
+  k=\pm\frac{\sqrt{3}}{3} \\
+  \end{array}
+  $   
+:::  
+::: wrap  
+- $\textcolor{#228B22}{\fbox{3}}\:$ Solve by using graphical analysis to find the intersection point (only applicable in simple or special cases)       
+  ![Question circle figure Q-27 solve-1.svg](../../public/math/Core%20courses/Question%20circle%20figure%20Q-27%20solve-1.svg)   
+
+  $
+  \begin{array}{ll}
+  y=k(x+2) \\
+  y=y_0+k(x_0+2) \\ 
+  \textsf{Both sides equal zero} \Rightarrow \textsf{The x-intercept of the line is (–2, 0)} \\
+  \textsf{r=1} & (x-x_0)^2+(y-y_0)^2=r^2 \\
+  1:\sqrt{3}:2 = 30^\circ,60^\circ,90^\circ & \textsf{Special right triangle} \\
+  30^\circ=\frac{\sqrt{3}}{3} & \textsf{Angle–slope reference}\\
+  k=\pm\frac{\sqrt{3}}{3} \\
+  \end{array}
+  $   
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(D)}$  
+  > According to the Solution, get $k=\pm\frac{\sqrt{3}}{3}$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  d=r & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#_6-relationship-between-a-line-and-a-circle}{\text{Line circle relationship}} \\
+  d=\frac{|c|}{\sqrt{a^2+b^2}} & \href{/math/0%20Core%20courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_14-distance-from-a-point-to-a-line}{\text{point-to-line distance formula}} \\
+  ax+by+c=0 & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#general-form}{\text{General form of a line}} \\
+  y=y_0+k(x-x_0) & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#point-slope-form}{\text{Point-slope form}} \\
+  \Delta=b^2-4ac
+  \begin{cases}
+  \gt0:\,\textsf{Two distinct real roots → intersecting} \\
+  =0:\,\textsf{One real root (a repeated root) → tangent} \\
+  \lt0:\,\textsf{No real roots → separate} \\
+  \end{cases} & \href{https://en.wikipedia.org/wiki/Discriminant}{\text{Quadratic discriminant}} \\
+  \begin{cases}
+  (a+b)^2=a^2+2ab+b^2 \\
+  (a-b)^2=a^2-2ab+b^2
+  \end{cases} & \text{Perfect square formula} \\
+  30^\circ=\frac{\sqrt{3}}{3} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_3-common-inclination-angles-and-slope}{\text{Inclination angle–slope reference}} \\
+  1:\sqrt{3}:2 & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#in-a-triangle-with-angles-the-sides-are-always-in-the-ratio}{\text{Special right triangle: 30-60-90}} \\
+  (x-x_0)^2+(y-y_0)^2=r^2 & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#standard-form}{\text{Standard form of a circle}} \\
+  \end{array}
+  >$
+
+  :::
+---
