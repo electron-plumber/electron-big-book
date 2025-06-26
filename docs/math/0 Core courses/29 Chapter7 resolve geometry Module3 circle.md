@@ -289,14 +289,25 @@ $
 - Given the line $l:\,y=kx+b$ and the circle $O:\,(x-x_0)^2+(y-y_0)^2=r^2$, let $d$
   be the distance from the center of the circle $(x_0,y_0)$ to the line $l.$
 
-|        Line–Circle Position Relationship         |                                                          Diagram                                                           | Condition (Geometric Interpretation) |
-|:------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|:------------------------------------:|
-| Line and circle are separate<br/>No Intersection | ![Line circle relationship diagram 1.svg](../../public/math/Core%20courses/Line%20circle%20relationship%20diagram%201.svg) |                $d>r$                 |
-| Line tangent to circle<br/>1 Intersection Point  | ![Line circle relationship diagram 2.svg](../../public/math/Core%20courses/Line%20circle%20relationship%20diagram%202.svg) |                $d=r$                 |
-| Line intersects circle<br/>2 Intersection Points | ![Line circle relationship diagram 3.svg](../../public/math/Core%20courses/Line%20circle%20relationship%20diagram%203.svg) |                $d<r$                 |
+|          Line–Circle Position Relationship           |                                                          Diagram                                                           | Condition (Geometric Interpretation) |
+|:----------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|:------------------------------------:|
+| __Line and circle are separate__<br/>No Intersection | ![Line circle relationship diagram 1.svg](../../public/math/Core%20courses/Line%20circle%20relationship%20diagram%201.svg) |                $d>r$                 |
+| __Line tangent to circle__<br/>1 Intersection Point  | ![Line circle relationship diagram 2.svg](../../public/math/Core%20courses/Line%20circle%20relationship%20diagram%202.svg) |                $d=r$                 |
+| __Line intersects circle__<br/>2 Intersection Points | ![Line circle relationship diagram 3.svg](../../public/math/Core%20courses/Line%20circle%20relationship%20diagram%203.svg) |                $d<r$                 |
 
 - Chord length of a circle   
   - Derived from the Pythagorean theorem.   
   - $\textsf{Chord length} = 2\sqrt{r^2-d^2}.$    
     ![Circle chord length.svg](../../public/math/Core%20courses/Circle%20chord%20length.svg)  
 
+
+## 7.Relationship Between Two Circles  
+- Let $O_1:\,(x-x_1)^2+(y-y_1)^2=r_1^2,$ and $O_2:\,(x-x_2)^2+(y-y_2)^2=r_2^2,$ where we may assume $r_1>r_2.$ Let $d$ be the distance between the centers $(x_1, y_1)$ and $(x_2, y_2).$
+
+|      Circle–Circle Position Relationship       |                                                          Diagram                                                           | Condition (Geometric Interpretation) | 	Number of Common Internal Tangents | Number of Common External Tangents |
+|:----------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|:------------------------------------:|:-----------------------------------:|:----------------------------------:|
+|        __Separate__<br/>No Intersection        | ![Two circles relationship diagram 1.svg](../../public/math/Core%20courses/Two%20circles%20relationship%20diagram%201.svg) |             $d>r_1+r_2$              |                  2                  |                 2                  |
+| __External Tangency__<br/>1 Intersection Point | ![Two circles relationship diagram 2.svg](../../public/math/Core%20courses/Two%20circles%20relationship%20diagram%202.svg) |             $d=r_1+r_2$              |                  1                  |                 2                  |
+|   __Intersection__<br/>2 Intersection Points   | ![Two circles relationship diagram 3.svg](../../public/math/Core%20courses/Two%20circles%20relationship%20diagram%203.svg) |    $\|r_1-r_2\|\lt d\lt r_1+r_2$     |                  0                  |                 2                  |
+| __Internal Tangency__<br/>1 Intersection Point | ![Two circles relationship diagram 4.svg](../../public/math/Core%20courses/Two%20circles%20relationship%20diagram%204.svg) |           $d=\|r_1-r_2\|$            |                  0                  |                 1                  |
+|      __Containment__<br/>No Intersection       | ![Two circles relationship diagram 5.svg](../../public/math/Core%20courses/Two%20circles%20relationship%20diagram%205.svg) |          $d\lt \|r_1-r_2\|$          |                  0                  |                 0                  |
