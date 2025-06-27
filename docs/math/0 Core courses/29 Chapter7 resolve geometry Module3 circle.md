@@ -38,8 +38,8 @@ lang: en-US
   - Center: $(-\frac{a}{2},-\frac{b}{2}).$
   - Radius: $r=\frac{a^2+b^2-4c}{2}.$
 - Special cases:
-  - $a=0: x^2+y^2+by+c=0.$ Center on the $y$-axis.
-  - $b=0: x^2+y^2+ax+c=0.$ Center on the $x$-axis. 
+  - $a=0: x^2+y^2+by+c=0.$ Center on the y-axis.
+  - $b=0: x^2+y^2+ax+c=0.$ Center on the x-axis. 
   - $c=0: x^2+y^2+ax+by+c=0.$ The function passes through the origin.
 - ###### Note: The condition for the general form to represent a circle is $a^2+b^2-4c>0.$  
 - __Equation derivations__   
@@ -59,14 +59,14 @@ lang: en-US
 
 ## 2.Special Circles (Standard Form)  
 
-|  	Special Circles   |         Equations         |                                                               Graphs                                                               |       Properties        |
-|:-------------------:|:-------------------------:|:----------------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|
-|       $x_0=0$       |    $x^2+(y-y_0)^2=r^2$    | ![Special circles standard form graph 1.svg](../../public/math/Core%20courses/Special%20circles%20standard%20form%20graph%201.svg) | Center on the $y$-axis  |
-|       $y_0=0$       |    $(x-x_0)^2+y^2=r^2$    | ![Special circles standard form graph 2.svg](../../public/math/Core%20courses/Special%20circles%20standard%20form%20graph%202.svg) | Center on the $x$-axis  |
-|     $x_0=y_0=0$     |       $x^2+y^2=r^2$       | ![Special circles standard form graph 3.svg](../../public/math/Core%20courses/Special%20circles%20standard%20form%20graph%203.svg) |  Center at the origin   |
-|     $\|y_0\|=r$     | $(x-x_0)^2+(y-y_0)^2=r^2$ | ![Special circles standard form graph 4.svg](../../public/math/Core%20courses/Special%20circles%20standard%20form%20graph%204.svg) | Tangent to the $x$-axis |
-|     $\|x_0\|=r$     | $(x-x_0)^2+(y-y_0)^2=r^2$ | ![Special circles standard form graph 5.svg](../../public/math/Core%20courses/Special%20circles%20standard%20form%20graph%205.svg) | Tangent to the $y$-axis |
-| $\|x_0\|=\|y_0\|=r$ | $(x-x_0)^2+(y-y_0)^2=r^2$ | ![Special circles standard form graph 6.svg](../../public/math/Core%20courses/Special%20circles%20standard%20form%20graph%206.svg) |  Tangent to both axes   |
+|  	Special Circles   |         Equations         |                                                               Graphs                                                               |      Properties       |
+|:-------------------:|:-------------------------:|:----------------------------------------------------------------------------------------------------------------------------------:|:---------------------:|
+|       $x_0=0$       |    $x^2+(y-y_0)^2=r^2$    | ![Special circles standard form graph 1.svg](../../public/math/Core%20courses/Special%20circles%20standard%20form%20graph%201.svg) | Center on the y-axis  |
+|       $y_0=0$       |    $(x-x_0)^2+y^2=r^2$    | ![Special circles standard form graph 2.svg](../../public/math/Core%20courses/Special%20circles%20standard%20form%20graph%202.svg) | Center on the x-axis  |
+|     $x_0=y_0=0$     |       $x^2+y^2=r^2$       | ![Special circles standard form graph 3.svg](../../public/math/Core%20courses/Special%20circles%20standard%20form%20graph%203.svg) | Center at the origin  |
+|     $\|y_0\|=r$     | $(x-x_0)^2+(y-y_0)^2=r^2$ | ![Special circles standard form graph 4.svg](../../public/math/Core%20courses/Special%20circles%20standard%20form%20graph%204.svg) | Tangent to the x-axis |
+|     $\|x_0\|=r$     | $(x-x_0)^2+(y-y_0)^2=r^2$ | ![Special circles standard form graph 5.svg](../../public/math/Core%20courses/Special%20circles%20standard%20form%20graph%205.svg) | Tangent to the y-axis |
+| $\|x_0\|=\|y_0\|=r$ | $(x-x_0)^2+(y-y_0)^2=r^2$ | ![Special circles standard form graph 6.svg](../../public/math/Core%20courses/Special%20circles%20standard%20form%20graph%206.svg) | Tangent to both axes  |
 
 ## 3.Focus 1
 __Equation of a Circle__   
@@ -189,8 +189,8 @@ $
 
 ## 4.Focus 2
 __Intersection of a circle and the coordinate axes__
-- Let $y=0$ to find the points where the circle intersects the $x$-axis; 
-  let $x=0$ to find the points where it intersects the $y$-axis.
+- Let $y=0$ to find the points where the circle intersects the x-axis; 
+  let $x=0$ to find the points where it intersects the y-axis.
   If the circle has only one point of intersection with an axis, then it is tangent to that axis.
 
 
@@ -452,8 +452,8 @@ $
   $
   \begin{array}{ll}
   y=k(x+2) \\
-  y=y_0+k(x_0+2) \\ 
-  \textsf{Both sides equal zero} \Rightarrow \textsf{The x-intercept of the line is (–2, 0)} \\
+  y=y_0+k(x_0+2) \\
+  \overbrace{y_0=0 \Longrightarrow \textsf{the x-intercept of the line is (–2, 0)}}^{\textsf{Let both sides = 0}} \\
   \textsf{r=1} & (x-x_0)^2+(y-y_0)^2=r^2 \\
   1:\sqrt{3}:2 = 30^\circ,60^\circ,90^\circ & \textsf{Special right triangle} \\
   30^\circ=\frac{\sqrt{3}}{3} & \textsf{Angle–slope reference}\\
@@ -473,7 +473,7 @@ $
   >$
   \begin{array}{ll}
   d=r & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#_6-relationship-between-a-line-and-a-circle}{\text{Line circle relationship}} \\
-  d=\frac{|c|}{\sqrt{a^2+b^2}} & \href{/math/0%20Core%20courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_14-distance-from-a-point-to-a-line}{\text{point-to-line distance formula}} \\
+  d=\frac{|c|}{\sqrt{a^2+b^2}} & \href{/math/0%20Core%20courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_14-distance-from-a-point-to-a-line}{\text{Point-to-line distance formula}} \\
   ax+by+c=0 & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#general-form}{\text{General form of a line}} \\
   y=y_0+k(x-x_0) & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#point-slope-form}{\text{Point-slope form}} \\
   \Delta=b^2-4ac
@@ -488,6 +488,53 @@ $
   \end{cases} & \text{Perfect square formula} \\
   30^\circ=\frac{\sqrt{3}}{3} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_3-common-inclination-angles-and-slope}{\text{Inclination angle–slope reference}} \\
   1:\sqrt{3}:2 & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#in-a-triangle-with-angles-the-sides-are-always-in-the-ratio}{\text{Special right triangle: 30-60-90}} \\
+  (x-x_0)^2+(y-y_0)^2=r^2 & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#standard-form}{\text{Standard form of a circle}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+::: wrap
+### $\fbox{28}\:$Given that the center of circle $\small C$ is the intersection point of the line $\small x-y+1=0$ and the x-axis, and that circle $\small C$ is tangent to the line $\small x+y+3=0$, what is the equation of circle $\small C \, \mathpunct{?}.$
+$
+\begin{array}{lllll}
+(\text{A}) \: (x-1)^2+y^2=2 &
+(\text{B}) \: (x+1)^2+y^2=2 & \\
+(\text{C}) \: (x+1)^2+y^2=4 &
+(\text{D}) \: x^2+(y+1)^2=2 & \\
+(\text{E}) \: x^2+(y-1)^2=2 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+x-y+1=0 \\
+y=x+1 & \textsf{Slope-intercept form} \\
+\overbrace{y=0 \Longrightarrow \textsf{the x-intercept of the line is (–1, 0)}}^{\textsf{Let both sides = 0}} & \textsf{Center} \\
+x+y+3=0 \\
+d=\frac{|-1+3|}{\sqrt{1+1}}=\frac{2\sqrt{2}}{2}=\sqrt{2} & \textsf{Substitute }(-1, 0) \\
+r=\sqrt{2} \\
+(x-(-1))^2+(y-0)^2=\sqrt{2}^2 \\
+(x+1)^2+y^2=2 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $(x+1)^2+y^2=2$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  y=kx+b & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#slope-intercept-form}{\text{Slope-intercept form}} \\
+  d=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}} & \href{/math/0%20Core%20courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_14-distance-from-a-point-to-a-line}{\text{Point-to-line distance formula}} \\
   (x-x_0)^2+(y-y_0)^2=r^2 & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#standard-form}{\text{Standard form of a circle}} \\
   \end{array}
   >$
