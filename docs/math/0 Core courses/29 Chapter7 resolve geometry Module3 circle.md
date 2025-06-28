@@ -35,7 +35,7 @@ lang: en-US
 ### $\textcolor{#1E3A5F}{\fbox{2}}\:$General Form  
 - $x^2+y^2+ax+by+c=0.$  
 - ###### It can be completed into the standard form: $(x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4}.$  
-  - Center: $(-\frac{a}{2},-\frac{b}{2}).$
+  - ###### Center: $(-\frac{a}{2},-\frac{b}{2}).$
   - Radius: $r=\frac{a^2+b^2-4c}{2}.$
 - Special cases:
   - $a=0: x^2+y^2+by+c=0.$ Center on the y-axis.
@@ -293,7 +293,7 @@ $
 | __Line tangent to circle__<br/>1 Intersection Point  | ![Line circle relationship diagram 2.svg](../../public/math/Core%20courses/Line%20circle%20relationship%20diagram%202.svg) |                $d=r$                 |
 | __Line intersects circle__<br/>2 Intersection Points | ![Line circle relationship diagram 3.svg](../../public/math/Core%20courses/Line%20circle%20relationship%20diagram%203.svg) |                $d<r$                 |
 
-- Chord length of a circle   
+- ###### Chord length of a circle   
   - Derived from the Pythagorean theorem.   
   - $\textsf{Chord length} = 2\sqrt{r^2-d^2}.$    
     ![Circle chord length.svg](../../public/math/Core%20courses/Circle%20chord%20length.svg)  
@@ -536,6 +536,53 @@ $
   y=kx+b & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#slope-intercept-form}{\text{Slope-intercept form}} \\
   d=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}} & \href{/math/0%20Core%20courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_14-distance-from-a-point-to-a-line}{\text{Point-to-line distance formula}} \\
   (x-x_0)^2+(y-y_0)^2=r^2 & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#standard-form}{\text{Standard form of a circle}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+::: wrap
+### $\fbox{29}\:$What is the length of the chord of the circle $\small x^2+y^2-2x-4y=0$ intercepted by the line $\small x+2y-5+\sqrt{5}=0 \, \mathpunct{?}.$
+$
+\begin{array}{lllll}
+(\text{A}) \: 1 &
+(\text{B}) \: 2 &
+(\text{C}) \: 4 &
+(\text{D}) \: 6 &
+(\text{E}) \: 4\sqrt{6} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+x^2+y^2-2x-4y=0 \\
+(x+\frac{-2}{2})^2+(y+\frac{-4}{2})^2=\frac{(-2)^2+(-4)^2-4\times0}{4} \\
+(x-1)^2+(y-2)^2=5 & r=\sqrt{5} \\
+(-\frac{a}{2}, -\frac{b}{2}) \longrightarrow (1,2) \\
+x+2y-5+\sqrt{5}=0 \\
+d=\frac{|(1\times 1)+(2\times 2)+(-5+\sqrt{5})|}{\sqrt{1^2+2^2}}=\frac{\sqrt{5}}{\sqrt{5}}=1 & \textsf{Substitute }(1,2) \\
+\textsf{Chord length}=2\sqrt{\sqrt{5}^2-1^2}=2\sqrt{4}=4 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(C)}$  
+  > According to the Solution, get $\textsf{Chord length}=4$, so choose $C$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  (x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4} & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#it-can-be-completed-into-the-standard-form}{\text{Complete to standard form}} \\
+  d=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}} & \href{/math/0%20Core%20courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_14-distance-from-a-point-to-a-line}{\text{Point-to-line distance formula}} \\
+  2\sqrt{r^2-d^2} & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#chord-length-of-a-circle}{\text{Chord length of the circle}} \\
+  (-\frac{a}{2}, -\frac{b}{2}) & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#center}{\text{Center of the standard-form circle}} \\
   \end{array}
   >$
 
