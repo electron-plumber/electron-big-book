@@ -236,6 +236,10 @@ li > ol {
     font-size: 14px;
     line-height: 1.5em;
 
+    img {
+      max-width: none !important;
+    }
+
     tr {
       td:nth-child(2) {
         font-family: var(--font-family);
