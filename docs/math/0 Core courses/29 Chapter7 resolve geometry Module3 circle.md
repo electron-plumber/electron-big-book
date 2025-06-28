@@ -343,7 +343,7 @@ P(2m, m) \\
 m=1 \lor m=\frac{1}{5} \\
 \textsf{Parabola Analysis:}\\
 5>0:\, \textsf{Opens upward} \\
-\textsf{Roots}:\, \textsf{Intersects }m\textsf{-axis at }m=1\text{ and }m=\frac{1}{5} \\
+\textsf{Roots}:\, \textsf{Intersects x-axis at }x=\frac{1}{5}\text{ and }x=1 \\
 \textsf{Range}:\, f(x)<0\textsf{ between the two roots} \\
 f(x)<0 \longrightarrow \frac{1}{5} < m < 1 \\
 \end{array}
@@ -583,6 +583,93 @@ $
   d=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}} & \href{/math/0%20Core%20courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_14-distance-from-a-point-to-a-line}{\text{Point-to-line distance formula}} \\
   2\sqrt{r^2-d^2} & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#chord-length-of-a-circle}{\text{Chord length of the circle}} \\
   (-\frac{a}{2}, -\frac{b}{2}) & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#center}{\text{Center of the standard-form circle}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+::: wrap
+### $\fbox{30}\:$If the line $\small x−y+1=0$ and the circle $\small (x-a)^2+y^2=2$ have a common point, then what is the range of values for the real number $\small a \, \mathpunct{?}.$
+$
+\begin{array}{lllll}
+(\text{A}) \: [-4, 1] &
+(\text{B}) \: [-3, 1] &
+(\text{C}) \: (-3, 1) & \\
+(\text{D}) \: [1, 4] &
+(\text{E}) \: [-3, 3] & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve by using the geometric method with $d \le r$ to find the intersection points
+
+  $
+  \begin{array}{ll}
+  (x-a)^2+y^2=2 & r=\sqrt{2}\\
+  (-\frac{a}{2}, -\frac{b}{2}) \longrightarrow (a, 0) \\
+  \textsf{From center }(a, 0) \to x−y+1=0 \\
+  d=\frac{|(1\times a)+(-1\times 0)+1|}{\sqrt{1^2+1^2}} \le \sqrt{2} \Longrightarrow |a+1| \le 2 & \textsf{Substitute }(a, 0) \\
+  -2 \le a+1 \le 2  & ∣x∣ \le c \iff −c \le x \le c \\
+  -2-1 \le a \le 2-1 \\
+  -3 \le a \le 1 \\
+  \end{array}
+  $   
+:::  
+::: wrap  
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve by using the algebraic method with simultaneous equations to find the intersection points
+
+  $
+  \begin{array}{ll}
+  \begin{cases}
+  x−y+1=0 \rightarrow y=x+1\\
+  (x-a)^2+y^2=2 \\
+  \end{cases} \\
+  (x-a)^2+(x+1)^2=2 \\
+  x^2-2ax+a^2+x^2+2x+1=2 \\
+  2x^2+(-2a+2)x+(a^2+1)=2 \\
+  2x^2+(-2a+2)x+(a^2+1-2)=0 \\
+  2x^2+(2-2a)x+a^2-1=0 \\
+  \Delta \gt 0 & \textsf{Tangent or intersect} \\
+  \Delta=(2-2a)^2-8(a^2-1) \ge 0 \\
+  4-8a+4a^2-8a^2+8 \ge 0 \\
+  -4a^2-8a+12 \ge 0 \\
+  a^2+2a-3 \le 0 \\
+  a^2+2a-3\Rightarrow(a+3)(a-1)=0 \\
+  a=-3 \lor a=1 \\
+  \textsf{Parabola Analysis:}\\
+  1>0:\, \textsf{Opens upward} \\
+  \textsf{Roots}:\, \textsf{Intersects x-axis at }x=-3\text{ and }x=1 \\
+  \textsf{Range}:\, f(x)\le0\textsf{ between the two roots} \\
+  f(x)\le0 \longrightarrow -3 \le a \le 1 \\
+  \end{array}
+  $   
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $-3 \le a \le 1$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  (-\frac{a}{2}, -\frac{b}{2}) & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#center}{\text{Center of the standard-form circle}} \\
+  d=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}} & \href{/math/0%20Core%20courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_14-distance-from-a-point-to-a-line}{\text{Point-to-line distance formula}} \\
+  ∣x∣ \le c \iff −c \le x \le c & \text{Absolute Value Inequality Expansion} \\
+  \Delta=b^2-4ac
+  \begin{cases}
+  \gt0:\,\textsf{Two distinct real roots → intersecting} \\
+  =0:\,\textsf{One real root (a repeated root) → tangent} \\
+  \lt0:\,\textsf{No real roots → separate} \\
+  \end{cases} & \href{https://en.wikipedia.org/wiki/Discriminant}{\text{Quadratic discriminant}} \\
+  \begin{cases}
+  (a+b)^2=a^2+2ab+b^2 \\
+  (a-b)^2=a^2-2ab+b^2
+  \end{cases} & \text{Perfect square formula} \\
   \end{array}
   >$
 
