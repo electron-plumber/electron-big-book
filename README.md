@@ -1,4 +1,4 @@
-## <img src="docs/public/images/notes.png" width="24" /> Introduce
+## <img src="docs/public/images/book.png" width="24" /> Introduce
 
 ### Free open source books for learners of Management admission test and Java
 

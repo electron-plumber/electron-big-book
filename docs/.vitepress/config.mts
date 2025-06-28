@@ -18,7 +18,7 @@ export default {
       'link',
       {
         rel: 'icon',
-        href: '/images/notes.png',
+        href: '/images/book.png',
         type: 'image/svg+xm',
       }
     ],

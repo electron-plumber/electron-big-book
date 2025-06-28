@@ -27,7 +27,7 @@ const currentLink = computed(() => {
     <div class="header-container">
       <div class="logo-container">
         <a :href="currentLink">
-          <apple-notes-svg class="logo"/>
+          <apple-book-svg class="logo"/>
         </a>
       </div>
       <div class="content">
