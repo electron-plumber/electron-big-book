@@ -352,7 +352,7 @@ $
 ---
 
 ::: wrap
-### $\fbox{5}\:$If the line $\small l$ intersects the lines $\small y=1$ and $\small x=7$ at points $\small P$ and $\small Q$ respectively, and the midpoint of the segment $\small PQ$ has coordinates $\small (1,−1)$, what is the slope of the line $\small l \, \mathpunct{?}.$
+### $\fbox{5}\:$If the line $\small l$ intersects the lines $\small y=1$ and $\small x=7$ at points $\small P$ and $\small Q$ respectively, and the midpoint of the segment $\small PQ$ has coordinates $\small (1,−1)$, what is the slope of the line $\small l \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: \frac{1}{3} &
@@ -572,7 +572,7 @@ $
 ---
 
 ::: wrap
-### $\fbox{7}\:$Given $\small A(-1, 2), B(2, 4), C (x, 3)$ and $\small A, B, C$ are collinear, then $\small x=\, \mathpunct{?}.$
+### $\fbox{7}\:$Given $\small A(-1, 2), B(2, 4), C (x, 3)$ and $\small A, B, C$ are collinear, then $\small x=\, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: \frac{1}{5} &
@@ -676,7 +676,7 @@ $
 ---
 
 ::: wrap
-### $\fbox{9}\:$What is the y-intercept of the line passing through the points $\small (1, -3)$ and $\small (3, 1) \, \mathpunct{?}.$
+### $\fbox{9}\:$What is the y-intercept of the line passing through the points $\small (1, -3)$ and $\small (3, 1) \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: 5 &
@@ -738,7 +738,7 @@ $
 ---
 
 ::: wrap
-### $\fbox{10}\:$What is the product of the x- and y-intercepts of the line $\small 2x-3y+12=0 \, \mathpunct{?}.$
+### $\fbox{10}\:$What is the product of the x- and y-intercepts of the line $\small 2x-3y+12=0 \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: -48 &

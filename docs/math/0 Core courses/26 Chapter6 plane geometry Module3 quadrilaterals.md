@@ -75,11 +75,11 @@ the proportional relationship of the diagonal corresponding to the area can also
 3. $\frac{S_1}{S_3}=\frac{a_2}{b_2}$ (Similar).   
 :::   
 ::: wrap
-4. $S_2+S_3=S_4+S_3 \implies S_2=S_4.$    
+4. $S_2+S_3=S_4+S_3 \implies S_2=S_4$.    
    ![Butterfly theorem figure 6–24 solve-2.svg](../../public/math/Core%20courses/Butterfly%20theorem%20figure%206%E2%80%9324%20solve-2.svg)    
    $S=\frac{1}{2}ah \quad \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\text{Equal base and height} \Rightarrow \text{same area}}$     
 :::   
-- By combining the above four, the unified proportion is obtained: $S_1:S_3:S_2:S_4=a^2:b^2:ab:ab.$    
+- By combining the above four, the unified proportion is obtained: $S_1:S_3:S_2:S_4=a^2:b^2:ab:ab$.    
   ![Butterfly theorem unified area proportion formula.svg](../../public/math/Core%20courses/Butterfly%20theorem%20unified%20area%20proportion%20formula.svg)  
 
   ##### Formula derivations

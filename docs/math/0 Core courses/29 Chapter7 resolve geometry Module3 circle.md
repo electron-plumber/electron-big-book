@@ -15,7 +15,7 @@ lang: en-US
 ## 1.Equation of a Circle
 
 ### $\textcolor{#1E3A5F}{\fbox{1}}\:$Standard Form  
-- A circle with center $(x_0,y_0)$ and radius $r$ can be represented by the equation: $(x-x_0)^2+(y-y_0)^2=r^2.$
+- A circle with center $(x_0,y_0)$ and radius $r$ can be represented by the equation: $(x-x_0)^2+(y-y_0)^2=r^2$.
 - __Equation derivations__   
   ::: wrap    
   ![Circle standard form derivation.svg](../../public/math/Core%20courses/Circle%20standard%20form%20derivation.svg)  
@@ -33,15 +33,15 @@ lang: en-US
   :::
 
 ### $\textcolor{#1E3A5F}{\fbox{2}}\:$General Form  
-- $x^2+y^2+ax+by+c=0.$  
-- ###### It can be completed into the standard form: $(x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4}.$  
-  - ###### Center: $(-\frac{a}{2},-\frac{b}{2}).$
-  - Radius: $r=\frac{a^2+b^2-4c}{2}.$
+- $x^2+y^2+ax+by+c=0$.  
+- ###### It can be completed into the standard form: $(x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4}$.  
+  - ###### Center: $(-\frac{a}{2},-\frac{b}{2})$.
+  - Radius: $r=\frac{a^2+b^2-4c}{2}$.
 - Special cases:
-  - $a=0: x^2+y^2+by+c=0.$ Center on the y-axis.
-  - $b=0: x^2+y^2+ax+c=0.$ Center on the x-axis. 
-  - $c=0: x^2+y^2+ax+by+c=0.$ The function passes through the origin.
-- ###### Note: The condition for the general form to represent a circle is $a^2+b^2-4c>0.$  
+  - $a=0: x^2+y^2+by+c=0$. Center on the y-axis.
+  - $b=0: x^2+y^2+ax+c=0$. Center on the x-axis. 
+  - $c=0: x^2+y^2+ax+by+c=0$. The function passes through the origin.
+- ###### Note: The condition for the general form to represent a circle is $a^2+b^2-4c>0$.  
 - __Equation derivations__   
   ::: wrap    
 
@@ -69,12 +69,12 @@ lang: en-US
 | $\|x_0\|=\|y_0\|=r$ | $(x-x_0)^2+(y-y_0)^2=r^2$ | ![Special circles standard form graph 6.svg](../../public/math/Core%20courses/Special%20circles%20standard%20form%20graph%206.svg) | Tangent to both axes  |
 
 ## 3.Focus 1
-__Equation of a Circle__   
+__Equation of a circle__   
 - Pay attention to the requirements of the circle's equation, as well as the forms of semicircle equations.
 
 
 ::: wrap
-### $\fbox{22}\:$Given that $\small x^2+y^2-4x+6y+m=0$ represents a circle, what is the range of values for $\small m\, \mathpunct{?}.$
+### $\fbox{22}\:$Given that $\small x^2+y^2-4x+6y+m=0$ represents a circle, what is the range of values for $\small m\, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: m<12 &
@@ -135,7 +135,7 @@ $
 ---
 
 ::: wrap
-### $\fbox{23}\:$If the equation of a circle is $\small x^2+y^2=1$, then what is the equation of its right semicircle (the part located in the first and fourth quadrants)$\small \,\mathpunct{?}.$
+### $\fbox{23}\:$If the equation of a circle is $\small x^2+y^2=1$, then what is the equation of its right semicircle (the part located in the first and fourth quadrants)$\small \,\mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: y-\sqrt{1-x^2}=0 &
@@ -195,7 +195,7 @@ __Intersection of a circle and the coordinate axes__
 
 
 ::: wrap
-### $\fbox{24}\:$What are the two points where the circle $\small x^2+(y-1)^2=4$ intersects the $x\text{-}$axis $\small\, \mathpunct{?}.$
+### $\fbox{24}\:$What are the two points where the circle $\small x^2+(y-1)^2=4$ intersects the $x\text{-}$axis $\small\, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: (-\sqrt{5},0),(\sqrt{5},0) &
@@ -227,7 +227,7 @@ $
 ---
 
 ::: wrap
-### $\fbox{25}\:$What is the equation of the circle centered at $\small P(−2,3)$ and tangent to the $y\text{-}$axis$\small \, \mathpunct{?}.$
+### $\fbox{25}\:$What is the equation of the circle centered at $\small P(−2,3)$ and tangent to the $y\text{-}$axis$\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: (x-2)^2+(y+3)^2=4 &
@@ -285,7 +285,7 @@ $
 
 ## 6.Relationship Between a Line and a Circle
 - Given the line $l:\,y=kx+b$ and the circle $O:\,(x-x_0)^2+(y-y_0)^2=r^2$, let $d$
-  be the distance from the center of the circle $(x_0,y_0)$ to the line $l.$
+  be the distance from the center of the circle $(x_0,y_0)$ to the line $l$.
 
 |          Line–Circle Position Relationship           |                                                          Diagram                                                           | Condition (Geometric Interpretation) |
 |:----------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|:------------------------------------:|
@@ -295,12 +295,12 @@ $
 
 - ###### Chord length of a circle   
   - Derived from the Pythagorean theorem.   
-  - $\textsf{Chord length} = 2\sqrt{r^2-d^2}.$    
+  - $\textsf{Chord length} = 2\sqrt{r^2-d^2}$.    
     ![Circle chord length.svg](../../public/math/Core%20courses/Circle%20chord%20length.svg)  
 
 
 ## 7.Relationship Between Two Circles  
-- Let $O_1:\,(x-x_1)^2+(y-y_1)^2=r_1^2,$ and $O_2:\,(x-x_2)^2+(y-y_2)^2=r_2^2,$ where we may assume $r_1>r_2.$ Let $d$ be the distance between the centers $(x_1, y_1)$ and $(x_2, y_2).$
+- Let $O_1:\,(x-x_1)^2+(y-y_1)^2=r_1^2$, and $O_2:\,(x-x_2)^2+(y-y_2)^2=r_2^2$, where we may assume $r_1>r_2$. Let $d$ be the distance between the centers $(x_1, y_1)$ and $(x_2, y_2)$.
 
 |       Circle–Circle Position Relationship       |                                                          Diagram                                                           | Condition (Geometric Interpretation) | 	Number of Common Internal Tangents | Number of Common External Tangents |
 |:-----------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|:------------------------------------:|:-----------------------------------:|:----------------------------------:|
@@ -320,7 +320,7 @@ __The positional relationship between a point and a circle__
 
 
 ::: wrap
-### $\fbox{26}\:$If the point $\small P(2m, m)$ is inside the circle $\small x^2+y^2-4x+2y+1=0$, what is the range of values for $\small m\,\mathpunct{?}.$
+### $\fbox{26}\:$If the point $\small P(2m, m)$ is inside the circle $\small x^2+y^2-4x+2y+1=0$, what is the range of values for $\small m\,\mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: \frac{1}{5} < m < 1 &
@@ -379,10 +379,10 @@ __The positional relationship between a line and a circle__
   The most important positional relationship is tangency. 
   Additionally, when the line intersects the circle, 
   you should be able to use __the Pythagorean theorem__ to find the chord length:
-  $\textsf{Chord length} = 2\sqrt{r^2-d^2}.$
+  $\textsf{Chord length} = 2\sqrt{r^2-d^2}$.
 
 ::: wrap
-### $\fbox{27}\:$The line $\small y=k(x+2)$ is a tangent to the circle $\small x^2+y^2=1.$ What is the value of $\small k\,\mathpunct{?}.$
+### $\fbox{27}\:$The line $\small y=k(x+2)$ is a tangent to the circle $\small x^2+y^2=1$. What is the value of $\small k\,\mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: \pm\frac{\sqrt{3}}{2} &
@@ -496,7 +496,7 @@ $
 ---
 
 ::: wrap
-### $\fbox{28}\:$Given that the center of circle $\small C$ is the intersection point of the line $\small x-y+1=0$ and the x-axis, and that circle $\small C$ is tangent to the line $\small x+y+3=0$, what is the equation of circle $\small C \, \mathpunct{?}.$
+### $\fbox{28}\:$Given that the center of circle $\small C$ is the intersection point of the line $\small x-y+1=0$ and the x-axis, and that circle $\small C$ is tangent to the line $\small x+y+3=0$, what is the equation of circle $\small C \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: (x-1)^2+y^2=2 &
@@ -543,7 +543,7 @@ $
 ---
 
 ::: wrap
-### $\fbox{29}\:$What is the length of the chord of the circle $\small x^2+y^2-2x-4y=0$ intercepted by the line $\small x+2y-5+\sqrt{5}=0 \, \mathpunct{?}.$
+### $\fbox{29}\:$What is the length of the chord of the circle $\small x^2+y^2-2x-4y=0$ intercepted by the line $\small x+2y-5+\sqrt{5}=0 \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: 1 &
@@ -590,7 +590,7 @@ $
 ---
 
 ::: wrap
-### $\fbox{30}\:$If the line $\small x−y+1=0$ and the circle $\small (x-a)^2+y^2=2$ have a common point, then what is the range of values for the real number $\small a \, \mathpunct{?}.$
+### $\fbox{30}\:$If the line $\small x−y+1=0$ and the circle $\small (x-a)^2+y^2=2$ have a common point, then what is the range of values for the real number $\small a \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: [-4, 1] &
@@ -659,7 +659,7 @@ $
   \begin{array}{ll}
   (-\frac{a}{2}, -\frac{b}{2}) & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#center}{\text{Center of the standard-form circle}} \\
   d=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}} & \href{/math/0%20Core%20courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_14-distance-from-a-point-to-a-line}{\text{Point-to-line distance formula}} \\
-  ∣x∣ \le c \iff −c \le x \le c & \text{Absolute Value Inequality Expansion} \\
+  ∣x∣ \le c \iff −c \le x \le c & \text{Absolute value inequality expansion} \\
   \Delta=b^2-4ac
   \begin{cases}
   \gt0:\,\textsf{Two distinct real roots → intersecting} \\
@@ -670,6 +670,54 @@ $
   (a+b)^2=a^2+2ab+b^2 \\
   (a-b)^2=a^2-2ab+b^2
   \end{cases} & \text{Perfect square formula} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+## 10.Focus 5
+__The positional relationship between two circles__   
+- First, find __the distance $\mathbf{d}$ between the centers of the two circles__,
+  then __compare it with $\mathbf{r_1+r_2}$ and $\mathbf{|r_1-r_2|}$__ to determine their relationship.
+  The most important cases are __internal tangency__ and __external tangency__.
+  additionally,
+  pay attention to how __these positional relationships__ correspond to __the number of common tangents__.
+
+::: wrap
+### $\fbox{31}\:$The radii of two circles are the roots of the equation $\small x^2-3x+2=0$, and the distance between their centers is $\small 3$. What is the positional relationship between the two circles $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: \textsf{Externally separate} &
+(\text{B}) \: \textsf{Externally tangent} &
+(\text{C}) \: \textsf{Internally tangent} &
+(\text{D}) \: \textsf{Intersecting} &
+(\text{E}) \: \textsf{Internally contained} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- solve  
+
+  $
+  \begin{array}{ll}
+   & \text{} \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{()}$  
+  > According to the Solution, get $ $, so choose $ $. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+   & \text{} \\
   \end{array}
   >$
 

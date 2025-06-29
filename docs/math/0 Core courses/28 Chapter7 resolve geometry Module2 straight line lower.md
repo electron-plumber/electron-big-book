@@ -59,7 +59,7 @@ __Two lines are parallel__
 
 
 ::: wrap
-### $\fbox{12}\:$Given that the line $\small l_1:\;(k-3)x+(4-k)y+1=0$ is parallel to the line $\small l_2:\;2(k-3)x-2y+3=0$, what is the value of $\small k \, \mathpunct{?}.$
+### $\fbox{12}\:$Given that the line $\small l_1:\;(k-3)x+(4-k)y+1=0$ is parallel to the line $\small l_2:\;2(k-3)x-2y+3=0$, what is the value of $\small k \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: 3 &
@@ -212,7 +212,7 @@ $
 ---
 
 ::: wrap
-### $\fbox{15}\:$Given point $\small A(1, -2)$ and point $\small B(m, 2)$, and the equation of the perpendicular bisector of line segment $\small AB$ is $\small x+2y−2=0$, what is the value of the real number $\small m \, \mathpunct{?}.$
+### $\fbox{15}\:$Given point $\small A(1, -2)$ and point $\small B(m, 2)$, and the equation of the perpendicular bisector of line segment $\small AB$ is $\small x+2y−2=0$, what is the value of the real number $\small m \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: 3 &
@@ -277,7 +277,7 @@ $
 ---
 
 ::: wrap
-### $\fbox{16}\:$Given that the equation of line $\small l$ is $\small x+2y−4=0$, and point $\small A$ has coordinates $\small (5,7)$, a line is drawn through point $\small A$ perpendicular to line $\small l$. What is the x-coordinate of the foot of the perpendicular $\small \, \mathpunct{?}.$
+### $\fbox{16}\:$Given that the equation of line $\small l$ is $\small x+2y−4=0$, and point $\small A$ has coordinates $\small (5,7)$, a line is drawn through point $\small A$ perpendicular to line $\small l$. What is the x-coordinate of the foot of the perpendicular $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: 6 &
@@ -424,7 +424,7 @@ $
 ---
 
 ::: wrap
-### $\fbox{18}\:$What is the distance from the intersection point of the lines $\small 2x+3y+4=0$ and $\small 3x+y−1=0$ to the origin $\small \, \mathpunct{?}.$
+### $\fbox{18}\:$What is the distance from the intersection point of the lines $\small 2x+3y+4=0$ and $\small 3x+y−1=0$ to the origin $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: \sqrt{2} &
@@ -487,13 +487,13 @@ $
 
 
 ## 14.Distance from a Point to a Line 
-- For the line $l:\,ax+by+c=0,$ the distance from the point $(x_0, y_0)$ to the line is $d=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}.$  
-- Special case: The distance from $(0, 0)$ to the line $l$ is $d=\frac{|c|}{\sqrt{a^2+b^2}}.$   
+- For the line $l:\,ax+by+c=0$, the distance from the point $(x_0, y_0)$ to the line is $d=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}$.  
+- Special case: The distance from $(0, 0)$ to the line $l$ is $d=\frac{|c|}{\sqrt{a^2+b^2}}$.   
 ![Point line distance.svg](../../public/math/Core%20courses/Point%20line%20distance.svg)  
 
 
 ## 15.Distance Between Two Parallel Lines
-- Given two parallel lines: $l_1: ax+by+c_1=0;$ $l_2: ax+by+c_2=0.$ The distance between $l_1$ and $l_2$ is $d=\frac{|c_1-c_2|}{\sqrt{a^2+b^2}}.$
+- Given two parallel lines: $l_1: ax+by+c_1=0;$ $l_2: ax+by+c_2=0$. The distance between $l_1$ and $l_2$ is $d=\frac{|c_1-c_2|}{\sqrt{a^2+b^2}}$.
 - Remark: The derivation process involves selecting an arbitrary point on one of the lines and then using the formula for the distance from a point to a line to calculate the distance between the two parallel lines.  
   ![Parallel lines distance.svg](../../public/math/Core%20courses/Parallel%20lines%20distance.svg)  
 
@@ -525,7 +525,7 @@ __Positional Relationship Between a Point and a Line__
   :::
 
 ::: wrap
-### $\fbox{19}\:$Given the equation of line $\small l:\,x+2y-4=0,$ and the coordinates of point $\small A$ are $\small (5-m, m).$ If point $\small A$ is above the line $\small l,$  what is the range of values for $\small m \, \mathpunct{?}.$ 
+### $\fbox{19}\:$Given the equation of line $\small l:\,x+2y-4=0$, and the coordinates of point $\small A$ are $\small (5-m, m)$. If point $\small A$ is above the line $\small l$, what is the range of values for $\small m \, \mathpunct{?}$. 
 $
 \begin{array}{lllll}
 (\text{A}) \: m>1 &
@@ -572,7 +572,7 @@ __Distance from a Point to a Line__
 
 
 ::: wrap
-### $\fbox{20}\:$Given point $\small C(2,−3)$, and points $\small M(5,5), N(−3,−1)$, what is the distance from point $\small C$ to the line $\small MN \,\mathpunct{?}.$
+### $\fbox{20}\:$Given point $\small C(2,−3)$, and points $\small M(5,5), N(−3,−1)$, what is the distance from point $\small C$ to the line $\small MN \,\mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: \frac{23}{5} &
@@ -626,7 +626,7 @@ __Distance Between Two Parallel Lines__
 
 
 ::: wrap
-### $\fbox{21}\:$Given $\small l_1: 3x-4y+2=0, l_2: 6x-8y+9=0$, What is the distance between $\small l_1$ and $\small l_2 \,\mathpunct{?}.$ 
+### $\fbox{21}\:$Given $\small l_1: 3x-4y+2=0, l_2: 6x-8y+9=0$, What is the distance between $\small l_1$ and $\small l_2 \,\mathpunct{?}$. 
 $
 \begin{array}{lllll}
 (\text{A}) \: \frac{7}{10} &

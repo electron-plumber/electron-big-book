@@ -134,7 +134,7 @@ $
   :::
 ---
 ::: wrap
-### $\fbox{3}\:$Figure 6–6, $\small AB=AC, \angle BAC=80^\circ, AD=BD, CM \parallel AB,$ intersects the extended line of $\small AD$ at point $\small M$, then $\small \angle M= \, \mathpunct{?}$.
+### $\fbox{3}\:$Figure 6–6, $\small AB=AC, \angle BAC=80^\circ, AD=BD, CM \parallel AB$, intersects the extended line of $\small AD$ at point $\small M$, then $\small \angle M= \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: 30^\circ &
@@ -300,7 +300,7 @@ __Solve angle__
   but also the relationship between the angles of special figures.  
 
 ::: wrap
-### $\fbox{6}\:$Figure 6–9, if $\small AB \parallel CE, CE=DE,$ and $\small y=45^\circ,$ then $\small x= \, \mathpunct{?}$.
+### $\fbox{6}\:$Figure 6–9, if $\small AB \parallel CE, CE=DE$, and $\small y=45^\circ$, then $\small x= \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: 45^\circ &
