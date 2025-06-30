@@ -689,35 +689,36 @@ __The positional relationship between two circles__
 $
 \begin{array}{lllll}
 (\text{A}) \: \textsf{Externally separate} &
-(\text{B}) \: \textsf{Externally tangent} &
-(\text{C}) \: \textsf{Internally tangent} &
-(\text{D}) \: \textsf{Intersecting} &
+(\text{B}) \: \textsf{Externally tangent} & 
+(\text{C}) \: \textsf{Internally tangent} & \\
+(\text{D}) \: \textsf{Intersecting} & 
 (\text{E}) \: \textsf{Internally contained} & \\
 \end{array}
 $  
 :::
 #### Solution
 ::: wrap  
-- solve  
-
-  $
-  \begin{array}{ll}
-   & \text{} \\
-  \end{array}
-  $  
+$
+\begin{array}{ll}
+x^2-3x+2=0 \\
+(x-1)(x-2)=0 \\
+r_1=1 \lor r_2=2 \\
+d=3=r_1+r_2 \Longrightarrow \textsf{Externally tangent} \\
+\end{array}
+$  
 :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{()}$  
-  > According to the Solution, get $ $, so choose $ $. 
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $d=r_1+r_2 \Longrightarrow \textsf{Externally tangent}$, so choose $B$. 
 
   :::
 - Formula used  
   ::: wrap
   >$
   \begin{array}{ll}
-   & \text{} \\
+  d=r_1+r_2 & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#_7-relationship-between-two-circles}{\text{Two circles relationship}} \\
   \end{array}
   >$
 
