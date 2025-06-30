@@ -63,6 +63,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
           folder: docs/.vitepress/dist
-          repository-name: wangxiang4/apple-big-book
+          repository-name: Official-Apple/apple-big-book
           git-config-name: wangxiang4
           git-config-email: github.wangxiang4@gmail.com

@@ -890,3 +890,52 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{35}\:$How many common tangents do the circles $\small C_1: x^2+y^2-4x+2y+1=0$ and $\small C_2: x^2+y^2+4x-4y-1=0$ have $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 1 &
+(\text{B}) \: 2 &
+(\text{C}) \: 3 &
+(\text{D}) \: 4 &
+(\text{E}) \: 5 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap   
+$
+\begin{array}{ll}
+(x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4} \\
+C_1:\,(x+\frac{-4}{2})^2+(y+\frac{2}{2})^2=\frac{(-4)^2+2^2-4(1)}{4} \\
+(x-2)^2+(y+1)^2=4 \longrightarrow (2, -1) \land r_1=2 \\
+C_2:\,(x+\frac{4}{2})^2+(y+\frac{-4}{2})^2=\frac{4^2+(-4)^2-4(-1)}{4} \\
+(x+2)^2+(y-2)^2=9 \longrightarrow (-2, 2) \land r_2=3 \\
+d=\sqrt{(-2-2)^2+(2-(-1))^2}=\sqrt{25}=5 \\
+5=r_1+r_2 \Longrightarrow \textsf{Externally tangent} \\
+\textsf{Externally tangent} \Rightarrow \textsf{only 3 common tangents} \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(C)}$  
+  > According to the Solution, get $\textsf{Externally tangent} \Rightarrow \textsf{only 3 common tangents}$,
+  > so choose $C$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  (x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4} & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#it-can-be-completed-into-the-standard-form}{\text{Complete to standard form}} \\
+  (-\frac{a}{2}, -\frac{b}{2}) & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#center}{\text{Center of the standard-form circle}} \\
+  d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_3-distance-formula-between-two-points}{\text{Two-point distance formula}} \\
+  \textsf{Axis position diagram} & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#the-range-of-the-distance-between-the-circles-and-their-position-relationship}{\text{Distance range and positional relationship between circles}} \\
+  \end{array}
+  >$
+
+  :::
+---
