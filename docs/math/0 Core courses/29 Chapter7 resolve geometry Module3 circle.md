@@ -310,7 +310,7 @@ $
 | __Internally tangent__<br/>1 Intersection Point | ![Two circles relationship diagram 4.svg](../../public/math/Core%20courses/Two%20circles%20relationship%20diagram%204.svg) |           $d=\|r_1-r_2\|$            |                  0                  |                 1                  |
 |  __Internally contained__<br/>No Intersection   | ![Two circles relationship diagram 5.svg](../../public/math/Core%20courses/Two%20circles%20relationship%20diagram%205.svg) |          $d\lt \|r_1-r_2\|$          |                  0                  |                 0                  |
 
-- The range of the distance $d$ between the circles and their position relationship.       
+- ###### The range of the distance $d$ between the circles and their position relationship.       
   ![Circle distance range position axis.svg](../../public/math/Core%20courses/Circle%20distance%20range%20position%20axis.svg)   
 
 
@@ -769,6 +769,54 @@ $
   \end{cases} & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#_7-relationship-between-two-circles}{\text{Two circles relationship}} \\
   (x-x_0)^2+(y-y_0)^2=r^2 & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#standard-form}{\text{Standard form of a circle}} \\
   d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_3-distance-formula-between-two-points}{\text{Two-point distance formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+::: wrap
+### $\fbox{33}\:$How many common tangents do the circles $\small C_1: x^2+y^2+2x+2y-2=0$ and $\small C_2: x^2+y^2-4x-2y+1=0$ have $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 0 &
+(\text{B}) \: 1 &
+(\text{C}) \: 2 &
+(\text{D}) \: 3 &
+(\text{E}) \: 4 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+(x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4} \\
+C_1:\,(x+\frac{2}{2})^2+(y+\frac{2}{2})^2=\frac{2^2+2^2-4(-2)}{4} \\
+(x+1)^2+(y+1)^2=4 \longrightarrow (-1, -1) \land r_1=2 \\
+C_2:\,(x+\frac{-4}{2})^2+(y+\frac{-2}{2})^2=\frac{(-4)^2+(-2)^2-4(1)}{4} \\
+(x-2)^2+(y-1)^2=4 \longrightarrow (2, 1) \land r_2=2 \\
+d=\sqrt{(2-(-1))^2+(1-(-1))^2}=\sqrt{13} \approx 3.6 \\
+r_1-r_2 \lt \sqrt{13} \lt r_1+r_2 \Longrightarrow \textsf{Intersecting} \\
+\textsf{Intersecting} \Rightarrow \textsf{only 2 common tangents} \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(C)}$  
+  > According to the Solution, get $\textsf{Intersecting} \Rightarrow \textsf{only 2 common tangents}$, so choose $C$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  (x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4} & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#it-can-be-completed-into-the-standard-form}{\text{Complete to standard form}} \\
+  (-\frac{a}{2}, -\frac{b}{2}) & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#center}{\text{Center of the standard-form circle}} \\
+  d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_3-distance-formula-between-two-points}{\text{Two-point distance formula}} \\
+  \textsf{Axis position diagram} & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#the-range-of-the-distance-between-the-circles-and-their-position-relationship}{\text{Distance range and positional relationship between circles}} \\
   \end{array}
   >$
 
