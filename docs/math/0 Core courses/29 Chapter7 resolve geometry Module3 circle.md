@@ -37,10 +37,12 @@ lang: en-US
 - ###### It can be completed into the standard form: $(x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4}$.  
   - ###### Center: $(-\frac{a}{2},-\frac{b}{2})$.
   - Radius: $r=\frac{a^2+b^2-4c}{2}$.
-- Special cases:
+::: wrap
+- Special cases:   
   - $a=0: x^2+y^2+by+c=0$. Center on the y-axis.
-  - $b=0: x^2+y^2+ax+c=0$. Center on the x-axis. 
+  - $b=0: x^2+y^2+ax+c=0$. Center on the x-axis.
   - $c=0: x^2+y^2+ax+by+c=0$. The function passes through the origin.
+:::   
 - ###### Note: The condition for the general form to represent a circle is $a^2+b^2-4c>0$.  
 - __Equation derivations__   
   ::: wrap    
@@ -602,6 +604,7 @@ $
 $  
 :::
 #### Solution
+- Have a common point $\Longrightarrow$ __tangent__ and __intersecting__.        
 ::: wrap  
 - $\textcolor{#228B22}{\fbox{1}}\:$Solve by using the geometric method with $d \le r$ to find the intersection points
 
@@ -739,8 +742,9 @@ $
 :::
 #### Solution
 ::: wrap  
-- Use the condition for the circles to be externally tangent $d=r_1+r_2$ to solve      
-  - Note: $d=|r_1-r_2|=0$, no internal tangent — coincident centers merge into one circle.      
+- Use the condition for the circles to be externally tangent $d=r_1+r_2$ to solve    
+  - Tangent to each other $\Longrightarrow$ __Internally tangent__ and __Externally tangent__.  
+  - Note: $d=|r_1-r_2|=0$, no internal tangent — coincident centers merge into one circle.       
 
   $
   \begin{array}{ll}
@@ -817,6 +821,70 @@ $
   (-\frac{a}{2}, -\frac{b}{2}) & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#center}{\text{Center of the standard-form circle}} \\
   d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_3-distance-formula-between-two-points}{\text{Two-point distance formula}} \\
   \textsf{Axis position diagram} & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#the-range-of-the-distance-between-the-circles-and-their-position-relationship}{\text{Distance range and positional relationship between circles}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+::: wrap
+### $\fbox{34}\:$Given that the circles $\small C_1:\,(x-2)^2+(y-1)^2=r^2 (r>0)$ and $\small C_2:\,x^2-6x+y^2-8y=0$ have intersection points, what is the possible range of values for $\small r \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 5-\sqrt{10}\lt r\lt 5 &
+(\text{B}) \: 5-\sqrt{10}\lt r\lt 5+\sqrt{10} & \\
+(\text{C}) \: 5-\sqrt{10}\le r\le 5+\sqrt{10} &
+(\text{D}) \: 5-\sqrt{10}\le r\le 5 & \\
+(\text{E}) \: 5\le r \le 5+\sqrt{10} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap
+- Have intersection points $\Longrightarrow$ __Intersecting__ and __Internally tangent__ and __Externally tangent__.      
+
+  $
+  \begin{array}{ll}
+  (x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4} \\
+  C_2:\,(x+\frac{-6}{2})^2+(y+\frac{-8}{2})^2=\frac{(-6)^2+(-8)^2+(-4\times0)}{4} \\
+  (x-3)^2+(y-4)^2=25 \longrightarrow (3, 4) \land r_2=5 \\
+  C_2:\,(x-2)^2+(y-1)^2=r^2 \longrightarrow (2, 1) \land r_1=r \textsf{ unknown} \\
+  d=\sqrt{(3-2)^2+(4-1)^2}=\sqrt{10}\approx 3.16 \\
+  |r_1-r_2| \le d \le r_1+r_2 \\
+  |r-5| \le d \le r+5 \\
+  d \le r+5 & \textsf{Inequality Holds Directly} \\
+  |r-5| \le d \\
+  -\sqrt{10} \le r-5 \le \sqrt{10}  & ∣x∣ \le c \iff −c \le x \le c \\
+  5-\sqrt{10} \le r \le 5+\sqrt{10}
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(C)}$  
+  > According to the Solution, get $5-\sqrt{10} \le r \le 5+\sqrt{10}$, so choose $C$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  (x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4} & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#it-can-be-completed-into-the-standard-form}{\text{Complete to standard form}} \\
+  (x-x_0)^2+(y-y_0)^2=r^2 & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#standard-form}{\text{Standard form of a circle}} \\
+  d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_3-distance-formula-between-two-points}{\text{Two-point distance formula}} \\
+  \textsf{Axis position diagram} & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#the-range-of-the-distance-between-the-circles-and-their-position-relationship}{\text{Distance range and positional relationship between circles}} \\
+  ∣x∣ \le c \iff −c \le x \le c & \text{Absolute value inequality expansion} \\
+  \end{array}
+  >$
+
+  :::   
+- Logical relationship between __Having intersection points__ and __Intersecting__    
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \underset{1 \lor 2 \textsf{ intersection points}}{\textsf{Having intersection points}} \underset{✅}{\overset{❌}{\Longleftrightarrow}} \underset{2 \textsf{ intersection points}}{\textsf{Intersecting}} \\
+  \underset{0 \textsf{ intersection points}}{\textsf{No intersection points}} \underset{❌}{\overset{✅}{\Longleftrightarrow}} \underset{0 \lor 1 \textsf{ intersection points}}{\textsf{No Intersecting}} \\
   \end{array}
   >$
 
