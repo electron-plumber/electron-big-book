@@ -724,3 +724,53 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{32}\:$The two circles $\small (x-a)^2+(y-b)^2=r^2$ and $\small (x-b)^2+(y-a)^2=r^2$ are tangent to each other, then $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: (a-b)^2=r^2 &
+(\text{B}) \: (a-b)^2=2r^2 &
+(\text{C}) \: (a+b)^2=r^2 & \\
+(\text{D}) \: (a+b)^2=2r^2 &
+(\text{E}) \: (a-b)^2=3r^2 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Use the condition for the circles to be externally tangent $d=r_1+r_2$ to solve      
+  - Note: $d=|r_1-r_2|=0$, no internal tangent — coincident centers merge into one circle.      
+
+  $
+  \begin{array}{ll}
+  r_1=r_2=r & \textsf{Same radius} \\
+  (a,b) \land (b,a) & \textsf{Centers of two circles}\\
+  d=\sqrt{(a-b)^2+(b-a)^2}=r+r=2r \\
+  2(a-b)^2=4r^2 \\
+  (a-b)^2=2r^2 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $(a-b)^2=2r^2$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \begin{cases}
+  d=r_1+r_2 \\
+  d=|r_1-r_2| \\
+  \end{cases} & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#_7-relationship-between-two-circles}{\text{Two circles relationship}} \\
+  (x-x_0)^2+(y-y_0)^2=r^2 & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#standard-form}{\text{Standard form of a circle}} \\
+  d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_3-distance-formula-between-two-points}{\text{Two-point distance formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
