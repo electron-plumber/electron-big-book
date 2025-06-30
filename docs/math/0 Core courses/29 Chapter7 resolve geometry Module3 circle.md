@@ -2,13 +2,6 @@
 title: Chapter7 resolve geometry Module3 circle
 lang: en-US
 ---
-| Platforms   | Courses                                                                                      | Coursewares                                                       |
-|-------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| YouTube     | [Watch](https://www.youtube.com/watch?v=Tzz3WDdaVEI&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s) | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
-| Dailymotion | [Watch](https://www.dailymotion.com/video/x9gsui2?playlist=x9h6d2)                           |                                                                   |
-| Rumble      | [Watch](https://rumble.com/v6s95hp-29-chapter7-resolve-geometry-module3-circle.html)                                    |                                                                   |
-
-
 
 # Module 7–03 Circle
 
@@ -939,3 +932,71 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{36}\:$If the circle $\small x^2+y^2=4$ is internally tangent to the circle $\small x^2+y^2-2ax+a^2-1=0$, what is the value of $\small a \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: -1 &
+(\text{B}) \: 1 &
+(\text{C}) \: 2 &
+(\text{D}) \: \pm1 &
+(\text{E}) \: \pm2 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap   
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve by using the geometric method with the two-point distance formula to find $a$      
+
+  $
+  \begin{array}{ll}
+  (x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4} \\
+  C_2:\,(x+\frac{-2a}{2})^2+(y+\frac{0}{2})^2=\frac{(-2a)^2+0^2-4(a^2-1)}{4}  \\
+  (x-a)^2+y^2=1 \longrightarrow (a, 0) \land r_2=1 \\
+  C_1:\,x^2+y^2=4 \longrightarrow (0, 0) \land r_1=2 \\
+  d=\sqrt{a^2+0^2}=|a|=2-1=1 \\
+  |a|=1 \\
+  a=\pm1 \\
+  \end{array}
+  $   
+:::  
+::: wrap   
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve by using graphical analysis to find $a$ (only applicable in simple)    
+  ![Question circle figure Q-36 solve-1.svg](../../public/math/Core%20courses/Question%20circle%20figure%20Q-36%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  (x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4} \\
+  C_2:\,(x+\frac{-2a}{2})^2+(y+\frac{0}{2})^2=\frac{(-2a)^2+0^2-4(a^2-1)}{4}  \\
+  (x-a)^2+y^2=1 \longrightarrow (a, 0) \land r_2=1 \\
+  C_1:\,x^2+y^2=4 \longrightarrow (0, 0) \land r_1=2 \\
+  \end{array}
+  $   
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(D)}$  
+  > According to the Solution, get $a=\pm1$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  (x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4} & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#it-can-be-completed-into-the-standard-form}{\text{Complete to standard form}} \\
+  (-\frac{a}{2}, -\frac{b}{2}) & \href{/math/0%20Core%20courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#center}{\text{Center of the standard-form circle}} \\
+  d=\sqrt{x^2+y^2} & \href{/math/0%20Core%20courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_3-distance-formula-between-two-points}{\text{Two-point distance formula}} \\
+  \end{array}
+  >$
+
+  :::
+---  
+
+| Platforms   | Courses                                                                                      | Coursewares                                                       |
+|-------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| YouTube     | [Watch](https://www.youtube.com/watch?v=Tzz3WDdaVEI&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s) | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
+| Dailymotion | [Watch](https://www.dailymotion.com/video/x9gsui2?playlist=x9h6d2)                           |                                                                   |
+| Rumble      | [Watch](https://rumble.com/v6s95hp-29-chapter7-resolve-geometry-module3-circle.html)         |                                                                   |
+
