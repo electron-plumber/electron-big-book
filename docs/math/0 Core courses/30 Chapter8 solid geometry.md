@@ -82,3 +82,45 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{2}\:$The three adjacent edge lengths of a cuboid are in the ratio $\small 3:2:1$, and its surface area is $\small 88$. What is the length of the longest edge $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 8 &
+(\text{B}) \: 11 &
+(\text{C}) \: 12 &
+(\text{D}) \: 14 &
+(\text{E}) \: 6 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+3:2:1 \rightarrow 3k:2k:k & k:\textsf{scale factor} \\
+F=2(3k\times2k + 3k\times k + 2k\times k)=2(6k^2+3k^2+2k^2) \\
+22k^2=88 \\
+k=\sqrt{4}=2 \\
+\textsf{Longest}=3k=3\times2=6 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(E)}$  
+  > According to the Solution, get $\textsf{Longest}=6$, so choose $E$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  F=2(ab + bc +ac) & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_4-sum-of-edge-lengths}{\text{Total surface area}} \\
+  \end{array}
+  >$
+
+  :::
+---
