@@ -962,7 +962,7 @@ $
   $   
 :::  
 ::: wrap   
-- $\textcolor{#228B22}{\fbox{2}}\:$Solve by using graphical analysis to find $a$ (only applicable in simple)    
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve by using graphical analysis to find $a$ (only applicable in simple cases)    
   ![Question circle figure Q-36 solve-1.svg](../../public/math/Core%20courses/Question%20circle%20figure%20Q-36%20solve-1.svg)  
 
   $

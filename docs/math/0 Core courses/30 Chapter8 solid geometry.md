@@ -124,3 +124,65 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{3}\:$The areas of three adjacent faces of a cuboid are $\small 2, 6$, and $\small 3$, respectively. What is the volume of the cuboid $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 4 &
+(\text{B}) \: 5 &
+(\text{C}) \: 6 &
+(\text{D}) \: 7.5 &
+(\text{E}) \: 9 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve by using the substitution method (only applicable in simple cases)      
+
+  $
+  \begin{array}{ll}
+  \begin{cases}
+  ab=2 \\
+  bc=6 \\
+  ac=3 \\
+  \end{cases} \\
+  b=\frac{2}{a} \\
+  c=\frac{3}{a} \\
+  bc=\frac{2}{a} \times \frac{3}{a}=6 \\
+  \frac{6}{a^2}=6 \Longrightarrow a^2=1 \Longrightarrow a=1 \\
+  b=\frac{2}{1}=2 \\
+  c=\frac{3}{1}=3 \\
+  V=1\times2\times3=6 \\
+  \end{array}
+  $   
+:::  
+::: wrap  
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve by using the volume formula (suitable for special cases)    
+
+  $
+  \begin{array}{ll}
+  V=abc=\sqrt{a^2 \cdot b^2 \cdot c^2}=\sqrt{ab \cdot bc \cdot ac} \\
+  \sqrt{2 \cdot 6 \cdot 3}=\sqrt{36}=6 & \textsf{Substitute }[ab=2, bc=6, ac=3] \\
+  \end{array}
+  $   
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(C)}$  
+  > According to the Solution, get $V=6$, so choose $C$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  F=2(ab + bc +ac) & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_4-sum-of-edge-lengths}{\text{Total surface area}} \\
+  V=abc & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_1-volume}{\text{Volume}} \\
+  \end{array}
+  >$
+
+  :::
+---
