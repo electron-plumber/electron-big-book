@@ -232,3 +232,30 @@ $
 
   :::
 ---
+
+# Module 8–02 Prisms and cylinders
+
+## 1.General formulas 
+- The lateral (side) surface, when unfolded, is always __a rectangle__, with one side equal to __the perimeter of the base__ and the other side equal to __the height of the prism or cylinder__.     
+- Lateral surface area: $S=\textsf{base perimeter} \times \textsf{height}$.
+  - the area of the unfolded rectangle.   
+- Volume: $V=\textsf{base area} \times \textsf{height}$.   
+
+![Prism and cylinder general formulas.svg](../../public/math/Core%20courses/Prism%20and%20cylinder%20general%20formulas.svg)  
+
+## 2.Formulas for a Cylinder
+![Cylinder formulas.svg](../../public/math/Core%20courses/Cylinder%20formulas.svg)   
+- Let the height be $h$ and the base radius be $r$.
+- Volume: $V=\pi r^2h$. 
+- Lateral surface area: $S=2\pi rh$. 
+  - its lateral surface, when unfolded, is a rectangle with length $2πr$ and width $h$.  
+- Total surface area: $F=S_{\textsf{lateral}}+2S_{\textsf{base}}=2\pi rh+2\pi r^2$.
+
+## 3.Focus 
+__Cylinder__   
+- Master the formulas for calculating the __lateral surface area__,
+  __total surface area__, and __volume__ of a cylinder,
+  with particular attention to __the special case of an equilateral cylinder__.  
+- Equilateral cylinder: the axial section is a square $(h=2r)$.  
+  ![Equilateral cylinder.svg](../../public/math/Core%20courses/Equilateral%20cylinder.svg)  
+
