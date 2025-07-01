@@ -26,10 +26,10 @@ lang: en-US
 
 ## 2.Cube
 - Let the edge length be $a$.  
-  1. Volume: $V=a^3$.
-  2. Total surface area: $F=6a^2$.
-  3. Space diagonal (body diagonal): $d=\sqrt{3a}$.
-  4. Sum of edge lengths: $l=12a$.
+  ###### 1. Volume: $V=a^3$.
+  ###### 2. Total surface area: $F=6a^2$.
+  ###### 3. Space diagonal (body diagonal): $d=\sqrt{3}a$.
+  ###### 4. Sum of edge lengths: $l=12a$.
 
 ## 3.Focus 1
 __Cuboid__   
@@ -75,8 +75,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  l=4(a+b+c) & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_4-sum-of-edge-lengths}{\text{Sum of edge lengths}} \\
-  V=abc & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_1-volume}{\text{Volume}} \\
+  l=4(a+b+c) & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_4-sum-of-edge-lengths}{\text{Sum of edge lengths of a cuboid}} \\
+  V=abc & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_1-volume}{\text{Volume of a cuboid}} \\
   \end{array}
   >$
 
@@ -100,7 +100,7 @@ $
 $
 \begin{array}{ll}
 3:2:1 \rightarrow 3k:2k:k & k:\textsf{scale factor} \\
-F=2(3k\times2k + 3k\times k + 2k\times k)=2(6k^2+3k^2+2k^2) \\
+S=2(3k\times2k + 3k\times k + 2k\times k)=2(6k^2+3k^2+2k^2) \\
 22k^2=88 \\
 k=\sqrt{4}=2 \\
 \textsf{Longest}=3k=3\times2=6 \\
@@ -118,7 +118,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  F=2(ab + bc +ac) & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_4-sum-of-edge-lengths}{\text{Total surface area}} \\
+  F=2(ab + bc +ac) & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_4-sum-of-edge-lengths}{\text{Total surface area of a cuboid}} \\
   \end{array}
   >$
 
@@ -179,8 +179,54 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  F=2(ab + bc +ac) & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_4-sum-of-edge-lengths}{\text{Total surface area}} \\
-  V=abc & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_1-volume}{\text{Volume}} \\
+  F=2(ab + bc +ac) & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_4-sum-of-edge-lengths}{\text{Total surface area of a cuboid}} \\
+  V=abc & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_1-volume}{\text{Volume of a cuboid}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+## 4.Focus 2
+__Cube__  
+- A cube is relatively simple; master the formulas for __its space diagonal, surface area, and volume__.
+
+
+::: wrap
+### $\fbox{4}\:$Given that the space diagonal of a cube is $\small 3$, what is its total surface area $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 16 &
+(\text{B}) \: 18 &
+(\text{C}) \: 20 &
+(\text{D}) \: 22 &
+(\text{E}) \: 24 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+d=\sqrt{3}a=3 \\
+a=\frac{3}{\sqrt{3}}=\frac{3\times\sqrt{3}}{\sqrt{3}\times\sqrt{3}}=\sqrt{3} \\
+S=6\sqrt{3}^2=6\times3=18 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $S=18$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  d=\sqrt{3}a & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_3-space-diagonal-body-diagonal-1}{\text{Space diagonal of a cube (body diagonal)}} \\
+  F=6a^2 & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_2-total-surface-area-1}{\text{Total surface area}} \\
   \end{array}
   >$
 
