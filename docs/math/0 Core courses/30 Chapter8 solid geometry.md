@@ -233,13 +233,13 @@ $
   :::
 ---
 
-# Module 8–02 Prisms and cylinders
+# Module 8–02 Prisms and Cylinders
 
-## 1.General formulas 
+## 1.General Formulas 
 - The lateral (side) surface, when unfolded, is always __a rectangle__, with one side equal to __the perimeter of the base__ and the other side equal to __the height of the prism or cylinder__.     
-- Lateral surface area: $S=\textsf{base perimeter} \times \textsf{height}$.
+- ###### Lateral surface area: $S=\textsf{base perimeter} \times \textsf{height}$.
   - the area of the unfolded rectangle.   
-- Volume: $V=\textsf{base area} \times \textsf{height}$.   
+- ###### Volume: $V=\textsf{base area} \times \textsf{height}$.   
 
 ![Prism and cylinder general formulas.svg](../../public/math/Core%20courses/Prism%20and%20cylinder%20general%20formulas.svg)  
 
@@ -251,7 +251,7 @@ $
   - its lateral surface, when unfolded, is a rectangle with length $2πr$ and width $h$.  
 - ###### Total surface area: $F=S_{\textsf{lateral}}+2S_{\textsf{base}}=2\pi rh+2\pi r^2$.
 
-## 3.Focus 
+## 3.Focus 1
 __Cylinder__   
 - Master the formulas for calculating the __lateral surface area__,
   __total surface area__, and __volume__ of a cylinder,
@@ -292,7 +292,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  V=\pi r^2h & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#volume}{\text{volume of a cylinder}} \\
+  V=\pi r^2h & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#volume}{\textsf{volume of a cylinder}} \\
   \end{array}
   >$
 
@@ -334,8 +334,60 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  S=\pi r^2 & \text{circle area formula} \\
-  S=a^2 & \href{/math/0%20Core%20courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_4-square}{\text{square area formula}} \\
+  S=\pi r^2 & \textsf{circle area formula} \\
+  S=a^2 & \href{/math/0%20Core%20courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_4-square}{\textsf{square area formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+## 4.Focus 2
+__Prisms__   
+- Master the formulas for calculating the __surface area__ and __volume__ of common triangular and __quadrangular prisms__.
+
+::: wrap
+### $\fbox{7}\:$Figure 8–3, if the top and bottom faces of a right triangular prism are right triangles, what is the surface area of the triangular prism $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 28 &
+(\text{B}) \: 30 &
+(\text{C}) \: 32 &
+(\text{D}) \: 36 &
+(\text{E}) \: 38 & \\
+\end{array}
+$  
+:::  
+![Question prisms and cylinders figure 8-3.svg](../../public/math/Core%20courses/Question%20prisms%20and%20cylinders%20figure%208-3.svg)   
+#### Solution
+::: wrap  
+- Show known conditions       
+  ![Question prisms and cylinders figure 8-3 solve-1.svg](../../public/math/Core%20courses/Question%20prisms%20and%20cylinders%20figure%208-3%20solve-1.svg)   
+
+  $
+  \begin{array}{ll}
+  S=S_{\textsf{lateral}}+2S_{\textsf{base}} \\
+  S_{\textsf{lateral}}=(3+4+5)\times2=24 \\
+  2S_{\textsf{base}}=2(\frac{1}{2}\times 4 \times 3)=12 \\
+  S=24+12=36 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(D)}$  
+  > According to the Solution, get $S=36$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  (3,4,5) & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\textsf{commonly used pythagorean numbers}} \\
+  S=\textsf{base perimeter} \times \textsf{height} & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#lateral-surface-area}{\textsf{lateral area of a prism or cylinder}} \\
+  S=\frac{1}{2}ah & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{\text{Triangle area formula}} \\
+  F=S_{\textsf{lateral}}+2S_{\textsf{base}} & \textsf{total surface area of a prism or cylinder} \\
   \end{array}
   >$
 

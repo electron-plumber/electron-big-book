@@ -400,7 +400,7 @@ $
   (5,12,13)& \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Commonly used pythagorean numbers}} \\
   \frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k & \href{/math/0%20Core%20courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Similar triangle properties}} \\
   \frac{S_1}{S_2}=k^2 & \href{/math/0%20Core%20courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Similar triangle properties}} \\
-  S=\frac{1}{2}ah & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\text{Triangle area formula}} \\
+  S=\frac{1}{2}ah & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{\text{Triangle area formula}} \\
   \end{array}
   >$
 
