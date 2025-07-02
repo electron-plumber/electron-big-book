@@ -226,7 +226,7 @@ $
   >$
   \begin{array}{ll}
   d=\sqrt{3}a & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_3-space-diagonal-body-diagonal-1}{\text{Space diagonal of a cube (body diagonal)}} \\
-  F=6a^2 & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_2-total-surface-area-1}{\text{Total surface area}} \\
+  F=6a^2 & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_2-total-surface-area-1}{\text{Total surface area of a cube}} \\
   \end{array}
   >$
 
@@ -246,10 +246,10 @@ $
 ## 2.Formulas for a Cylinder
 ![Cylinder formulas.svg](../../public/math/Core%20courses/Cylinder%20formulas.svg)   
 - Let the height be $h$ and the base radius be $r$.
-- Volume: $V=\pi r^2h$. 
-- Lateral surface area: $S=2\pi rh$. 
+- ###### Volume: $V=\pi r^2h$. 
+- ###### Lateral surface area: $S=2\pi rh$. 
   - its lateral surface, when unfolded, is a rectangle with length $2πr$ and width $h$.  
-- Total surface area: $F=S_{\textsf{lateral}}+2S_{\textsf{base}}=2\pi rh+2\pi r^2$.
+- ###### Total surface area: $F=S_{\textsf{lateral}}+2S_{\textsf{base}}=2\pi rh+2\pi r^2$.
 
 ## 3.Focus 
 __Cylinder__   
@@ -259,3 +259,85 @@ __Cylinder__
 - Equilateral cylinder: the axial section is a square $(h=2r)$.  
   ![Equilateral cylinder.svg](../../public/math/Core%20courses/Equilateral%20cylinder.svg)  
 
+::: wrap
+### $\fbox{5}\:$If the height of a cylinder is increased to $\small 3$ times its original height, and its base radius is increased to $\small 1.5$ times its original radius, then by what factor does its volume increase compared to the original volume $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 4.5 &
+(\text{B}) \: 6.75 &
+(\text{C}) \: 9 &
+(\text{D}) \: 12.5 &
+(\text{E}) \: 15 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+V_{\textsf{old}}=\pi r^2h \\
+V_{\textsf{new}}=\pi (1.5r)^2(3h)=\pi \cdot 2.25r^2 \cdot 3h=\pi r^2h \cdot (2.25 \cdot 3) = \pi r^2h\cdot 6.75 \\
+\textsf{scale factor}=\frac{V_{\textsf{new}}}{V_{\textsf{old}}}=\frac{\pi r^2h\cdot 6.75}{\pi r^2h}=6.75 \\ 
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $\textsf{scale factor}=6.75$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  V=\pi r^2h & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#volume}{\text{volume of a cylinder}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+::: wrap
+### $\fbox{6}\:$If the lateral surface of a cylinder, when unfolded, forms a square, then its lateral surface area is how many times its base area $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 2 &
+(\text{B}) \: 4 &
+(\text{C}) \: 4\pi &
+(\text{D}) \: \pi &
+(\text{E}) \: 2\pi & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Solve by using the method of assigning specific values     
+  ![Question prisms and cylinders figure Q-6 solve-1.svg](../../public/math/Core%20courses/Question%20prisms%20and%20cylinders%20figure%20Q-6%20solve-1.svg)   
+
+  $
+  \begin{array}{ll}
+  \textsf{Let }r=1 \quad c=2\pi \quad h=2\pi & \textsf{square lateral unfolding} \\
+  \frac{S_{\textsf{lateral}}}{S_{\textsf{base}}}=\frac{(2\pi)^2}{\pi\times1^2}=4\pi \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(C)}$  
+  > According to the Solution, get $\frac{S_{\textsf{lateral}}}{S_{\textsf{base}}}=4\pi$, so choose $C$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  S=\pi r^2 & \text{circle area formula} \\
+  S=a^2 & \href{/math/0%20Core%20courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_4-square}{\text{square area formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
