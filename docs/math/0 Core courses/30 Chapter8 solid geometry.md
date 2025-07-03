@@ -236,19 +236,19 @@ $
 # Module 8–02 Prisms and Cylinders
 
 ## 1.General Formulas 
-- The lateral (side) surface, when unfolded, is always __a rectangle__, with one side equal to __the perimeter of the base__ and the other side equal to __the height of the prism or cylinder__.     
+- The lateral surface of a prism or cylinder, when laid out in its developed form, is __a rectangle__ whose one side equals __the perimeter of the base__ and whose other side equals __the height of the solid__.        
 - ###### Lateral surface area: $S=\textsf{base perimeter} \times \textsf{height}$.
-  - the area of the unfolded rectangle.   
+  - The area of the developed rectangle.   
 - ###### Volume: $V=\textsf{base area} \times \textsf{height}$.   
 
-![Prism and cylinder general formulas.svg](../../public/math/Core%20courses/Prism%20and%20cylinder%20general%20formulas.svg)  
+![Prisms and cylinders general formulas.svg](../../public/math/Core%20courses/Prisms%20and%20cylinders%20general%20formulas.svg)   
 
 ## 2.Formulas for a Cylinder
 ![Cylinder formulas.svg](../../public/math/Core%20courses/Cylinder%20formulas.svg)   
 - Let the height be $h$ and the base radius be $r$.
 - ###### Volume: $V=\pi r^2h$. 
 - ###### Lateral surface area: $S=2\pi rh$. 
-  - its lateral surface, when unfolded, is a rectangle with length $2πr$ and width $h$.  
+  - The lateral surface in its developed form is a rectangle with length $2πr$ and width $h$.  
 - ###### Total surface area: $F=S_{\textsf{lateral}}+2S_{\textsf{base}}=2\pi rh+2\pi r^2$.
 
 ## 3.Focus 1
@@ -300,7 +300,7 @@ $
 ---
 
 ::: wrap
-### $\fbox{6}\:$If the lateral surface of a cylinder, when unfolded, forms a square, then its lateral surface area is how many times its base area $\small \, \mathpunct{?}$.
+### $\fbox{6}\:$If the lateral development of a cylinder is a square, then its lateral surface area is how many times the area of its base $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: 2 &
@@ -388,6 +388,48 @@ $
   S=\textsf{base perimeter} \times \textsf{height} & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#lateral-surface-area}{\textsf{lateral area of a prism or cylinder}} \\
   S=\frac{1}{2}ah & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{\text{Triangle area formula}} \\
   F=S_{\textsf{lateral}}+2S_{\textsf{base}} & \textsf{total surface area of a prism or cylinder} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+::: wrap
+### $\fbox{8}\:$A quadrangular prism has a lateral development in the shape of a square with a side length of $\small 40$, and its base is also a square. What is its volume $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 2800 &
+(\text{B}) \: 4000 &
+(\text{C}) \: 4200 &
+(\text{D}) \: 4800 &
+(\text{E}) \: 5000 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Show known conditions    
+  ![Question prisms and cylinders figure Q-8 solve-1.svg](../../public/math/Core%20courses/Question%20prisms%20and%20cylinders%20figure%20Q-8%20solve-1.svg)   
+  
+  $
+  \begin{array}{ll}
+  V=10^2 \times 40=4000 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $V=4000$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  S=a^2 & \href{/math/0%20Core%20courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_4-square}{\textsf{square area formula}} \\
+  V=\textsf{base area} \times \textsf{height} & \text{volume of a prism or cylinder} \\
   \end{array}
   >$
 
