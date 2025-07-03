@@ -459,3 +459,55 @@ $
 - Notes:
   - In these relationships, be sure to make use of __the axial section of the solid__ when identifying geometric relationships.
   - The relationships are reciprocal: you can describe the circumscribed sphere of a cube, or the inscribed cube of a sphere — essentially, they're the same.  
+
+## 4.Focus 1
+__Basic formulas of a sphere__   
+- Master the basic formulas for the __volume__ and __surface area__ of a sphere. 
+- ###### Note that __the surface area is proportional to the square of the radius__, and __the volume is proportional to the cube of the radius__. 
+  - $\frac{S_1}{S_2}=(\frac{r_1}{r_2})^2$. 
+  - $\frac{V_1}{V_2}=(\frac{r_1}{r_2})^3$.
+
+::: wrap
+### $\fbox{9}\:$If the surface area of a sphere increases to $\small 9$ times its original value, what its volume $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: \textsf{increase to }9\textsf{ times the original} &
+(\text{B}) \: \textsf{increase to }27\textsf{ times the original} & \\
+(\text{C}) \: \textsf{increase to }3\textsf{ times the original} &
+(\text{D}) \: \textsf{increase to }6\textsf{ times the original} & \\
+(\text{E}) \: \textsf{increase to }8\textsf{ times the original} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+\frac{S_1}{S_2}=(\frac{r_1}{r_2})^2 \\
+S_2=S_1\times9 \\
+\frac{S_2}{S_1}=9 \\
+(\frac{r_1}{r_2})^2=9 \longrightarrow \frac{r_1}{r_2}=3 \\
+\frac{V_1}{V_2}=(\frac{r_1}{r_2})^3 \\
+\frac{V_2}{V_1}=(3)^3=27 \\
+V_2=V_1\times27 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(B)}$  
+  > According to the Solution, get $V_2=V_1\times27$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \frac{S_1}{S_2}=(\frac{r_1}{r_2})^2 & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#note-that-the-surface-area-is-proportional-to-the-square-of-the-radius-and-the-volume-is-proportional-to-the-cube-of-the-radius}{\text{surface area proportionality relation}} \\
+  \frac{V_1}{V_2}=(\frac{r_1}{r_2})^3 & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#note-that-the-surface-area-is-proportional-to-the-square-of-the-radius-and-the-volume-is-proportional-to-the-cube-of-the-radius}{\text{volume proportionality relation}} \\
+  \end{array}
+  >$
+
+  :::
+---
