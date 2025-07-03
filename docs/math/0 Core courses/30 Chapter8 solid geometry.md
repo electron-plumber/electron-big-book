@@ -435,3 +435,27 @@ $
 
   :::
 ---
+
+# Module 8–01 Sphere
+
+## 1.Volume and Surface Area
+- Let the radius of the sphere be $r$. Then its volume is $V=\frac{4}{3}\pi r^3$, and its surface area is $S=4\pi r^2$.
+
+## 2.Section of a Sphere
+- Figure 8–4, the line connecting the center of the sphere to the center of the circular section is perpendicular to the section. Let the distance from the center of the sphere to the section be $d$, the radius of the sphere be $R$, and the radius of the section be $r$, then: $r^2+d^2=R^2$.       
+  ![Sphere section figure 8-4.svg](../../public/math/Core%20courses/Sphere%20section%20figure%208-4.svg)   
+
+## 3.Circumscribed Sphere and Inscribed Sphere
+- Let the radius of the cylinder's base be $r$, the radius of the sphere be $R$, and the height of the cylinder be $h$.  
+
+| Solid             | Inscribed Sphere (conditional)                                                   | Circumscribed Sphere (unconditional)            |
+|-------------------|----------------------------------------------------------------------------------|-------------------------------------------------|
+| Rectangular Prism | None (__only a cube has one__)                                                   | Body diagonal $l=2R$                            |
+| Cube              | Edge length $a=2R$                                                               | Body diagonal $l=2R$  (that is, $2R=\sqrt{3}a$) |
+| Cylinder          | Only a cylinder whose __axial section__ is __a square__ has one, where $2r=h=2R$ | Body diagonal $\sqrt{h^2+(2r)^2}=2R$            |
+
+![Solid circumscribed sphere and inscribed sphere.svg](../../public/math/Core%20courses/Solid%20circumscribed%20sphere%20and%20inscribed%20sphere.svg)
+
+- Notes:
+  - In these relationships, be sure to make use of __the axial section of the solid__ when identifying geometric relationships.
+  - The relationships are reciprocal: you can describe the circumscribed sphere of a cube, or the inscribed cube of a sphere — essentially, they're the same.  
