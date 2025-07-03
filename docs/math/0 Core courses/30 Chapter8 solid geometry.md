@@ -256,7 +256,7 @@ __Cylinder__
 - Master the formulas for calculating the __lateral surface area__,
   __total surface area__, and __volume__ of a cylinder,
   with particular attention to __the special case of an equilateral cylinder__.  
-- Equilateral cylinder: the axial section is a square $(h=2r)$.  
+- ###### Equilateral cylinder: the axial section is a square $(h=2r)$.  
   ![Equilateral cylinder.svg](../../public/math/Core%20courses/Equilateral%20cylinder.svg)  
 
 ::: wrap
@@ -318,7 +318,7 @@ $
 
   $
   \begin{array}{ll}
-  \textsf{Let }r=1 \quad c=2\pi \quad h=2\pi & \textsf{square lateral unfolding} \\
+  \textsf{Let }r=1 \quad c=2\pi \longrightarrow h=2\pi & \textsf{lateral development = square} \\
   \frac{S_{\textsf{lateral}}}{S_{\textsf{base}}}=\frac{(2\pi)^2}{\pi\times1^2}=4\pi \\
   \end{array}
   $  
@@ -519,7 +519,7 @@ __Circumscribed sphere and inscribed sphere__
 
 
 ::: wrap
-### $\fbox{10}\:$If a sphere circumscribes a rectangular box whose three edge lengths are $\small 1, 2$, and $\small 3$, what is the surface area of the sphere $\small \, \mathpunct{?}$.
+### $\fbox{10}\:$If a cuboid is inscribed in a sphere and its edge lengths are $\small 1, 2$, and $\small 3$, what is the surface area of the sphere $\small\,\mathpunct{?}$.
 $
 \begin{array}{lllll}
 (\text{A}) \: \frac{7\sqrt{14}}{6}\pi &
@@ -553,6 +553,52 @@ $
   l=2R & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_3-circumscribed-sphere-and-inscribed-sphere}{\textsf{circumscribed sphere diameter of a rectangular prism}} \\
   d=\sqrt{a^2+b^2+c^2} & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_3-space-diagonal-body-diagonal-1}{\textsf{body diagonal of a cuboid}} \\
   S=4\pi r^2 & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_1-volume-and-surface-area}{\textsf{surface area of a sphere}} \\ 
+  \end{array}
+  >$
+
+  :::
+---
+
+::: wrap
+### $\fbox{11}\:$What is the minimum value of the ratio between the volume of an equilateral cylinder (excluding its inscribed sphere) and the volume of that sphere $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: \frac{3}{4} &
+(\text{B}) \: \frac{2}{3} &
+(\text{C}) \: \frac{1}{2} &
+(\text{D}) \: \frac{1}{4} &
+(\text{E}) \: \frac{1}{3} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Show known conditions    
+  ![Question circle sphere Q-11 solve-1.svg](../../public/math/Core%20courses/Question%20circle%20sphere%20Q-11%20solve-1.svg)   
+
+  $
+  \begin{array}{ll}
+  \textsf{Let }r=1 \\
+  h=2r=2 \\
+  \frac{S_{\textsf{removed}}}{S_{\textsf{sphere}}}=\frac{\pi r^2h-\frac{4}{3}\pi r^3}{\frac{4}{3}\pi r^3}=\frac{\pi\cdot1^2\cdot2-\frac{4}{3}\pi\cdot1^3}{\frac{4}{3}\pi\cdot1^3} \\
+  \frac{2\pi-\frac{4}{3}\pi}{\frac{4}{3}\pi} = \frac{\frac{2}{3}\pi}{\frac{4}{3}\pi}=\frac{2}{3}\times\frac{3}{4}=\frac{6}{12}=\frac{1}{2} \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(C)}$  
+  > According to the Solution, get $\frac{S_{\textsf{removed}}}{S_{\textsf{sphere}}}=\frac{1}{2}$, so choose $C$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  h=2r & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#equilateral-cylinder-the-axial-section-is-a-square}{\textsf{axial section height (equilateral cylinder)}} \\
+  V=\pi r^2h & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#volume}{\textsf{volume of a cylinder}} \\
+  V=\frac{4}{3}\pi r^3 & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_1-volume-and-surface-area}{\textsf{volume of a sphere}} \\
   \end{array}
   >$
 
