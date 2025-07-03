@@ -52,14 +52,14 @@ $
 $
 \begin{array}{ll}
 \begin{cases}
-\textsf{Length}:\textsf{Width}=2:1 \\
-\textsf{Width}:\textsf{Height}=3:2 \\
-\end{cases} \Rightarrow \textsf{Length}:\textsf{Width}:\textsf{Height}=6:3:2 \\
+\textsf{length}:\textsf{width}=2:1 \\
+\textsf{width}:\textsf{height}=3:2 \\
+\end{cases} \Rightarrow \textsf{length}:\textsf{width}:\textsf{height}=6:3:2 \\
 6:3:2 \rightarrow 6k:3k:2k & k:\textsf{scale factor} \\
 l=4(6k+3k+2k)=220 \\
 4 \times 11k=220 \\
 k=\frac{220}{44}=5 \\
-\textsf{Length}:\textsf{Width}:\textsf{Height}=30:15:10 \\
+\textsf{length}:\textsf{width}:\textsf{height}=30:15:10 \\
 V=30\times15\times10=4500 \\
 \end{array}
 $  
@@ -75,8 +75,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  l=4(a+b+c) & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_4-sum-of-edge-lengths}{\text{Sum of edge lengths of a cuboid}} \\
-  V=abc & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_1-volume}{\text{Volume of a cuboid}} \\
+  l=4(a+b+c) & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_4-sum-of-edge-lengths}{\textsf{sum of edge lengths of a cuboid}} \\
+  V=abc & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_1-volume}{\textsf{volume of a cuboid}} \\
   \end{array}
   >$
 
@@ -118,7 +118,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  F=2(ab + bc +ac) & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_4-sum-of-edge-lengths}{\text{Total surface area of a cuboid}} \\
+  F=2(ab + bc +ac) & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_4-sum-of-edge-lengths}{\textsf{total surface area of a cuboid}} \\
   \end{array}
   >$
 
@@ -164,7 +164,7 @@ $
   $
   \begin{array}{ll}
   V=abc=\sqrt{a^2 \cdot b^2 \cdot c^2}=\sqrt{ab \cdot bc \cdot ac} \\
-  \sqrt{2 \cdot 6 \cdot 3}=\sqrt{36}=6 & \textsf{Substitute }[ab=2, bc=6, ac=3] \\
+  \sqrt{2 \cdot 6 \cdot 3}=\sqrt{36}=6 & \textsf{substitute }[ab=2, bc=6, ac=3] \\
   \end{array}
   $   
 :::  
@@ -179,8 +179,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  F=2(ab + bc +ac) & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_4-sum-of-edge-lengths}{\text{Total surface area of a cuboid}} \\
-  V=abc & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_1-volume}{\text{Volume of a cuboid}} \\
+  F=2(ab + bc +ac) & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_4-sum-of-edge-lengths}{\textsf{total surface area of a cuboid}} \\
+  V=abc & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_1-volume}{\textsf{volume of a cuboid}} \\
   \end{array}
   >$
 
@@ -225,8 +225,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  d=\sqrt{3}a & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_3-space-diagonal-body-diagonal-1}{\text{Space diagonal of a cube (body diagonal)}} \\
-  F=6a^2 & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_2-total-surface-area-1}{\text{Total surface area of a cube}} \\
+  d=\sqrt{3}a & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_3-space-diagonal-body-diagonal-1}{\textsf{body diagonal of a cube}} \\
+  F=6a^2 & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_2-total-surface-area-1}{\textsf{total surface area of a cube}} \\
   \end{array}
   >$
 
@@ -386,7 +386,7 @@ $
   \begin{array}{ll}
   (3,4,5) & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\textsf{commonly used pythagorean numbers}} \\
   S=\textsf{base perimeter} \times \textsf{height} & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#lateral-surface-area}{\textsf{lateral area of a prism or cylinder}} \\
-  S=\frac{1}{2}ah & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{\text{Triangle area formula}} \\
+  S=\frac{1}{2}ah & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{\textsf{triangle area formula}} \\
   F=S_{\textsf{lateral}}+2S_{\textsf{base}} & \textsf{total surface area of a prism or cylinder} \\
   \end{array}
   >$
@@ -429,7 +429,7 @@ $
   >$
   \begin{array}{ll}
   S=a^2 & \href{/math/0%20Core%20courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_4-square}{\textsf{square area formula}} \\
-  V=\textsf{base area} \times \textsf{height} & \text{volume of a prism or cylinder} \\
+  V=\textsf{base area} \times \textsf{height} & \textsf{volume of a prism or cylinder} \\
   \end{array}
   >$
 
@@ -504,8 +504,55 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{S_1}{S_2}=(\frac{r_1}{r_2})^2 & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#note-that-the-surface-area-is-proportional-to-the-square-of-the-radius-and-the-volume-is-proportional-to-the-cube-of-the-radius}{\text{surface area proportionality relation}} \\
-  \frac{V_1}{V_2}=(\frac{r_1}{r_2})^3 & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#note-that-the-surface-area-is-proportional-to-the-square-of-the-radius-and-the-volume-is-proportional-to-the-cube-of-the-radius}{\text{volume proportionality relation}} \\
+  \frac{S_1}{S_2}=(\frac{r_1}{r_2})^2 & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#note-that-the-surface-area-is-proportional-to-the-square-of-the-radius-and-the-volume-is-proportional-to-the-cube-of-the-radius}{\textsf{surface area proportionality relation}} \\
+  \frac{V_1}{V_2}=(\frac{r_1}{r_2})^3 & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#note-that-the-surface-area-is-proportional-to-the-square-of-the-radius-and-the-volume-is-proportional-to-the-cube-of-the-radius}{\textsf{volume proportionality relation}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+## 5.Focus 2
+__Circumscribed sphere and inscribed sphere__   
+- Master the formulas for the __circumscribed sphere__ of a cuboid, cube, and cylinder,
+  and the formulas for the __inscribed sphere__ of a cube and an equilateral cylinder.     
+
+
+::: wrap
+### $\fbox{10}\:$If a sphere circumscribes a rectangular box whose three edge lengths are $\small 1, 2$, and $\small 3$, what is the surface area of the sphere $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: \frac{7\sqrt{14}}{6}\pi &
+(\text{B}) \: 7\pi &
+(\text{C}) \: \frac{7\sqrt{14}}{3}\pi &
+(\text{D}) \: 14\pi &
+(\text{E}) \: 28\pi & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+r=\frac{d=\sqrt{a^2+b^2+c^2}}{2}=\frac{\sqrt{1^2+2^2+3^2}}{2}=\frac{\sqrt{14}}{2} \\
+S=4\pi r^2 = 4\pi \times \frac{14}{4} = 14\pi \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(D)}$  
+  > According to the Solution, get $S=14\pi$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  l=2R & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_3-circumscribed-sphere-and-inscribed-sphere}{\textsf{circumscribed sphere diameter of a rectangular prism}} \\
+  d=\sqrt{a^2+b^2+c^2} & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_3-space-diagonal-body-diagonal-1}{\textsf{body diagonal of a cuboid}} \\
+  S=4\pi r^2 & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_1-volume-and-surface-area}{\textsf{surface area of a sphere}} \\ 
   \end{array}
   >$
 
