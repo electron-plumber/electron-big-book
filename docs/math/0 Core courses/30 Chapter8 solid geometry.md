@@ -429,7 +429,7 @@ $
   >$
   \begin{array}{ll}
   S=a^2 & \href{/math/0%20Core%20courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_4-square}{\textsf{square area formula}} \\
-  V=\textsf{base area} \times \textsf{height} & \textsf{volume of a prism or cylinder} \\
+  V=\textsf{base area} \times \textsf{height} & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#volume}{\textsf{volume of a prism or cylinder}} \\
   \end{array}
   >$
 
@@ -442,7 +442,10 @@ $
 - Let the radius of the sphere be $r$. Then its volume is $V=\frac{4}{3}\pi r^3$, and its surface area is $S=4\pi r^2$.
 
 ## 2.Section of a Sphere
-- Figure 8–4, the line connecting the center of the sphere to the center of the circular section is perpendicular to the section. Let the distance from the center of the sphere to the section be $d$, the radius of the sphere be $R$, and the radius of the section be $r$, then: $r^2+d^2=R^2$.       
+- Figure 8–4,
+  the line connecting the center of the sphere to the center of the circular section is perpendicular to the section.
+  Let the distance from the center of the sphere to the section be $d$,
+  the radius of the sphere be $R$, and the radius of the section be $r$, then: $r^2+d^2=R^2$.       
   ![Sphere section figure 8-4.svg](../../public/math/Core%20courses/Sphere%20section%20figure%208-4.svg)   
 
 ## 3.Circumscribed Sphere and Inscribed Sphere
@@ -656,3 +659,67 @@ $
 
   :::
 ---
+
+## 6.Focus 3
+__Section of a sphere__  
+- Let the distance from the center of the sphere to the section be $d$,
+  the radius of the sphere be $R$, and the radius of the section be $r$.
+  According to the __Pythagorean theorem__, then: $r^2+d^2=R^2$. 
+
+
+::: wrap
+### $\fbox{13}\:$Two parallel planes intersect a sphere of radius $\small 5$, creating circular cross-sections with areas $\small 9\pi$ and $\small 16\pi$. What is the distance between these two planes $\small\,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 1 &
+(\text{B}) \: 7 &
+(\text{C}) \: 3 \lor 4 &
+(\text{D}) \: 1 \lor 7 &
+(\text{E}) \: 3 \lor 5 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Both cross-sections may lie on the same side of the sphere or on opposite sides        
+  ![Question sphere figure Q-13 solve-1.svg](../../public/math/Core%20courses/Question%20sphere%20figure%20Q-13%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  S=\pi r^2 \\
+  \begin{cases}
+  \textsf{cross-section}_1=9\pi \\
+  \textsf{cross-section}_2=16\pi \\
+  \end{cases} \Rightarrow
+  \begin{cases}
+  r_1=3 \\
+  r_2=4 \\
+  \end{cases} \\
+  \begin{cases}
+  (3,5) \\
+  (4,5) \\
+  \end{cases} \longrightarrow (3,4,5) \\
+  d_{\textsf{opposite sides}}=4+3=7 \\
+  d_{\textsf{same side}}= 4-3=1 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(D)}$  
+  > According to the Solution, get $d=1\lor7$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  S=\pi r^2 & \textsf{circle area formula} \\
+  (3,4,5)& \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Commonly used pythagorean numbers}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
