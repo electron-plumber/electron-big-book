@@ -313,7 +313,7 @@ $
 
   $
   \begin{array}{ll}
-  \textsf{Let }r=1 \quad c=2\pi \longrightarrow h=2\pi & \textsf{lateral development = square} \\
+  \textsf{let }r=1 \quad c=2\pi \longrightarrow h=2\pi & \textsf{lateral development = square} \\
   \frac{S_{\textsf{lateral}}}{S_{\textsf{base}}}=\frac{(2\pi)^2}{\pi\times1^2}=4\pi \\
   \end{array}
   $  
