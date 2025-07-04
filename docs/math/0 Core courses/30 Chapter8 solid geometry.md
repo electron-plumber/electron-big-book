@@ -574,7 +574,7 @@ $
 #### Solution
 ::: wrap  
 - Show known conditions    
-  ![Question circle sphere Q-11 solve-1.svg](../../public/math/Core%20courses/Question%20circle%20sphere%20Q-11%20solve-1.svg)   
+  ![Question sphere figure Q-11 solve-1.svg](../../public/math/Core%20courses/Question%20sphere%20figure%20Q-11%20solve-1.svg)  
 
   $
   \begin{array}{ll}
@@ -599,6 +599,58 @@ $
   h=2r & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#equilateral-cylinder-the-axial-section-is-a-square}{\textsf{axial section height (equilateral cylinder)}} \\
   V=\pi r^2h & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#volume}{\textsf{volume of a cylinder}} \\
   V=\frac{4}{3}\pi r^3 & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_1-volume-and-surface-area}{\textsf{volume of a sphere}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+::: wrap
+### $\fbox{12}\:$If a hemisphere is cut into a cylinder with a base radius half of the hemisphere's radius, what is the ratio of the volume of the hemisphere to the volume of the cylinder $\small\,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+(\text{A}) \: 4:1 &
+(\text{B}) \: 8:3 &
+(\text{C}) \: 16:3 &
+(\text{D}) \: 16:3\sqrt{2} &
+(\text{E}) \: 16:3\sqrt{3} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Show known conditions  
+  ![Question sphere figure Q-12 solve-1.svg](../../public/math/Core%20courses/Question%20sphere%20figure%20Q-12%20solve-1.svg)   
+
+  $
+  \begin{array}{ll}
+  \textsf{Let }r=1 \\
+  1:\sqrt{3}:2 \longrightarrow 
+  \begin{cases}
+  r=1 \\
+  R=2 \\
+  h=\sqrt{3} \\
+  \end{cases} \\
+  V_{\textsf{hemisphere}}=\frac{\frac{4}{3}\pi r^3}{2} = \frac{4}{3}\pi r^3 \times \frac{1}{2} = \frac{4}{6}\pi r^3=\frac{2}{3}\pi r^3 \\
+  \frac{V_{\textsf{hemisphere}}}{V_{\textsf{cylinder}}}=\frac{\frac{2}{3}\pi r^3}{\pi r^2h}=\frac{\frac{2}{3}\pi\times2^3}{\pi\times1^2\times\sqrt{3}} \\
+  \frac{\frac{2}{3}\pi\times2^3}{\pi\times1^2\times\sqrt{3}}=\frac{\frac{16}{3}\pi}{\sqrt{3}\pi}=\frac{\frac{16}{3}}{\sqrt{3}}=\frac{16}{3}\times\frac{1}{\sqrt{3}}=\frac{16}{3\sqrt{3}} \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\mathbf{(E)}$  
+  > According to the Solution, get $\frac{V_{\textsf{hemisphere}}}{V_{\textsf{cylinder}}}=16:3\sqrt{3}$, so choose $E$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  1:\sqrt{3}:2 & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#in-a-triangle-with-angles-the-sides-are-always-in-the-ratio}{\textsf{special right triangle: 30-60-90}} \\
+  V=\frac{4}{3}\pi r^3 & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#_1-volume-and-surface-area}{\textsf{volume of a sphere}} \\
+  V=\pi r^2h & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#volume}{\textsf{volume of a cylinder}} \\
   \end{array}
   >$
 
