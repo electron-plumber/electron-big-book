@@ -27,18 +27,18 @@ lang: en-US
   ###### 4. Sum of edge lengths: $l=12a$.
 
 ## 3.Focus 1
-__Cuboid__   
-- Master the formulas for __the space diagonal, surface area, and volume__ of a cuboid.
+__The cuboid__   
+- Master the formulas for the __space diagonal__, __surface area__, and __volume__ of a cuboid.
 
 ::: wrap
 ### $\fbox{1}\:$The ratio of the length to the width of a cuboid is $\small 2:1$, and the ratio of the width to the height is $\small 3:2$. If the total length of all the edges of the cuboid is $\small 220$ cm, what is its volume $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 2880\textsf{ cm}^3 &
-(\text{B}) \: 7200\textsf{ cm}^3 &
-(\text{C}) \: 4600\textsf{ cm}^3 &
-(\text{D}) \: 4500\textsf{ cm}^3 &
-(\text{E}) \: 3600\textsf{ cm}^3 & \\
+\textsf{(A)} \: 2880\textsf{ cm}^3 &
+\textsf{(B)} \: 7200\textsf{ cm}^3 &
+\textsf{(C)} \: 4600\textsf{ cm}^3 &
+\textsf{(D)} \: 4500\textsf{ cm}^3 &
+\textsf{(E)} \: 3600\textsf{ cm}^3 & \\
 \end{array}
 $  
 :::
@@ -62,7 +62,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(D)}$  
+  > $\boldsymbol{(D)}$  
   > According to the Solution, get $V=4500$, so choose $D$. 
 
   :::
@@ -82,11 +82,11 @@ $
 ### $\fbox{2}\:$The three adjacent edge lengths of a cuboid are in the ratio $\small 3:2:1$, and its surface area is $\small 88$. What is the length of the longest edge $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 8 &
-(\text{B}) \: 11 &
-(\text{C}) \: 12 &
-(\text{D}) \: 14 &
-(\text{E}) \: 6 & \\
+\textsf{(A)} \: 8 &
+\textsf{(B)} \: 11 &
+\textsf{(C)} \: 12 &
+\textsf{(D)} \: 14 &
+\textsf{(E)} \: 6 & \\
 \end{array}
 $  
 :::
@@ -98,15 +98,15 @@ $
 S=2(3k\times2k + 3k\times k + 2k\times k)=2(6k^2+3k^2+2k^2) \\
 22k^2=88 \\
 k=\sqrt{4}=2 \\
-\textsf{Longest}=3k=3\times2=6 \\
+\textsf{longest}=3k=3\times2=6 \\
 \end{array}
 $  
 :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(E)}$  
-  > According to the Solution, get $\textsf{Longest}=6$, so choose $E$. 
+  > $\boldsymbol{(E)}$  
+  > According to the Solution, get $\textsf{longest}=6$, so choose $E$. 
 
   :::
 - Formula used  
@@ -124,11 +124,11 @@ $
 ### $\fbox{3}\:$The areas of three adjacent faces of a cuboid are $\small 2, 6$, and $\small 3$, respectively. What is the volume of the cuboid $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 4 &
-(\text{B}) \: 5 &
-(\text{C}) \: 6 &
-(\text{D}) \: 7.5 &
-(\text{E}) \: 9 & \\
+\textsf{(A)} \: 4 &
+\textsf{(B)} \: 5 &
+\textsf{(C)} \: 6 &
+\textsf{(D)} \: 7.5 &
+\textsf{(E)} \: 9 & \\
 \end{array}
 $  
 :::
@@ -166,7 +166,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(C)}$  
+  > $\boldsymbol{(C)}$  
   > According to the Solution, get $V=6$, so choose $C$. 
 
   :::
@@ -183,7 +183,7 @@ $
 ---
 
 ## 4.Focus 2
-__Cube__  
+__The cube__  
 - A cube is relatively simple; master the formulas for __its space diagonal, surface area, and volume__.
 
 
@@ -191,11 +191,11 @@ __Cube__
 ### $\fbox{4}\:$Given that the space diagonal of a cube is $\small 3$, what is its total surface area $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 16 &
-(\text{B}) \: 18 &
-(\text{C}) \: 20 &
-(\text{D}) \: 22 &
-(\text{E}) \: 24 & \\
+\textsf{(A)} \: 16 &
+\textsf{(B)} \: 18 &
+\textsf{(C)} \: 20 &
+\textsf{(D)} \: 22 &
+\textsf{(E)} \: 24 & \\
 \end{array}
 $  
 :::
@@ -212,7 +212,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(B)}$  
+  > $\boldsymbol{(B)}$  
   > According to the Solution, get $S=18$, so choose $B$. 
 
   :::
@@ -238,7 +238,7 @@ $
 
 ![Prisms and cylinders general formulas.svg](../../public/math/Core%20courses/Prisms%20and%20cylinders%20general%20formulas.svg)   
 
-## 2.Formulas for a Cylinder
+## 2.Formulas for Cylinders
 ![Cylinder formulas.svg](../../public/math/Core%20courses/Cylinder%20formulas.svg)   
 - Let the height be $h$ and the base radius be $r$.
 - ###### Volume: $V=\pi r^2h$. 
@@ -247,7 +247,7 @@ $
 - ###### Total surface area: $F=S_{\textsf{lateral}}+2S_{\textsf{base}}=2\pi rh+2\pi r^2$.
 
 ## 3.Focus 1
-__Cylinder__   
+__The cylinders__   
 - Master the formulas for calculating the __lateral surface area__,
   __total surface area__, and __volume__ of a cylinder,
   with particular attention to __the special case of an equilateral cylinder__.  
@@ -258,11 +258,11 @@ __Cylinder__
 ### $\fbox{5}\:$If the height of a cylinder is increased to $\small 3$ times its original height, and its base radius is increased to $\small 1.5$ times its original radius, then by what factor does its volume increase compared to the original volume $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 4.5 &
-(\text{B}) \: 6.75 &
-(\text{C}) \: 9 &
-(\text{D}) \: 12.5 &
-(\text{E}) \: 15 & \\
+\textsf{(A)} \: 4.5 &
+\textsf{(B)} \: 6.75 &
+\textsf{(C)} \: 9 &
+\textsf{(D)} \: 12.5 &
+\textsf{(E)} \: 15 & \\
 \end{array}
 $  
 :::
@@ -279,7 +279,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(B)}$  
+  > $\boldsymbol{(B)}$  
   > According to the Solution, get $\textsf{scale factor}=6.75$, so choose $B$. 
 
   :::
@@ -298,11 +298,11 @@ $
 ### $\fbox{6}\:$If the lateral development of a cylinder is a square, then its lateral surface area is how many times the area of its base $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 2 &
-(\text{B}) \: 4 &
-(\text{C}) \: 4\pi &
-(\text{D}) \: \pi &
-(\text{E}) \: 2\pi & \\
+\textsf{(A)} \: 2 &
+\textsf{(B)} \: 4 &
+\textsf{(C)} \: 4\pi &
+\textsf{(D)} \: \pi &
+\textsf{(E)} \: 2\pi & \\
 \end{array}
 $  
 :::
@@ -321,7 +321,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(C)}$  
+  > $\boldsymbol{(C)}$  
   > According to the Solution, get $\frac{S_{\textsf{lateral}}}{S_{\textsf{base}}}=4\pi$, so choose $C$. 
 
   :::
@@ -338,18 +338,18 @@ $
 ---
 
 ## 4.Focus 2
-__Prisms__   
-- Master the formulas for calculating the __surface area__ and __volume__ of common triangular and __quadrangular prisms__.
+__The prisms__   
+- Master the formulas for calculating the __surface area__ and __volume__ of common __triangular and quadrangular prisms__.
 
 ::: wrap
 ### $\fbox{7}\:$Figure 8–3, if the top and bottom faces of a right triangular prism are right triangles, what is the surface area of the triangular prism $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 28 &
-(\text{B}) \: 30 &
-(\text{C}) \: 32 &
-(\text{D}) \: 36 &
-(\text{E}) \: 38 & \\
+\textsf{(A)} \: 28 &
+\textsf{(B)} \: 30 &
+\textsf{(C)} \: 32 &
+\textsf{(D)} \: 36 &
+\textsf{(E)} \: 38 & \\
 \end{array}
 $  
 :::  
@@ -371,7 +371,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(D)}$  
+  > $\boldsymbol{(D)}$  
   > According to the Solution, get $S=36$, so choose $D$. 
 
   :::
@@ -382,7 +382,7 @@ $
   (3,4,5) & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\textsf{commonly used pythagorean numbers}} \\
   S=\textsf{base perimeter} \times \textsf{height} & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#lateral-surface-area}{\textsf{lateral area of a prism or cylinder}} \\
   S=\frac{1}{2}ah & \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{\textsf{triangle area formula}} \\
-  F=S_{\textsf{lateral}}+2S_{\textsf{base}} & \textsf{total surface area of a prism or cylinder} \\
+  F=S_{\textsf{lateral}}+2S_{\textsf{base}} & \href{/math/0%20Core%20courses/30%20Chapter8%20solid%20geometry.html#total-surface-area}{\textsf{total surface area of a prism or cylinder}} \\
   \end{array}
   >$
 
@@ -393,11 +393,11 @@ $
 ### $\fbox{8}\:$A quadrangular prism has a lateral development in the shape of a square with a side length of $\small 40$, and its base is also a square. What is its volume $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 2800 &
-(\text{B}) \: 4000 &
-(\text{C}) \: 4200 &
-(\text{D}) \: 4800 &
-(\text{E}) \: 5000 & \\
+\textsf{(A)} \: 2800 &
+\textsf{(B)} \: 4000 &
+\textsf{(C)} \: 4200 &
+\textsf{(D)} \: 4800 &
+\textsf{(E)} \: 5000 & \\
 \end{array}
 $  
 :::
@@ -415,7 +415,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(B)}$  
+  > $\boldsymbol{(B)}$  
   > According to the Solution, get $V=4000$, so choose $B$. 
 
   :::
@@ -434,7 +434,7 @@ $
 # Module 8–01 Sphere
 
 ## 1.Volume and Surface Area
-- Let the radius of the sphere be $r$. Then its volume is $V=\frac{4}{3}\pi r^3$, and its surface area is $S=4\pi r^2$.
+- Let the radius of the sphere be $r$. Then its __volume is $\boldsymbol{V=\frac{4}{3}\pi r^3}$__, and its __surface area is $\boldsymbol{S=4\pi r^2}$__.
 
 ## 2.Section of a Sphere
 - Figure 8–4,
@@ -446,11 +446,11 @@ $
 ## 3.Circumscribed Sphere and Inscribed Sphere
 - Let the radius of the cylinder's base be $r$, the radius of the sphere be $R$, and the height of the cylinder be $h$.  
 
-| Solid             | Inscribed Sphere (conditional)                                                   | Circumscribed Sphere (unconditional)            |
-|-------------------|----------------------------------------------------------------------------------|-------------------------------------------------|
-| Rectangular Prism | None (__only a cube has one__)                                                   | Body diagonal $l=2R$                            |
-| Cube              | Edge length $a=2R$                                                               | Body diagonal $l=2R$  (that is, $2R=\sqrt{3}a$) |
-| Cylinder          | Only a cylinder whose __axial section__ is __a square__ has one, where $2r=h=2R$ | Body diagonal $\sqrt{h^2+(2r)^2}=2R$            |
+| Solid             | Inscribed Sphere (conditional)                                                                | Circumscribed Sphere (unconditional)                                      |
+|-------------------|-----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| Rectangular Prism | None (__only a cube has one__)                                                                | Body diagonal $\boldsymbol{l=2R}$                                         |
+| Cube              | Edge length $\boldsymbol{a=2R}$                                                               | Body diagonal $\boldsymbol{l=2R}$  (that is, $\boldsymbol{2R=\sqrt{3}a}$) |
+| Cylinder          | Only a cylinder whose __axial section__ is __a square__ has one, where $\boldsymbol{2r=h=2R}$ | Body diagonal $\boldsymbol{\sqrt{h^2+(2r)^2}=2R}$                         |
 
 ![Solid circumscribed sphere and inscribed sphere.svg](../../public/math/Core%20courses/Solid%20circumscribed%20sphere%20and%20inscribed%20sphere.svg)
 
@@ -459,7 +459,7 @@ $
   - The relationships are reciprocal: you can describe the circumscribed sphere of a cube, or the inscribed cube of a sphere — essentially, they're the same.  
 
 ## 4.Focus 1
-__Basic formulas of a sphere__   
+__The basic formulas of a sphere__   
 - Master the basic formulas for the __volume__ and __surface area__ of a sphere. 
 - ###### Note that __the surface area is proportional to the square of the radius__, and __the volume is proportional to the cube of the radius__. 
   - $\frac{S_1}{S_2}=(\frac{r_1}{r_2})^2$. 
@@ -469,11 +469,11 @@ __Basic formulas of a sphere__
 ### $\fbox{9}\:$If the surface area of a sphere increases to $\small 9$ times its original value, what its volume $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: \textsf{increase to }9\textsf{ times the original} &
-(\text{B}) \: \textsf{increase to }27\textsf{ times the original} & \\
-(\text{C}) \: \textsf{increase to }3\textsf{ times the original} &
-(\text{D}) \: \textsf{increase to }6\textsf{ times the original} & \\
-(\text{E}) \: \textsf{increase to }8\textsf{ times the original} & \\
+\textsf{(A)} \: \textsf{increase to }9\textsf{ times the original} &
+\textsf{(B)} \: \textsf{increase to }27\textsf{ times the original} & \\
+\textsf{(C)} \: \textsf{increase to }3\textsf{ times the original} &
+\textsf{(D)} \: \textsf{increase to }6\textsf{ times the original} & \\
+\textsf{(E)} \: \textsf{increase to }8\textsf{ times the original} & \\
 \end{array}
 $  
 :::
@@ -494,7 +494,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(B)}$  
+  > $\boldsymbol{(B)}$  
   > According to the Solution, get $V_2=V_1\times27$, so choose $B$. 
 
   :::
@@ -511,7 +511,7 @@ $
 ---
 
 ## 5.Focus 2
-__Circumscribed sphere and inscribed sphere__   
+__The circumscribed sphere and the inscribed sphere__   
 - Master the formulas for the __circumscribed sphere__ of a cuboid, cube, and cylinder,
   and the formulas for the __inscribed sphere__ of a cube and an equilateral cylinder.     
 
@@ -520,11 +520,11 @@ __Circumscribed sphere and inscribed sphere__
 ### $\fbox{10}\:$If a cuboid is inscribed in a sphere and its edge lengths are $\small 1, 2$, and $\small 3$, what is the surface area of the sphere $\small\,\mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: \frac{7\sqrt{14}}{6}\pi &
-(\text{B}) \: 7\pi &
-(\text{C}) \: \frac{7\sqrt{14}}{3}\pi &
-(\text{D}) \: 14\pi &
-(\text{E}) \: 28\pi & \\
+\textsf{(A)} \: \frac{7\sqrt{14}}{6}\pi &
+\textsf{(B)} \: 7\pi &
+\textsf{(C)} \: \frac{7\sqrt{14}}{3}\pi &
+\textsf{(D)} \: 14\pi &
+\textsf{(E)} \: 28\pi & \\
 \end{array}
 $  
 :::
@@ -540,7 +540,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(D)}$  
+  > $\boldsymbol{(D)}$  
   > According to the Solution, get $S=14\pi$, so choose $D$. 
 
   :::
@@ -561,11 +561,11 @@ $
 ### $\fbox{11}\:$What is the minimum value of the ratio between the volume of an equilateral cylinder (excluding its inscribed sphere) and the volume of that sphere $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: \frac{3}{4} &
-(\text{B}) \: \frac{2}{3} &
-(\text{C}) \: \frac{1}{2} &
-(\text{D}) \: \frac{1}{4} &
-(\text{E}) \: \frac{1}{3} & \\
+\textsf{(A)} \: \frac{3}{4} &
+\textsf{(B)} \: \frac{2}{3} &
+\textsf{(C)} \: \frac{1}{2} &
+\textsf{(D)} \: \frac{1}{4} &
+\textsf{(E)} \: \frac{1}{3} & \\
 \end{array}
 $  
 :::
@@ -576,7 +576,7 @@ $
 
   $
   \begin{array}{ll}
-  \textsf{Let }r=1 \\
+  \textsf{let }r=1 \\
   h=2r=2 \\
   \frac{S_{\textsf{removed}}}{S_{\textsf{sphere}}}=\frac{\pi r^2h-\frac{4}{3}\pi r^3}{\frac{4}{3}\pi r^3}=\frac{\pi\cdot1^2\cdot2-\frac{4}{3}\pi\cdot1^3}{\frac{4}{3}\pi\cdot1^3} \\
   \frac{2\pi-\frac{4}{3}\pi}{\frac{4}{3}\pi} = \frac{\frac{2}{3}\pi}{\frac{4}{3}\pi}=\frac{2}{3}\times\frac{3}{4}=\frac{6}{12}=\frac{1}{2} \\
@@ -586,7 +586,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(C)}$  
+  > $\boldsymbol{(C)}$  
   > According to the Solution, get $\frac{S_{\textsf{removed}}}{S_{\textsf{sphere}}}=\frac{1}{2}$, so choose $C$. 
 
   :::
@@ -607,11 +607,11 @@ $
 ### $\fbox{12}\:$If a hemisphere is cut into a cylinder with a base radius half of the hemisphere's radius, what is the ratio of the volume of the hemisphere to the volume of the cylinder $\small\,\mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 4:1 &
-(\text{B}) \: 8:3 &
-(\text{C}) \: 16:3 &
-(\text{D}) \: 16:3\sqrt{2} &
-(\text{E}) \: 16:3\sqrt{3} & \\
+\textsf{(A)} \: 4:1 &
+\textsf{(B)} \: 8:3 &
+\textsf{(C)} \: 16:3 &
+\textsf{(D)} \: 16:3\sqrt{2} &
+\textsf{(E)} \: 16:3\sqrt{3} & \\
 \end{array}
 $  
 :::
@@ -622,7 +622,7 @@ $
 
   $
   \begin{array}{ll}
-  \textsf{Let }r=1 \\
+  \textsf{let }r=1 \\
   1:\sqrt{3}:2 \longrightarrow 
   \begin{cases}
   r=1 \\
@@ -638,7 +638,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(E)}$  
+  > $\boldsymbol{(E)}$  
   > According to the Solution, get $\frac{V_{\textsf{hemisphere}}}{V_{\textsf{cylinder}}}=16:3\sqrt{3}$, so choose $E$. 
 
   :::
@@ -656,7 +656,7 @@ $
 ---
 
 ## 6.Focus 3
-__Section of a sphere__  
+__The section of a sphere__  
 - Let the distance from the center of the sphere to the section be $d$,
   the radius of the sphere be $R$, and the radius of the section be $r$.
   According to the __Pythagorean theorem__, then: $r^2+d^2=R^2$. 
@@ -666,11 +666,11 @@ __Section of a sphere__
 ### $\fbox{13}\:$Two parallel planes intersect a sphere of radius $\small 5$, creating circular cross-sections with areas $\small 9\pi$ and $\small 16\pi$. What is the distance between these two planes $\small\,\mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 1 &
-(\text{B}) \: 7 &
-(\text{C}) \: 3 \lor 4 &
-(\text{D}) \: 1 \lor 7 &
-(\text{E}) \: 3 \lor 5 & \\
+\textsf{(A)} \: 1 &
+\textsf{(B)} \: 7 &
+\textsf{(C)} \: 3 \lor 4 &
+\textsf{(D)} \: 1 \lor 7 &
+\textsf{(E)} \: 3 \lor 5 & \\
 \end{array}
 $  
 :::
@@ -702,7 +702,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(D)}$  
+  > $\boldsymbol{(D)}$  
   > According to the Solution, get $d=1\lor7$, so choose $D$. 
 
   :::
@@ -711,7 +711,7 @@ $
   >$
   \begin{array}{ll}
   S=\pi r^2 & \textsf{circle area formula} \\
-  (3,4,5)& \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Commonly used pythagorean numbers}} \\
+  (3,4,5)& \href{/math/0%20Core%20courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\textsf{commonly used pythagorean numbers}} \\
   \end{array}
   >$
 
