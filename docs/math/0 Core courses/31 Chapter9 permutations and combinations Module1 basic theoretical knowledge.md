@@ -95,3 +95,52 @@ __the corresponding way of completing the entire task is considered different__.
   | Application | When there is __uncertainty__ or __interference__ between methods, use __classification__                                                                                         | When __several processes or stages__ are required to complete the task, use __step-by-step counting__ |
   | Coexistence | When both __classification__ and __step-by-step__ processes __appear together__, you should first __classify at a macro level__, then __break down into steps at a micro level__	 |
 
+
+## 4.Focus 1
+__The addition principle__  
+- When encountering problems that require classification, apply the addition principle.
+
+
+::: wrap
+### $\fbox{1}\:$Student A plans to travel from Sonoma to Cupertino for a trip. On that day, there are $\small 3$ trains, $\small 2$ ferries, and $\small 5$ flights available from Sonoma to Cupertino. How many different travel options does Student A have $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 3 &
+\textsf{(B)} \: 2 &
+\textsf{(C)} \: 5 &
+\textsf{(D)} \: 10 &
+\textsf{(E)} \: 30 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Each category is completed independently    
+
+  $
+  \begin{array}{ll}
+  \textsf{Train category:}\,3 \\
+  \textsf{Ferry category:}\,2 \\
+  \textsf{Airplane category:}\,5 \\
+  N=m_1+m_2+\cdots+m_n \\
+  N=3+2+5=10 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(D)}$  
+  > According to the Solution, get $N=10$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  N=m_1+m_2+\cdots+m_n & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#definition}{\textsf{addition principle}} \\
+  \end{array}
+  >$
+
+  :::
+---
