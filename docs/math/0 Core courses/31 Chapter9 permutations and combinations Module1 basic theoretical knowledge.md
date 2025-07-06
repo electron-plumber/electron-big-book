@@ -85,3 +85,13 @@ __the corresponding way of completing the entire task is considered different__.
      then the first and second categories both overlap with the third category.
      This classification is therefore incorrect.
      
+3. When applying the multiplication principle, you must note that all the steps must be completed in order for the task itself to be considered complete.  
+
+  | Content     | Addition Principle                                                                                                                                                                | Multiplication Principle                                                                              |
+  |-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+  | Essence     | Each category __can independently complete__ the task                                                                                                                             | If __any step is missing__, the task __cannot be completed__                                          |
+  | Feature     | __The number of categories__ determines __the number of terms to add__                                                                                                            | __The number of steps__ determines __the number of terms to multiply__                                |
+  | Symbol      | Plus sign $\boldsymbol{(+)}$                                                                                                                                                      | Multiplication sign $\boldsymbol{(\times)}$                                                           |
+  | Application | When there is __uncertainty__ or __interference__ between methods, use __classification__                                                                                         | When __several processes or stages__ are required to complete the task, use __step-by-step counting__ |
+  | Coexistence | When both __classification__ and __step-by-step__ processes __appear together__, you should first __classify at a macro level__, then __break down into steps at a micro level__	 |
+
