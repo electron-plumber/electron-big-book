@@ -8,10 +8,10 @@ lang: en-US
 ## 1.Cuboid  
 ![Cuboid figure 8-1.svg](../../public/math/Core%20courses/Cuboid%20figure%208-1.svg)  
 - Let the three adjacent edges have lengths $a$, $b$, and $c$.  
-  ###### 1. Volume: $V=abc$. 
-  ###### 2. Total surface area: $F=2(ab + bc +ac)$.
-  ###### 3. Space diagonal (body diagonal): $d=\sqrt{a^2+b^2+c^2}$.
-  ###### 4. Sum of edge lengths: $l=4(a+b+c)$.
+  ###### 1.Volume: $V=abc$. 
+  ###### 2.Total surface area: $F=2(ab + bc +ac)$.
+  ###### 3.Space diagonal (body diagonal): $d=\sqrt{a^2+b^2+c^2}$.
+  ###### 4.Sum of edge lengths: $l=4(a+b+c)$.
 - Constituent parts:
   - $6$ faces.
   - $8$ vertices.
@@ -21,10 +21,10 @@ lang: en-US
 
 ## 2.Cube
 - Let the edge length be $a$.  
-  ###### 1. Volume: $V=a^3$.
-  ###### 2. Total surface area: $F=6a^2$.
-  ###### 3. Space diagonal (body diagonal): $d=\sqrt{3}a$.
-  ###### 4. Sum of edge lengths: $l=12a$.
+  ###### 1.Volume: $V=a^3$.
+  ###### 2.Total surface area: $F=6a^2$.
+  ###### 3.Space diagonal (body diagonal): $d=\sqrt{3}a$.
+  ###### 4.Sum of edge lengths: $l=12a$.
 
 ## 3.Focus 1
 __The cuboid__   
