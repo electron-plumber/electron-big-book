@@ -119,9 +119,11 @@ $
 
   $
   \begin{array}{ll}
-  \textsf{Train category:}\,3 \\
-  \textsf{Ferry category:}\,2 \\
-  \textsf{Airplane category:}\,5 \\
+  [
+  \textsf{train}\mapsto3,\;
+  \textsf{ferry}\mapsto2,\;
+  \textsf{airplane}\mapsto5
+  ] \\
   N=m_1+m_2+\cdots+m_n \\
   N=3+2+5=10 \\
   \end{array}
@@ -143,4 +145,125 @@ $
   >$
 
   :::
+---
+
+::: wrap
+### $\fbox{2}\:$How many three-digit numbers have digits whose sum is $\small 24 \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 5 &
+\textsf{(B)} \: 6 &
+\textsf{(C)} \: 8 &
+\textsf{(D)} \: 10 &
+\textsf{(E)} \: 12 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve using enumeration  
+
+  $
+  \begin{array}{ll}
+  \frac{24}{3}=8 \\
+  [888, 996, 789] \\
+  888\in\underbrace{[888]}_{1} \\
+  996\in\underbrace{[996,969,699]}_{3} \\
+  789\in\underbrace{[789,798,879,897,978,987]}_{6} \\
+  N=m_1+m_2+\cdots+m_n \\
+  N=1+3+6=10 \\
+  \end{array}
+  $   
+:::  
+::: wrap  
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve using the permutation formula    
+
+  $
+  \begin{array}{ll}
+  \frac{24}{3}=8 \\
+  [888, 996, 789] \\
+  888 \Longrightarrow 1 \\
+  996 \longrightarrow
+  \boxed{
+  \begin{array}{ll}
+  ①: C(3,2)=\frac{3!}{2!(3-2)!}=\frac{6}{2}=3 \\
+  ②: \frac{3!}{2!\times 1!}=\frac{6}{2}=3 \\
+  \end{array}
+  } \\
+  789 \longrightarrow 
+  \frac{3!}{1!\times 1!\times 1!}=\frac{6}{1}=6 \\
+  N=m_1+m_2+\cdots+m_n \\
+  N=1+3+6=10 \\
+  \end{array}
+  $   
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(D)}$  
+  > According to the Solution, get $N=10$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  N=m_1+m_2+\cdots+m_n & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#definition}{\textsf{addition principle}} \\
+  \end{array}
+  >$
+
+  :::
+- Ways to arrange elements   
+  ::: wrap  
+  > - All identical elements: __only $1$ arrangement__.  
+  > - Some identical elements:  
+  >   1. Enumeration (list all possibilities)  
+  >   2. __Basic permutation formula__ (order matters, remove duplicates from swapping identical elements)  
+  >      $\boldsymbol{\frac{n!}{k_1!\times k_2!\times\cdots \times k_m!}}$  
+  >      - $n$: total number of elements  
+  >      - $k_i$: number of identical elements of type $i$, where $k_1+k_2+\cdots+k_m=n$  
+  >      - __Example__:   
+  > $
+           \begin{array}{ll}
+           [7,8,9] \\
+           n=3 \\
+           \textsf{each of 7, 8, 9 appears once} \\
+           k_i=1\times1\times1 & 1+1+1=3 \\
+           \frac{3!}{1!\times 1!\times 1!}=\frac{6}{1}=6 \\
+           6
+           \begin{cases}
+           [7,8,9] \\
+           [7,9,8] \\
+           [8,7,9] \\
+           [8,9,7] \\
+           [9,7,8] \\
+           [9,8,7] \\
+           \end{cases} \\
+           \end{array}
+  > $
+  >   3. __Combination formula__ (order doesn't matter, remove duplicates caused by different orders)
+  >      $\boldsymbol{C(n,k)=\frac{n!}{k!(n-k)!}}$   
+  >      - $n$: total number of elements  
+  >      - $k$: number of elements to choose  
+  >      - __Example__:   
+  > $
+           \begin{array}{ll}
+           [9,9,6] \\
+           n=3 \\
+           k=2 & \textsf{number of elements chosen in a combination} \\
+           C(3,2)=\frac{3!}{2!\times1!}=3 \\
+           3
+           \begin{cases}
+           [9_1, 9_2] \\
+           [9_1, 6] \\
+           [9_2, 6] \\
+           \end{cases} \\
+           \end{array}
+  > $
+  > - All distinct elements (__combination formula not applicable__ — ignores order, eliminates ordered duplicates):  
+  >   1. __Basic permutation formula__     
+  >      $\boldsymbol{\frac{n!}{k_1!\times k_2!\times\cdots \times k_m!}}$  
+
+  :::  
+
 ---
