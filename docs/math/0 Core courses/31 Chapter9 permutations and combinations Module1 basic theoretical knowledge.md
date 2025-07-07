@@ -267,3 +267,65 @@ $
   :::  
 
 ---
+
+## 5.Focus 2
+__The multiplication principle__   
+- When encountering multi-step problems, apply the multiplication principle.
+
+::: wrap
+### $\fbox{3}\:$A class is participating in a $\small 400\textsf{m}$ relay at the school sports meet. Two students can run the first leg, three the second, two the third, and one the final leg. The total number of possible running orders is $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 5 &
+\textsf{(B)} \: 3 &
+\textsf{(C)} \: 8 &
+\textsf{(D)} \: 7 &
+\textsf{(E)} \: 12 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- The task requires collaboration     
+
+  $
+  \begin{array}{ll}
+  \begin{cases}
+  \textsf{part}_1\mapsto2 \\
+  \textsf{part}_2\mapsto3 \\
+  \textsf{part}_3\mapsto2 \\
+  \textsf{part}_4\mapsto1 \\
+  \end{cases}\\
+  N=m_1\times m_2\times\cdots\times m_n \\
+  N=2\times 3\times 2\times 1=12 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(E)}$  
+  > According to the Solution, get $N=12$, so choose $E$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  N=m_1\times m_2\times\cdots\times m_n & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#_2-principle-of-counting-by-steps-multiplication-principle}{\textsf{multiplication principle}} \\
+  \end{array}
+  >$
+
+  :::
+- Determine: addition or multiplication  
+  ::: wrap
+  >$
+  \textsf{task}
+  \begin{cases}
+  \textsf{incomplete} \to \times \\
+  \textsf{completed} \to + \\
+  \end{cases}
+  >$
+
+  :::
+---
