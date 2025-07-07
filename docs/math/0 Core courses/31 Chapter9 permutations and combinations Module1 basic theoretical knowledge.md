@@ -186,7 +186,7 @@ $
   996 \longrightarrow
   \boxed{
   \begin{array}{ll}
-  ①: C(3,2)=\frac{3!}{2!(3-2)!}=\frac{6}{2}=3 \\
+  ①: C_3^2=\frac{3!}{2!(3-2)!}=\frac{6}{2}=3 \\
   ②: \frac{3!}{2!\times 1!}=\frac{6}{2}=3 \\
   \end{array}
   } \\
@@ -241,8 +241,8 @@ $
            \end{cases} \\
            \end{array}
   > $
-  >   3. __Combination formula__ (order doesn't matter, remove duplicates caused by different orders)
-  >      $\boldsymbol{C(n,k)=\frac{n!}{k!(n-k)!}}$   
+  >   3. ###### __Combination formula__ (order doesn't matter, remove duplicates caused by different orders)
+  >      $\boldsymbol{C_n^k=\frac{n!}{k!(n-k)!}}$   
   >      - $n$: total number of elements  
   >      - $k$: number of elements to choose  
   >      - __Example__:   
@@ -251,7 +251,7 @@ $
            [9,9,6] \\
            n=3 \\
            k=2 & \textsf{number of elements chosen in a combination} \\
-           C(3,2)=\frac{3!}{2!\times1!}=3 \\
+           C_3^2=\frac{3!}{2!\times1!}=3 \\
            3
            \begin{cases}
            [9_1, 9_2] \\
@@ -325,6 +325,74 @@ $
   \textsf{incomplete} \to \times \\
   \textsf{completed} \to + \\
   \end{cases}
+  >$
+
+  :::
+---
+
+## 6.Focus 3
+__The addition and multiplication coexist__
+- When both classification and step-by-step processes appear together, you should __first classify at a macro level__, then __break down into steps at a micro level__.  
+
+::: wrap
+### $\fbox{4}\:$From $\small 5$ sketches, $\small 3$ oil paintings, and $\small 2$ watercolors, how many different ways can you select two pieces of artwork of different types to decorate the classroom $\small \, \mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 35 &
+\textsf{(B)} \: 33 &
+\textsf{(C)} \: 32 &
+\textsf{(D)} \: 31 &
+\textsf{(E)} \: 30 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+[[\textsf{sketch}, \textsf{oil painting}], [\textsf{sketch}, \textsf{watercolor}], [\textsf{oil painting}, \textsf{watercolor}]] \\
+[\textsf{sketch}, \textsf{oil painting}] 
+\begin{cases}
+\begin{array}{ll}
+\textsf{part}_1\mapsto C_5^1=\frac{5!}{1!(5-1)!}=\frac{120}{24}=5 \\
+\textsf{part}_2\mapsto C_3^1=\frac{3!}{1!(3-1)!}=\frac{6}{2}=3 \\
+\end{array}
+\end{cases} \\
+[\textsf{sketch}, \textsf{watercolor}]
+\begin{cases}
+\begin{array}{ll}
+\textsf{part}_1\mapsto C_5^1=\frac{5!}{1!(5-1)!}=\frac{120}{24}=5 \\
+\textsf{part}_2\mapsto C_2^1=\frac{2!}{1!(2-1)!}=\frac{2}{1}=2 \\
+\end{array}
+\end{cases} \\
+[\textsf{oil painting}, \textsf{watercolor}]
+\begin{cases}
+\begin{array}{ll}
+\textsf{part}_1\mapsto C_3^1=\frac{3!}{1!(3-1)!}=\frac{6}{2}=3 \\
+\textsf{part}_2\mapsto C_2^1=\frac{2!}{1!(2-1)!}=\frac{2}{1}=2 \\
+\end{array}
+\end{cases} \\
+N=m_1\times m_2\times\cdots\times m_n & \textsf{subprocess} \\
+N=m_1+m_2+\cdots+m_n & \textsf{main process} \\
+N=(5\times3)+(5\times2)+(3\times2)=31 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(D)}$  
+  > According to the Solution, get $N=31$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  N=m_1\times m_2\times\cdots\times m_n & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#_2-principle-of-counting-by-steps-multiplication-principle}{\textsf{multiplication principle}} \\
+  C_n^k=\frac{n!}{k!(n-k)!} & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#combination-formula-order-doesn-t-matter-remove-duplicates-caused-by-different-orders}{\textsf{combination formula}} \\
+  N=m_1+m_2+\cdots+m_n & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#definition}{\textsf{addition principle}} \\
+  \end{array}
   >$
 
   :::
