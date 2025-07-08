@@ -6,7 +6,7 @@ import docsearch from '@docsearch/js'
 import { isClient } from '@vueuse/core'
 // import { useLang } from '../../composables/lang'
 // import type { DefaultTheme } from '../config'
-import type { DocSearchHit } from '@docsearch/react/dist/esm/types'
+import type { DocSearchHit } from '@docsearch/react/dist/esm'
 
 const props = defineProps<{
   options: any
