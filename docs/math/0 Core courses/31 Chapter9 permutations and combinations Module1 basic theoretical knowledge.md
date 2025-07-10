@@ -397,3 +397,34 @@ $
 
   :::
 ---
+
+## 7.Permutations
+
+### $\textcolor{#1E3A5F}{\fbox{1}}\:$Definition of permutation
+A permutation refers to __selecting $\boldsymbol{m}$ elements $\boldsymbol{(m \le n)}$__ from __$\boldsymbol{n}$ distinct elements__ and arranging them in __a specific order__.
+This is called __a permutation__ of $m$ elements from __$\boldsymbol{n}$ distinct elements__.
+
+
+### $\textcolor{#1E3A5F}{\fbox{2}}\:$Number of permutations
+- The number of permutations refers to __the total number of different ways__ to select and arrange $m$ elements $(m \le n)$ from $n$ distinct elements.
+It is denoted as $\boldsymbol{P_n^m}$ or $\boldsymbol{A_n^m}$.
+When $m=n$, it is called __a full permutation__, written as $\boldsymbol{P_n^n}$ or $\boldsymbol{A_n^n}$.
+- Note: It is important to distinguish between a permutation and the number of permutations
+  - __A permutation__ is one specific arrangement of $m$ elements selected from $n$ distinct elements.
+    It is __not a number__.
+  - __The number of permutations__ is __the total count__ of all such possible arrangements.
+    It is __a numerical value__.
+    Therefore, the notation $P_n^m$ represents only __the number of permutations__,
+    __not the specific arrangements themselves__.
+
+
+### $\textcolor{#1E3A5F}{\fbox{3}}\:$Formula for the number of permutations
+$Р_n^m=А_n^m=n(n-1)(n-2)\cdots(n-m+1)=\frac{n!}{(n-m)!}$   
+- $n$: total number of elements to choose from (supply).
+- $m$: number of elements to arrange in order (demand).
+- Example:    
+  $
+  \begin{array}{ll}
+  A_6^3=\underbrace{6\times5\times4}_{3 \textsf{ numbers}}=120 \\
+  \end{array}
+  $
