@@ -439,7 +439,7 @@ is called __a combination__ of $m$ elements from $n$ distinct elements.
 ### $\textcolor{#1E3A5F}{\fbox{2}}\:$Number of combinations
 - The number of combinations refers to __the total number of ways__ to choose $m$ elements $(m \le n)$ from $n$ distinct elements.
 It is denoted as $\boldsymbol{C_n^m}$.
-  - __Formula for the number of combinations__: $C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1}=\frac{n!}{m!(n-m)!}=\boldsymbol{\frac{A_n^m}{m!}}$.
+  - ###### __Formula for the number of combinations__: $C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1}=\frac{n!}{m!(n-m)!}=\boldsymbol{\frac{A_n^m}{m!}}$.
     - $n$: total number of available items (supply).
     - $m$: number of elements to choose (demand, order does not matter).   
     - All identical elements only 1 arrangement: $C_n^n=1$.
@@ -464,3 +464,49 @@ It is denoted as $\boldsymbol{C_n^m}$.
 - Use combinations $\boldsymbol{C_n^m}$ when __selecting elements or positions__.
 - Use factorial $\boldsymbol{m!}$ when __arranging (sorting) elements__.
 - Break down all problems into a process of __selection__ and __arrangement__ and then __write expressions accordingly__.
+
+
+## 10.Focus 4
+__The calculation of permutations and combinations__  
+- The calculation of permutations and combinations is based on their definitions and __formulas__. 
+
+::: wrap
+### $\fbox{5}\:$What is the value of $\small C_8^4-C_7^3\,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 25 &
+\textsf{(B)} \: 28 &
+\textsf{(C)} \: 30 &
+\textsf{(D)} \: 32 &
+\textsf{(E)} \: 35 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} \\
+C_8^4=\frac{\bcancel{8}\times7\times\bcancel{6}\times5}{\bcancel{4}\times\bcancel{3}\times\bcancel{2}\times1}=\frac{2\times7\times5}{1}=70 \\
+C_7^3=\frac{7\times\bcancel{6}\times5}{\bcancel{3}\times\bcancel{2}\times1}=\frac{7\times5}{1}=35 \\
+70-35=35 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(E)}$  
+  > According to the Solution, get $70-35=35$, so choose $E$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
