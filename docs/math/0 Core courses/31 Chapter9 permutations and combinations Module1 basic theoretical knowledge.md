@@ -14,7 +14,7 @@ lang: en-US
 ## 1.Principle of Counting by Classification (Addition Principle)
 
 ### $\textcolor{#1E3A5F}{\fbox{1}}\:$Definition
-If there are __$\boldsymbol{n}$ types__ of ways to complete a task,
+- If there are __$\boldsymbol{n}$ types__ of ways to complete a task,
 and choosing __any one method__ from __any of these types__ can complete the task,
 then suppose the first type has $\boldsymbol{m_1}$ different methods,
 the second type has $\boldsymbol{m_2}$ different methods, and so on,
@@ -22,7 +22,7 @@ with the n‑th type having $\boldsymbol{m_n}$ different methods.
 Then the total number of __different ways__ to complete this task is $\boldsymbol{N=m_1+m_2+\cdots+m_n}$.
 
 ### $\textcolor{#1E3A5F}{\fbox{2}}\:$Explanation
-When applying the addition principle to counting,
+- When applying the addition principle to counting,
 the key is to __classify reasonably__,
 ensuring __no overlaps and no omissions__.
 __Each method__ within a category must be __independently capable__ of completing the task;
@@ -38,7 +38,7 @@ so __building up experience__ is important.
 ## 2.Principle of Counting by Steps (Multiplication Principle)
 
 ### $\textcolor{#1E3A5F}{\fbox{1}}\:$Definition
-If completing a task requires __sequentially carrying out $\boldsymbol{n}$ consecutive steps__,
+- If completing a task requires __sequentially carrying out $\boldsymbol{n}$ consecutive steps__,
 then is __the task considered complete__,
 and if there are $\boldsymbol{m_1}$ different ways to complete the first step,
 $\boldsymbol{m_2}$ different ways to complete the second step, and so on,
@@ -47,7 +47,7 @@ then the total number of __different ways__
 to complete the task is $\boldsymbol{N=m_1\times m_2\times\cdots\times m_n}$.
 
 ### $\textcolor{#1E3A5F}{\fbox{2}}\:$Explanation
-When applying the multiplication principle for counting,
+- When applying the multiplication principle for counting,
 the key is to __break the task into reasonable steps__.
 Completing the task requires __performing all $\boldsymbol{n}$ steps in sequence__,
 where the steps are __related__: 
@@ -220,7 +220,7 @@ $
   >   1. Enumeration (list all possibilities)  
   >   2. __Basic permutation formula__ (order matters, remove duplicates from swapping identical elements)  
   >      $\boldsymbol{\frac{n!}{k_1!\times k_2!\times\cdots \times k_m!}}$  
-  >      - $n$: total number of elements  
+  >      - $n$: total number of available items   
   >      - $k_i$: number of identical elements of type $i$, where $k_1+k_2+\cdots+k_m=n$  
   >      - __Example__:   
   > $
@@ -243,8 +243,8 @@ $
   > $
   >   3. ###### __Combination formula__ (order doesn't matter, remove duplicates caused by different orders)
   >      $\boldsymbol{C_n^k=\frac{n!}{k!(n-k)!}}$   
-  >      - $n$: total number of elements  
-  >      - $k$: number of elements to choose  
+  >      - $n$: total number of available items (supply)   
+  >      - $k$: number of elements to choose (demand, order does not matter)    
   >      - __Example__:   
   > $
            \begin{array}{ll}
@@ -401,7 +401,7 @@ $
 ## 7.Permutations
 
 ### $\textcolor{#1E3A5F}{\fbox{1}}\:$Definition of permutation
-A permutation refers to __selecting $\boldsymbol{m}$ elements $\boldsymbol{(m \le n)}$__ from __$\boldsymbol{n}$ distinct elements__ and arranging them in __a specific order__.
+- A permutation refers to __selecting $\boldsymbol{m}$ elements $\boldsymbol{(m \le n)}$__ from __$\boldsymbol{n}$ distinct elements__ and arranging them in __a specific order__.
 This is called __a permutation__ of $m$ elements from __$\boldsymbol{n}$ distinct elements__.
 
 
@@ -419,12 +419,48 @@ When $m=n$, it is called __a full permutation__, written as $\boldsymbol{P_n^n}$
 
 
 ### $\textcolor{#1E3A5F}{\fbox{3}}\:$Formula for the number of permutations
-$Р_n^m=А_n^m=n(n-1)(n-2)\cdots(n-m+1)=\frac{n!}{(n-m)!}$   
-- $n$: total number of elements to choose from (supply).
-- $m$: number of elements to arrange in order (demand).
+- $Р_n^m=А_n^m=n(n-1)(n-2)\cdots(n-m+1)=\frac{n!}{(n-m)!}$   
+- $n$: total number of available items (supply).
+- $m$: number of items to arrange (demand, order matters).
 - Example:    
   $
   \begin{array}{ll}
   A_6^3=\underbrace{6\times5\times4}_{3 \textsf{ numbers}}=120 \\
   \end{array}
   $
+
+
+## 8.Combinations
+
+### $\textcolor{#1E3A5F}{\fbox{1}}\:$Definition of combination
+- Selecting $m$ elements $(m \le n)$ from $n$ distinct elements and __grouping them together__ (regardless of order)
+is called __a combination__ of $m$ elements from $n$ distinct elements.
+ 
+### $\textcolor{#1E3A5F}{\fbox{2}}\:$Number of combinations
+- The number of combinations refers to __the total number of ways__ to choose $m$ elements $(m \le n)$ from $n$ distinct elements.
+It is denoted as $\boldsymbol{C_n^m}$.
+  - __Formula for the number of combinations__: $C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1}=\frac{n!}{m!(n-m)!}=\boldsymbol{\frac{A_n^m}{m!}}$.
+    - $n$: total number of available items (supply).
+    - $m$: number of elements to choose (demand, order does not matter).   
+    - All identical elements only 1 arrangement: $C_n^n=1$.
+    - Example:  
+      $
+      \begin{array}{ll}
+      C_7^3=\frac{7\times6\times5}{3\times2\times1}=\frac{210}{6}=35 \\
+      C_7^4=\frac{7\times6\times5\times4}{4\times3\times2\times1}=\frac{840}{24}=35 \\
+      \end{array}
+      $
+  - A permutation is __a combination__ followed by __arrangement__: $A_n^m=C_n^m \boldsymbol{\cdot} A_m^m=\boldsymbol{C_n^m \cdot m!}$.
+    - Example: $A_4^3=C_4^3\times3!$
+
+### $\textcolor{#1E3A5F}{\fbox{3}}\:$Property of combinations
+- $C_n^m=C_n^{n-m}$
+- Example: $C_9^6=C_9^3$
+
+
+## 9.Problem-Solving Rules
+- Permutations $A_n^m=C_n^m \cdot A_m^m=C_n^m \cdot m!$.
+  A permutation is __a combination__ followed by __arrangement__, so $\boldsymbol{A_n^m}$ can be __expressed as $\boldsymbol{C_n^m \cdot m!}$__.
+- Use combinations $\boldsymbol{C_n^m}$ when __selecting elements or positions__.
+- Use factorial $\boldsymbol{m!}$ when __arranging (sorting) elements__.
+- Break down all problems into a process of __selection__ and __arrangement__ and then __write expressions accordingly__.
