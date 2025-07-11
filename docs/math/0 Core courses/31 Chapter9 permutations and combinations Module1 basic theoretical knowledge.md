@@ -244,7 +244,7 @@ $
   >   3. ###### __Combination formula__ (order doesn't matter, remove duplicates caused by different orders)
   >      $\boldsymbol{C_n^k=\frac{n!}{k!(n-k)!}}$   
   >      - $n$: total number of available items (supply)   
-  >      - $k$: number of elements to choose (demand, order does not matter)    
+  >      - $k$: number of elements to choose (demand, order doesn't matter)    
   >      - __Example__:   
   > $
            \begin{array}{ll}
@@ -441,8 +441,8 @@ is called __a combination__ of $m$ elements from $n$ distinct elements.
 It is denoted as $\boldsymbol{C_n^m}$.
   - ###### __Formula for the number of combinations__: $C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1}=\frac{n!}{m!(n-m)!}=\boldsymbol{\frac{A_n^m}{m!}}$.
     - $n$: total number of available items (supply).
-    - $m$: number of elements to choose (demand, order does not matter).   
-    - All identical elements only 1 arrangement: $C_n^n=1$.
+    - $m$: number of elements to choose (demand, order doesn't matter).   
+    - One permutation when all or none are selected: $C_n^0=C_n^n=1$.
     - Example:  
       $
       \begin{array}{ll}
@@ -471,7 +471,7 @@ __The calculation of permutations and combinations__
 - The calculation of permutations and combinations is based on their definitions and __formulas__. 
 
 ::: wrap
-### $\fbox{5}\:$What is the value of $\small C_8^4-C_7^3\,\mathpunct{?}$.
+### $\fbox{5}\:\small C_8^4-C_7^3=\,\mathpunct{?}$.
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 25 &
@@ -510,3 +510,99 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{6}\:$If $\small C_{m-1}^{m-2}=\frac{3}{n-1}C_{n+1}^{n-2}$, then what $\small\,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: m=n-2 &
+\textsf{(B)} \: m=n+2 &
+\textsf{(C)} \: m=\sum_{k=1}^{n} k & \\
+\textsf{(D)} \: m=1+\sum_{k=1}^{n} k &
+\textsf{(E)} \: \textsf{cannot be determined} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve by using the method of assigning specific values (Note: There may be multiple correct options — continue testing values until the correct one(s) are identified)    
+
+  $
+  \begin{array}{ll}
+  \textsf{let }n=2 \\
+  C_{m-1}^{m-2}=C_{m-1}^{(m-1)-(m-2)}=C_{m-1}^{1}=\frac{m-1}{1}=m-1 \\
+  m-1=\frac{3}{1}C_3^0=\frac{3}{1}\times1=3 & \textsf{substitute }n=2 \\
+  m-1=3 \longrightarrow m=4 \\
+  \textsf{(A)} \: m=2-2=0 &❌\;\\
+  \textsf{(B)} \: m=2+2=4 &✅\;\\
+  \textsf{(C)} \: m=\sum_{k=1}^{n}k=1+2+\cdots+n=\frac{n(n+1)}{2}=\frac{2(2+1)}{2}=3 &❌\;\\
+  \textsf{(D)} \: m=1+\frac{2(2+1)}{2}=4 &✅\;\\
+  \textsf{two correct options found — keep testing values} \\
+  \textsf{let }n=4 \\   
+  m-1=\frac{3}{3}C_5^2=1\times\frac{5\times4}{2\times1}=10 & \textsf{substitute }n=4 \\
+  m-1=10 \longrightarrow m=11 \\  
+  \textsf{(B)} \: m=4+2=6 &❌\;\\   
+  \textsf{(D)} \: m=1+\frac{4(4+1)}{2}=11 &✅\;\\  
+  \end{array}
+  $   
+:::   
+::: wrap  
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve using the symmetric property of combinations: $C_n^m=C_n^{n-m}$    
+
+  $
+  \begin{array}{ll}
+  C_{m-1}^{m-2}=C_{m-1}^{(m-1)-(m-2)}=C_{m-1}^{1}=\frac{m-1}{1}=m-1 \\
+  C_{n+1}^{n-2}=C_{n+1}^{(n+1)-(n-2)}=C_{n+1}^3 \\
+  m-1=\frac{3}{n-1}C_{n+1}^3=\frac{\bcancel{3}}{\bcancel{n-1}}\times\frac{(n+1)\times n \times \bcancel{(n-1)}}{\bcancel{3}\times2\times1}=\frac{n(n+1)}{2} \\
+  m=1+\frac{n(n+1)}{2} \\
+  \sum_{k=1}^{n}k=1+2+\cdots+n=\frac{n(n+1)}{2} \\
+  m=1+\sum_{k=1}^{n}k \\
+  \end{array}
+  $   
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(D)}$  
+  > According to the Solution, get $m=1+\sum_{k=1}^{n}k$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  C_n^m=C_n^{n-m} & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#property-of-combinations}{\textsf{property of combinations}} \\
+  \frac{n(n+1)}{2} & \textsf{arithmetic sum formula} \\
+  \end{array}
+  >$
+
+  :::  
+- Common properties of combinations  
+  ::: wrap   
+  >1. $C_n^0=C_n^n=1$  
+  >2. $C_n^1=C_n^{n-1}=n$   
+  >3. $C_n^2=C_n^{n-2}=\frac{n(n-1)}{2}$  
+  >    - Derivation  
+  >$
+         \begin{array}{ll}
+         C_n^{n-2}=\frac{n!}{(n-2)!\times2!}=\frac{n(n-1)(n-2)!}{(n-2)!\times2!} \\
+         \frac{n(n-1)\bcancel{(n-2)!}}{\bcancel{(n-2)!}\times2!}=\frac{n(n-1)}{2} \\
+         C_n^2=C_n^{n-2}=\frac{n(n-1)}{2} \\
+         \end{array}
+  >$  
+  >4. Common combinations   
+  >$
+     \begin{array}{ll}
+     C_3^2=C_3^1=3 \\
+     C_4^2=6 \\
+     C_5^2=C_5^3=10 \\
+     C_6^2=C_6^4=15 \\
+     C_6^3=20 \\
+     \end{array}  
+  >$
+
+  :::   
+
+---
+
