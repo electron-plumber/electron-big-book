@@ -525,7 +525,7 @@ $
 :::
 #### Solution
 ::: wrap  
-- $\textcolor{#228B22}{\fbox{1}}\:$Solve by using the method of assigning specific values (Note: There may be multiple correct options — continue testing values until the correct one(s) are identified)    
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve by using the method of assigning specific values (note: there may be multiple correct options — continue testing values until the correct one(s) are identified)    
 
   $
   \begin{array}{ll}
