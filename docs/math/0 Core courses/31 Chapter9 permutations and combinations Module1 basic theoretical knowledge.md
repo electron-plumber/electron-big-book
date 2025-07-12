@@ -668,4 +668,94 @@ $
   :::
 ---
 
+::: wrap
+### $\fbox{8}\:$How many combinations are there when selecting any two elements from the four distinct elements $\small A, B, C$, and $\small D$ using enumeration $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 5 &
+\textsf{(B)} \: 6 &
+\textsf{(C)} \: 7 &
+\textsf{(D)} \: 8 &
+\textsf{(E)} \: 12 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve using enumeration  
 
+  $
+  \begin{array}{ll}
+  [A, B] \\
+  [A, C] \\
+  [A, D] \\
+  [B, C] \\
+  [B, D] \\
+  [C, D] \\
+  \end{array}
+  $   
+:::  
+::: wrap  
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve using the combination formula
+
+  $
+  \begin{array}{ll}
+  C_4^2=\frac{4\times3}{2\times1}=6 \\
+  \end{array}
+  $   
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(B)}$  
+  > According to the Solution, get $6$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+::: wrap
+### $\fbox{9}\:$There are $\small 9$ balls. Grouping them three at a time, how many groups can be formed $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 84 &
+\textsf{(B)} \: 124 &
+\textsf{(C)} \: 254 &
+\textsf{(D)} \: 358 &
+\textsf{(E)} \: 504 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap
+$
+\begin{array}{ll}
+C_9^3=\frac{9\times8\times7}{3\times2\times1}=\frac{504}{6}=84 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(A)}$  
+  > According to the Solution, get $C_9^3=84$, so choose $A$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
