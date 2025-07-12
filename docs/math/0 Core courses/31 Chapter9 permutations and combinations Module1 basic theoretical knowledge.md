@@ -2,12 +2,6 @@
 title: Chapter9 permutations and combinations Module1 basic theoretical knowledge
 lang: en-US
 ---
-| Platforms   | Courses                                                                                                              | Coursewares                                                       |
-|-------------|----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| YouTube     | [Watch](https://www.youtube.com/watch?v=BKL0JLJVS5U&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s)                         | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
-| Dailymotion | [Watch](https://www.dailymotion.com/video/x9gsuac?playlist=x9h6d2)                                                   |                                                                   |
-| Rumble      | [Watch](https://rumble.com/v6s95i3-31-chapter9-permutations-and-combinations-module1-basic-theoretical-knowled.html) |                                                                   |
-
 
 # Fundamental theoretical knowledge
 
@@ -723,7 +717,7 @@ $
 ---
 
 ::: wrap
-### $\fbox{9}\:$There are $\small 9$ balls. Grouping them three at a time, how many groups can be formed $\small \,\mathpunct{?}$.
+### $\fbox{9}\:$There are $\small 9$ number balls labeled $\small 1$ to $\small 9$. How many groups of three balls can be formed $\small \,\mathpunct{?}$. 
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 84 &
@@ -759,3 +753,50 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{10}\:$There are $\small 9$ number balls labeled $\small 1$ to $\small 9$. How many three-digit numbers can be formed by selecting any three of them $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 404 &
+\textsf{(B)} \: 424 &
+\textsf{(C)} \: 454 &
+\textsf{(D)} \: 458 &
+\textsf{(E)} \: 504 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+Р_9^3=9\times8\times7=504 \\
+p_n^m \Longleftrightarrow C_n^m \cdot m! \\
+Р_9^3=C_9^3 \times 3!=\frac{9\times8\times7}{3\times2\times1}\times(3\times2\times1)=84\times6=504 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(E)}$  
+  > According to the Solution, get $Р_9^3=C_9^3 \times 3!=504$, so choose $E$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  P_n^m=А_n^m=n(n-1)(n-2)\cdots(n-m+1) & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-permutations}{\textsf{permutation formula }} \\
+  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{permutation as an ordered combination}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+| Platforms   | Courses                                                                                                              | Coursewares                                                       |
+|-------------|----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| YouTube     | [Watch](https://www.youtube.com/watch?v=BKL0JLJVS5U&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s)                         | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
+| Dailymotion | [Watch](https://www.dailymotion.com/video/x9gsuac?playlist=x9h6d2)                                                   |                                                                   |
+| Rumble      | [Watch](https://rumble.com/v6s95i3-31-chapter9-permutations-and-combinations-module1-basic-theoretical-knowled.html) |                                                                   |
