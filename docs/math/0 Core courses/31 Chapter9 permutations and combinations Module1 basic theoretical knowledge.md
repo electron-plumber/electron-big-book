@@ -419,7 +419,7 @@ When $m=n$, it is called __a full permutation__, written as $\boldsymbol{P_n^n}$
 
 
 ### $\textcolor{#1E3A5F}{\fbox{3}}\:$Formula for the number of permutations
-- $Р_n^m=А_n^m=n(n-1)(n-2)\cdots(n-m+1)=\frac{n!}{(n-m)!}$   
+- $P_n^m=A_n^m=n(n-1)(n-2)\cdots(n-m+1)=\frac{n!}{(n-m)!}$   
 - $n$: total number of available items (supply).
 - $m$: number of items to arrange (demand, order matters).
 - Example:    
@@ -450,7 +450,7 @@ It is denoted as $\boldsymbol{C_n^m}$.
       C_7^4=\frac{7\times6\times5\times4}{4\times3\times2\times1}=\frac{840}{24}=35 \\
       \end{array}
       $
-  - A permutation is __a combination__ followed by __arrangement__: $A_n^m=C_n^m \boldsymbol{\cdot} A_m^m=\boldsymbol{C_n^m \cdot m!}$.
+  - ###### A permutation is __a combination__ followed by __arrangement__: $A_n^m=C_n^m \boldsymbol{\cdot} A_m^m=\boldsymbol{C_n^m \cdot m!}$.
     - Example: $A_4^3=C_4^3\times3!$
 
 ### $\textcolor{#1E3A5F}{\fbox{3}}\:$Property of combinations
@@ -605,4 +605,67 @@ $
   :::   
 
 ---
+
+## 11.Focus 5
+__The applications of permutations and combinations__   
+- Calculate using the definitions and formulas of permutations and combinations.
+
+::: wrap
+### $\fbox{7}\:$How many permutations are there when selecting any two elements from the four distinct elements $\small A, B, C$, and $\small D$ using enumeration $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 5 &
+\textsf{(B)} \: 6 &
+\textsf{(C)} \: 7 &
+\textsf{(D)} \: 8 &
+\textsf{(E)} \: 12 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve using enumeration  
+
+  $
+  \begin{array}{ll}
+  [A, B]\; [B, A]\\
+  [A, C]\; [C, A]\\
+  [A, D]\; [D, A]\\
+  [B, C]\; [C, B]\\
+  [B, D]\; [D, B]\\
+  [C, D]\; [D, C]\\
+  \end{array}
+  $   
+:::  
+::: wrap  
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve using the permutation formula  
+
+  $
+  \begin{array}{ll}
+  Р_4^2=4\times3=12 \\
+  p_n^m \Longleftrightarrow C_n^m \cdot m! \\
+  Р_4^2=C_4^2 \times 2!=\frac{4\times3}{2\times1}\times2=12 \\
+  \end{array}
+  $   
+:::   
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(E)}$  
+  > According to the Solution, get $12$, so choose $E$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  P_n^m=А_n^m=n(n-1)(n-2)\cdots(n-m+1) & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-permutations}{\textsf{permutation formula }} \\
+  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{permutation as an ordered combination}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
 
