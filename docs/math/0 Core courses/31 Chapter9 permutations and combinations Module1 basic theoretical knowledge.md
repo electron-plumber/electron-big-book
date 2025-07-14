@@ -212,7 +212,7 @@ $
   > - All identical elements: __only $1$ arrangement__.  
   > - Some identical elements:  
   >   1. Enumeration (list all possibilities)  
-  >   2. __Basic permutation formula__ (order matters, remove duplicates from swapping identical elements)  
+  >   2. ###### __Basic permutation formula__ (order matters, remove duplicates from swapping identical elements)  
   >      $\boldsymbol{\frac{n!}{k_1!\times k_2!\times\cdots \times k_m!}}$  
   >      - $n$: total number of available items   
   >      - $k_i$: number of identical elements of type $i$, where $k_1+k_2+\cdots+k_m=n$  

@@ -19,3 +19,47 @@ lang: en-US
 - When __a fixed subgroup__ appears, apply __the same bundling method__ and treat it as __one unit for calculation__.
 
 
+## 13.Focus 6
+__The adjacent element bundling method__
+- When applying __the bundling method__ to adjacent elements, be sure to consider __the internal arrangement within the bundle__.   
+- Additionally, some problems may involve __bundling multiple groups__.
+
+::: wrap
+### $\fbox{11}\:$Three families of three people each are watching a show. They bought $\small 9$ consecutive seats in one row. How many different ways can they sit if each family sits together $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: (3!)^2\textsf{ ways} &
+\textsf{(B)} \: (3!)^3\textsf{ ways} &
+\textsf{(C)} \: 3(3!)^3\textsf{ ways} & \\
+\textsf{(D)} \: (3!)^4\textsf{ ways} &
+\textsf{(E)} \: 9!\textsf{ ways} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+\underbrace{\boxed{3\,\textsf{people}}\;\boxed{3\,\textsf{people}}\;\boxed{3\,\textsf{people}}}_{3\,\textsf{families — each family has 3 people}} \\
+\underbrace{3!\times3!\times3!}_{\textsf{internal arrangement}}\times\underbrace{3!}_{\textsf{external arrangement}}=(3!)^4 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(D)}$  
+  > According to the Solution, get $3!\times3!\times3!\times3!=(3!)^4$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#_12-adjacent-element-bundling-method}{\textsf{adjacent element bundling method}} \\
+  m! & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
