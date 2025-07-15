@@ -82,12 +82,8 @@ $
 ::: wrap  
 $
 \begin{array}{ll}
-\begin{cases}
-[A,B] \\
-[C,D] \\
-3\,\textsf{people} \\
-\end{cases} \\
-2!\times2!\times5!=120\times4=480 \\
+[A,B] \quad [C,D] \quad 3\,\textsf{people} \\
+2!\times2!\times5!=4\times120=480 \\
 \end{array}
 $  
 :::  
@@ -181,8 +177,8 @@ $
 
   $
   \begin{array}{ll}
-  \textsf{Insert }A, B\textsf{, and }C \textsf{ into the available spaces} \\
-  4!\times C_5^3\times3!=24 \times \frac{5\times4\times3}{3\times2\times1}\times6=24\times60=1440 \\
+  \textsf{insert }A, B\textsf{, and }C \textsf{ into the available spaces} \\
+  4!\times C_5^3\times3!=\frac{5\times4\times3}{3\times2\times1}\times144=1440 \\
   \end{array}
   $  
 :::  
@@ -225,8 +221,8 @@ $
 
   $
   \begin{array}{ll}
-  \textsf{Insert }3\textsf{ dances into the available spaces}\\
-  4!\times C_5^3\times3!=24 \times \frac{5\times4\times3}{3\times2\times1}\times6=24\times60=1440 \\
+  \textsf{insert }3\textsf{ dances into the available spaces}\\
+  4!\times C_5^3\times3!=\frac{5\times4\times3}{3\times2\times1}\times144=1440 \\
   \end{array}
   $  
 :::  
@@ -276,7 +272,7 @@ $
   \textsf{off (not adjacent)}:3 \\
   \end{cases} \\
   \textsf{the lights (on or off) don't require sorting} \\
-  C_6^3=\frac{6\times5\times4}{3\times2\times1}=\frac{120}{6}=20 \\
+  C_6^3=\frac{6\times5\times4}{3\times2\times1}=20 \\
   \end{array}
   $  
 :::  
@@ -291,7 +287,61 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
+  & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#_3-alternating-element-insertion-method}{\textsf{alternating element insertion method}} \\
   C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+## 5.Focus 8
+__The adjacent and non-adjacent cases appear together__   
+- When both adjacent and non-adjacent cases appear,
+  consider __the adjacent elements first__ — that is,
+  __group them together first__, then handle __the non-adjacent elements__.
+
+
+::: wrap
+### $\fbox{17}\:$Seven people stand in a line. If $\small A$ and $\small B$ are adjacent, but neither of them is adjacent to $\small C$, how many different arrangements are there $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 940\,\textsf{kinds} &
+\textsf{(B)} \: 960\,\textsf{kinds} &
+\textsf{(C)} \: 980\,\textsf{kinds} &
+\textsf{(D)} \: 1100\,\textsf{kinds} &
+\textsf{(E)} \: 1200\,\textsf{kinds} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Show known conditions  
+  ![Question six basic methods figure Q-17 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-17%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  [A, B] \quad C \\
+  \textsf{insert the package }[A, B]\textsf{ and }C\textsf{ into the available space} \\
+  2!\times4!\times C_5^2 \times 2!= \frac{5\times4}{2\times1}\times96=960 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(B)}$  
+  > According to the Solution, get $2!\times4!\times C_5^2 \times 2!=960$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#_1-adjacent-element-bundling-method}{\textsf{adjacent element bundling method}} \\
+  & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#_3-alternating-element-insertion-method}{\textsf{alternating element insertion method}} \\
+  m! & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
+  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{permutation as an ordered combination}} \\
   \end{array}
   >$
 
