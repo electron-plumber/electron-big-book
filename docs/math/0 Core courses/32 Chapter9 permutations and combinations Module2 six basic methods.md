@@ -181,6 +181,51 @@ $
 
   $
   \begin{array}{ll}
+  \textsf{Insert }A, B\textsf{, and }C \textsf{ into the available spaces} \\
+  4!\times C_5^3\times3!=24 \times \frac{5\times4\times3}{3\times2\times1}\times6=24\times60=1440 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(E)}$  
+  > According to the Solution, get $4!\times C_5^3\times3!=1440$, so choose $E$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#_3-alternating-element-insertion-method}{\textsf{alternating element insertion method}} \\
+  m! & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
+  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{permutation as an ordered combination}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+::: wrap
+### $\fbox{15}\:$A performance has $\small 3$ dances, $\small 2$ dramas, and $\small 2$ solos. The dance performances can't appear consecutively. How many different sequences of performances are possible $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 1020 &
+\textsf{(B)} \: 1040 &
+\textsf{(C)} \: 1140 &
+\textsf{(D)} \: 1220 &
+\textsf{(E)} \: 1440 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Show known conditions  
+  ![Question six basic methods figure Q-15 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-15%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  \textsf{Insert }3\textsf{ dances into the available spaces}\\
   4!\times C_5^3\times3!=24 \times \frac{5\times4\times3}{3\times2\times1}\times6=24\times60=1440 \\
   \end{array}
   $  
