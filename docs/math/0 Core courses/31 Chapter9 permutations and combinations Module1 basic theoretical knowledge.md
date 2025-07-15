@@ -3,7 +3,7 @@ title: Chapter9 permutations and combinations Module1 basic theoretical knowledg
 lang: en-US
 ---
 
-# Fundamental theoretical knowledge
+# Module 9–01 Fundamental Theoretical Knowledge
 
 ## 1.Principle of Counting by Classification (Addition Principle)
 
