@@ -107,3 +107,43 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{13}\:$Using the digits $\small 1, 2, 3, 4$, and $\small 5$ without repetition, how many five-digit numbers can be formed where there are two digits between the odd digits $\small 1$ and $\small 5$, and both of those digits are even numbers $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 8 &
+\textsf{(B)} \: 9 &
+\textsf{(C)} \: 10 &
+\textsf{(D)} \: 12 &
+\textsf{(E)} \: 14 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+\underbrace{1\,\boxed{2}\,\boxed{4}\,5}_{\textsf{fixed subgroup}}3 \\
+2!\times2!\times2!=8 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(A)}$  
+  > According to the Solution, get $2!\times2!\times2!=8$, so choose $A$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#_12-adjacent-element-bundling-method}{\textsf{adjacent element bundling method}} \\
+  m! & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
