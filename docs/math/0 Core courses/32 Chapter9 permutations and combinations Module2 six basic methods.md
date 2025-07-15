@@ -63,3 +63,47 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{12}\:$Seven people are lined up. $\small A$ and $\small B$ must stand together, and so must $\small C$ and $\small D$. How many different arrangements are there$\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 480 &
+\textsf{(B)} \: 460 &
+\textsf{(C)} \: 420 &
+\textsf{(D)} \: 408 &
+\textsf{(E)} \: 390 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+\begin{cases}
+[A,B] \\
+[C,D] \\
+3\,\textsf{people} \\
+\end{cases} \\
+2!\times2!\times5!=120\times4=480 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(A)}$  
+  > According to the Solution, get $2!\times2!\times5!=480$, so choose $A$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#_12-adjacent-element-bundling-method}{\textsf{adjacent element bundling method}} \\
+  m! & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
