@@ -249,3 +249,51 @@ $
 
   :::
 ---
+
+
+::: wrap
+### $\fbox{16}\:$The corridor has a row of $\small 8$ light bulbs. To save electricity without affecting the lighting, $\small 3$ bulbs must be turned off at the same time, but no adjacent bulbs can be turned off. How many ways are there to turn off the lights $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 16 &
+\textsf{(B)} \: 18 &
+\textsf{(C)} \: 20 &
+\textsf{(D)} \: 22 &
+\textsf{(E)} \: 24 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Analyze the given conditions to solve the light-turning-off model problem     
+  ![Question six basic methods figure Q-16 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-16%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  8 \textsf{ lights}
+  \begin{cases}
+  \textsf{on}:5 \\
+  \textsf{off (not adjacent)}:3 \\
+  \end{cases} \\
+  \textsf{the lights (on or off) don't require sorting} \\
+  C_6^3=\frac{6\times5\times4}{3\times2\times1}=\frac{120}{6}=20 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(C)}$  
+  > According to the Solution, get $C_6^3=20$, so choose $C$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
