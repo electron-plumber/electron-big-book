@@ -401,8 +401,7 @@ $
 
   $
   \begin{array}{ll}
-  \textsf{insert the package }[\textsf{female},
-  \textsf{female}]\textsf{ and }\textsf{female}\textsf{ into the available spaces} \\
+  \textsf{insert the package }[\textsf{female}, \textsf{female}]\textsf{ and }\textsf{female}\textsf{ into the available spaces} \\
   \begin{cases}
   [\textsf{male}, \textsf{male}, \textsf{male}]=3! \\
   \underbrace{\boxed{
@@ -453,7 +452,7 @@ __The case where both types are non-adjacent__
   $
 
 ::: wrap
-### $\fbox{19}\:$Six people — three men and three women — stand in a line. If no two women are adjacent and no two men are adjacent, how many different arrangements are possible $\small \,\mathpunct{?}$.
+### $\fbox{19}\:$Six people — three men and three women — stand in a line. If the women aren't adjacent to each other and the men aren't adjacent to each other, how many different arrangements are possible $\small \,\mathpunct{?}$.
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 64 &
@@ -471,11 +470,15 @@ $
 
   $
   \begin{array}{ll}
-  \textsf{insert the }3\textsf{ females into the available spaces in between} \\
+  \textsf{insert the }3\textsf{ females into the available spaces} \\
   \begin{cases}
   [\textsf{male}, \textsf{male}, \textsf{male}]=3! \\
   [\textsf{female}, \textsf{female}, \textsf{female}]=3! \\
-  \textsf{swap the middle two positions}= 2 \\
+  \underbrace{
+  \begin{cases}
+  [\textsf{female},\textsf{male},\textsf{female},\textsf{male}] \\
+  [\textsf{male},\textsf{female},\textsf{male},\textsf{female}] \\
+  \end{cases}}_{2\textsf{ alternating arrangements}} = 2 \\
   \end{cases} \\
   3!\times3!\times2=72 \\
   \end{array}
@@ -500,3 +503,58 @@ $
   :::
 ---
 
+::: wrap
+### $\fbox{20}\:$Seven people — four men and three women — stand in a line. If the women aren't adjacent to each other and the men aren't adjacent to each other, how many different arrangements are possible $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 104 &
+\textsf{(B)} \: 112 &
+\textsf{(C)} \: 124 &
+\textsf{(D)} \: 128 &
+\textsf{(E)} \: 144 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- For two groups with different quantities, __first arrange the larger group__, then insert the smaller group into __the available purple spaces in between__      
+  ![Question six basic methods figure Q-20 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-20%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  \textsf{insert the }3\textsf{ females into the available spaces} \\
+  \begin{cases}
+  [\textsf{male}, \textsf{male}, \textsf{male}, \textsf{male}]=4! \\
+  [\textsf{female}, \textsf{female}, \textsf{female}]=3! \\
+  \end{cases} \\
+  4!\times3!=144 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(E)}$  
+  > According to the Solution, get $4!\times3!=144$, so choose $E$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  m! & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
+  \end{array}
+  >$
+
+  :::
+- Alternating arrangement formulas   
+  ::: wrap  
+  >$
+  \begin{array}{ll}
+  n!\times n!\times2 & n\textsf{ males and }n\textsf{ females alternating arrangement} \\
+  (n+1)!\times n! & (n+1)\textsf{ males and }n\textsf{ females alternating arrangement} \\
+  \end{array}
+  >$
+
+  :::  
+---
