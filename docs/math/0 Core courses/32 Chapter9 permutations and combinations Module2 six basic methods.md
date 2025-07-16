@@ -21,7 +21,7 @@ lang: en-US
 - When __a fixed subgroup__ appears, apply __the same bundling method__ and treat it as __one unit for calculation__.
 
 
-## 2.Focus 6
+## 2.Focus 1
 __The adjacent element bundling method__
 - When applying __the bundling method__ to adjacent elements, be sure to consider __the internal arrangement within the bundle__.   
 - Additionally, some problems may involve __bundling multiple groups__.
@@ -42,7 +42,12 @@ $
 ::: wrap  
 $
 \begin{array}{ll}
-\underbrace{\boxed{3\,\textsf{people}}\;\boxed{3\,\textsf{people}}\;\boxed{3\,\textsf{people}}}_{3\,\textsf{families — each family has 3 people}} \\
+3!
+\begin{cases}
+[3\,\textsf{people}]=3! \\
+[3\,\textsf{people}]=3! \\
+[3\,\textsf{people}]=3! \\
+\end{cases} \\
 \underbrace{3!\times3!\times3!}_{\textsf{internal arrangement}}\times\underbrace{3!}_{\textsf{external arrangement}}=(3!)^4 \\
 \end{array}
 $  
@@ -82,7 +87,12 @@ $
 ::: wrap  
 $
 \begin{array}{ll}
-[A,B] \quad [C,D] \quad 3\,\textsf{people} \\
+5!
+\begin{cases}
+[A, B]=2! \\
+[C, D]=2! \\
+3\,\textsf{people} \\
+\end{cases} \\
 2!\times2!\times5!=4\times120=480 \\
 \end{array}
 $  
@@ -123,6 +133,14 @@ $
 $
 \begin{array}{ll}
 \underbrace{1\,\boxed{2}\,\boxed{4}\,5}_{\textsf{fixed subgroup}}3 \\
+2!
+\begin{cases}
+\begin{cases}
+[2,4]=2! \\
+[1,5]=2! \\
+\end{cases} \\
+3 \\
+\end{cases} \\
 2!\times2!\times2!=8 \\
 \end{array}
 $  
@@ -151,7 +169,7 @@ $
   first arrange the elements __without position restrictions__ in __all possible orders__.
   Then insert __the specified separated elements__ into the available spaces __between and at both ends of the arranged elements__.
 
-## 4.Focus 7
+## 4.Focus 2
 __The alternating element insertion method__   
 - First __arrange the other elements__, then insert the elements __that mustn't be adjacent__ into __the available gaps__.
 
@@ -178,6 +196,11 @@ $
   $
   \begin{array}{ll}
   \textsf{insert }A, B\textsf{, and }C \textsf{ into the available spaces} \\
+  \begin{cases}
+  [D, E, F, G]=4! \\
+  C_{[?,?,?,?,?]}^{A, B, C}=C_5^3 \\
+  [A, B, C]=3! \\
+  \end{cases} \\
   4!\times C_5^3\times3!=\frac{5\times4\times3}{3\times2\times1}\times144=1440 \\
   \end{array}
   $  
@@ -222,6 +245,11 @@ $
   $
   \begin{array}{ll}
   \textsf{insert }3\textsf{ dances into the available spaces}\\
+  \begin{cases}
+  [\textsf{drama}, \textsf{drama}, \textsf{solo}, \textsf{solo}]=4! \\
+  C_{[?,?,?,?,?]}^{\textsf{dance}, \textsf{dance}, \textsf{dance}}=C_5^3 \\
+  [\textsf{dance}, \textsf{dance}, \textsf{dance}]=3! \\
+  \end{cases} \\
   4!\times C_5^3\times3!=\frac{5\times4\times3}{3\times2\times1}\times144=1440 \\
   \end{array}
   $  
@@ -271,7 +299,8 @@ $
   \textsf{on}:5 \\
   \textsf{off (not adjacent)}:3 \\
   \end{cases} \\
-  \textsf{the lights (on or off) don't require sorting} \\
+  \textsf{the lights (on or off) don't require sorting because they're the same} \\
+  C_{[?,?,?,?,?,?]}^{\textsf{off}, \textsf{off}, \textsf{off}}=C_6^3 \\
   C_6^3=\frac{6\times5\times4}{3\times2\times1}=20 \\
   \end{array}
   $  
@@ -295,7 +324,7 @@ $
   :::
 ---
 
-## 5.Focus 8
+## 5.Focus 3
 __The adjacent and non-adjacent cases appear together__   
 - When both adjacent and non-adjacent cases appear,
   consider __the adjacent elements first__ — that is,
@@ -306,11 +335,11 @@ __The adjacent and non-adjacent cases appear together__
 ### $\fbox{17}\:$Seven people stand in a line. If $\small A$ and $\small B$ are adjacent, but neither of them is adjacent to $\small C$, how many different arrangements are there $\small \,\mathpunct{?}$.
 $
 \begin{array}{lllll}
-\textsf{(A)} \: 940\,\textsf{kinds} &
-\textsf{(B)} \: 960\,\textsf{kinds} &
-\textsf{(C)} \: 980\,\textsf{kinds} &
-\textsf{(D)} \: 1100\,\textsf{kinds} &
-\textsf{(E)} \: 1200\,\textsf{kinds} & \\
+\textsf{(A)} \: 940 &
+\textsf{(B)} \: 960 &
+\textsf{(C)} \: 980 &
+\textsf{(D)} \: 1100 &
+\textsf{(E)} \: 1200 & \\
 \end{array}
 $  
 :::
@@ -321,8 +350,13 @@ $
 
   $
   \begin{array}{ll}
-  [A, B] \quad C \\
   \textsf{insert the package }[A, B]\textsf{ and }C\textsf{ into the available space} \\
+  \begin{cases}
+  [A, B]=2! \\
+  [D, E, F, G]=4! \\
+  C_{[?,?,?,?,?]}^{[A, B], C}=C_5^2 \\
+  [[A, B], C]=2! \\
+  \end{cases} \\
   2!\times4!\times C_5^2 \times 2!= \frac{5\times4}{2\times1}\times96=960 \\
   \end{array}
   $  
@@ -352,11 +386,11 @@ $
 ### $\fbox{18}\:$Six people — three men and three women — stand in a line. If two of the women must stand next to each other, how many different arrangements are possible $\small \,\mathpunct{?}$.
 $
 \begin{array}{lllll}
-\textsf{(A)} \: 410\,\textsf{kinds} &
-\textsf{(B)} \: 420\,\textsf{kinds} &
-\textsf{(C)} \: 432\,\textsf{kinds} &
-\textsf{(D)} \: 480\,\textsf{kinds} &
-\textsf{(E)} \: 490\,\textsf{kinds} & \\
+\textsf{(A)} \: 940 &
+\textsf{(B)} \: 960 &
+\textsf{(C)} \: 980 &
+\textsf{(D)} \: 1100 &
+\textsf{(E)} \: 1200 & \\
 \end{array}
 $  
 :::
@@ -367,8 +401,18 @@ $
 
   $
   \begin{array}{ll}
-  \underbrace{[\textsf{female}, \textsf{female}]}_{\textsf{unknown elements, need arrangement }C_3^2\times2!} \quad \textsf{female} \\
   \textsf{insert the package }[\textsf{female}, \textsf{female}]\textsf{ and }\textsf{female}\textsf{ into the available space} \\
+  \begin{cases}
+  [\textsf{male}, \textsf{male}, \textsf{male}]=3! \\
+  \underbrace{\boxed{
+  \begin{array}{ll}
+  C_{[\textsf{female}, \textsf{female}, \textsf{female}]}^{\textsf{female}, \textsf{female}}=C_3^2 \\
+  [\textsf{female}, \textsf{female}] = 2! \\
+  \end{array}
+  }}_{\textsf{unknown female elements, need arrangement}} \\
+  C_{[?,?,?,?]}^{[\textsf{female}, \textsf{female}], \textsf{female}}=C_4^2 \\
+  [[\textsf{female}, \textsf{female}], \textsf{female}]=2! \\
+  \end{cases} \\
   3!\times C_3^2\times2! \times C_4^2 \times 2!=\frac{3\times2}{2\times1}\times\frac{4\times3}{2\times1}\times24=432 \\
   \end{array}
   $  
@@ -393,3 +437,65 @@ $
 
   :::
 ---
+
+## 6.Focus 4
+__The case where both types are non-adjacent__  
+- When the two types of elements __mustn't be adjacent__, first __arrange one type__,
+  then __insert the other into the gaps__
+  — making sure __all the available positions in between__ are __filled__.
+- Alternating arrangement  
+  $
+  \begin{cases}
+  [A, B, A, B] \\
+  [B, A, B, A] \\
+  \end{cases}
+  $
+
+::: wrap
+### $\fbox{19}\:$Six people — three men and three women — stand in a line. If no two women are adjacent and no two men are adjacent, how many different arrangements are possible $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 64 &
+\textsf{(B)} \: 68 &
+\textsf{(C)} \: 72 &
+\textsf{(D)} \: 80 &
+\textsf{(E)} \: 90 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- It must be ensured that the available space in the middle (purple) contains elements    
+  ![Question six basic methods figure Q-19 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-19%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  \textsf{insert the }3\textsf{ males or }3\textsf{ females into the available space in between} \\
+  \begin{cases}
+  [\textsf{male}, \textsf{male}, \textsf{male}]=3! \\
+  [\textsf{female}, \textsf{female}, \textsf{female}]=3! \\
+  \textsf{swap the middle two positions}= 2 \\
+  \end{cases} \\
+  3!\times3!\times2=72 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(C)}$  
+  > According to the Solution, get $3!\times3!\times2=72$, so choose $C$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#_3-alternating-element-insertion-method}{\textsf{alternating element insertion method}} \\
+  m! & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
