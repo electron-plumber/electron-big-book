@@ -350,7 +350,7 @@ $
 
   $
   \begin{array}{ll}
-  \textsf{insert the package }[A, B]\textsf{ and }C\textsf{ into the available space} \\
+  \textsf{insert the package }[A, B]\textsf{ and }C\textsf{ into the available spaces} \\
   \begin{cases}
   [A, B]=2! \\
   [D, E, F, G]=4! \\
@@ -401,7 +401,8 @@ $
 
   $
   \begin{array}{ll}
-  \textsf{insert the package }[\textsf{female}, \textsf{female}]\textsf{ and }\textsf{female}\textsf{ into the available space} \\
+  \textsf{insert the package }[\textsf{female},
+  \textsf{female}]\textsf{ and }\textsf{female}\textsf{ into the available spaces} \\
   \begin{cases}
   [\textsf{male}, \textsf{male}, \textsf{male}]=3! \\
   \underbrace{\boxed{
@@ -470,7 +471,7 @@ $
 
   $
   \begin{array}{ll}
-  \textsf{insert the }3\textsf{ males or }3\textsf{ females into the available space in between} \\
+  \textsf{insert the }3\textsf{ females into the available spaces in between} \\
   \begin{cases}
   [\textsf{male}, \textsf{male}, \textsf{male}]=3! \\
   [\textsf{female}, \textsf{female}, \textsf{female}]=3! \\
