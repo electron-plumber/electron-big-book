@@ -742,3 +742,46 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{24}\:$Distribute $\small 10$ identical candies to $\small 4$ children. If each child receives at least one candy, there are $\small n$ ways to distribute them. If some children are allowed to receive none, there are $\small m$ ways. What is $\small m−n \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 160 &
+\textsf{(B)} \: 164 &
+\textsf{(C)} \: 175 &
+\textsf{(D)} \: 184 &
+\textsf{(E)} \: 202 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap   
+$
+\begin{array}{ll}
+n\ge1 \quad m\ge0 \\
+n=C_{10-1}^{4-1}=C_{9}^{3}=\frac{\bcancel{9}\times\bcancel{8}\times7}{\bcancel{3}\times\bcancel{2}\times1}=\frac{3\times4\times7}{1}=84 \\
+m=C_{10+4-1}^{4-1}=C_{13}^{3}=\frac{13\times\bcancel{12}\times11}{\bcancel{3}\times\bcancel{2}\times1}=\frac{13\times2\times11}{1}=286 \\
+m-n=286-84=202 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(E)}$  
+  > According to the Solution, get $m-n=202$, so choose $E$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  C_{n-1}^{m-1} & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#formula}{\textsf{restricted stars and bars formula}} \\
+  C_{n+m-1}^{m-1} & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#formula}{\textsf{unrestricted stars and bars formula}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
