@@ -813,7 +813,9 @@ $
   $  
   :::
   - Essence: Multiply identical choices, resulting in exponentiation.   
-  - $m^n = \textsf{container}^\textsf{items}$,$m$: shared, common, and reusable.   
+  - $m^n = \textsf{container}^\textsf{items}$, $m$: shared, common, and reusable.   
+  - $m$: __number of available options__ (supply).
+  - $n$: __number of choosers__ (demand).
 
 ## 10.Focus 6
 __The repeated-element exponentiation method__  
@@ -836,7 +838,7 @@ $
 ::: wrap  
 $
 \begin{array}{ll}
-m^n=3^5=243 \\
+m^n=3^5=243 & \textsf{project}^\textsf{people} \\
 \end{array}
 $  
 :::  
@@ -844,7 +846,7 @@ $
 - Derived Solution  
   ::: wrap
   > $\boldsymbol{(A)}$  
-  > According to the Solution, get $3^5=243$, so choose $A$. 
+  > According to the Solution, get $m^n=243$, so choose $A$. 
 
   :::
 - Formula used  
@@ -862,6 +864,44 @@ $
   \begin{array}{ll}
   C_3^2+C_3^3=3+1=4 & \textsf{ways for one of them to sign up} \\
   4\times4\times4\times4\times4=4^5 \\
+  \end{array}
+  >$
+
+  :::
+---
+
+::: wrap
+### $\fbox{26}\:$Five people sign up for three different competitions. Each competition has only one winner. How many different ways are there to assign the winners $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 243 &
+\textsf{(B)} \: 125 &
+\textsf{(C)} \: 81 &
+\textsf{(D)} \: 60 &
+\textsf{(E)} \: 54 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+m^n=C_5^1\times C_5^1\times C_5^1=5^3=125 & \textsf{person}^\textsf{competitions} \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(B)}$  
+  > According to the Solution, get $m^n=125$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  m^n & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#application-of-the-method}{\textsf{repeated-element exponentiation method}} \\
   \end{array}
   >$
 
