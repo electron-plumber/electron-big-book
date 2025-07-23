@@ -907,3 +907,41 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{27}\:$How many different ways are there to assign $\small 6$ interns to $\small 7$ workshops for their internships $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 7^6 &
+\textsf{(B)} \: 6^7 &
+\textsf{(C)} \: 7! &
+\textsf{(D)} \: 6! &
+\textsf{(E)} \: C_7^6 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+m^n=7^6 & \textsf{workshop}^\textsf{people}\\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(A)}$  
+  > According to the Solution, get $m^n=7^6$, so choose $A$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  m^n & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#application-of-the-method}{\textsf{repeated-element exponentiation method}} \\
+  \end{array}
+  >$
+
+  :::
+---
