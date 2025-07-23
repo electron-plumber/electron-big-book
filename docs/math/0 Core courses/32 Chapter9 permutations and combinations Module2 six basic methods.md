@@ -598,3 +598,44 @@ __The identical elements divider method__
   then there are $\boldsymbol{C_{n-1}^{m-1}}$ ways.
   If __empty groups are allowed__, then there are $\boldsymbol{C_{n+m-1}^{m-1}}$ ways.
 
+::: wrap
+### $\fbox{21}\:$There are $\small 10$ athlete spots to be distributed among $\small 7$ classes, with each class receiving at least one. How many different distribution schemes are possible $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 84 &
+\textsf{(B)} \: 124 &
+\textsf{(C)} \: 254 &
+\textsf{(D)} \: 258 &
+\textsf{(E)} \: 304 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Show known conditions    
+  ![Question six basic methods figure Q-21 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-21%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  C_{10-1}^{7-1}=C_9^6=\frac{\bcancel{9}\times\bcancel{8}\times7\times\bcancel{6}\times\bcancel{5}\times\bcancel{4}}{\bcancel{6}\times\bcancel{5}\times\bcancel{4}\times\bcancel{3}\times\bcancel{2}\times1}=\frac{3\times4\times7}{1}=84 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(A)}$  
+  > According to the Solution, get $C_{10-1}^{7-1}=84$, so choose $A$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  C_{n-1}^{m-1} & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#formula}{\textsf{restricted stars and bars formula}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  \end{array}
+  >$
+
+  :::
+---

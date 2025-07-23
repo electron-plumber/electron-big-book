@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="512" height="128" viewBox="0 0 1134 228" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <path d="M207.314,5.038l0,217.391" style="fill:none;stroke:#8e44ad;stroke-width:8.33px;"/>
+  <path d="M322.423,4.167l-0,217.843" style="fill:none;stroke:#8e44ad;stroke-width:8.33px;"/>
+  <path d="M542.982,4.167l0,218.78" style="fill:none;stroke:#8e44ad;stroke-width:8.33px;"/>
+  <path d="M653.035,4.167l-0,219.033" style="fill:none;stroke:#8e44ad;stroke-width:8.33px;"/>
+  <path d="M762.476,4.167l0,219.274" style="fill:none;stroke:#8e44ad;stroke-width:8.33px;"/>
+  <path d="M985.25,4.167l0,218.836" style="fill:none;stroke:#8e44ad;stroke-width:8.33px;"/>
+  <path d="M-537.161,-847.548l264.924,0" style="fill:none;stroke:#ff822e;stroke-width:6.25px;"/>
+  <path d="M-274.222,-1215.14l-254.083,367.548" style="fill:none;stroke:#0dcaf2;stroke-width:6.25px;"/>
+  <path d="M-506.62,-878.959l-19.704,28.503" style="fill:none;stroke:#0dcaf2;stroke-width:6.25px;"/>
+  <circle cx="264.281" cy="82.869" r="31.556" style="fill:none;stroke:#8dcc33;stroke-width:12.5px;stroke-miterlimit:4;"/>
+  <circle cx="150.757" cy="82.869" r="31.556" style="fill:none;stroke:#8dcc33;stroke-width:12.5px;stroke-miterlimit:4;"/>
+  <circle cx="37.806" cy="82.869" r="31.556" style="fill:none;stroke:#8dcc33;stroke-width:12.5px;stroke-miterlimit:4;"/>
+  <circle cx="376.905" cy="82.869" r="31.556" style="fill:none;stroke:#8dcc33;stroke-width:12.5px;stroke-miterlimit:4;"/>
+  <circle cx="488.738" cy="82.869" r="31.556" style="fill:none;stroke:#8dcc33;stroke-width:12.5px;stroke-miterlimit:4;"/>
+  <circle cx="597.867" cy="82.869" r="31.556" style="fill:none;stroke:#8dcc33;stroke-width:12.5px;stroke-miterlimit:4;"/>
+  <circle cx="706.811" cy="82.869" r="31.556" style="fill:none;stroke:#8dcc33;stroke-width:12.5px;stroke-miterlimit:4;"/>
+  <circle cx="819.232" cy="82.869" r="31.556" style="fill:none;stroke:#8dcc33;stroke-width:12.5px;stroke-miterlimit:4;"/>
+  <circle cx="929.051" cy="82.869" r="31.556" style="fill:none;stroke:#8dcc33;stroke-width:12.5px;stroke-miterlimit:4;"/>
+  <circle cx="1039.86" cy="82.869" r="31.556" style="fill:none;stroke:#8dcc33;stroke-width:12.5px;stroke-miterlimit:4;"/>
+  <g transform="matrix(50,0,0,50,139.546,216.725)">
+    </g>
+  <text x="56.124px" y="216.725px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;fill:#1e3a5f;stroke:#8dcc33;stroke-width:1.25px;stroke-linecap:butt;stroke-miterlimit:2;">one</text>
+  <g transform="matrix(50,0,0,50,301.593,216.725)">
+    </g>
+  <text x="223.786px" y="216.725px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;fill:#1e3a5f;stroke:#8dcc33;stroke-width:1.25px;stroke-linecap:butt;stroke-miterlimit:2;">two</text>
+  <g transform="matrix(50,0,0,50,487.762,216.725)">
+    </g>
+  <text x="373.797px" y="216.725px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;fill:#1e3a5f;stroke:#8dcc33;stroke-width:1.25px;stroke-linecap:butt;stroke-miterlimit:2;">three</text>
+  <g transform="matrix(50,0,0,50,641.317,216.725)">
+    </g>
+  <text x="555.159px" y="216.725px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;fill:#1e3a5f;stroke:#8dcc33;stroke-width:1.25px;stroke-linecap:butt;stroke-miterlimit:2;">four</text>
+  <g transform="matrix(50,0,0,50,673.284,216.725)">
+    </g>
+  <g transform="matrix(50,0,0,50,687.176,216.725)">
+    </g>
+  <g transform="matrix(50,0,0,50,751.092,216.725)">
+    </g>
+  <text x="673.284px" y="216.725px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;fill:#1e3a5f;stroke:#8dcc33;stroke-width:1.25px;stroke-linecap:butt;stroke-miterlimit:2;">ﬁve</text>
+  <g transform="matrix(50,0,0,50,904.773,216.725)">
+    </g>
+  <text x="843.665px" y="216.725px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;fill:#1e3a5f;stroke:#8dcc33;stroke-width:1.25px;stroke-linecap:butt;stroke-miterlimit:2;">six</text>
+  <g transform="matrix(50,0,0,50,1136.81,216.725)">
+    </g>
+  <text x="1003.38px" y="216.725px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;fill:#1e3a5f;stroke:#8dcc33;stroke-width:1.25px;stroke-linecap:butt;stroke-miterlimit:2;">seven</text>
+</svg>
