@@ -639,3 +639,106 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{22}\:$There are $\small 18$ athlete spots to be distributed among $\small 7$ classes, with each class receiving at least $\small 2$ spots. How many different distribution schemes are possible $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 94 &
+\textsf{(B)} \: 124 &
+\textsf{(C)} \: 168 &
+\textsf{(D)} \: 210 &
+\textsf{(E)} \: 240 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+\textsf{first, assign one to each class} \\
+18-7=11 \\
+\textsf{then, assign one more to each class} \\
+C_{11-1}^{7-1}=C_{10}^{6}=C_{10}^{4} \\
+C_{10}^{4}=\frac{10\times\bcancel{9}\times\bcancel{8}\times7}{\bcancel{4}\times\bcancel{3}\times\bcancel{2}\times1}=\frac{10\times3\times7}{1}=210 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(D)}$  
+  > According to the Solution, get $C_{11-1}^{7-1}=210$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  C_{n-1}^{m-1} & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#formula}{\textsf{restricted stars and bars formula}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  C_n^m=C_n^{n-m} & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#property-of-combinations}{\textsf{property of combinations}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+::: wrap
+### $\fbox{23}\:$How many solutions in positive integers are there to the equation $\small x_1+x_2+x_3+x_4=12 \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 160 &
+\textsf{(B)} \: 165 &
+\textsf{(C)} \: 175 &
+\textsf{(D)} \: 184 &
+\textsf{(E)} \: 190 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Treat $x_1,x_2,x_3,x_4$ as dividing 12 balls into 4 groups     
+  ![Question six basic methods figure Q-22 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-22%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  \textsf{let }x_1=1,x_2=3,x_3=4,x_4=4 \\
+  C_{12-1}^{4-1}=C_{11}^{3}=\frac{11\times\bcancel{10}\times\bcancel{9}}{\bcancel{3}\times\bcancel{2}\times1}=\frac{11\times5\times3}{1}=165 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(B)}$  
+  > According to the Solution, get $C_{12-1}^{4-1}=165$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  C_{n-1}^{m-1} & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#formula}{\textsf{restricted stars and bars formula}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  \end{array}
+  >$
+
+  :::
+- In addition, if the problem is:
+  how many non-negative integer (i.e., __object can be empty__)
+  solutions are there to the equation $\small x_1+x_2+x_3+x_4=12 \,\mathpunct{?}$     
+  ::: wrap  
+  > ![Question six basic methods figure Q-22 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-22%20solve-1.svg)    
+  >$
+  \begin{array}{ll}
+  \underbrace{x_1}_{\ge0}+\underbrace{x_2}_{\ge0}+\underbrace{x_3}_{\ge0}+\underbrace{x_4}_{\ge0}=12 \\
+  \underbrace{\textsf{each object must receive at least one }}_{\ge 1} \\
+  (x_1+1)+(x_2+1)+(x_3+1)+(x_4+1)=12+4 \\
+  y_1+y_2+y_3+y_4=16 & \textsf{convert to positive integer solutions} \\
+  C_{16-1}^{4-1}=C_{15}^{3} \Longleftrightarrow C_{n+m-1}^{m-1}=C_{12+4-1}^{4-1} \\
+  \end{array}
+  >$
+
+  :::
+---
