@@ -725,9 +725,7 @@ $
   >$
 
   :::
-- In addition, if the problem is:
-  how many non-negative integer (i.e., __object can be empty__)
-  solutions are there to the equation $\small x_1+x_2+x_3+x_4=12 \,\mathpunct{?}$     
+- In addition, if the problem is about non-negative integers (i.e., __object can be empty__) 
   ::: wrap  
   > ![Question six basic methods figure Q-22 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-22%20solve-1.svg)    
   >$
@@ -821,3 +819,51 @@ $
 __The repeated-element exponentiation method__  
 - You need to learn how to apply the formula and understand its usage. __Be careful not to mix up the base and the exponent__.
 
+
+::: wrap
+### $\fbox{25}\:$Five people are signing up for three different training courses, and each person signs up for only one course. How many different ways can they sign up $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 243 &
+\textsf{(B)} \: 125 &
+\textsf{(C)} \: 81 &
+\textsf{(D)} \: 60 &
+\textsf{(E)} \: 56 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+m^n=3^5=243 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(A)}$  
+  > According to the Solution, get $3^5=243$, so choose $A$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  m^n & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#application-of-the-method}{\textsf{repeated-element exponentiation method}} \\
+  \end{array}
+  >$
+
+  :::
+- In addition, if the problem is that each person signs up for at least two courses   
+  ::: wrap  
+  >$
+  \begin{array}{ll}
+  C_3^2+C_3^3=3+1=4 & \textsf{ways for one of them to sign up} \\
+  4\times4\times4\times4\times4=4^5 \\
+  \end{array}
+  >$
+
+  :::
+---
