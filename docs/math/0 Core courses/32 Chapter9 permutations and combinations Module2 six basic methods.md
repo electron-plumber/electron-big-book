@@ -560,14 +560,14 @@ $
   :::  
 ---
 
-## 7.Identical Items with Divider Method (Stars and Bars)
+## 7.Divider Method with Identical Items (Stars and Bars)
 
-### $\textcolor{#1E3A5F}{\fbox{1}}\:$Conditions of Application  
+### $\textcolor{#1E3A5F}{\fbox{1}}\:$Conditions of application  
 - Elements are __identical__.
 - Objects are __different__.
 - __Each object is assigned at least one__.
 
-### $\textcolor{#1E3A5F}{\fbox{2}}\:$Principle of the Method
+### $\textcolor{#1E3A5F}{\fbox{2}}\:$Principle of the method
 - Since __the items are identical__,
   __each object__ is __distinguished__ only by __the quantity assigned to it__.
   Therefore, by adjusting __the distribution quantity__ using __dividers__,
@@ -785,3 +785,39 @@ $
 
   :::
 ---
+
+## 9.Exponentiation Method with Repeated Elements
+
+### $\textcolor{#1E3A5F}{\fbox{1}}\:$Conditions of application
+- Elements are __distinct__  
+- Objects are __distinct__  
+- Repetition is allowed (__common elements can be reused__)    
+
+### $\textcolor{#1E3A5F}{\fbox{2}}\:$Description of the method
+- The characteristic of __permutation problems with repetition allowed__ is __that elements are the objects of study__,
+  and __their positions aren't constrained__.
+  Each element can be __placed one by one__.
+  In general,
+  the number of ways to __arrange $\boldsymbol{n}$ different elements__ into __$\boldsymbol{m}$ different positions__ is $\boldsymbol{m^n}$.
+
+### $\textcolor{#1E3A5F}{\fbox{3}}\:$Application of the method
+1. There are $\boldsymbol{m^n}$ ways for __$\boldsymbol{n}$ people__ to go into __$\boldsymbol{m}$ different rooms__.
+2. There are $\boldsymbol{m^n}$ ways to put __$\boldsymbol{n}$ different balls__ into __$\boldsymbol{m}$ different boxes__.
+3. There are $\boldsymbol{m^n}$ ways to place __$\boldsymbol{n}$ different letters__ into __$\boldsymbol{m}$ different mailboxes__.
+
+- __Derivation of the $m^n$ exponentiation method__  
+  ::: wrap
+  $
+  \begin{array}{ll}
+  n\textsf{ people} \quad m\textsf{ rooms}: \\
+  \underbrace{C_m^1}_{1\textsf{st person}}\times\underbrace{C_m^1}_{2\textsf{nd person}}\times\underbrace{C_m^1}_{3\textsf{rd person}}\times\cdots\times\underbrace{C_m^1}_{n^\textsf{th}\text{ person}}=m^n \\
+  \end{array}
+  $  
+  :::
+  - Essence: Multiply identical choices, resulting in exponentiation.   
+  - $m^n = \textsf{container}^\textsf{items}$,$m$: shared, common, and reusable.   
+
+## 10.Focus 6
+__The repeated-element exponentiation method__  
+- You need to learn how to apply the formula and understand its usage. __Be careful not to mix up the base and the exponent__.
+
