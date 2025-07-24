@@ -812,7 +812,7 @@ $
   \end{array}
   $  
   :::
-  - Essence: Multiply identical choices, resulting in exponentiation.   
+  - Essence: multiply identical choices, resulting in exponentiation.   
   - $m^n = \textsf{container}^\textsf{items}$, $m$: shared, common, and reusable.   
   - $m$: __number of available options__ (supply).
   - $n$: __number of choosers__ (demand).
@@ -957,11 +957,13 @@ $
 
 ### $\textcolor{#1E3A5F}{\fbox{2}}\:$Introduction to the method
 - Regardless of the number of elements, as long as they're __correctly matched__, there is __only one way__ to do it.
+- For $n$ elements, if __$(n-1)$ elements are correctly matched__, it means __all the elements are correctly matched__.
 - For incorrect matching arrangements, the number of methods is as follows:  
   - __$\boldsymbol{2}$ incorrect matches: $\boldsymbol{1}$ way__.
   - __$\boldsymbol{3}$ incorrect matches: $\boldsymbol{2}$ ways__.
   - __$\boldsymbol{4}$ incorrect matches: $\boldsymbol{9}$ ways__.
   - __$\boldsymbol{5}$ incorrect matches: $\boldsymbol{44}$ ways__.  
+  - $6$ incorrect matches: $265$ ways.
 
   ![Incorrect matches of 2 and 3 elements.svg](../../public/math/Core%20courses/Incorrect%20matches%20of%202%20and%203%20elements.svg)  
 
@@ -1059,3 +1061,60 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{30}\:$There are $\small 6$ teachers, each teaching one of $\small 6$ classes. During the exam, at least two teachers proctor the classes they themselves teach. How many such proctoring arrangements are there $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 170 &
+\textsf{(B)} \: 180 &
+\textsf{(C)} \: 190 &
+\textsf{(D)} \: 191 &
+\textsf{(E)} \: 192 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Show known conditions  
+  ![Question six basic methods figure Q-30 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-30%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  \textsf{at least two teachers} \Longleftrightarrow \ge2 \\
+  \textcolor{#228B22}{\fbox{1}}\:\ge2 & \textsf{direct counting} \\
+  C_6^2\times9 + C_6^3\times2 + C_6^4\times1 + C_6^6 \\
+  \frac{6\times5}{2\times1}\times9 + \frac{\bcancel{6}\times5\times4}{\bcancel{3}\times\bcancel{2}\times1}\times2 + \frac{\bcancel{6}\times5\times\bcancel{4}\times3}{\bcancel{4}\times\bcancel{3}\times\bcancel{2}\times1}\times1 + 1 \\
+  15\times9 + 20\times2 + 15\times1 +1 = 191 \\
+  \textcolor{#228B22}{\fbox{2}}\:\lt2 & \textsf{complementary counting} \\
+  6!-C_6^1\times44-265 \\
+  720-(6\times44)-265=191 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(D)}$  
+  > According to the Solution, get $191$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#introduction-to-the-method-1}{\textsf{all correct matches: 1 ways}} \\
+  & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#introduction-to-the-method-1}{\textsf{2 incorrect matches: 1 ways}} \\
+  & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#introduction-to-the-method-1}{\textsf{3 incorrect matches: 2 ways}} \\
+  & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#introduction-to-the-method-1}{\textsf{4 incorrect matches: 9 ways}} \\
+  & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#introduction-to-the-method-1}{\textsf{5 incorrect matches: 44 ways}} \\
+  & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#introduction-to-the-method-1}{\textsf{6 incorrect matches: 265 ways}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  m! & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+
