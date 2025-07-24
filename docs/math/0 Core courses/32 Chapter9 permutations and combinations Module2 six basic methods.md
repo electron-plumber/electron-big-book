@@ -562,7 +562,7 @@ $
 
 ## 7.Divider Method with Identical Items (Stars and Bars)
 
-### $\textcolor{#1E3A5F}{\fbox{1}}\:$Conditions of application  
+### $\textcolor{#1E3A5F}{\fbox{1}}\:$Conditions for application  
 - Elements are __identical__.
 - Objects are __different__.
 - __Each object is assigned at least one__.
@@ -786,12 +786,12 @@ $
 
 ## 9.Exponentiation Method with Repeated Elements
 
-### $\textcolor{#1E3A5F}{\fbox{1}}\:$Conditions of application
-- Elements are __distinct__  
-- Objects are __distinct__  
-- Repetition is allowed (__common elements can be reused__)    
+### $\textcolor{#1E3A5F}{\fbox{1}}\:$Conditions for application
+- Elements are __distinct__.  
+- Objects are __distinct__.  
+- Repetition is allowed (__common elements can be reused__).
 
-### $\textcolor{#1E3A5F}{\fbox{2}}\:$Description of the method
+### $\textcolor{#1E3A5F}{\fbox{2}}\:$Introduction to the method
 - The characteristic of __permutation problems with repetition allowed__ is __that elements are the objects of study__,
   and __their positions aren't constrained__.
   Each element can be __placed one by one__.
@@ -945,3 +945,22 @@ $
 
   :::
 ---
+
+
+
+## 11.Correct Matching and Incorrect Matching
+
+### $\textcolor{#1E3A5F}{\fbox{1}}\:$Conditions of application
+- Elements are __different__.  
+- Objects are __different__.  
+- There is __a correspondence__ between elements and objects.
+
+### $\textcolor{#1E3A5F}{\fbox{2}}\:$Introduction to the method
+- Regardless of the number of elements, as long as they're __correctly matched__, there is __only one way__ to do it.
+- For incorrect matching arrangements, the number of methods is as follows:  
+  - __$2$ incorrect matches: $1$ way__.
+  - __$3$ incorrect matches: $2$ ways__.
+  - __$4$ incorrect matches: $9$ ways__.
+  - __$5$ incorrect matches: $44$ ways__.  
+
+  ![Incorrect matchings of 2 and 3 elements.svg](../../public/math/Core%20courses/Incorrect%20matchings%20of%202%20and%203%20elements.svg)  
