@@ -1017,3 +1017,45 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{29}\:$There are $\small 6$ teachers, each teaching one of $\small 6$ classes. During the exam, two teachers proctor the classes they themselves teach. How many such proctoring arrangements are there $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 120 &
+\textsf{(B)} \: 130 &
+\textsf{(C)} \: 135 &
+\textsf{(D)} \: 160 &
+\textsf{(E)} \: 180 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Show known conditions  
+  ![Question six basic methods figure Q-29 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-29%20solve-1.svg)   
+
+  $
+  \begin{array}{ll}
+  C_6^2 \times 9=\frac{6\times5}{2\times1}\times9=135 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(C)}$  
+  > According to the Solution, get $C_6^2 \times 9=135$, so choose $C$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#introduction-to-the-method-1}{\textsf{4 incorrect matches: 9 ways}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
