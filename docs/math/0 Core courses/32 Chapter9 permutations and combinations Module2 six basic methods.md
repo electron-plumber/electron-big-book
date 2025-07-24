@@ -958,9 +958,62 @@ $
 ### $\textcolor{#1E3A5F}{\fbox{2}}\:$Introduction to the method
 - Regardless of the number of elements, as long as they're __correctly matched__, there is __only one way__ to do it.
 - For incorrect matching arrangements, the number of methods is as follows:  
-  - __$2$ incorrect matches: $1$ way__.
-  - __$3$ incorrect matches: $2$ ways__.
-  - __$4$ incorrect matches: $9$ ways__.
-  - __$5$ incorrect matches: $44$ ways__.  
+  - __$\boldsymbol{2}$ incorrect matches: $\boldsymbol{1}$ way__.
+  - __$\boldsymbol{3}$ incorrect matches: $\boldsymbol{2}$ ways__.
+  - __$\boldsymbol{4}$ incorrect matches: $\boldsymbol{9}$ ways__.
+  - __$\boldsymbol{5}$ incorrect matches: $\boldsymbol{44}$ ways__.  
 
-  ![Incorrect matchings of 2 and 3 elements.svg](../../public/math/Core%20courses/Incorrect%20matchings%20of%202%20and%203%20elements.svg)  
+  ![Incorrect matches of 2 and 3 elements.svg](../../public/math/Core%20courses/Incorrect%20matches%20of%202%20and%203%20elements.svg)  
+
+
+## 12.Focus 7
+__The correct matching and incorrect matching__  
+- When elements are __correctly matched__, there is __only one way to arrange them__.
+  When they're __incorrectly matched__, you can __memorize the results__:
+  $2$ incorrect matches: $1$ way,
+  $3$ incorrect matches: $2$ ways,
+  __$\boldsymbol{4}$ incorrect matches: $\boldsymbol{9}$ ways__,
+  $5$ incorrect matches: $44$ ways.
+
+
+::: wrap
+### $\fbox{28}\:$There are $\small 5$ balls numbered $\small 1, 2, 3, 4, 5$ and $\small 5$ boxes also numbered $\small 1, 2, 3, 4, 5$. Each ball is to be placed into a box, with exactly one ball placed in the box that has the same number as the ball. Each box must contain exactly one ball. How many such arrangements are there in total $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 20 &
+\textsf{(B)} \: 30 &
+\textsf{(C)} \: 45 &
+\textsf{(D)} \: 60 &
+\textsf{(E)} \: 130 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Show known conditions    
+  ![Question six basic methods figure Q-28 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-28%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  C_5^1 \times 9=45 \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(C)}$  
+  > According to the Solution, get $C_5^1 \times 9=45$, so choose $C$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#introduction-to-the-method-1}{\textsf{4 incorrect matches: 9 ways}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
