@@ -1118,3 +1118,21 @@ $
 ---
 
 
+## 13.Exhaustive Listing Method
+
+### $\textcolor{#1E3A5F}{\fbox{1}}\:$When to use
+- When __elements interfere with each other__ or __can't be directly selected__,
+  use __exhaustive listing__ to solve __the problem based on the requirements of the question__.
+
+### $\textcolor{#1E3A5F}{\fbox{2}}\:$Notes
+- When listing, it's important to __establish a clear reference standard__;
+  otherwise, it's easy to __overcount__ or __undercount__ the possibilities.
+
+
+## 14.Focus 
+__The exhaustive listing method__  
+- When the constraints on the elements make __it impossible to use combinations directly__,
+  you need to list all possible cases __according to the given conditions__.
+  If __direct (positive) listing involves too many cases__,
+  you can solve the problem by __listing the complementary (negative) cases instead__.
+
