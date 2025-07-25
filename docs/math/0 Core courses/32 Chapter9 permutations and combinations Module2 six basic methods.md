@@ -1136,3 +1136,52 @@ __The exhaustive listing method__
   If __direct (positive) listing involves too many cases__,
   you can solve the problem by __listing the complementary (negative) cases instead__.
 
+
+::: wrap
+### $\fbox{31}\:$There are $\small 9$ cards, each labeled with a natural number from $\small 1$ to $\small 9$. How many different ways are there to choose $\small 3$ cards such that the sum of the numbers on them is $\small 9 \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 2 &
+\textsf{(B)} \: 3 &
+\textsf{(C)} \: 4 &
+\textsf{(D)} \: 5 &
+\textsf{(E)} \: 6 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Start by establishing a reference standard the simple case $1$ to solve     
+
+  $
+  \begin{array}{ll}
+  \underbrace{1}_{\Delta}\quad2\quad3\quad4\quad5\quad6\quad7\quad8\quad9 \\
+  1
+  \begin{cases}
+  1+2+6=9 \\
+  1+3+5=9 \\
+  \end{cases} \\
+  2
+  \begin{cases}
+  2+3+4=9 \\
+  \end{cases} \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(B)}$  
+  > According to the Solution, get $3$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#_13-exhaustive-listing-method}{\textsf{exhaustive listing method}} \\
+  \end{array}
+  >$
+
+  :::
+---
