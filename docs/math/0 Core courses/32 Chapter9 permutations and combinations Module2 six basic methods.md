@@ -1185,3 +1185,59 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{32}\:$Using a balance scale and one each of $\small 1$ gram, $\small 3$ grams, and $\small 9$ grams weights (without using any other items as weights), how many different weights can be measured when the weights can only be placed on the same pan $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 4 &
+\textsf{(B)} \: 5 &
+\textsf{(C)} \: 6 &
+\textsf{(D)} \: 7 &
+\textsf{(E)} \: 8 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+- Show know conditions    
+  ![Question six basic methods figure Q-32 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-32%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  1
+  \begin{cases}
+  1\;\textsf{gram} \\
+  3\;\textsf{grams} \\
+  9\;\textsf{grams} \\
+  \end{cases} \\
+  2
+  \begin{cases}
+  1+3 \\
+  1+9 \\
+  3+9 \\
+  \end{cases} \\
+  3
+  \begin{cases}
+  1+3+9
+  \end{cases} \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(D)}$  
+  > According to the Solution, get $7$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#_13-exhaustive-listing-method}{\textsf{exhaustive listing method}} \\
+  \end{array}
+  >$
+
+  :::
+---
