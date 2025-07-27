@@ -3,12 +3,6 @@ title: Chapter9 permutations and combinations Module2 six basic methods
 lang: en-US
 ---
 
-| Platforms   | Courses                                                                                                      | Coursewares                                                       |
-|-------------|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| YouTube     | [Watch](https://www.youtube.com/watch?v=AL5zf-Li0KE&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s)                 | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
-| Dailymotion | [Watch](https://www.dailymotion.com/video/x9gsuma?playlist=x9h6d2)                                           |                                                                   |
-| Rumble      | [Watch](https://rumble.com/v6s95i9-32-chapter9-permutations-and-combinations-module2-six-basic-methods.html) |                                                                   |
-
 
 # Module 9–02 Six Basic Methods
 
@@ -1156,12 +1150,12 @@ $
   $
   \begin{array}{ll}
   \underbrace{1}_{\Delta}\quad2\quad3\quad4\quad5\quad6\quad7\quad8\quad9 \\
-  1
+  \textsf{contains number }1
   \begin{cases}
   1+2+6=9 \\
   1+3+5=9 \\
   \end{cases} \\
-  2
+  \textsf{contains number }2
   \begin{cases}
   2+3+4=9 \\
   \end{cases} \\
@@ -1205,19 +1199,20 @@ $
 
   $
   \begin{array}{ll}
-  1
+  1\;\textsf{gram} \quad 3\;\textsf{grams} \quad 9\;\textsf{grams} \\
+  \textsf{choose }1\textsf{ item to combine}
   \begin{cases}
-  1\;\textsf{gram} \\
-  3\;\textsf{grams} \\
-  9\;\textsf{grams} \\
+  1 \\
+  3 \\
+  9 \\
   \end{cases} \\
-  2
+  \textsf{choose }2\textsf{ items to combine}
   \begin{cases}
   1+3 \\
   1+9 \\
   3+9 \\
   \end{cases} \\
-  3
+  \textsf{choose }3\textsf{ items to combine}
   \begin{cases}
   1+3+9
   \end{cases} \\
@@ -1259,22 +1254,23 @@ $
 $
 \begin{array}{ll}
 \textsf{exact change only} \\
-5
+5 \quad [2, 2, 2, 2] \quad [1, 1, 1, 1, 1, 1, 1, 1] \\
+\textsf{choose }3\textsf{ items to combine — sum=8}
 \begin{cases}
 5+2+1 \\
-5+1+1+1 \\
-\end{cases} & [5,2,1] \\
-2
+\end{cases} \\
+\textsf{choose }2\textsf{ items to combine — sum=8}
 \begin{cases}
-2+2+2+2 \\
+5+1+1+1 \\
 2+2+2+1+1 \\
 2+2+1+1+1+1 \\
 2+1+1+1+1+1+1 \\
-\end{cases} & [2,1] \\
-1
+\end{cases} \\
+\textsf{choose }1\textsf{ item to combine — sum=8}
 \begin{cases}
+2+2+2+2 \\
 1+1+1+1+1+1+1+1 \\
-\end{cases} & [1] \\
+\end{cases} \\
 \end{array}
 $  
 :::  
@@ -1295,3 +1291,70 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{34}\:$Using 10-cent, 20-cent, and 50-cent coins (with no limit on the number of each coin), how many different ways can you make $\small 1$ dollar $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 5 &
+\textsf{(B)} \: 6 &
+\textsf{(C)} \: 7 &
+\textsf{(D)} \: 8 &
+\textsf{(E)} \: 10 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+\textsf{number of each type of coin is unlimited} \\
+\textsf{10-cent} = 0.1 \textsf{ USD} \\
+\textsf{20-cent} = 0.2 \textsf{ USD} \\
+\textsf{50-cent} = 0.5 \textsf{ USD} \\
+\textsf{choose }1\textsf{ item to combine — sum=1}
+\begin{cases}
+0.1 \times 10 \\
+0.2 \times 5 \\
+0.5 \times 2 \\
+\end{cases} \\
+\textsf{choose }2\textsf{ items to combine — sum=1}
+\begin{cases}
+0.1\times2+0.2\times4 \\
+0.1\times4+0.2\times3 \\
+0.1\times5+0.5 \\
+0.1\times6+0.2\times2 \\
+0.1\times8+0.2 \\
+\end{cases} \\
+\textsf{choose }3\textsf{ items to combine — sum=1}
+\begin{cases}
+0.5+0.2\times2+0.1 \\
+0.5+0.2+0.1\times3 \\
+\end{cases} \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(E)}$  
+  > According to the Solution, get $10$, so choose $E$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#_13-exhaustive-listing-method}{\textsf{exhaustive listing method}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+| Platforms   | Courses                                                                                                      | Coursewares                                                       |
+|-------------|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| YouTube     | [Watch](https://www.youtube.com/watch?v=AL5zf-Li0KE&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s)                 | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
+| Dailymotion | [Watch](https://www.dailymotion.com/video/x9gsuma?playlist=x9h6d2)                                           |                                                                   |
+| Rumble      | [Watch](https://rumble.com/v6s95i9-32-chapter9-permutations-and-combinations-module2-six-basic-methods.html) |                                                                   |
+
