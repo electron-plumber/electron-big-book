@@ -1241,3 +1241,57 @@ $
 
   :::
 ---
+
+::: wrap
+### $\fbox{33}\:$Mike has $\small 1$ five-dollar bill, $\small 4$ two-dollar bills, and $\small 8$ one-dollar bills. Now, he wants to buy an 8-dollar novel. How many different ways can he pay $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 4 &
+\textsf{(B)} \: 5 &
+\textsf{(C)} \: 6 &
+\textsf{(D)} \: 7 &
+\textsf{(E)} \: 8 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+\textsf{exact change only} \\
+5
+\begin{cases}
+5+2+1 \\
+5+1+1+1 \\
+\end{cases} & [5,2,1] \\
+2
+\begin{cases}
+2+2+2+2 \\
+2+2+2+1+1 \\
+2+2+1+1+1+1 \\
+2+1+1+1+1+1+1 \\
+\end{cases} & [2,1] \\
+1
+\begin{cases}
+1+1+1+1+1+1+1+1 \\
+\end{cases} & [1] \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(D)}$  
+  > According to the Solution, get $7$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  & \href{/math/0%20Core%20courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20basic%20methods.html#_13-exhaustive-listing-method}{\textsf{exhaustive listing method}} \\
+  \end{array}
+  >$
+
+  :::
+---
