@@ -24,13 +24,13 @@ lang: en-US
 - Event = Experiment + Specified outcome  
   - $=$ Specified outcome: occurrence (success)  
   - $\ne$ Specified outcome: non-occurrence (failure)  
-    - $\lt \lor \gt$ Specified outcome: non-occurrence (Failure)
+    - $\lt \lor \gt$ Specified outcome: non-occurrence (failure)
 
 ## 3. Basic event, certain event, impossible event
 - __A single-point set composed of one sample point__ is called __a basic event__,
   also known as __a sample point__.
   __The sample space contains all sample points__.
-- An event that always occurs in every trial is called __a certain event__.
+- ###### An event that always occurs in every trial is called __a certain event__.
 - An event that never occurs in any trial is called __an impossible event__. denoted as $\varnothing$.
 - Note: Every possible outcome (event $A$) that may occur in a single trial is called __a basic event__.
   These three types of events __occur under certain conditions__,
@@ -67,3 +67,52 @@ lang: en-US
   while __the numerator__,
   representing __the favorable outcomes__,
   is often __more challenging to determine__.
+
+## 9.Focus 1
+__The basic concepts__
+- Analyze based on __the definition of events__,
+  especially since __the certain event__ and __the impossible event__ are __two special cases__.
+
+
+::: wrap
+### $\fbox{1}\:$Which of the following events is a certain event $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: \textsf{turning on the tv, and it is broadcasting an advertisement} & \\
+\textsf{(B)} \: \textsf{opening the math book, and landing exactly on page }50 & \\
+\textsf{(C)} \: \textsf{tossing a fair coin, and it's landing heads up} & \\
+\textsf{(D)} \: \textsf{a day has }24\textsf{ hours} & \\
+\textsf{(E)} \: \textsf{winning the lottery} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+(\textsf{A}) \: \textsf{random event} & ❌\;\\
+(\textsf{B}) \: \textsf{random event} & ❌\;\\
+(\textsf{C}) \: \textsf{random event} & ❌\;\\
+(\textsf{D}) \: \textsf{certain event} & ✅\;\\
+(\textsf{E}) \: \textsf{random event} & ❌\;\\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(D)}$  
+  > According to the Solution, get $\textsf{certain event}\;✅\;$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#an-event-that-always-occurs-in-every-trial-is-called-a-certain-event}{\textsf{certain event}} \\
+  & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#_2-random-event}{\textsf{random event}} \\
+  \end{array}
+  >$
+
+  :::
+---
