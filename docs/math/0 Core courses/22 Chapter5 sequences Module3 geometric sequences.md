@@ -575,7 +575,7 @@ $
   (\text{3}) \: S_n=2n-1 & 2n-1 \,\text{is not the } q^n \,\text{exponential} \; ❌\\
   (\text{4}) \: S_n=2^n & \text{There is no constant term after }2^n \; ❌\\
   (\text{5}) \: S_n=2^n-1 & \boxed{1-1 \cdot 2^n} \; q=2 \; ✅\\
-  (\text{6}) \: S_n=2^n+1 & \text{Does not satisfy } k-k=0 \; ❌\\
+  (\text{6}) \: S_n=2^n+1 & \text{Doesn't satisfy } k-k=0 \; ❌\\
   (\text{7}) \: S_n=3(2^n-1) & \boxed{3-3 \cdot 2^n} \; q=2 \; ✅\\
   \end{array}
   $  
