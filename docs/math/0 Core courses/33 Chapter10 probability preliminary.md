@@ -31,7 +31,7 @@ lang: en-US
   also known as __a sample point__.
   __The sample space contains all sample points__.
 - ###### An event that always occurs in every trial is called __a certain event__.
-- An event that never occurs in any trial is called __an impossible event__. denoted as $\varnothing$.
+- ###### An event that never occurs in any trial is called __an impossible event__. denoted as $\varnothing$.
 - Note: Every possible outcome (event $A$) that may occur in a single trial is called __a basic event__.
   These three types of events __occur under certain conditions__,
   and when __the conditions change__,
@@ -102,7 +102,7 @@ $
 - Derived Solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the Solution, get $\textsf{certain event}\;✅\;$, so choose $D$. 
+  > According to the Solution, get $D\;✅\;$, so choose $D$. 
 
   :::
 - Formula used  
@@ -110,6 +110,50 @@ $
   >$
   \begin{array}{ll}
   & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#an-event-that-always-occurs-in-every-trial-is-called-a-certain-event}{\textsf{certain event}} \\
+  & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#_2-random-event}{\textsf{random event}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+::: wrap
+### $\fbox{2}\:$Which of the following events is an impossible event $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: \textsf{tossing a fair coin twice, and getting at least one tails} & \\
+\textsf{(B)} \: \textsf{it will snow in cupertino this winter} & \\
+\textsf{(C)} \: \textsf{tossing two fair dice, and the sum of the numbers on top being }1 & \\
+\textsf{(D)} \: \textsf{a spinner is divided into }6\textsf{ sections, arranged as red, white, white, red, red, white.} \\
+\quad\;\;\, \textsf{the pointer stops on the red section} & \\
+\textsf{(E)} \: \textsf{a flight from sonoma to cupertino will be delayed} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+(\textsf{A}) \: \textsf{random event} & ❌\;\\
+(\textsf{B}) \: \textsf{random event} & ❌\;\\
+(\textsf{C}) \: \textsf{impossible event} & ✅\;\\
+(\textsf{D}) \: \textsf{random event} & ❌\;\\
+(\textsf{E}) \: \textsf{random event} & ❌\;\\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(C)}$  
+  > According to the Solution, get $C\;✅\;$, so choose $C$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#an-event-that-never-occurs-in-any-trial-is-called-an-impossible-event-denoted-as}{\textsf{impossible event}} \\
   & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#_2-random-event}{\textsf{random event}} \\
   \end{array}
   >$
