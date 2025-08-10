@@ -7,5 +7,63 @@ lang: en-US
 |-------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
 | YouTube     | [Watch](https://www.youtube.com/watch?v=Taex9rTMDq8&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s) | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
 | Dailymotion | [Watch](https://www.dailymotion.com/video/x9gsuai?playlist=x9h6d2)                           |                                                                   |
-| Rumble      | [Watch](https://rumble.com/v6s95id-33-chapter10-probability-preliminary.html)                                    |                                                                   |
+| Rumble      | [Watch](https://rumble.com/v6s95id-33-chapter10-probability-preliminary.html)                |                                                                   |
 
+
+# Module 10–01 Classical Probability Model
+
+## 1.Random experiment
+- If an experiment satisfies the following conditions:  
+  __(1)__ The experiment can be __repeated__ under the same conditions;  
+  __(2)__ The experiment __has many possible outcomes__;  
+  __(3)__ The result of the experiment __cannot be determined in advance__, only __the set of all possible outcomes is known__.  
+- Such an experiment is called a random experiment, abbreviated as $E$.
+
+## 2. Random event
+- An event __that may or may not occur__ under certain conditions is called __a random event__. It is commonly denoted as $\boldsymbol{A, B, C},\cdots$.
+- Event = Experiment + Specified outcome  
+  - $=$ Specified outcome: occurrence (success)  
+  - $\ne$ Specified outcome: non-occurrence (failure)  
+    - $\lt \lor \gt$ Specified outcome: non-occurrence (Failure)
+
+## 3. Basic event, certain event, impossible event
+- __A single-point set composed of one sample point__ is called __a basic event__,
+  also known as __a sample point__.
+  __The sample space contains all sample points__.
+- An event that always occurs in every trial is called __a certain event__.
+- An event that never occurs in any trial is called __an impossible event__. denoted as $\varnothing$.
+- Note: Every possible outcome (event $A$) that may occur in a single trial is called __a basic event__.
+  These three types of events __occur under certain conditions__,
+  and when __the conditions change__,
+  __the nature of the event may also change__.
+
+
+## 4. Definition of probability
+- __The measure of the likelihood__ of a random event $A$ occurring is called __the probability of event $\boldsymbol{A}$__,
+  denoted as $\boldsymbol{P(A)}$.
+
+
+## 5. Properties of probability
+- Let $A_1,A_2,\cdots,A_n$ be a finite set of __mutually exclusive events__, then $\boldsymbol{P(\bigcup_{i=1}^n A_i)=\sum_{i=1}^{n}P(A_i)}$.
+- Let $\overline{A}$ be the complement of event $A$, then $\boldsymbol{P(\overline{A})=1-P(A)}$.
+
+
+## 6. Classical probability model
+- A random experiment $E$ has the following two characteristics:   
+  __(1)__ The elements of the sample space (i.e., basic events) are __finite in number__ (__countable__);   
+  __(2)__ Each basic event has __an equal probability of occurring__ (__fair__).    
+- Such an experiment is called a classical probability experiment.  
+
+## 7. Calculation formula
+- In __the classical probability model__, the probability of event $A$ is defined as    
+  $P(A)=\frac{k=\textsf{number of basic events contained in event }A}{n=\textsf{total number of basic events in the sample space}}$
+
+## 8. Understanding
+- For classical probability,
+  it is necessary to use permutations and combinations to calculate __the number of cases for both the numerator and the denominator__,
+  and then __express the probability as a ratio__.
+  __The denominator__ in a classical probability model corresponds to __the total number of possible outcomes__,
+  which is __relatively easy to calculate__,
+  while __the numerator__,
+  representing __the favorable outcomes__,
+  is often __more challenging to determine__.
