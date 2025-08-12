@@ -348,3 +348,67 @@ $
 
   :::  
 ---
+
+::: wrap
+### $\fbox{6}\:$From $\small 10$ balls numbered $\small 1,2,\cdots,10$, all the same size, $\small 4$ balls are drawn at random. What is the probability that the largest number among the $\small 4$ balls is $\small 6\,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: \frac{1}{84} &
+\textsf{(B)} \: \frac{3}{5} &
+\textsf{(C)} \: \frac{2}{5} &
+\textsf{(D)} \: \frac{1}{21} &
+\textsf{(E)} \: \frac{1}{20} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+\textsf{largest number is }6
+\begin{cases}
+6 \\
+1\sim5 \\
+\end{cases} \\
+4\textsf{ balls taken} - 1\textsf{ ball numbered 6} = 3\textsf{ balls} \\
+P=\frac{C_5^3}{C_{10}^4}=\frac{\frac{5\times\bcancel{4}\times\bcancel{3}}{\bcancel{3}\times\bcancel{2}\times1}}{\frac{10\times\bcancel{9}\times\bcancel{8}\times7}{\bcancel{4}\times\bcancel{3}\times\bcancel{2}\times1}}\frac{\bcancel{5}\times\bcancel{2}}{\bcancel{10}\times3\times7}=\frac{1}{21} \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(D)}$  
+  > According to the Solution, get $P=\frac{1}{21}$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap  
+  >$
+  \begin{array}{ll}
+  & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#_11-sampling-with-numbered-samples}{\textsf{sampling with numbers enumeration method}} \\
+  P(A) = \frac{k}{n} & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#_7-calculation-formula}{\textsf{classical probability model formula}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  \end{array}
+  >$
+
+  :::
+- Rules for when the largest or smallest number is $k$  
+  ::: wrap  
+  >$
+  \begin{array}{ll}
+  \textsf{largest number is }k
+  \begin{cases}
+  k\textsf{ must be included} \\
+  \textsf{all others are less than }k \\
+  \end{cases} \\
+  \textsf{smallest number is }k
+  \begin{cases}
+  k\textsf{ must be included} \\
+  \textsf{all others are greater than }k \\
+  \end{cases} \\
+  \end{array}
+  >$
+
+  :::  
+---
