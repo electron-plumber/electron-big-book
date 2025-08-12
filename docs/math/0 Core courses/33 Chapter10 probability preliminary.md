@@ -274,3 +274,77 @@ $
 
   :::
 ---
+
+## 14.Focus 4
+__The sampling with numbers__   
+- When dealing with __numbered sampling__,
+  it often involves operations with __numbers__,
+  which can be analyzed using __enumeration methods__.
+
+
+::: wrap
+### $\fbox{5}\:$A bag contains eight balls, each with a distinct number: $1,2,3,4,5,6,7,8$. One ball is drawn from the bag each time with replacement, and two draws are made. What is the probability that the sum of the numbers on the two drawn balls is at least $\small 15\,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: \frac{1}{32} &
+\textsf{(B)} \: \frac{1}{64} &
+\textsf{(C)} \: \frac{2}{32} &
+\textsf{(D)} \: \frac{3}{64} &
+\textsf{(E)} \: \frac{5}{64} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+\ge15\Longleftrightarrow\textsf{at least 15} \\
+?+?\ge15 & \textsf{with replacement} \\
+\begin{cases}
+7+8=15 \\
+8+7=15 \\
+8+8=16 \\
+\end{cases} \\
+P=\frac{3}{C_8^1C_8^1}=\frac{3}{8\times8}=\frac{3}{64} \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(D)}$  
+  > According to the Solution, get $P=\frac{3}{64}$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#_11-sampling-with-numbered-samples}{\textsf{sampling with numbers enumeration method}} \\
+  & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#sequential-sampling-by-default-one-element-is-taken-each-time}{\textsf{sequential sampling}} \\
+  P(A) = \frac{k}{n} & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#_7-calculation-formula}{\textsf{classical probability model formula}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  \end{array}
+  >$
+
+  :::
+- Additionally, if the problem is sequential sampling without replacement or single sampling     
+  ::: wrap  
+  >$
+  \begin{array}{ll}
+  ?+?\ge15 & \textsf{without replacement} \\
+  \begin{cases}
+  7+8=15 \\
+  8+7=15 \\
+  \end{cases} \\
+  P=\frac{2}{C_8^1C_7^1}=\frac{2}{8\times7}=\frac{2}{56}=\frac{1}{28} \\
+  ?+?\ge15 & \textsf{single sampling} \\
+  \begin{cases}
+  7+8=15 \lor 8+7=15 \\
+  \end{cases} \\
+  P=\frac{1}{C_8^2}=\frac{1}{\frac{\bcancel{8}\times7}{\bcancel{2}\times1}}=\frac{1}{4\times7}=\frac{1}{28} \\
+  \end{array}
+  >$
+
+  :::  
+---
