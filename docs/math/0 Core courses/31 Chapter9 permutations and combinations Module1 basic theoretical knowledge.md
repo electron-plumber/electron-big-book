@@ -436,7 +436,7 @@ It is denoted as $\boldsymbol{C_n^m}$.
   - ###### __Formula for the number of combinations__: $C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1}=\frac{n!}{m!(n-m)!}=\boldsymbol{\frac{A_n^m}{m!}}$.
     - $n$: total number of available items (supply).
     - $m$: number of elements to choose (demand, order doesn't matter).   
-    - One permutation when all or none are selected: $C_n^0=C_n^n=1$.
+    - one permutation when all or none are selected: $C_n^0=C_n^n=1$.
     - Example:  
       $
       \begin{array}{ll}

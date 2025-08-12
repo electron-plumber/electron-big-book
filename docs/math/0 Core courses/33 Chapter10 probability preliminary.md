@@ -412,3 +412,34 @@ $
 
   :::  
 ---
+
+# Module 10–02 Independent Events
+
+## 1.Concept of Independent Events
+- If the occurrence of either of two events __doesn't affect the probability of the other__,
+  then __these two events are said to be independent__.  
+
+## 2.Mathematical Definition
+- If $\boldsymbol{P(AB)=P(A)P(B)}$, then events $A$ and $B$ are __said to be independent__.
+
+## 3.Understanding
+- The probability of independent events __occurring simultaneously__ is __the product of the probabilities of each event occurring__.  
+- __Example__   
+  $
+  \begin{array}{ll}
+  A: 0.8 \quad B: 0.9 \\
+  0.8\times0.9=0.72 & \textsf{both }A\textsf{ and }B\textsf{ succeed} \\
+  \end{array}
+  $
+
+## 4.Common Conclusions
+- If events $A_1,A_2,\cdots,A_n$ are __mutually independent__,
+  then __the probability that all $\boldsymbol{n}$ events occur__ is the product of their individual probabilities:
+  $P(A_1A_2 \cdots A_n)=P(A_1) \cdot P(A_2)\boldsymbol{\cdot}\cdots\boldsymbol{\cdot}P(A_n)$.
+- If events $A_1,A_2,\cdots,A_n$ are __mutually independent__,
+  then __the probability that none of them occur__ is the product of their individual non-occurrence probabilities:
+  $P(\overline{A_1}\:\overline{A_2} \cdots \overline{A_n})=P(\overline{A_1}) \cdot P(\overline{A_2})\boldsymbol{\cdot}\cdots\boldsymbol{\cdot}P(\overline{A_n})$.
+- If events $A_1,A_2,\cdots,A_n$ are __mutually independent__,
+  then __the probability that at least one of them occurs__ can be found __using the complement rule__.
+  It equals __$\boldsymbol{1}$ minus the product of the probabilities that none of them occur__:
+  $P(A_1+A_2+\cdots+A_n)=1-P(\overline{A_1}) \cdot P(\overline{A_2})\boldsymbol{\cdot}\cdots\boldsymbol{\cdot}P(\overline{A_n})$.
