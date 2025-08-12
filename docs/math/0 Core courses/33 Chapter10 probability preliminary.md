@@ -44,7 +44,7 @@ lang: en-US
 
 
 ## 5. Properties of Probability
-- Let $A_1,A_2,\cdots,A_n$ be a finite set of __mutually exclusive events__, then $\boldsymbol{P(\bigcup_{i=1}^n A_i)=\sum_{i=1}^{n}P(A_i)}$.
+- ###### Let $A_1,A_2,\cdots,A_n$ be a finite set of __mutually exclusive events__, then $\boldsymbol{P(\bigcup_{i=1}^n A_i)=\sum_{i=1}^{n}P(A_i)}$.
 - ###### Let $\overline{A}$ be the complement of event $A$, then $\boldsymbol{P(\overline{A})=1-P(A)}$.
 
 
@@ -221,4 +221,56 @@ $
 
   :::
 - Note: for probability problems, it is assumed that the samples are distinct by default.    
+---
+
+## 13.Focus 3
+__The ball drawing score__  
+- Discuss __the situation of the drawn samples__ based on __the score__ and then write __the probability expression__.
+
+
+::: wrap
+### $\fbox{4}\:$A bag contains $\small 6$ red balls and $\small 4$ black balls. Four balls are randomly drawn from the bag. If drawing a red ball scores $\small 2$ points and drawing a black ball scores $\small 1$ point, what is the probability that the total score is no more than $\small 6$ points $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: \frac{23}{42} &
+\textsf{(B)} \: \frac{4}{7} &
+\textsf{(C)} \: \frac{25}{42} &
+\textsf{(D)} \: \frac{13}{21} &
+\textsf{(E)} \: \frac{11}{21} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+\le6\Longleftrightarrow\textsf{no more than 6 points} \\
+\begin{cases}
+4\textsf{ black balls}: 4\textsf{ points} \\
+3\textsf{ black} + 1\textsf{ red ball}: 5\textsf{ points} \\
+2\textsf{ black} + 2\textsf{ red balls}: 6\textsf{ points} \\
+\end{cases} \\
+P=\frac{C_4^4+C_4^3C_6^1+C_4^2C_6^2}{C_{10}^{4}} \\
+\frac{1+\frac{4\times\bcancel{3}\times\bcancel{2}}{\bcancel{3}\times\bcancel{2}\times1}\cdot6+\frac{\bcancel{4}\times3}{\bcancel{2}\times1}\cdot\frac{\bcancel{6}\times5}{\bcancel{2}\times1}}{\frac{10\times\bcancel{9}\times\bcancel{8}\times7}{\bcancel{4}\times\bcancel{3}\times\bcancel{2}\times1}}=\frac{1+4\times6+\frac{2\times3}{1}\times\frac{3\times5}{1}}{\frac{10\times3\times7}{1}}=\frac{115}{210}=\frac{23}{42} \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(A)}$  
+  > According to the Solution, get $P=\frac{23}{42}$, so choose $A$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  P(\bigcup_{i=1}^n A_i) & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#let-be-a-finite-set-of-mutually-exclusive-events-then}{\textsf{union of disjoint events}} \\
+  P(A) = \frac{k}{n} & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#_7-calculation-formula}{\textsf{classical probability model formula}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  \end{array}
+  >$
+
+  :::
 ---
