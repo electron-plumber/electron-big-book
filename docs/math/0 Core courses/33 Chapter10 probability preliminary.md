@@ -498,7 +498,7 @@ __The template for three independent events__
 - The probabilities of success for $A,B$, and $C$ are $P_1,P_2$, and $P_3$, respectively:  
   __(1)__ The probability __that all three succeed__: $P_1 \cdot P_2 \cdot P_3$;  
   __(2)__ The probability __that none succeed__: $(1-P_1) \cdot (1-P_2) \cdot (1-P_3)$;  
-  __(3)__ The probability __that at least one succeeds__: $1-(1-P_1) \cdot (1-P_2) \cdot（1-P_3)$;  
+  ###### __(3)__ The probability __that at least one succeeds__: $1-(1-P_1) \cdot (1-P_2) \cdot (1-P_3)$;  
   __(4)__ The probability __that exactly two succeed__: $P_1 \cdot P_2 \cdot (1-P_3) + P_1 \cdot (1-P_2) \cdot P_3 + (1-P_1) \cdot P_2 \cdot P_3$;  
   ###### __(5)__ The probability __that at most two succeed__: $1-P_1 \cdot P_2 \cdot P_3$.  
 
@@ -601,3 +601,99 @@ $
   :::
 ---
 
+::: wrap
+### $\fbox{10}\:$An archives building is equipped with three smoke detectors, whose probabilities of triggering an alarm when there is smoke or fire are $0.9,0.8$, and $0.7$, respectively. If smoke or fire occurs, what is the probability that an alarm will be triggered $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 0.996 &
+\textsf{(B)} \: 0.995 &
+\textsf{(C)} \: 0.994 &
+\textsf{(D)} \: 0.96 &
+\textsf{(E)} \: 0.94 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+P=1-(1-0.9)\times(1-0.8)\times(1-0.7) & \textsf{at least one success} \\
+1-0.1\times0.2\times0.3=1-0.006=0.994 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(C)}$  
+  > According to the Solution, get $P=0.994$, so choose $C$.  
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  1-(1-P_1) \cdot (1-P_2) \cdot (1-P_3) & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#_3-the-probability-that-at-least-one-succeeds}{\textsf{complementary probability}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+::: wrap
+### $\fbox{11}\:$There are two anti-aircraft guns, each with a probability of $\small 0.6$ of hitting an airplane.
+#### (1) What is the probability that the airplane will be hit if both guns fire one shell simultaneously $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 0.64 &
+\textsf{(B)} \: 0.72 &
+\textsf{(C)} \: 0.82 &
+\textsf{(D)} \: 0.84 &
+\textsf{(E)} \: 0.86 & \\
+\end{array}
+$
+#### (2) If an enemy aircraft intrudes, and we require at least a $\small 99\%$ probability of hitting it, what is the minimum number of anti-aircraft guns needed $\small \,\mathpunct{?}\,(2^{10}=1024)$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 4 &
+\textsf{(B)} \: 5 &
+\textsf{(C)} \: 6 &
+\textsf{(D)} \: 7 &
+\textsf{(E)} \: 8 & \\
+\end{array}
+$
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+(1)\;P_1=1-(1-0.6)\times(1-0.6) \\
+1-0.4\times0.4=1-0.16=0.84 \\
+(2)\;P_2=1-(1-0.6)^n \ge 0.99 & \textsf{let }n\textsf{ number of aa guns required} \\
+1-0.4^n \ge 0.99 \\
+-0.4^n \ge 0.99-1 \\
+-0.4^n \ge -0.01 \\
+0.4^n \le 0.01 \\
+2^{10}=4^5=1024 \\
+0.4^5=0.01024 \gt 0.01 \Longrightarrow n\ge6
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(D)}$  
+  > $\boldsymbol{(C)}$  
+  > According to the Solution, get $P_1=0.84,n\ge6$, so choose $(1)\rightarrow D,(2)\rightarrow C$.
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  1-(1-P_1) \cdot (1-P_2) & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#_3-the-probability-that-at-least-one-of-or-succeeds}{\textsf{complementary probability}} \\
+  \end{array}
+  >$
+
+  :::
+---
