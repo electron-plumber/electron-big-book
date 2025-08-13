@@ -443,3 +443,53 @@ $
   then __the probability that at least one of them occurs__ can be found __using the complement rule__.
   It equals __$\boldsymbol{1}$ minus the product of the probabilities that none of them occur__:
   $P(A_1+A_2+\cdots+A_n)=1-P(\overline{A_1}) \cdot P(\overline{A_2})\boldsymbol{\cdot}\cdots\boldsymbol{\cdot}P(\overline{A_n})$.
+
+
+## 5.Focus 1
+__The template for two independent events__  
+- The probabilities of $A$ and $B$ being successful are $P_1$ and $P_2$, respectively:   
+  __(1)__ The probability __that both $\boldsymbol{A}$ and $\boldsymbol{B}$ succeed__: $P_1 \cdot P_2$;  
+  __(2)__ The probability __that neither $\boldsymbol{A}$ nor $\boldsymbol{B}$ succeeds__: $(1-P_1)\cdot(1-P_2)$;  
+  __(3)__ The probability __that at least one of $\boldsymbol{A}$ or $\boldsymbol{B}$ succeeds__: $1-(1-P_1)\cdot(1-P_2)$;   
+  ###### __(4)__ The probability __that exactly one of $\boldsymbol{A}$ or $\boldsymbol{B}$ succeeds__: $P_1 \cdot (1-P_2)+(1-P_1) \cdot P_2$.  
+
+
+::: wrap
+### $\fbox{7}\:\small A$ and $\small B$ participate in a basketball shooting game. Given that the probabilities of $\small A$ and $\small B$ making a shot are $\small 0.6$ and $\small 0.75$ respectively, if $\small A$ and $\small B$ each take one shot, what is the probability that exactly one of them makes the shot $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 0.4 &
+\textsf{(B)} \: 0.45 &
+\textsf{(C)} \: 0.5 &
+\textsf{(D)} \: 0.55 &
+\textsf{(E)} \: 0.65 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+P=0.6\times(1-0.75)+(1-0.6)\times0.75 \\
+0.6\times0.25+0.4\times0.75=0.15+0.30=0.45 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(B)}$  
+  > According to the Solution, get $P=0.45$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  P_1 \cdot (1-P_2)+(1-P_1) \cdot P_2 & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#_4-the-probability-that-exactly-one-of-or-succeeds}{\textsf{exactly-one probability}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
