@@ -447,10 +447,10 @@ $
 
 ## 5.Focus 1
 __The template for two independent events__  
-- The probabilities of $A$ and $B$ being successful are $P_1$ and $P_2$, respectively:   
+- The probabilities of success for $A$ and $B$ are $P_1$ and $P_2$, respectively:   
   __(1)__ The probability __that both $\boldsymbol{A}$ and $\boldsymbol{B}$ succeed__: $P_1 \cdot P_2$;  
   __(2)__ The probability __that neither $\boldsymbol{A}$ nor $\boldsymbol{B}$ succeeds__: $(1-P_1)\cdot(1-P_2)$;  
-  __(3)__ The probability __that at least one of $\boldsymbol{A}$ or $\boldsymbol{B}$ succeeds__: $1-(1-P_1)\cdot(1-P_2)$;   
+  ###### __(3)__ The probability __that at least one of $\boldsymbol{A}$ or $\boldsymbol{B}$ succeeds__: $1-(1-P_1)\cdot(1-P_2)$;   
   ###### __(4)__ The probability __that exactly one of $\boldsymbol{A}$ or $\boldsymbol{B}$ succeeds__: $P_1 \cdot (1-P_2)+(1-P_1) \cdot P_2$.  
 
 
@@ -487,6 +487,114 @@ $
   >$
   \begin{array}{ll}
   P_1 \cdot (1-P_2)+(1-P_1) \cdot P_2 & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#_4-the-probability-that-exactly-one-of-or-succeeds}{\textsf{exactly-one probability}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+## 6.Focus 2
+__The template for three independent events__  
+- The probabilities of success for $A,B$, and $C$ are $P_1,P_2$, and $P_3$, respectively:  
+  __(1)__ The probability __that all three succeed__: $P_1 \cdot P_2 \cdot P_3$;  
+  __(2)__ The probability __that none succeed__: $(1-P_1) \cdot (1-P_2) \cdot (1-P_3)$;  
+  __(3)__ The probability __that at least one succeeds__: $1-(1-P_1) \cdot (1-P_2) \cdot（1-P_3)$;  
+  __(4)__ The probability __that exactly two succeed__: $P_1 \cdot P_2 \cdot (1-P_3) + P_1 \cdot (1-P_2) \cdot P_3 + (1-P_1) \cdot P_2 \cdot P_3$;  
+  ###### __(5)__ The probability __that at most two succeed__: $1-P_1 \cdot P_2 \cdot P_3$.  
+
+
+::: wrap
+### $\fbox{8}\:$In a set-point shooting contest involving $A,B$, and $C$, the shooting accuracies are $0.9,0.8$, and $0.7$, respectively. Each person shoots once. What is the probability that at most two of them make the shot $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 0.456 &
+\textsf{(B)} \: 0.496 &
+\textsf{(C)} \: 0.516 &
+\textsf{(D)} \: 0.528 &
+\textsf{(E)} \: 0.542 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+P=1-0.9\times0.8\times0.7=1-0.504=0.496 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(B)}$  
+  > According to the Solution, get $P=0.496$, so choose $B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  1-P_1 \cdot P_2 \cdot P_3 & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#_5-the-probability-that-at-most-two-succeed}{\textsf{complementary probability}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+## 7.Focus 3
+__The implicit "at least one" template__  
+- In problems involving __code-breaking__, __fire alarms__, __hitting enemy aircraft__, or __winning a prize__,
+  the statement may not explicitly say __at least one__, but it is __implied__.
+  In such cases, the problem should be solved __using the complement approach__.
+
+::: wrap
+### $\fbox{9}\:$A department assigns $\small A$ and $\small B$ to decrypt a code. Whether each can decrypt the code is independent. The probabilities that $\small A$ and $\small B$ can independently decrypt the code are $\small \frac{1}{3}$ and $\small \frac{1}{4}$, respectively.
+#### (1) What is the probability that exactly one of them decrypts the code $\small \,\mathpunct{?}$.  
+$
+\begin{array}{lllll}
+\textsf{(A)} \: \frac{1}{6} &
+\textsf{(B)} \: \frac{1}{4} &
+\textsf{(C)} \: \frac{1}{5} &
+\textsf{(D)} \: \frac{5}{12} &
+\textsf{(E)} \: \frac{7}{12} & \\
+\end{array}
+$  
+#### (2) What is the probability that they decrypt the code $\small \,\mathpunct{?}$.  
+$
+\begin{array}{lllll}
+\textsf{(A)} \: \frac{1}{4} &
+\textsf{(B)} \: \frac{1}{3} &
+\textsf{(C)} \: \frac{1}{2} &
+\textsf{(D)} \: \frac{3}{5} &
+\textsf{(E)} \: \frac{2}{3} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+(1)\;P_1=\frac{1}{3}\times(1-\frac{1}{4})+(1-\frac{1}{3})\times\frac{1}{4} \\
+\frac{1}{3}\times\frac{3}{4}+\frac{2}{3}\times\frac{1}{4}=\frac{3}{12}+\frac{2}{12}=\frac{5}{12} \\
+(2)\;P_2=1-(1-\frac{1}{3})\times(1-\frac{1}{4}) & \textsf{at least one success} \\
+1-\frac{2}{3}\times\frac{3}{4}=1-\frac{6}{12}=\frac{6}{12}=\frac{1}{2} \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(D)}$  
+  > $\boldsymbol{(C)}$  
+  > According to the Solution, get $P_1=\frac{5}{12},P_2=\frac{1}{2}$, so choose $(1)\rightarrow D,(2)\rightarrow C$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  P_1 \cdot (1-P_2)+(1-P_1) \cdot P_2 & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#_4-the-probability-that-exactly-one-of-or-succeeds}{\textsf{exactly-one probability}} \\
+  1-(1-P_1)\cdot(1-P_2) & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#_3-the-probability-that-at-least-one-of-or-succeeds}{\textsf{complementary probability}} \\
   \end{array}
   >$
 
