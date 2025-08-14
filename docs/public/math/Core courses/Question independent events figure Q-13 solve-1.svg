@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="166" height="215" viewBox="0 0 327 386" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <path d="M121.505,151.241l-82.178,-74.463" style="fill:none;stroke:#8dcc33;stroke-width:6.25px;"/>
+  <path d="M204.124,304.83l-82.178,-74.462" style="fill:none;stroke:#8dcc33;stroke-width:6.25px;"/>
+  <path d="M121.866,150.971l82.949,-74.028" style="fill:none;stroke:#8dcc33;stroke-width:6.25px;"/>
+  <path d="M204.484,304.56l82.95,-74.028" style="fill:none;stroke:#8dcc33;stroke-width:6.25px;"/>
+  <path d="M-1275.21,-276.412l-254.083,367.547" style="fill:none;stroke:#0dcaf2;stroke-width:6.25px;"/>
+  <path d="M-1507.61,59.767l-19.704,28.503" style="fill:none;stroke:#0dcaf2;stroke-width:6.25px;"/>
+  <rect x="4.167" y="4.167" width="70.362" height="70.362" style="fill:none;stroke:#8dcc33;stroke-width:8.33px;stroke-linecap:square;stroke-miterlimit:4;"/>
+  <rect x="169.571" y="310.851" width="70.362" height="70.362" style="fill:none;stroke:#1e90ff;stroke-width:8.33px;stroke-linecap:square;stroke-miterlimit:4;"/>
+  <rect x="86.785" y="157.756" width="70.362" height="70.362" style="fill:none;stroke:#1e90ff;stroke-width:8.33px;stroke-linecap:square;stroke-miterlimit:4;"/>
+  <rect x="169.598" y="4.167" width="70.362" height="70.362" style="fill:none;stroke:#8dcc33;stroke-width:8.33px;stroke-linecap:square;stroke-miterlimit:4;"/>
+  <rect x="252.217" y="157.756" width="70.362" height="70.362" style="fill:none;stroke:#8dcc33;stroke-width:8.33px;stroke-linecap:square;stroke-miterlimit:4;"/>
+  <g transform="matrix(50,0,0,50,56.0227,57.2434)">
+    </g>
+  <text x="22.673px" y="57.243px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;fill:#8dcc33;stroke:#1e3a5f;stroke-width:0.83px;stroke-linecap:butt;stroke-miterlimit:2;">A</text>
+  <g transform="matrix(50,0,0,50,221.427,363.928)">
+    </g>
+  <text x="188.077px" y="363.928px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;fill:#8dcc33;stroke:#1e3a5f;stroke-width:0.83px;stroke-linecap:butt;stroke-miterlimit:2;">A</text>
+  <g transform="matrix(50,0,0,50,138.641,210.832)">
+    </g>
+  <text x="105.292px" y="210.832px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;fill:#8dcc33;stroke:#1e3a5f;stroke-width:0.83px;stroke-linecap:butt;stroke-miterlimit:2;">A</text>
+  <g transform="matrix(50,0,0,50,220.954,57.2434)">
+    </g>
+  <text x="187.604px" y="57.243px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;fill:#8dcc33;stroke:#1e3a5f;stroke-width:0.83px;stroke-linecap:butt;stroke-miterlimit:2;">B</text>
+  <g transform="matrix(50,0,0,50,306.331,210.832)">
+    </g>
+  <text x="270.223px" y="210.832px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;fill:#8dcc33;stroke:#1e3a5f;stroke-width:0.83px;stroke-linecap:butt;stroke-miterlimit:2;">C</text>
+</svg>

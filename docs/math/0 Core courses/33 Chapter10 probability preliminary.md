@@ -433,9 +433,7 @@ $
   $
 
 ## 4.Common Conclusions
-- If events $A_1,A_2,\cdots,A_n$ are __mutually independent__,
-  then __the probability that all $\boldsymbol{n}$ events occur__ is the product of their individual probabilities:
-  $P(A_1A_2 \cdots A_n)=P(A_1) \cdot P(A_2)\boldsymbol{\cdot}\cdots\boldsymbol{\cdot}P(A_n)$.
+- ###### If events $A_1,A_2,\cdots,A_n$ are __mutually independent__, then __the probability that all $\boldsymbol{n}$ events occur__ is the product of their individual probabilities: $P(A_1A_2 \cdots A_n)=P(A_1) \cdot P(A_2)\boldsymbol{\cdot}\cdots\boldsymbol{\cdot}P(A_n)$.
 - If events $A_1,A_2,\cdots,A_n$ are __mutually independent__,
   then __the probability that none of them occur__ is the product of their individual non-occurrence probabilities:
   $P(\overline{A_1}\:\overline{A_2} \cdots \overline{A_n})=P(\overline{A_1}) \cdot P(\overline{A_2})\boldsymbol{\cdot}\cdots\boldsymbol{\cdot}P(\overline{A_n})$.
@@ -486,7 +484,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  P_1 \cdot (1-P_2)+(1-P_1) \cdot P_2 & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#_4-the-probability-that-exactly-one-of-or-succeeds}{\textsf{exactly-one probability}} \\
+  P_1 \cdot (1-P_2)+(1-P_1) \cdot P_2 & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#_4-the-probability-that-exactly-one-of-or-succeeds}{\textsf{exactly-one succeed probability}} \\
   \end{array}
   >$
 
@@ -593,7 +591,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  P_1 \cdot (1-P_2)+(1-P_1) \cdot P_2 & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#_4-the-probability-that-exactly-one-of-or-succeeds}{\textsf{exactly-one probability}} \\
+  P_1 \cdot (1-P_2)+(1-P_1) \cdot P_2 & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#_4-the-probability-that-exactly-one-of-or-succeeds}{\textsf{exactly-one succeed probability}} \\
   1-(1-P_1)\cdot(1-P_2) & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#_3-the-probability-that-at-least-one-of-or-succeeds}{\textsf{complementary probability}} \\
   \end{array}
   >$
@@ -696,4 +694,162 @@ $
   >$
 
   :::
+---
+
+## 8.Focus 4
+__The competition template__  
+- For __competition problems__,
+  first draw __the result diagram__ for __each round of the competition__,
+  then write __the corresponding probabilities__.
+
+::: wrap
+### $\fbox{12}\:$In a guessing game with $\small 5$ rounds, if a player passes $\small 2$ consecutive rounds, they're considered to have successfully completed the challenge. The probability of Mike passing each round is $\small \frac{1}{2}$. What is the probability that he successfully completes the challenge $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: \frac{1}{8} &
+\textsf{(B)} \: \frac{1}{4} &
+\textsf{(C)} \: \frac{3}{8} &
+\textsf{(D)} \: \frac{1}{2} &
+\textsf{(E)} \: \frac{19}{32} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+1\quad2\quad3\quad4\quad5 \\
+✅\quad✅ \\
+❌\quad✅\quad✅ \\
+❌\quad❌\quad✅\quad✅ \\
+✅\quad❌\quad✅\quad✅ \\
+❌\quad✅\quad❌\quad✅\quad✅ \\
+✅\quad❌\quad❌\quad✅\quad✅ \\
+❌\quad❌\quad❌\quad✅\quad✅ \\
+P=(\frac{1}{2})^2+(\frac{1}{2})^3+(\frac{1}{2})^4\times2+(\frac{1}{2})^5\times3 \\
+\frac{1}{4}+\frac{1}{8}+\frac{1}{16}\times2+\frac{1}{32}\times3 \\
+\frac{1}{4}+\frac{1}{8}+\frac{2}{16}+\frac{3}{32} \\
+\frac{8}{32}+\frac{4}{32}+\frac{4}{32}+\frac{3}{32}=\frac{19}{32} \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(E)}$  
+  > According to the Solution, get $P=\frac{19}{32}$, so choose $E$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  P(\bigcup_{i=1}^n A_i) & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#let-be-a-finite-set-of-mutually-exclusive-events-then}{\textsf{union of disjoint events}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+::: wrap
+### $\fbox{13}\:\small A, B$, and $\small C$ are participating in a competition where two players compete in each round with no draws; the probability of $\small A$ defeating $\small B$ is $\small \frac{3}{5}$, $\small A$ defeating $\small C$ is $\small \frac{4}{5}$, and $\small B$ defeating $\small C$ is $\small \frac{3}{5}$, with the rule that the first round is between $\small A$ and $\small B$, and the winner of each round competes with the player who didn't participate in that round in the next round, and the competition ends when one player wins two rounds.
+#### (1) What is the probability that $\small A$ wins the competition after only two rounds $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: \frac{7}{25} &
+\textsf{(B)} \: \frac{9}{25} &
+\textsf{(C)} \: \frac{12}{25} &
+\textsf{(D)} \: \frac{18}{25} &
+\textsf{(E)} \: \frac{19}{25} & \\
+\end{array}
+$
+#### (2) What is the probability that the competition ends after only two rounds $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: \frac{7}{25} &
+\textsf{(B)} \: \frac{9}{25} &
+\textsf{(C)} \: \frac{12}{25} &
+\textsf{(D)} \: \frac{18}{25} &
+\textsf{(E)} \: \frac{19}{25} & \\
+\end{array}
+$
+#### (3) What is the probability that $\small A$ wins the entire competition $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: \frac{1}{8} &
+\textsf{(B)} \: \frac{1}{4} &
+\textsf{(C)} \: \frac{3}{8} &
+\textsf{(D)} \: \frac{4}{8} &
+\textsf{(E)} \: \frac{3}{5} & \\
+\end{array}
+$
+:::
+#### Solution
+::: wrap  
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve problem __(1)__ by drawing a competition tree diagram   
+  ![Question independent events figure Q-13 solve-1.svg](../../public/math/Core%20courses/Question%20independent%20events%20figure%20Q-13%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  P=\frac{3}{5} & A\textsf{ defeats }B \\
+  P=\frac{4}{5} & A\textsf{ defeats }C \\
+  P_1=\frac{3}{5}\times\frac{4}{5}=\frac{12}{25} \\
+  \end{array}
+  $  
+:::   
+::: wrap  
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve problem __(2)__ by drawing a competition tree diagram  
+  ![Question independent events figure Q-13 solve-2.svg](../../public/math/Core%20courses/Question%20independent%20events%20figure%20Q-13%20solve-2.svg)  
+
+  $
+  \begin{array}{ll}
+  P=\frac{3}{5} & A\textsf{ defeats }B \\
+  P=\frac{4}{5} & A\textsf{ defeats }C \\
+  P=\frac{3}{5} & B\textsf{ defeats }C \\
+  P_2=\frac{3}{5}\times\frac{4}{5}+\frac{2}{5}\times\frac{3}{5}=\frac{12}{25}+\frac{6}{25}=\frac{18}{25} \\
+  \end{array}
+  $  
+:::  
+::: wrap  
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve problem __(3)__ by drawing a competition tree diagram  
+  ![Question independent events figure Q-13 solve-3.svg](../../public/math/Core%20courses/Question%20independent%20events%20figure%20Q-13%20solve-3.svg)  
+
+  $
+  \begin{array}{ll}
+  P=\frac{3}{5} & A\textsf{ defeats }B \\
+  P=\frac{4}{5} & A\textsf{ defeats }C \\
+  P=\frac{3}{5} & B\textsf{ defeats }C \\
+  P_3=\frac{3}{5}\times\frac{4}{5}+\frac{3}{5}\times\frac{1}{5}\times\frac{3}{5}\times\frac{3}{5}+\frac{2}{5}\times\frac{2}{5}\times\frac{4}{5}\times\frac{3}{5} \\
+  \frac{12}{25}+\frac{27}{625}+\frac{48}{625} \\
+  \frac{300}{625}+\frac{27}{625}+\frac{48}{625}=\frac{375}{625}=\frac{3}{5} \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(C)}$  
+  > $\boldsymbol{(D)}$  
+  > $\boldsymbol{(E)}$  
+  > According to the Solution, get $P_1=\frac{12}{25},P_2=\frac{18}{25},P_3=\frac{3}{5}$,
+  > so choose $(1)\rightarrow C,(2)\rightarrow D,(3)\rightarrow E$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  P(A_1A_2 \cdots A_n)=P(A_1) \cdot P(A_2)\boldsymbol{\cdot}\cdots\boldsymbol{\cdot}P(A_n) & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#if-events-are-mutually-independent-then-the-probability-that-all-events-occur-is-the-product-of-their-individual-probabilities}{\textsf{all succeed probability}} \\
+  P(\bigcup_{i=1}^n A_i) & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#let-be-a-finite-set-of-mutually-exclusive-events-then}{\textsf{union of disjoint events}} \\
+  \end{array}
+  >$
+
+  :::
+- Competition format (three main types of questions)     
+  ::: wrap  
+  > 1. Fixed number of rounds, fixed players (easy).
+  > 2. Fixed number of rounds, __variable players__ (medium).
+  > 3. __Variable number of rounds__, fixed players (hard).
+
+  :::  
 ---
