@@ -196,7 +196,7 @@ $
 \overline{x}=\frac{18\times\frac{3}{6}+24\times\frac{2}{6}+36\times\frac{1}{6}}{1} \\
 \textsf{let }m=24 & \textsf{simplify mean calculation} \\
 (18-m)\times\frac{3}{6}+(24-m)\times\frac{2}{6}+(36-m)\times\frac{1}{6} \\
-\overline{x}=-6\times\frac{1}{2}+0+12\times\frac{1}{6}+24=-3+2+24=23 \\
+-6\times\frac{1}{2}+0+12\times\frac{1}{6}+24=-3+2+24=23 \\
 \end{array}
 $  
 :::  
@@ -205,6 +205,47 @@ $
   ::: wrap
   > $\boldsymbol{(D)}$  
   > According to the Solution, get $\overline{x}=23$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \overline{x}=\frac{\sum_{i=1}^{n}w_ix_i}{\sum_{i=1}^{n}w_i} & \textsf{weighted average formula} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+::: wrap
+### $\fbox{4}\:$In a game competition, Class $\small A$ has $\small 20$ participants with an average score of $\small 80$, and Class $\small B$ has $\small 30$ participants with an average score of $\small 70$. What is the overall average score of all participants from both classes $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 76 &
+\textsf{(B)} \: 75 &
+\textsf{(C)} \: 74 &
+\textsf{(D)} \: 73 &
+\textsf{(E)} \: 72 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+\overline{x}=\frac{80\times\frac{2}{5}+70\times\frac{3}{5}}{1} \\
+\textsf{let }m=70 \\
+80-m\times\frac{2}{5}+70-m\times\frac{3}{5} \\
+10\times\frac{2}{5}+0+70=4+70=74 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(C)}$  
+  > According to the Solution, get $\overline{x}=74$, so choose $C$. 
 
   :::
 - Formula used  
