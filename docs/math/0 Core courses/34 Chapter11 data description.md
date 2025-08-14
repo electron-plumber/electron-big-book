@@ -23,7 +23,7 @@ lang: en-US
 
 ## 3.Median
 - Arrange a set of data in __ascending order__,
-  and __the value in the middle position__ (or __the average of the two middle values_) is called __the median of the data set__.
+  and __the value in the middle position__ (or __the average of the two middle values__) is called __the median of the data set__.
 
 
 ## 4.Focus 1
@@ -143,7 +143,7 @@ $
 \frac{9.5+9.5}{2}=9.5 \\
 (3)\; [\bcancel{9.3},9.4,9.5,9.5,9.5,9.6,9.6,\bcancel{9.7}] \\
 \textsf{let }m=9.5 & \textsf{simplify mean calculation} \\
-[(9.4-9.5),(9.5-9.5),(9.5-9.5),(9.5-9.5),(9.6-9.5),(9.6-9.5)] \\
+[(9.4-m),(9.5-m),(9.5-m),(9.5-m),(9.6-m),(9.6-m)] \\
 [-0.1,0,0,0,0.1,0.1] \\
 \overline{x}=\frac{-0.1+0+0+0+0.1+0.1}{6}+9.5=0.016+9.5\approx9.52 \\
 \end{array}
@@ -165,6 +165,53 @@ $
   & \href{/math/0%20Core%20courses/34%20Chapter11%20data%20description.html#_2-mode}{\textsf{mode}} \\
   & \href{/math/0%20Core%20courses/34%20Chapter11%20data%20description.html#_3-median}{\textsf{median}} \\
   \overline{x}=\frac{x_1+x_2+\cdots+x_n}{n} & \href{/math/0%20Core%20courses/34%20Chapter11%20data%20description.html#_1-mean}{\textsf{mean}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+## 6.Focus 3
+__The weighted average calculation__  
+- If the average values of different parts and their respective quantities are known,
+  __the overall average__ can be calculated __using the weighted average formula__.
+
+
+::: wrap
+### $\fbox{3}\:$Let the prices of sugars $a,b$, and $c$ be $\small 18$ dollars/kg, $\small 24$ dollars/kg, $\small 36$ dollars/kg, respectively. If the mixing ratio is $\small 3:2:1$, what is the reasonable price of the mixed sugar per kilogram $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 20 &
+\textsf{(B)} \: 21 &
+\textsf{(C)} \: 22 &
+\textsf{(D)} \: 23 &
+\textsf{(E)} \: 24 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+\overline{x}=\frac{18\times\frac{3}{6}+24\times\frac{2}{6}+36\times\frac{1}{6}}{1} \\
+\textsf{let }m=24 & \textsf{simplify mean calculation} \\
+(18-m)\times\frac{3}{6}+(24-m)\times\frac{2}{6}+(36-m)\times\frac{1}{6} \\
+\overline{x}=-6\times\frac{1}{2}+0+12\times\frac{1}{6}+24=-3+2+24=23 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(D)}$  
+  > According to the Solution, get $\overline{x}=23$, so choose $D$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \overline{x}=\frac{\sum_{i=1}^{n}w_ix_i}{\sum_{i=1}^{n}w_i} & \textsf{weighted average formula} \\
   \end{array}
   >$
 
