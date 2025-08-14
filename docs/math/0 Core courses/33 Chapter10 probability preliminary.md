@@ -805,7 +805,7 @@ $
   $  
 :::  
 ::: wrap  
-- $\textcolor{#228B22}{\fbox{2}}\:$Solve problem __(3)__ by drawing a competition tree diagram  
+- $\textcolor{#228B22}{\fbox{3}}\:$Solve problem __(3)__ by drawing a competition tree diagram  
   ![Question independent events figure Q-13 solve-3.svg](../../public/math/Core%20courses/Question%20independent%20events%20figure%20Q-13%20solve-3.svg)  
 
   $

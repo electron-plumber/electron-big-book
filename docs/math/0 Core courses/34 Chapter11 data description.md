@@ -2,12 +2,6 @@
 title: Chapter11 data description
 lang: en-US
 ---
-| Platforms   | Courses                                                                                      | Coursewares                                                       |
-|-------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| YouTube     | [Watch](https://www.youtube.com/watch?v=e1eWN0PrWu0&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s) | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
-| Dailymotion | [Watch](https://www.dailymotion.com/video/x9gx64s?playlist=x9h6d2)                           |                                                                   |
-| Rumble      | [Watch](https://rumble.com/v6s95if-34-chapter11-data-description.html)                       |                                                                   |
-
 
 # Module 11-01 Average Value
 
@@ -258,3 +252,114 @@ $
 
   :::
 ---
+
+## 7.Focus 4
+__The comparison of averages__  
+- The average values can be __calculated separately__ and __compared__,
+  or the comparison can be made by analyzing __the weight of high and low scores__.
+- Increasing high scores or decreasing low scores: the average increases.
+- Decreasing high scores or increasing low scores: the average decreases.
+
+
+::: wrap
+### $\fbox{5}\:$The students from Classes $\small A, B$, and $\small C$ participate in an evaluation, and the number of students and their scores are shown in the table below:  
+![Question average value figure Q-5 solve-1.svg](../../public/math/Core%20courses/Question%20average%20value%20figure%20Q-5%20solve-1.svg)  
+#### What is the ranking of the three classes based on their average scores, from highest to lowest $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: B,C,A &
+\textsf{(B)} \: B,A,C &
+\textsf{(C)} \: A,C,B & \\
+\textsf{(D)} \: C,A,B &
+\textsf{(E)} \: C,B,A & \\
+\end{array}
+$  
+:::
+#### Solution  
+::: wrap  
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve by analyzing and comparing the proportion of people       
+
+  $
+  \begin{array}{ll}
+  A=10+10+10+10=40 \\
+  B=15+15+10+20=60 \\
+  C=10+10+15+15=50 \\
+  \hspace{1.5cm} A \hspace{1.4cm} B \hspace{1.4cm} C\\
+  6:[\frac{10}{40}=\frac{1}{4},\frac{15}{60}=\frac{1}{4},\frac{10}{50}=\frac{1}{5}] \\
+  7:[\frac{10}{40}=\frac{1}{4},\frac{15}{60}=\frac{1}{4},\frac{10}{50}=\frac{1}{5}] \\
+  8:[\frac{10}{40}=\frac{1}{4},\frac{10}{60}=\frac{1}{6},\frac{15}{50}=\frac{3}{10}] \\
+  9:[\frac{10}{40}=\frac{1}{4},\frac{20}{60}=\frac{1}{3},\frac{15}{50}=\frac{3}{10}] \\
+  A\textsf{ compared to } B: \\
+  \begin{cases}
+  6:\frac{1}{4}=\frac{1}{4} \\
+  7:\frac{1}{4}=\frac{1}{4} \\
+  8:\frac{1}{4}\gt\frac{1}{6} \\
+  9:\frac{1}{4}\lt\frac{1}{3} \\
+  \end{cases} \Longrightarrow B \gt A \\
+  B\textsf{ compared to } C: \\
+  \begin{cases}
+  6:\frac{1}{4}\gt\frac{1}{5} \\
+  7:\frac{1}{4}\gt\frac{1}{5} \\
+  8:\frac{1}{6}\lt\frac{3}{10} \\
+  9:\frac{1}{3}\approx\frac{3}{10} \\
+  \end{cases}  \Longrightarrow C \gt B \\
+  (B \gt A) \land (C \gt B) \Longrightarrow C,B,A
+  \end{array}
+  $  
+:::   
+::: wrap   
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve by applying the weighted average formula   
+
+  $
+  \begin{array}{ll}
+  A=10+10+10+10=40 \\
+  B=15+15+10+20=60 \\
+  C=10+10+15+15=50 \\
+  \hspace{1.5cm} A \hspace{1.4cm} B \hspace{1.4cm} C \\
+  6:[\frac{10}{40}=\frac{1}{4},\frac{15}{60}=\frac{1}{4},\frac{10}{50}=\frac{1}{5}] \\
+  7:[\frac{10}{40}=\frac{1}{4},\frac{15}{60}=\frac{1}{4},\frac{10}{50}=\frac{1}{5}] \\
+  8:[\frac{10}{40}=\frac{1}{4},\frac{10}{60}=\frac{1}{6},\frac{15}{50}=\frac{3}{10}] \\
+  9:[\frac{10}{40}=\frac{1}{4},\frac{20}{60}=\frac{1}{3},\frac{15}{50}=\frac{3}{10}] \\
+  \textsf{let }m=7 \\
+  \begin{cases}
+  6-m=-1 \\
+  7-m=0 \\
+  8-m=1 \\
+  9-m=2 \\
+  \end{cases} \\
+  \overline{x}=\frac{-1\times\frac{1}{4}+0\times\frac{1}{4}+1\times\frac{1}{4}+2\times\frac{1}{4}}{1} & \textsf{A} \\
+  \frac{-1+0+1+2}{4}+7=0.5+7=7.5 \\
+  \overline{x}=\frac{-1\times\frac{1}{4}+0\times\frac{1}{4}+1\times\frac{1}{6}+2\times\frac{1}{3}}{1} & \textsf{B} \\
+  \frac{-1+0}{4}+\frac{1}{6}+\frac{2}{3}+7 \\
+  \frac{-3}{12}+\frac{2}{12}+\frac{8}{12}+7=\frac{7}{12}+\frac{84}{12}=\frac{91}{12}\approx7.58 \\
+  \overline{x}=\frac{-1\times\frac{1}{5}+0\times\frac{1}{5}+1\times\frac{3}{10}+2\times\frac{3}{10}}{1} & \textsf{C} \\
+  \frac{-1+0}{5}+\frac{3}{10}+\frac{6}{10}+7 \\
+  \frac{-2}{10}+\frac{3}{10}+\frac{6}{10}+7=0.7+7=7.7 \\
+  7.7\gt7.58\gt7.5 \Longrightarrow C,B,A
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(E)}$  
+  > According to the Solution, get $C\gt B\gt A$, so choose $E$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+   & \href{/math/0%20Core%20courses/34%20Chapter11%20data%20description.html#_7-focus-4}{\textsf{comparison of averages}} \\
+  \overline{x}=\frac{\sum_{i=1}^{n}w_ix_i}{\sum_{i=1}^{n}w_i} & \textsf{weighted average formula} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+| Platforms   | Courses                                                                                      | Coursewares                                                       |
+|-------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| YouTube     | [Watch](https://www.youtube.com/watch?v=e1eWN0PrWu0&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s) | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
+| Dailymotion | [Watch](https://www.dailymotion.com/video/x9gx64s?playlist=x9h6d2)                           |                                                                   |
+| Rumble      | [Watch](https://rumble.com/v6s95if-34-chapter11-data-description.html)                       |                                                                   |
