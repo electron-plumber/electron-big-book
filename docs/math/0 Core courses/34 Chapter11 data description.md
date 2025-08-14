@@ -77,3 +77,96 @@ $
 
   :::
 ---
+
+## 5.Focus 2
+__The calculation of the average value for a set of numbers__  
+- Based on __the definition of the average__,
+  first __find the sum__,
+  then divide by __the count to get the average__.
+  __To simplify__ the calculation,
+  you can subtract $m$ from each number,
+  find __the average of the remaining numbers__,
+  and then add $m$ back.
+
+
+::: wrap
+### $\fbox{2}\:$In a singing competition, the scores given by $\small 8$ judges are shown in the table below:  
+
+| Judge | $1$   | $2$   | $3$   | $4$   | $5$   | $6$   | $7$   | $8$   |  
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|  
+| Score | $9.3$ | $9.5$ | $9.4$ | $9.6$ | $9.5$ | $9.6$ | $9.5$ | $9.7$ |  
+
+#### (1) What is the mode of the $\small 8$ judges' scores $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 9.3 &
+\textsf{(B)} \: 9.4 &
+\textsf{(C)} \: 9.5 &
+\textsf{(D)} \: 9.6 &
+\textsf{(E)} \: 9.7 & \\
+\end{array}
+$
+#### (2) What is the median of the $\small 8$ judges' scores $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 9.3 &
+\textsf{(B)} \: 9.4 &
+\textsf{(C)} \: 9.5 &
+\textsf{(D)} \: 9.6 &
+\textsf{(E)} \: 9.7 & \\
+\end{array}
+$
+#### (3) According to the competition rules, after removing the highest and lowest scores, the final score is the average of the remaining $\small 6$ judges' scores. What is the contestant's final score $\small \,\mathpunct{?}$ (answer rounded to two decimal places).
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 9.42 &
+\textsf{(B)} \: 9.52 &
+\textsf{(C)} \: 9.53 &
+\textsf{(D)} \: 9.54 &
+\textsf{(E)} \: 9.56 & \\
+\end{array}
+$
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+(1)\;
+\begin{cases}
+9.3\rightarrow1 \\
+9.4\rightarrow1 \\
+9.5\rightarrow3 \\
+9.6\rightarrow2 \\
+9.7\rightarrow1 \\
+\end{cases} \\
+(2)\; [9.3,9.4,9.5,\boxed{9.5,9.5},9.6,9.6,9.7] & \textsf{asc} \\
+\frac{9.5+9.5}{2}=9.5 \\
+(3)\; [\bcancel{9.3},9.4,9.5,9.5,9.5,9.6,9.6,\bcancel{9.7}] \\
+\textsf{let }m=9.5 & \textsf{simplify mean calculation} \\
+[(9.4-9.5),(9.5-9.5),(9.5-9.5),(9.5-9.5),(9.6-9.5),(9.6-9.5)] \\
+[-0.1,0,0,0,0.1,0.1] \\
+\overline{x}=\frac{-0.1+0+0+0+0.1+0.1}{6}+9.5=0.016+9.5\approx9.52 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(C)}$  
+  > $\boldsymbol{(C)}$  
+  > $\boldsymbol{(B)}$  
+  > According to the Solution, get $9.5\rightarrow3,\frac{9.5+9.5}{2}=9.5,\overline{x}\approx9.52$, so choose $(1)\rightarrow C,(2)\rightarrow C,(3)\rightarrow B$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  & \href{/math/0%20Core%20courses/34%20Chapter11%20data%20description.html#_2-mode}{\textsf{mode}} \\
+  & \href{/math/0%20Core%20courses/34%20Chapter11%20data%20description.html#_3-median}{\textsf{median}} \\
+  \overline{x}=\frac{x_1+x_2+\cdots+x_n}{n} & \href{/math/0%20Core%20courses/34%20Chapter11%20data%20description.html#_1-mean}{\textsf{mean}} \\
+  \end{array}
+  >$
+
+  :::
+---
