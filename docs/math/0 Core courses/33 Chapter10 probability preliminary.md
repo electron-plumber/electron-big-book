@@ -3,12 +3,6 @@ title: Chapter10 probability preliminary
 lang: en-US
 ---
 
-| Platforms   | Courses                                                                                      | Coursewares                                                       |
-|-------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| YouTube     | [Watch](https://www.youtube.com/watch?v=Taex9rTMDq8&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s) | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
-| Dailymotion | [Watch](https://www.dailymotion.com/video/x9gsuai?playlist=x9h6d2)                           |                                                                   |
-| Rumble      | [Watch](https://rumble.com/v6s95id-33-chapter10-probability-preliminary.html)                |                                                                   |
-
 
 # Module 10–01 Classical Probability Model
 
@@ -32,7 +26,7 @@ lang: en-US
   __The sample space contains all sample points__.
 - ###### An event that always occurs in every trial is called __a certain event__.
 - ###### An event that never occurs in any trial is called __an impossible event__. denoted as $\varnothing$.
-- Note: Every possible outcome (event $A$) that may occur in a single trial is called __a basic event__.
+- Note: every possible outcome (event $A$) that may occur in a single trial is called __a basic event__.
   These three types of events __occur under certain conditions__,
   and when __the conditions change__,
   __the nature of the event may also change__.
@@ -853,3 +847,63 @@ $
 
   :::  
 ---
+
+## 9.Focus 5
+__The circuit template__    
+- For a series circuit, the probability that the system functions normally is equal to the product of the probabilities that each circuit functions normally.   
+  - Normal (all working): $P_1 \times P_2 \times P_3$  
+  ![Circuit series system probability.svg](../../public/math/Core%20courses/Circuit%20series%20system%20probability.svg)  
+- For a parallel circuit, the probability that the system functions normally is equal to 1 minus the product of the probabilities that each circuit doesn't function normally.  
+  - At least one normal (working): $1-(1-P_1)(1-P_2)(1-P_3)$  
+  ![Circuit parallel system probability.svg](../../public/math/Core%20courses/Circuit%20parallel%20system%20probability.svg)  
+
+
+::: wrap
+### $\fbox{14}\:$Figure 10–1, the letters represent the types of components, and components with the same letter but different subscripts belong to the same type. Given that the probabilities of components $\small A, B, C$, and $\small D$ functioning normally are $\small p,q,r$, and $s$ respectively, and the components work independently, what is the probability that the system functions normally $\small \,\mathpunct{?}$.
+$
+\begin{array}{lllll}
+\textsf{(A)} \: s^2pqr &
+\textsf{(B)} \: s^2(p+q+r) &
+\textsf{(C)} \: s^2(1-pqr) & \\
+\textsf{(D)} \: 1-(1-pqr)(1-s)^2 &
+\textsf{(E)} \: s^2[1-(1-p)(1-q)(1-r)] & \\
+\end{array}
+$  
+:::  
+![Question independent events figure 10-1.svg](../../public/math/Core%20courses/Question%20independent%20events%20figure%2010-1.svg)  
+#### Solution
+::: wrap  
+- Show known conditions  
+  ![Question independent events figure 10-1 solve-1.svg](../../public/math/Core%20courses/Question%20independent%20events%20figure%2010-1%20solve-1.svg)  
+
+  $
+  \begin{array}{ll}
+  P=s^2\times[1-(1-p)(1-q)(1-r)] \\
+  \end{array}
+  $  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(E)}$  
+  > According to the Solution, get $P=s^2\times[1-(1-p)(1-q)(1-r)]$, so choose $E$. 
+
+  :::
+- Formula used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  P(A_1A_2 \cdots A_n)=P(A_1) \cdot P(A_2)\boldsymbol{\cdot}\cdots\boldsymbol{\cdot}P(A_n) & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#if-events-are-mutually-independent-then-the-probability-that-all-events-occur-is-the-product-of-their-individual-probabilities}{\textsf{all succeed probability}} \\
+  1-(1-P_1) \cdot (1-P_2) \cdot (1-P_3) & \href{/math/0%20Core%20courses/33%20Chapter10%20probability%20preliminary.html#_3-the-probability-that-at-least-one-succeeds}{\textsf{complementary probability}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+| Platforms   | Courses                                                                                      | Coursewares                                                       |
+|-------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| YouTube     | [Watch](https://www.youtube.com/watch?v=Taex9rTMDq8&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s) | [Courseware](../../public/math/Core%20courses/pdf/Courseware.pdf) |
+| Dailymotion | [Watch](https://www.dailymotion.com/video/x9gsuai?playlist=x9h6d2)                           |                                                                   |
+| Rumble      | [Watch](https://rumble.com/v6s95id-33-chapter10-probability-preliminary.html)                |                                                                   |
+

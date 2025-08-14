@@ -1194,7 +1194,7 @@ $
 :::
 #### Solution
 ::: wrap  
-- Show know conditions    
+- Show known conditions    
   ![Question six basic methods figure Q-32 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-32%20solve-1.svg)  
 
   $
