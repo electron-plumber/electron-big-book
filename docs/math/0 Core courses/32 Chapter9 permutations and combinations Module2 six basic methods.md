@@ -6,7 +6,7 @@ lang: en-US
 
 # Module 9–02 Six Basic Methods
 
-## 1.Adjacent Element Bundling Method 
+## 1.Adjacent Element Bundling Method
 
 ### $\textcolor{#1E3A5F}{\fbox{1}}\:$Adjacency
 - Bundle __the specified adjacent elements__ into __one group__ and treat it as __a single unit in the arrangement__.
@@ -20,8 +20,8 @@ __The adjacent element bundling method__
 - When applying __the bundling method__ to adjacent elements, be sure to consider __the internal arrangement within the bundle__.   
 - Additionally, some problems may involve __bundling multiple groups__.
 
-::: wrap
 ### $\fbox{11}\:$Three families of three people each are watching a show. They bought $\small 9$ consecutive seats in one row. How many different ways can they sit if each family sits together $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: (3!)^2\textsf{ ways} &
@@ -47,10 +47,10 @@ $
 $  
 :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the Solution, get $3!\times3!\times3!\times3!=(3!)^4$, so choose $D$. 
+  > According to the solution, get $3!\times3!\times3!\times3!=(3!)^4$, so choose $D$. 
 
   :::
 - Formula used  
@@ -65,8 +65,9 @@ $
   :::
 ---
 
-::: wrap
+
 ### $\fbox{12}\:$Seven people are lined up. $\small A$ and $\small B$ must stand together, and so must $\small C$ and $\small D$. How many different arrangements are there$\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 480 &
@@ -92,10 +93,10 @@ $
 $  
 :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(A)}$  
-  > According to the Solution, get $2!\times2!\times5!=480$, so choose $A$. 
+  > According to the solution, get $2!\times2!\times5!=480$, so choose $A$. 
 
   :::
 - Formula used  
@@ -110,8 +111,9 @@ $
   :::
 ---
 
-::: wrap
+
 ### $\fbox{13}\:$Using the digits $\small 1, 2, 3, 4$, and $\small 5$ without repetition, how many five-digit numbers can be formed where there are two digits between the odd digits $\small 1$ and $\small 5$, and both of those digits are even numbers $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 8 &
@@ -140,10 +142,10 @@ $
 $  
 :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(A)}$  
-  > According to the Solution, get $2!\times2!\times2!=8$, so choose $A$. 
+  > According to the solution, get $2!\times2!\times2!=8$, so choose $A$. 
 
   :::
 - Formula used  
@@ -168,8 +170,8 @@ __The alternating element insertion method__
 - First __arrange the other elements__, then insert the elements __that mustn't be adjacent__ into __the available gaps__.
 
 
-::: wrap
 ### $\fbox{14}\:$Seven people are standing in a line for a photo. if $\small A, B$, and $\small C$ mustn't be adjacent to each other, how many different arrangements are possible $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 1020 &
@@ -181,12 +183,11 @@ $
 $  
 :::
 #### Solution
-::: wrap  
 - Show known conditions  
-  - note that arranging non-adjacent elements first could lead to adjacency  
+  - note that arranging non-adjacent elements first could lead to adjacency   
 
   ![Question six basic methods figure Q-14 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-14%20solve-1.svg)  
-
+  ::: wrap  
   $
   \begin{array}{ll}
   \textsf{insert }A, B\textsf{, and }C \textsf{ into the available spaces} \\
@@ -198,12 +199,12 @@ $
   4!\times C_5^3\times3!=\frac{5\times4\times3}{3\times2\times1}\times144=1440 \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(E)}$  
-  > According to the Solution, get $4!\times C_5^3\times3!=1440$, so choose $E$. 
+  > According to the solution, get $4!\times C_5^3\times3!=1440$, so choose $E$. 
 
   :::
 - Formula used  
@@ -219,8 +220,8 @@ $
   :::
 ---
 
-::: wrap
 ### $\fbox{15}\:$A performance has $\small 3$ dances, $\small 2$ dramas, and $\small 2$ solos. The dance performances can't appear consecutively. How many different sequences of performances are possible $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 1020 &
@@ -231,11 +232,10 @@ $
 \end{array}
 $  
 :::
-#### Solution
-::: wrap  
+#### Solution  
 - Show known conditions  
   ![Question six basic methods figure Q-15 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-15%20solve-1.svg)  
-
+  ::: wrap  
   $
   \begin{array}{ll}
   \textsf{insert }3\textsf{ dances into the available spaces}\\
@@ -247,12 +247,12 @@ $
   4!\times C_5^3\times3!=\frac{5\times4\times3}{3\times2\times1}\times144=1440 \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(E)}$  
-  > According to the Solution, get $4!\times C_5^3\times3!=1440$, so choose $E$. 
+  > According to the solution, get $4!\times C_5^3\times3!=1440$, so choose $E$. 
 
   :::
 - Formula used  
@@ -269,8 +269,8 @@ $
 ---
 
 
-::: wrap
 ### $\fbox{16}\:$The corridor has a row of $\small 8$ light bulbs. To save electricity without affecting the lighting, $\small 3$ bulbs must be turned off at the same time, but no adjacent bulbs can be turned off. How many ways are there to turn off the lights $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 16 &
@@ -282,10 +282,9 @@ $
 $  
 :::
 #### Solution
-::: wrap  
 - Analyze the given conditions to solve the light-turning-off model problem     
   ![Question six basic methods figure Q-16 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-16%20solve-1.svg)  
-
+  ::: wrap  
   $
   \begin{array}{ll}
   8 \textsf{ lights}
@@ -298,12 +297,12 @@ $
   C_6^3=\frac{6\times5\times4}{3\times2\times1}=20 \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(C)}$  
-  > According to the Solution, get $C_6^3=20$, so choose $C$. 
+  > According to the solution, get $C_6^3=20$, so choose $C$. 
 
   :::
 - Formula used  
@@ -325,8 +324,9 @@ __The adjacent and non-adjacent cases appear together__
   __group them together first__, then handle __the non-adjacent elements__.
 
 
-::: wrap
+
 ### $\fbox{17}\:$Seven people stand in a line. If $\small A$ and $\small B$ are adjacent, but neither of them is adjacent to $\small C$, how many different arrangements are there $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 940 &
@@ -338,10 +338,9 @@ $
 $  
 :::
 #### Solution
-::: wrap  
 - Show known conditions  
   ![Question six basic methods figure Q-17 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-17%20solve-1.svg)  
-
+  ::: wrap  
   $
   \begin{array}{ll}
   \textsf{insert the package }[A, B]\textsf{ and }C\textsf{ into the available spaces} \\
@@ -354,12 +353,12 @@ $
   2!\times4!\times C_5^2 \times 2!= \frac{5\times4}{2\times1}\times96=960 \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(B)}$  
-  > According to the Solution, get $2!\times4!\times C_5^2 \times 2!=960$, so choose $B$. 
+  > According to the solution, get $2!\times4!\times C_5^2 \times 2!=960$, so choose $B$. 
 
   :::
 - Formula used  
@@ -376,8 +375,9 @@ $
   :::
 ---
 
-::: wrap
+
 ### $\fbox{18}\:$Six people — three men and three women — stand in a line. If two of the women must stand next to each other, how many different arrangements are possible $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 940 &
@@ -389,10 +389,9 @@ $
 $  
 :::
 #### Solution
-::: wrap  
 - Show known conditions    
   ![Question six basic methods figure Q-18 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-18%20solve-1.svg)  
-
+  ::: wrap  
   $
   \begin{array}{ll}
   \textsf{insert the package }[\textsf{female}, \textsf{female}]\textsf{ and }\textsf{female}\textsf{ into the available spaces} \\
@@ -410,12 +409,12 @@ $
   3!\times C_3^2\times2! \times C_4^2 \times 2!=\frac{3\times2}{2\times1}\times\frac{4\times3}{2\times1}\times24=432 \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(C)}$  
-  > According to the Solution, get $3!\times C_3^2\times2! \times C_4^2 \times 2!=432$, so choose $C$. 
+  > According to the solution, get $3!\times C_3^2\times2! \times C_4^2 \times 2!=432$, so choose $C$. 
 
   :::
 - Formula used  
@@ -445,8 +444,9 @@ __The case where both types are non-adjacent__
   \end{cases}
   $
 
-::: wrap
+
 ### $\fbox{19}\:$Six people — three men and three women — stand in a line. If the women aren't adjacent to each other and the men aren't adjacent to each other, how many different arrangements are possible $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 64 &
@@ -458,10 +458,9 @@ $
 $  
 :::
 #### Solution
-::: wrap  
 - It must be ensured that the available space in the middle (purple) contains elements    
   ![Question six basic methods figure Q-19 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-19%20solve-1.svg)  
-
+  ::: wrap  
   $
   \begin{array}{ll}
   \textsf{insert the }3\textsf{ females into the available spaces} \\
@@ -477,12 +476,12 @@ $
   3!\times3!\times2=72 \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(C)}$  
-  > According to the Solution, get $3!\times3!\times2=72$, so choose $C$. 
+  > According to the solution, get $3!\times3!\times2=72$, so choose $C$. 
 
   :::
 - Formula used  
@@ -497,8 +496,9 @@ $
   :::
 ---
 
-::: wrap
+
 ### $\fbox{20}\:$Seven people — four men and three women — stand in a line. If the women aren't adjacent to each other and the men aren't adjacent to each other, how many different arrangements are possible $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 104 &
@@ -510,10 +510,9 @@ $
 $  
 :::
 #### Solution
-::: wrap  
 - For two groups with different quantities, __first arrange the larger group__, then insert the smaller group into __the available purple spaces in between__      
   ![Question six basic methods figure Q-20 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-20%20solve-1.svg)  
-
+  ::: wrap  
   $
   \begin{array}{ll}
   \textsf{insert the }3\textsf{ females into the available spaces} \\
@@ -524,12 +523,12 @@ $
   4!\times3!=144 \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(E)}$  
-  > According to the Solution, get $4!\times3!=144$, so choose $E$. 
+  > According to the solution, get $4!\times3!=144$, so choose $E$. 
 
   :::
 - Formula used  
@@ -592,8 +591,9 @@ __The identical elements divider method__
   then there are $\boldsymbol{C_{n-1}^{m-1}}$ ways.
   If __empty groups are allowed__, then there are $\boldsymbol{C_{n+m-1}^{m-1}}$ ways.
 
-::: wrap
+
 ### $\fbox{21}\:$There are $\small 10$ athlete spots to be distributed among $\small 7$ classes, with each class receiving at least one. How many different distribution schemes are possible $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 84 &
@@ -604,22 +604,21 @@ $
 \end{array}
 $  
 :::
-#### Solution
-::: wrap  
+#### Solution 
 - Show known conditions    
   ![Question six basic methods figure Q-21 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-21%20solve-1.svg)  
-
+  ::: wrap  
   $
   \begin{array}{ll}
   C_{10-1}^{7-1}=C_9^6=\frac{\bcancel{9}\times\bcancel{8}\times7\times\bcancel{6}\times\bcancel{5}\times\bcancel{4}}{\bcancel{6}\times\bcancel{5}\times\bcancel{4}\times\bcancel{3}\times\bcancel{2}\times1}=\frac{3\times4\times7}{1}=84 \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(A)}$  
-  > According to the Solution, get $C_{10-1}^{7-1}=84$, so choose $A$. 
+  > According to the solution, get $C_{10-1}^{7-1}=84$, so choose $A$. 
 
   :::
 - Formula used  
@@ -634,8 +633,9 @@ $
   :::
 ---
 
-::: wrap
+
 ### $\fbox{22}\:$There are $\small 18$ athlete spots to be distributed among $\small 7$ classes, with each class receiving at least $\small 2$ spots. How many different distribution schemes are possible $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 94 &
@@ -659,10 +659,10 @@ C_{10}^{4}=\frac{10\times\bcancel{9}\times\bcancel{8}\times7}{\bcancel{4}\times\
 $  
 :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the Solution, get $C_{11-1}^{7-1}=210$, so choose $D$. 
+  > According to the solution, get $C_{11-1}^{7-1}=210$, so choose $D$. 
 
   :::
 - Formula used  
@@ -678,8 +678,9 @@ $
   :::
 ---
 
-::: wrap
+
 ### $\fbox{23}\:$How many solutions in positive integers are there to the equation $\small x_1+x_2+x_3+x_4=12 \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 160 &
@@ -690,23 +691,22 @@ $
 \end{array}
 $  
 :::
-#### Solution
-::: wrap  
+#### Solution 
 - Treat $x_1,x_2,x_3,x_4$ as dividing 12 balls into 4 groups     
   ![Question six basic methods figure Q-22 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-22%20solve-1.svg)  
-
+  ::: wrap  
   $
   \begin{array}{ll}
   \textsf{let }x_1=1,x_2=3,x_3=4,x_4=4 \\
   C_{12-1}^{4-1}=C_{11}^{3}=\frac{11\times\bcancel{10}\times\bcancel{9}}{\bcancel{3}\times\bcancel{2}\times1}=\frac{11\times5\times3}{1}=165 \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(B)}$  
-  > According to the Solution, get $C_{12-1}^{4-1}=165$, so choose $B$. 
+  > According to the solution, get $C_{12-1}^{4-1}=165$, so choose $B$. 
 
   :::
 - Formula used  
@@ -720,8 +720,8 @@ $
 
   :::
 - In addition, if the problem is about non-negative integers (i.e., __object can be empty__) 
+  > ![Question six basic methods figure Q-22 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-22%20solve-1.svg)
   ::: wrap  
-  > ![Question six basic methods figure Q-22 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-22%20solve-1.svg)    
   >$
   \begin{array}{ll}
   \underbrace{x_1}_{\ge0}+\underbrace{x_2}_{\ge0}+\underbrace{x_3}_{\ge0}+\underbrace{x_4}_{\ge0}=12 \\
@@ -735,8 +735,9 @@ $
   :::
 ---
 
-::: wrap
+
 ### $\fbox{24}\:$Distribute $\small 10$ identical candies to $\small 4$ children. If each child receives at least one candy, there are $\small n$ ways to distribute them. If some children are allowed to receive none, there are $\small m$ ways. What is $\small m−n \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 160 &
@@ -759,10 +760,10 @@ m-n=286-84=202 \\
 $  
 :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(E)}$  
-  > According to the Solution, get $m-n=202$, so choose $E$. 
+  > According to the solution, get $m-n=202$, so choose $E$. 
 
   :::
 - Formula used  
@@ -816,8 +817,8 @@ __The repeated-element exponentiation method__
 - You need to learn how to apply the formula and understand its usage. __Be careful not to mix up the base and the exponent__.
 
 
-::: wrap
 ### $\fbox{25}\:$Five people are signing up for three different training courses, and each person signs up for only one course. How many different ways can they sign up $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 243 &
@@ -837,10 +838,10 @@ m^n=3^5=243 & \textsf{project}^\textsf{people} \\
 $  
 :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(A)}$  
-  > According to the Solution, get $m^n=243$, so choose $A$. 
+  > According to the solution, get $m^n=243$, so choose $A$. 
 
   :::
 - Formula used  
@@ -864,8 +865,9 @@ $
   :::
 ---
 
-::: wrap
+
 ### $\fbox{26}\:$Five people sign up for three different competitions. Each competition has only one winner. How many different ways are there to assign the winners $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 243 &
@@ -885,10 +887,10 @@ m^n=C_5^1\times C_5^1\times C_5^1=5^3=125 & \textsf{person}^\textsf{competitions
 $  
 :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(B)}$  
-  > According to the Solution, get $m^n=125$, so choose $B$. 
+  > According to the solution, get $m^n=125$, so choose $B$. 
 
   :::
 - Formula used  
@@ -902,8 +904,9 @@ $
   :::
 ---
 
-::: wrap
+
 ### $\fbox{27}\:$How many different ways are there to assign $\small 6$ interns to $\small 7$ workshops for their internships $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 7^6 &
@@ -923,10 +926,10 @@ m^n=7^6 & \textsf{workshop}^\textsf{people}\\
 $  
 :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(A)}$  
-  > According to the Solution, get $m^n=7^6$, so choose $A$. 
+  > According to the solution, get $m^n=7^6$, so choose $A$. 
 
   :::
 - Formula used  
@@ -972,8 +975,8 @@ __The correct matching and incorrect matching__
   $5$ incorrect matches: $44$ ways.
 
 
-::: wrap
 ### $\fbox{28}\:$There are $\small 5$ balls numbered $\small 1, 2, 3, 4, 5$ and $\small 5$ boxes also numbered $\small 1, 2, 3, 4, 5$. Each ball is to be placed into a box, with exactly one ball placed in the box that has the same number as the ball. Each box must contain exactly one ball. How many such arrangements are there in total $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 20 &
@@ -985,21 +988,20 @@ $
 $  
 :::
 #### Solution
-::: wrap  
 - Show known conditions    
   ![Question six basic methods figure Q-28 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-28%20solve-1.svg)  
-
+  ::: wrap  
   $
   \begin{array}{ll}
   C_5^1 \times 9=45 \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(C)}$  
-  > According to the Solution, get $C_5^1 \times 9=45$, so choose $C$. 
+  > According to the solution, get $C_5^1 \times 9=45$, so choose $C$. 
 
   :::
 - Formula used  
@@ -1014,8 +1016,9 @@ $
   :::
 ---
 
-::: wrap
+
 ### $\fbox{29}\:$There are $\small 6$ teachers, each teaching one of $\small 6$ classes. During the exam, two teachers proctor the classes they themselves teach. How many such proctoring arrangements are there $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 120 &
@@ -1027,21 +1030,20 @@ $
 $  
 :::
 #### Solution
-::: wrap  
 - Show known conditions  
   ![Question six basic methods figure Q-29 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-29%20solve-1.svg)   
-
+  ::: wrap  
   $
   \begin{array}{ll}
   C_6^2 \times 9=\frac{6\times5}{2\times1}\times9=135 \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(C)}$  
-  > According to the Solution, get $C_6^2 \times 9=135$, so choose $C$. 
+  > According to the solution, get $C_6^2 \times 9=135$, so choose $C$. 
 
   :::
 - Formula used  
@@ -1056,8 +1058,9 @@ $
   :::
 ---
 
-::: wrap
+
 ### $\fbox{30}\:$There are $\small 6$ teachers, each teaching one of $\small 6$ classes. During the exam, at least two teachers proctor the classes they themselves teach. How many such proctoring arrangements are there $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 170 &
@@ -1069,10 +1072,9 @@ $
 $  
 :::
 #### Solution
-::: wrap  
 - Show known conditions  
   ![Question six basic methods figure Q-30 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-30%20solve-1.svg)  
-
+  ::: wrap  
   $
   \begin{array}{ll}
   \textsf{at least two teachers} \Longleftrightarrow \ge2 \\
@@ -1085,12 +1087,12 @@ $
   720-(6\times44)-265=191 \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the Solution, get $191$, so choose $D$. 
+  > According to the solution, get $191$, so choose $D$. 
 
   :::
 - Formula used  
@@ -1131,8 +1133,9 @@ __The exhaustive listing method__
   you can solve the problem by __listing the complementary (negative) cases instead__.
 
 
-::: wrap
+
 ### $\fbox{31}\:$There are $\small 9$ cards, each labeled with a natural number from $\small 1$ to $\small 9$. How many different ways are there to choose $\small 3$ cards such that the sum of the numbers on them is $\small 9 \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 2 &
@@ -1144,9 +1147,8 @@ $
 $  
 :::
 #### Solution
-::: wrap  
 - Start by establishing a reference standard the simple case $1$ to solve     
-
+  ::: wrap  
   $
   \begin{array}{ll}
   \underbrace{1}_{\Delta}\quad2\quad3\quad4\quad5\quad6\quad7\quad8\quad9 \\
@@ -1161,12 +1163,12 @@ $
   \end{cases} \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(B)}$  
-  > According to the Solution, get $3$, so choose $B$. 
+  > According to the solution, get $3$, so choose $B$. 
 
   :::
 - Formula used  
@@ -1180,8 +1182,9 @@ $
   :::
 ---
 
-::: wrap
+
 ### $\fbox{32}\:$Using a balance scale and one each of $\small 1$ gram, $\small 3$ grams, and $\small 9$ grams weights (without using any other items as weights), how many different weights can be measured when the weights can only be placed on the same pan $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 4 &
@@ -1193,10 +1196,9 @@ $
 $  
 :::
 #### Solution
-::: wrap  
 - Show known conditions    
   ![Question six basic methods figure Q-32 solve-1.svg](../../public/math/Core%20courses/Question%20six%20basic%20methods%20figure%20Q-32%20solve-1.svg)  
-
+  ::: wrap  
   $
   \begin{array}{ll}
   1\;\textsf{gram} \quad 3\;\textsf{grams} \quad 9\;\textsf{grams} \\
@@ -1218,12 +1220,12 @@ $
   \end{cases} \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the Solution, get $7$, so choose $D$. 
+  > According to the solution, get $7$, so choose $D$. 
 
   :::
 - Formula used  
@@ -1237,8 +1239,9 @@ $
   :::
 ---
 
-::: wrap
+
 ### $\fbox{33}\:$Mike has $\small 1$ five-dollar bill, $\small 4$ two-dollar bills, and $\small 8$ one-dollar bills. Now, he wants to buy an 8-dollar novel. How many different ways can he pay $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 4 &
@@ -1275,10 +1278,10 @@ $
 $  
 :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the Solution, get $7$, so choose $D$. 
+  > According to the solution, get $7$, so choose $D$. 
 
   :::
 - Formula used  
@@ -1292,8 +1295,9 @@ $
   :::
 ---
 
-::: wrap
+
 ### $\fbox{34}\:$Using 10-cent, 20-cent, and 50-cent coins (with no limit on the number of each coin), how many different ways can you make $\small 1$ dollar $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 5 &
@@ -1335,10 +1339,10 @@ $
 $  
 :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(E)}$  
-  > According to the Solution, get $10$, so choose $E$. 
+  > According to the solution, get $10$, so choose $E$. 
 
   :::
 - Formula used  
