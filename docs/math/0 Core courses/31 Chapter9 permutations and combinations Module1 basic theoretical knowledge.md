@@ -62,7 +62,7 @@ __the corresponding way of completing the entire task is considered different__.
      __you multiply the counts of these methods across the steps__.
 
 2. When studying the number of different ways to complete a task, you must follow the principle of __no overlaps and no omissions__. 
-   - For example:   
+   - __For example__:   
    - When selecting several products from a group for inspection,
      if you classify the selection methods in
      which there are __at most two defective products__ into two categories —
@@ -95,8 +95,9 @@ __The addition principle__
 - When encountering problems that require classification, apply the addition principle.
 
 
-::: wrap
+
 ### $\fbox{1}\:$Student A plans to travel from Sonoma to Cupertino for a trip. On that day, there are $\small 3$ trains, $\small 2$ ferries, and $\small 5$ flights available from Sonoma to Cupertino. How many different travel options does Student A have $\small \, \mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 3 &
@@ -108,9 +109,8 @@ $
 $  
 :::
 #### Solution
-::: wrap  
 - Each category is completed independently    
-
+  ::: wrap  
   $
   \begin{array}{ll}
   [
@@ -122,12 +122,12 @@ $
   N=3+2+5=10 \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the Solution, get $N=10$, so choose $D$. 
+  > According to the solution, get $N=10$, so choose $D$. 
 
   :::
 - Formula used  
@@ -141,8 +141,8 @@ $
   :::
 ---
 
-::: wrap
 ### $\fbox{2}\:$How many three-digit numbers have digits whose sum is $\small 24 \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 5 &
@@ -154,9 +154,8 @@ $
 $  
 :::
 #### Solution
-::: wrap  
 - $\textcolor{#228B22}{\fbox{1}}\:$Solve using enumeration  
-
+  ::: wrap  
   $
   \begin{array}{ll}
   \frac{24}{3}=8 \\
@@ -168,10 +167,9 @@ $
   N=1+3+6=10 \\
   \end{array}
   $   
-:::  
-::: wrap  
+  :::  
 - $\textcolor{#228B22}{\fbox{2}}\:$Solve using the permutation formula    
-
+  ::: wrap  
   $
   \begin{array}{ll}
   \frac{24}{3}=8 \\
@@ -190,12 +188,12 @@ $
   N=1+3+6=10 \\
   \end{array}
   $   
-:::  
+  :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the Solution, get $N=10$, so choose $D$. 
+  > According to the solution, get $N=10$, so choose $D$. 
 
   :::
 - Formula used  
@@ -216,7 +214,7 @@ $
   >      $\boldsymbol{\frac{n!}{k_1!\times k_2!\times\cdots \times k_m!}}$  
   >      - $n$: total number of available items   
   >      - $k_i$: number of identical elements of type $i$, where $k_1+k_2+\cdots+k_m=n$  
-  >      - __Example__:   
+  >      - __Example__   
   > $
            \begin{array}{ll}
            [7,8,9] \\
@@ -239,7 +237,7 @@ $
   >      $\boldsymbol{C_n^k=\frac{n!}{k!(n-k)!}}$   
   >      - $n$: total number of available items (supply)   
   >      - $k$: number of elements to choose (demand, order doesn't matter)    
-  >      - __Example__:   
+  >      - __Example__   
   > $
            \begin{array}{ll}
            [9,9,6] \\
@@ -266,8 +264,9 @@ $
 __The multiplication principle__   
 - When encountering multi-step problems, apply the multiplication principle.
 
-::: wrap
+
 ### $\fbox{3}\:$A class is participating in a $\small 400\textsf{m}$ relay at the school sports meet. Two students can run the first leg, three the second, two the third, and one the final leg. The total number of possible running orders is $\small \, \mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 5 &
@@ -279,9 +278,8 @@ $
 $  
 :::
 #### Solution
-::: wrap  
 - The task requires collaboration     
-
+  ::: wrap  
   $
   \begin{array}{ll}
   \begin{cases}
@@ -294,12 +292,12 @@ $
   N=2\times 3\times 2\times 1=12 \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(E)}$  
-  > According to the Solution, get $N=12$, so choose $E$. 
+  > According to the solution, get $N=12$, so choose $E$. 
 
   :::
 - Formula used  
@@ -328,8 +326,9 @@ $
 __The addition and multiplication coexist__
 - When both classification and step-by-step processes appear together, you should __first classify at a macro level__, then __break down into steps at a micro level__.  
 
-::: wrap
+
 ### $\fbox{4}\:$From $\small 5$ sketches, $\small 3$ oil paintings, and $\small 2$ watercolors, how many different ways can you select two pieces of artwork of different types to decorate the classroom $\small \, \mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 35 &
@@ -373,10 +372,10 @@ N=(5\times3)+(5\times2)+(3\times2)=31 \\
 $  
 :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the Solution, get $N=31$, so choose $D$. 
+  > According to the solution, get $N=31$, so choose $D$. 
 
   :::
 - Formula used  
@@ -403,7 +402,7 @@ This is called __a permutation__ of $m$ elements from __$\boldsymbol{n}$ distinc
 - The number of permutations refers to __the total number of different ways__ to select and arrange $m$ elements $(m \le n)$ from $n$ distinct elements.
 It is denoted as $\boldsymbol{P_n^m}$ or $\boldsymbol{A_n^m}$.
 When $m=n$, it is called __a full permutation__, written as $\boldsymbol{P_n^n}$ or $\boldsymbol{A_n^n}$.
-- Note: It is important to distinguish between a permutation and the number of permutations
+- Note: It is important to distinguish between a permutation and the number of permutations.
   - __A permutation__ is one specific arrangement of $m$ elements selected from $n$ distinct elements.
     It is __not a number__.
   - __The number of permutations__ is __the total count__ of all such possible arrangements.
@@ -416,7 +415,7 @@ When $m=n$, it is called __a full permutation__, written as $\boldsymbol{P_n^n}$
 - $P_n^m=A_n^m=n(n-1)(n-2)\cdots(n-m+1)=\frac{n!}{(n-m)!}$   
 - $n$: total number of available items (supply).
 - $m$: number of items to arrange (demand, order matters).
-- Example:    
+- __Example__      
   $
   \begin{array}{ll}
   A_6^3=\underbrace{6\times5\times4}_{3 \textsf{ numbers}}=120 \\
@@ -437,7 +436,7 @@ It is denoted as $\boldsymbol{C_n^m}$.
     - $n$: total number of available items (supply).
     - $m$: number of elements to choose (demand, order doesn't matter).   
     - one permutation when all or none are selected: $C_n^0=C_n^n=1$.
-    - Example:  
+    - __Example__    
       $
       \begin{array}{ll}
       C_7^3=\frac{7\times6\times5}{3\times2\times1}=\frac{210}{6}=35 \\
@@ -445,11 +444,11 @@ It is denoted as $\boldsymbol{C_n^m}$.
       \end{array}
       $
   - ###### A permutation is __a combination__ followed by __arrangement__: $A_n^m=C_n^m \boldsymbol{\cdot} A_m^m=\boldsymbol{C_n^m \cdot m!}$.
-    - Example: $A_4^3=C_4^3\times3!$
+    - __Example__: $A_4^3=C_4^3\times3!$
 
 ### $\textcolor{#1E3A5F}{\fbox{3}}\:$Property of combinations
 - $C_n^m=C_n^{n-m}$
-- Example: $C_9^6=C_9^3$
+- __Example__: $C_9^6=C_9^3$
 
 
 ## 9.Problem-Solving Rules
@@ -464,8 +463,9 @@ It is denoted as $\boldsymbol{C_n^m}$.
 __The calculation of permutations and combinations__  
 - The calculation of permutations and combinations is based on their definitions and __formulas__. 
 
-::: wrap
+
 ### $\fbox{5}\:\small C_8^4-C_7^3=\,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 25 &
@@ -488,10 +488,10 @@ C_7^3=\frac{7\times\bcancel{6}\times5}{\bcancel{3}\times\bcancel{2}\times1}=\fra
 $  
 :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(E)}$  
-  > According to the Solution, get $70-35=35$, so choose $E$. 
+  > According to the solution, get $70-35=35$, so choose $E$. 
 
   :::
 - Formula used  
@@ -505,8 +505,9 @@ $
   :::
 ---
 
-::: wrap
+
 ### $\fbox{6}\:$If $\small C_{m-1}^{m-2}=\frac{3}{n-1}C_{n+1}^{n-2}$, then what $\small\,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: m=n-2 &
@@ -517,10 +518,9 @@ $
 \end{array}
 $  
 :::
-#### Solution
-::: wrap  
+#### Solution 
 - $\textcolor{#228B22}{\fbox{1}}\:$Solve by using the method of assigning specific values (note: there may be multiple correct options — continue testing values until the correct one(s) are identified)    
-
+  ::: wrap  
   $
   \begin{array}{ll}
   \textsf{let }n=2 \\
@@ -539,10 +539,9 @@ $
   \textsf{(D)} \: m=1+\frac{4(4+1)}{2}=11 &✅\;\\  
   \end{array}
   $   
-:::   
-::: wrap  
+  :::  
 - $\textcolor{#228B22}{\fbox{2}}\:$Solve using the symmetric property of combinations: $C_n^m=C_n^{n-m}$    
-
+  ::: wrap  
   $
   \begin{array}{ll}
   C_{m-1}^{m-2}=C_{m-1}^{(m-1)-(m-2)}=C_{m-1}^{1}=\frac{m-1}{1}=m-1 \\
@@ -553,12 +552,12 @@ $
   m=1+\sum_{k=1}^{n}k \\
   \end{array}
   $   
-:::  
+  :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the Solution, get $m=1+\sum_{k=1}^{n}k$, so choose $D$. 
+  > According to the solution, get $m=1+\sum_{k=1}^{n}k$, so choose $D$. 
 
   :::
 - Formula used  
@@ -604,8 +603,9 @@ $
 __The applications of permutations and combinations__   
 - Calculate using the definitions and formulas of permutations and combinations.
 
-::: wrap
+
 ### $\fbox{7}\:$How many permutations are there when selecting any two elements from the four distinct elements $\small A, B, C$, and $\small D$ using enumeration $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 5 &
@@ -616,10 +616,9 @@ $
 \end{array}
 $  
 :::
-#### Solution
-::: wrap  
+#### Solution 
 - $\textcolor{#228B22}{\fbox{1}}\:$Solve using enumeration  
-
+  ::: wrap  
   $
   \begin{array}{ll}
   [A, B]\; [B, A]\\
@@ -630,10 +629,9 @@ $
   [C, D]\; [D, C]\\
   \end{array}
   $   
-:::  
-::: wrap  
+  :::
 - $\textcolor{#228B22}{\fbox{2}}\:$Solve using the permutation formula  
-
+  ::: wrap  
   $
   \begin{array}{ll}
   Р_4^2=4\times3=12 \\
@@ -641,12 +639,12 @@ $
   Р_4^2=C_4^2 \times 2!=\frac{4\times3}{2\times1}\times2=12 \\
   \end{array}
   $   
-:::   
+  :::   
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(E)}$  
-  > According to the Solution, get $12$, so choose $E$. 
+  > According to the solution, get $12$, so choose $E$. 
 
   :::
 - Formula used  
@@ -662,8 +660,9 @@ $
   :::
 ---
 
-::: wrap
+
 ### $\fbox{8}\:$How many combinations are there when selecting any two elements from the four distinct elements $\small A, B, C$, and $\small D$ using enumeration $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 5 &
@@ -675,9 +674,8 @@ $
 $  
 :::
 #### Solution
-::: wrap  
 - $\textcolor{#228B22}{\fbox{1}}\:$Solve using enumeration  
-
+  ::: wrap  
   $
   \begin{array}{ll}
   [A, B] \\
@@ -688,21 +686,20 @@ $
   [C, D] \\
   \end{array}
   $   
-:::  
-::: wrap  
+  :::  
 - $\textcolor{#228B22}{\fbox{2}}\:$Solve using the combination formula
-
+  ::: wrap  
   $
   \begin{array}{ll}
   C_4^2=\frac{4\times3}{2\times1}=6 \\
   \end{array}
   $   
-:::  
+  :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(B)}$  
-  > According to the Solution, get $6$, so choose $B$. 
+  > According to the solution, get $6$, so choose $B$. 
 
   :::
 - Formula used  
@@ -716,8 +713,9 @@ $
   :::
 ---
 
-::: wrap
+
 ### $\fbox{9}\:$There are $\small 9$ number balls labeled $\small 1$ to $\small 9$. How many groups of three balls can be formed $\small \,\mathpunct{?}$. 
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 84 &
@@ -737,10 +735,10 @@ C_9^3=\frac{9\times8\times7}{3\times2\times1}=\frac{504}{6}=84 \\
 $  
 :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(A)}$  
-  > According to the Solution, get $C_9^3=84$, so choose $A$. 
+  > According to the solution, get $C_9^3=84$, so choose $A$. 
 
   :::
 - Formula used  
@@ -754,8 +752,9 @@ $
   :::
 ---
 
-::: wrap
+
 ### $\fbox{10}\:$There are $\small 9$ number balls labeled $\small 1$ to $\small 9$. How many three-digit numbers can be formed by selecting any three of them $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 404 &
@@ -777,10 +776,10 @@ p_n^m \Longleftrightarrow C_n^m \cdot m! \\
 $  
 :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(E)}$  
-  > According to the Solution, get $Р_9^3=C_9^3 \times 3!=504$, so choose $E$. 
+  > According to the solution, get $Р_9^3=C_9^3 \times 3!=504$, so choose $E$. 
 
   :::
 - Formula used  
