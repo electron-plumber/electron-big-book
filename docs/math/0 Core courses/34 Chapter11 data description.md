@@ -19,20 +19,18 @@ lang: en-US
 - Arrange a set of data in __ascending order__,
   and __the value in the middle position__ (or __the average of the two middle values__) is called __the median of the data set__.
 
-
 ## 4.Focus 1
 __The basic concepts__  
 - Analyze and make judgments based on __the concepts of mean, mode, and median__.
 
-
-::: wrap
 ### $\fbox{1}\:$Which of the following statements are incorrect $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
-(\text{1}) \: \textsf{in a data set, there is only one mode}. & \\
-(\text{2}) \: \textsf{the median and mode can never be equal}. & \\
-(\text{3}) \: \textsf{the mean and median of a data set can never be equal}. & \\
-(\text{4}) \: \textsf{the mean, mode, and median can be equal}. & \\
+(\text{1}) \: \textsf{in a data set, there is only one mode} & \\
+(\text{2}) \: \textsf{the median and mode can never be equal} & \\
+(\text{3}) \: \textsf{the mean and median of a data set can never be equal} & \\
+(\text{4}) \: \textsf{the mean, mode, and median can be equal} & \\
 (\text{A}) \: 0 & \\
 (\text{B}) \: 1 & \\
 (\text{C}) \: 2 & \\
@@ -46,17 +44,17 @@ $
 $
 \begin{array}{ll}
 (\text{1}) \: \textsf{most frequent value, may have multiple modes}\,❌\;\\
-(\text{2}) \: [3,3,3,3]\;\textsf{the median can be equal to the mode}  \,❌\;\\
+(\text{2}) \: [3,3,3,3]\;\textsf{the median can be equal to the mode} \,❌\;\\
 (\text{3}) \: [3,3,3,3,3]\;\textsf{the mean can be equal to the median} \,❌\;\\
 (\text{4}) \: ✅\;\\
 \end{array}
 $  
 :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the Solution, get $(\text{1}),(\text{2}),(\text{3})$, so choose $D$. 
+  > According to the solution, get $(\text{1}),(\text{2}),(\text{3})$, so choose $D$. 
 
   :::
 - Formula used  
@@ -83,7 +81,6 @@ __The calculation of the average value for a set of numbers__
   and then add $m$ back.
 
 
-::: wrap
 ### $\fbox{2}\:$In a singing competition, the scores given by $\small 8$ judges are shown in the table below:  
 
 | Judge | $1$   | $2$   | $3$   | $4$   | $5$   | $6$   | $7$   | $8$   |  
@@ -91,6 +88,7 @@ __The calculation of the average value for a set of numbers__
 | Score | $9.3$ | $9.5$ | $9.4$ | $9.6$ | $9.5$ | $9.6$ | $9.5$ | $9.7$ |  
 
 #### (1) What is the mode of the $\small 8$ judges' scores $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 9.3 &
@@ -99,8 +97,10 @@ $
 \textsf{(D)} \: 9.6 &
 \textsf{(E)} \: 9.7 & \\
 \end{array}
-$
+$  
+:::  
 #### (2) What is the median of the $\small 8$ judges' scores $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 9.3 &
@@ -109,8 +109,10 @@ $
 \textsf{(D)} \: 9.6 &
 \textsf{(E)} \: 9.7 & \\
 \end{array}
-$
+$  
+:::
 #### (3) According to the competition rules, after removing the highest and lowest scores, the final score is the average of the remaining $\small 6$ judges' scores. What is the contestant's final score $\small \,\mathpunct{?}$ (answer rounded to two decimal places).
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 9.42 &
@@ -119,7 +121,7 @@ $
 \textsf{(D)} \: 9.54 &
 \textsf{(E)} \: 9.56 & \\
 \end{array}
-$
+$  
 :::
 #### Solution
 ::: wrap  
@@ -144,12 +146,12 @@ $
 $  
 :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(C)}$  
   > $\boldsymbol{(C)}$  
   > $\boldsymbol{(B)}$  
-  > According to the Solution, get $9.5\rightarrow3,\frac{9.5+9.5}{2}=9.5,\overline{x}\approx9.52$, so choose $(1)\rightarrow C,(2)\rightarrow C,(3)\rightarrow B$. 
+  > According to the solution, get $9.5\rightarrow3,\frac{9.5+9.5}{2}=9.5,\overline{x}\approx9.52$, so choose $(1)\rightarrow C,(2)\rightarrow C,(3)\rightarrow B$. 
 
   :::
 - Formula used  
@@ -170,9 +172,9 @@ __The weighted average calculation__
 - If the average values of different parts and their respective quantities are known,
   __the overall average__ can be calculated __using the weighted average formula__.
 
-
-::: wrap
+  
 ### $\fbox{3}\:$Let the prices of sugars $a,b$, and $c$ be $\small 18$ dollars/kg, $\small 24$ dollars/kg, $\small 36$ dollars/kg, respectively. If the mixing ratio is $\small 3:2:1$, what is the reasonable price of the mixed sugar per kilogram $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 20 &
@@ -195,10 +197,10 @@ $
 $  
 :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the Solution, get $\overline{x}=23$, so choose $D$. 
+  > According to the solution, get $\overline{x}=23$, so choose $D$. 
 
   :::
 - Formula used  
@@ -212,8 +214,8 @@ $
   :::
 ---
 
-::: wrap
 ### $\fbox{4}\:$In a game competition, Class $\small A$ has $\small 20$ participants with an average score of $\small 80$, and Class $\small B$ has $\small 30$ participants with an average score of $\small 70$. What is the overall average score of all participants from both classes $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 76 &
@@ -236,10 +238,10 @@ $
 $  
 :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(C)}$  
-  > According to the Solution, get $\overline{x}=74$, so choose $C$. 
+  > According to the solution, get $\overline{x}=74$, so choose $C$. 
 
   :::
 - Formula used  
@@ -261,10 +263,10 @@ __The comparison of averages__
 - Decreasing high scores or increasing low scores: the average decreases.
 
 
-::: wrap
 ### $\fbox{5}\:$The students from Classes $\small A, B$, and $\small C$ participate in an evaluation, and the number of students and their scores are shown in the table below:  
 ![Question average value figure Q-5 solve-1.svg](../../public/math/Core%20courses/Question%20average%20value%20figure%20Q-5%20solve-1.svg)  
 #### What is the ranking of the three classes based on their average scores, from highest to lowest $\small \,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: B,C,A &
@@ -275,10 +277,9 @@ $
 \end{array}
 $  
 :::
-#### Solution  
-::: wrap  
+#### Solution
 - $\textcolor{#228B22}{\fbox{1}}\:$Solve by analyzing and comparing the proportion of people       
-
+  ::: wrap  
   $
   \begin{array}{ll}
   A=10+10+10+10=40 \\
@@ -306,10 +307,9 @@ $
   (B \gt A) \land (C \gt B) \Longrightarrow C,B,A
   \end{array}
   $  
-:::   
-::: wrap   
-- $\textcolor{#228B22}{\fbox{2}}\:$Solve by applying the weighted average formula   
-
+  :::   
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve by applying the weighted average formula  
+  ::: wrap  
   $
   \begin{array}{ll}
   A=10+10+10+10=40 \\
@@ -327,23 +327,23 @@ $
   8-m=1 \\
   9-m=2 \\
   \end{cases} \\
-  \overline{x}=\frac{-1\times\frac{1}{4}+0\times\frac{1}{4}+1\times\frac{1}{4}+2\times\frac{1}{4}}{1} & \textsf{A} \\
+  \overline{x}_A=\frac{-1\times\frac{1}{4}+0\times\frac{1}{4}+1\times\frac{1}{4}+2\times\frac{1}{4}}{1} \\
   \frac{-1+0+1+2}{4}+7=0.5+7=7.5 \\
-  \overline{x}=\frac{-1\times\frac{1}{4}+0\times\frac{1}{4}+1\times\frac{1}{6}+2\times\frac{1}{3}}{1} & \textsf{B} \\
+  \overline{x}_B=\frac{-1\times\frac{1}{4}+0\times\frac{1}{4}+1\times\frac{1}{6}+2\times\frac{1}{3}}{1} \\
   \frac{-1+0}{4}+\frac{1}{6}+\frac{2}{3}+7 \\
   \frac{-3}{12}+\frac{2}{12}+\frac{8}{12}+7=\frac{7}{12}+\frac{84}{12}=\frac{91}{12}\approx7.58 \\
-  \overline{x}=\frac{-1\times\frac{1}{5}+0\times\frac{1}{5}+1\times\frac{3}{10}+2\times\frac{3}{10}}{1} & \textsf{C} \\
+  \overline{x}_C=\frac{-1\times\frac{1}{5}+0\times\frac{1}{5}+1\times\frac{3}{10}+2\times\frac{3}{10}}{1} \\
   \frac{-1+0}{5}+\frac{3}{10}+\frac{6}{10}+7 \\
   \frac{-2}{10}+\frac{3}{10}+\frac{6}{10}+7=0.7+7=7.7 \\
   7.7\gt7.58\gt7.5 \Longrightarrow C,B,A
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
-- Derived Solution  
+- Derived solution  
   ::: wrap
   > $\boldsymbol{(E)}$  
-  > According to the Solution, get $C\gt B\gt A$, so choose $E$. 
+  > According to the solution, get $C\gt B\gt A$, so choose $E$. 
 
   :::
 - Formula used  
