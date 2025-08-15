@@ -124,10 +124,10 @@ $
   $  
   :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the solution, get $N=10$, so choose $D$. 
+  > According to the Solution, get $N=10$, so choose $D$. 
 
   :::
 - Formula used  
@@ -190,10 +190,10 @@ $
   $   
   :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the solution, get $N=10$, so choose $D$. 
+  > According to the Solution, get $N=10$, so choose $D$. 
 
   :::
 - Formula used  
@@ -294,10 +294,10 @@ $
   $  
   :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(E)}$  
-  > According to the solution, get $N=12$, so choose $E$. 
+  > According to the Solution, get $N=12$, so choose $E$. 
 
   :::
 - Formula used  
@@ -372,10 +372,10 @@ N=(5\times3)+(5\times2)+(3\times2)=31 \\
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the solution, get $N=31$, so choose $D$. 
+  > According to the Solution, get $N=31$, so choose $D$. 
 
   :::
 - Formula used  
@@ -488,10 +488,10 @@ C_7^3=\frac{7\times\bcancel{6}\times5}{\bcancel{3}\times\bcancel{2}\times1}=\fra
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(E)}$  
-  > According to the solution, get $70-35=35$, so choose $E$. 
+  > According to the Solution, get $70-35=35$, so choose $E$. 
 
   :::
 - Formula used  
@@ -554,10 +554,10 @@ $
   $   
   :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the solution, get $m=1+\sum_{k=1}^{n}k$, so choose $D$. 
+  > According to the Solution, get $m=1+\sum_{k=1}^{n}k$, so choose $D$. 
 
   :::
 - Formula used  
@@ -641,10 +641,10 @@ $
   $   
   :::   
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(E)}$  
-  > According to the solution, get $12$, so choose $E$. 
+  > According to the Solution, get $12$, so choose $E$. 
 
   :::
 - Formula used  
@@ -696,10 +696,10 @@ $
   $   
   :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(B)}$  
-  > According to the solution, get $6$, so choose $B$. 
+  > According to the Solution, get $6$, so choose $B$. 
 
   :::
 - Formula used  
@@ -735,10 +735,10 @@ C_9^3=\frac{9\times8\times7}{3\times2\times1}=\frac{504}{6}=84 \\
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(A)}$  
-  > According to the solution, get $C_9^3=84$, so choose $A$. 
+  > According to the Solution, get $C_9^3=84$, so choose $A$. 
 
   :::
 - Formula used  
@@ -776,10 +776,10 @@ p_n^m \Longleftrightarrow C_n^m \cdot m! \\
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(E)}$  
-  > According to the solution, get $Р_9^3=C_9^3 \times 3!=504$, so choose $E$. 
+  > According to the Solution, get $Р_9^3=C_9^3 \times 3!=504$, so choose $E$. 
 
   :::
 - Formula used  

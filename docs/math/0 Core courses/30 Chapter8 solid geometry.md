@@ -30,8 +30,9 @@ lang: en-US
 __The cuboid__   
 - Master the formulas for the __space diagonal__, __surface area__, and __volume__ of a cuboid.
 
-::: wrap
+
 ### $\fbox{1}\:$The ratio of the length to the width of a cuboid is $\small 2:1$, and the ratio of the width to the height is $\small 3:2$. If the total length of all the edges of the cuboid is $\small 220$ cm, what is its volume $\small \, \mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 2880\textsf{ cm}^3 &
@@ -78,8 +79,9 @@ $
   :::
 ---
 
-::: wrap
+
 ### $\fbox{2}\:$The three adjacent edge lengths of a cuboid are in the ratio $\small 3:2:1$, and its surface area is $\small 88$. What is the length of the longest edge $\small \, \mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 8 &
@@ -120,8 +122,9 @@ $
   :::
 ---
 
-::: wrap
+
 ### $\fbox{3}\:$The areas of three adjacent faces of a cuboid are $\small 2, 6$, and $\small 3$, respectively. What is the volume of the cuboid $\small \, \mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 4 &
@@ -133,9 +136,8 @@ $
 $  
 :::
 #### Solution
-::: wrap  
 - $\textcolor{#228B22}{\fbox{1}}\:$Solve by using the substitution method (only applicable in simple cases)      
-
+  ::: wrap  
   $
   \begin{array}{ll}
   \begin{cases}
@@ -152,17 +154,16 @@ $
   V=1\times2\times3=6 \\
   \end{array}
   $   
-:::  
-::: wrap  
+  :::  
 - $\textcolor{#228B22}{\fbox{2}}\:$Solve by using the volume formula (suitable for special cases)    
-
+  ::: wrap  
   $
   \begin{array}{ll}
   V=abc=\sqrt{a^2 \cdot b^2 \cdot c^2}=\sqrt{ab \cdot bc \cdot ac} \\
   \sqrt{2 \cdot 6 \cdot 3}=\sqrt{36}=6 & \textsf{substitute }[ab=2, bc=6, ac=3] \\
   \end{array}
   $   
-:::  
+  :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
@@ -187,8 +188,8 @@ __The cube__
 - A cube is relatively simple; master the formulas for __its space diagonal, surface area, and volume__.
 
 
-::: wrap
 ### $\fbox{4}\:$Given that the space diagonal of a cube is $\small 3$, what is its total surface area $\small \, \mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 16 &
@@ -254,8 +255,9 @@ __The cylinders__
 - ###### Equilateral cylinder: the axial section is a square $(h=2r)$.  
   ![Equilateral cylinder.svg](../../public/math/Core%20courses/Equilateral%20cylinder.svg)  
 
-::: wrap
+
 ### $\fbox{5}\:$If the height of a cylinder is increased to $\small 3$ times its original height, and its base radius is increased to $\small 1.5$ times its original radius, then by what factor does its volume increase compared to the original volume $\small \, \mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 4.5 &
@@ -294,8 +296,9 @@ $
   :::
 ---
 
-::: wrap
+
 ### $\fbox{6}\:$If the lateral development of a cylinder is a square, then its lateral surface area is how many times the area of its base $\small \, \mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 2 &
@@ -307,17 +310,16 @@ $
 $  
 :::
 #### Solution
-::: wrap  
 - Solve by using the method of assigning specific values     
   ![Question prisms and cylinders figure Q-6 solve-1.svg](../../public/math/Core%20courses/Question%20prisms%20and%20cylinders%20figure%20Q-6%20solve-1.svg)   
-
+  ::: wrap  
   $
   \begin{array}{ll}
   \textsf{let }r=1 \quad c=2\pi \longrightarrow h=2\pi & \textsf{lateral development = square} \\
   \frac{S_{\textsf{lateral}}}{S_{\textsf{base}}}=\frac{(2\pi)^2}{\pi\times1^2}=4\pi \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
@@ -341,8 +343,10 @@ $
 __The prisms__   
 - Master the formulas for calculating the __surface area__ and __volume__ of common __triangular and quadrangular prisms__.
 
-::: wrap
+
 ### $\fbox{7}\:$Figure 8–3, if the top and bottom faces of a right triangular prism are right triangles, what is the surface area of the triangular prism $\small \, \mathpunct{?}$.
+![Question prisms and cylinders figure 8-3.svg](../../public/math/Core%20courses/Question%20prisms%20and%20cylinders%20figure%208-3.svg)  
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 28 &
@@ -353,12 +357,10 @@ $
 \end{array}
 $  
 :::  
-![Question prisms and cylinders figure 8-3.svg](../../public/math/Core%20courses/Question%20prisms%20and%20cylinders%20figure%208-3.svg)   
 #### Solution
-::: wrap  
 - Show known conditions       
   ![Question prisms and cylinders figure 8-3 solve-1.svg](../../public/math/Core%20courses/Question%20prisms%20and%20cylinders%20figure%208-3%20solve-1.svg)   
-
+  ::: wrap  
   $
   \begin{array}{ll}
   S=S_{\textsf{lateral}}+2S_{\textsf{base}} \\
@@ -367,7 +369,7 @@ $
   S=24+12=36 \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
@@ -389,8 +391,9 @@ $
   :::
 ---
 
-::: wrap
+
 ### $\fbox{8}\:$A quadrangular prism has a lateral development in the shape of a square with a side length of $\small 40$, and its base is also a square. What is its volume $\small \, \mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 2800 &
@@ -402,16 +405,15 @@ $
 $  
 :::
 #### Solution
-::: wrap  
 - Show known conditions    
   ![Question prisms and cylinders figure Q-8 solve-1.svg](../../public/math/Core%20courses/Question%20prisms%20and%20cylinders%20figure%20Q-8%20solve-1.svg)   
-  
+  ::: wrap  
   $
   \begin{array}{ll}
   V=10^2 \times 40=4000 \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
@@ -465,8 +467,9 @@ __The basic formulas of a sphere__
   - $\frac{S_1}{S_2}=(\frac{r_1}{r_2})^2$. 
   - $\frac{V_1}{V_2}=(\frac{r_1}{r_2})^3$.
 
-::: wrap
+
 ### $\fbox{9}\:$If the surface area of a sphere increases to $\small 9$ times its original value, what its volume $\small \, \mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: \textsf{increase to }9\textsf{ times the original} &
@@ -516,8 +519,9 @@ __The circumscribed sphere and the inscribed sphere__
   and the formulas for the __inscribed sphere__ of a cube and an equilateral cylinder.     
 
 
-::: wrap
+
 ### $\fbox{10}\:$If a cuboid is inscribed in a sphere and its edge lengths are $\small 1, 2$, and $\small 3$, what is the surface area of the sphere $\small\,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: \frac{7\sqrt{14}}{6}\pi &
@@ -557,8 +561,9 @@ $
   :::
 ---
 
-::: wrap
+
 ### $\fbox{11}\:$What is the minimum value of the ratio between the volume of an equilateral cylinder (excluding its inscribed sphere) and the volume of that sphere $\small \, \mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: \frac{3}{4} &
@@ -570,10 +575,9 @@ $
 $  
 :::
 #### Solution
-::: wrap  
 - Show known conditions    
   ![Question sphere figure Q-11 solve-1.svg](../../public/math/Core%20courses/Question%20sphere%20figure%20Q-11%20solve-1.svg)  
-
+  ::: wrap  
   $
   \begin{array}{ll}
   \textsf{let }r=1 \\
@@ -582,7 +586,7 @@ $
   \frac{2\pi-\frac{4}{3}\pi}{\frac{4}{3}\pi} = \frac{\frac{2}{3}\pi}{\frac{4}{3}\pi}=\frac{2}{3}\times\frac{3}{4}=\frac{6}{12}=\frac{1}{2} \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
@@ -603,8 +607,9 @@ $
   :::
 ---
 
-::: wrap
+
 ### $\fbox{12}\:$If a hemisphere is cut into a cylinder with a base radius half of the hemisphere's radius, what is the ratio of the volume of the hemisphere to the volume of the cylinder $\small\,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 4:1 &
@@ -616,10 +621,9 @@ $
 $  
 :::
 #### Solution
-::: wrap  
 - Show known conditions  
   ![Question sphere figure Q-12 solve-1.svg](../../public/math/Core%20courses/Question%20sphere%20figure%20Q-12%20solve-1.svg)   
-
+  ::: wrap  
   $
   \begin{array}{ll}
   \textsf{let }r=1 \\
@@ -634,7 +638,7 @@ $
   \frac{\frac{2}{3}\pi\times2^3}{\pi\times1^2\times\sqrt{3}}=\frac{\frac{16}{3}\pi}{\sqrt{3}\pi}=\frac{\frac{16}{3}}{\sqrt{3}}=\frac{16}{3}\times\frac{1}{\sqrt{3}}=\frac{16}{3\sqrt{3}} \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
@@ -662,8 +666,9 @@ __The section of a sphere__
   According to the __Pythagorean theorem__, then: $r^2+d^2=R^2$. 
 
 
-::: wrap
+
 ### $\fbox{13}\:$Two parallel planes intersect a sphere of radius $\small 5$, creating circular cross-sections with areas $\small 9\pi$ and $\small 16\pi$. What is the distance between these two planes $\small\,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 1 &
@@ -675,10 +680,9 @@ $
 $  
 :::
 #### Solution
-::: wrap  
 - Both cross-sections may lie on the same side of the sphere or on opposite sides        
   ![Question sphere figure Q-13 solve-1.svg](../../public/math/Core%20courses/Question%20sphere%20figure%20Q-13%20solve-1.svg)  
-
+  ::: wrap  
   $
   \begin{array}{ll}
   S=\pi r^2 \\
@@ -698,7 +702,7 @@ $
   d_{\textsf{same side}}= 4-3=1 \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap

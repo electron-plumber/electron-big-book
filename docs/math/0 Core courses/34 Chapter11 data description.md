@@ -51,10 +51,10 @@ $
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the solution, get $(\text{1}),(\text{2}),(\text{3})$, so choose $D$. 
+  > According to the Solution, get $(\text{1}),(\text{2}),(\text{3})$, so choose $D$. 
 
   :::
 - Formula used  
@@ -146,12 +146,12 @@ $
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(C)}$  
   > $\boldsymbol{(C)}$  
   > $\boldsymbol{(B)}$  
-  > According to the solution, get $9.5\rightarrow3,\frac{9.5+9.5}{2}=9.5,\overline{x}\approx9.52$, so choose $(1)\rightarrow C,(2)\rightarrow C,(3)\rightarrow B$. 
+  > According to the Solution, get $9.5\rightarrow3,\frac{9.5+9.5}{2}=9.5,\overline{x}\approx9.52$, so choose $(1)\rightarrow C,(2)\rightarrow C,(3)\rightarrow B$. 
 
   :::
 - Formula used  
@@ -197,10 +197,10 @@ $
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the solution, get $\overline{x}=23$, so choose $D$. 
+  > According to the Solution, get $\overline{x}=23$, so choose $D$. 
 
   :::
 - Formula used  
@@ -238,10 +238,10 @@ $
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(C)}$  
-  > According to the solution, get $\overline{x}=74$, so choose $C$. 
+  > According to the Solution, get $\overline{x}=74$, so choose $C$. 
 
   :::
 - Formula used  
@@ -340,10 +340,10 @@ $
   $  
   :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(E)}$  
-  > According to the solution, get $C\gt B\gt A$, so choose $E$. 
+  > According to the Solution, get $C\gt B\gt A$, so choose $E$. 
 
   :::
 - Formula used  

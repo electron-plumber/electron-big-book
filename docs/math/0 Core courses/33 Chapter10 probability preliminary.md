@@ -96,10 +96,10 @@ $
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the solution, get $D\;✅\;$, so choose $D$. 
+  > According to the Solution, get $D\;✅\;$, so choose $D$. 
 
   :::
 - Formula used  
@@ -140,10 +140,10 @@ $
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(C)}$  
-  > According to the solution, get $C\;✅\;$, so choose $C$. 
+  > According to the Solution, get $C\;✅\;$, so choose $C$. 
 
   :::
 - Formula used  
@@ -252,10 +252,10 @@ P=\frac{C_4^4+C_4^3C_6^1+C_4^2C_6^2}{C_{10}^{4}} \\
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(A)}$  
-  > According to the solution, get $P=\frac{23}{42}$, so choose $A$. 
+  > According to the Solution, get $P=\frac{23}{42}$, so choose $A$. 
 
   :::
 - Formula used  
@@ -306,10 +306,10 @@ P=\frac{3}{C_8^1C_8^1}=\frac{3}{8\times8}=\frac{3}{64} \\
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the solution, get $P=\frac{3}{64}$, so choose $D$. 
+  > According to the Solution, get $P=\frac{3}{64}$, so choose $D$. 
 
   :::
 - Formula used  
@@ -373,10 +373,10 @@ P=\frac{C_5^3}{C_{10}^4}=\frac{\frac{5\times\bcancel{4}\times\bcancel{3}}{\bcanc
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the solution, get $P=\frac{1}{21}$, so choose $D$. 
+  > According to the Solution, get $P=\frac{1}{21}$, so choose $D$. 
 
   :::
 - Formula used  
@@ -474,10 +474,10 @@ P=0.6\times(1-0.75)+(1-0.6)\times0.75 \\
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(B)}$  
-  > According to the solution, get $P=0.45$, so choose $B$. 
+  > According to the Solution, get $P=0.45$, so choose $B$. 
 
   :::
 - Formula used  
@@ -523,10 +523,10 @@ P=1-0.9\times0.8\times0.7=1-0.504=0.496 \\
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(B)}$  
-  > According to the solution, get $P=0.496$, so choose $B$. 
+  > According to the Solution, get $P=0.496$, so choose $B$. 
 
   :::
 - Formula used  
@@ -583,11 +583,11 @@ $
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
   > $\boldsymbol{(C)}$  
-  > According to the solution, get $P_1=\frac{5}{12},P_2=\frac{1}{2}$, so choose $(1)\rightarrow D,(2)\rightarrow C$. 
+  > According to the Solution, get $P_1=\frac{5}{12},P_2=\frac{1}{2}$, so choose $(1)\rightarrow D,(2)\rightarrow C$. 
 
   :::
 - Formula used  
@@ -624,10 +624,10 @@ P=1-(1-0.9)\times(1-0.8)\times(1-0.7) & \textsf{at least one success} \\
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(C)}$  
-  > According to the solution, get $P=0.994$, so choose $C$.  
+  > According to the Solution, get $P=0.994$, so choose $C$.  
 
   :::
 - Formula used  
@@ -684,11 +684,11 @@ $
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
   > $\boldsymbol{(C)}$  
-  > According to the solution, get $P_1=0.84,n\ge6$, so choose $(1)\rightarrow D,(2)\rightarrow C$.
+  > According to the Solution, get $P_1=0.84,n\ge6$, so choose $(1)\rightarrow D,(2)\rightarrow C$.
 
   :::
 - Formula used  
@@ -741,10 +741,10 @@ P=(\frac{1}{2})^2+(\frac{1}{2})^3+(\frac{1}{2})^4\times2+(\frac{1}{2})^5\times3 
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(E)}$  
-  > According to the solution, get $P=\frac{19}{32}$, so choose $E$. 
+  > According to the Solution, get $P=\frac{19}{32}$, so choose $E$. 
 
   :::
 - Formula used  
@@ -835,12 +835,12 @@ $
   $  
   :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(C)}$  
   > $\boldsymbol{(D)}$  
   > $\boldsymbol{(E)}$  
-  > According to the solution, get $P_1=\frac{12}{25},P_2=\frac{18}{25},P_3=\frac{3}{5}$,
+  > According to the Solution, get $P_1=\frac{12}{25},P_2=\frac{18}{25},P_3=\frac{3}{5}$,
   > so choose $(1)\rightarrow C,(2)\rightarrow D,(3)\rightarrow E$. 
 
   :::
@@ -897,10 +897,10 @@ $
   $  
   :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(E)}$  
-  > According to the solution, get $P=s^2\times[1-(1-p)(1-q)(1-r)]$, so choose $E$. 
+  > According to the Solution, get $P=s^2\times[1-(1-p)(1-q)(1-r)]$, so choose $E$. 
 
   :::
 - Formula used  

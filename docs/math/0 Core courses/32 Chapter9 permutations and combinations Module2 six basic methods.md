@@ -47,10 +47,10 @@ $
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the solution, get $3!\times3!\times3!\times3!=(3!)^4$, so choose $D$. 
+  > According to the Solution, get $3!\times3!\times3!\times3!=(3!)^4$, so choose $D$. 
 
   :::
 - Formula used  
@@ -93,10 +93,10 @@ $
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(A)}$  
-  > According to the solution, get $2!\times2!\times5!=480$, so choose $A$. 
+  > According to the Solution, get $2!\times2!\times5!=480$, so choose $A$. 
 
   :::
 - Formula used  
@@ -142,10 +142,10 @@ $
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(A)}$  
-  > According to the solution, get $2!\times2!\times2!=8$, so choose $A$. 
+  > According to the Solution, get $2!\times2!\times2!=8$, so choose $A$. 
 
   :::
 - Formula used  
@@ -201,10 +201,10 @@ $
   $  
   :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(E)}$  
-  > According to the solution, get $4!\times C_5^3\times3!=1440$, so choose $E$. 
+  > According to the Solution, get $4!\times C_5^3\times3!=1440$, so choose $E$. 
 
   :::
 - Formula used  
@@ -249,10 +249,10 @@ $
   $  
   :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(E)}$  
-  > According to the solution, get $4!\times C_5^3\times3!=1440$, so choose $E$. 
+  > According to the Solution, get $4!\times C_5^3\times3!=1440$, so choose $E$. 
 
   :::
 - Formula used  
@@ -299,10 +299,10 @@ $
   $  
   :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(C)}$  
-  > According to the solution, get $C_6^3=20$, so choose $C$. 
+  > According to the Solution, get $C_6^3=20$, so choose $C$. 
 
   :::
 - Formula used  
@@ -355,10 +355,10 @@ $
   $  
   :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(B)}$  
-  > According to the solution, get $2!\times4!\times C_5^2 \times 2!=960$, so choose $B$. 
+  > According to the Solution, get $2!\times4!\times C_5^2 \times 2!=960$, so choose $B$. 
 
   :::
 - Formula used  
@@ -411,10 +411,10 @@ $
   $  
   :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(C)}$  
-  > According to the solution, get $3!\times C_3^2\times2! \times C_4^2 \times 2!=432$, so choose $C$. 
+  > According to the Solution, get $3!\times C_3^2\times2! \times C_4^2 \times 2!=432$, so choose $C$. 
 
   :::
 - Formula used  
@@ -478,10 +478,10 @@ $
   $  
   :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(C)}$  
-  > According to the solution, get $3!\times3!\times2=72$, so choose $C$. 
+  > According to the Solution, get $3!\times3!\times2=72$, so choose $C$. 
 
   :::
 - Formula used  
@@ -525,10 +525,10 @@ $
   $  
   :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(E)}$  
-  > According to the solution, get $4!\times3!=144$, so choose $E$. 
+  > According to the Solution, get $4!\times3!=144$, so choose $E$. 
 
   :::
 - Formula used  
@@ -615,10 +615,10 @@ $
   $  
   :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(A)}$  
-  > According to the solution, get $C_{10-1}^{7-1}=84$, so choose $A$. 
+  > According to the Solution, get $C_{10-1}^{7-1}=84$, so choose $A$. 
 
   :::
 - Formula used  
@@ -659,10 +659,10 @@ C_{10}^{4}=\frac{10\times\bcancel{9}\times\bcancel{8}\times7}{\bcancel{4}\times\
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the solution, get $C_{11-1}^{7-1}=210$, so choose $D$. 
+  > According to the Solution, get $C_{11-1}^{7-1}=210$, so choose $D$. 
 
   :::
 - Formula used  
@@ -703,10 +703,10 @@ $
   $  
   :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(B)}$  
-  > According to the solution, get $C_{12-1}^{4-1}=165$, so choose $B$. 
+  > According to the Solution, get $C_{12-1}^{4-1}=165$, so choose $B$. 
 
   :::
 - Formula used  
@@ -760,10 +760,10 @@ m-n=286-84=202 \\
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(E)}$  
-  > According to the solution, get $m-n=202$, so choose $E$. 
+  > According to the Solution, get $m-n=202$, so choose $E$. 
 
   :::
 - Formula used  
@@ -838,10 +838,10 @@ m^n=3^5=243 & \textsf{project}^\textsf{people} \\
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(A)}$  
-  > According to the solution, get $m^n=243$, so choose $A$. 
+  > According to the Solution, get $m^n=243$, so choose $A$. 
 
   :::
 - Formula used  
@@ -887,10 +887,10 @@ m^n=C_5^1\times C_5^1\times C_5^1=5^3=125 & \textsf{person}^\textsf{competitions
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(B)}$  
-  > According to the solution, get $m^n=125$, so choose $B$. 
+  > According to the Solution, get $m^n=125$, so choose $B$. 
 
   :::
 - Formula used  
@@ -926,10 +926,10 @@ m^n=7^6 & \textsf{workshop}^\textsf{people}\\
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(A)}$  
-  > According to the solution, get $m^n=7^6$, so choose $A$. 
+  > According to the Solution, get $m^n=7^6$, so choose $A$. 
 
   :::
 - Formula used  
@@ -998,10 +998,10 @@ $
   $  
   :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(C)}$  
-  > According to the solution, get $C_5^1 \times 9=45$, so choose $C$. 
+  > According to the Solution, get $C_5^1 \times 9=45$, so choose $C$. 
 
   :::
 - Formula used  
@@ -1040,10 +1040,10 @@ $
   $  
   :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(C)}$  
-  > According to the solution, get $C_6^2 \times 9=135$, so choose $C$. 
+  > According to the Solution, get $C_6^2 \times 9=135$, so choose $C$. 
 
   :::
 - Formula used  
@@ -1089,10 +1089,10 @@ $
   $  
   :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the solution, get $191$, so choose $D$. 
+  > According to the Solution, get $191$, so choose $D$. 
 
   :::
 - Formula used  
@@ -1165,10 +1165,10 @@ $
   $  
   :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(B)}$  
-  > According to the solution, get $3$, so choose $B$. 
+  > According to the Solution, get $3$, so choose $B$. 
 
   :::
 - Formula used  
@@ -1222,10 +1222,10 @@ $
   $  
   :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the solution, get $7$, so choose $D$. 
+  > According to the Solution, get $7$, so choose $D$. 
 
   :::
 - Formula used  
@@ -1278,10 +1278,10 @@ $
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the solution, get $7$, so choose $D$. 
+  > According to the Solution, get $7$, so choose $D$. 
 
   :::
 - Formula used  
@@ -1339,10 +1339,10 @@ $
 $  
 :::  
 #### Conclusion
-- Derived solution  
+- Derived Solution  
   ::: wrap
   > $\boldsymbol{(E)}$  
-  > According to the solution, get $10$, so choose $E$. 
+  > According to the Solution, get $10$, so choose $E$. 
 
   :::
 - Formula used  
