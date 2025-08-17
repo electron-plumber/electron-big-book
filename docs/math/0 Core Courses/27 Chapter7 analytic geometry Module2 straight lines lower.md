@@ -109,8 +109,8 @@ $
   ::: wrap  
   >$
   \begin{array}{ll}
-  l_1 \parallel l_2 \Leftrightarrow \frac{a_1}{a_2}=\frac{b_1}{b_2} \ne \frac{c_1}{c_2} & \href{/math/0%20Core%20Courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_9-positional-relationships-between-two-lines}{\textsf{parallel positional relationship}} \\
-  a=0 \longrightarrow by+c=0 & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#horizontal-line}{\textsf{horizontal line}} \\
+  l_1 \parallel l_2 \Leftrightarrow \frac{a_1}{a_2}=\frac{b_1}{b_2} \ne \frac{c_1}{c_2} & \href{/math/0%20Core%20Courses/27%20Chapter7%20analytic%20geometry%20Module2%20straight%20lines%20lower.html#_9-positional-relationships-between-two-lines}{\textsf{parallel positional relationship}} \\
+  a=0 \longrightarrow by+c=0 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#horizontal-line}{\textsf{horizontal line}} \\
   \end{array}
   >$
 
@@ -165,7 +165,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  a_1a_2+b_1b_2=0 & \href{/math/0%20Core%20Courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_9-positional-relationships-between-two-lines}{\textsf{perpendicular positional relationship}} \\
+  a_1a_2+b_1b_2=0 & \href{/math/0%20Core%20Courses/27%20Chapter7%20analytic%20geometry%20Module2%20straight%20lines%20lower.html#_9-positional-relationships-between-two-lines}{\textsf{perpendicular positional relationship}} \\
   \end{array}
   >$
 
@@ -209,7 +209,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  a_1a_2+b_1b_2=0 & \href{/math/0%20Core%20Courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_9-positional-relationships-between-two-lines}{\textsf{perpendicular positional relationship}} \\
+  a_1a_2+b_1b_2=0 & \href{/math/0%20Core%20Courses/27%20Chapter7%20analytic%20geometry%20Module2%20straight%20lines%20lower.html#_9-positional-relationships-between-two-lines}{\textsf{perpendicular positional relationship}} \\
   \end{array}
   >$
 
@@ -271,9 +271,9 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  (\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}) & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_2-coordinates-of-the-midpoint-between-two-points}{\textsf{midpoint formula}} \\
-  k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_4-two-point-slope-formula}{\textsf{two-point slope formula}} \\
-  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#remark-the-general-form-is-very-important-as-it-allows-you-to-quickly-calculate-the-slope}{\textsf{quickly convert the general form to the slope}} \\
+  (\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}) & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_2-coordinates-of-the-midpoint-between-two-points}{\textsf{midpoint formula}} \\
+  k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_4-two-point-slope-formula}{\textsf{two-point slope formula}} \\
+  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#remark-the-general-form-is-very-important-as-it-allows-you-to-quickly-calculate-the-slope}{\textsf{quickly convert the general form to the slope}} \\
   \end{array}
   >$
 
@@ -361,9 +361,9 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_4-two-point-slope-formula}{\textsf{two-point slope formula}} \\
-  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#remark-the-general-form-is-very-important-as-it-allows-you-to-quickly-calculate-the-slope}{\textsf{quickly convert the general form to the slope}} \\
-  y=y_0+k(x-x_0) & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#point-slope-form}{\textsf{point-slope form}} \\
+  k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_4-two-point-slope-formula}{\textsf{two-point slope formula}} \\
+  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#remark-the-general-form-is-very-important-as-it-allows-you-to-quickly-calculate-the-slope}{\textsf{quickly convert the general form to the slope}} \\
+  y=y_0+k(x-x_0) & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#point-slope-form}{\textsf{point-slope form}} \\
   \end{array}
   >$
 
@@ -419,7 +419,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{a_1}{a_2} \ne \frac{b_1}{b_2} & \href{/math/0%20Core%20Courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_9-positional-relationships-between-two-lines}{\textsf{intersecting positional relationship}} \\
+  \frac{a_1}{a_2} \ne \frac{b_1}{b_2} & \href{/math/0%20Core%20Courses/27%20Chapter7%20analytic%20geometry%20Module2%20straight%20lines%20lower.html#_9-positional-relationships-between-two-lines}{\textsf{intersecting positional relationship}} \\
   \end{array}
   >$
 
@@ -468,7 +468,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_3-distance-formula-between-two-points}{\textsf{two-point distance formula}} \\
+  d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_3-distance-formula-between-two-points}{\textsf{two-point distance formula}} \\
   \end{array}
   >$
 
@@ -564,7 +564,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  y=kx+b & \href{/math/0%20Core%20Courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_16-focus-7}{\textsf{point-line position}} \\
+  y=kx+b & \href{/math/0%20Core%20Courses/27%20Chapter7%20analytic%20geometry%20Module2%20straight%20lines%20lower.html#_16-focus-7}{\textsf{point-line position}} \\
   \end{array}
   >$
 
@@ -614,10 +614,10 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_4-two-point-slope-formula}{\textsf{two-point slope formula}} \\
-  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#remark-the-general-form-is-very-important-as-it-allows-you-to-quickly-calculate-the-slope}{\textsf{quickly convert the general form to the slope}} \\
-  ax+by+c=0 & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#general-form}{\textsf{general form of a line}} \\
-  d=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}} & \href{/math/0%20Core%20Courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_14-distance-from-a-point-to-a-line}{\textsf{point-to-line distance formula}} \\
+  k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_4-two-point-slope-formula}{\textsf{two-point slope formula}} \\
+  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#remark-the-general-form-is-very-important-as-it-allows-you-to-quickly-calculate-the-slope}{\textsf{quickly convert the general form to the slope}} \\
+  ax+by+c=0 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#general-form}{\textsf{general form of a line}} \\
+  d=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}} & \href{/math/0%20Core%20Courses/27%20Chapter7%20analytic%20geometry%20Module2%20straight%20lines%20lower.html#_14-distance-from-a-point-to-a-line}{\textsf{point-to-line distance formula}} \\
   \end{array}
   >$
 
@@ -665,7 +665,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  d=\frac{|c_1-c_2|}{\sqrt{a^2+b^2}} & \href{/math/0%20Core%20Courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_15-distance-between-two-parallel-lines}{\textsf{parallel lines distance formula}} \\
+  d=\frac{|c_1-c_2|}{\sqrt{a^2+b^2}} & \href{/math/0%20Core%20Courses/27%20Chapter7%20analytic%20geometry%20Module2%20straight%20lines%20lower.html#_15-distance-between-two-parallel-lines}{\textsf{parallel lines distance formula}} \\
   \end{array}
   >$
 

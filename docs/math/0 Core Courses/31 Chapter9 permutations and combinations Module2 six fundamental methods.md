@@ -57,8 +57,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_1-adjacent-element-bundling-method}{\textsf{adjacent element bundling method}} \\
-  m! & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
+  & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_1-adjacent-element-bundling-method}{\textsf{adjacent element bundling method}} \\
+  m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
   \end{array}
   >$
 
@@ -103,8 +103,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_1-adjacent-element-bundling-method}{\textsf{adjacent element bundling method}} \\
-  m! & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
+  & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_1-adjacent-element-bundling-method}{\textsf{adjacent element bundling method}} \\
+  m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
   \end{array}
   >$
 
@@ -152,8 +152,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_1-adjacent-element-bundling-method}{\textsf{adjacent element bundling method}} \\
-  m! & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
+  & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_1-adjacent-element-bundling-method}{\textsf{adjacent element bundling method}} \\
+  m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
   \end{array}
   >$
 
@@ -211,9 +211,9 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_3-alternating-element-insertion-method}{\textsf{alternating element insertion method}} \\
-  m! & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
-  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{permutation as an ordered combination}} \\
+  & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_3-alternating-element-insertion-method}{\textsf{alternating element insertion method}} \\
+  m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
+  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{permutation as an ordered combination}} \\
   \end{array}
   >$
 
@@ -259,9 +259,9 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_3-alternating-element-insertion-method}{\textsf{alternating element insertion method}} \\
-  m! & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
-  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{permutation as an ordered combination}} \\
+  & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_3-alternating-element-insertion-method}{\textsf{alternating element insertion method}} \\
+  m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
+  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{permutation as an ordered combination}} \\
   \end{array}
   >$
 
@@ -309,8 +309,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_3-alternating-element-insertion-method}{\textsf{alternating element insertion method}} \\
-  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_3-alternating-element-insertion-method}{\textsf{alternating element insertion method}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
   \end{array}
   >$
 
@@ -365,10 +365,10 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_1-adjacent-element-bundling-method}{\textsf{adjacent element bundling method}} \\
-  & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_3-alternating-element-insertion-method}{\textsf{alternating element insertion method}} \\
-  m! & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
-  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{permutation as an ordered combination}} \\
+  & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_1-adjacent-element-bundling-method}{\textsf{adjacent element bundling method}} \\
+  & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_3-alternating-element-insertion-method}{\textsf{alternating element insertion method}} \\
+  m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
+  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{permutation as an ordered combination}} \\
   \end{array}
   >$
 
@@ -421,10 +421,10 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_1-adjacent-element-bundling-method}{\textsf{adjacent element bundling method}} \\
-  & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_3-alternating-element-insertion-method}{\textsf{alternating element insertion method}} \\
-  m! & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
-  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{permutation as an ordered combination}} \\
+  & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_1-adjacent-element-bundling-method}{\textsf{adjacent element bundling method}} \\
+  & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_3-alternating-element-insertion-method}{\textsf{alternating element insertion method}} \\
+  m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
+  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{permutation as an ordered combination}} \\
   \end{array}
   >$
 
@@ -488,8 +488,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_3-alternating-element-insertion-method}{\textsf{alternating element insertion method}} \\
-  m! & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
+  & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_3-alternating-element-insertion-method}{\textsf{alternating element insertion method}} \\
+  m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
   \end{array}
   >$
 
@@ -535,8 +535,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_3-alternating-element-insertion-method}{\textsf{alternating element insertion method}} \\
-  m! & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
+  & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_3-alternating-element-insertion-method}{\textsf{alternating element insertion method}} \\
+  m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
   \end{array}
   >$
 
@@ -625,8 +625,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  C_{n-1}^{m-1} & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#formula}{\textsf{restricted stars and bars formula}} \\
-  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  C_{n-1}^{m-1} & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#formula}{\textsf{restricted stars and bars formula}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
   \end{array}
   >$
 
@@ -669,9 +669,9 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  C_{n-1}^{m-1} & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#formula}{\textsf{restricted stars and bars formula}} \\
-  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
-  C_n^m=C_n^{n-m} & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#property-of-combinations}{\textsf{property of combinations}} \\
+  C_{n-1}^{m-1} & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#formula}{\textsf{restricted stars and bars formula}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  C_n^m=C_n^{n-m} & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#property-of-combinations}{\textsf{property of combinations}} \\
   \end{array}
   >$
 
@@ -713,8 +713,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  C_{n-1}^{m-1} & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#formula}{\textsf{restricted stars and bars formula}} \\
-  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  C_{n-1}^{m-1} & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#formula}{\textsf{restricted stars and bars formula}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
   \end{array}
   >$
 
@@ -770,9 +770,9 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  C_{n-1}^{m-1} & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#formula}{\textsf{restricted stars and bars formula}} \\
-  C_{n+m-1}^{m-1} & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#formula}{\textsf{unrestricted stars and bars formula}} \\
-  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  C_{n-1}^{m-1} & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#formula}{\textsf{restricted stars and bars formula}} \\
+  C_{n+m-1}^{m-1} & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#formula}{\textsf{unrestricted stars and bars formula}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
   \end{array}
   >$
 
@@ -848,7 +848,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  m^n & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#application-of-the-method}{\textsf{repeated-element exponentiation method}} \\
+  m^n & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#application-of-the-method}{\textsf{repeated-element exponentiation method}} \\
   \end{array}
   >$
 
@@ -897,7 +897,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  m^n & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#application-of-the-method}{\textsf{repeated-element exponentiation method}} \\
+  m^n & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#application-of-the-method}{\textsf{repeated-element exponentiation method}} \\
   \end{array}
   >$
 
@@ -936,7 +936,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  m^n & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#application-of-the-method}{\textsf{repeated-element exponentiation method}} \\
+  m^n & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#application-of-the-method}{\textsf{repeated-element exponentiation method}} \\
   \end{array}
   >$
 
@@ -1008,8 +1008,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#introduction-to-the-method-1}{\textsf{4 incorrect matches: 9 ways}} \\
-  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#introduction-to-the-method-1}{\textsf{4 incorrect matches: 9 ways}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
   \end{array}
   >$
 
@@ -1050,8 +1050,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#introduction-to-the-method-1}{\textsf{4 incorrect matches: 9 ways}} \\
-  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#introduction-to-the-method-1}{\textsf{4 incorrect matches: 9 ways}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
   \end{array}
   >$
 
@@ -1099,14 +1099,14 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#introduction-to-the-method-1}{\textsf{all correct matches: 1 ways}} \\
-  & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#introduction-to-the-method-1}{\textsf{2 incorrect matches: 1 ways}} \\
-  & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#introduction-to-the-method-1}{\textsf{3 incorrect matches: 2 ways}} \\
-  & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#introduction-to-the-method-1}{\textsf{4 incorrect matches: 9 ways}} \\
-  & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#introduction-to-the-method-1}{\textsf{5 incorrect matches: 44 ways}} \\
-  & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#introduction-to-the-method-1}{\textsf{6 incorrect matches: 265 ways}} \\
-  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
-  m! & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
+  & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#introduction-to-the-method-1}{\textsf{all correct matches: 1 ways}} \\
+  & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#introduction-to-the-method-1}{\textsf{2 incorrect matches: 1 ways}} \\
+  & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#introduction-to-the-method-1}{\textsf{3 incorrect matches: 2 ways}} \\
+  & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#introduction-to-the-method-1}{\textsf{4 incorrect matches: 9 ways}} \\
+  & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#introduction-to-the-method-1}{\textsf{5 incorrect matches: 44 ways}} \\
+  & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#introduction-to-the-method-1}{\textsf{6 incorrect matches: 265 ways}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
   \end{array}
   >$
 
@@ -1175,7 +1175,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_13-exhaustive-listing-method}{\textsf{exhaustive listing method}} \\
+  & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_13-exhaustive-listing-method}{\textsf{exhaustive listing method}} \\
   \end{array}
   >$
 
@@ -1232,7 +1232,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_13-exhaustive-listing-method}{\textsf{exhaustive listing method}} \\
+  & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_13-exhaustive-listing-method}{\textsf{exhaustive listing method}} \\
   \end{array}
   >$
 
@@ -1288,7 +1288,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_13-exhaustive-listing-method}{\textsf{exhaustive listing method}} \\
+  & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_13-exhaustive-listing-method}{\textsf{exhaustive listing method}} \\
   \end{array}
   >$
 
@@ -1349,7 +1349,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  & \href{/math/0%20Core%20Courses/32%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_13-exhaustive-listing-method}{\textsf{exhaustive listing method}} \\
+  & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_13-exhaustive-listing-method}{\textsf{exhaustive listing method}} \\
   \end{array}
   >$
 

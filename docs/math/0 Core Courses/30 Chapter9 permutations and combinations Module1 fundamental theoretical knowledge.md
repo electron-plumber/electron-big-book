@@ -134,7 +134,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  N=m_1+m_2+\cdots+m_n & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#definition}{\textsf{addition principle}} \\
+  N=m_1+m_2+\cdots+m_n & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#definition}{\textsf{addition principle}} \\
   \end{array}
   >$
 
@@ -200,7 +200,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  N=m_1+m_2+\cdots+m_n & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#definition}{\textsf{addition principle}} \\
+  N=m_1+m_2+\cdots+m_n & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#definition}{\textsf{addition principle}} \\
   \end{array}
   >$
 
@@ -304,7 +304,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  N=m_1\times m_2\times\cdots\times m_n & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#_2-principle-of-counting-by-steps-multiplication-principle}{\textsf{multiplication principle}} \\
+  N=m_1\times m_2\times\cdots\times m_n & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#_2-principle-of-counting-by-steps-multiplication-principle}{\textsf{multiplication principle}} \\
   \end{array}
   >$
 
@@ -382,9 +382,9 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  N=m_1\times m_2\times\cdots\times m_n & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#_2-principle-of-counting-by-steps-multiplication-principle}{\textsf{multiplication principle}} \\
-  C_n^k=\frac{n!}{k!(n-k)!} & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#combination-formula-order-doesn-t-matter-remove-duplicates-caused-by-different-orders}{\textsf{combination formula}} \\
-  N=m_1+m_2+\cdots+m_n & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#definition}{\textsf{addition principle}} \\
+  N=m_1\times m_2\times\cdots\times m_n & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#_2-principle-of-counting-by-steps-multiplication-principle}{\textsf{multiplication principle}} \\
+  C_n^k=\frac{n!}{k!(n-k)!} & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#combination-formula-order-doesn-t-matter-remove-duplicates-caused-by-different-orders}{\textsf{combination formula}} \\
+  N=m_1+m_2+\cdots+m_n & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#definition}{\textsf{addition principle}} \\
   \end{array}
   >$
 
@@ -498,7 +498,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
   \end{array}
   >$
 
@@ -564,8 +564,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
-  C_n^m=C_n^{n-m} & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#property-of-combinations}{\textsf{property of combinations}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  C_n^m=C_n^{n-m} & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#property-of-combinations}{\textsf{property of combinations}} \\
   \frac{n(n+1)}{2} & \textsf{arithmetic sum formula} \\
   \end{array}
   >$
@@ -651,9 +651,9 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  P_n^m=А_n^m=n(n-1)(n-2)\cdots(n-m+1) & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-permutations}{\textsf{permutation formula }} \\
-  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{permutation as an ordered combination}} \\
-  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  P_n^m=А_n^m=n(n-1)(n-2)\cdots(n-m+1) & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#formula-for-the-number-of-permutations}{\textsf{permutation formula }} \\
+  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{permutation as an ordered combination}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
   \end{array}
   >$
 
@@ -706,7 +706,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
   \end{array}
   >$
 
@@ -745,7 +745,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
   \end{array}
   >$
 
@@ -786,8 +786,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  P_n^m=А_n^m=n(n-1)(n-2)\cdots(n-m+1) & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-permutations}{\textsf{permutation formula }} \\
-  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{permutation as an ordered combination}} \\
+  P_n^m=А_n^m=n(n-1)(n-2)\cdots(n-m+1) & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#formula-for-the-number-of-permutations}{\textsf{permutation formula }} \\
+  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{permutation as an ordered combination}} \\
   \end{array}
   >$
 

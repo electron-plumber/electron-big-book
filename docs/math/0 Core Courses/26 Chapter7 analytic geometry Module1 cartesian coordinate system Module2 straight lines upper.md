@@ -88,7 +88,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  (\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}) & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_2-coordinates-of-the-midpoint-between-two-points}{\text{Midpoint formula}} \\
+  (\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}) & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_2-coordinates-of-the-midpoint-between-two-points}{\text{Midpoint formula}} \\
   \end{array}
   >$
 
@@ -145,7 +145,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_3-distance-formula-between-two-points}{\text{Two-point distance formula}} \\
+  d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_3-distance-formula-between-two-points}{\text{Two-point distance formula}} \\
   x=\frac{-b\pm \sqrt{b^2-4ac}}{2a} & \href{https://en.wikipedia.org/wiki/Quadratic_formula}{\text{Quadratic formula}} \\
   \begin{cases}
   (a+b)^2=a^2+2ab+b^2 \\
@@ -175,7 +175,7 @@ $
 
 $
 \begin{array}{ll}
-\href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#_16-equilateral-triangle}{\text{Equilateral triangle: }}AB=AC=BC \\
+\href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#_16-equilateral-triangle}{\text{Equilateral triangle: }}AB=AC=BC \\
 \text{Let }C=(x, y) \\
 \sqrt{3^2+(3\sqrt{3})^2}=\sqrt{(x-2)^2+y^2}=\sqrt{(x-5)^2+(y-3\sqrt{3})^2} \\
 \sqrt{3^2+(3\sqrt{3})^2}=\sqrt{9+(9\times3)}=6\\
@@ -209,7 +209,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_3-distance-formula-between-two-points}{\text{Two-point distance formula}} \\
+  d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_3-distance-formula-between-two-points}{\text{Two-point distance formula}} \\
   \end{array}
   >$
 
@@ -218,7 +218,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#_15-isosceles-right-triangle}{\text{Isosceles right triangle:
+  \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#_15-isosceles-right-triangle}{\text{Isosceles right triangle:
   > }}AC=BC=\sqrt{2}AB \implies AB=\sqrt{2}AC=\sqrt{2}BC \\
   \text{Let }C=(x, y) \\
   \sqrt{3^2+(3\sqrt{3})^2}=\sqrt{2}\times\sqrt{(x-2)^2+y^2}=\sqrt{2}\times\sqrt{(x-5)^2+(y-3\sqrt{3})^2} \\
@@ -333,8 +333,8 @@ $
   \begin{cases}
   0<\alpha<90^\circ, k>0 \\
   90^\circ<\alpha<180^\circ, k<0 \\
-  \end{cases} & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_2-definition-of-slope}{\text{Definition of slope}} \\
-  135^\circ=-1 & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_3-common-inclination-angles-and-slope}{\text{Inclination angle–slope reference}} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_2-definition-of-slope}{\text{Definition of slope}} \\
+  135^\circ=-1 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_3-common-inclination-angles-and-slope}{\text{Inclination angle–slope reference}} \\
   \end{array}
   >$
 
@@ -395,8 +395,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_4-two-point-slope-formula}{\text{Two-point slope formula}} \\
-  (\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}) & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_2-coordinates-of-the-midpoint-between-two-points}{\text{Midpoint coordinates}} \\
+  k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_4-two-point-slope-formula}{\text{Two-point slope formula}} \\
+  (\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}) & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_2-coordinates-of-the-midpoint-between-two-points}{\text{Midpoint coordinates}} \\
   \end{array}
   >$
 
@@ -450,7 +450,7 @@ y_2$ are known, the equation of the line can be expressed as $\frac{x-x_1}{x_2-x
 
   $
   \begin{array}{ll}
-  \frac{x-x_1}{x_2-x_1}=\frac{y-y_1}{y_2-y_1} & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#in-similar-triangles-the-ratios-of-corresponding-sides-are-equal}{\text{Similarity ratio}} \\
+  \frac{x-x_1}{x_2-x_1}=\frac{y-y_1}{y_2-y_1} & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#in-similar-triangles-the-ratios-of-corresponding-sides-are-equal}{\text{Similarity ratio}} \\
   y-y_1=\frac{x-x_1}{x_2-x_1}(y_2-y_1) \\
   y-y_1=\underbrace{\boxed{\frac{y_2-y_1}{x_2-x_1}}}_{k}(x-x_1) & \text{Point-slope form} \\
   \end{array}
@@ -499,7 +499,7 @@ which is called the general form of the equation of a line.
   \end{array}
   \end{cases} \\
   \text{Calculate the area of the triangle formed by the intercept form:} \\
-  \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{S=\frac{1}{2}ah} \\
+  \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{S=\frac{1}{2}ah} \\
   S=\frac{1}{2} \times -\frac{c}{a} \times -\frac{c}{b} \\
   S=\frac{c^2}{2|ab|} \\
   \end{array}
@@ -552,9 +552,9 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{x}{a}+\frac{y}{b}=1 & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#intercept-form}{\text{Intercept form}} \\
-  y=y_0+k(x-x_0) & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#point-slope-form}{\text{Point-slope form}} \\
-  ax+by+c=0 & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#general-form}{\text{General form of a line}} \\
+  \frac{x}{a}+\frac{y}{b}=1 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#intercept-form}{\text{Intercept form}} \\
+  y=y_0+k(x-x_0) & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#point-slope-form}{\text{Point-slope form}} \\
+  ax+by+c=0 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#general-form}{\text{General form of a line}} \\
   \end{array}
   >$
 
@@ -609,7 +609,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_4-two-point-slope-formula}{\text{Two-point slope formula}} \\
+  k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_4-two-point-slope-formula}{\text{Two-point slope formula}} \\
   \end{array}
   >$
 
@@ -654,9 +654,9 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{x}{a}+\frac{y}{b}=1 & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#intercept-form}{\text{Intercept form}} \\
-  y=kx & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#passing-through-the-origin}{\text{Passing through the origin}} \\
-  k=\frac{y}{x} & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#the-slope-between-and-is}{\text{Slope of the line passing through the origin}} \\
+  \frac{x}{a}+\frac{y}{b}=1 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#intercept-form}{\text{Intercept form}} \\
+  y=kx & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#passing-through-the-origin}{\text{Passing through the origin}} \\
+  k=\frac{y}{x} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#the-slope-between-and-is}{\text{Slope of the line passing through the origin}} \\
   \end{array}
   >$
 
@@ -727,10 +727,10 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_4-two-point-slope-formula}{\text{Two-point slope formula}} \\
-  \frac{x}{a}+\frac{y}{b}=1 & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#intercept-form}{\text{Intercept form}} \\
-  y=y_0+k(x-x_0) & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#point-slope-form}{\text{Point-slope form}} \\
-  y=kx+b & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#slope-intercept-form}{\text{Slope-intercept form}} \\
+  k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_4-two-point-slope-formula}{\text{Two-point slope formula}} \\
+  \frac{x}{a}+\frac{y}{b}=1 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#intercept-form}{\text{Intercept form}} \\
+  y=y_0+k(x-x_0) & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#point-slope-form}{\text{Point-slope form}} \\
+  y=kx+b & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#slope-intercept-form}{\text{Slope-intercept form}} \\
   \end{array}
   >$
 
@@ -773,11 +773,11 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  ax+by+c=0 & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#general-form}{\text{General form of a line}} \\
+  ax+by+c=0 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#general-form}{\text{General form of a line}} \\
   \begin{cases}
   \text{y-intercept}=-\frac{c}{b} \\
   \text{x-intercept}=-\frac{c}{a} \\
-  \end{cases} & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#quickly-calculate-the-intercept-form}{\text{Quickly convert the general form to the intercept form}} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#quickly-calculate-the-intercept-form}{\text{Quickly convert the general form to the intercept form}} \\
   \end{array}
   >$
 
@@ -788,7 +788,7 @@ $
   >$
   \begin{array}{ll}
   2x-3y+12=0 \\
-  \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#quickly-calculate-the-intercept-form}{S=\frac{c^2}{2|ab|}} \\
+  \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#quickly-calculate-the-intercept-form}{S=\frac{c^2}{2|ab|}} \\
   S=\frac{12^2}{2|2\times-3|}=\frac{24}{12}=12 \\
   \end{array}
   >$
@@ -879,10 +879,10 @@ $
   \begin{cases}
   \text{y-intercept}=-\frac{c}{b} \\
   \text{x-intercept}=-\frac{c}{a} \\
-  \end{cases} & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#quickly-calculate-the-intercept-form}{\text{Quickly convert the general form to the intercept form}} \\
-  a=0 \longrightarrow by+c=0 & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#horizontal-line}{\text{Horizontal line}} \\
-  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#remark-the-general-form-is-very-important-as-it-allows-you-to-quickly-calculate-the-slope}{\text{Quickly convert the general form to the slope}} \\
-  90^\circ<\alpha<180^\circ, k<0 & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_2-definition-of-slope}{\text{Definition of slope}} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#quickly-calculate-the-intercept-form}{\text{Quickly convert the general form to the intercept form}} \\
+  a=0 \longrightarrow by+c=0 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#horizontal-line}{\text{Horizontal line}} \\
+  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#remark-the-general-form-is-very-important-as-it-allows-you-to-quickly-calculate-the-slope}{\text{Quickly convert the general form to the slope}} \\
+  90^\circ<\alpha<180^\circ, k<0 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_2-definition-of-slope}{\text{Definition of slope}} \\
   \end{array}
   >$
 

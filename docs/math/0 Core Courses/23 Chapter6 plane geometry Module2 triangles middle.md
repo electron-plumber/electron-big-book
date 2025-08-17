@@ -120,7 +120,7 @@ $
   \frac{S_1}{S_2}=\frac{a_1}{a_2} & \text{h same} \\
   \frac{S_1}{S_2}=\frac{h_1}{h_2} & \text{a same} \\
   S_1=S_2 & \text{a, h same} \\
-  \end{cases} & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\text{Triangle area formula}} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\text{Triangle area formula}} \\
   \end{array}
   >$
 
@@ -223,7 +223,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  S=\frac{1}{2}absinC & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-angle-between-sides}{\text{Triangle area formula}} \\
+  S=\frac{1}{2}absinC & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-angle-between-sides}{\text{Triangle area formula}} \\
   \end{array}
   >$
 
@@ -261,7 +261,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  S=\frac{1}{2}absinC & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-angle-between-sides}{\text{Triangle area formula}} \\
+  S=\frac{1}{2}absinC & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-angle-between-sides}{\text{Triangle area formula}} \\
   \end{array}
   >$
 
@@ -308,7 +308,7 @@ $
   \begin{cases}
   p=\frac{1}{2}(a+b+c) \\
   S=\sqrt{p(p-a)(p-b)(p-c)} \\
-  \end{cases} & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where}{\text{Heron's formula}} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where}{\text{Heron's formula}} \\
   \end{array}
   >$
 
@@ -391,7 +391,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{AD\times AE}{AB \times AC} & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_10-bird-s-head-theorem}{\text{Bird's Head theorem}} \\
+  \frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{AD\times AE}{AB \times AC} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_10-bird-s-head-theorem}{\text{Bird's Head theorem}} \\
   \end{array}
   >$
 
@@ -437,7 +437,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{AD\times AE}{AB \times AC} & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_10-bird-s-head-theorem}{\text{Bird's Head theorem}} \\
+  \frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{AD\times AE}{AB \times AC} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_10-bird-s-head-theorem}{\text{Bird's Head theorem}} \\
   \end{array}
   >$
 
@@ -476,7 +476,7 @@ __Solve area using the Swallowtail theorem (equal altitudes).__
 
   $
   \begin{array}{ll}
-  \frac{S_{\triangle ABD}}{S_{\triangle ACD}}= \frac{S_{\triangle BOD}}{S_{\triangle COD}}=\frac{BD}{CD} & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\text{equal altitudes,
+  \frac{S_{\triangle ABD}}{S_{\triangle ACD}}= \frac{S_{\triangle BOD}}{S_{\triangle COD}}=\frac{BD}{CD} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\text{equal altitudes,
   h same }}\frac{S_1}{S_2}=\frac{a_1}{a_2} \\
   \frac{S_{\triangle ABD}-S_{\triangle BOD}}{S_{\triangle ACD}-S_{\triangle COD}}=\frac{S_{\triangle AOB}}{S_{\triangle AOC}} \\
   \end{array}
@@ -525,7 +525,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{S_{\triangle AOB}}{S_{\triangle AOC}}=\frac{BD}{CD} & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_12-swallowtail-theorem}{\text{Swallowtail theorem}} \\
+  \frac{S_{\triangle AOB}}{S_{\triangle AOC}}=\frac{BD}{CD} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_12-swallowtail-theorem}{\text{Swallowtail theorem}} \\
   \end{array}
   >$
 

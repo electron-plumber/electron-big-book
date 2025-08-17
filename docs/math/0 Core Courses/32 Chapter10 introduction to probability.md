@@ -106,8 +106,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#an-event-that-always-occurs-in-every-trial-is-called-a-certain-event}{\textsf{certain event}} \\
-  & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#_2-random-event}{\textsf{random event}} \\
+  & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#an-event-that-always-occurs-in-every-trial-is-called-a-certain-event}{\textsf{certain event}} \\
+  & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#_2-random-event}{\textsf{random event}} \\
   \end{array}
   >$
 
@@ -150,8 +150,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#an-event-that-never-occurs-in-any-trial-is-called-an-impossible-event-denoted-as}{\textsf{impossible event}} \\
-  & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#_2-random-event}{\textsf{random event}} \\
+  & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#an-event-that-never-occurs-in-any-trial-is-called-an-impossible-event-denoted-as}{\textsf{impossible event}} \\
+  & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#_2-random-event}{\textsf{random event}} \\
   \end{array}
   >$
 
@@ -206,12 +206,12 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#single-sampling-the-order-of-the-selected-elements-doesn-t-matter}{\textsf{single sampling}} \\
-  & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#sequential-sampling-by-default-one-element-is-taken-each-time}{\textsf{sequential sampling}} \\
-  P(A) = \frac{k}{n} & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#_7-calculation-formula}{\textsf{classical probability model formula}} \\
-  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
-  P(A)+P(\overline{A})=1 & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#_6-classical-probability-model}{\textsf{cpm characteristics}} \\
-  P(\overline{A})=1-P(A) & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#let-be-the-complement-of-event-then}{\textsf{complementary probability}} \\
+  & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#single-sampling-the-order-of-the-selected-elements-doesn-t-matter}{\textsf{single sampling}} \\
+  & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#sequential-sampling-by-default-one-element-is-taken-each-time}{\textsf{sequential sampling}} \\
+  P(A) = \frac{k}{n} & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#_7-calculation-formula}{\textsf{classical probability model formula}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  P(A)+P(\overline{A})=1 & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#_6-classical-probability-model}{\textsf{cpm characteristics}} \\
+  P(\overline{A})=1-P(A) & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#let-be-the-complement-of-event-then}{\textsf{complementary probability}} \\
   \end{array}
   >$
 
@@ -262,9 +262,9 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  P(\bigcup_{i=1}^n A_i) & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#let-be-a-finite-set-of-mutually-exclusive-events-then}{\textsf{union of disjoint events}} \\
-  P(A) = \frac{k}{n} & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#_7-calculation-formula}{\textsf{classical probability model formula}} \\
-  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  P(\bigcup_{i=1}^n A_i) & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#let-be-a-finite-set-of-mutually-exclusive-events-then}{\textsf{union of disjoint events}} \\
+  P(A) = \frac{k}{n} & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#_7-calculation-formula}{\textsf{classical probability model formula}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
   \end{array}
   >$
 
@@ -316,10 +316,10 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#_11-sampling-with-numbered-samples}{\textsf{sampling with numbers enumeration method}} \\
-  & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#sequential-sampling-by-default-one-element-is-taken-each-time}{\textsf{sequential sampling}} \\
-  P(A) = \frac{k}{n} & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#_7-calculation-formula}{\textsf{classical probability model formula}} \\
-  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#_11-sampling-with-numbered-samples}{\textsf{sampling with numbers enumeration method}} \\
+  & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#sequential-sampling-by-default-one-element-is-taken-each-time}{\textsf{sequential sampling}} \\
+  P(A) = \frac{k}{n} & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#_7-calculation-formula}{\textsf{classical probability model formula}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
   \end{array}
   >$
 
@@ -383,9 +383,9 @@ $
   ::: wrap  
   >$
   \begin{array}{ll}
-  & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#_11-sampling-with-numbered-samples}{\textsf{sampling with numbers enumeration method}} \\
-  P(A) = \frac{k}{n} & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#_7-calculation-formula}{\textsf{classical probability model formula}} \\
-  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module1%20basic%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
+  & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#_11-sampling-with-numbered-samples}{\textsf{sampling with numbers enumeration method}} \\
+  P(A) = \frac{k}{n} & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#_7-calculation-formula}{\textsf{classical probability model formula}} \\
+  C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
   \end{array}
   >$
 
@@ -484,7 +484,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  P_1 \cdot (1-P_2)+(1-P_1) \cdot P_2 & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#_4-the-probability-that-exactly-one-of-or-succeeds}{\textsf{exactly-one succeed probability}} \\
+  P_1 \cdot (1-P_2)+(1-P_1) \cdot P_2 & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#_4-the-probability-that-exactly-one-of-or-succeeds}{\textsf{exactly-one succeed probability}} \\
   \end{array}
   >$
 
@@ -533,7 +533,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  1-P_1 \cdot P_2 \cdot P_3 & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#_5-the-probability-that-at-most-two-succeed}{\textsf{complementary probability}} \\
+  1-P_1 \cdot P_2 \cdot P_3 & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#_5-the-probability-that-at-most-two-succeed}{\textsf{complementary probability}} \\
   \end{array}
   >$
 
@@ -594,8 +594,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  P_1 \cdot (1-P_2)+(1-P_1) \cdot P_2 & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#_4-the-probability-that-exactly-one-of-or-succeeds}{\textsf{exactly-one succeed probability}} \\
-  1-(1-P_1)\cdot(1-P_2) & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#_3-the-probability-that-at-least-one-of-or-succeeds}{\textsf{complementary probability}} \\
+  P_1 \cdot (1-P_2)+(1-P_1) \cdot P_2 & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#_4-the-probability-that-exactly-one-of-or-succeeds}{\textsf{exactly-one succeed probability}} \\
+  1-(1-P_1)\cdot(1-P_2) & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#_3-the-probability-that-at-least-one-of-or-succeeds}{\textsf{complementary probability}} \\
   \end{array}
   >$
 
@@ -634,7 +634,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  1-(1-P_1) \cdot (1-P_2) \cdot (1-P_3) & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#_3-the-probability-that-at-least-one-succeeds}{\textsf{complementary probability}} \\
+  1-(1-P_1) \cdot (1-P_2) \cdot (1-P_3) & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#_3-the-probability-that-at-least-one-succeeds}{\textsf{complementary probability}} \\
   \end{array}
   >$
 
@@ -695,7 +695,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  1-(1-P_1) \cdot (1-P_2) & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#_3-the-probability-that-at-least-one-of-or-succeeds}{\textsf{complementary probability}} \\
+  1-(1-P_1) \cdot (1-P_2) & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#_3-the-probability-that-at-least-one-of-or-succeeds}{\textsf{complementary probability}} \\
   \end{array}
   >$
 
@@ -751,7 +751,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  P(\bigcup_{i=1}^n A_i) & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#let-be-a-finite-set-of-mutually-exclusive-events-then}{\textsf{union of disjoint events}} \\
+  P(\bigcup_{i=1}^n A_i) & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#let-be-a-finite-set-of-mutually-exclusive-events-then}{\textsf{union of disjoint events}} \\
   \end{array}
   >$
 
@@ -848,8 +848,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  P(A_1A_2 \cdots A_n)=P(A_1) \cdot P(A_2)\boldsymbol{\cdot}\cdots\boldsymbol{\cdot}P(A_n) & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#if-events-are-mutually-independent-then-the-probability-that-all-events-occur-is-the-product-of-their-individual-probabilities}{\textsf{all succeed probability}} \\
-  P(\bigcup_{i=1}^n A_i) & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#let-be-a-finite-set-of-mutually-exclusive-events-then}{\textsf{union of disjoint events}} \\
+  P(A_1A_2 \cdots A_n)=P(A_1) \cdot P(A_2)\boldsymbol{\cdot}\cdots\boldsymbol{\cdot}P(A_n) & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#if-events-are-mutually-independent-then-the-probability-that-all-events-occur-is-the-product-of-their-individual-probabilities}{\textsf{all succeed probability}} \\
+  P(\bigcup_{i=1}^n A_i) & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#let-be-a-finite-set-of-mutually-exclusive-events-then}{\textsf{union of disjoint events}} \\
   \end{array}
   >$
 
@@ -907,8 +907,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  P(A_1A_2 \cdots A_n)=P(A_1) \cdot P(A_2)\boldsymbol{\cdot}\cdots\boldsymbol{\cdot}P(A_n) & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#if-events-are-mutually-independent-then-the-probability-that-all-events-occur-is-the-product-of-their-individual-probabilities}{\textsf{all succeed probability}} \\
-  1-(1-P_1) \cdot (1-P_2) \cdot (1-P_3) & \href{/math/0%20Core%20Courses/33%20Chapter10%20probability%20preliminary.html#_3-the-probability-that-at-least-one-succeeds}{\textsf{complementary probability}} \\
+  P(A_1A_2 \cdots A_n)=P(A_1) \cdot P(A_2)\boldsymbol{\cdot}\cdots\boldsymbol{\cdot}P(A_n) & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#if-events-are-mutually-independent-then-the-probability-that-all-events-occur-is-the-product-of-their-individual-probabilities}{\textsf{all succeed probability}} \\
+  1-(1-P_1) \cdot (1-P_2) \cdot (1-P_3) & \href{/math/0%20Core%20Courses/32%20Chapter10%20introduction%20to%20probability.html#_3-the-probability-that-at-least-one-succeeds}{\textsf{complementary probability}} \\
   \end{array}
   >$
 

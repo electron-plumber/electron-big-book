@@ -15,7 +15,7 @@ lang: en-US
 
   $
   \begin{array}{ll}
-  \sqrt{(x-x_0)^2+(y-y_0)^2} = r & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_3-distance-formula-between-two-points}{\textsf{two-point distance formula}} \\
+  \sqrt{(x-x_0)^2+(y-y_0)^2} = r & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_3-distance-formula-between-two-points}{\textsf{two-point distance formula}} \\
   (x-x_0)^2+(y-y_0)^2 = r^2 \\
   \boldsymbol{\textsf{example: }}(x+3)^2+(y-2)^2=4 \\
   \textsf{center: }(-3,2) & \textsf{let }r=0\textsf{ to shrink the circle to a point — the center} \\
@@ -115,9 +115,9 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  (x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4} & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#it-can-be-completed-into-the-standard-form}{\textsf{complete to standard form}} \\
-  x^2+y^2+ax+by+c=0 & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#general-form}{\textsf{general form of a circle}} \\
-  a^2+b^2-4c>0 & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#note-the-condition-for-the-general-form-to-represent-a-circle-is}{\textsf{general form circle condition}} \\
+  (x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4} & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#it-can-be-completed-into-the-standard-form}{\textsf{complete to standard form}} \\
+  x^2+y^2+ax+by+c=0 & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#general-form}{\textsf{general form of a circle}} \\
+  a^2+b^2-4c>0 & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#note-the-condition-for-the-general-form-to-represent-a-circle-is}{\textsf{general form circle condition}} \\
   \end{array}
   >$
 
@@ -252,8 +252,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  |x_0|=r & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#_2-special-circles-standard-form}{\textsf{special circles in standard form}} \\
-  (x-x_0)^2+(y-y_0)^2=r^2 & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#standard-form}{\textsf{standard form of a circle}} \\
+  |x_0|=r & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#_2-special-circles-standard-form}{\textsf{special circles in standard form}} \\
+  (x-x_0)^2+(y-y_0)^2=r^2 & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#standard-form}{\textsf{standard form of a circle}} \\
   \end{array}
   >$
 
@@ -358,7 +358,7 @@ $
   \lt r^2\textsf{ the point lies inside the circle} \\
   =r^2\textsf{ the point lies on the circle} \\
   \gt r^2\textsf{ the point lies outside the circle} \\
-  \end{cases} & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#_5-position-of-a-point-relative-to-a-circle}{\textsf{point-circle relationship}} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#_5-position-of-a-point-relative-to-a-circle}{\textsf{point-circle relationship}} \\
   \end{array}
   >$
 
@@ -463,10 +463,10 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  d=r & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#_6-relationship-between-a-line-and-a-circle}{\textsf{line circle relationship}} \\
-  d=\frac{|c|}{\sqrt{a^2+b^2}} & \href{/math/0%20Core%20Courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_14-distance-from-a-point-to-a-line}{\textsf{point-to-line distance formula}} \\
-  ax+by+c=0 & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#general-form}{\textsf{general form of a line}} \\
-  y=y_0+k(x-x_0) & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#point-slope-form}{\textsf{point-slope form}} \\
+  d=r & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#_6-relationship-between-a-line-and-a-circle}{\textsf{line circle relationship}} \\
+  d=\frac{|c|}{\sqrt{a^2+b^2}} & \href{/math/0%20Core%20Courses/27%20Chapter7%20analytic%20geometry%20Module2%20straight%20lines%20lower.html#_14-distance-from-a-point-to-a-line}{\textsf{point-to-line distance formula}} \\
+  ax+by+c=0 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#general-form}{\textsf{general form of a line}} \\
+  y=y_0+k(x-x_0) & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#point-slope-form}{\textsf{point-slope form}} \\
   \Delta=b^2-4ac
   \begin{cases}
   \gt0:\,\textsf{two distinct real roots → intersecting} \\
@@ -477,9 +477,9 @@ $
   (a+b)^2=a^2+2ab+b^2 \\
   (a-b)^2=a^2-2ab+b^2
   \end{cases} & \textsf{perfect square formula} \\
-  30^\circ=\frac{\sqrt{3}}{3} & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_3-common-inclination-angles-and-slope}{\textsf{inclination angle–slope reference}} \\
-  1:\sqrt{3}:2 & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#in-a-triangle-with-angles-the-sides-are-always-in-the-ratio}{\textsf{special right triangle: 30-60-90}} \\
-  (x-x_0)^2+(y-y_0)^2=r^2 & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#standard-form}{\textsf{standard form of a circle}} \\
+  30^\circ=\frac{\sqrt{3}}{3} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_3-common-inclination-angles-and-slope}{\textsf{inclination angle–slope reference}} \\
+  1:\sqrt{3}:2 & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#in-a-triangle-with-angles-the-sides-are-always-in-the-ratio}{\textsf{special right triangle: 30-60-90}} \\
+  (x-x_0)^2+(y-y_0)^2=r^2 & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#standard-form}{\textsf{standard form of a circle}} \\
   \end{array}
   >$
 
@@ -525,9 +525,9 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  y=kx+b & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#slope-intercept-form}{\textsf{slope-intercept form}} \\
-  d=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}} & \href{/math/0%20Core%20Courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_14-distance-from-a-point-to-a-line}{\textsf{point-to-line distance formula}} \\
-  (x-x_0)^2+(y-y_0)^2=r^2 & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#standard-form}{\textsf{standard form of a circle}} \\
+  y=kx+b & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#slope-intercept-form}{\textsf{slope-intercept form}} \\
+  d=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}} & \href{/math/0%20Core%20Courses/27%20Chapter7%20analytic%20geometry%20Module2%20straight%20lines%20lower.html#_14-distance-from-a-point-to-a-line}{\textsf{point-to-line distance formula}} \\
+  (x-x_0)^2+(y-y_0)^2=r^2 & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#standard-form}{\textsf{standard form of a circle}} \\
   \end{array}
   >$
 
@@ -572,10 +572,10 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  (x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4} & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#it-can-be-completed-into-the-standard-form}{\textsf{complete to standard form}} \\
-  d=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}} & \href{/math/0%20Core%20Courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_14-distance-from-a-point-to-a-line}{\textsf{point-to-line distance formula}} \\
-  2\sqrt{r^2-d^2} & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#chord-length-of-a-circle}{\textsf{chord length of the circle}} \\
-  (-\frac{a}{2}, -\frac{b}{2}) & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#center}{\textsf{center of the standard-form circle}} \\
+  (x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4} & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#it-can-be-completed-into-the-standard-form}{\textsf{complete to standard form}} \\
+  d=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}} & \href{/math/0%20Core%20Courses/27%20Chapter7%20analytic%20geometry%20Module2%20straight%20lines%20lower.html#_14-distance-from-a-point-to-a-line}{\textsf{point-to-line distance formula}} \\
+  2\sqrt{r^2-d^2} & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#chord-length-of-a-circle}{\textsf{chord length of the circle}} \\
+  (-\frac{a}{2}, -\frac{b}{2}) & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#center}{\textsf{center of the standard-form circle}} \\
   \end{array}
   >$
 
@@ -650,8 +650,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  (-\frac{a}{2}, -\frac{b}{2}) & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#center}{\textsf{center of the standard-form circle}} \\
-  d=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}} & \href{/math/0%20Core%20Courses/28%20Chapter7%20resolve%20geometry%20Module2%20straight%20line%20lower.html#_14-distance-from-a-point-to-a-line}{\textsf{point-to-line distance formula}} \\
+  (-\frac{a}{2}, -\frac{b}{2}) & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#center}{\textsf{center of the standard-form circle}} \\
+  d=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}} & \href{/math/0%20Core%20Courses/27%20Chapter7%20analytic%20geometry%20Module2%20straight%20lines%20lower.html#_14-distance-from-a-point-to-a-line}{\textsf{point-to-line distance formula}} \\
   ∣x∣ \le c \iff −c \le x \le c & \textsf{absolute value inequality expansion} \\
   \Delta=b^2-4ac
   \begin{cases}
@@ -712,7 +712,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  d=r_1+r_2 & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#_7-relationship-between-two-circles}{\textsf{two circles relationship}} \\
+  d=r_1+r_2 & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#_7-relationship-between-two-circles}{\textsf{two circles relationship}} \\
   \end{array}
   >$
 
@@ -762,9 +762,9 @@ $
   \begin{cases}
   d=r_1+r_2 \\
   d=|r_1-r_2| \\
-  \end{cases} & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#_7-relationship-between-two-circles}{\textsf{two circles relationship}} \\
-  (x-x_0)^2+(y-y_0)^2=r^2 & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#standard-form}{\textsf{standard form of a circle}} \\
-  d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_3-distance-formula-between-two-points}{\textsf{two-point distance formula}} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#_7-relationship-between-two-circles}{\textsf{two circles relationship}} \\
+  (x-x_0)^2+(y-y_0)^2=r^2 & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#standard-form}{\textsf{standard form of a circle}} \\
+  d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_3-distance-formula-between-two-points}{\textsf{two-point distance formula}} \\
   \end{array}
   >$
 
@@ -809,10 +809,10 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  (x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4} & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#it-can-be-completed-into-the-standard-form}{\textsf{complete to standard form}} \\
-  (-\frac{a}{2}, -\frac{b}{2}) & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#center}{\textsf{center of the standard-form circle}} \\
-  d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_3-distance-formula-between-two-points}{\textsf{two-point distance formula}} \\
-  \textsf{axis position diagram} & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#the-range-of-the-distance-between-the-circles-and-their-position-relationship}{\textsf{distance range and positional relationship between circles}} \\
+  (x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4} & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#it-can-be-completed-into-the-standard-form}{\textsf{complete to standard form}} \\
+  (-\frac{a}{2}, -\frac{b}{2}) & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#center}{\textsf{center of the standard-form circle}} \\
+  d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_3-distance-formula-between-two-points}{\textsf{two-point distance formula}} \\
+  \textsf{axis position diagram} & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#the-range-of-the-distance-between-the-circles-and-their-position-relationship}{\textsf{distance range and positional relationship between circles}} \\
   \end{array}
   >$
 
@@ -862,10 +862,10 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  (x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4} & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#it-can-be-completed-into-the-standard-form}{\textsf{complete to standard form}} \\
-  (x-x_0)^2+(y-y_0)^2=r^2 & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#standard-form}{\textsf{standard form of a circle}} \\
-  d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_3-distance-formula-between-two-points}{\textsf{two-point distance formula}} \\
-  \textsf{axis position diagram} & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#the-range-of-the-distance-between-the-circles-and-their-position-relationship}{\textsf{distance range and positional relationship between circles}} \\
+  (x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4} & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#it-can-be-completed-into-the-standard-form}{\textsf{complete to standard form}} \\
+  (x-x_0)^2+(y-y_0)^2=r^2 & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#standard-form}{\textsf{standard form of a circle}} \\
+  d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_3-distance-formula-between-two-points}{\textsf{two-point distance formula}} \\
+  \textsf{axis position diagram} & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#the-range-of-the-distance-between-the-circles-and-their-position-relationship}{\textsf{distance range and positional relationship between circles}} \\
   ∣x∣ \le c \iff −c \le x \le c & \textsf{absolute value inequality expansion} \\
   \end{array}
   >$
@@ -922,10 +922,10 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  (x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4} & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#it-can-be-completed-into-the-standard-form}{\textsf{complete to standard form}} \\
-  (-\frac{a}{2}, -\frac{b}{2}) & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#center}{\textsf{center of the standard-form circle}} \\
-  d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_3-distance-formula-between-two-points}{\textsf{two-point distance formula}} \\
-  \textsf{axis position diagram} & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#the-range-of-the-distance-between-the-circles-and-their-position-relationship}{\textsf{distance range and positional relationship between circles}} \\
+  (x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4} & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#it-can-be-completed-into-the-standard-form}{\textsf{complete to standard form}} \\
+  (-\frac{a}{2}, -\frac{b}{2}) & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#center}{\textsf{center of the standard-form circle}} \\
+  d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_3-distance-formula-between-two-points}{\textsf{two-point distance formula}} \\
+  \textsf{axis position diagram} & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#the-range-of-the-distance-between-the-circles-and-their-position-relationship}{\textsf{distance range and positional relationship between circles}} \\
   \end{array}
   >$
 
@@ -981,9 +981,9 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  (x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4} & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#it-can-be-completed-into-the-standard-form}{\textsf{complete to standard form}} \\
-  (-\frac{a}{2}, -\frac{b}{2}) & \href{/math/0%20Core%20Courses/29%20Chapter7%20resolve%20geometry%20Module3%20circle.html#center}{\textsf{center of the standard-form circle}} \\
-  d=\sqrt{x^2+y^2} & \href{/math/0%20Core%20Courses/27%20Chapter7%20resolve%20geometry%20Module1%20rectangular%20coordinate%20system%20Module2%20straight%20line%20upper.html#_3-distance-formula-between-two-points}{\textsf{two-point distance formula}} \\
+  (x+\frac{a}{2})^2+(y+\frac{b}{2})^2=\frac{a^2+b^2-4c}{4} & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#it-can-be-completed-into-the-standard-form}{\textsf{complete to standard form}} \\
+  (-\frac{a}{2}, -\frac{b}{2}) & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#center}{\textsf{center of the standard-form circle}} \\
+  d=\sqrt{x^2+y^2} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_3-distance-formula-between-two-points}{\textsf{two-point distance formula}} \\
   \end{array}
   >$
 

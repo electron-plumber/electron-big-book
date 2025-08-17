@@ -62,7 +62,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  a+b>c & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\text{Triangle Inequality theorem}} \\
+  a+b>c & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\text{Triangle Inequality theorem}} \\
   \end{array}
   >$
 
@@ -323,7 +323,7 @@ $
   \text{Find a side and an angle (Acute angle)} \\
   \text{Find their two sides
   > (No need
-  > to find the third side because the } \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Pythagorean theorem}} \text{ is satisfied}) \\
+  > to find the third side because the } \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Pythagorean theorem}} \text{ is satisfied}) \\
   \end{cases} & \text{} \\
   \end{array}
   >$
@@ -397,10 +397,10 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  (5,12,13)& \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Commonly used pythagorean numbers}} \\
-  \frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Similar triangle properties}} \\
-  \frac{S_1}{S_2}=k^2 & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Similar triangle properties}} \\
-  S=\frac{1}{2}ah & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{\text{Triangle area formula}} \\
+  (5,12,13)& \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Commonly used pythagorean numbers}} \\
+  \frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Similar triangle properties}} \\
+  \frac{S_1}{S_2}=k^2 & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Similar triangle properties}} \\
+  S=\frac{1}{2}ah & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{\text{Triangle area formula}} \\
   \end{array}
   >$
 
@@ -461,8 +461,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#identification-1}{\text{Similar triangle identification}} \\
-  \frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Similar triangle properties}} \\
+  \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#identification-1}{\text{Similar triangle identification}} \\
+  \frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Similar triangle properties}} \\
   \end{array}
   >$
 
@@ -508,8 +508,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#definition-1}{\text{Similar triangle definition}} \\
-  \frac{S_1}{S_2}=k^2 & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Similar triangle properties}} \\
+  \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#definition-1}{\text{Similar triangle definition}} \\
+  \frac{S_1}{S_2}=k^2 & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Similar triangle properties}} \\
   \end{array}
   >$
 
@@ -558,8 +558,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Similar triangle properties}} \\
-  \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#applications-1}{\text{Similar triangle applications}} \\
+  \frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Similar triangle properties}} \\
+  \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#applications-1}{\text{Similar triangle applications}} \\
   \end{array}
   >$
 

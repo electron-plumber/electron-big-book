@@ -312,13 +312,13 @@ $
   \text{Use when know the Expressions} \\
   a_n=\text{Constant} \times \text{Exponent}
   \end{cases} 
-  & \href{/math/0%20Core%20Courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#formula-derivations}{\text{General term characteristics}} \\
+  & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#formula-derivations}{\text{General term characteristics}} \\
   \left\{ a_n \right\}=
   \begin{cases}
   \text{Use when don't know the Expressions} \\
   \frac{a_n+1}{a_n}=q
   \end{cases}
-  & \href{/math/0%20Core%20Courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_1-definition}{\text{Geometric sequence definition}} \\
+  & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_1-definition}{\text{Geometric sequence definition}} \\
   \end{array}
   >$
 
@@ -369,7 +369,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{a_n+1}{a_n}=q & \href{/math/0%20Core%20Courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_1-definition}{\text{Geometric sequence definition}} \\
+  \frac{a_n+1}{a_n}=q & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_1-definition}{\text{Geometric sequence definition}} \\
   \end{array}
   >$
 
@@ -596,7 +596,7 @@ $
   S_n=na_1 & q=1 \\
   S_n=k-kq^n & q \neq 1 \\
   \end{cases}
-  & \href{/math/0%20Core%20Courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_7-focus-3}{\text{Characteristics of the sum of the first n terms}} \\
+  & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_7-focus-3}{\text{Characteristics of the sum of the first n terms}} \\
   \end{array}
   >$
 
@@ -777,7 +777,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  ac=b^2 & \href{/math/0%20Core%20Courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_5-focus-1}{\text{Geometric mean}} \\
+  ac=b^2 & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_5-focus-1}{\text{Geometric mean}} \\
   a_n=a_1q^{n-1} & \text{General term} \\
   \end{array}
   >$
@@ -853,7 +853,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots & \href{/math/0%20Core%20Courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_4-important-properties}{\text{The property that }S_n \,\text{is the sum of the first n terms}} \\
+  S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_4-important-properties}{\text{The property that }S_n \,\text{is the sum of the first n terms}} \\
   \end{array}
   >$
 
@@ -917,8 +917,8 @@ $
   \begin{cases}
   \frac{S_{2n}}{S_n} = 1+q^n & S_m=S_{2n} \\
   \frac{S_m}{S_n} = \frac{1-q^m}{1-q^n} & S_m \neq S_{2n}
-  \end{cases} & \href{/math/0%20Core%20Courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_4-important-properties}{\text{The property that }S_n \,\text{is the sum of the first n terms}} \\\\
-  S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots & \href{/math/0%20Core%20Courses/22%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_4-important-properties}{\text{The property that }S_n \,\text{is the sum of the first n terms}} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_4-important-properties}{\text{The property that }S_n \,\text{is the sum of the first n terms}} \\\\
+  S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_4-important-properties}{\text{The property that }S_n \,\text{is the sum of the first n terms}} \\
   y^2=x \implies \sqrt[2]{x} & \text{Definition of square root} \\  
   \end{array}
   >$

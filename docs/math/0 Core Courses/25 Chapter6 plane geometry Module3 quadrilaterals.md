@@ -53,7 +53,7 @@ the proportional relationship of the diagonal corresponding to the area can also
    we have $S_1 \times S_3=S_2 \times S_4$ (__Top$\times$Bottom=Left$\times$Right__).   
    ![Butterfly theorem figure 6–23 solve-1.svg](../../public/math/Core%20Courses/Butterfly%20theorem%20figure%206%E2%80%9323%20solve-1.svg)   
    
-   $\frac{S_1}{S_2}=\frac{OD}{OB}=\frac{S_4}{S_ 3} \quad \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\text{Equal height} \Rightarrow \text{area ratio}=\text{base ratio}}$       
+   $\frac{S_1}{S_2}=\frac{OD}{OB}=\frac{S_4}{S_ 3} \quad \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\text{Equal height} \Rightarrow \text{area ratio}=\text{base ratio}}$       
 :::   
 ::: wrap  
 2. According to the __basic proportionality theorem__ $\frac{S_1}{S_2}=\frac{S_4}{S_3}=\frac{OD}{OB}=\frac{S_1+S_4}{S_2+S_3}$.         
@@ -77,7 +77,7 @@ the proportional relationship of the diagonal corresponding to the area can also
 ::: wrap
 4. $S_2+S_3=S_4+S_3 \implies S_2=S_4$.    
    ![Butterfly theorem figure 6–24 solve-2.svg](../../public/math/Core%20Courses/Butterfly%20theorem%20figure%206%E2%80%9324%20solve-2.svg)    
-   $S=\frac{1}{2}ah \quad \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\text{Equal base and height} \Rightarrow \text{same area}}$     
+   $S=\frac{1}{2}ah \quad \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\text{Equal base and height} \Rightarrow \text{same area}}$     
 :::   
 - By combining the above four, the unified proportion is obtained: $S_1:S_3:S_2:S_4=a^2:b^2:ab:ab$.    
   ![Butterfly theorem unified area proportion formula.svg](../../public/math/Core%20Courses/Butterfly%20theorem%20unified%20area%20proportion%20formula.svg)  
@@ -153,7 +153,7 @@ $
   >$
   \begin{array}{ll}
   c^2=a^2+b^2 \Rightarrow c=\sqrt{a^2+b^2} & \text{Pythagorean theorem} \\
-  S=a^2 & \href{/math/0%20Core%20Courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_4-square}{\text{Square area formula}} \\
+  S=a^2 & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_4-square}{\text{Square area formula}} \\
   \end{array}
   >$
 
@@ -172,10 +172,10 @@ $
   EH=\text{ Midline} \\
   \textbf{Because }\mathbf{EF}\textbf{ is a midline and triangle }\mathbf{\triangle AEH}\textbf{ shares vertex }\mathbf{A}\textbf{ with }\mathbf{\triangle ABD,}\\
   \textbf{its base and height are each half of those of }\mathbf{\triangle ABD.}\\
-  \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{S=\frac{1}{2}ah} \\
+  \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{S=\frac{1}{2}ah} \\
   S_{\triangle ABD}=\frac{1}{2}\times(1\cdot a)\times(1\cdot h) \\
   S_{\triangle AEH}=\frac{1}{2}\times(\frac{1}{2}\cdot a)\times(\frac{1}{2}\cdot h) \\
-  \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Properties of Similar triangles}} \\
+  \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Properties of Similar triangles}} \\
   \frac{\triangle AEH}{\triangle ABD}=\frac{\frac{1}{8}\cdot a\cdot h}{\frac{1}{2}\cdot a\cdot h}=\frac{\frac{1}{8}}{\frac{1}{2}}=\frac{1}{4}  \\
   \end{array}
   >$
@@ -251,7 +251,7 @@ $
   >$
   \begin{array}{ll}
   c^2=a^2+b^2 \Rightarrow c=\sqrt{a^2+b^2} & \text{Pythagorean theorem} \\
-  (3,4,5) & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Commonly used pythagorean numbers}} \\
+  (3,4,5) & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Commonly used pythagorean numbers}} \\
   \end{array}
   >$
 
@@ -302,7 +302,7 @@ $
   \text{Find a side and an angle (Acute angle)} \\
   \text{Find their two sides} \\
   \end{cases} & \text{Right triangle congruence} \\
-  S=a^2 & \href{/math/0%20Core%20Courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_4-square}{\text{Square area formula}} \\
+  S=a^2 & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_4-square}{\text{Square area formula}} \\
   \end{array}
   >$
 
@@ -410,7 +410,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  S=\frac{1}{2}ah & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{\text{Triangle area formula}} \\
+  S=\frac{1}{2}ah & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{\text{Triangle area formula}} \\
   \end{array}
   >$
 
@@ -455,7 +455,7 @@ $
   >$
   \begin{array}{ll}
   c^2=a^2+b^2 \Rightarrow c=\sqrt{a^2+b^2} & \text{Pythagorean theorem} \\
-  S=ab & \href{/math/0%20Core%20Courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_2-rectangle}{\text{Rectangle area formula}} \\ 
+  S=ab & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_2-rectangle}{\text{Rectangle area formula}} \\ 
   2ab=(a+b)^2-(a^2+b^2) & \text{Rectangle area identity} \\
   y^2=x \implies \sqrt[2]{x} & \text{Definition of square root} \\
   \end{array}
@@ -512,7 +512,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  S=\frac{l_1\cdot l_2}{2} & \href{/math/0%20Core%20Courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_3-rhombus}{\text{Rhombus area formula}} \\
+  S=\frac{l_1\cdot l_2}{2} & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_3-rhombus}{\text{Rhombus area formula}} \\
   \end{array}
   >$
 
@@ -556,8 +556,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  (5,12,13)& \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Commonly used pythagorean numbers}} \\
-  S=\frac{l_1\cdot l_2}{2} & \href{/math/0%20Core%20Courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_3-rhombus}{\text{Rhombus area formula}} \\
+  (5,12,13)& \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Commonly used pythagorean numbers}} \\
+  S=\frac{l_1\cdot l_2}{2} & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_3-rhombus}{\text{Rhombus area formula}} \\
   \end{array}
   >$
 
@@ -604,8 +604,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  (3,4,5)& \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Commonly used pythagorean numbers}} \\
-  a+b>c & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\text{Trilateral relations}} \\
+  (3,4,5)& \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Commonly used pythagorean numbers}} \\
+  a+b>c & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\text{Trilateral relations}} \\
   \end{array}
   >$
 
@@ -713,8 +713,8 @@ $
   \angle1=\angle4 \\
   \angle2=\angle4 \\
   \angle1+\angle4=180^\circ \\
-  \end{cases} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-a-parallel-line}{\text{Angle relationship}} \\
-  S=\frac{a+b}{2}h & \href{/math/0%20Core%20Courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_5-trapezoid}{\text{Trapezoid area formula}} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-a-parallel-line}{\text{Angle relationship}} \\
+  S=\frac{a+b}{2}h & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_5-trapezoid}{\text{Trapezoid area formula}} \\
   \end{array}
   >$
 
@@ -818,7 +818,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  S_1:S_3:S_2:S_4=a^2:b^2:ab:ab & \href{/math/0%20Core%20Courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#the-butterfly-theorem-of-trapezoid-and-similar-proportions-figure-6%E2%80%9324}{\text{Butterfly theorem(Trapezoid) & Similarity proportions}} \\
+  S_1:S_3:S_2:S_4=a^2:b^2:ab:ab & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#the-butterfly-theorem-of-trapezoid-and-similar-proportions-figure-6%E2%80%9324}{\text{Butterfly theorem(Trapezoid) & Similarity proportions}} \\
   \end{array}
   >$
 
@@ -866,9 +866,9 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  S_1\times S_3=S_2 \times S_4 & \href{/math/0%20Core%20Courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#proportional-relations-in-any-quadrilateral-figure-6%E2%80%9323}{\text{Top}\times\text{Bottom}=\text{Left}\times\text{Right}} \\
-  S_1:S_3:S_2:S_4=a^2:b^2:ab:ab & \href{/math/0%20Core%20Courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#the-butterfly-theorem-of-trapezoid-and-similar-proportions-figure-6%E2%80%9324}{\text{Butterfly theorem(Trapezoid) & Similarity proportions}} \\
-  S_\triangle=\frac{1}{2}S_{ABCD} & \href{/math/0%20Core%20Courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#a-triangle-with-base-and-height-equal-to-those-of-a-rectangle-has-the-area-of-the-rectangle}{\text{Half area rule}}
+  S_1\times S_3=S_2 \times S_4 & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#proportional-relations-in-any-quadrilateral-figure-6%E2%80%9323}{\text{Top}\times\text{Bottom}=\text{Left}\times\text{Right}} \\
+  S_1:S_3:S_2:S_4=a^2:b^2:ab:ab & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#the-butterfly-theorem-of-trapezoid-and-similar-proportions-figure-6%E2%80%9324}{\text{Butterfly theorem(Trapezoid) & Similarity proportions}} \\
+  S_\triangle=\frac{1}{2}S_{ABCD} & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#a-triangle-with-base-and-height-equal-to-those-of-a-rectangle-has-the-area-of-the-rectangle}{\text{Half area rule}}
   \end{array}
   >$
 
@@ -888,7 +888,7 @@ __Polygon__
   $
   \begin{array}{ll}
   \text{Divided into }6\text{ equilateral triangles} \\
-  S=\frac{\sqrt{3}}{4}a^2 & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#the-area-of-an-equilateral-triangle-is-where-is-the-length-of-the-side}{\text{Equilateral triangle area formula}} \\
+  S=\frac{\sqrt{3}}{4}a^2 & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#the-area-of-an-equilateral-triangle-is-where-is-the-length-of-the-side}{\text{Equilateral triangle area formula}} \\
   S=\frac{\sqrt{3}}{4}a^2 \times 6 =\frac{3\sqrt{3}}{2}a^2 \\
   \end{array}
   $  
@@ -938,7 +938,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  S=\frac{3\sqrt{3}}{2}a^2 & \href{/math/0%20Core%20Courses/26%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#regular-hexagon}{\text{Regular hexagon area formula}} \\
+  S=\frac{3\sqrt{3}}{2}a^2 & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#regular-hexagon}{\text{Regular hexagon area formula}} \\
   \end{array}
   >$
 
