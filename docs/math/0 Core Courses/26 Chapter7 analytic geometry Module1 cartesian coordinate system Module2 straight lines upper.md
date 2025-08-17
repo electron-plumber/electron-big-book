@@ -171,7 +171,7 @@ $
 :::
 #### Solution
 ::: wrap  
-![Question rectangular coordinate system figure Q-3 solve-1.svg](../../public/math/Core%20Courses/Question%20rectangular%20coordinate%20system%20figure%20Q-3%20solve-1.svg)  
+![Question cartesian coordinate system figure Q-3 solve-1.svg](../../public/math/Core%20Courses/Question%20cartesian%20coordinate%20system%20figure%20Q-3%20solve-1.svg)  
 
 $
 \begin{array}{ll}
@@ -229,7 +229,7 @@ $
   :::
 ---
 
-# Module 7–02 Straight Line
+# Module 7–02 Straight Lines
 
 ## 1.Angle of Inclination
 - The angle formed between a straight line and the positive direction of the x-axis is called the angle of inclination, denoted as $\alpha$, where $\alpha \in [0, \pi)$.  
@@ -366,7 +366,7 @@ $
 #### Solution
 ::: wrap  
 - Show known conditions    
-  ![Question straight line figure Q-5 solve-1.svg](../../public/math/Core%20Courses/Question%20straight%20line%20figure%20Q-5%20solve-1.svg)  
+  ![Question straight lines figure Q-5 solve-1.svg](../../public/math/Core%20Courses/Question%20straight%20lines%20figure%20Q-5%20solve-1.svg)  
 
   $
   \begin{array}{ll}
@@ -752,7 +752,7 @@ $
 #### Solution
 ::: wrap  
 - Show known conditions  
-  ![Question straight line figure Q-10 solve-1.svg](../../public/math/Core%20Courses/Question%20straight%20line%20figure%20Q-10%20solve-1.svg)  
+  ![Question straight lines figure Q-10 solve-1.svg](../../public/math/Core%20Courses/Question%20straight%20lines%20figure%20Q-10%20solve-1.svg)  
 
   $
   \begin{array}{ll}
@@ -784,7 +784,7 @@ $
   :::
 - Additionally, If the problem is to calculate the area of the triangle formed by the intercept form    
   ::: wrap
-  > ![Question straight line figure Q-10 solve-2.svg](../../public/math/Core%20Courses/Question%20straight%20line%20figure%20Q-10%20solve-2.svg)  
+  > ![Question straight lines figure Q-10 solve-2.svg](../../public/math/Core%20Courses/Question%20straight%20lines%20figure%20Q-10%20solve-2.svg)  
   >$
   \begin{array}{ll}
   2x-3y+12=0 \\
@@ -820,7 +820,7 @@ $
 #### Solution 
 ::: wrap  
 - $\textcolor{#9333EA}{\text{Verify condition }(1)}$   
-  ![Question straight line figure Q-11 solve-1.svg](../../public/math/Core%20Courses/Question%20straight%20line%20figure%20Q-11%20solve-1.svg)  
+  ![Question straight lines figure Q-11 solve-1.svg](../../public/math/Core%20Courses/Question%20straight%20lines%20figure%20Q-11%20solve-1.svg)  
 
   $
   \begin{array}{ll}
@@ -847,7 +847,7 @@ $
 :::  
 ::: wrap  
 - $\textcolor{#9333EA}{\text{Verify condition }(2)}$  
-  ![Question straight line figure Q-11 solve-2.svg](../../public/math/Core%20Courses/Question%20straight%20line%20figure%20Q-11%20solve-2.svg)  
+  ![Question straight lines figure Q-11 solve-2.svg](../../public/math/Core%20Courses/Question%20straight%20lines%20figure%20Q-11%20solve-2.svg)  
 
   $
   \begin{array}{ll}
@@ -864,9 +864,7 @@ $
   \text{y-intercept}=-\frac{c}{b}=-\frac{9}{3}=-3 \\
   \end{array}
   $  
-:::  
-
-[//]: # (- Verify conditions &#40;1&#41; and &#40;2&#41; together)
+:::
 #### Conclusion
 - Derived Solution  
   ::: wrap

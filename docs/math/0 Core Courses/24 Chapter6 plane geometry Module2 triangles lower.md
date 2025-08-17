@@ -104,7 +104,7 @@ $
   a=c \land 2b=3c & (x)^2=0 \\
   \end{array}
   $   
-  ![Question triangle figure Q-21 solve-1.svg](../../public/math/Core%20Courses/Question%20triangle%20figure%20Q-21%20solve-1.svg)   
+  ![Question triangles figure Q-21 solve-1.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%20Q-21%20solve-1.svg)   
 :::  
 #### Conclusion
 - Derived Solution  
@@ -278,11 +278,11 @@ $
 \end{array}
 $  
 :::  
-![Question triangle figure 6-19.svg](../../public/math/Core%20Courses/Question%20triangle%20figure%206-19.svg)   
+![Question triangles figure 6-19.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-19.svg)   
 #### Solution
 ::: wrap  
 - Find __the equal side and the equal angle (Acute angle)__ in two congruent right triangles   
-  ![Question triangle figure 6-19 solve-1.svg](../../public/math/Core%20Courses/Question%20triangle%20figure%206-19%20solve-1.svg)    
+  ![Question triangles figure 6-19 solve-1.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-19%20solve-1.svg)    
 
   $
   \begin{array}{ll}
@@ -343,11 +343,11 @@ $
 \end{array}
 $  
 :::  
-![Question triangle figure 6-20.svg](../../public/math/Core%20Courses/Question%20triangle%20figure%206-20.svg)  
+![Question triangles figure 6-20.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-20.svg)  
 #### Solution  
 ::: wrap  
 - Show known conditions  
-  ![Question triangle figure 6-20 solve-1.svg](../../public/math/Core%20Courses/Question%20triangle%20figure%206-20%20solve-1.svg)    
+  ![Question triangles figure 6-20 solve-1.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-20%20solve-1.svg)    
 
   $
   \begin{array}{ll}
@@ -481,11 +481,11 @@ $
 \end{array}
 $  
 :::   
-![Question triangle figure 6-21.svg](../../public/math/Core%20Courses/Question%20triangle%20figure%206-21.svg)   
+![Question triangles figure 6-21.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-21.svg)   
 #### Solution
 ::: wrap  
 - Show known conditions  
-  ![Question triangle figure 6-21 solve-1.svg](../../public/math/Core%20Courses/Question%20triangle%20figure%206-21%20solve-1.svg)  
+  ![Question triangles figure 6-21 solve-1.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-21%20solve-1.svg)  
 
   $
   \begin{array}{ll}
@@ -527,11 +527,11 @@ $
 \end{array}
 $  
 :::  
-![Question triangle figure 6-22.svg](../../public/math/Core%20Courses/Question%20triangle%20figure%206-22.svg)  
+![Question triangles figure 6-22.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-22.svg)  
 #### Solution
 ::: wrap  
 - Show known conditions  
-  ![Question triangle figure 6-22 solve-1.svg](../../public/math/Core%20Courses/Question%20triangle%20figure%206-22%20solve-1.svg)  
+  ![Question triangles figure 6-22 solve-1.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-22%20solve-1.svg)  
 
   $
   \begin{array}{ll}

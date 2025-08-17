@@ -68,11 +68,11 @@ $
 \end{array}
 $  
 :::  
-![Question triangle figure 6-13.svg](../../public/math/Core%20Courses/Question%20triangle%20figure%206-13.svg)  
+![Question triangles figure 6-13.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-13.svg)  
 #### Solution
 ::: wrap  
 - Show known conditions  
-  ![Question triangle figure 6-13 solve-1.svg](../../public/math/Core%20Courses/Question%20triangle%20figure%206-13%20solve-1.svg)  
+  ![Question triangles figure 6-13 solve-1.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-13%20solve-1.svg)  
 
   $
   \begin{array}{ll}
@@ -138,11 +138,11 @@ $
 \end{array}
 $  
 :::  
-![Question triangle figure 6-14.svg](../../public/math/Core%20Courses/Question%20triangle%20figure%206-14.svg)  
+![Question triangles figure 6-14.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-14.svg)  
 #### Solution
 ::: wrap  
 - Show known conditions and assume that the unknown variable in the overall area     
-  ![Question triangle figure 6-14 solve-1.svg](../../public/math/Core%20Courses/Question%20triangle%20figure%206-14%20solve-1.svg)  
+  ![Question triangles figure 6-14 solve-1.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-14%20solve-1.svg)  
 
   $
   \begin{array}{ll}
@@ -363,11 +363,11 @@ $
 \end{array}
 $  
 :::  
-![Question triangle figure 6-15.svg](../../public/math/Core%20Courses/Question%20triangle%20figure%206-15.svg)  
+![Question triangles figure 6-15.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-15.svg)  
 #### Solution
 ::: wrap  
 - Show known conditions  
-  ![Question triangle figure 6-15 solve-1.svg](../../public/math/Core%20Courses/Question%20triangle%20figure%206-15%20solve-1.svg)   
+  ![Question triangles figure 6-15 solve-1.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-15%20solve-1.svg)   
 
   $
   \begin{array}{ll}
@@ -409,11 +409,11 @@ $
 \end{array}
 $  
 :::  
-![Question triangle figure 6-16.svg](../../public/math/Core%20Courses/Question%20triangle%20figure%206-16.svg)  
+![Question triangles figure 6-16.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-16.svg)  
 #### Solution
 ::: wrap  
 - Show known conditions  
-  ![Question triangle figure 6-16 solve-1.svg](../../public/math/Core%20Courses/Question%20triangle%20figure%206-16%20solve-1.svg)  
+  ![Question triangles figure 6-16 solve-1.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-16%20solve-1.svg)  
 
   $
   \begin{array}{ll}
@@ -496,11 +496,11 @@ $
 \end{array}
 $  
 :::  
-![Question triangle figure 6-17.svg](../../public/math/Core%20Courses/Question%20triangle%20figure%206-17.svg)  
+![Question triangles figure 6-17.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-17.svg)  
 #### Solution
 ::: wrap  
 - Show known conditions     
-  ![Question triangle figure 6-17 solve-1.svg](../../public/math/Core%20Courses/Question%20triangle%20figure%206-17%20solve-1.svg)  
+  ![Question triangles figure 6-17 solve-1.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-17%20solve-1.svg)  
 
   $
   \begin{array}{ll}

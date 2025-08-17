@@ -3,7 +3,7 @@ title: Chapter6 Plane Geometry – Module3 Quadrilaterals
 lang: en-US
 ---
 
-# Module 6-03 Quadrilateral
+# Module 6-03 Quadrilaterals
 
 ## 1.Parallelogram
 The lengths of the two sides of the parallelogram are $a,b$,
@@ -114,11 +114,11 @@ $
 \end{array}
 $  
 :::  
-![Question quadrilateral figure 6-25.svg](../../public/math/Core%20Courses/Question%20quadrilateral%20figure%206-25.svg)  
+![Question quadrilaterals figure 6-25.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-25.svg)  
 #### Solution
 ::: wrap   
 - $\textcolor{#228B22}{\fbox{1}}\:$Show known conditions $EG$ diagonal is the diameter of the circle     
-  ![Question quadrilateral figure 6-25 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilateral%20figure%206-25%20solve-1.svg)   
+  ![Question quadrilaterals figure 6-25 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-25%20solve-1.svg)   
 
   $
   \begin{array}{ll}
@@ -132,7 +132,7 @@ $
 :::  
 ::: wrap   
 - $\textcolor{#228B22}{\fbox{2}}\:$Connecting the midpoints of the sides of any quadrilateral forms a new quadrilateral whose area is half the area of the original one      
-  ![Question quadrilateral figure 6-25 solve-2.svg](../../public/math/Core%20Courses/Question%20quadrilateral%20figure%206-25%20solve-2.svg)    
+  ![Question quadrilaterals figure 6-25 solve-2.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-25%20solve-2.svg)    
 
   $
   \begin{array}{ll}
@@ -224,11 +224,11 @@ $
 \end{array}
 $  
 :::  
-![Question quadrilateral figure 6-26.svg](../../public/math/Core%20Courses/Question%20quadrilateral%20figure%206-26.svg)    
+![Question quadrilaterals figure 6-26.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-26.svg)    
 #### Solution
 ::: wrap  
 - Show known conditions  
-  ![Question quadrilateral figure 6-26 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilateral%20figure%206-26%20solve-1.svg)  
+  ![Question quadrilaterals figure 6-26 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-26%20solve-1.svg)  
 
   $
   \begin{array}{ll}
@@ -270,11 +270,11 @@ $
 \end{array}
 $  
 :::  
-![Question quadrilateral figure 6-27.svg](../../public/math/Core%20Courses/Question%20quadrilateral%20figure%206-27.svg)  
+![Question quadrilaterals figure 6-27.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-27.svg)  
 #### Solution
 ::: wrap  
 - Show known conditions    
-  ![Question quadrilateral figure 6-27 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilateral%20figure%206-27%20solve-1.svg)   
+  ![Question quadrilaterals figure 6-27 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-27%20solve-1.svg)   
 
   $
   \begin{array}{ll}
@@ -327,11 +327,11 @@ $
 \end{array}
 $  
 :::  
-![Question quadrilateral figure 6-28.svg](../../public/math/Core%20Courses/Question%20quadrilateral%20figure%206-28.svg)   
+![Question quadrilaterals figure 6-28.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-28.svg)   
 #### Solution
 ::: wrap  
 - Show known conditions  
-  ![Question quadrilateral figure 6-28 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilateral%20figure%206-28%20solve-1.svg)   
+  ![Question quadrilaterals figure 6-28 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-28%20solve-1.svg)   
 
   $
   \begin{array}{ll}
@@ -379,11 +379,11 @@ $
 \end{array}
 $  
 :::  
-![Question quadrilateral figure 6-29.svg](../../public/math/Core%20Courses/Question%20quadrilateral%20figure%206-29.svg)  
+![Question quadrilaterals figure 6-29.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-29.svg)  
 #### Solution
 ::: wrap  
 - Solve by joining heights     
-  ![Question quadrilateral figure 6-29 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilateral%20figure%206-29%20solve-1.svg)  
+  ![Question quadrilaterals figure 6-29 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-29%20solve-1.svg)  
 
   $
   \begin{array}{ll}
@@ -432,7 +432,7 @@ $
 #### Solution
 ::: wrap  
 - Show known conditions   
-  ![Question quadrilateral figure Q-33 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilateral%20figure%20Q-33%20solve-1.svg)   
+  ![Question quadrilaterals figure Q-33 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%20Q-33%20solve-1.svg)   
 
   $
   \begin{array}{ll}
@@ -534,7 +534,7 @@ $
 #### Solution
 ::: wrap  
 - Show known conditions    
-  ![Question quadrilateral figure Q-35 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilateral%20figure%20Q-35%20solve-1.svg)   
+  ![Question quadrilaterals figure Q-35 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%20Q-35%20solve-1.svg)   
 
   $
   \begin{array}{ll}
@@ -576,11 +576,11 @@ $
 \end{array}
 $  
 :::  
-![Question quadrilateral figure 6-30.svg](../../public/math/Core%20Courses/Question%20quadrilateral%20figure%206-30.svg)  
+![Question quadrilaterals figure 6-30.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-30.svg)  
 #### Solution
 ::: wrap  
 - Solve by Reflectional symmetry  
-  ![Question quadrilateral figure 6-30 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilateral%20figure%206-30%20solve-1.svg)  
+  ![Question quadrilaterals figure 6-30 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-30%20solve-1.svg)  
 
   $
   \begin{array}{ll}
@@ -634,11 +634,11 @@ $
 \end{array}
 $  
 :::  
-![Question quadrilateral figure 6-31.svg](../../public/math/Core%20Courses/Question%20quadrilateral%20figure%206-31.svg)  
+![Question quadrilaterals figure 6-31.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-31.svg)  
 #### Solution
 ::: wrap  
 - Solve by specializing to a square   
-  ![Question quadrilateral figure 6-31 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilateral%20figure%206-31%20solve-1.svg)  
+  ![Question quadrilaterals figure 6-31 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-31%20solve-1.svg)  
 
   $
   \begin{array}{ll}
@@ -675,11 +675,11 @@ $
 \end{array}
 $  
 :::  
-![Question quadrilateral figure 6-32.svg](../../public/math/Core%20Courses/Question%20quadrilateral%20figure%206-32.svg)  
+![Question quadrilaterals figure 6-32.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-32.svg)  
 #### Solution
 ::: wrap  
 - Show known conditions  
-  ![Question quadrilateral figure 6-32 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilateral%20figure%206-32%20solve-1.svg)  
+  ![Question quadrilaterals figure 6-32 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-32%20solve-1.svg)  
 
   $
   \begin{array}{ll}
@@ -733,11 +733,11 @@ $
 \end{array}
 $  
 :::  
-![Question quadrilateral figure 6-33.svg](../../public/math/Core%20Courses/Question%20quadrilateral%20figure%206-33.svg)  
+![Question quadrilaterals figure 6-33.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-33.svg)  
 #### Solution
 ::: wrap  
 - Show known conditions    
-  ![Question quadrilateral figure 6-33 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilateral%20figure%206-33%20solve-1.svg)  
+  ![Question quadrilaterals figure 6-33 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-33%20solve-1.svg)  
 
   $
   \begin{array}{ll}
@@ -778,11 +778,11 @@ $
 \end{array}
 $  
 :::  
-![Question quadrilateral figure 6-34.svg](../../public/math/Core%20Courses/Question%20quadrilateral%20figure%206-34.svg)  
+![Question quadrilaterals figure 6-34.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-34.svg)  
 #### Solution
 ::: wrap  
 - Solve by forming a trapezoid through the diagonals of irregular quadrilateral     
-  ![Question quadrilateral figure 6-34 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilateral%20figure%206-34%20solve-1.svg)  
+  ![Question quadrilaterals figure 6-34 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-34%20solve-1.svg)  
 
   $
   \begin{array}{ll}
@@ -837,11 +837,11 @@ $
 \end{array}
 $  
 :::  
-![Question quadrilateral figure 6-35.svg](../../public/math/Core%20Courses/Question%20quadrilateral%20figure%206-35.svg)  
+![Question quadrilaterals figure 6-35.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-35.svg)  
 #### Solution
 ::: wrap  
 - Solve by forming a trapezoid through the diagonals of irregular quadrilateral     
-  ![Question quadrilateral figure 6-35 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilateral%20figure%206-35%20solve-1.svg)   
+  ![Question quadrilaterals figure 6-35 solve-1.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-35%20solve-1.svg)   
 
   $
   \begin{array}{ll}

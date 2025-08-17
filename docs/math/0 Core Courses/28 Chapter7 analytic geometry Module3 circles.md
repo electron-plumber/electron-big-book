@@ -3,7 +3,7 @@ title: Chapter7 Analytic Geometry – Module3 Circles
 lang: en-US
 ---
 
-# Module 7–03 Circle
+# Module 7–03 Circles
 
 ## 1.Equation of a Circle
 
@@ -139,7 +139,7 @@ $
 :::
 #### Solution
 - Show known conditions  
-  ![Question circle figure Q-23 solve-1.svg](../../public/math/Core%20Courses/Question%20circle%20figure%20Q-23%20solve-1.svg)  
+  ![Question circles figure Q-23 solve-1.svg](../../public/math/Core%20Courses/Question%20circles%20figure%20Q-23%20solve-1.svg)  
   ::: wrap   
   $
   \begin{array}{ll}
@@ -438,7 +438,7 @@ $
   $   
   :::  
 - $\textcolor{#228B22}{\fbox{3}}\:$ Solve by using graphical analysis to find the intersection point (only applicable in simple or special cases)       
-  ![Question circle figure Q-27 solve-1.svg](../../public/math/Core%20Courses/Question%20circle%20figure%20Q-27%20solve-1.svg)   
+  ![Question circles figure Q-27 solve-1.svg](../../public/math/Core%20Courses/Question%20circles%20figure%20Q-27%20solve-1.svg)   
   ::: wrap   
   $
   \begin{array}{ll}
@@ -960,7 +960,7 @@ $
   $   
   :::  
 - $\textcolor{#228B22}{\fbox{2}}\:$Solve by using graphical analysis to find $a$ (only applicable in simple cases)    
-  ![Question circle figure Q-36 solve-1.svg](../../public/math/Core%20Courses/Question%20circle%20figure%20Q-36%20solve-1.svg)  
+  ![Question circles figure Q-36 solve-1.svg](../../public/math/Core%20Courses/Question%20circles%20figure%20Q-36%20solve-1.svg)  
   ::: wrap  
   $
   \begin{array}{ll}

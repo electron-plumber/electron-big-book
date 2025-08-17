@@ -231,7 +231,7 @@ $
 :::
 #### Solution
 - $\textcolor{#228B22}{\fbox{1}}\:$Solve by setting up equations  
-  ![Question straight line figure Q-15 solve-1.svg](../../public/math/Core%20Courses/Question%20straight%20line%20figure%20Q-15%20solve-1.svg)  
+  ![Question straight lines figure Q-15 solve-1.svg](../../public/math/Core%20Courses/Question%20straight%20lines%20figure%20Q-15%20solve-1.svg)  
   ::: wrap  
   $
   \begin{array}{ll} 
@@ -295,7 +295,7 @@ $
 :::
 #### Solution
 - Show known conditions  
-  ![Question straight line figure Q-16 solve-1.svg](../../public/math/Core%20Courses/Question%20straight%20line%20figure%20Q-16%20solve-1.svg)  
+  ![Question straight lines figure Q-16 solve-1.svg](../../public/math/Core%20Courses/Question%20straight%20lines%20figure%20Q-16%20solve-1.svg)  
   ::: wrap  
   $
   \begin{array}{ll}
