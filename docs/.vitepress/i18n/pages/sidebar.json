@@ -2,7 +2,7 @@
   "en-US": [
     {
       "text": "Math",
-      "link": "/math/0 Core courses/1 Guidance upper",
+      "link": "/math/0 Core Courses/1 Guidance",
       "activeMatch": "/math/",
       "home-card-type": "math",
       "description": "Mathematics is the human tool for describing, understanding and revealing the laws of nature in an abstract and logical way, and the language for expressing these laws."
@@ -16,7 +16,7 @@
     },
     {
       "text": "Writing",
-      "link": "/writing/0 Core courses/1 Argument effectiveness syllabus",
+      "link": "/writing/0 Core Courses/1 Argument effectiveness syllabus",
       "activeMatch": "/writing/",
       "home-card-type": "writing",
       "description": "The Writing section assesses candidate's ability to construct clear, coherent and persuasive arguments, as well as the demonstrating effective communication skills and critical thinking when dealing with complex business scenarios."
@@ -39,9 +39,9 @@
       "activeMatch": "/java/1 Jvm/"
     },
     {
-      "text": "Java concurrent programming",
-      "link": "/java/2 Java concurrent programming/1 Java thread model",
-      "activeMatch": "/java/2 Java concurrent programming/"
+      "text": "Java Concurrent Programming",
+      "link": "/java/2 Java Concurrent Programming/1 Java thread model",
+      "activeMatch": "/java/2 Java Concurrent Programming/"
     }
   ]
 }

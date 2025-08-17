@@ -66,7 +66,7 @@ function getJavaConcurrentProgrammingSideBar() {
   return Object.fromEntries(
     Object.entries(javaConcurrentProgramming).map(([lang, val]) => [
       lang,
-      Object.values(val).map((item) => mapPrefix(item, lang, '/java/2 Java concurrent programming')),
+      Object.values(val).map((item) => mapPrefix(item, lang, '/java/2 Java Concurrent Programming')),
     ])
   )
 }
@@ -81,7 +81,7 @@ const getSidebars = () => {
     '/writing/': getWritingSideBar(),
     '/resources/': getResourcesSideBar(),
     '/java/1 Jvm/': getJvmSideBar(),
-    '/java/2 Java concurrent programming/': getJavaConcurrentProgrammingSideBar(),
+    '/java/2 Java Concurrent Programming/': getJavaConcurrentProgrammingSideBar(),
   }
 }
 

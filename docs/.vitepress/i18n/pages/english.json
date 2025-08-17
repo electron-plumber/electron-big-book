@@ -10,65 +10,65 @@
       ]
     },
     "strengthen-courses": {
-      "text": "Strengthen courses",
+      "text": "Strengthen Courses",
       "children": [
         {
           "text": "Sections1-2 exam syllabus and content",
-          "link": "/1 Strengthen courses/1 Cloze/1 Sections1-2 exam syllabus and content",
+          "link": "/1 Strengthen Courses/1 Cloze/1 Sections1-2 exam syllabus and content",
           "promotion": "Cloze"
         },
         {
           "text": "Sections1 exam syllabus",
-          "link": "/1 Strengthen courses/2 Translate/1 Sections1 exam syllabus",
+          "link": "/1 Strengthen Courses/2 Translate/1 Sections1 exam syllabus",
           "promotion": "Translate"
         },
         {
           "text": "A Sections1 exam syllabus",
-          "link": "/1 Strengthen courses/3 Reading comprehension/1 A Sections1 exam syllabus",
+          "link": "/1 Strengthen Courses/3 Reading comprehension/1 A Sections1 exam syllabus",
           "promotion": "Reading comprehension"
         },
         {
           "text": "Part1 of section1",
-          "link": "/1 Strengthen courses/4 Writing/1 Part1 of section1",
+          "link": "/1 Strengthen Courses/4 Writing/1 Part1 of section1",
           "promotion": "Writing"
         }
       ]
     },
     "basic-courses": {
-      "text": "Basic courses",
+      "text": "Basic Courses",
       "children": [
         {
           "text": "Basic vocabulary1",
-          "link": "/2 Basic courses/1 Basic vocabulary1"
+          "link": "/2 Basic Courses/1 Basic vocabulary1"
         },
         {
           "text": "Basic vocabulary2",
-          "link": "/2 Basic courses/2 Basic vocabulary2"
+          "link": "/2 Basic Courses/2 Basic vocabulary2"
         },
         {
           "text": "Basic vocabulary3",
-          "link": "/2 Basic courses/3 Basic vocabulary3"
+          "link": "/2 Basic Courses/3 Basic vocabulary3"
         },
         {
           "text": "Basic vocabulary4",
-          "link": "/2 Basic courses/4 Basic vocabulary4"
+          "link": "/2 Basic Courses/4 Basic vocabulary4"
         },
         {
           "text": "Basic vocabulary5",
-          "link": "/2 Basic courses/5 Basic vocabulary5"
+          "link": "/2 Basic Courses/5 Basic vocabulary5"
         },
         {
           "text": "Basic vocabulary6",
-          "link": "/2 Basic courses/6 Basic vocabulary6"
+          "link": "/2 Basic Courses/6 Basic vocabulary6"
         }
       ]
     },
     "60-points-courses": {
-      "text": "60 Points courses",
+      "text": "60 Point Courses",
       "children": [
         {
           "text": "Point1 cloze",
-          "link": "/3 60 Points courses/1 Point1 cloze"
+          "link": "/3 60 Point Courses/1 Point1 cloze"
         }
       ]
     }

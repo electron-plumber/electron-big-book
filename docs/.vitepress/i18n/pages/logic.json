@@ -10,20 +10,20 @@
       ]
     },
     "basic-courses": {
-      "text": "Basic courses",
+      "text": "Basic Courses",
       "children": [
         {
           "text": "Guidance",
-          "link": "/1 Basic courses/1 Guidance"
+          "link": "/1 Basic Courses/1 Guidance"
         }
       ]
     },
     "139-points-courses": {
-      "text": "139 Points courses",
+      "text": "139 Point Courses",
       "children": [
         {
           "text": "Point1 categorical judgment and reasoning",
-          "link": "/2 139 Points courses/1 Point1 categorical judgment and reasoning"
+          "link": "/2 139 Point Courses/1 Point1 categorical judgment and reasoning"
         }
       ]
     }
