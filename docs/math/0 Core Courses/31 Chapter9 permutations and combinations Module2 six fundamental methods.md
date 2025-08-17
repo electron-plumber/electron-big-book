@@ -803,7 +803,7 @@ $
   $
   \begin{array}{ll}
   n\textsf{ people} \quad m\textsf{ rooms}: \\
-  \underbrace{C_m^1}_{1\textsf{st person}}\times\underbrace{C_m^1}_{2\textsf{nd person}}\times\underbrace{C_m^1}_{3\textsf{rd person}}\times\cdots\times\underbrace{C_m^1}_{n^\textsf{th}\text{ person}}=m^n \\
+  \underbrace{C_m^1}_{1\textsf{st person}}\times\underbrace{C_m^1}_{2\textsf{nd person}}\times\underbrace{C_m^1}_{3\textsf{rd person}}\times\cdots\times\underbrace{C_m^1}_{n^\textsf{th}\textsf{ person}}=m^n \\
   \end{array}
   $  
   :::

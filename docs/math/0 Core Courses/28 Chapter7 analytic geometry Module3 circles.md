@@ -36,7 +36,7 @@ lang: en-US
   - $c=0: x^2+y^2+ax+by+c=0$. The function passes through the origin.
 :::   
 - ###### Note: the condition for the general form to represent a circle is $a^2+b^2-4c>0$.  
-- __Equation derivations__   
+- __Equation derivation__   
   ::: wrap    
 
   $
@@ -477,7 +477,7 @@ $
   (a+b)^2=a^2+2ab+b^2 \\
   (a-b)^2=a^2-2ab+b^2
   \end{cases} & \textsf{perfect square formula} \\
-  30^\circ=\frac{\sqrt{3}}{3} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_3-common-inclination-angles-and-slope}{\textsf{inclination angle–slope reference}} \\
+  30^\circ=\frac{\sqrt{3}}{3} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_3-common-inclination-angles-and-slope}{\textsf{inclination angle–slope}} \\
   1:\sqrt{3}:2 & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#in-a-triangle-with-angles-the-sides-are-always-in-the-ratio}{\textsf{special right triangle: 30-60-90}} \\
   (x-x_0)^2+(y-y_0)^2=r^2 & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#standard-form}{\textsf{standard form of a circle}} \\
   \end{array}
@@ -487,7 +487,7 @@ $
 ---
 
 
-### $\fbox{28}\:$Given that the center of the circle $\small C$ is the intersection point of the line $\small x-y+1=0$ and the x-axis, and that the circle $\small C$ is tangent to the line $\small x+y+3=0$, find the equation of the circle $\small C \, \mathpunct{?}$.
+### $\fbox{28}\:$Given that the center of the circle $\small C$ is the intersection point of the line $\small x-y+1=0$ and the x-axis, and that the circle $\small C$ is tangent to the line $\small x+y+3=0$, find the equation of the circle $\small C$.
 ::: wrap   
 $
 \begin{array}{lllll}

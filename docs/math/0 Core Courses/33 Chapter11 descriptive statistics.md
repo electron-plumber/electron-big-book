@@ -27,15 +27,15 @@ __The basic concepts__
 ::: wrap  
 $
 \begin{array}{lllll}
-(\text{1}) \: \textsf{in a data set, there is only one mode} & \\
-(\text{2}) \: \textsf{the median and mode can never be equal} & \\
-(\text{3}) \: \textsf{the mean and median of a data set can never be equal} & \\
-(\text{4}) \: \textsf{the mean, mode, and median can be equal} & \\
-(\text{A}) \: 0 & \\
-(\text{B}) \: 1 & \\
-(\text{C}) \: 2 & \\
-(\text{D}) \: 3 & \\
-(\text{E}) \: 4 & \\
+\textsf{(1)} \: \textsf{in a data set, there is only one mode} & \\
+\textsf{(2)} \: \textsf{the median and mode can never be equal} & \\
+\textsf{(3)} \: \textsf{the mean and median of a data set can never be equal} & \\
+\textsf{(4)} \: \textsf{the mean, mode, and median can be equal} & \\
+\textsf{(A)} \: 0 & \\
+\textsf{(B)} \: 1 & \\
+\textsf{(C)} \: 2 & \\
+\textsf{(D)} \: 3 & \\
+\textsf{(E)} \: 4 & \\
 \end{array}
 $  
 :::
@@ -43,10 +43,10 @@ $
 ::: wrap  
 $
 \begin{array}{ll}
-(\text{1}) \: \textsf{most frequent value, may have multiple modes}\,❌\;\\
-(\text{2}) \: [3,3,3,3]\;\textsf{the median can be equal to the mode} \,❌\;\\
-(\text{3}) \: [3,3,3,3,3]\;\textsf{the mean can be equal to the median} \,❌\;\\
-(\text{4}) \: ✅\;\\
+\textsf{(1)} \: \textsf{most frequent value, may have multiple modes}\,❌\;\\
+\textsf{(2)} \: [3,3,3,3]\;\textsf{the median can be equal to the mode} \,❌\;\\
+\textsf{(3)} \: [3,3,3,3,3]\;\textsf{the mean can be equal to the median} \,❌\;\\
+\textsf{(4)} \: ✅\;\\
 \end{array}
 $  
 :::  
@@ -54,7 +54,7 @@ $
 - Derived Solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the Solution, get $(\text{1}),(\text{2}),(\text{3})$, so choose $D$. 
+  > According to the Solution, get $\textsf{(1)},\textsf{(2)},\textsf{(3)}$, so choose $D$. 
 
   :::
 - Formula used  

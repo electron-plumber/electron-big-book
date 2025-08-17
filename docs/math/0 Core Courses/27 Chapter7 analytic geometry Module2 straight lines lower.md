@@ -63,15 +63,15 @@ __The two lines are parallel__
 
 
 
-### $\fbox{12}\:$Given that the lines $\small l_1:\;(k-3)x+(4-k)y+1=0$ and $\small l_2:\;2(k-3)x-2y+3=0$ are parallel, find the value of $\small k \, \mathpunct{?}$.
+### $\fbox{12}\:$Given that the lines $\small l_1:\;(k-3)x+(4-k)y+1=0$ and $\small l_2:\;2(k-3)x-2y+3=0$ are parallel, find the value of $\small k$.
 ::: wrap  
 $
 \begin{array}{lllll}
-(\textsf{A}) \: 3 &
-(\textsf{B}) \: 5 &
-(\textsf{C}) \: 1 &
-(\textsf{D}) \: -1 &
-(\textsf{E}) \: 3 \lor 5 & \\
+\textsf{(A)} \: 3 &
+\textsf{(B)} \: 5 &
+\textsf{(C)} \: 1 &
+\textsf{(D)} \: -1 &
+\textsf{(E)} \: 3 \lor 5 & \\
 \end{array}
 $  
 :::
@@ -128,13 +128,13 @@ __Two lines are perpendicular__
 ::: wrap  
 $
 \begin{array}{lllll}
-(\textsf{1}) \: m=\frac{1}{2} &
-(\textsf{2}) \: m=-2 & \\
-(\textsf{A}) \: (\textsf{1}) &
-(\textsf{B}) \: (\textsf{2}) & \\
-(\textsf{C}) \: (\textsf{1})+(\textsf{2}) &  
-(\textsf{D}) \: (\textsf{1}),(\textsf{2}) & \\
-(\textsf{E}) \: \varnothing & \\
+\textsf{(1)} \: m=\frac{1}{2} &
+\textsf{(2)} \: m=-2 & \\
+\textsf{(A)} \: \textsf{(1)} &
+\textsf{(B)} \: \textsf{(2)} & \\
+\textsf{(C)} \: \textsf{(1)}+\textsf{(2)} &  
+\textsf{(D)} \: \textsf{(1)},\textsf{(2)} & \\
+\textsf{(E)} \: \varnothing & \\
 \end{array}
 $  
 :::
@@ -158,7 +158,7 @@ $
 - Derived Solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the Solution, get $(\textsf{1})\,✅\;,(\textsf{2})\,✅\;$, so choose $D$. 
+  > According to the Solution, get $\textsf{(1)}\,✅\;,\textsf{(2)}\,✅\;$, so choose $D$. 
 
   :::
 - Formula used  
@@ -177,11 +177,11 @@ $
 ::: wrap  
 $
 \begin{array}{lllll}
-(\textsf{A}) \: 1 &
-(\textsf{B}) \: 2 &
-(\textsf{C}) \: 3 &
-(\textsf{D}) \: 4 &
-(\textsf{E}) \: 5 & \\
+\textsf{(A)} \: 1 &
+\textsf{(B)} \: 2 &
+\textsf{(C)} \: 3 &
+\textsf{(D)} \: 4 &
+\textsf{(E)} \: 5 & \\
 \end{array}
 $  
 :::
@@ -221,11 +221,11 @@ $
 ::: wrap  
 $
 \begin{array}{lllll}
-(\textsf{A}) \: 3 &
-(\textsf{B}) \: 4 &
-(\textsf{C}) \: 5 &
-(\textsf{D}) \: 6 &
-(\textsf{E}) \: 7 & \\
+\textsf{(A)} \: 3 &
+\textsf{(B)} \: 4 &
+\textsf{(C)} \: 5 &
+\textsf{(D)} \: 6 &
+\textsf{(E)} \: 7 & \\
 \end{array}
 $  
 :::
@@ -271,9 +271,9 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  (\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}) & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_2-coordinates-of-the-midpoint-between-two-points}{\textsf{midpoint formula}} \\
+  (\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}) & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_2-the-coordinates-of-the-midpoint-between-two-points}{\textsf{midpoint formula}} \\
   k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_4-two-point-slope-formula}{\textsf{two-point slope formula}} \\
-  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#remark-the-general-form-is-very-important-as-it-allows-you-to-quickly-calculate-the-slope}{\textsf{quickly convert the general form to the slope}} \\
+  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#remark-the-general-form-is-crucial-as-it-allows-for-quick-calculation-of-the-slope}{\textsf{quickly convert the general form to the slope}} \\
   \end{array}
   >$
 
@@ -285,11 +285,11 @@ $
 ::: wrap  
 $
 \begin{array}{lllll}
-(\textsf{A}) \: 6 &
-(\textsf{B}) \: 5 &
-(\textsf{C}) \: 2 &
-(\textsf{D}) \: -2 &
-(\textsf{E}) \: -1 & \\
+\textsf{(A)} \: 6 &
+\textsf{(B)} \: 5 &
+\textsf{(C)} \: 2 &
+\textsf{(D)} \: -2 &
+\textsf{(E)} \: -1 & \\
 \end{array}
 $  
 :::
@@ -362,7 +362,7 @@ $
   >$
   \begin{array}{ll}
   k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_4-two-point-slope-formula}{\textsf{two-point slope formula}} \\
-  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#remark-the-general-form-is-very-important-as-it-allows-you-to-quickly-calculate-the-slope}{\textsf{quickly convert the general form to the slope}} \\
+  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#remark-the-general-form-is-crucial-as-it-allows-for-quick-calculation-of-the-slope}{\textsf{quickly convert the general form to the slope}} \\
   y=y_0+k(x-x_0) & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#point-slope-form}{\textsf{point-slope form}} \\
   \end{array}
   >$
@@ -381,13 +381,13 @@ __Two lines intersect__
 ::: wrap  
 $
 \begin{array}{lllll}
-(\textsf{1}) \: m>\frac{1}{2} &
-(\textsf{2}) \: m<-4 & \\
-(\textsf{A}) \: (\textsf{1}) &
-(\textsf{B}) \: (\textsf{2}) & \\
-(\textsf{C}) \: (\textsf{1})+(\textsf{2}) &  
-(\textsf{D}) \: (\textsf{1}),(\textsf{2}) & \\
-(\textsf{E}) \: \varnothing & \\
+\textsf{(1)} \: m>\frac{1}{2} &
+\textsf{(2)} \: m<-4 & \\
+\textsf{(A)} \: \textsf{(1)} &
+\textsf{(B)} \: \textsf{(2)} & \\
+\textsf{(C)} \: \textsf{(1)}+\textsf{(2)} &  
+\textsf{(D)} \: \textsf{(1)},\textsf{(2)} & \\
+\textsf{(E)} \: \varnothing & \\
 \end{array}
 $  
 :::
@@ -412,7 +412,7 @@ $
 - Derived Solution  
   ::: wrap
   > $\boldsymbol{(B)}$  
-  > According to the Solution, get $(\textsf{2})\,✅\;$, so choose $B$. 
+  > According to the Solution, get $\textsf{(2)}\,✅\;$, so choose $B$. 
 
   :::
 - Formula used  
@@ -431,11 +431,11 @@ $
 ::: wrap  
 $
 \begin{array}{lllll}
-(\textsf{A}) \: \sqrt{2} &
-(\textsf{B}) \: \sqrt{3} &
-(\textsf{C}) \: 2 &
-(\textsf{D}) \: \sqrt{5} &
-(\textsf{E}) \: \sqrt{7} & \\
+\textsf{(A)} \: \sqrt{2} &
+\textsf{(B)} \: \sqrt{3} &
+\textsf{(C)} \: 2 &
+\textsf{(D)} \: \sqrt{5} &
+\textsf{(E)} \: \sqrt{7} & \\
 \end{array}
 $  
 :::
@@ -533,11 +533,11 @@ __The positional relationship between a point and a line__
 ::: wrap  
 $
 \begin{array}{lllll}
-(\textsf{A}) \: m>1 &
-(\textsf{B}) \: m>-1 &
-(\textsf{C}) \: m>-2 &
-(\textsf{D}) \: m>-\frac{1}{2} &
-(\textsf{E}) \: m<-1 & \\
+\textsf{(A)} \: m>1 &
+\textsf{(B)} \: m>-1 &
+\textsf{(C)} \: m>-2 &
+\textsf{(D)} \: m>-\frac{1}{2} &
+\textsf{(E)} \: m<-1 & \\
 \end{array}
 $  
 :::
@@ -580,11 +580,11 @@ __The distance from a point to a line__
 ::: wrap  
 $
 \begin{array}{lllll}
-(\textsf{A}) \: \frac{23}{5} &
-(\textsf{B}) \: \frac{22}{5} &
-(\textsf{C}) \: \frac{21}{5} &
-(\textsf{D}) \: \frac{19}{5} &
-(\textsf{E}) \: \frac{18}{5} & \\
+\textsf{(A)} \: \frac{23}{5} &
+\textsf{(B)} \: \frac{22}{5} &
+\textsf{(C)} \: \frac{21}{5} &
+\textsf{(D)} \: \frac{19}{5} &
+\textsf{(E)} \: \frac{18}{5} & \\
 \end{array}
 $  
 :::
@@ -615,7 +615,7 @@ $
   >$
   \begin{array}{ll}
   k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_4-two-point-slope-formula}{\textsf{two-point slope formula}} \\
-  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#remark-the-general-form-is-very-important-as-it-allows-you-to-quickly-calculate-the-slope}{\textsf{quickly convert the general form to the slope}} \\
+  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#remark-the-general-form-is-crucial-as-it-allows-for-quick-calculation-of-the-slope}{\textsf{quickly convert the general form to the slope}} \\
   ax+by+c=0 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#general-form}{\textsf{general form of a line}} \\
   d=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}} & \href{/math/0%20Core%20Courses/27%20Chapter7%20analytic%20geometry%20Module2%20straight%20lines%20lower.html#_14-distance-from-a-point-to-a-line}{\textsf{point-to-line distance formula}} \\
   \end{array}
@@ -634,11 +634,11 @@ __The distance between two parallel lines__
 ::: wrap  
 $
 \begin{array}{lllll}
-(\textsf{A}) \: \frac{7}{10} &
-(\textsf{B}) \: \frac{1}{4} &
-(\textsf{C}) \: \frac{1}{3} &
-(\textsf{D}) \: \frac{1}{2} &
-(\textsf{E}) \: \frac{7}{5} & \\
+\textsf{(A)} \: \frac{7}{10} &
+\textsf{(B)} \: \frac{1}{4} &
+\textsf{(C)} \: \frac{1}{3} &
+\textsf{(D)} \: \frac{1}{2} &
+\textsf{(E)} \: \frac{7}{5} & \\
 \end{array}
 $  
 :::

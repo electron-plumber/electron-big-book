@@ -5,20 +5,19 @@ lang: en-US
 
 # Module 7–01 Cartesian Coordinate System
 
-## 1.Coordinate Relationships Between Two Points  
-![Coordinate Relationships Between Two points.svg](../../public/math/Core%20Courses/Coordinate%20Relationships%20Between%20Two%20points.svg)   
+## 1.Coordinate Relationship Between Two Points  
+![Coordinate Relationship Between Two points.svg](../../public/math/Core%20Courses/Coordinate%20Relationship%20Between%20Two%20points.svg)   
 
 - Points on the coordinate axis don't belong to any quadrant.   
-  - Points on x-axis $(x,0)$.
-  - Points on y-axis $(0,y)$.
+  - points on x-axis $(x,0)$.
+  - points on y-axis $(0,y)$.
 
-## 2.Coordinates of the Midpoint Between Two Points
-- The coordinates of the midpoint between two points $p_1(x_1,y_1)$ and $p_2(x_2,y_2)$ are $(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2})\boxed{\text{Average}}$.
-  - Special case: The midpoint between point $p_1(x_1,y_1)$ and the origin $(0,0)$ is $(\frac{x_1}{2},\frac{y_1}{2})$.
-  - __Formula derivations__   
-    ::: wrap    
+## 2.The Coordinates of the Midpoint Between Two Points
+- The coordinates of the midpoint between two points $p_1(x_1,y_1)$ and $p_2(x_2,y_2)$ are $(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2})\boxed{\textsf{Average}}$.
+  - Special case: the midpoint between point $p_1(x_1,y_1)$ and the origin $(0,0)$ is $(\frac{x_1}{2},\frac{y_1}{2})$.
+  - __Formula derivation__  
     ![Midpoint coordinates formula derivations.svg](../../public/math/Core%20Courses/Midpoint%20coordinates%20formula%20derivations.svg)       
-
+    ::: wrap  
     $
     \begin{array}{ll}
     x_2-x=x-x_1 \\
@@ -32,32 +31,32 @@ lang: en-US
 
 ## 3.Distance Formula Between Two Points
 - The distance between two points $A(x_1,y_1)$ and $B(x_2,y_2)$ is $d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$.  
-- Special case: The distance between point $A(x,y)$ and the origin $(0,0)$ is $d=\sqrt{x^2+y^2}$.  
-- __Formula derivations__   
-  ::: wrap    
+- Special case: the distance between point $A(x,y)$ and the origin $(0,0)$ is $d=\sqrt{x^2+y^2}$.  
+- __Formula derivation__  
   ![Distance formula between two points derivations.svg](../../public/math/Core%20Courses/Distance%20formula%20between%20two%20points%20derivations.svg)  
-
+  ::: wrap  
   $
   \begin{array}{ll}
-  c^2=a^2+b^2 \Rightarrow c=\sqrt{a^2+b^2} & \text{Pythagorean theorem} \\
+  c^2=a^2+b^2 \Rightarrow c=\sqrt{a^2+b^2} & \textsf{pythagorean theorem} \\
   AB=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} \\
   \end{array}
   $  
   :::  
 
 ## 4.Focus 1
-__Midpoint formula__   
+__The midpoint formula__   
 - Analyze using the midpoint formula $(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2})$.
 
-::: wrap
+
 ### $\fbox{1}\:$Given three points $\small A(x,5),B(-2,y)$, and $\small C(1,1)$, if point $\small C$ is the midpoint of segment $\small AB$, then $\small \, \mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
-(\text{A}) \: x=4, y=-3 &
-(\text{B}) \: x=0, y=3 &
-(\text{C}) \: x=0, y=-3 & \\
-(\text{D}) \: x=-4, y=-3 &
-(\text{E}) \: x=3, y=-4 & \\
+\textsf{(A)} \: x=4, y=-3 &
+\textsf{(B)} \: x=0, y=3 &
+\textsf{(C)} \: x=0, y=-3 & \\
+\textsf{(D)} \: x=-4, y=-3 &
+\textsf{(E)} \: x=3, y=-4 & \\
 \end{array}
 $  
 :::
@@ -80,7 +79,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(A)}$  
+  > $\boldsymbol{(A)}$  
   > According to the Solution, get $\begin{cases} x=4 \\ y=-3 \\ \end{cases}$, so choose $A$. 
 
   :::
@@ -88,7 +87,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  (\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}) & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_2-coordinates-of-the-midpoint-between-two-points}{\text{Midpoint formula}} \\
+  (\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}) & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_2-the-coordinates-of-the-midpoint-between-two-points}{\textsf{midpoint formula}} \\
   \end{array}
   >$
 
@@ -96,18 +95,19 @@ $
 ---
 
 ## 5.Focus 2
-__Distance formula__  
+__The distance formula__  
 - Analyze using the distance formula $d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$.
 
-::: wrap
-### $\fbox{2}\:$Given that the length of a segment $\small AB$ is $\small 12$, and the coordinates of point $\small A$ are $\small (-4, 8)$, while point $\small B$ has equal $\small x$- and $\small y$-coordinates, then the coordinates of point $\small B$ are $\small \, \mathpunct{?}$.
+
+### $\fbox{2}\:$Given that the length of segment $\small AB$ is $\small 12$, point $\small A$ has coordinates $\small (-4, 8)$, and point $\small B$ has equal x- and y-coordinates, what are the coordinates of point $\small B \, \mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
-(\text{A}) \: (-4,-4) &
-(\text{B}) \: (8,8) & \\
-(\text{C}) \: (4,4) \lor (8,8) &
-(\text{D}) \: (-4,-4) \lor (8,8) & \\
-(\text{E}) \: (4,4) \lor (-8,-8) & \\
+\textsf{(A)} \: (-4,-4) &
+\textsf{(B)} \: (8,8) & \\
+\textsf{(C)} \: (4,4) \lor (8,8) &
+\textsf{(D)} \: (-4,-4) \lor (8,8) & \\
+\textsf{(E)} \: (4,4) \lor (-8,-8) & \\
 \end{array}
 $  
 :::
@@ -115,7 +115,7 @@ $
 ::: wrap  
 $
 \begin{array}{ll}
-\text{Let }B=(x, x) \\
+\textsf{let }B=(x, x) \\
 AB=\sqrt{(x+4)^2+(x-8)^2}=12 \\
 \sqrt{(x+4)^2+(x-8)^2}^2=12^2 \\
 (x+4)^2+(x-8)^2=144 \\
@@ -137,7 +137,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(D)}$  
+  > $\boldsymbol{(D)}$  
   > According to the Solution, get $x=8 \lor x=-4 \\$, so choose $D$. 
 
   :::
@@ -145,84 +145,85 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_3-distance-formula-between-two-points}{\text{Two-point distance formula}} \\
-  x=\frac{-b\pm \sqrt{b^2-4ac}}{2a} & \href{https://en.wikipedia.org/wiki/Quadratic_formula}{\text{Quadratic formula}} \\
+  d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_3-distance-formula-between-two-points}{\textsf{two-point distance formula}} \\
+  x=\frac{-b\pm \sqrt{b^2-4ac}}{2a} & \href{https://en.wikipedia.org/wiki/Quadratic_formula}{\textsf{quadratic formula}} \\
   \begin{cases}
   (a+b)^2=a^2+2ab+b^2 \\
   (a-b)^2=a^2-2ab+b^2
-  \end{cases} & \text{Perfect square formula} \\
+  \end{cases} & \textsf{perfect square formula} \\
   \end{array}
   >$
 
   :::
 ---
 
-::: wrap
-### $\fbox{3}\:$In an equilateral triangle $\small ABC$, two vertices are $\small A(2,0)$ and $\small B(5,3\sqrt{3})$. The coordinates of the third vertex are $\small \, \mathpunct{?}$.
+
+### $\fbox{3}\:$In an equilateral triangle $\small ABC$, two vertices are $\small A(2,0)$ and $\small B(5,3\sqrt{3})$. What are the coordinates of the third vertex $\small \, \mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
-(\text{A}) \: (8, 0) &
-(\text{B}) \: (-8, 0) &
-(\text{C}) \: (1, -3\sqrt{3}) & \\
-(\text{D}) \: (8, 0) \lor (-1, 3\sqrt{3}) &
-(\text{E}) \: (6, 0) \lor (-1, 3\sqrt{3}) & \\
+\textsf{(A)} \: (8, 0) &
+\textsf{(B)} \: (-8, 0) &
+\textsf{(C)} \: (1, -3\sqrt{3}) & \\
+\textsf{(D)} \: (8, 0) \lor (-1, 3\sqrt{3}) &
+\textsf{(E)} \: (6, 0) \lor (-1, 3\sqrt{3}) & \\
 \end{array}
 $  
 :::
 #### Solution
-::: wrap  
-![Question cartesian coordinate system figure Q-3 solve-1.svg](../../public/math/Core%20Courses/Question%20cartesian%20coordinate%20system%20figure%20Q-3%20solve-1.svg)  
-
-$
-\begin{array}{ll}
-\href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#_16-equilateral-triangle}{\text{Equilateral triangle: }}AB=AC=BC \\
-\text{Let }C=(x, y) \\
-\sqrt{3^2+(3\sqrt{3})^2}=\sqrt{(x-2)^2+y^2}=\sqrt{(x-5)^2+(y-3\sqrt{3})^2} \\
-\sqrt{3^2+(3\sqrt{3})^2}=\sqrt{9+(9\times3)}=6\\
-\text{There are two equations and two unknowns, and solving them is too complicated, } \\
-\text{so it is better to substitute the options directly.}\\
-(\text{A}):(8, 0)
-\begin{cases}
-\begin{array}{ll}
-\sqrt{(8-2)^2+0^2}=6 \\
-\sqrt{(8-5)^2+(0-3\sqrt{3})^2}\ne6 \\
-\end{array}
-\end{cases}\,❌\; \\
-(\text{D}) \: (8, 0) \lor (-1, 3\sqrt{3})
-\begin{cases}
-\begin{array}{ll}
-\sqrt{(8-2)^2+0^2}=6 \\
-\sqrt{(-1-5)^2+(3\sqrt{3}-3\sqrt{3})^2}=6 \\
-\end{array}
-\end{cases}\,✅\; \\
-\end{array}
-$  
-:::  
+- Show known conditions  
+  - equilateral triangle: $AB=AC=BC$    
+  ![Question cartesian coordinate system figure Q-3 solve-1.svg](../../public/math/Core%20Courses/Question%20cartesian%20coordinate%20system%20figure%20Q-3%20solve-1.svg)  
+  ::: wrap   
+  $
+  \begin{array}{ll}
+  \textsf{let }C=(x, y) \\
+  \sqrt{3^2+(3\sqrt{3})^2}=\sqrt{(x-2)^2+y^2}=\sqrt{(x-5)^2+(y-3\sqrt{3})^2} \\
+  \sqrt{3^2+(3\sqrt{3})^2}=\sqrt{9+(9\times3)}=6\\
+  \textsf{there are two equations and two unknowns, and solving them is too complicated, } \\
+  \textsf{so it is better to substitute the options directly}\\
+  \textsf{(A)}
+  \begin{cases}
+  \begin{array}{ll}
+  \sqrt{(8-2)^2+0^2}=6 \\
+  \sqrt{(8-5)^2+(0-3\sqrt{3})^2}\ne6 \\
+  \end{array}
+  \end{cases}\,❌\; \\
+  \textsf{(D)}
+  \begin{cases}
+  \begin{array}{ll}
+  \sqrt{(8-2)^2+0^2}=6 \\
+  \sqrt{(-1-5)^2+(3\sqrt{3}-3\sqrt{3})^2}=6 \\
+  \end{array}
+  \end{cases}\,✅\; \\
+  \end{array}
+  $  
+  :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(D)}$  
-  > According to the Solution, get $\sqrt{(x-2)^2+y^2}=\sqrt{(x-5)^2+(y-3\sqrt{3})^2}=6$, so choose $D$. 
+  > $\boldsymbol{(D)}$  
+  > According to the Solution, get $AB=AC=BC=6$, so choose $D$. 
 
   :::
 - Formula used  
   ::: wrap
   >$
   \begin{array}{ll}
-  d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_3-distance-formula-between-two-points}{\text{Two-point distance formula}} \\
+  & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#_16-equilateral-triangle}{\textsf{equilateral triangle}} \\
+  d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_3-distance-formula-between-two-points}{\textsf{two-point distance formula}} \\
   \end{array}
   >$
 
   :::
 - Additionally, if the problem is an isosceles right triangle  
-  ::: wrap
+  ::: wrap  
+  > - [isosceles right triangle](/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#_15-isosceles-right-triangle): $AC=BC=\sqrt{2}AB \implies AB=\sqrt{2}AC=\sqrt{2}BC$            
   >$
   \begin{array}{ll}
-  \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#_15-isosceles-right-triangle}{\text{Isosceles right triangle:
-  > }}AC=BC=\sqrt{2}AB \implies AB=\sqrt{2}AC=\sqrt{2}BC \\
-  \text{Let }C=(x, y) \\
+  \textsf{let }C=(x, y) \\
   \sqrt{3^2+(3\sqrt{3})^2}=\sqrt{2}\times\sqrt{(x-2)^2+y^2}=\sqrt{2}\times\sqrt{(x-5)^2+(y-3\sqrt{3})^2} \\
-  \text{After that, directly substitute the options.}\\
+  \textsf{after that, directly substitute the options}\\
   \end{array}
   >$
 
@@ -232,12 +233,13 @@ $
 # Module 7–02 Straight Lines
 
 ## 1.Angle of Inclination
-- The angle formed between a straight line and the positive direction of the x-axis is called the angle of inclination, denoted as $\alpha$, where $\alpha \in [0, \pi)$.  
+- __The angle__ formed between a straight line and __the positive direction of the x-axis__ is called __the angle of inclination__,
+  denoted as $\boldsymbol{\alpha}$, where $\alpha \in [0, \pi)$.  
   ![Angle of inclination with x-axis figure 7-1.svg](../../public/math/Core%20Courses/Angle%20of%20inclination%20with%20x-axis%20figure%207-1.svg)      
-- Note: When a line is horizontal, its angle of inclination is $0^\circ$.
-  When a line is vertical, its angle of inclination is $90^\circ$.  
-  - Counterclockwise rotation increases $\alpha$.  
-  - Clockwise rotation decreases $\alpha$.  
+- Note: when __a line is horizontal__, its __angle of inclination is $\boldsymbol{0^\circ}$__.
+  When __a line is vertical__, its __angle of inclination is $\boldsymbol{90^\circ}$__.  
+  - counterclockwise rotation increases $\alpha$.  
+  - clockwise rotation decreases $\alpha$.  
 
   <ThemeAwareImage
     dark-src="/math/Core%20Courses/Angle%20of%20inclination%20with%20x-axis%20figure%207-1%20black%20solve-1.gif"
@@ -246,37 +248,38 @@ $
 
 
 ## 2.Definition of Slope
-- The tangent of the inclination angle is the slope, denoted as $k=tan\alpha, \alpha=\frac{\pi}{2}$.  
-  - $\mathbf{\alpha=\frac{\text{opposite}}{\text{adjacent}}}$  
+- The tangent of the inclination angle is the slope, denoted as $k=\textsf{tan}\alpha, \alpha=\frac{\pi}{2}$.  
+  - $\boldsymbol{\alpha=\frac{\textsf{opposite}}{\textsf{adjacent}}}$  
   ![Tan alpha slope figure 7-2.svg](../../public/math/Core%20Courses/Tan%20alpha%20slope%20figure%207-2.svg)  
-- Remarks: 
-  - When $\alpha=0, k=0$; __Zero numerator__
-  - When $0<\alpha<90^\circ, k>0$;
-  - When $\alpha=90^\circ$, $k$ is undefined; __Zero denominator__
-  - When $90^\circ<\alpha<180^\circ, k<0$;  
+- __Remarks__  
+  - When $\alpha=0, \boldsymbol{k=0}$; __zero numerator__.
+  - When $0<\alpha<90^\circ, \boldsymbol{k>0}$.
+  - When $\alpha=90^\circ$, __$\boldsymbol{k}$ is undefined__; __zero denominator__.
+  - When $90^\circ<\alpha<180^\circ, \boldsymbol{k<0}$.  
 
   ![Tan alpha slope figure 7-2 solve-1.svg](../../public/math/Core%20Courses/Tan%20alpha%20slope%20figure%207-2%20solve-1.svg)  
 
 ## 3.Common Inclination Angles and Slope
-- Supplementary angles: their tangents are opposite numbers.
-  - $tan(180^\circ- \theta)=-tan\theta$.
+- __Supplementary angles__: their tangents are __opposite numbers__.   
+  - $\boldsymbol{\textsf{tan}(180^\circ-\theta)=-\textsf{tan}\theta}$   
 
-| Inclination Angle $(\alpha)$ | Slope $k=tan\alpha$    |
-|------------------------------|------------------------|
-| $0^\circ$                    | $0$                    |
-| $30^\circ$                   | $\frac{\sqrt{3}}{3}$   |
-| $45^\circ$                   | $1$                    |
-| $60^\circ$                   | $\sqrt{3}$             |
-| $90^\circ$                   | $\infty \lor$undefined |
-| $120^\circ$                  | $-\sqrt{3}$            |
-| $135^\circ$                  | $-1$                   |
-| $150^\circ$                  | $-\frac{\sqrt{3}}{3}$  |
-| $180^\circ$                  | $0$                    |
+| Inclination Angle $\boldsymbol{(\alpha)}$ | Slope $\boldsymbol{k=\textsf{tan}\alpha}$ |
+|-------------------------------------------|-------------------------------------------|
+| $0^\circ$                                 | $0$                                       |
+| $30^\circ$                                | $\frac{\sqrt{3}}{3}$                      |
+| $45^\circ$                                | $1$                                       |
+| $60^\circ$                                | $\sqrt{3}$                                |
+| $90^\circ$                                | $\infty \lor$undefined                    |
+| $120^\circ$                               | $-\sqrt{3}$                               |
+| $135^\circ$                               | $-1$                                      |
+| $150^\circ$                               | $-\frac{\sqrt{3}}{3}$                     |
+| $180^\circ$                               | $0$                                       |
 
 
 ## 4.Two-Point Slope Formula
-- Let there be two points $P_1(x_1,y_1)$ and $P_2(x_2,y_2)$ in a straight line $l$, then $k=\frac{y_2-y_1}{x_2-x_1}, \mathbf{x_1 \ne x_2}$.  
-- Special cases:
+- Let there be __two points $\boldsymbol{P_1(x_1,y_1)}$ and $\boldsymbol{P_2(x_2,y_2)}$__ in __a straight line $\boldsymbol{l}$__,
+  then $k=\frac{y_2-y_1}{x_2-x_1}, \boldsymbol{x_1 \ne x_2}$.  
+- __Special cases__   
   - If $y_2=y_1$, the line is __horizontal__, and $k=0$.
   - If $x_2=x_1$, the line is __vertical__, and $k=\infty\lor$undefined.  
   - ###### The slope between $(x,y)$ and $(0,0)$ is $k=\frac{y}{x}$.  
@@ -285,23 +288,26 @@ $
 
 
 ## 5.Focus 1
-__Inclination angle and slope__  
-- Pay attention to special inclination angels, such as $90^\circ$, and observe the sign and magnitude changes of the slope.  
+__The inclination angle and slope__  
+- Pay attention to special inclination angels, __such as $\boldsymbol{90^\circ}$__, and observe __the sign and magnitude changes__ of the slope.  
 
 
-::: wrap
-### $\fbox{4}\:$Regarding inclination angles and slope, the correct statement is $\small \, \mathpunct{?}$.
+
+### $\fbox{4}\:$How many correct statements are there about the inclination angle and slope $\small \, \mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
-(\text{1}) \: \text{The greater the inclination angle, the greater the slope}; & \\
-(\text{2}) \: \text{When the inclination angle is }135^\circ\text{, the slope is }1; & \\ 
-(\text{3}) \: \text{When the inclination angle is less than }90^\circ, \\\quad\; \text{ the greater the inclination angle, the greater the slope}; & \\
-(\text{4}) \: \text{When the inclination angle is greater than}90^\circ, \\\quad\; \text{ the larger the inclination angle, the smaller the slope}; & \\
-(\text{A}) \: 0 & \\
-(\text{B}) \: 1 & \\
-(\text{C}) \: 2 & \\
-(\text{D}) \: 3 & \\
-(\text{E}) \: 4 & \\
+\textsf{(1)} \: \textsf{the greater the inclination angle, the greater the slope} & \\
+\textsf{(2)} \: \textsf{when the inclination angle is }135^\circ\textsf{, the slope is }1 & \\ 
+\textsf{(3)} \: \textsf{when the inclination angle is less than }90^\circ, \\
+                \hspace{0.7cm} \textsf{the greater the inclination angle, the greater the slope} & \\
+\textsf{(4)} \: \textsf{when the inclination angle is greater than }90^\circ, \\
+                \hspace{0.7cm} \textsf{the larger the inclination angle, the smaller the slope} & \\
+\textsf{(A)} \: 0 & \\
+\textsf{(B)} \: 1 & \\
+\textsf{(C)} \: 2 & \\
+\textsf{(D)} \: 3 & \\
+\textsf{(E)} \: 4 & \\
 \end{array}
 $  
 :::
@@ -309,21 +315,22 @@ $
 ::: wrap  
 $
 \begin{array}{ll}
-(\text{1}) \: \begin{cases}
-              \alpha=45^\circ \Rightarrow k=1 \\
-              \alpha=135^\circ \Rightarrow k=-1 \\
-              \end{cases} \,❌\;\\
-(\text{2}) \: \alpha>90^\circ \Rightarrow k<0 \,❌\;\\
-(\text{3}) \: \boxed{0 \le \alpha<90^\circ} \implies \alpha \uparrow \,\Rightarrow k \uparrow \,✅\;\\
-(\text{4}) \: \boxed{\alpha>90^\circ} \implies \alpha \uparrow \,\Rightarrow k \uparrow \,❌\;\\
+\textsf{(1)} \:
+\begin{cases}
+\alpha=45^\circ \Rightarrow k=1 \\
+\alpha=135^\circ \Rightarrow k=-1 \\
+\end{cases} \,❌\;\\
+\textsf{(2)} \: \alpha>90^\circ \Rightarrow k<0 \,❌\;\\
+\textsf{(3)} \: \boxed{0 \le \alpha<90^\circ} \implies \alpha \uparrow \,\Rightarrow k \uparrow \,✅\;\\
+\textsf{(4)} \: \boxed{\alpha>90^\circ} \implies \alpha \uparrow \,\Rightarrow k \uparrow \,❌\;\\
 \end{array}
 $  
 :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(B)}$  
-  > According to the Solution, get $(\text{3})$, so choose $B$. 
+  > $\boldsymbol{(B)}$  
+  > According to the Solution, get $\textsf{(3)}$, so choose $B$. 
 
   :::
 - Formula used  
@@ -333,17 +340,16 @@ $
   \begin{cases}
   0<\alpha<90^\circ, k>0 \\
   90^\circ<\alpha<180^\circ, k<0 \\
-  \end{cases} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_2-definition-of-slope}{\text{Definition of slope}} \\
-  135^\circ=-1 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_3-common-inclination-angles-and-slope}{\text{Inclination angle–slope reference}} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_2-definition-of-slope}{\textsf{definition of slope}} \\
+  135^\circ=-1 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_3-common-inclination-angles-and-slope}{\textsf{inclination angle–slope}} \\
   \end{array}
   >$
 
   :::  
-::: wrap
-- $\href{https://phet.colorado.edu/sims/html/graphing-slope-intercept/latest/graphing-slope-intercept_all.html}{\text{Variation of the slope-intercept line:
-  } y = kx + b}$  
-  > Counterclockwise rotation: $k\uparrow$.  
-  > Clockwise rotation: $k\downarrow$.  
+- $y=kx+b$ [Variation of the slope-intercept line](https://phet.colorado.edu/sims/html/graphing-slope-intercept/latest/graphing-slope-intercept_all.html)  
+  ::: wrap  
+  > counterclockwise rotation: $k\uparrow$.  
+  > clockwise rotation: $k\downarrow$.  
   > - The size of $|k|$ indicates the steepness of the line.
   >   - The larger $|k|$ is, the steeper the line becomes.
   >   - The smaller $|k|$ is, the flatter the line becomes.
@@ -351,23 +357,23 @@ $
   :::
 ---
 
-::: wrap
-### $\fbox{5}\:$If the line $\small l$ intersects the lines $\small y=1$ and $\small x=7$ at points $\small P$ and $\small Q$ respectively, and the midpoint of the segment $\small PQ$ has coordinates $\small (1,−1)$, what is the slope of the line $\small l \, \mathpunct{?}$.
+
+### $\fbox{5}\:$If the line $\small l$ intersects the line $\small y=1$ at point $\small P$ and the line $\small x=7$ at point $\small Q$, and the midpoint of segment $\small PQ$ has coordinates $\small (1,−1)$, find the slope of line $\small l$.
+::: wrap  
 $
 \begin{array}{lllll}
-(\text{A}) \: \frac{1}{3} &
-(\text{B}) \: -\frac{1}{3} &
-(\text{C}) \: \frac{2}{3} &
-(\text{D}) \: -\frac{2}{3} &
-(\text{E}) \: \frac{3}{2} & \\
+\textsf{(A)} \: \frac{1}{3} &
+\textsf{(B)} \: -\frac{1}{3} &
+\textsf{(C)} \: \frac{2}{3} &
+\textsf{(D)} \: -\frac{2}{3} &
+\textsf{(E)} \: \frac{3}{2} & \\
 \end{array}
 $  
 :::
 #### Solution
-::: wrap  
 - Show known conditions    
   ![Question straight lines figure Q-5 solve-1.svg](../../public/math/Core%20Courses/Question%20straight%20lines%20figure%20Q-5%20solve-1.svg)  
-
+  ::: wrap  
   $
   \begin{array}{ll}
   P(x,1) \quad Q(7,y) \\
@@ -383,11 +389,11 @@ $
   k=\frac{1-(-3)}{-5-7}=\frac{4}{-12}=-\frac{1}{3} \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(B)}$  
+  > $\boldsymbol{(B)}$  
   > According to the Solution, get $k=-\frac{1}{3}$, so choose $B$. 
 
   :::
@@ -395,8 +401,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_4-two-point-slope-formula}{\text{Two-point slope formula}} \\
-  (\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}) & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_2-coordinates-of-the-midpoint-between-two-points}{\text{Midpoint coordinates}} \\
+  k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_4-two-point-slope-formula}{\textsf{two-point slope formula}} \\
+  (\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}) & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_2-the-coordinates-of-the-midpoint-between-two-points}{\textsf{midpoint formula}} \\
   \end{array}
   >$
 
@@ -406,77 +412,72 @@ $
 ## 6. Equation of a Line
 
 ### $\textcolor{#1E3A5F}{\fbox{1}}\:$Slope-intercept form
-- If the slope $k$ and the $\overbrace{\text{y-intercept }b}^{\text{y-axis intersection}}$ are known, the equation of the line can be expressed as $y=kx+b$.  
-- Special cases:  
-  - ###### $b=0: y=kx$ (Passing through the origin)   
-  - $k=0: y=b$ (Horizontal line)   
-
+- If __the slope $\boldsymbol{k}$__ and the $\overbrace{\textsf{y-intercept }\boldsymbol{b}}^{\textsf{y-axis intersection}}$ are known, the equation of the line can be expressed as $y=kx+b$.  
+- __Special cases__  
+  - ###### $b=0: y=kx$ (passing through the origin)   
+  - $k=0: y=b$ (horizontal line)   
+- [slope-intercept demo](https://phet.colorado.edu/sims/html/graphing-slope-intercept/latest/graphing-slope-intercept_all.html)       
 ![Slope-intercept form.svg](../../public/math/Core%20Courses/Slope-intercept%20form.svg)  
-$\href{https://phet.colorado.edu/sims/html/graphing-slope-intercept/latest/graphing-slope-intercept_all.html}{\text{Slope-intercept demo}}$  
 
 ### $\textcolor{#1E3A5F}{\fbox{2}}\:$Point-slope form
-- If the slope $k$ and a point $(x_0, y_0)$ are known,
-the equation of the line can be expressed as $y=y_0+k(x-x_0)$ or $\frac{y-y_0}{x-x_0}=k$.  
-- Special case: $(x_0, y_0) \longrightarrow (0,b)$ The point-slope form becomes the slope-intercept form.  
-- __Equation derivations__   
-  ::: wrap    
-  ![Point-slope equation derivations.svg](../../public/math/Core%20Courses/Point-slope%20equation%20derivations.svg)  
-
+- If __the slope $\boldsymbol{k}$__ and __a point $\boldsymbol{(x_0, y_0)}$__ are known,
+  the equation of the line can be expressed as $y=y_0+k(x-x_0)$ or $\boldsymbol{\frac{y-y_0}{x-x_0}=k}$.  
+- Special case: $(x_0, y_0) \longrightarrow (0,b)$ the point-slope form becomes the slope-intercept form.  
+- [point-slope demo](https://phet.colorado.edu/sims/html/graphing-lines/latest/graphing-lines_all.html)  
+- __Equation derivation__  
+  ![Point-slope equation derivation.svg](../../public/math/Core%20Courses/Point-slope%20equation%20derivation.svg)   
+  ::: wrap  
   $
   \begin{array}{ll}
   y=k(x-x_0)+y_0 \\
-  \frac{y-y_0}{x-x_0}=k & \text{Two-point slope formula} \\
+  \frac{y-y_0}{x-x_0}=k & \textsf{two-point slope formula} \\
   y=y_0+k(x-x_0) \\
   \end{array}
   $  
   :::
 
-$\href{https://phet.colorado.edu/sims/html/graphing-lines/latest/graphing-lines_all.html}{\text{Point-slope demo}}$
 
 ### $\textcolor{#1E3A5F}{\fbox{3}}\:$Intercept form
-If the x-axis and y-axis intercepts are known to be $a$ and $b$ respectively,
-the equation of the line can be expressed as $\frac{x}{a}+\frac{y}{b}=1,\mathbf{(a,b \ne 0)}$.  
+- If the x-axis and y-axis intercepts are known to be $a$ and $b$ respectively,
+  the equation of the line can be expressed as $\boldsymbol{\frac{x}{a}+\frac{y}{b}=1,(a,b \ne 0)}$.  
 ![Intercept form.svg](../../public/math/Core%20Courses/Intercept%20form.svg)  
 
+
 ### $\textcolor{#1E3A5F}{\fbox{4}}\:$Two-point form
-If the coordinates of two points $(x_1, y_1)$ and $x_2,
-y_2$ are known, the equation of the line can be expressed as $\frac{x-x_1}{x_2-x_1}=\frac{y-y_1}{y_2-y_1}$.  
-- Special case: 
+- If the coordinates of __two points $\boldsymbol{(x_1, y_1)}$ and $\boldsymbol{(x_2, y_2)}$__ are known,
+  __the equation of the line__ can be expressed as $\boldsymbol{\frac{x-x_1}{x_2-x_1}=\frac{y-y_1}{y_2-y_1}}$.  
+- __Special case__  
   - The intercept form is a special case of the two-point form. 
   - The two-point form can be changed into the point-slope form.
-- __Equation derivations__   
-  ::: wrap    
-  ![Two-point equation derivations.svg](../../public/math/Core%20Courses/Two-point%20equation%20derivations.svg)  
-
+- __Equation derivation__  
+  ![Two-point equation derivation.svg](../../public/math/Core%20Courses/Two-point%20equation%20derivation.svg)   
+  ::: wrap  
   $
   \begin{array}{ll}
-  \frac{x-x_1}{x_2-x_1}=\frac{y-y_1}{y_2-y_1} & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#in-similar-triangles-the-ratios-of-corresponding-sides-are-equal}{\text{Similarity ratio}} \\
+  \frac{x-x_1}{x_2-x_1}=\frac{y-y_1}{y_2-y_1} & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#in-similar-triangles-the-ratios-of-corresponding-sides-are-equal}{\textsf{similarity ratio}} \\
   y-y_1=\frac{x-x_1}{x_2-x_1}(y_2-y_1) \\
-  y-y_1=\underbrace{\boxed{\frac{y_2-y_1}{x_2-x_1}}}_{k}(x-x_1) & \text{Point-slope form} \\
+  y-y_1=\underbrace{\boxed{\frac{y_2-y_1}{x_2-x_1}}}_{k}(x-x_1) & \textsf{point-slope form} \\
   \end{array}
   $  
   :::
 
 
 ### $\textcolor{#1E3A5F}{\fbox{5}}\:$General form
-- The above equations can all be transformed into a linear function $ax+by+c=0$,
-which is called the general form of the equation of a line.  
-- ###### Remark: The general form is very important, as it allows you to quickly calculate the slope $k=-\frac{a}{b}$.
-  - __$k=-\frac{a}{b}$ derivations__   
-    ::: wrap    
-
+- The above equations can all be transformed into __the form of a linear equation $\boldsymbol{ax+by+c=0}$__,
+  which is called __the general form of the equation of a line__.  
+- ###### Remark: the general form is crucial, as it allows for quick calculation of the slope, $k=-\frac{a}{b}$.
+  - __$k=-\frac{a}{b}$ derivation__   
+    ::: wrap  
     $
     \begin{array}{ll}
     ax+by+c=0 \longrightarrow by=-ax-c \\
     y=\underbrace{-\boxed{\frac{a}{b}}}_{k}x-\frac{c}{b} \\
-    \text{Example:} \\
-    4x+3y-5=0 \rightarrow k=-\frac{4}{3} \\
+    \textsf{example: }4x+3y-5=0 \rightarrow k=-\frac{4}{3} \\
     \end{array}
     $  
     :::
-- ###### Quickly calculate the Intercept form  
-  ![General form calculate Intercept form.svg](../../public/math/Core%20Courses/General%20form%20calculate%20Intercept%20form.svg)  
-
+- ###### Quickly calculate the intercept form  
+  ![General form calculate intercept form.svg](../../public/math/Core%20Courses/General%20form%20calculate%20intercept%20form.svg)   
   ::: wrap  
   $
   \begin{array}{ll}
@@ -498,35 +499,38 @@ which is called the general form of the equation of a line.
   y=-\frac{c}{b} \\
   \end{array}
   \end{cases} \\
-  \text{Calculate the area of the triangle formed by the intercept form:} \\
+  \textsf{calculate the area of the triangle formed by the intercept form} \\
   \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{S=\frac{1}{2}ah} \\
   S=\frac{1}{2} \times -\frac{c}{a} \times -\frac{c}{b} \\
   S=\frac{c^2}{2|ab|} \\
   \end{array}
   $  
   :::  
-- Special case:
-  - ###### $a=0:\:by+c=0$ (Horizontal line)
-  - $b=0:\:ax+c=0$ (Vertical line)
-  - $c=0:\:ax+by=0$ (Line passing through the origin)
+- __Special case__
+  - ###### $a=0:\:by+c=0$ (horizontal line)
+  - $b=0:\:ax+c=0$ (vertical line)
+  - $c=0:\:ax+by=0$ (line passing through the origin)
 
 ## 7.Focus 2
-__Equation of a line__  
-- Master the various forms of the equation of a line and their applicable situations, and understand the differences between the different forms of the equation. 
+__The equation of a line__  
+- Master __the various forms__ of the equation of a line and __their applicable situations__,
+  and understand __the differences between these forms__. 
 
-::: wrap
-### $\fbox{6}\:$How many of the following statements are correct$\small \, \mathpunct{?}$.
+
+
+### $\fbox{6}\:$How many of the following statements are correct $\small \, \mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
-(\text{1}) \: \text{A line passing through the origin can be represented in intercept form}. & \\
-(\text{2}) \: \text{A horizontal line can't be represented in intercept form}. & \\
-(\text{3}) \: \text{A vertical line can be represented in point-slope form}. & \\
-(\text{4}) \: \text{All lines can be represented in general form}. & \\
-(\text{A}) \: 0 & \\
-(\text{B}) \: 1 & \\
-(\text{C}) \: 2 & \\
-(\text{D}) \: 3 & \\
-(\text{E}) \: 4 & \\
+\textsf{(1)} \: \textsf{a line passing through the origin can be represented in intercept form} & \\
+\textsf{(2)} \: \textsf{a horizontal line can't be represented in intercept form} & \\
+\textsf{(3)} \: \textsf{a vertical line can be represented in point-slope form} & \\
+\textsf{(4)} \: \textsf{all lines can be represented in general form} & \\
+\textsf{(A)} \: 0 & \\
+\textsf{(B)} \: 1 & \\
+\textsf{(C)} \: 2 & \\
+\textsf{(D)} \: 3 & \\
+\textsf{(E)} \: 4 & \\
 \end{array}
 $  
 :::
@@ -534,27 +538,27 @@ $
 ::: wrap  
 $
 \begin{array}{ll}
-(\text{1}) \: \frac{x}{a}+\frac{y}{b}=0 \,❌\;\\
-(\text{2}) \: \text{A horizontal line has no intersection with the x-axis} \,✅\;\\
-(\text{3}) \: \text{The slope of a vertical line doesn't exist} \,❌\;\\
-(\text{4}) \: \text{All lines can be transformed into the general form} \,✅\;\\
+\textsf{(1)} \: \frac{x}{a}+\frac{y}{b}=0 \,❌\;\\
+\textsf{(2)} \: \textsf{a horizontal line has no intersection with the x-axis} \,✅\;\\
+\textsf{(3)} \: \textsf{the slope of a vertical line doesn't exist} \,❌\;\\
+\textsf{(4)} \: \textsf{all lines can be transformed into the general form} \,✅\;\\
 \end{array}
 $  
 :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(C)}$  
-  > According to the Solution, get $(\text{2}),(\text{4})$, so choose $C$. 
+  > $\boldsymbol{(C)}$  
+  > According to the Solution, get $\textsf{(2)},\textsf{(4)}$, so choose $C$. 
 
   :::
 - Formula used  
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{x}{a}+\frac{y}{b}=1 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#intercept-form}{\text{Intercept form}} \\
-  y=y_0+k(x-x_0) & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#point-slope-form}{\text{Point-slope form}} \\
-  ax+by+c=0 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#general-form}{\text{General form of a line}} \\
+  \frac{x}{a}+\frac{y}{b}=1 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#intercept-form}{\textsf{intercept form}} \\
+  y=y_0+k(x-x_0) & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#point-slope-form}{\textsf{point-slope form}} \\
+  ax+by+c=0 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#general-form}{\textsf{general form of a line}} \\
   \end{array}
   >$
 
@@ -571,37 +575,37 @@ $
   >| General form         |        ✅         |       ✅        |                ✅                 |       ✅       |
 ---
 
-::: wrap
+
 ### $\fbox{7}\:$Given $\small A(-1, 2), B(2, 4), C (x, 3)$ and $\small A, B, C$ are collinear, then $\small x=\, \mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
-(\text{A}) \: \frac{1}{5} &
-(\text{B}) \: \frac{1}{4} &
-(\text{C}) \: \frac{1}{3} &
-(\text{D}) \: \frac{1}{2} &
-(\text{E}) \: 1 & \\
+\textsf{(A)} \: \frac{1}{5} &
+\textsf{(B)} \: \frac{1}{4} &
+\textsf{(C)} \: \frac{1}{3} &
+\textsf{(D)} \: \frac{1}{2} &
+\textsf{(E)} \: 1 & \\
 \end{array}
 $  
 :::
 #### Solution
-::: wrap  
-- Collinearity of three points $\Leftrightarrow$ Any two points have the same slope $\Leftrightarrow$ They Can't form $\triangle$  
-
+- collinearity of three points $\Leftrightarrow$ any two points have the same slope $\Leftrightarrow$ they can't form $\triangle$  
+  ::: wrap   
   $
   \begin{array}{ll}
   k_{AB}=k_{BC}=k_{AC} \\
-  k_{AB}=k_{BC} & \text{First find }k\text{ without unknowns} \\
+  k_{AB}=k_{BC} & \textsf{first find }k\textsf{ without unknowns} \\
   \frac{4-2}{2-(-1)}=\frac{4-3}{2-x} \\
   \frac{2}{3}=\frac{1}{2-x} \\
   4-2x=3 \\
   x=\frac{1}{2} \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(D)}$  
+  > $\boldsymbol{(D)}$  
   > According to the Solution, get $x=\frac{1}{2}$, so choose $D$. 
 
   :::
@@ -609,22 +613,23 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_4-two-point-slope-formula}{\text{Two-point slope formula}} \\
+  k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_4-two-point-slope-formula}{\textsf{two-point slope formula}} \\
   \end{array}
   >$
 
   :::
 ---
 
-::: wrap
+
 ### $\fbox{8}\:$What is the equation of the line passing through the point $\small (5, 8)$ and having intercepts that are opposites of each other $\small \, \mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
-(\text{A}) \: x-y+3=0 &
-(\text{B}) \: x+y+3=0 &
-(\text{C}) \: -x-y+3=0 & \\
-(\text{D}) \: x-y-3=0 &
-(\text{E}) \: x-y+3=0 \lor 8x-5y=0 & \\
+\textsf{(A)} \: x-y+3=0 &
+\textsf{(B)} \: x+y+3=0 &
+\textsf{(C)} \: -x-y+3=0 & \\
+\textsf{(D)} \: x-y-3=0 &
+\textsf{(E)} \: x-y+3=0 \lor 8x-5y=0 & \\
 \end{array}
 $  
 :::
@@ -632,11 +637,11 @@ $
 ::: wrap  
 $
 \begin{array}{ll}
-\frac{x}{a}+\frac{y}{b}=1 \xrightarrow{\text{Opposite numbers}} b=-a \\
+\frac{x}{a}+\frac{y}{b}=1 \xrightarrow{\textsf{opposite numbers}} b=-a \\
 \frac{x}{a}-\frac{y}{a}=1 \Rightarrow x-y=a \\
 (5, 8) \rightarrow 5-8=a \\
 a=-3 \rightarrow \frac{x}{-3}-\frac{y}{-3}=1 \Rightarrow x-y+3=0 \\
-\text{There is also a case where }\mathbf{(a,b=0)}\text{ is a line passing through the origin.}\\
+\textsf{there is also a case where }\boldsymbol{(a,b=0)}\textsf{ is a line passing through the origin.}\\
 y=kx \quad k=\frac{y}{x} \\
 (5, 8) \rightarrow y=\frac{8}{5}x \\
 5y=8x \Rightarrow 8x-5y=0 \\
@@ -646,7 +651,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(E)}$  
+  > $\boldsymbol{(E)}$  
   > According to the Solution, get $x-y+3=0 \lor 8x-5y=0$, so choose $E$. 
 
   :::
@@ -654,43 +659,43 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{x}{a}+\frac{y}{b}=1 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#intercept-form}{\text{Intercept form}} \\
-  y=kx & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#passing-through-the-origin}{\text{Passing through the origin}} \\
-  k=\frac{y}{x} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#the-slope-between-and-is}{\text{Slope of the line passing through the origin}} \\
+  \frac{x}{a}+\frac{y}{b}=1 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#intercept-form}{\textsf{intercept form}} \\
+  y=kx & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#passing-through-the-origin}{\textsf{passing through the origin}} \\
+  k=\frac{y}{x} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#the-slope-between-and-is}{\textsf{slope of the line passing through the origin}} \\
   \end{array}
   >$
 
   :::
-- Opposite intercepts and equal Intercepts  
+- Opposite intercepts and equal intercepts  
   ::: wrap   
   >- The intercepts are opposites.    
-     ![Opposite Intercepts.svg](../../public/math/Core%20Courses/Opposite%20Intercepts.svg)    
-     ① $k=1$.  
-     ② Passes through the origin.  
+     ![Opposite intercepts.svg](../../public/math/Core%20Courses/Opposite%20intercepts.svg)    
+     ① $k=1$     
+     ② passes through the origin     
   >- The intercepts are equal.   
-     ![Equal Intercepts.svg](../../public/math/Core%20Courses/Equal%20Intercepts.svg)     
-     ① $k=-1$.  
-     ② Passes through the origin.   
+     ![Equal intercepts.svg](../../public/math/Core%20Courses/Equal%20intercepts.svg)     
+     ① $k=-1$    
+     ② passes through the origin     
 
   :::  
 ---
 
-::: wrap
+
 ### $\fbox{9}\:$What is the y-intercept of the line passing through the points $\small (1, -3)$ and $\small (3, 1) \, \mathpunct{?}$.
+::: wrap   
 $
 \begin{array}{lllll}
-(\text{A}) \: 5 &
-(\text{B}) \: -2 &
-(\text{C}) \: -3 &
-(\text{D}) \: -4 &
-(\text{E}) \: -5 & \\
+\textsf{(A)} \: 5 &
+\textsf{(B)} \: -2 &
+\textsf{(C)} \: -3 &
+\textsf{(D)} \: -4 &
+\textsf{(E)} \: -5 & \\
 \end{array}
 $  
 :::
-#### Solution
-::: wrap  
+#### Solution   
 - $\textcolor{#228B22}{\fbox{1}}\:$Solve using the point-slope form     
-
+  ::: wrap  
   $
   \begin{array}{ll}
   k=\frac{y_2-y_1}{x_2-x_1} \\
@@ -698,28 +703,27 @@ $
   y=y_0+k(x-x_0) \\
   y=-3+2(x-1) \Rightarrow y=2(x-1)-3 \\
   y=2x-5 \\
-  y=kx+b \Rightarrow \text{y-intercept} = -5 \\
+  y=kx+b \Rightarrow \textsf{y-intercept} = -5 \\
   \end{array}
   $  
-:::   
-::: wrap  
+  :::    
 - $\textcolor{#228B22}{\fbox{2}}\:$Solve using the three-point collinearity method            
-
+  ::: wrap  
   $
   \begin{array}{ll}
-  \text{y-intercept}=(0,b) \\
-  \text{Collinearity of three points} \Leftrightarrow \text{Any two points have the same slope} \\
+  \textsf{y-intercept}=(0,b) \\
+  \textsf{collinearity of three points} \Leftrightarrow \textsf{any two points have the same slope} \\
   k=\frac{y_2-y_1}{x_2-x_1} \\
   \frac{1-(-3)}{3-1}=\frac{b-1}{0-3} \\
   2=\frac{b-1}{-3} \\
   b=-5 \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(E)}$  
+  > $\boldsymbol{(E)}$  
   > According to the Solution, get $b=-5$, so choose $E$. 
 
   :::
@@ -727,45 +731,45 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_4-two-point-slope-formula}{\text{Two-point slope formula}} \\
-  \frac{x}{a}+\frac{y}{b}=1 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#intercept-form}{\text{Intercept form}} \\
-  y=y_0+k(x-x_0) & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#point-slope-form}{\text{Point-slope form}} \\
-  y=kx+b & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#slope-intercept-form}{\text{Slope-intercept form}} \\
+  k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_4-two-point-slope-formula}{\textsf{two-point slope formula}} \\
+  \frac{x}{a}+\frac{y}{b}=1 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#intercept-form}{\textsf{intercept form}} \\
+  y=y_0+k(x-x_0) & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#point-slope-form}{\textsf{point-slope form}} \\
+  y=kx+b & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#slope-intercept-form}{\textsf{slope-intercept form}} \\
   \end{array}
   >$
 
   :::
 ---
 
-::: wrap
+
 ### $\fbox{10}\:$What is the product of the x- and y-intercepts of the line $\small 2x-3y+12=0 \, \mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
-(\text{A}) \: -48 &
-(\text{B}) \: -24 &
-(\text{C}) \: 24 &
-(\text{D}) \: -12 &
-(\text{E}) \: 12 & \\
+\textsf{(A)} \: -48 &
+\textsf{(B)} \: -24 &
+\textsf{(C)} \: 24 &
+\textsf{(D)} \: -12 &
+\textsf{(E)} \: 12 & \\
 \end{array}
 $  
 :::
 #### Solution
-::: wrap  
 - Show known conditions  
   ![Question straight lines figure Q-10 solve-1.svg](../../public/math/Core%20Courses/Question%20straight%20lines%20figure%20Q-10%20solve-1.svg)  
-
+  ::: wrap  
   $
   \begin{array}{ll}
-  \text{y-intercept}=-\frac{c}{b}=-\frac{12}{-3}=4 \\
-  \text{x-intercept}=-\frac{c}{a}=-\frac{12}{2}=-6 \\
+  \textsf{y-intercept}=-\frac{c}{b}=-\frac{12}{-3}=4 \\
+  \textsf{x-intercept}=-\frac{c}{a}=-\frac{12}{2}=-6 \\
   4\times (-6)=-24 \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(B)}$  
+  > $\boldsymbol{(B)}$  
   > According to the Solution, get $4\times (-6)=-24$, so choose $B$. 
 
   :::
@@ -773,11 +777,11 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  ax+by+c=0 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#general-form}{\text{General form of a line}} \\
+  ax+by+c=0 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#general-form}{\textsf{general form of a line}} \\
   \begin{cases}
-  \text{y-intercept}=-\frac{c}{b} \\
-  \text{x-intercept}=-\frac{c}{a} \\
-  \end{cases} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#quickly-calculate-the-intercept-form}{\text{Quickly convert the general form to the intercept form}} \\
+  \textsf{y-intercept}=-\frac{c}{b} \\
+  \textsf{x-intercept}=-\frac{c}{a} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#quickly-calculate-the-intercept-form}{\textsf{quickly convert the general form to the intercept form}} \\
   \end{array}
   >$
 
@@ -798,57 +802,62 @@ $
 
 ## 8.Focus 3
 __The line passes through quadrants__  
-- Analyze the graph based on the slope and intercepts of the line.   
-- Remember the conclusion: When $k>0$, the line must pass through the first and third quadrants; 
-when $k<0$, the line must pass through the second and fourth quadrants.  
+- Analyze the graph based on __the slope and intercepts of the line__.   
+- Remember the conclusion:
+  when $\boldsymbol{k>0}$,
+  the line must pass through __the first and third quadrants__;
+  when $\boldsymbol{k<0}$,
+  the line must pass through __the second and fourth quadrants__.   
   ![Line cross quadrants.svg](../../public/math/Core%20Courses/Line%20cross%20quadrants.svg)    
 
-::: wrap
+
 ### $\fbox{11}\:$(Sufficiency judgment) Line $\small l:\: ax+bx+c=0$ definitely doesn't pass through the third quadrant.
+::: wrap   
 $
 \begin{array}{lllll}
-(\text{1}) \: ac \le 0, bc<0. &
-(\text{2}) \: ab>0, c<0. & \\
-(\text{A}) \: (\text{1}) &
-(\text{B}) \: (\text{2}) & \\
-(\text{C}) \: (\text{1})+(\text{2}) &  
-(\text{D}) \: (\text{1}),(\text{2}) & \\
-(\text{E}) \: \varnothing & \\
+\textsf{(1)} \: ac \le 0, bc<0. &
+\textsf{(2)} \: ab>0, c<0. & \\
+\textsf{(A)} \: \textsf{(1)} &
+\textsf{(B)} \: \textsf{(2)} & \\
+\textsf{(C)} \: \textsf{(1)}+\textsf{(2)} &  
+\textsf{(D)} \: \textsf{(1)},\textsf{(2)} & \\
+\textsf{(E)} \: \varnothing & \\
 \end{array}
 $  
 :::
 #### Solution 
-::: wrap  
-- $\textcolor{#9333EA}{\text{Verify condition }(1)}$   
+ 
+- $\textcolor{#9333EA}{\textsf{verify condition }(1)}$   
   ![Question straight lines figure Q-11 solve-1.svg](../../public/math/Core%20Courses/Question%20straight%20lines%20figure%20Q-11%20solve-1.svg)  
-
+  ::: wrap  
   $
   \begin{array}{ll}
   (ac<0 \lor ac=0),bc<0 \\ 
-  ① \begin{cases}
+  ①\,
+  \begin{cases}
   \begin{array}{ll}
   ac<0 \\
   bc<0 \\
   \end{array}
   \end{cases} \\
-  \text{x-intercept}=-\frac{c}{a}=-\frac{9}{-3}=3 \\
-  \text{y-intercept}=-\frac{c}{b}=-\frac{9}{-3}=3 \\
-  ② \begin{cases}
+  \textsf{x-intercept}=-\frac{c}{a}=-\frac{9}{-3}=3 \\
+  \textsf{y-intercept}=-\frac{c}{b}=-\frac{9}{-3}=3 \\
+  ②\,
+  \begin{cases}
   \begin{array}{ll}
-  a=0 & \text{Must satisfy } bc<0 \\
+  a=0 & \textsf{must satisfy } bc<0 \\
   bc<0 \\
   \end{array}
   \end{cases} \\
   a=0 \longrightarrow by+c=0 \Rightarrow -\frac{c}{a}=0 \\
-  \text{x-intercept}=-\frac{c}{a}=0 \\
-  \text{y-intercept}=-\frac{c}{b}=-\frac{9}{-3}=3 \\
+  \textsf{x-intercept}=-\frac{c}{a}=0 \\
+  \textsf{y-intercept}=-\frac{c}{b}=-\frac{9}{-3}=3 \\
   \end{array}
   $  
-:::  
-::: wrap  
-- $\textcolor{#9333EA}{\text{Verify condition }(2)}$  
+  :::     
+- $\textcolor{#9333EA}{\textsf{verify condition }(2)}$  
   ![Question straight lines figure Q-11 solve-2.svg](../../public/math/Core%20Courses/Question%20straight%20lines%20figure%20Q-11%20solve-2.svg)  
-
+  ::: wrap  
   $
   \begin{array}{ll}
   ab>0, c<0 \\
@@ -856,20 +865,20 @@ $
   k<0 \Rightarrow 90^\circ<\alpha<180^\circ \\
   \begin{cases}
   \begin{array}{ll}
-  ac & \text{Unknown} \\
-  bc & \text{Unknown} \\
+  ac & \textsf{unknown} \\
+  bc & \textsf{unknown} \\
   \end{array}
   \end{cases} \\
-  \text{x-intercept}=-\frac{c}{a}=-\frac{9}{3}=-3 \\
-  \text{y-intercept}=-\frac{c}{b}=-\frac{9}{3}=-3 \\
+  \textsf{x-intercept}=-\frac{c}{a}=-\frac{9}{3}=-3 \\
+  \textsf{y-intercept}=-\frac{c}{b}=-\frac{9}{3}=-3 \\
   \end{array}
   $  
-:::
+  :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(A)}$  
-  > According to the Solution, get $(\text{1})\,✅\;,(\text{2})\,❌\;$, so choose $A$. 
+  > $\boldsymbol{(A)}$  
+  > According to the Solution, get $\textsf{(1)}\,✅\;,\textsf{(2)}\,❌\;$, so choose $A$. 
 
   :::
 - Formula used  
@@ -877,12 +886,12 @@ $
   >$
   \begin{array}{ll}
   \begin{cases}
-  \text{y-intercept}=-\frac{c}{b} \\
-  \text{x-intercept}=-\frac{c}{a} \\
-  \end{cases} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#quickly-calculate-the-intercept-form}{\text{Quickly convert the general form to the intercept form}} \\
-  a=0 \longrightarrow by+c=0 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#horizontal-line}{\text{Horizontal line}} \\
-  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#remark-the-general-form-is-very-important-as-it-allows-you-to-quickly-calculate-the-slope}{\text{Quickly convert the general form to the slope}} \\
-  90^\circ<\alpha<180^\circ, k<0 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_2-definition-of-slope}{\text{Definition of slope}} \\
+  \textsf{y-intercept}=-\frac{c}{b} \\
+  \textsf{x-intercept}=-\frac{c}{a} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#quickly-calculate-the-intercept-form}{\textsf{quickly convert the general form to the intercept form}} \\
+  a=0 \longrightarrow by+c=0 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#horizontal-line}{\textsf{horizontal line}} \\
+  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#remark-the-general-form-is-crucial-as-it-allows-for-quick-calculation-of-the-slope}{\textsf{quickly convert the general form to the slope}} \\
+  90^\circ<\alpha<180^\circ, k<0 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_2-definition-of-slope}{\textsf{definition of slope}} \\
   \end{array}
   >$
 

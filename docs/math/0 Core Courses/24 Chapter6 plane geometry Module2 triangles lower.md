@@ -8,7 +8,7 @@ This can be determined by the Pythagorean theorem $\boxed{a^2+b^2=c^2}$ or by an
 
 
 ## 15.Isosceles Right Triangle
-A right triangle where the three sides are in the ratio $\boxed{1:1:\sqrt{2}}$ or where $\boxed{\text{two sides are equal}}$.
+A right triangle where the three sides are in the ratio $\boxed{1:1:\sqrt{2}}$ or where $\boxed{\textsf{two sides are equal}}$.
 
 
 ## 16.Equilateral Triangle
@@ -32,11 +32,11 @@ __Triangle identification__
 ### $\fbox{20}\:$The three sides $\small a,b,c$ of $\small \triangle ABC$ satisfy $\small 1+\frac{b}{c}=\frac{b+c}{b+c-a}$, then the triangle is $\small \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: \text{An isosceles triangle with side }a\text{ as the leg} &
-(\text{B}) \: \text{An isosceles triangle with side }a\text{ as the base} & \\
-(\text{C}) \: \text{Equilateral triangle} &
-(\text{D}) \: \text{Right triangle} & \\
-(\text{E}) \: \text{Obtuse triangle} & \\
+\textsf{(A)} \: \textsf{An isosceles triangle with side }a\textsf{ as the leg} &
+\textsf{(B)} \: \textsf{An isosceles triangle with side }a\textsf{ as the base} & \\
+\textsf{(C)} \: \textsf{Equilateral triangle} &
+\textsf{(D)} \: \textsf{Right triangle} & \\
+\textsf{(E)} \: \textsf{Obtuse triangle} & \\
 \end{array}
 $  
 :::
@@ -45,8 +45,8 @@ $
 $
 \begin{array}{ll}
 \frac{b+c}{c}=\frac{b+c}{b+c-a} \\
-\frac{\cancel{b+c}}{c}=\frac{\cancel{b+c}}{b+c-a}=b+c-a=c & \text{Since condition }a+b>c\text{ satisfied,
-the numerator} \ne 0\text{and equal} \\
+\frac{\cancel{b+c}}{c}=\frac{\cancel{b+c}}{b+c-a}=b+c-a=c & \textsf{Since condition }a+b>c\textsf{ satisfied,
+the numerator} \ne 0\textsf{and equal} \\
 b=a \\
 \end{array}
 $  
@@ -54,7 +54,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(A)}$  
+  > $\boldsymbol{(A)}$  
   > According to the Solution, get $b=a$, so choose $A$. 
 
   :::
@@ -62,7 +62,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  a+b>c & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\text{Triangle Inequality theorem}} \\
+  a+b>c & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\textsf{Triangle Inequality theorem}} \\
   \end{array}
   >$
 
@@ -72,8 +72,8 @@ $
   >$
   \begin{array}{ll}
   \frac{b-c}{c}=\frac{b-c}{b+c-a} \\
-  ① \;\, \frac{b-c}{\cancel{c}}=\frac{b-c}{\cancel{b+c-a}} = b-c=0 & \text{Assume that }b-c=0  \\
-  ② \;\, \frac{\cancel{b-c}}{c}=\frac{\cancel{b-c}}{b+c-a} = c=b+c-a & \text{Assume that }b-c\ne0  \\
+  ① \;\, \frac{b-c}{\cancel{c}}=\frac{b-c}{\cancel{b+c-a}} = b-c=0 & \textsf{Assume that }b-c=0  \\
+  ② \;\, \frac{\cancel{b-c}}{c}=\frac{\cancel{b-c}}{b+c-a} = c=b+c-a & \textsf{Assume that }b-c\ne0  \\
   b=c \lor a=b \\
   \end{array}
   >$
@@ -85,11 +85,11 @@ $
 ### $\fbox{21}\:$The three sides of $\small \triangle ABC$ are $\small a,b,c$ and they satisfy $\small 4a^2+4b^2+13c^2-8ac-12bc=0$, then $\small \triangle ABC =\, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: \text{Right triangle} &
-(\text{B}) \: \text{Isosceles triangle} &
-(\text{C}) \: \text{Equilateral triangle} & \\
-(\text{D}) \: \text{Isosceles right triangle} &
-(\text{E}) \: \text{Acute triangle} & \\
+\textsf{(A)} \: \textsf{Right triangle} &
+\textsf{(B)} \: \textsf{Isosceles triangle} &
+\textsf{(C)} \: \textsf{Equilateral triangle} & \\
+\textsf{(D)} \: \textsf{Isosceles right triangle} &
+\textsf{(E)} \: \textsf{Acute triangle} & \\
 \end{array}
 $  
 :::
@@ -109,7 +109,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(B)}$  
+  > $\boldsymbol{(B)}$  
   > According to the Solution, get $a=c \land 2b=3c$, so choose $B$. 
 
   :::
@@ -117,7 +117,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  (a-b)^2=a^2-2ab+b^2 & \text{Perfect square formula} \\
+  (a-b)^2=a^2-2ab+b^2 & \textsf{Perfect square formula} \\
   \end{array}
   >$
 
@@ -128,11 +128,11 @@ $
 ### $\fbox{22}\:$The three sides of $\small \triangle ABC$ are $\small a,b,c$. If $\small a^2+2bc=b^2+2ac=c^2+2ab=27$, then $\small \triangle ABC =\, \mathpunct{?}$. 
 $
 \begin{array}{lllll}
-(\text{A}) \: \text{Isosceles triangle} &
-(\text{B}) \: \text{Isosceles right triangle} &
-(\text{C}) \: \text{Obtuse triangle} & \\
-(\text{D}) \: \text{Right triangle} &
-(\text{E}) \: \text{Equilateral triangle} & \\
+\textsf{(A)} \: \textsf{Isosceles triangle} &
+\textsf{(B)} \: \textsf{Isosceles right triangle} &
+\textsf{(C)} \: \textsf{Obtuse triangle} & \\
+\textsf{(D)} \: \textsf{Right triangle} &
+\textsf{(E)} \: \textsf{Equilateral triangle} & \\
 \end{array}
 $  
 :::
@@ -145,8 +145,8 @@ a^2+2bc=27 \; ①\\
 b^2+2ac=27 \; ②\\
 c^2+2ab=27 \; ③\\
 \end{cases}
- & \text{} \\
-a^2+b^2+c^2+2ab+2ac+2bc=27\times3 & \text{Add all terms together to form a perfect square} \\
+ & \textsf{} \\
+a^2+b^2+c^2+2ab+2ac+2bc=27\times3 & \textsf{Add all terms together to form a perfect square} \\
 (a+b+c)^2=81 \\
 a+b+c=\sqrt{81}=9 \\
 (a^2+2bc)-(b^2+2ac)=27-27 & ①\,-② \\
@@ -195,7 +195,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(E)}$  
+  > $\boldsymbol{(E)}$  
   > According to the Solution, get $a=b=c=3$, so choose $E$. 
 
   :::
@@ -206,9 +206,9 @@ $
   \begin{cases}
   (a+b)^2=a^2+2ab+b^2 \\
   (a-b)^2=a^2-2ab+b^2
-  \end{cases} & \text{Perfect square formula} \\
-  a^2-b^2=(a-b)(a+b) & \text{Difference of squares formula} \\
-  a+b \ge 2\sqrt{ab} & \text{Arithmetic Mean-Geometric Mean Inequality} \\
+  \end{cases} & \textsf{Perfect square formula} \\
+  a^2-b^2=(a-b)(a+b) & \textsf{Difference of squares formula} \\
+  a+b \ge 2\sqrt{ab} & \textsf{Arithmetic Mean-Geometric Mean Inequality} \\
   \end{array}
   >$
 
@@ -251,7 +251,7 @@ Similarity can be identified by __two pairs of corresponding interior angles bei
 3. In similar triangles, __the ratio of the perimeters is equal to the similarity ratio__.  
    - $\frac{C_1}{C_2}=k$.
 4. In similar triangles, __the ratio of the area is equal to the square of the similarity ratio__. 
-   - $\mathbf{\frac{S_1}{S_2}=k^2}$.
+   - $\boldsymbol{\frac{S_1}{S_2}=k^2}$.
 
 
 ### $\textcolor{#1E3A5F}{\fbox{4}}\:$Applications
@@ -270,11 +270,11 @@ __Triangle congruence__
 ### $\fbox{23}\:$Figure 6–19, in triangle $\small \triangle ABC$, $\small AD \perp BC$ at point $\small D$, $\small CE \perp AB$ at point $\small E$, $\small AD$ and $\small CE$ intersect at point $\small H$, if $\small EH=EB=3, AE=4$, then $\small CH=\, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 1 &
-(\text{B}) \: \frac{4}{3} &
-(\text{C}) \: \frac{5}{3} &
-(\text{D}) \: \sqrt{3} &
-(\text{E}) \: 2 & \\
+\textsf{(A)} \: 1 &
+\textsf{(B)} \: \frac{4}{3} &
+\textsf{(C)} \: \frac{5}{3} &
+\textsf{(D)} \: \sqrt{3} &
+\textsf{(E)} \: 2 & \\
 \end{array}
 $  
 :::  
@@ -286,16 +286,16 @@ $
 
   $
   \begin{array}{ll}
-  \text{Equal angle (Acute angle)}
+  \textsf{Equal angle (Acute angle)}
   \begin{cases}
   \boxed{
   \begin{array}{ll}
   \angle 1 +\angle 2 = 90^\circ \\
   \angle 3 +\angle 4 = 90^\circ \\
-  \angle 2 = \angle 3 & \text{Vertical angles are equal} \;\\
+  \angle 2 = \angle 3 & \textsf{Vertical angles are equal} \;\\
   \end{array}}
   \end{cases} \implies \angle 1 = \angle 4 \\
-  \text{Equal side}
+  \textsf{Equal side}
   \begin{cases}
   \boxed{
   \begin{array}{ll}
@@ -310,7 +310,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(A)}$  
+  > $\boldsymbol{(A)}$  
   > According to the Solution, get $CH=CE-EH=1$, so choose $A$. 
 
   :::
@@ -318,13 +318,13 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \text{Right triangle congruence}
+  \textsf{Right triangle congruence}
   \begin{cases}
-  \text{Find a side and an angle (Acute angle)} \\
-  \text{Find their two sides
+  \textsf{Find a side and an angle (Acute angle)} \\
+  \textsf{Find their two sides
   > (No need
-  > to find the third side because the } \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Pythagorean theorem}} \text{ is satisfied}) \\
-  \end{cases} & \text{} \\
+  > to find the third side because the } \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\textsf{Pythagorean theorem}} \textsf{ is satisfied}) \\
+  \end{cases} & \textsf{} \\
   \end{array}
   >$
 
@@ -335,11 +335,11 @@ $
 ### $\fbox{24}\:$Figure 6–20, in a right triangle $\small ABC$, the hypotenuse $\small AB=13$ and the leg $\small AC=5$, the leg $\small AC$ is folded onto the hypotenuse $\small AB$ so that it coincides with the hypotenuse, and point $\small C$ coincides with point $\small E$, the fold is $\small AD$, what is the area of the shaded region in the figure $\small \, \mathpunct{?}$.  
 $
 \begin{array}{lllll}
-(\text{A}) \: 20 &
-(\text{B}) \: \frac{40}{3} &
-(\text{C}) \: \frac{38}{3} &
-(\text{D}) \: 14 &
-(\text{E}) \: 12 & \\
+\textsf{(A)} \: 20 &
+\textsf{(B)} \: \frac{40}{3} &
+\textsf{(C)} \: \frac{38}{3} &
+\textsf{(D)} \: 14 &
+\textsf{(E)} \: 12 & \\
 \end{array}
 $  
 :::  
@@ -351,7 +351,7 @@ $
 
   $
   \begin{array}{ll}
-  BC=12 & \text{5,12,13} \\ 
+  BC=12 & \textsf{5,12,13} \\ 
   \triangle ACD \cong \triangle AED \\  
   AE=AC=5 \\
   BE=13-5=8 \\ 
@@ -389,7 +389,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(B)}$  
+  > $\boldsymbol{(B)}$  
   > According to the Solution, get $S_{\triangle BDE}=\frac{40}{3}$, so choose $B$. 
 
   :::
@@ -397,10 +397,10 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  (5,12,13)& \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Commonly used pythagorean numbers}} \\
-  \frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Similar triangle properties}} \\
-  \frac{S_1}{S_2}=k^2 & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Similar triangle properties}} \\
-  S=\frac{1}{2}ah & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{\text{Triangle area formula}} \\
+  (5,12,13)& \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\textsf{Commonly used pythagorean numbers}} \\
+  \frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\textsf{Similar triangle properties}} \\
+  \frac{S_1}{S_2}=k^2 & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\textsf{Similar triangle properties}} \\
+  S=\frac{1}{2}ah & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{\textsf{Triangle area formula}} \\
   \end{array}
   >$
 
@@ -419,19 +419,19 @@ __Triangle similarity__
 ### $\fbox{25}\:$There are $\small \, \mathpunct{?}$ correct options below.
 $
 \begin{array}{lllll}
-(\text{1}) \: \text{All right triangles are similar} &
-(\text{2}) \: \text{All isosceles triangles are similar} & \\
-(\text{3}) \: \text{All parallelograms are similar} &
-(\text{4}) \: \text{All equilateral triangles are similar} & \\
-(\text{5}) \: \text{All trapezoids are similar} & 
-(\text{6}) \: \text{All squares are similar} & \\
-(\text{7}) \: \text{All rectangles are similar} &   
-(\text{8}) \: \text{All circles are similar} & \\
-(\text{A}) \: 1 &
-(\text{B}) \: 2 & \\
-(\text{C}) \: 3 &  
-(\text{D}) \: 4 & \\
-(\text{E}) \: 5 & \\
+\textsf{(1)} \: \textsf{All right triangles are similar} &
+\textsf{(2)} \: \textsf{All isosceles triangles are similar} & \\
+\textsf{(3)} \: \textsf{All parallelograms are similar} &
+\textsf{(4)} \: \textsf{All equilateral triangles are similar} & \\
+\textsf{(5)} \: \textsf{All trapezoids are similar} & 
+\textsf{(6)} \: \textsf{All squares are similar} & \\
+\textsf{(7)} \: \textsf{All rectangles are similar} &   
+\textsf{(8)} \: \textsf{All circles are similar} & \\
+\textsf{(A)} \: 1 &
+\textsf{(B)} \: 2 & \\
+\textsf{(C)} \: 3 &  
+\textsf{(D)} \: 4 & \\
+\textsf{(E)} \: 5 & \\
 \end{array}
 $  
 :::
@@ -439,30 +439,30 @@ $
 ::: wrap  
 $
 \begin{array}{ll}
-(\text{1}) \: \text{All right triangles are similar} & \triangle30^\circ60^\circ90^\circ \neq \triangle45^\circ45^\circ90^\circ \,\text{Two pairs of corresponding interior angles are not equal} \,❌\;\\
-(\text{2}) \: \text{All isosceles triangles are similar} & \text{Two pairs of corresponding interior angles are not equal} \,❌\;\\
-(\text{3}) \: \text{All parallelograms are similar} & \text{Four pairs of corresponding interior angles are not equal} \,❌\;\\
-(\text{4}) \: \text{All equilateral triangles are similar} & \triangle60^\circ60^\circ60^\circ = \triangle60^\circ60^\circ60^\circ \,\text{Two pairs of corresponding interior angles are equal} \,✅\;\\
-(\text{5}) \: \text{All trapezoids are similar} & \text{The corresponding interior angles are not equal and the corresponding sides are not proportional} \,❌\;\\
-(\text{6}) \: \text{All squares are similar} & \text{Four pairs of corresponding interior angles }90^\circ\text{ are equal} \,✅\;\\
-(\text{7}) \: \text{All rectangles are similar} & \text{The corresponding sides are not proportional} \,❌\;\\
-(\text{8}) \: \text{All circles are similar} & \text{The circles are similar because they have the same shape, just different sizes} \,✅\;\\
+\textsf{(1)} \: \textsf{All right triangles are similar} & \triangle30^\circ60^\circ90^\circ \neq \triangle45^\circ45^\circ90^\circ \,\textsf{Two pairs of corresponding interior angles are not equal} \,❌\;\\
+\textsf{(2)} \: \textsf{All isosceles triangles are similar} & \textsf{Two pairs of corresponding interior angles are not equal} \,❌\;\\
+\textsf{(3)} \: \textsf{All parallelograms are similar} & \textsf{Four pairs of corresponding interior angles are not equal} \,❌\;\\
+\textsf{(4)} \: \textsf{All equilateral triangles are similar} & \triangle60^\circ60^\circ60^\circ = \triangle60^\circ60^\circ60^\circ \,\textsf{Two pairs of corresponding interior angles are equal} \,✅\;\\
+\textsf{(5)} \: \textsf{All trapezoids are similar} & \textsf{The corresponding interior angles are not equal and the corresponding sides are not proportional} \,❌\;\\
+\textsf{(6)} \: \textsf{All squares are similar} & \textsf{Four pairs of corresponding interior angles }90^\circ\textsf{ are equal} \,✅\;\\
+\textsf{(7)} \: \textsf{All rectangles are similar} & \textsf{The corresponding sides are not proportional} \,❌\;\\
+\textsf{(8)} \: \textsf{All circles are similar} & \textsf{The circles are similar because they have the same shape, just different sizes} \,✅\;\\
 \end{array}
 $  
 :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(C)}$  
-  > According to the Solution, get $(\text{4}),(\text{6}),(\text{8})$, so choose $C$. 
+  > $\boldsymbol{(C)}$  
+  > According to the Solution, get $\textsf{(4)},\textsf{(6)},\textsf{(8)}$, so choose $C$. 
 
   :::
 - Formula used  
   ::: wrap
   >$
   \begin{array}{ll}
-  \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#identification-1}{\text{Similar triangle identification}} \\
-  \frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Similar triangle properties}} \\
+  \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#identification-1}{\textsf{Similar triangle identification}} \\
+  \frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\textsf{Similar triangle properties}} \\
   \end{array}
   >$
 
@@ -470,14 +470,14 @@ $
 ---
 
 ::: wrap
-### $\fbox{26}\:$Figure 6–21, in $\small \triangle ABC, DE, FG, BC$ are parallel to each other, $\small AD=DF=FB$, then $S_{\triangle ADE}:S_{\text{quadrilateral}\:DEGF}:S_{\text{quadrilateral}\:FGCB}=\,\mathpunct{?}$.
+### $\fbox{26}\:$Figure 6–21, in $\small \triangle ABC, DE, FG, BC$ are parallel to each other, $\small AD=DF=FB$, then $S_{\triangle ADE}:S_{\textsf{quadrilateral}\:DEGF}:S_{\textsf{quadrilateral}\:FGCB}=\,\mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 1:3:5 &
-(\text{B}) \: 1:2:5 &
-(\text{C}) \: 1:3:4 &
-(\text{D}) \: 1:3:6 &
-(\text{E}) \: 2:3:5 & \\
+\textsf{(A)} \: 1:3:5 &
+\textsf{(B)} \: 1:2:5 &
+\textsf{(C)} \: 1:3:4 &
+\textsf{(D)} \: 1:3:6 &
+\textsf{(E)} \: 2:3:5 & \\
 \end{array}
 $  
 :::   
@@ -492,24 +492,24 @@ $
   \triangle ADE \sim \triangle AFG \sim \triangle ABC \\
   S_{\triangle ADE}:S_{\triangle AFG}:S_{\triangle ABC}=AD^2:AF^2:AB^2 \\
   S_{\triangle ADE}:S_{\triangle AFG}:S_{\triangle ABC}=1^2:2^2:3^2=1:4:9 \\
-  S_{\triangle ADE}:S_{\text{quadrilateral}\:DEGF}:S_{\text{quadrilateral}\:FGCB}=1:(4-1):(9-4) \\
-  S_{\triangle ADE}:S_{\text{quadrilateral}\:DEGF}:S_{\text{quadrilateral}\:FGCB}=1:3:5 \\
+  S_{\triangle ADE}:S_{\textsf{quadrilateral}\:DEGF}:S_{\textsf{quadrilateral}\:FGCB}=1:(4-1):(9-4) \\
+  S_{\triangle ADE}:S_{\textsf{quadrilateral}\:DEGF}:S_{\textsf{quadrilateral}\:FGCB}=1:3:5 \\
   \end{array}
   $  
 :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(A)}$  
-  > According to the Solution, get $S_{\triangle ADE}:S_{\text{quadrilateral}\:DEGF}:S_{\text{quadrilateral}\:FGCB}=1:3:5$, so choose $A$. 
+  > $\boldsymbol{(A)}$  
+  > According to the Solution, get $S_{\triangle ADE}:S_{\textsf{quadrilateral}\:DEGF}:S_{\textsf{quadrilateral}\:FGCB}=1:3:5$, so choose $A$. 
 
   :::
 - Formula used  
   ::: wrap
   >$
   \begin{array}{ll}
-  \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#definition-1}{\text{Similar triangle definition}} \\
-  \frac{S_1}{S_2}=k^2 & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Similar triangle properties}} \\
+  \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#definition-1}{\textsf{Similar triangle definition}} \\
+  \frac{S_1}{S_2}=k^2 & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\textsf{Similar triangle properties}} \\
   \end{array}
   >$
 
@@ -519,11 +519,11 @@ $
 ### $\fbox{27}\:$Figure 6–22, in $\small \triangle ABC, D, E, F$ are points on $\small AB, AC, BC$ respectively, and $\small DE \parallel BC, EF \parallel AB, AD:DB=2:3, BC=20$, then $\small CF=\, \mathpunct{?}$. 
 $
 \begin{array}{lllll}
-(\text{A}) \: 15 &
-(\text{B}) \: \frac{40}{3} &
-(\text{C}) \: \frac{38}{3} &
-(\text{D}) \: 14 &
-(\text{E}) \: 12 & \\
+\textsf{(A)} \: 15 &
+\textsf{(B)} \: \frac{40}{3} &
+\textsf{(C)} \: \frac{38}{3} &
+\textsf{(D)} \: 14 &
+\textsf{(E)} \: 12 & \\
 \end{array}
 $  
 :::  
@@ -535,7 +535,7 @@ $
 
   $
   \begin{array}{ll}
-  DEFB \text{ is a parallelogram} \\
+  DEFB \textsf{ is a parallelogram} \\
   \triangle ADE \sim \triangle ABC \\
   \frac{DE}{BC}=\frac{AD}{AB} \\
   \frac{DE}{20}=\frac{2}{5} \\
@@ -550,7 +550,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(E)}$  
+  > $\boldsymbol{(E)}$  
   > According to the Solution, get $CF=12$, so choose $E$. 
 
   :::
@@ -558,8 +558,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Similar triangle properties}} \\
-  \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#applications-1}{\text{Similar triangle applications}} \\
+  \frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\textsf{Similar triangle properties}} \\
+  \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#applications-1}{\textsf{Similar triangle applications}} \\
   \end{array}
   >$
 

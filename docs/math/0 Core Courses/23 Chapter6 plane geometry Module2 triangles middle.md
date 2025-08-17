@@ -47,9 +47,9 @@ $
 \begin{array}{ll}
 S=\frac{1}{2}ah 
 \begin{cases}
-\frac{S_1}{S_2}=\frac{a_1}{a_2} & \text{h same} \\
-\frac{S_1}{S_2}=\frac{h_1}{h_2} & \text{a same} \\
-S_1=S_2 & \text{a, h same} \\
+\frac{S_1}{S_2}=\frac{a_1}{a_2} & \textsf{h same} \\
+\frac{S_1}{S_2}=\frac{h_1}{h_2} & \textsf{a same} \\
+S_1=S_2 & \textsf{a, h same} \\
 \end{cases}
 \end{array}  
 $  
@@ -60,11 +60,11 @@ $
 ### $\fbox{12}\:$Figure 6–13, if the area of $\small \triangle ABC$ is $\small 1$, and the areas of $\small \triangle AEC, \triangle DEC, \triangle BED$ are equal, then the area of $\small \triangle AED$ is $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: \frac{1}{3} &
-(\text{B}) \: \frac{1}{6} &
-(\text{C}) \: \frac{1}{5} &
-(\text{D}) \: \frac{1}{4} &
-(\text{E}) \: \frac{2}{5} & \\
+\textsf{(A)} \: \frac{1}{3} &
+\textsf{(B)} \: \frac{1}{6} &
+\textsf{(C)} \: \frac{1}{5} &
+\textsf{(D)} \: \frac{1}{4} &
+\textsf{(E)} \: \frac{2}{5} & \\
 \end{array}
 $  
 :::  
@@ -76,7 +76,7 @@ $
 
   $
   \begin{array}{ll}
-  S_{\triangle AEC} = S_{\triangle DEC} = S_{\triangle BED} = \frac{1}{3} & \text{} \\
+  S_{\triangle AEC} = S_{\triangle DEC} = S_{\triangle BED} = \frac{1}{3} & \textsf{} \\
   \end{array}
   $  
 :::   
@@ -85,9 +85,9 @@ $
 
   $
   \begin{array}{ll}
-  S_{\triangle BDE}=S_{\triangle CDE} \Rightarrow D\text{ is the midpoint of }BC
-  & S_1=S_2\text{ The height and area of the pink and orange triangles are equal}\\
-  S_{\triangle ABD}=\frac{1}{2}S_{\triangle ABC}=\frac{1}{2} & AD\text{ is the median line }\triangle ABC\\
+  S_{\triangle BDE}=S_{\triangle CDE} \Rightarrow D\textsf{ is the midpoint of }BC
+  & S_1=S_2\textsf{ The height and area of the pink and orange triangles are equal}\\
+  S_{\triangle ABD}=\frac{1}{2}S_{\triangle ABC}=\frac{1}{2} & AD\textsf{ is the median line }\triangle ABC\\
   S_{\triangle AED}=\frac{1}{2}-\frac{1}{3}=\frac{1}{6} \\
   \end{array}
   $  
@@ -98,16 +98,16 @@ $
   $
   \begin{array}{ll}
   S_{\triangle BCE}=2S_{\triangle ACE} 
-  & \text{The pink + orange triangle is 2x of the green triangle} \\
-  BE=2AE & \frac{S_1}{S_2}=\frac{a_1}{a_2} \text{ h same}\\
-  S_{\triangle AED}=\frac{1}{2}S_{\triangle BDE}=\frac{1}{6} & \frac{a_1}{a_2}=\frac{S_1}{S_2} \text{ h same}\\
+  & \textsf{The pink + orange triangle is 2x of the green triangle} \\
+  BE=2AE & \frac{S_1}{S_2}=\frac{a_1}{a_2} \textsf{ h same}\\
+  S_{\triangle AED}=\frac{1}{2}S_{\triangle BDE}=\frac{1}{6} & \frac{a_1}{a_2}=\frac{S_1}{S_2} \textsf{ h same}\\
   \end{array}
   $  
 :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(B)}$  
+  > $\boldsymbol{(B)}$  
   > According to the Solution, get $S_{\triangle AED}=\frac{1}{6}$, so choose $B$. 
 
   :::
@@ -117,10 +117,10 @@ $
   \begin{array}{ll}
   S=\frac{1}{2}ah
   \begin{cases}
-  \frac{S_1}{S_2}=\frac{a_1}{a_2} & \text{h same} \\
-  \frac{S_1}{S_2}=\frac{h_1}{h_2} & \text{a same} \\
-  S_1=S_2 & \text{a, h same} \\
-  \end{cases} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\text{Triangle area formula}} \\
+  \frac{S_1}{S_2}=\frac{a_1}{a_2} & \textsf{h same} \\
+  \frac{S_1}{S_2}=\frac{h_1}{h_2} & \textsf{a same} \\
+  S_1=S_2 & \textsf{a, h same} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\textsf{Triangle area formula}} \\
   \end{array}
   >$
 
@@ -130,11 +130,11 @@ $
 ### $\fbox{13}\:$Figure 6–14, known $\small CD=5, DE=7, EF=15, FG=6$, the line segment $\small AB$ divides the figure into two parts, the area of the left part is 38, and the area of the right part is 65, then the area of triangle $\small ADG$ is $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 40 &
-(\text{B}) \: 35 &
-(\text{C}) \: 33 &
-(\text{D}) \: 32 &
-(\text{E}) \: 31 & \\
+\textsf{(A)} \: 40 &
+\textsf{(B)} \: 35 &
+\textsf{(C)} \: 33 &
+\textsf{(D)} \: 32 &
+\textsf{(E)} \: 31 & \\
 \end{array}
 $  
 :::  
@@ -170,7 +170,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(A)}$  
+  > $\boldsymbol{(A)}$  
   > According to the Solution, get $S_{\triangle ADG}=40$, so choose $A$. 
 
   :::
@@ -178,7 +178,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{a}{b}=\frac{c}{d} & \text{Proportion} \\
+  \frac{a}{b}=\frac{c}{d} & \textsf{Proportion} \\
   \end{array}
   >$
 
@@ -193,11 +193,11 @@ __Using angle to solve an area.__
 ### $\fbox{14}\:$If a triangle has two sides of length 4 and 6, and the area of the triangle is $\small 6\sqrt{2}$, then the angle between the two sides is $\small \, \mathpunct{?}$. 
 $
 \begin{array}{lllll}
-(\text{A}) \: 30^\circ &
-(\text{B}) \: 45^\circ \lor 135^\circ &
-(\text{C}) \: 60^\circ \lor 120^\circ &
-(\text{D}) \: 75^\circ &
-(\text{E}) \: 90^\circ & \\
+\textsf{(A)} \: 30^\circ &
+\textsf{(B)} \: 45^\circ \lor 135^\circ &
+\textsf{(C)} \: 60^\circ \lor 120^\circ &
+\textsf{(D)} \: 75^\circ &
+\textsf{(E)} \: 90^\circ & \\
 \end{array}
 $  
 :::
@@ -215,7 +215,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(B)}$  
+  > $\boldsymbol{(B)}$  
   > According to the Solution, get $sinC=45^\circ \lor 135^\circ$, so choose $B$. 
 
   :::
@@ -223,7 +223,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  S=\frac{1}{2}absinC & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-angle-between-sides}{\text{Triangle area formula}} \\
+  S=\frac{1}{2}absinC & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-angle-between-sides}{\textsf{Triangle area formula}} \\
   \end{array}
   >$
 
@@ -233,11 +233,11 @@ $
 ### $\fbox{15}\:$If a triangle has two sides of length 4 and 6, and the length of the third side is changing, then the maximum area of the triangle is $\small \, \mathpunct{?}$. 
 $
 \begin{array}{lllll}
-(\text{A}) \: 18 &
-(\text{B}) \: 16 &
-(\text{C}) \: 14 &
-(\text{D}) \: 12 &
-(\text{E}) \: 10 & \\
+\textsf{(A)} \: 18 &
+\textsf{(B)} \: 16 &
+\textsf{(C)} \: 14 &
+\textsf{(D)} \: 12 &
+\textsf{(E)} \: 10 & \\
 \end{array}
 $  
 :::
@@ -246,14 +246,14 @@ $
 $
 \begin{array}{ll}
 S_{max}=\frac{1}{2}\times 4 \times 6 \times sin90^\circ \\
-sin90^\circ= 12 & \text{When the area of the triangle reaches its maximum }sinC=1\\
+sin90^\circ= 12 & \textsf{When the area of the triangle reaches its maximum }sinC=1\\
 \end{array}
 $  
 :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(D)}$  
+  > $\boldsymbol{(D)}$  
   > According to the Solution, get $S_{max}=sin90^\circ=12$, so choose $D$. 
 
   :::
@@ -261,7 +261,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  S=\frac{1}{2}absinC & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-angle-between-sides}{\text{Triangle area formula}} \\
+  S=\frac{1}{2}absinC & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-angle-between-sides}{\textsf{Triangle area formula}} \\
   \end{array}
   >$
 
@@ -276,11 +276,11 @@ __Given the three sides, use Heron's formula to find the area.__
 ### $\fbox{16}\:$If the three sides of a triangle are 7,8,9 then its area is $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 16\sqrt{2} &
-(\text{B}) \: 12\sqrt{3} &
-(\text{C}) \: 18\sqrt{3} &
-(\text{D}) \: 12\sqrt{5} &
-(\text{E}) \: 18\sqrt{5} & \\
+\textsf{(A)} \: 16\sqrt{2} &
+\textsf{(B)} \: 12\sqrt{3} &
+\textsf{(C)} \: 18\sqrt{3} &
+\textsf{(D)} \: 12\sqrt{5} &
+\textsf{(E)} \: 18\sqrt{5} & \\
 \end{array}
 $  
 :::
@@ -297,7 +297,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(D)}$  
+  > $\boldsymbol{(D)}$  
   > According to the Solution, get $S=12\sqrt{5}$, so choose $D$. 
 
   :::
@@ -308,7 +308,7 @@ $
   \begin{cases}
   p=\frac{1}{2}(a+b+c) \\
   S=\sqrt{p(p-a)(p-b)(p-c)} \\
-  \end{cases} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where}{\text{Heron's formula}} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where}{\textsf{Heron's formula}} \\
   \end{array}
   >$
 
@@ -339,7 +339,7 @@ $
 ::: wrap
 - Two triangles are called congruent-angle triangles if they share an equal or supplementary angle.    
 - Their area ratio is the same as the ratio of the products of the sides around those angles.   
-- Figure 6–11, in $\angle ABC$ and $\angle ADE$, __the sine of $\mathbf{\angle A}$ is the same (same angles)__, so $\boxed{S_{\triangle ABC}:S_{\triangle ADE}=(AB \cdot AC):(AD \cdot AE)}$.     
+- Figure 6–11, in $\angle ABC$ and $\angle ADE$, __the sine of $\boldsymbol{\angle A}$ is the same (same angles)__, so $\boxed{S_{\triangle ABC}:S_{\triangle ADE}=(AB \cdot AC):(AD \cdot AE)}$.     
   ![Bird's Head Theorem Figure 6-11.svg](../../public/math/Core%20Courses/Bird%27s%20Head%20Theorem%20Figure%206-11.svg)     
   $\frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{\cancel{\frac{1}{2}}AD\times AE \times \cancel{sinA}}{\cancel{\frac{1}{2}}AB\times AC \times \cancel{sinA}}=\frac{AD\times AE}{AB \times AC}$  
 
@@ -355,11 +355,11 @@ __Solve area using the Bird's Head theorem.__
 ### $\fbox{17}\:$Figure 6–15, in $\small \triangle ABC$, points $\small D, E$ lie onside $\small AB, AC$ respectively, and $\small AD: AB=2:5, AE: AC=4:7, S_{\triangle ADE}=16$, then the area of $\small \triangle ABC$ is $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 56 &
-(\text{B}) \: 65 &
-(\text{C}) \: 66 &
-(\text{D}) \: 70 &
-(\text{E}) \: 72 & \\
+\textsf{(A)} \: 56 &
+\textsf{(B)} \: 65 &
+\textsf{(C)} \: 66 &
+\textsf{(D)} \: 70 &
+\textsf{(E)} \: 72 & \\
 \end{array}
 $  
 :::  
@@ -383,7 +383,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(D)}$  
+  > $\boldsymbol{(D)}$  
   > According to the Solution, get $S_{\triangle ABC}=70$, so choose $D$. 
 
   :::
@@ -391,7 +391,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{AD\times AE}{AB \times AC} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_10-bird-s-head-theorem}{\text{Bird's Head theorem}} \\
+  \frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{AD\times AE}{AB \times AC} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_10-bird-s-head-theorem}{\textsf{Bird's Head theorem}} \\
   \end{array}
   >$
 
@@ -401,11 +401,11 @@ $
 ### $\fbox{18}\:$Figure 6–15, in $\small \triangle ABC$, point $\small D$ lies on the extension of side $\small BA$, and point $\small E$ lies onside $\small AC$, give that $AB: AD=5:2, AE: EC=3:2, S_{\triangle ADE}=12$, then the area of $\small \triangle ABC$ is $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 30 &
-(\text{B}) \: 35 &
-(\text{C}) \: 43 &
-(\text{D}) \: 48 &
-(\text{E}) \: 50 & \\
+\textsf{(A)} \: 30 &
+\textsf{(B)} \: 35 &
+\textsf{(C)} \: 43 &
+\textsf{(D)} \: 48 &
+\textsf{(E)} \: 50 & \\
 \end{array}
 $  
 :::  
@@ -429,7 +429,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(E)}$  
+  > $\boldsymbol{(E)}$  
   > According to the Solution, get $S_{\triangle ABC}=50$, so choose $E$. 
 
   :::
@@ -437,7 +437,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{AD\times AE}{AB \times AC} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_10-bird-s-head-theorem}{\text{Bird's Head theorem}} \\
+  \frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{AD\times AE}{AB \times AC} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_10-bird-s-head-theorem}{\textsf{Bird's Head theorem}} \\
   \end{array}
   >$
 
@@ -457,8 +457,8 @@ $
 - __Derivation process: Since $\triangle ABD$ and $\triangle ACD$ have equal altitude__.  
   $
   \begin{array}{ll}
-  S_{\triangle ABD}:S_{\triangle ACD} = BD:CD & \triangle ABD \text{ and } \triangle ACD \text{ have equal altitude} \\
-  S_{\triangle BOD}:S_{\triangle COD} = BD:CD & \triangle BOD \text{ and } \triangle COD \text{ have equal altitude} \\
+  S_{\triangle ABD}:S_{\triangle ACD} = BD:CD & \triangle ABD \textsf{ and } \triangle ACD \textsf{ have equal altitude} \\
+  S_{\triangle BOD}:S_{\triangle COD} = BD:CD & \triangle BOD \textsf{ and } \triangle COD \textsf{ have equal altitude} \\
   S_{\triangle ABO}:S_{\triangle ACO} = BD:CD & (S_{\triangle ABD}-S_{\triangle BOD}):(S_{\triangle ACD}-S_{\triangle COD})=BD:CD \\
   \end{array}
   $  
@@ -476,7 +476,7 @@ __Solve area using the Swallowtail theorem (equal altitudes).__
 
   $
   \begin{array}{ll}
-  \frac{S_{\triangle ABD}}{S_{\triangle ACD}}= \frac{S_{\triangle BOD}}{S_{\triangle COD}}=\frac{BD}{CD} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\text{equal altitudes,
+  \frac{S_{\triangle ABD}}{S_{\triangle ACD}}= \frac{S_{\triangle BOD}}{S_{\triangle COD}}=\frac{BD}{CD} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\textsf{equal altitudes,
   h same }}\frac{S_1}{S_2}=\frac{a_1}{a_2} \\
   \frac{S_{\triangle ABD}-S_{\triangle BOD}}{S_{\triangle ACD}-S_{\triangle COD}}=\frac{S_{\triangle AOB}}{S_{\triangle AOC}} \\
   \end{array}
@@ -488,11 +488,11 @@ __Solve area using the Swallowtail theorem (equal altitudes).__
 ### $\fbox{19}\:$Figure 6–17, in triangle $\small ABC$, $\small BD:DC=4:9, CE:EA=4:3$, then $\small AF:FB=\, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 27:17 &
-(\text{B}) \: 27:14 &
-(\text{C}) \: 25:16 &
-(\text{D}) \: 28:15 &
-(\text{E}) \: 27:16 & \\
+\textsf{(A)} \: 27:17 &
+\textsf{(B)} \: 27:14 &
+\textsf{(C)} \: 25:16 &
+\textsf{(D)} \: 28:15 &
+\textsf{(E)} \: 27:16 & \\
 \end{array}
 $  
 :::  
@@ -517,7 +517,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(E)}$  
+  > $\boldsymbol{(E)}$  
   > According to the Solution, get $\frac{AF}{BF}=\frac{27}{16}$, so choose $E$. 
 
   :::
@@ -525,7 +525,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{S_{\triangle AOB}}{S_{\triangle AOC}}=\frac{BD}{CD} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_12-swallowtail-theorem}{\text{Swallowtail theorem}} \\
+  \frac{S_{\triangle AOB}}{S_{\triangle AOC}}=\frac{BD}{CD} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_12-swallowtail-theorem}{\textsf{Swallowtail theorem}} \\
   \end{array}
   >$
 

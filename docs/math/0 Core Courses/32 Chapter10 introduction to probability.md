@@ -87,11 +87,11 @@ $
 ::: wrap  
 $
 \begin{array}{ll}
-(\textsf{A}) \: \textsf{random event} & ❌\;\\
-(\textsf{B}) \: \textsf{random event} & ❌\;\\
-(\textsf{C}) \: \textsf{random event} & ❌\;\\
-(\textsf{D}) \: \textsf{certain event} & ✅\;\\
-(\textsf{E}) \: \textsf{random event} & ❌\;\\
+\textsf{(A)} \: \textsf{random event} & ❌\;\\
+\textsf{(B)} \: \textsf{random event} & ❌\;\\
+\textsf{(C)} \: \textsf{random event} & ❌\;\\
+\textsf{(D)} \: \textsf{certain event} & ✅\;\\
+\textsf{(E)} \: \textsf{random event} & ❌\;\\
 \end{array}
 $  
 :::  
@@ -122,7 +122,7 @@ $
 \textsf{(B)} \: \textsf{it will snow in cupertino this winter} & \\
 \textsf{(C)} \: \textsf{tossing two fair dice, and the sum of the numbers on top being }1 & \\
 \textsf{(D)} \: \textsf{a spinner is divided into }6\textsf{ sections, arranged as red, white, white, red, red, white.} \\
-\quad\;\;\, \textsf{the pointer stops on the red section} & \\
+                \hspace{0.8cm}\textsf{the pointer stops on the red section} & \\
 \textsf{(E)} \: \textsf{a flight from sonoma to cupertino will be delayed} & \\
 \end{array}
 $  
@@ -131,11 +131,11 @@ $
 ::: wrap  
 $
 \begin{array}{ll}
-(\textsf{A}) \: \textsf{random event} & ❌\;\\
-(\textsf{B}) \: \textsf{random event} & ❌\;\\
-(\textsf{C}) \: \textsf{impossible event} & ✅\;\\
-(\textsf{D}) \: \textsf{random event} & ❌\;\\
-(\textsf{E}) \: \textsf{random event} & ❌\;\\
+\textsf{(A)} \: \textsf{random event} & ❌\;\\
+\textsf{(B)} \: \textsf{random event} & ❌\;\\
+\textsf{(C)} \: \textsf{impossible event} & ✅\;\\
+\textsf{(D)} \: \textsf{random event} & ❌\;\\
+\textsf{(E)} \: \textsf{random event} & ❌\;\\
 \end{array}
 $  
 :::  
@@ -182,11 +182,11 @@ __The sampling methods__
 $
 \begin{array}{lllll}
 \textsf{(1)} \: \textsf{if two balls are randomly drawn from the bag,} & \\
-\quad\;\, \textsf{find the probability that both drawn balls are black} \\
+                \hspace{0.7cm}\textsf{find the probability that both drawn balls are black} \\
 \textsf{(2)} \: \textsf{if two balls are drawn without replacement, one ball at a time,} & \\
-\quad\;\, \textsf{find the probability that both drawn balls are black} \\
+                \hspace{0.7cm}\textsf{find the probability that both drawn balls are black} \\
 \textsf{(3)} \: \textsf{if two balls are drawn with replacement, one ball at a time,} & \\
-\quad\;\, \textsf{find the probability that at least one of the drawn balls is black} \\
+                \hspace{0.7cm}\textsf{find the probability that at least one of the drawn balls is black} \\
 \end{array}
 $  
 :::
@@ -194,10 +194,10 @@ $
 ::: wrap  
 $
 \begin{array}{ll}
-(\textsf{1}) \: P_1=\frac{C_5^2}{C_8^2}=\frac{\frac{5\times\bcancel{4}}{\bcancel{2}\times1}}{\frac{\bcancel{8}\times7}{\bcancel{2}\times1}}=\frac{5\times\bcancel{2}}{\bcancel{4}\times7}=\frac{5}{2\times7}=\frac{5}{14} \\
-(\textsf{2}) \: P_2=\frac{C_5^1C_4^1}{C_8^1C_7^1}=\frac{5\times\bcancel{4}}{\bcancel{8}\times7}=\frac{5}{2\times7}=\frac{5}{14} \\
+\textsf{(1)} \: P_1=\frac{C_5^2}{C_8^2}=\frac{\frac{5\times\bcancel{4}}{\bcancel{2}\times1}}{\frac{\bcancel{8}\times7}{\bcancel{2}\times1}}=\frac{5\times\bcancel{2}}{\bcancel{4}\times7}=\frac{5}{2\times7}=\frac{5}{14} \\
+\textsf{(2)} \: P_2=\frac{C_5^1C_4^1}{C_8^1C_7^1}=\frac{5\times\bcancel{4}}{\bcancel{8}\times7}=\frac{5}{2\times7}=\frac{5}{14} \\
 \textsf{use the complement (no black balls) for simpler calculation} \\
-(\textsf{3}) \: P_3=1-\frac{C_3^1C_2^1}{C_8^1C_8^1}=1-\frac{3\times\bcancel{2}}{\bcancel{8}\times8}=1-\frac{3}{4\times8}=\frac{32}{32}-\frac{3}{32}=\frac{29}{32}  \\
+\textsf{(3)} \: P_3=1-\frac{C_3^1C_2^1}{C_8^1C_8^1}=1-\frac{3\times\bcancel{2}}{\bcancel{8}\times8}=1-\frac{3}{4\times8}=\frac{32}{32}-\frac{3}{32}=\frac{29}{32}  \\
 \end{array}
 $  
 :::  

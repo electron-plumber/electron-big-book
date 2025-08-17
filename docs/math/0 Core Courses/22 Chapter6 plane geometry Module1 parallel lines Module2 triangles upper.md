@@ -6,9 +6,9 @@ lang: en-US
 # Module 5-03 Parallel Lines
 
 ## 1.Angle Between a Straight Line and a parallel Line   
-  - $\angle 1 \, \text{and} \, \angle 4$ are corresponding angles, corresponding angles are equal.  
-  - $\angle 2 \, \text{and} \, \angle 4$ are alternate interior angles, alternate interior angles are equal.
-  - $\angle 3 \, \text{and} \, \angle 4$ are adjacent interior angles, adjacent interior angles are supplementary.  
+  - $\angle 1 \, \textsf{and} \, \angle 4$ are corresponding angles, corresponding angles are equal.  
+  - $\angle 2 \, \textsf{and} \, \angle 4$ are alternate interior angles, alternate interior angles are equal.
+  - $\angle 3 \, \textsf{and} \, \angle 4$ are adjacent interior angles, adjacent interior angles are supplementary.  
   ![Angle between line and parallel.svg](../../public/math/Core%20Courses/Angle%20between%20line%20and%20parallel.svg)  
 
 ## 2.Segments Intercepted by a Set of Parallel Lines Are Proportional    
@@ -26,11 +26,11 @@ __Solve angle__
 ### $\fbox{1}\:$Figure 6–4, $\small l_1 \parallel l_2$, $\small \angle1 = 105^\circ$, $\small \angle2 = 140^\circ$, then $\small \angle \alpha = \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 50^\circ &
-(\text{B}) \: 55^\circ &
-(\text{C}) \: 60^\circ &
-(\text{D}) \: 65^\circ &
-(\text{E}) \: 70^\circ & \\
+\textsf{(A)} \: 50^\circ &
+\textsf{(B)} \: 55^\circ &
+\textsf{(C)} \: 60^\circ &
+\textsf{(D)} \: 65^\circ &
+\textsf{(E)} \: 70^\circ & \\
 \end{array}
 $  
 :::  
@@ -42,9 +42,9 @@ $
   
   $
   \begin{array}{ll}
-  \angle3=180^\circ-\angle2 & \text{Adjacent interior angles} \\ 
+  \angle3=180^\circ-\angle2 & \textsf{Adjacent interior angles} \\ 
   180^\circ-140^\circ=40^\circ \\
-  \angle3+\angle\alpha=\angle1 & \text{Corresponding angles} \\
+  \angle3+\angle\alpha=\angle1 & \textsf{Corresponding angles} \\
   \angle\alpha=\angle1-\angle3=105^\circ-40^\circ=65^\circ \\
   \end{array}
   $  
@@ -52,7 +52,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(D)}$  
+  > $\boldsymbol{(D)}$  
   > According to the Solution, get $\angle\alpha=65^\circ$, so choose $D$. 
 
   :::
@@ -60,7 +60,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-a-parallel-line}{\text{Angle relationship}}
+  \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-a-parallel-line}{\textsf{Angle relationship}}
   \begin{cases}
   \angle1=\angle4 \\
   \angle2=\angle4 \\
@@ -75,9 +75,9 @@ $
   > ![Question parallel lines figure 6-4 solve-2.svg](../../public/math/Core%20Courses/Question%20parallel%20lines%20figure%206-4%20solve-2.svg)  
   $
   \begin{array}{ll}
-  \angle4=180^\circ-\angle1 & \text{Corresponding angles} \\
+  \angle4=180^\circ-\angle1 & \textsf{Corresponding angles} \\
   180^\circ-105^\circ=75^\circ \\
-  \angle\alpha+\angle4=\angle2 & \text{Alternate interior angles} \\
+  \angle\alpha+\angle4=\angle2 & \textsf{Alternate interior angles} \\
   \angle\alpha=\angle2-\angle4=140^\circ-75^\circ=65^\circ \\
   \end{array}
   >$
@@ -88,11 +88,11 @@ $
 ### $\fbox{2}\:$Figure 6–5, $\small AB \parallel CD$, $\small \angle \alpha =\, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 70^\circ &
-(\text{B}) \: 80^\circ &
-(\text{C}) \: 85^\circ &
-(\text{D}) \: 90^\circ &
-(\text{E}) \: 95^\circ & \\
+\textsf{(A)} \: 70^\circ &
+\textsf{(B)} \: 80^\circ &
+\textsf{(C)} \: 85^\circ &
+\textsf{(D)} \: 90^\circ &
+\textsf{(E)} \: 95^\circ & \\
 \end{array}
 $  
 :::  
@@ -104,9 +104,9 @@ $
   
   $
   \begin{array}{ll}
-  \angle 1=180^\circ-\angle B & \text{Adjacent interior angles} \\
+  \angle 1=180^\circ-\angle B & \textsf{Adjacent interior angles} \\
   180^\circ-120^\circ=60^\circ \\
-  \angle 2= \angle C=25^\circ & \text{Alternate interior angles} \\
+  \angle 2= \angle C=25^\circ & \textsf{Alternate interior angles} \\
   \angle \alpha = 60^\circ + 25^\circ = 85^\circ  \\
   \end{array}
   $  
@@ -114,7 +114,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{C}$  
+  > $\boldsymbol{C}$  
   > According to the Solution, get $\angle \alpha = 85^\circ$, so choose $C$. 
 
   :::
@@ -122,7 +122,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-a-parallel-line}{\text{Angle relationship}}
+  \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-a-parallel-line}{\textsf{Angle relationship}}
   \begin{cases}
   \angle1=\angle4 \\
   \angle2=\angle4 \\
@@ -137,11 +137,11 @@ $
 ### $\fbox{3}\:$Figure 6–6, $\small AB=AC, \angle BAC=80^\circ, AD=BD, CM \parallel AB$, intersects the extended line of $\small AD$ at point $\small M$, then $\small \angle M= \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 30^\circ &
-(\text{B}) \: 40^\circ &
-(\text{C}) \: 50^\circ &
-(\text{D}) \: 60^\circ &
-(\text{E}) \: 70^\circ & \\
+\textsf{(A)} \: 30^\circ &
+\textsf{(B)} \: 40^\circ &
+\textsf{(C)} \: 50^\circ &
+\textsf{(D)} \: 60^\circ &
+\textsf{(E)} \: 70^\circ & \\
 \end{array}
 $  
 ![Question parallel lines figure 6-6.svg](../../public/math/Core%20Courses/Question%20parallel%20lines%20figure%206-6.svg)  
@@ -153,10 +153,10 @@ $
   
   $
   \begin{array}{ll}
-  \angle B = \angle ACB & \text{Interior angles of triangle} \\
+  \angle B = \angle ACB & \textsf{Interior angles of triangle} \\
   \angle B = \frac{180^\circ-80^\circ}{2}=50^\circ \\
-  \angle BAM = \angle M & \text{Alternate interior angles}\\
-  BD=AD & \text{This is an isosceles triangle}\\
+  \angle BAM = \angle M & \textsf{Alternate interior angles}\\
+  BD=AD & \textsf{This is an isosceles triangle}\\
   \angle BAM = \angle B = 50^\circ \\
   \angle M = 50^\circ \\
   \end{array}
@@ -165,7 +165,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(C)}$  
+  > $\boldsymbol{(C)}$  
   > According to the Solution, get $\angle M = 50^\circ$, so choose $C$. 
 
   :::
@@ -173,13 +173,13 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-a-parallel-line}{\text{Angle relationship}}
+  \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-a-parallel-line}{\textsf{Angle relationship}}
   \begin{cases}
   \angle1=\angle4 \\
   \angle2=\angle4 \\
   \angle1+\angle4=180^\circ \\
   \end{cases} \\
-  \angle A + \angle B + \angle C = 180^\circ & \text{The sum of the interior angles of a triangle is }180^\circ \\
+  \angle A + \angle B + \angle C = 180^\circ & \textsf{The sum of the interior angles of a triangle is }180^\circ \\
   \end{array}
   >$
 
@@ -194,11 +194,11 @@ __Solve length__
 ### $\fbox{4}\:$Figure 6–7, if the four-line segments $\small AB, BC, DE, EF$ are proportional, and $\small AB=2, BC=3, DE=4$, then $\small EF= \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 3 &
-(\text{B}) \: 4 &
-(\text{C}) \: 5 &
-(\text{D}) \: 6 &
-(\text{E}) \: 8 & \\
+\textsf{(A)} \: 3 &
+\textsf{(B)} \: 4 &
+\textsf{(C)} \: 5 &
+\textsf{(D)} \: 6 &
+\textsf{(E)} \: 8 & \\
 \end{array}
 $  
 :::  
@@ -217,7 +217,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(D)}$  
+  > $\boldsymbol{(D)}$  
   > According to the Solution, get $EF=6$, so choose $D$. 
 
   :::
@@ -225,7 +225,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{a}{c}=\frac{b}{d} & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-segments-intercepted-by-a-set-of-parallel-lines-are-proportional}{\text{Left-right ratio}} \\
+  \frac{a}{c}=\frac{b}{d} & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-segments-intercepted-by-a-set-of-parallel-lines-are-proportional}{\textsf{Left-right ratio}} \\
   \end{array}
   >$
 
@@ -235,11 +235,11 @@ $
 ### $\fbox{5}\:$Figure 6–8, Known straight lines $\small l_1 \parallel l_2 \parallel l_3, DE=6, EF=9, AB=5$, then $\small AC = \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 10 &
-(\text{B}) \: 12 &
-(\text{C}) \: 12.5 &
-(\text{D}) \: 14 &
-(\text{E}) \: 16 & \\
+\textsf{(A)} \: 10 &
+\textsf{(B)} \: 12 &
+\textsf{(C)} \: 12.5 &
+\textsf{(D)} \: 14 &
+\textsf{(E)} \: 16 & \\
 \end{array}
 $  
 :::  
@@ -261,7 +261,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(C)}$  
+  > $\boldsymbol{(C)}$  
   > According to the Solution, get $AC=12.5$, so choose $C$. 
 
   :::
@@ -269,7 +269,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-segments-intercepted-by-a-set-of-parallel-lines-are-proportional}{\text{Parallel line segments proportion}}
+  \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-segments-intercepted-by-a-set-of-parallel-lines-are-proportional}{\textsf{Parallel line segments proportion}}
   \begin{cases}
   \frac{a}{b}=\frac{c}{d} \\
   \frac{a}{c}=\frac{b}{d} \\
@@ -303,11 +303,11 @@ __Solve angle__
 ### $\fbox{6}\:$Figure 6–9, if $\small AB \parallel CE, CE=DE$, and $\small y=45^\circ$, then $\small x= \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 45^\circ &
-(\text{B}) \: 60^\circ &
-(\text{C}) \: 67.5^\circ &
-(\text{D}) \: 112.5^\circ &
-(\text{E}) \: 135^\circ & \\
+\textsf{(A)} \: 45^\circ &
+\textsf{(B)} \: 60^\circ &
+\textsf{(C)} \: 67.5^\circ &
+\textsf{(D)} \: 112.5^\circ &
+\textsf{(E)} \: 135^\circ & \\
 \end{array}
 $  
 :::  
@@ -319,9 +319,9 @@ $
 
   $
   \begin{array}{ll}
-  AB \parallel CE \implies \angle C= \angle B & \text{Corresponding angles} \\
+  AB \parallel CE \implies \angle C= \angle B & \textsf{Corresponding angles} \\
   \angle C= x \\
-  CE = ED \implies \angle C=\angle D & \text{Isosceles triangle} \\
+  CE = ED \implies \angle C=\angle D & \textsf{Isosceles triangle} \\
   \angle D = x \\
   y+2x=180^\circ \\
   x=\frac{180^\circ-45^\circ}{2}=67.5^\circ \\
@@ -331,7 +331,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(C)}$  
+  > $\boldsymbol{(C)}$  
   > According to the Solution, get $x=67.5^\circ$, so choose $C$. 
 
   :::
@@ -339,13 +339,13 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-a-parallel-line}{\text{Angle relationship}}
+  \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-a-parallel-line}{\textsf{Angle relationship}}
   \begin{cases}
   \angle1=\angle4 \\
   \angle2=\angle4 \\
   \angle1+\angle4=180^\circ \\
   \end{cases} \\
-  \angle A + \angle B + \angle C = 180^\circ & \text{The sum of the interior angles of a triangle is }180^\circ \\
+  \angle A + \angle B + \angle C = 180^\circ & \textsf{The sum of the interior angles of a triangle is }180^\circ \\
   \end{array}
   >$
 
@@ -355,11 +355,11 @@ $
 ### $\fbox{7}\:$Figure 6–10, in right angle $\small \triangle ABC, \angle C$ is a right angle, points $\small E, D, F$ are on the right-angled side $\small AC$ and the hypotenuse $\small AB$ respectively, and $\small AF=FE=ED=DC=CB$, then $\small \angle C = \, \mathpunct{?}$.  
 $
 \begin{array}{lllll}
-(\text{A}) \: \frac{\pi}{8} &
-(\text{B}) \: \frac{\pi}{9} &
-(\text{C}) \: \frac{\pi}{10} &
-(\text{D}) \: \frac{\pi}{11} &
-(\text{E}) \: \frac{\pi}{12} & \\
+\textsf{(A)} \: \frac{\pi}{8} &
+\textsf{(B)} \: \frac{\pi}{9} &
+\textsf{(C)} \: \frac{\pi}{10} &
+\textsf{(D)} \: \frac{\pi}{11} &
+\textsf{(E)} \: \frac{\pi}{12} & \\
 \end{array}
 $  
 :::  
@@ -386,7 +386,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(C)}$  
+  > $\boldsymbol{(C)}$  
   > According to the Solution, get $\angle A= \frac{\pi}{10}$, so choose $C$. 
 
   :::
@@ -394,9 +394,9 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  A \perp B = 90^\circ & \href{https://www.mathsisfun.com/right_angle_triangle.html}{\text{Right-Angled triangle}} \\
-  90^\circ=\frac{\pi}{2} & \href{https://www.mathsisfun.com/geometry/radians.html}{\text{Degree to radian conversion}} \\
-  \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-sum-of-interior-angles-for-a-triangle}{\text{Exterior angle of a triangle}} = \angle A + \angle B \\ 
+  A \perp B = 90^\circ & \href{https://www.mathsisfun.com/right_angle_triangle.html}{\textsf{Right-Angled triangle}} \\
+  90^\circ=\frac{\pi}{2} & \href{https://www.mathsisfun.com/geometry/radians.html}{\textsf{Degree to radian conversion}} \\
+  \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-sum-of-interior-angles-for-a-triangle}{\textsf{Exterior angle of a triangle}} = \angle A + \angle B \\ 
   \end{array}
   >$
 
@@ -417,11 +417,11 @@ __Trilateral relations__
 ### $\fbox{8}\:$There are seven wooden sticks with length of $\small 1,2,3,4,5,6,7$, if any three of them are chosen, can form $\small \, \mathpunct{?}$ triangles. 
 $
 \begin{array}{lllll}
-(\text{A}) \: 13 &
-(\text{B}) \: 14 &
-(\text{C}) \: 15 &
-(\text{D}) \: 16 &
-(\text{E}) \: 17 & \\
+\textsf{(A)} \: 13 &
+\textsf{(B)} \: 14 &
+\textsf{(C)} \: 15 &
+\textsf{(D)} \: 16 &
+\textsf{(E)} \: 17 & \\
 \end{array}
 $  
 :::
@@ -461,7 +461,7 @@ $
   \begin{cases}
   7-6=1 \\
   \end{cases}} \\
-  \text{A total of 13 types of triangles can be formed.} 
+  \textsf{A total of 13 types of triangles can be formed.} 
   \end{array}
   $  
 :::  
@@ -500,14 +500,14 @@ $
   \begin{cases}
   3+2=5 \\
   \end{cases}}\\
-  \text{A total of 13 types of triangles can be formed.}
+  \textsf{A total of 13 types of triangles can be formed.}
   \end{array}
   $  
 :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(A)}$  
+  > $\boldsymbol{(A)}$  
   > According to the Solution, $13$ types of triangles can be formed, so choose $A$. 
 
   :::
@@ -518,14 +518,14 @@ $
   \boxed{
   \begin{array}{ll}
   a+b>c, \,a+c>b, \,b+c>a \\
-  \text{Know the maximum side of c} \\
+  \textsf{Know the maximum side of c} \\
   a+b>\underset{\triangle}c \Rightarrow (a+\underset{\triangle}c>b) \land (b+\underset{\triangle}c>a) \\
   \end{array}
   } \iff
   \boxed{
   \begin{array}{ll}
   |a-b| \lt c, \,|a-c| \lt b, \,|b-c| \lt a \\
-  \text{Know the minimum side of c} \\
+  \textsf{Know the minimum side of c} \\
   |a-b|\lt \underset{\triangle}c \Rightarrow 
   \underbrace{(|a-\underset{\triangle}c|\lt b)}_{
   \begin{array}{ll}
@@ -541,7 +541,7 @@ $
   \end{array}
   } \\
   \end{array}
-  } & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\text{Trilateral relations}} \\
+  } & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\textsf{Trilateral relations}} \\
   \end{array}
   >$
 
@@ -551,11 +551,11 @@ $
 ### $\fbox{9}\:$If the lengths of the sides of a triangle are integers, and the perimeter is 11, and one of the sides is 3, among all possible triangles, the longest side length is $\small \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 3 &
-(\text{B}) \: 4 &
-(\text{C}) \: 5 &
-(\text{D}) \: 6 &
-(\text{E}) \: 7 & \\
+\textsf{(A)} \: 3 &
+\textsf{(B)} \: 4 &
+\textsf{(C)} \: 5 &
+\textsf{(D)} \: 6 &
+\textsf{(E)} \: 7 & \\
 \end{array}
 $  
 :::
@@ -574,14 +574,14 @@ $
   4-4=0 \; ✅ \\
   \end{array}
   } \\
-  \text{The longest is 5.}
+  \textsf{The longest is 5.}
   \end{array}
   $  
 :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(C)}$  
+  > $\boldsymbol{(C)}$  
   > According to the Solution, get the longest side length, which is $5$, so choose $C$. 
 
   :::
@@ -592,14 +592,14 @@ $
   \boxed{
   \begin{array}{ll}
   a+b>c, \,a+c>b, \,b+c>a \\
-  \text{Know the maximum side of c} \\
+  \textsf{Know the maximum side of c} \\
   a+b>\underset{\triangle}c \Rightarrow (a+\underset{\triangle}c>b) \land (b+\underset{\triangle}c>a) \\
   \end{array}
   } \iff
   \boxed{
   \begin{array}{ll}
   |a-b| \lt c, \,|a-c| \lt b, \,|b-c| \lt a \\
-  \text{Know the minimum side of c} \\
+  \textsf{Know the minimum side of c} \\
   |a-b|\lt \underset{\triangle}c \Rightarrow
   \underbrace{(|a-\underset{\triangle}c|\lt b)}_{
   \begin{array}{ll}
@@ -615,7 +615,7 @@ $
   \end{array}
   } \\
   \end{array}
-  } & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\text{Trilateral relations}} \\
+  } & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\textsf{Trilateral relations}} \\
   \end{array}
   >$
 
@@ -625,11 +625,11 @@ $
 ### $\fbox{10}\:$Let the three-line segments $\small 3a-1, 4a+1, 12-a$ from a triangle, then the range of a is $\small \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 1 \lt a \lt 4 &
-(\text{B}) \: \frac{3}{2} \lt a \lt 5 &
-(\text{C}) \: \frac{3}{2} \lt a \lt 4 & \\
-(\text{D}) \: 0 \lt a \lt 5 &
-(\text{E}) \: a \gt 5 & \\
+\textsf{(A)} \: 1 \lt a \lt 4 &
+\textsf{(B)} \: \frac{3}{2} \lt a \lt 5 &
+\textsf{(C)} \: \frac{3}{2} \lt a \lt 4 & \\
+\textsf{(D)} \: 0 \lt a \lt 5 &
+\textsf{(E)} \: a \gt 5 & \\
 \end{array}
 $  
 :::
@@ -653,13 +653,13 @@ $
   \begin{cases}
   a>\frac{3}{2} \\
   a<5 \\
-  13>-1 & \text{Identically true} \\
+  13>-1 & \textsf{Identically true} \\
   \end{cases} \\
   \begin{array}{ll}
   a>\frac{3}{2} \\
   a<5 \\
   \end{array}
-  \xrightarrow{\overset{\text{Intersection}}{}}
+  \xrightarrow{\overset{\textsf{Intersection}}{}}
   \frac{3}{2} \lt a \lt 5
   \end{array}
   $  
@@ -667,7 +667,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(B)}$  
+  > $\boldsymbol{(B)}$  
   > According to the Solution, get $\frac{3}{2} \lt a \lt 5$, so choose $B$. 
 
   :::
@@ -678,14 +678,14 @@ $
   \boxed{
   \begin{array}{ll}
   a+b>c, \,a+c>b, \,b+c>a \\
-  \text{Know the maximum side of c} \\
+  \textsf{Know the maximum side of c} \\
   a+b>\underset{\triangle}c \Rightarrow (a+\underset{\triangle}c>b) \land (b+\underset{\triangle}c>a) \\
   \end{array}
   } \iff
   \boxed{
   \begin{array}{ll}
   |a-b| \lt c, \,|a-c| \lt b, \,|b-c| \lt a \\
-  \text{Know the minimum side of c} \\
+  \textsf{Know the minimum side of c} \\
   |a-b|\lt \underset{\triangle}c \Rightarrow
   \underbrace{(|a-\underset{\triangle}c|\lt b)}_{
   \begin{array}{ll}
@@ -701,7 +701,7 @@ $
   \end{array}
   } \\
   \end{array}
-  } & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\text{Trilateral relations}} \\
+  } & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\textsf{Trilateral relations}} \\
   \end{array}
   >$
 
@@ -711,11 +711,11 @@ $
 ### $\fbox{11}\:$In $\small \triangle ABC, AB=5, AC=3$, when $\small \angle A$ changes between $\small (0,\pi)$, the range of the length of the median on side $\small BC$ of the triangle is $\small \mathpunct{?}$.  
 $
 \begin{array}{lllll}
-(\text{A}) \: (0,5) &
-(\text{B}) \: (1,4) &
-(\text{C}) \: (3,4) &
-(\text{D}) \: (2,5) &
-(\text{E}) \: (3,5) & \\
+\textsf{(A)} \: (0,5) &
+\textsf{(B)} \: (1,4) &
+\textsf{(C)} \: (3,4) &
+\textsf{(D)} \: (2,5) &
+\textsf{(E)} \: (3,5) & \\
 \end{array}
 $  
 :::
@@ -727,7 +727,7 @@ $
   $
   \begin{array}{ll}
   AE=\frac{5}{2} \\
-  ED=\frac{AC}{2}=\frac{3}{2} & \text{Median is equal}\\
+  ED=\frac{AC}{2}=\frac{3}{2} & \textsf{Median is equal}\\
   AE-DE \lt AD \lt AE+DE \\
   1 < AD < 4 \\
   \end{array}
@@ -747,7 +747,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(B)}$  
+  > $\boldsymbol{(B)}$  
   > According to the Solution, get $1 < AD < 4$, so choose $B$. 
 
   :::
@@ -758,14 +758,14 @@ $
   \boxed{
   \begin{array}{ll}
   a+b>c, \,a+c>b, \,b+c>a \\
-  \text{Know the maximum side of c} \\
+  \textsf{Know the maximum side of c} \\
   a+b>\underset{\triangle}c \Rightarrow (a+\underset{\triangle}c>b) \land (b+\underset{\triangle}c>a) \\
   \end{array}
   } \iff
   \boxed{
   \begin{array}{ll}
   |a-b| \lt c, \,|a-c| \lt b, \,|b-c| \lt a \\
-  \text{Know the minimum side of c} \\
+  \textsf{Know the minimum side of c} \\
   |a-b|\lt \underset{\triangle}c \Rightarrow
   \underbrace{(|a-\underset{\triangle}c|\lt b)}_{
   \begin{array}{ll}
@@ -781,8 +781,8 @@ $
   \end{array}
   } \\
   \end{array}
-  } & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\text{Trilateral relations}} \\
-  \frac{|AB-AC|}{2} < AD < \frac{AB+AC}{2}  & \text{The formula for the median range of the third side in a triangle} \\
+  } & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\textsf{Trilateral relations}} \\
+  \frac{|AB-AC|}{2} < AD < \frac{AB+AC}{2}  & \textsf{The formula for the median range of the third side in a triangle} \\
   \end{array}
   >$
 
@@ -804,7 +804,7 @@ $
   AD \rightarrow 4 \\
   AD \rightarrow 1 \\
   \end{array}}
-  \xrightarrow{\overset{\text{Intersection}}{}}
+  \xrightarrow{\overset{\textsf{Intersection}}{}}
   1<AD<4
   >$ 
 

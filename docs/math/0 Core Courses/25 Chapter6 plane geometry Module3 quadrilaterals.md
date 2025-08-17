@@ -53,7 +53,7 @@ the proportional relationship of the diagonal corresponding to the area can also
    we have $S_1 \times S_3=S_2 \times S_4$ (__Top$\times$Bottom=Left$\times$Right__).   
    ![Butterfly theorem figure 6–23 solve-1.svg](../../public/math/Core%20Courses/Butterfly%20theorem%20figure%206%E2%80%9323%20solve-1.svg)   
    
-   $\frac{S_1}{S_2}=\frac{OD}{OB}=\frac{S_4}{S_ 3} \quad \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\text{Equal height} \Rightarrow \text{area ratio}=\text{base ratio}}$       
+   $\frac{S_1}{S_2}=\frac{OD}{OB}=\frac{S_4}{S_ 3} \quad \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\textsf{Equal height} \Rightarrow \textsf{area ratio}=\textsf{base ratio}}$       
 :::   
 ::: wrap  
 2. According to the __basic proportionality theorem__ $\frac{S_1}{S_2}=\frac{S_4}{S_3}=\frac{OD}{OB}=\frac{S_1+S_4}{S_2+S_3}$.         
@@ -64,12 +64,12 @@ the proportional relationship of the diagonal corresponding to the area can also
 ### $\textcolor{#1E3A5F}{\fbox{2}}\:$The Butterfly Theorem of Trapezoid and Similar Proportions (Figure 6–24)   
 ![Butterfly theorem figure 6–24.svg](../../public/math/Core%20Courses/Butterfly%20theorem%20figure%206%E2%80%9324.svg)  
 ::: wrap  
-1. $\overbrace{\frac{S_1}{S_2}=\frac{S_4}{S_3}=\frac{OD}{OB}}^{\text{General property of any quadrilateral}} = \frac{a}{b}$.    
+1. $\overbrace{\frac{S_1}{S_2}=\frac{S_4}{S_3}=\frac{OD}{OB}}^{\textsf{General property of any quadrilateral}} = \frac{a}{b}$.    
    ![Butterfly theorem figure 6–24 solve-1.svg](../../public/math/Core%20Courses/Butterfly%20theorem%20figure%206%E2%80%9324%20solve-1.svg)    
    $\frac{a}{b}=\frac{OD}{OB}=\frac{OA}{OC}$   
 :::   
 ::: wrap
-2. $\overbrace{S_1 \times S_3=S_2 \times S_4}^{\text{General property of any quadrilateral}}$.    
+2. $\overbrace{S_1 \times S_3=S_2 \times S_4}^{\textsf{General property of any quadrilateral}}$.    
 :::      
 ::: wrap   
 3. $\frac{S_1}{S_3}=\frac{a_2}{b_2}$ (Similar).   
@@ -77,14 +77,14 @@ the proportional relationship of the diagonal corresponding to the area can also
 ::: wrap
 4. $S_2+S_3=S_4+S_3 \implies S_2=S_4$.    
    ![Butterfly theorem figure 6–24 solve-2.svg](../../public/math/Core%20Courses/Butterfly%20theorem%20figure%206%E2%80%9324%20solve-2.svg)    
-   $S=\frac{1}{2}ah \quad \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\text{Equal base and height} \Rightarrow \text{same area}}$     
+   $S=\frac{1}{2}ah \quad \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\textsf{Equal base and height} \Rightarrow \textsf{same area}}$     
 :::   
 - By combining the above four, the unified proportion is obtained: $S_1:S_3:S_2:S_4=a^2:b^2:ab:ab$.    
   ![Butterfly theorem unified area proportion formula.svg](../../public/math/Core%20Courses/Butterfly%20theorem%20unified%20area%20proportion%20formula.svg)  
 
-  ##### Formula derivations
+  ##### Formula derivation
   ::: wrap  
-  $\mathbf{S_1:S_3:S_2:S_4=a^2:b^2:ab:ab}$
+  $\boldsymbol{S_1:S_3:S_2:S_4=a^2:b^2:ab:ab}$
    
   $
   \begin{array}{ll}
@@ -106,11 +106,11 @@ __Square__
 ### $\fbox{28}\:$Figure 6–25, it is known that circle $\small O$ is inscribed in square $\small ABCD$, and that square $\small EFGH$ is inscribed in circle $\small O$. It is known that the area of square $\small ABCD$ is $\small 1$, then the area of square $\small EFGH$ is $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: \frac{2}{3} &
-(\text{B}) \: \frac{1}{2} &
-(\text{C}) \: \frac{\sqrt{2}}{2} &
-(\text{D}) \: \frac{\sqrt{2}}{3} &
-(\text{E}) \: \frac{1}{4} & \\
+\textsf{(A)} \: \frac{2}{3} &
+\textsf{(B)} \: \frac{1}{2} &
+\textsf{(C)} \: \frac{\sqrt{2}}{2} &
+\textsf{(D)} \: \frac{\sqrt{2}}{3} &
+\textsf{(E)} \: \frac{1}{4} & \\
 \end{array}
 $  
 :::  
@@ -122,7 +122,7 @@ $
 
   $
   \begin{array}{ll}
-  EG=\sqrt{a^2+a^2}=\sqrt{2a^2}=a\sqrt{2} & \text{Pythagorean theorem} \\
+  EG=\sqrt{a^2+a^2}=\sqrt{2a^2}=a\sqrt{2} & \textsf{Pythagorean theorem} \\
   AB=EG=1 \\
   AB=\sqrt{2}\times EF=1 \\
   EF=\frac{1}{\sqrt{2}}=\frac{1}{\sqrt{2}}\times \frac{\sqrt{2}}{\sqrt{2}}=\frac{\sqrt{2}}{2} \\
@@ -144,7 +144,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(B)}$  
+  > $\boldsymbol{(B)}$  
   > According to the Solution, get $S_{EFGH}=\frac{1}{2}$, so choose $B$. 
 
   :::
@@ -152,8 +152,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  c^2=a^2+b^2 \Rightarrow c=\sqrt{a^2+b^2} & \text{Pythagorean theorem} \\
-  S=a^2 & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_4-square}{\text{Square area formula}} \\
+  c^2=a^2+b^2 \Rightarrow c=\sqrt{a^2+b^2} & \textsf{Pythagorean theorem} \\
+  S=a^2 & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_4-square}{\textsf{Square area formula}} \\
   \end{array}
   >$
 
@@ -167,15 +167,15 @@ $
   > Example: $\triangle ABD$ (The same is true for other triangles)   
   >$
   \begin{array}{ll}
-  E=AB\text{ midpoint} \\
-  H=AD\text{ midpoint} \\
-  EH=\text{ Midline} \\
-  \textbf{Because }\mathbf{EF}\textbf{ is a midline and triangle }\mathbf{\triangle AEH}\textbf{ shares vertex }\mathbf{A}\textbf{ with }\mathbf{\triangle ABD,}\\
-  \textbf{its base and height are each half of those of }\mathbf{\triangle ABD.}\\
+  E=AB\textsf{ midpoint} \\
+  H=AD\textsf{ midpoint} \\
+  EH=\textsf{ Midline} \\
+  \textbf{Because }\boldsymbol{EF}\textbf{ is a midline and triangle }\boldsymbol{\triangle AEH}\textbf{ shares vertex }\boldsymbol{A}\textbf{ with }\boldsymbol{\triangle ABD,}\\
+  \textbf{its base and height are each half of those of }\boldsymbol{\triangle ABD.}\\
   \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{S=\frac{1}{2}ah} \\
   S_{\triangle ABD}=\frac{1}{2}\times(1\cdot a)\times(1\cdot h) \\
   S_{\triangle AEH}=\frac{1}{2}\times(\frac{1}{2}\cdot a)\times(\frac{1}{2}\cdot h) \\
-  \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\text{Properties of Similar triangles}} \\
+  \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\textsf{Properties of Similar triangles}} \\
   \frac{\triangle AEH}{\triangle ABD}=\frac{\frac{1}{8}\cdot a\cdot h}{\frac{1}{2}\cdot a\cdot h}=\frac{\frac{1}{8}}{\frac{1}{2}}=\frac{1}{4}  \\
   \end{array}
   >$
@@ -216,11 +216,11 @@ $
 ### $\fbox{29}\:$Figure 6–26, a square with a perimeter of $\small 20$ is inscribed in a square with a perimeter of $\small 28$. The maximum distance between a vertex of the small square and a vertex of the large square is $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 3 &
-(\text{B}) \: 4 &
-(\text{C}) \: 5 &
-(\text{D}) \: \sqrt{58} &
-(\text{E}) \: \sqrt{65} & \\
+\textsf{(A)} \: 3 &
+\textsf{(B)} \: 4 &
+\textsf{(C)} \: 5 &
+\textsf{(D)} \: \sqrt{58} &
+\textsf{(E)} \: \sqrt{65} & \\
 \end{array}
 $  
 :::  
@@ -242,7 +242,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(E)}$  
+  > $\boldsymbol{(E)}$  
   > According to the Solution, get $GE=\sqrt{65}$, so choose $E$. 
 
   :::
@@ -250,8 +250,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  c^2=a^2+b^2 \Rightarrow c=\sqrt{a^2+b^2} & \text{Pythagorean theorem} \\
-  (3,4,5) & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Commonly used pythagorean numbers}} \\
+  c^2=a^2+b^2 \Rightarrow c=\sqrt{a^2+b^2} & \textsf{Pythagorean theorem} \\
+  (3,4,5) & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\textsf{Commonly used pythagorean numbers}} \\
   \end{array}
   >$
 
@@ -262,11 +262,11 @@ $
 ### $\fbox{30}\:$Figure 6–27, quadrilateral $\small ABCD$ is square, $\small l_1,l_2,l_3$ pass through points $\small A,B$ and $\small C$ respectively, and $\small l_1 \parallel l_2 \parallel l_3$, $\small BM \perp l_1$ is at $\small M$, $\small BN \perp l_3$ is at $\small N$, if the distance between $\small l_1$ and $\small l_2$ is $\small 5$, and the distance between $\small l_2$ and $\small l_3$ is $\small 7$, then the area of square $\small ABCD$ is $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 70 &
-(\text{B}) \: 74 &
-(\text{C}) \: 140 &
-(\text{D}) \: 144 &
-(\text{E}) \: 148 & \\
+\textsf{(A)} \: 70 &
+\textsf{(B)} \: 74 &
+\textsf{(C)} \: 140 &
+\textsf{(D)} \: 144 &
+\textsf{(E)} \: 148 & \\
 \end{array}
 $  
 :::  
@@ -289,7 +289,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(B)}$  
+  > $\boldsymbol{(B)}$  
   > According to the Solution, get $S_{ABCD}=74$, so choose $B$. 
 
   :::
@@ -297,12 +297,12 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  c^2=a^2+b^2 \Rightarrow c=\sqrt{a^2+b^2} & \text{Pythagorean theorem} \\
+  c^2=a^2+b^2 \Rightarrow c=\sqrt{a^2+b^2} & \textsf{Pythagorean theorem} \\
   \begin{cases}
-  \text{Find a side and an angle (Acute angle)} \\
-  \text{Find their two sides} \\
-  \end{cases} & \text{Right triangle congruence} \\
-  S=a^2 & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_4-square}{\text{Square area formula}} \\
+  \textsf{Find a side and an angle (Acute angle)} \\
+  \textsf{Find their two sides} \\
+  \end{cases} & \textsf{Right triangle congruence} \\
+  S=a^2 & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_4-square}{\textsf{Square area formula}} \\
   \end{array}
   >$
 
@@ -319,11 +319,11 @@ __Rectangle__
 ### $\fbox{31}\:$Figure 6–28, the two sides of rectangle $\small ABCD$ are $\small 8$ and $\small 6$ respectively, and the area of quadrilateral $\small OEFG$ is $\small 4$, then the area of the shaded part is $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 32 &
-(\text{B}) \: 28 &
-(\text{C}) \: 24 &
-(\text{D}) \: 20 &
-(\text{E}) \: 16 & \\
+\textsf{(A)} \: 32 &
+\textsf{(B)} \: 28 &
+\textsf{(C)} \: 24 &
+\textsf{(D)} \: 20 &
+\textsf{(E)} \: 16 & \\
 \end{array}
 $  
 :::  
@@ -342,15 +342,15 @@ $
   S_{\triangle AOD}=12 \\
   S_{\triangle OEFG}=4 \\
   S_a+S_b=24-12-4=8 \\
-  S_\text{Shaded}=\frac{3}{4}\times 48-8=\frac{144}{4}-8=28 \\
+  S_\textsf{Shaded}=\frac{3}{4}\times 48-8=\frac{144}{4}-8=28 \\
   \end{array}
   $  
 :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(B)}$  
-  > According to the Solution, get $S_\text{Shaded}=28$, so choose $B$. 
+  > $\boldsymbol{(B)}$  
+  > According to the Solution, get $S_\textsf{Shaded}=28$, so choose $B$. 
 
   :::
 - Diagonals of a rectangle divide it into four congruent right triangles, each with $\frac{1}{4}$ of the rectangle's area   
@@ -371,11 +371,11 @@ $
 ### $\fbox{32}\:$Figure 6–29, in rectangle $\small ABCD$, points $\small E, F, G, H$ are on $\small AB, BC, CD, DA$ respectively, and point $\small P$ is inside rectangle $\small ABCD$. If $\small AB=4, BC=6$, $\small AE=CG=3, BF=DH=4$, and the area of quadrilateral $\small AEPH$ is $\small 5$, then the area of quadrilateral $\small PFCG$ is $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 5 &
-(\text{B}) \: 6 &
-(\text{C}) \: 8 &
-(\text{D}) \: 9 &
-(\text{E}) \: 10 & \\
+\textsf{(A)} \: 5 &
+\textsf{(B)} \: 6 &
+\textsf{(C)} \: 8 &
+\textsf{(D)} \: 9 &
+\textsf{(E)} \: 10 & \\
 \end{array}
 $  
 :::  
@@ -402,7 +402,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(C)}$  
+  > $\boldsymbol{(C)}$  
   > According to the Solution, get $C$, so choose $S_{PFCG}=8$. 
 
   :::
@@ -410,7 +410,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  S=\frac{1}{2}ah & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{\text{Triangle area formula}} \\
+  S=\frac{1}{2}ah & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{\textsf{Triangle area formula}} \\
   \end{array}
   >$
 
@@ -421,11 +421,11 @@ $
 ### $\fbox{33}\:$A farmer wants to build a rectangular sheep pen with a perimeter of $\small 120$ and a diagonal no longer than $\small 50$, What is the minimum possible area of the pen $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 450 &
-(\text{B}) \: 500 &
-(\text{C}) \: 520 &
-(\text{D}) \: 540 &
-(\text{E}) \: 550 & \\
+\textsf{(A)} \: 450 &
+\textsf{(B)} \: 500 &
+\textsf{(C)} \: 520 &
+\textsf{(D)} \: 540 &
+\textsf{(E)} \: 550 & \\
 \end{array}
 $  
 :::
@@ -439,14 +439,14 @@ $
   C=120 \Rightarrow a+b=60 \\
   c=\sqrt{a^2+b^2} \le 50 \\
   2ab=(a+b)^2-(a^2+b^2) \\
-  S=ab=\frac{(a+b)^2-(a^2+b^2)}{2} \ge \frac{60^2-50^2}{2}=550 & \text{Since both sides are } - \times (a^2+b^2) \text{, Flip the sign} \\
+  S=ab=\frac{(a+b)^2-(a^2+b^2)}{2} \ge \frac{60^2-50^2}{2}=550 & \textsf{Since both sides are } - \times (a^2+b^2) \textsf{, Flip the sign} \\
   \end{array}
   $  
 :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(E)}$  
+  > $\boldsymbol{(E)}$  
   > According to the Solution, get $S\ge 550$, so choose $E$. 
 
   :::
@@ -454,10 +454,10 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  c^2=a^2+b^2 \Rightarrow c=\sqrt{a^2+b^2} & \text{Pythagorean theorem} \\
-  S=ab & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_2-rectangle}{\text{Rectangle area formula}} \\ 
-  2ab=(a+b)^2-(a^2+b^2) & \text{Rectangle area identity} \\
-  y^2=x \implies \sqrt[2]{x} & \text{Definition of square root} \\
+  c^2=a^2+b^2 \Rightarrow c=\sqrt{a^2+b^2} & \textsf{Pythagorean theorem} \\
+  S=ab & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_2-rectangle}{\textsf{Rectangle area formula}} \\ 
+  2ab=(a+b)^2-(a^2+b^2) & \textsf{Rectangle area identity} \\
+  y^2=x \implies \sqrt[2]{x} & \textsf{Definition of square root} \\
   \end{array}
   >$
 
@@ -485,11 +485,11 @@ __Rhombus__
 ### $\fbox{34}\:$Given a rhombus whose two diagonals have lengths $\small 10$ and $\small 24$ respectively, the area of the rhombus is $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 110 &
-(\text{B}) \: 120 &
-(\text{C}) \: 130 &
-(\text{D}) \: 140 &
-(\text{E}) \: 160 & \\
+\textsf{(A)} \: 110 &
+\textsf{(B)} \: 120 &
+\textsf{(C)} \: 130 &
+\textsf{(D)} \: 140 &
+\textsf{(E)} \: 160 & \\
 \end{array}
 $  
 :::
@@ -504,7 +504,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(B)}$  
+  > $\boldsymbol{(B)}$  
   > According to the Solution, get $S=120$, so choose $B$. 
 
   :::
@@ -512,7 +512,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  S=\frac{l_1\cdot l_2}{2} & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_3-rhombus}{\text{Rhombus area formula}} \\
+  S=\frac{l_1\cdot l_2}{2} & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_3-rhombus}{\textsf{Rhombus area formula}} \\
   \end{array}
   >$
 
@@ -523,11 +523,11 @@ $
 ### $\fbox{35}\:$Given a rhombus with a perimeter of $\small 52$ and one diagonal of length $\small 24$, the area of the rhombus is $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 110 &
-(\text{B}) \: 120 &
-(\text{C}) \: 130 &
-(\text{D}) \: 140 &
-(\text{E}) \: 160 & \\
+\textsf{(A)} \: 110 &
+\textsf{(B)} \: 120 &
+\textsf{(C)} \: 130 &
+\textsf{(D)} \: 140 &
+\textsf{(E)} \: 160 & \\
 \end{array}
 $  
 :::
@@ -538,7 +538,7 @@ $
 
   $
   \begin{array}{ll}
-  \text{Side length}=\frac{52}{4}=13 \\
+  \textsf{Side length}=\frac{52}{4}=13 \\
   l_1=24 \\
   l_2=(5,12,13) \implies 5\times 2 =10 \\
   S=\frac{10\times 24}{2} = 120 \\
@@ -548,7 +548,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(B)}$  
+  > $\boldsymbol{(B)}$  
   > According to the Solution, get $S=120$, so choose $B$. 
 
   :::
@@ -556,8 +556,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  (5,12,13)& \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Commonly used pythagorean numbers}} \\
-  S=\frac{l_1\cdot l_2}{2} & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_3-rhombus}{\text{Rhombus area formula}} \\
+  (5,12,13)& \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\textsf{Commonly used pythagorean numbers}} \\
+  S=\frac{l_1\cdot l_2}{2} & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_3-rhombus}{\textsf{Rhombus area formula}} \\
   \end{array}
   >$
 
@@ -568,11 +568,11 @@ $
 ### $\fbox{36}\:$Figure 6–30, in rhombus $\small ABCD$, the lengths of the two diagonals are $\small 6$ and $\small 8$ respectively, point $\small P$ is a moving point on $\small AC$, $\small M, N$ are the midpoints of $\small AB, AC$ respectively, then the minimum value of $\small PM+PN$ is $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 3 &
-(\text{B}) \: 4 &
-(\text{C}) \: 5 &
-(\text{D}) \: 6 &
-(\text{E}) \: 7 & \\
+\textsf{(A)} \: 3 &
+\textsf{(B)} \: 4 &
+\textsf{(C)} \: 5 &
+\textsf{(D)} \: 6 &
+\textsf{(E)} \: 7 & \\
 \end{array}
 $  
 :::  
@@ -584,9 +584,9 @@ $
 
   $
   \begin{array}{ll}
-  & \text{The symmetric point of }N\text{ about }AC\text{ is }N^\prime.\\
+  & \textsf{The symmetric point of }N\textsf{ about }AC\textsf{ is }N^\prime.\\
   PM+PN=PM+PN^\prime \ge MN^\prime & a+b>c \\
-  MN^\prime=AD & \text{Let }M, N^\prime\text{ be the midpoints of }AB, DC\text{, respectively.} \\
+  MN^\prime=AD & \textsf{Let }M, N^\prime\textsf{ be the midpoints of }AB, DC\textsf{, respectively.} \\
   (3,4,5) \implies DC=5 \\
   AD=DC=5 \\
   PM+PN^\prime \ge 5 \\
@@ -596,7 +596,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(C)}$  
+  > $\boldsymbol{(C)}$  
   > According to the Solution, get $PM+PN=PM+PN^\prime \ge 5$, so choose $C$. 
 
   :::
@@ -604,8 +604,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  (3,4,5)& \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\text{Commonly used pythagorean numbers}} \\
-  a+b>c & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\text{Trilateral relations}} \\
+  (3,4,5)& \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\textsf{Commonly used pythagorean numbers}} \\
+  a+b>c & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\textsf{Trilateral relations}} \\
   \end{array}
   >$
 
@@ -626,11 +626,11 @@ __Parallelogram__
 ### $\fbox{37}\:$Figure 6–31, it is known that $\small P$ is a point inside the parallelogram $\small ABCD$, and $\small S_{\triangle PAB}=5, S_{\triangle PAD}=2$, then $\small S_{\triangle PAC}=\, \mathpunct{?}$. 
 $
 \begin{array}{lllll}
-(\text{A}) \: 2 &
-(\text{B}) \: 3 &
-(\text{C}) \: 3.5 &
-(\text{D}) \: 4 &
-(\text{E}) \: 5 & \\
+\textsf{(A)} \: 2 &
+\textsf{(B)} \: 3 &
+\textsf{(C)} \: 3.5 &
+\textsf{(D)} \: 4 &
+\textsf{(E)} \: 5 & \\
 \end{array}
 $  
 :::  
@@ -653,7 +653,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(B)}$  
+  > $\boldsymbol{(B)}$  
   > According to the Solution, get $S_{\triangle PAC}=3$, so choose $B$. 
 
   :::
@@ -667,11 +667,11 @@ __Trapezoid__
 ### $\fbox{38}\:$Figure 6–32, $\small AB \perp BC$ at point $\small B$, $\small CD \perp BC$ at point $\small C$, the angle bisectors of $\angle BAD$ and $\angle CDA$ intersect at point $\small E$ on $\small BC$, $\small AD=8, BC=6$, then the area of quadrilateral $\small ABCD$ is $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 12 &
-(\text{B}) \: 24 &
-(\text{C}) \: 36 &
-(\text{D}) \: 48 &
-(\text{E}) \: 96 & \\
+\textsf{(A)} \: 12 &
+\textsf{(B)} \: 24 &
+\textsf{(C)} \: 36 &
+\textsf{(D)} \: 48 &
+\textsf{(E)} \: 96 & \\
 \end{array}
 $  
 :::  
@@ -683,12 +683,12 @@ $
 
   $
   \begin{array}{ll}
-  ABCD=\text{Right trapezoid} \\
+  ABCD=\textsf{Right trapezoid} \\
   AB \parallel CD \\
-  \angle BAD + \angle CDA=180^\circ & \text{adjacent interior angles }180^\circ \\
+  \angle BAD + \angle CDA=180^\circ & \textsf{adjacent interior angles }180^\circ \\
   S_{ABCD}=\frac{AB+CD}{2}\times BC \\
-  \text{The points on the angle bisector divide} \\ 
-  \text{the left and right triangles into two congruent triangles.} \\
+  \textsf{The points on the angle bisector divide} \\ 
+  \textsf{the left and right triangles into two congruent triangles.} \\
   \triangle EFA \cong \triangle ABE \\
   \triangle DFE \cong \triangle DEC \\
   AF=AB \\
@@ -701,7 +701,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(B)}$  
+  > $\boldsymbol{(B)}$  
   > According to the Solution, get $S_{ABCD}=24$, so choose $B$. 
 
   :::
@@ -713,8 +713,8 @@ $
   \angle1=\angle4 \\
   \angle2=\angle4 \\
   \angle1+\angle4=180^\circ \\
-  \end{cases} & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-a-parallel-line}{\text{Angle relationship}} \\
-  S=\frac{a+b}{2}h & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_5-trapezoid}{\text{Trapezoid area formula}} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-a-parallel-line}{\textsf{Angle relationship}} \\
+  S=\frac{a+b}{2}h & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_5-trapezoid}{\textsf{Trapezoid area formula}} \\
   \end{array}
   >$
 
@@ -725,11 +725,11 @@ $
 ### $\fbox{39}\:$Figure 6–33, in trapezoid $\small ABCD$, $\small AD \parallel BC$. Points $\small P, Q$ are the midpoints of $\small AD, BC$ respectively. Point $\small O$ is the midpoint of $\small PQ$. A line is drawn through point $\small O$, intersecting $\small AD$ at point $\small M$ and $\small BC$ at point $\small N$. Then the area ratio of quadrilaterals $\small AMNB$ and $\small MDCN$ is $\small \, \mathpunct{?}$. 
 $
 \begin{array}{lllll}
-(\text{A}) \: \frac{1}{2} &
-(\text{B}) \: 1 &
-(\text{C}) \: \frac{2}{3} &
-(\text{D}) \: \frac{3}{2} &
-(\text{E}) \: 2 & \\
+\textsf{(A)} \: \frac{1}{2} &
+\textsf{(B)} \: 1 &
+\textsf{(C)} \: \frac{2}{3} &
+\textsf{(D)} \: \frac{3}{2} &
+\textsf{(E)} \: 2 & \\
 \end{array}
 $  
 :::  
@@ -744,8 +744,8 @@ $
   S_{AMNB}=\frac{S_{ABCD}}{2}+S_{\triangle POM}-S_{\triangle NOQ} \\
   \begin{cases}
   \begin{array}{ll}
-  \angle NQO = \angle MPO & \text{Right angles are equal}\\
-  \angle POM = \angle NOQ & \text{Vertical angles are equal}\\
+  \angle NQO = \angle MPO & \textsf{Right angles are equal}\\
+  \angle POM = \angle NOQ & \textsf{Vertical angles are equal}\\
   \end{array}
   \end{cases} \Rightarrow \triangle NOQ \cong \triangle POM \\
   S_{AMNB}=\frac{S_{ABCD}}{2} \Rightarrow S_{MDCN}=\frac{S_{ABCD}}{2} \\
@@ -756,7 +756,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(B)}$  
+  > $\boldsymbol{(B)}$  
   > According to the Solution, get $frac{S_{AMNB}}{S_{MDCN}}=1$, so choose $B$. 
 
   :::
@@ -770,11 +770,11 @@ __Other quadrilaterals__
 ### $\fbox{40}\:$Figure 6–34, given that $\small ABCD$ is a parallelogram, and $\small BC:CE=3:2$, and the area of triangle $\small ODE$ is $\small 6$. Then the area of the shaded region is $\small \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 20 &
-(\text{B}) \: 21 &
-(\text{C}) \: 22 &
-(\text{D}) \: 24 &
-(\text{E}) \: 26 & \\
+\textsf{(A)} \: 20 &
+\textsf{(B)} \: 21 &
+\textsf{(C)} \: 22 &
+\textsf{(D)} \: 24 &
+\textsf{(E)} \: 26 & \\
 \end{array}
 $  
 :::  
@@ -786,9 +786,9 @@ $
 
   $
   \begin{array}{ll}
-  \text{Join the diagonal }AC \\
-  ACED=\text{Trapezoid} \\
-  AD=BC & \text{Parallelogram}\\
+  \textsf{Join the diagonal }AC \\
+  ACED=\textsf{Trapezoid} \\
+  AD=BC & \textsf{Parallelogram}\\
   AD:CE=3:2 \\
   \begin{cases}
   a^2=3^2=9 \\
@@ -810,7 +810,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(B)}$  
+  > $\boldsymbol{(B)}$  
   > According to the Solution, get $S_{Shaded}=15+6=21$, so choose $B$. 
 
   :::
@@ -818,7 +818,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  S_1:S_3:S_2:S_4=a^2:b^2:ab:ab & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#the-butterfly-theorem-of-trapezoid-and-similar-proportions-figure-6%E2%80%9324}{\text{Butterfly theorem(Trapezoid) & Similarity proportions}} \\
+  S_1:S_3:S_2:S_4=a^2:b^2:ab:ab & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#the-butterfly-theorem-of-trapezoid-and-similar-proportions-figure-6%E2%80%9324}{\textsf{Butterfly theorem(Trapezoid) & Similarity proportions}} \\
   \end{array}
   >$
 
@@ -829,11 +829,11 @@ $
 ### $\fbox{41}\:$Figure 6–35, Rectangle $\small ABCD$ is divided into four pieces by $\small CE$ and $\small DF$. Given that the areas of three of the pieces are $\small 2, 5$ and $\small 8$ respectively. The area of the remaining quadrilateral $\small OFBC=\, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 10 &
-(\text{B}) \: 9 &
-(\text{C}) \: 8 &
-(\text{D}) \: 7 &
-(\text{E}) \: 6 & \\
+\textsf{(A)} \: 10 &
+\textsf{(B)} \: 9 &
+\textsf{(C)} \: 8 &
+\textsf{(D)} \: 7 &
+\textsf{(E)} \: 6 & \\
 \end{array}
 $  
 :::  
@@ -845,9 +845,9 @@ $
 
   $
   \begin{array}{ll}
-  \text{Join the diagonal }CF\text{ and }DE \\
-  EDCF=\text{Trapezoid} \\
-  2\times 8= 4\times 4 & \text{Top}\times\text{Bottom}=\text{Left}\times\text{Right} \\
+  \textsf{Join the diagonal }CF\textsf{ and }DE \\
+  EDCF=\textsf{Trapezoid} \\
+  2\times 8= 4\times 4 & \textsf{Top}\times\textsf{Bottom}=\textsf{Left}\times\textsf{Right} \\
   S_{\triangle EOD}=S_{\triangle COF}=4 \\
   S_{\triangle CDF}=\frac{1}{2}S_{ABCD}=8+4=12 \\
   S_{ABCD}=S_{\triangle CDF}\times 2=24 \\
@@ -858,7 +858,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(B)}$  
+  > $\boldsymbol{(B)}$  
   > According to the Solution, get $S_{OFBC}=9$, so choose $B$. 
 
   :::
@@ -866,9 +866,9 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  S_1\times S_3=S_2 \times S_4 & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#proportional-relations-in-any-quadrilateral-figure-6%E2%80%9323}{\text{Top}\times\text{Bottom}=\text{Left}\times\text{Right}} \\
-  S_1:S_3:S_2:S_4=a^2:b^2:ab:ab & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#the-butterfly-theorem-of-trapezoid-and-similar-proportions-figure-6%E2%80%9324}{\text{Butterfly theorem(Trapezoid) & Similarity proportions}} \\
-  S_\triangle=\frac{1}{2}S_{ABCD} & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#a-triangle-with-base-and-height-equal-to-those-of-a-rectangle-has-the-area-of-the-rectangle}{\text{Half area rule}}
+  S_1\times S_3=S_2 \times S_4 & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#proportional-relations-in-any-quadrilateral-figure-6%E2%80%9323}{\textsf{Top}\times\textsf{Bottom}=\textsf{Left}\times\textsf{Right}} \\
+  S_1:S_3:S_2:S_4=a^2:b^2:ab:ab & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#the-butterfly-theorem-of-trapezoid-and-similar-proportions-figure-6%E2%80%9324}{\textsf{Butterfly theorem(Trapezoid) & Similarity proportions}} \\
+  S_\triangle=\frac{1}{2}S_{ABCD} & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#a-triangle-with-base-and-height-equal-to-those-of-a-rectangle-has-the-area-of-the-rectangle}{\textsf{Half area rule}}
   \end{array}
   >$
 
@@ -887,15 +887,15 @@ __Polygon__
 
   $
   \begin{array}{ll}
-  \text{Divided into }6\text{ equilateral triangles} \\
-  S=\frac{\sqrt{3}}{4}a^2 & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#the-area-of-an-equilateral-triangle-is-where-is-the-length-of-the-side}{\text{Equilateral triangle area formula}} \\
+  \textsf{Divided into }6\textsf{ equilateral triangles} \\
+  S=\frac{\sqrt{3}}{4}a^2 & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#the-area-of-an-equilateral-triangle-is-where-is-the-length-of-the-side}{\textsf{Equilateral triangle area formula}} \\
   S=\frac{\sqrt{3}}{4}a^2 \times 6 =\frac{3\sqrt{3}}{2}a^2 \\
   \end{array}
   $  
   :::
 
 - Interior Angles of Common Regular Polygons  
-  > $\text{Each interior angle}=\frac{(n-2)\times 180^\circ}{n}$
+  > $\textsf{Each interior angle}=\frac{(n-2)\times 180^\circ}{n}$
 
   | Regular Polygon      | Number of Sides(n) | Each Interior Angle($^\circ$)                 |
   |----------------------|--------------------|-----------------------------------------------|
@@ -911,11 +911,11 @@ __Polygon__
 ### $\fbox{42}\:$The area of a regular hexagon with a side length of $\small 2$ is $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
-(\text{A}) \: 2\sqrt{3}  &
-(\text{B}) \: 3\sqrt{3} &
-(\text{C}) \: 4\sqrt{3} &
-(\text{D}) \: 6\sqrt{3} &
-(\text{E}) \: 8\sqrt{3} & \\
+(\textsf{A}) \: 2\sqrt{3}  &
+(\textsf{B}) \: 3\sqrt{3} &
+(\textsf{C}) \: 4\sqrt{3} &
+(\textsf{D}) \: 6\sqrt{3} &
+(\textsf{E}) \: 8\sqrt{3} & \\
 \end{array}
 $  
 :::
@@ -930,7 +930,7 @@ $
 #### Conclusion
 - Derived Solution  
   ::: wrap
-  > $\mathbf{(D)}$  
+  > $\boldsymbol{(D)}$  
   > According to the Solution, get $S=6\sqrt{3}$, so choose $D$. 
 
   :::
@@ -938,7 +938,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  S=\frac{3\sqrt{3}}{2}a^2 & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#regular-hexagon}{\text{Regular hexagon area formula}} \\
+  S=\frac{3\sqrt{3}}{2}a^2 & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#regular-hexagon}{\textsf{Regular hexagon area formula}} \\
   \end{array}
   >$
 
