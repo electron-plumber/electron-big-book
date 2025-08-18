@@ -318,13 +318,10 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \textsf{Right triangle congruence}
   \begin{cases}
-  \textsf{Find a side and an angle (Acute angle)} \\
-  \textsf{Find their two sides
-  > (No need
-  > to find the third side because the } \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\textsf{Pythagorean theorem}} \textsf{ is satisfied}) \\
-  \end{cases} & \textsf{} \\
+  \textsf{find one side and an acute angle }0^\circ \sim 90^\circ \\
+  \textsf{find two sides (pythagorean theorem already holds)} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#identification}{\textsf{right triangle congruence}} \\
   \end{array}
   >$
 

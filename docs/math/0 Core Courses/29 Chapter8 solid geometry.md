@@ -663,7 +663,7 @@ $
 __The section of a sphere__  
 - Let the distance from the center of the sphere to the section be $d$,
   the radius of the sphere be $R$, and the radius of the section be $r$.
-  According to the __Pythagorean theorem__, then: $r^2+d^2=R^2$. 
+  According to __the pythagorean theorem__, then: $r^2+d^2=R^2$. 
 
 
 

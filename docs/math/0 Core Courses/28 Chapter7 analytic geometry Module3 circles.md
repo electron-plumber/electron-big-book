@@ -286,7 +286,7 @@ $
 | __Line intersects circle__<br/>2 Intersection Points | ![Line circle relationship diagram 3.svg](../../public/math/Core%20Courses/Line%20circle%20relationship%20diagram%203.svg) |                $d<r$                 |
 
 - ###### Chord length of a circle   
-  - Derived from the Pythagorean theorem.   
+  - Derived from the pythagorean theorem.   
   - $\textsf{chord length} = 2\sqrt{r^2-d^2}$      
     ![Circle chord length.svg](../../public/math/Core%20Courses/Circle%20chord%20length.svg)  
 
@@ -371,7 +371,7 @@ __The positional relationship between a line and a circle__
   Then compare __the sizes of $\boldsymbol{d}$ and $\boldsymbol{r}$__ to __determine their relationship__. 
   The most important positional relationship is tangency. 
   Additionally, when the line intersects the circle, 
-  you should be able to use __the Pythagorean theorem to find the chord length__:
+  you should be able to use __the pythagorean theorem to find the chord length__:
   $\textsf{chord length} = \boldsymbol{2\sqrt{r^2-d^2}}$.
 
 
