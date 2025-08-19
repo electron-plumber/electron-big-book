@@ -454,7 +454,7 @@ $
   ::: wrap  
   $
   \begin{array}{ll}
-  \frac{x-x_1}{x_2-x_1}=\frac{y-y_1}{y_2-y_1} & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#in-similar-triangles-the-ratios-of-corresponding-sides-are-equal}{\textsf{similarity ratio}} \\
+  \frac{x-x_1}{x_2-x_1}=\frac{y-y_1}{y_2-y_1} & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#in-similar-triangles-or-similar-figures-the-ratios-of-corresponding-sides-are-equal-called-the-similarity-ratio}{\textsf{similarity ratio}} \\
   y-y_1=\frac{x-x_1}{x_2-x_1}(y_2-y_1) \\
   y-y_1=\underbrace{\boxed{\frac{y_2-y_1}{x_2-x_1}}}_{k}(x-x_1) & \textsf{point-slope form} \\
   \end{array}

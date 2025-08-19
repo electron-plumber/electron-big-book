@@ -311,7 +311,7 @@ $
   \begin{cases}
   \textsf{find one side and an acute angle }0^\circ \sim 90^\circ \\
   \textsf{find two sides (pythagorean theorem already holds)} \\
-  \end{cases} & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#identification}{\textsf{right triangle congruence}} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#identification}{\textsf{right triangles congruence}} \\
   S=a^2 & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_4-square}{\textsf{square area formula}} \\
   \end{array}
   >$
