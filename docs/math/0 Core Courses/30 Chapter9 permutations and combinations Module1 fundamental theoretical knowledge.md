@@ -412,9 +412,11 @@ When $m=n$, it is called __a full permutation__, written as $\boldsymbol{P_n^n}$
 
 
 ### $\textcolor{#1E3A5F}{\fbox{3}}\:$Formula for the number of permutations
+::: wrap  
 - $P_n^m=A_n^m=n(n-1)(n-2)\cdots(n-m+1)=\frac{n!}{(n-m)!}$   
 - $n$: total number of available items (supply).
 - $m$: number of items to arrange (demand, order matters).
+:::  
 - __Example__      
   $
   \begin{array}{ll}
@@ -432,6 +434,7 @@ is called __a combination__ of $m$ elements from $n$ distinct elements.
 ### $\textcolor{#1E3A5F}{\fbox{2}}\:$Number of combinations
 - The number of combinations refers to __the total number of ways__ to choose $m$ elements $(m \le n)$ from $n$ distinct elements.
 It is denoted as $\boldsymbol{C_n^m}$.
+  ::: wrap  
   - ###### __Formula for the number of combinations__: $C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1}=\frac{n!}{m!(n-m)!}=\boldsymbol{\frac{A_n^m}{m!}}$.
     - $n$: total number of available items (supply).
     - $m$: number of elements to choose (demand, order doesn't matter).   
@@ -443,6 +446,7 @@ It is denoted as $\boldsymbol{C_n^m}$.
       C_7^4=\frac{7\times6\times5\times4}{4\times3\times2\times1}=\frac{840}{24}=35 \\
       \end{array}
       $
+  :::  
   - ###### A permutation is __a combination__ followed by __arrangement__: $A_n^m=C_n^m \boldsymbol{\cdot} A_m^m=\boldsymbol{C_n^m \cdot m!}$.
     - __Example__: $A_4^3=C_4^3\times3!$
 

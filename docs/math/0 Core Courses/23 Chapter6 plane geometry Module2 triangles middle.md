@@ -19,8 +19,9 @@ lang: en-US
 - Application: when __two sides and the included angle__ are known, this formula can be __used to find the area__.  
   ![Triangle Area formula two sides angle.svg](../../public/math/Core%20Courses/Triangle%20Area%20formula%20two%20sides%20angle.svg)     
 
-
+::: wrap  
 ### $\textcolor{#1E3A5F}{\fbox{3}\:}\: \small S=\sqrt{p(p-a)(p-b)(p-c)}$, where $\small p=\frac{1}{2}(a+b+c)$
+:::  
 - Application: when __all three sides of the triangle__ are known, this formula can be __used to find the area__.    
   ![Triangle area formula three sides.svg](../../public/math/Core%20Courses/Triangle%20area%20formula%20three%20sides.svg)      
 
@@ -339,11 +340,15 @@ $
 
 
 
-## 10.Area Ratio Theorem for Common Angle Triangles
+## 10.Area Ratio Theorem for Common-Angle Triangles
+::: wrap  
 - If two triangles have $\overbrace{\textsf{angle that is equal or supplementary}}^{\href{https://www.mathsisfun.com/sine-cosine-tangent.html}{\textsf{same sine value}}}$, they're called __common-angle triangles__.
+:::  
 - For common-angle triangles, __the ratio of their areas equals the ratio of the products of the two sides enclosing the equal (or supplementary) angle__.
+::: wrap  
 - Figure 6–11, in $\angle ABC$ and $\angle ADE$, since __the sine of $\boldsymbol{\angle A}$ has the same sine value__, $\boldsymbol{S_{\triangle ABC}:S_{\triangle ADE}=(AB \cdot AC):(AD \cdot AE)}$.     
   ![Common angle area ratio theorem figure 6-11.svg](../../public/math/Core%20Courses/Common%20angle%20area%20ratio%20theorem%20figure%206-11.svg)  
+:::  
 - __Theorem derivation__     
   ::: wrap  
   $
@@ -356,13 +361,20 @@ $
 
 
 
+
 ## 11.Focus 6
-__Solve area using the Bird's Head theorem.__   
-- When two triangles share a common angle or have equal angles, the __Bird's Head theorem__ can be used: the ratio of their areas is equal to the ratio of the products of the sides adjacent to the corresponding angles (whether the angles are equal or supplementary).
+__The use of the area ratio theorem for common-angle triangles__   
+- If triangles with __a common or equal angle appear__,
+  __the area ratio theorem for common-angle triangles__ can be applied:
+  __the ratio of their areas equals the ratio of the products of the two sides enclosing the equal (or supplementary) angle__.
 
 
-::: wrap
-### $\fbox{17}\:$Figure 6–15, in $\small \triangle ABC$, points $\small D, E$ lie onside $\small AB, AC$ respectively, and $\small AD: AB=2:5, AE: AC=4:7, S_{\triangle ADE}=16$, then the area of $\small \triangle ABC$ is $\small \, \mathpunct{?}$.
+
+::: wrap  
+### $\fbox{17}\:$Figure 6–15, in $\small \triangle ABC$, points $\small D$ and $\small E$ lie on $\small AB$ and $\small AC$, respectively. Given that $\small AD:AB=2:5, AE:AC=4:7, S_{\triangle ADE}=16$, find the area of $\small \triangle ABC$.
+:::  
+![Question triangles figure 6-15.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-15.svg)  
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 56 &
@@ -372,13 +384,11 @@ $
 \textsf{(E)} \: 72 & \\
 \end{array}
 $  
-:::  
-![Question triangles figure 6-15.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-15.svg)  
+:::
 #### Solution
-::: wrap  
 - Show known conditions  
   ![Question triangles figure 6-15 solve-1.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-15%20solve-1.svg)   
-
+  ::: wrap  
   $
   \begin{array}{ll}
   \frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{AD\times AE}{AB \times AC}=\frac{2}{5}\times \frac{4}{7}= \frac{8}{35} \\
@@ -389,7 +399,7 @@ $
   S_{\triangle ABC}=\frac{560}{8}=70 \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
@@ -401,14 +411,19 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{AD\times AE}{AB \times AC} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_10-area-ratio-theorem-for-common-angle-triangles}{\textsf{common angle triangles – area ratio theorem}} \\
+  \frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{AD\times AE}{AB \times AC} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_10-area-ratio-theorem-for-common-angle-triangles}{\textsf{common-angle triangles – area ratio theorem}} \\
   \end{array}
   >$
 
   :::
 ---
-::: wrap
-### $\fbox{18}\:$Figure 6–15, in $\small \triangle ABC$, point $\small D$ lies on the extension of side $\small BA$, and point $\small E$ lies onside $\small AC$, give that $AB: AD=5:2, AE: EC=3:2, S_{\triangle ADE}=12$, then the area of $\small \triangle ABC$ is $\small \, \mathpunct{?}$.
+
+
+::: wrap  
+### $\fbox{18}\:$Figure 6–15, in $\small \triangle ABC$, point $\small D$ lies on the extension of $\small BA$, and point $\small E$ lies on $\small AC$. Given that $AB: AD=5:2, AE: EC=3:2, S_{\triangle ADE}=12$, find the area of $\small \triangle ABC$.
+:::  
+![Question triangles figure 6-16.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-16.svg)  
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 30 &
@@ -418,13 +433,11 @@ $
 \textsf{(E)} \: 50 & \\
 \end{array}
 $  
-:::  
-![Question triangles figure 6-16.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-16.svg)  
+:::
 #### Solution
-::: wrap  
 - Show known conditions  
   ![Question triangles figure 6-16 solve-1.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-16%20solve-1.svg)  
-
+  ::: wrap  
   $
   \begin{array}{ll}
   \frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{AD \times AE}{AB \times AC}=\frac{2 \times 3}{5 \times(3+2)}=\frac{6}{25} \\
@@ -435,7 +448,7 @@ $
   S_{\triangle ABC}=\frac{300}{6}=50 \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
@@ -447,7 +460,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{AD\times AE}{AB \times AC} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_10-area-ratio-theorem-for-common-angle-triangles}{\textsf{common angle triangles – area ratio theorem}} \\
+  \frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{AD\times AE}{AB \times AC} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_10-area-ratio-theorem-for-common-angle-triangles}{\textsf{common-angle triangles – area ratio theorem}} \\
   \end{array}
   >$
 
@@ -485,12 +498,16 @@ $
 
 
 ## 13.Focus 7
-__Solve area using the Swallowtail theorem (equal altitudes).__  
-- When a point inside a triangle is joined to each of the triangle's vertices, the __Swallowtail theorem__ can be applied for analysis.
+__The use of the area ratio theorem for concurrent cevians__
+- If __a point inside a triangle__ is __connected to all three vertices__,
+  __the area ratio theorem for concurrent cevians__ can be applied.
 
 
-::: wrap
-### $\fbox{19}\:$Figure 6–17, in triangle $\small ABC$, $\small BD:DC=4:9, CE:EA=4:3$, then $\small AF:FB=\, \mathpunct{?}$.
+::: wrap  
+### $\fbox{19}\:$Figure 6–17, in $\small \triangle ABC$, $\small BD:DC=4:9, CE:EA=4:3$, then $\small AF:FB=\,\mathpunct{?}$.
+:::  
+![Question triangles figure 6-17.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-17.svg)  
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 27:17 &
@@ -500,13 +517,11 @@ $
 \textsf{(E)} \: 27:16 & \\
 \end{array}
 $  
-:::  
-![Question triangles figure 6-17.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-17.svg)  
+:::
 #### Solution
-::: wrap  
-- Show known conditions     
+- Show known conditions  
   ![Question triangles figure 6-17 solve-1.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-17%20solve-1.svg)  
-
+  ::: wrap  
   $
   \begin{array}{ll}
   ① \;\, \frac{BD}{CD}=\frac{S_{\triangle AOB}}{S_{\triangle AOC}} \\
@@ -514,11 +529,10 @@ $
   ③ \;\, \frac{AF}{BF}=\frac{S_{\triangle AOC}}{S_{\triangle BOC}} \\
   \frac{BD}{CD}\times \frac{CE}{AE}\times \frac{AF}{BF}=\frac{\cancel{S_{\triangle AOB}}}{\cancel{S_{\triangle AOC}}}\times \frac{\cancel{S_{\triangle BOC}}}{\cancel{S_{\triangle AOB}}}\times \frac{\cancel{S_{\triangle AOC}}}{\cancel{S_{\triangle BOC}}}=1 \\
   \frac{4}{9}\times \frac{4}{3}\times \frac{AF}{BF}=1 \\
-  \frac{27}{16}(\frac{16}{27})\times \frac{AF}{BF}=\frac{27}{16}(1) \\
-  \frac{AF}{BF}=\frac{27}{16} \\
+  \frac{16}{27} \times \frac{AF}{BF}=1 \Longrightarrow \frac{AF}{BF}=\frac{27}{16} \\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap

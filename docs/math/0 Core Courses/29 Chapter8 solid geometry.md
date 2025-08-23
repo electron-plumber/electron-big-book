@@ -245,7 +245,9 @@ $
 - ###### Volume: $V=\pi r^2h$. 
 - ###### Lateral surface area: $S=2\pi rh$. 
   - The lateral surface in its developed form is a rectangle with length $2πr$ and width $h$.  
+::: wrap  
 - ###### Total surface area: $F=S_{\textsf{lateral}}+2S_{\textsf{base}}=2\pi rh+2\pi r^2$.
+:::  
 
 ## 3.Focus 1
 __The cylinders__   
