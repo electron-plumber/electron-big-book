@@ -130,7 +130,7 @@ $
   > According to the Solution, get $N=10$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -196,7 +196,7 @@ $
   > According to the Solution, get $N=10$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -300,7 +300,7 @@ $
   > According to the Solution, get $N=12$, so choose $E$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -378,7 +378,7 @@ $
   > According to the Solution, get $N=31$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -494,7 +494,7 @@ $
   > According to the Solution, get $70-35=35$, so choose $E$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -560,7 +560,7 @@ $
   > According to the Solution, get $m=1+\sum_{k=1}^{n}k$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -647,12 +647,12 @@ $
   > According to the Solution, get $12$, so choose $E$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
   P_n^m=А_n^m=n(n-1)(n-2)\cdots(n-m+1) & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#formula-for-the-number-of-permutations}{\textsf{permutation formula }} \\
-  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{permutation as an ordered combination}} \\
+  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{combination to permutation formula}} \\
   C_n^m=\frac{n(n-1)\cdots(n-m+1)}{m(m-1)\cdots\,\boldsymbol{\cdot} 2\boldsymbol{\cdot} 1} & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#formula-for-the-number-of-combinations}{\textsf{combination formula}} \\
   \end{array}
   >$
@@ -702,7 +702,7 @@ $
   > According to the Solution, get $6$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -741,7 +741,7 @@ $
   > According to the Solution, get $C_9^3=84$, so choose $A$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -782,12 +782,12 @@ $
   > According to the Solution, get $Р_9^3=C_9^3 \times 3!=504$, so choose $E$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
   P_n^m=А_n^m=n(n-1)(n-2)\cdots(n-m+1) & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#formula-for-the-number-of-permutations}{\textsf{permutation formula }} \\
-  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{permutation as an ordered combination}} \\
+  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{combination to permutation formula}} \\
   \end{array}
   >$
 

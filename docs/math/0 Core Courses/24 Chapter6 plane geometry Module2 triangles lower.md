@@ -60,11 +60,11 @@ $
   > According to the Solution, get $b=a$, so choose $A$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  a+b>c & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\textsf{triangle inequality theorem}} \\
+  a+b>c & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\textsf{triangle inequality}} \\
   \end{array}
   >$
 
@@ -118,7 +118,7 @@ $
   > According to the Solution, get $a=c \land 2b=3c$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -206,7 +206,7 @@ $
   > According to the Solution, get $a=b=c=3$, so choose $E$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -324,7 +324,7 @@ $
   > According to the Solution, get $CH=1$, so choose $A$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -397,14 +397,14 @@ $
   > According to the Solution, get $S_{\triangle BDE}=\frac{40}{3}$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  (5,12,13)& \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\textsf{commonly used pythagorean numbers}} \\
-  \frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#in-similar-triangles-or-similar-figures-the-ratios-of-corresponding-sides-are-equal-called-the-similarity-ratio}{\textsf{similar triangles side ratio formula}} \\
+  (5,12,13)& \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#common-pythagorean-triples}{\textsf{common pythagorean triples}} \\
+  \frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#in-similar-triangles-or-similar-figures-the-ratios-of-corresponding-sides-are-equal-called-the-similarity-ratio}{\textsf{similar triangles sides ratio formula}} \\
   \frac{S_1}{S_2}=k^2 & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#the-ratio-of-the-areas-of-two-similar-triangles-or-similar-figures-equals-the-square-of-the-similarity-ratio}{\textsf{similar triangles area ratio formula}} \\
-  S=\frac{1}{2}ah & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{\textsf{triangle area formula}} \\
+  S=\frac{1}{2}ah & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-altitude-to-side}{\textsf{triangle area formula}} \\
   \end{array}
   >$
 
@@ -462,12 +462,12 @@ $
   > According to the Solution, get $\textsf{(4)},\textsf{(6)},\textsf{(8)}$, so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
   & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#identification-1}{\textsf{similar triangles identification}} \\
-  \frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#in-similar-triangles-or-similar-figures-the-ratios-of-corresponding-sides-are-equal-called-the-similarity-ratio}{\textsf{similar triangles side ratio formula}} \\
+  \frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#in-similar-triangles-or-similar-figures-the-ratios-of-corresponding-sides-are-equal-called-the-similarity-ratio}{\textsf{similar triangles sides ratio formula}} \\
   \end{array}
   >$
 
@@ -510,7 +510,7 @@ $
   > According to the Solution, get $1:3:5$, so choose $A$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -561,12 +561,12 @@ $
   > According to the Solution, get $CF=12$, so choose $E$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
   & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#applications-1}{\textsf{similar triangles applications}} \\
-  \frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#in-similar-triangles-or-similar-figures-the-ratios-of-corresponding-sides-are-equal-called-the-similarity-ratio}{\textsf{similar triangles side ratio formula}} \\
+  \frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#in-similar-triangles-or-similar-figures-the-ratios-of-corresponding-sides-are-equal-called-the-similarity-ratio}{\textsf{similar triangles sides ratio formula}} \\
   \end{array}
   >$
 

@@ -53,8 +53,8 @@ lang: en-US
   ![Special types of trapezoids.svg](../../public/math/Core%20Courses/Special%20types%20of%20trapezoids.svg)  
 
 
-## 6.Butterfly Theorem
-- The butterfly theorem provides us with a way to __solve the area problem of an irregular quadrilateral__.
+## 6.Area Ratio Theorem for Quadrilaterals
+- This theorem provides a way to __solve the area problem of an irregular quadrilateral__.
   By constructing a model,
   on the one hand,
   __the area of the irregular quadrilateral__ can be related to __the triangles inside the quadrilateral__;
@@ -62,41 +62,76 @@ lang: en-US
   we can also obtain __the proportional relationship of the diagonals corresponding to the area__.
 
 
-### $\textcolor{#1E3A5F}{\fbox{1}}\:$Proportional relationships in any quadrilateral (Figure 6–23)   
-![Butterfly theorem figure 6–23.svg](../../public/math/Core%20Courses/Butterfly%20theorem%20figure%206%E2%80%9323.svg)   
+### $\textcolor{#1E3A5F}{\fbox{1}}\:$Area ratio for any quadrilateral (Figure 6–23)
+![Any quadrilateral area ratio theorem figure 6–23.svg](../../public/math/Core%20Courses/Any%20quadrilateral%20area%20ratio%20theorem%20figure%206%E2%80%9323.svg)  
 
 - ① $\frac{S_1}{S_2}=\frac{S_4}{S_3}=\frac{OD}{OB}$    
-   ![Butterfly theorem figure 6–23 solve-1.svg](../../public/math/Core%20Courses/Butterfly%20theorem%20figure%206%E2%80%9323%20solve-1.svg)      
+   ![Any quadrilateral area ratio theorem figure 6–23 solve-1.svg](../../public/math/Core%20Courses/Any%20quadrilateral%20area%20ratio%20theorem%20figure%206%E2%80%9323%20solve-1.svg)  
    - Based on the fact that __the ratio of the areas of triangles with the same height equals the ratio of their bases__,
-     we have $S_1 \times S_3=S_2 \times S_4$ (__top$\times$bottom=left$\times$right__).   
-   ::: wrap   
-   - $\frac{S_1}{S_2}=\frac{OD}{OB}=\frac{S_4}{S_ 3} \quad \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\textsf{equal height} \Rightarrow \textsf{area ratio}=\textsf{base ratio}}$   
-   :::   
+     we have $S_1 \times S_3=S_2 \times S_4$ (__top$\times$bottom=left$\times$right__).
+  - __Theorem derivation__  
+    ::: wrap  
+    $
+    \begin{array}{ll}
+    S=\frac{1}{2}ah
+    \begin{cases}
+    \frac{S_1}{S_2}=\frac{a_1}{a_2} & h\textsf{ are equal} \\
+    \end{cases} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\textsf{property of triangle area formula}} \\
+    \frac{S_1}{S_2}=\frac{OD}{OB}=\frac{S_4}{S_ 3} \\
+    \end{array}
+    $
+    :::   
 - ② According to __the proportionality theorem__ $\frac{S_1}{S_2}=\frac{S_4}{S_3}=\frac{OD}{OB}=\frac{S_1+S_4}{S_2+S_3}$.        
    Similarly, $\frac{S_1+S_2}{S_4+S_3}=\frac{AO}{OC}$.   
-   ![Butterfly theorem figure 6–23 solve-2.svg](../../public/math/Core%20Courses/Butterfly%20theorem%20figure%206%E2%80%9323%20solve-2.svg)     
+   ![Any quadrilateral area ratio theorem figure 6–23 solve-2.svg](../../public/math/Core%20Courses/Any%20quadrilateral%20area%20ratio%20theorem%20figure%206%E2%80%9323%20solve-2.svg)  
 
 
-### $\textcolor{#1E3A5F}{\fbox{2}}\:$The butterfly theorem for trapezoids and similarity proportions (Figure 6–24)  
-![Butterfly theorem figure 6–24.svg](../../public/math/Core%20Courses/Butterfly%20theorem%20figure%206%E2%80%9324.svg)   
+### $\textcolor{#1E3A5F}{\fbox{2}}\:$Area ratio for trapezoids (Figure 6–24)
+![Trapezoids area ratio theorem figure 6–24.svg](../../public/math/Core%20Courses/Trapezoids%20area%20ratio%20theorem%20figure%206%E2%80%9324.svg)  
  
-- ① $\overbrace{\boldsymbol{\frac{S_1}{S_2}=\frac{S_4}{S_3}=\frac{OD}{OB}}}^{\textsf{general property of any quadrilateral}} = \frac{a}{b}$    
-  - $\frac{a}{b}=\frac{OD}{OB}=\frac{OA}{OC}$   
-  ![Butterfly theorem figure 6–24 solve-1.svg](../../public/math/Core%20Courses/Butterfly%20theorem%20figure%206%E2%80%9324%20solve-1.svg)
+- ① $\overbrace{\boldsymbol{\frac{S_1}{S_2}=\frac{S_4}{S_3}=\frac{OD}{OB}}}^{\textsf{common property of any quadrilateral}} = \frac{a}{b}$    
+  - __Theorem derivation__  
+    ![Trapezoids area ratio theorem figure 6–24 solve-1.svg](../../public/math/Core%20Courses/Trapezoids%20area%20ratio%20theorem%20figure%206%E2%80%9324%20solve-1.svg)  
+    ::: wrap  
+    $
+    \begin{array}{ll}
+    \frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}=k & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#in-similar-triangles-or-similar-figures-the-ratios-of-corresponding-sides-are-equal-called-the-similarity-ratio}{\textsf{similar triangles sides ratio formula}} \\
+    \frac{a}{b}=\frac{OD}{OB}=\frac{OA}{OC} \\
+    \end{array}
+    $
+    :::
 
-- ② $\overbrace{\boldsymbol{S_1 \times S_3=S_2 \times S_4}}^{\textsf{general property of any quadrilateral}}$    
+- ② $\overbrace{\boldsymbol{S_1 \times S_3=S_2 \times S_4}}^{\textsf{common property of any quadrilateral}}$    
 
-- ③ $\frac{S_1}{S_3}=\frac{a_2}{b_2}$ (similar)    
+- ③ $\frac{S_1}{S_3}=\frac{a^2}{b^2}$    
+  - __Theorem derivation__  
+    ::: wrap  
+    $
+    \begin{array}{ll}
+    \frac{S_1}{S_2}=k^2 & \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#the-ratio-of-the-areas-of-two-similar-triangles-or-similar-figures-equals-the-square-of-the-similarity-ratio}{\textsf{similar triangles area ratio formula}} \\
+    \frac{S_1}{S_3}=\frac{a_2}{b_2} \\
+    \end{array}
+    $
+    :::
 
 ::: wrap
 - ④ $S_2+S_3=S_4+S_3 \implies S_2=S_4$    
-   ![Butterfly theorem figure 6–24 solve-2.svg](../../public/math/Core%20Courses/Butterfly%20theorem%20figure%206%E2%80%9324%20solve-2.svg)    
-   - $S=\frac{1}{2}ah \quad \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\textsf{equal base and height} \Rightarrow \textsf{same area}}$     
+  - __Theorem derivation__  
+    ![Trapezoids area ratio theorem figure 6–24 solve-2.svg](../../public/math/Core%20Courses/Trapezoids%20area%20ratio%20theorem%20figure%206%E2%80%9324%20solve-2.svg)  
+    $
+    \begin{array}{ll}
+    S=\frac{1}{2}ah
+    \begin{cases}
+    S_1=S_2 & a,h\textsf{ are equal} \\
+    \end{cases} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\textsf{property of triangle area formula}} \\
+    S_2+S_3=S_4+S_3 \implies S_2=S_4 \\
+    \end{array}
+    $
 :::   
-::: wrap  
-- ###### Combining the above four results, we obtain the unified proportion: $\boldsymbol{S_1:S_3:S_2:S_4=a^2:b^2:ab:ab}$.    
-  ![Butterfly theorem unified area proportion formula.svg](../../public/math/Core%20Courses/Butterfly%20theorem%20unified%20area%20proportion%20formula.svg)   
-  - __Formula derivation__    
+::: wrap
+- ###### The unified proportion obtained from the four results is $\boldsymbol{S_1:S_3:S_2:S_4=a^2:b^2:ab:ab}$.    
+  ![Trapezoids area ratio theorem.svg](../../public/math/Core%20Courses/Trapezoids%20area%20ratio%20theorem.svg)     
+  - __Theorem derivation__  
     $
     \begin{array}{ll}
     \boldsymbol{S_1:S_3:S_2:S_4=a^2:b^2:ab:ab} \\
@@ -159,7 +194,7 @@ $
   > According to the Solution, get $S_{EFGH}=\frac{1}{2}$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -182,7 +217,7 @@ $
   EH=\textsf{ midline} \\
   \textbf{because }\boldsymbol{EF}\textbf{ is a midline and triangle }\boldsymbol{\triangle AEH}\textbf{ shares vertex }\boldsymbol{A}\textbf{ with }\boldsymbol{\triangle ABD}, \\
   \textbf{its base and height are each half of those of }\boldsymbol{\triangle ABD} \\
-  \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{S=\frac{1}{2}ah} \\
+  \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-altitude-to-side}{S=\frac{1}{2}ah} \\
   S_{\triangle ABD}=\frac{1}{2}\times(1\cdot a)\times(1\cdot h) \\
   S_{\triangle AEH}=\frac{1}{2}\times(\frac{1}{2}\cdot a)\times(\frac{1}{2}\cdot h) \\
   \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#properties-1}{\textsf{properties of similar triangles}} \\
@@ -256,12 +291,12 @@ $
   > According to the Solution, get $GE=\sqrt{65}$, so choose $E$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
   c^2=a^2+b^2 \Rightarrow c=\sqrt{a^2+b^2} & \textsf{pythagorean theorem} \\
-  (3,4,5) & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\textsf{commonly used pythagorean numbers}} \\
+  (3,4,5) & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#common-pythagorean-triples}{\textsf{common pythagorean triples}} \\
   \end{array}
   >$
 
@@ -303,7 +338,7 @@ $
   > According to the Solution, get $S_{ABCD}=74$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -415,11 +450,11 @@ $
   > According to the Solution, get $C$, so choose $S_{PFCG}=8$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  S=\frac{1}{2}ah & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{\textsf{triangle area formula}} \\
+  S=\frac{1}{2}ah & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-altitude-to-side}{\textsf{triangle area formula}} \\
   \end{array}
   >$
 
@@ -460,7 +495,7 @@ $
   > According to the Solution, get $S\ge 550$, so choose $E$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -521,7 +556,7 @@ $
   > According to the Solution, get $S=120$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -565,11 +600,11 @@ $
   > According to the Solution, get $S=120$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  (5,12,13)& \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\textsf{commonly used pythagorean numbers}} \\
+  (5,12,13)& \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#common-pythagorean-triples}{\textsf{common pythagorean triples}} \\
   S=\frac{l_1\cdot l_2}{2} & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_3-rhombus}{\textsf{rhombus area formula}} \\
   \end{array}
   >$
@@ -613,12 +648,12 @@ $
   > According to the Solution, get $PM+PN=PM+PN^\prime \ge 5$, so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  (3,4,5)& \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\textsf{commonly used pythagorean numbers}} \\
-  a+b>c & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\textsf{trilateral relations}} \\
+  (3,4,5)& \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#common-pythagorean-triples}{\textsf{common pythagorean triples}} \\
+  a+b>c & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\textsf{triangle inequality}} \\
   \end{array}
   >$
 
@@ -722,7 +757,7 @@ $
   > According to the Solution, get $S_{ABCD}=24$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -833,11 +868,11 @@ $
   > According to the Solution, get $S_{\textsf{shaded}}=15+6=21$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  S_1:S_3:S_2:S_4=a^2:b^2:ab:ab & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#combining-the-above-four-results-we-obtain-the-unified-proportion}{\textsf{butterfly theorem trapezoid proportion formula}} \\
+  S_1:S_3:S_2:S_4=a^2:b^2:ab:ab & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#the-unified-proportion-obtained-from-the-four-results-is}{\textsf{trapezoid area ratio theorem}} \\
   \end{array}
   >$
 
@@ -881,12 +916,12 @@ $
   > According to the Solution, get $S_{OFBC}=9$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  S_1\times S_3=S_2 \times S_4 & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#proportional-relationships-in-any-quadrilateral-figure-6%E2%80%9323}{\textsf{top}\times\textsf{bottom}=\textsf{left}\times\textsf{right}} \\
-  S_1:S_3:S_2:S_4=a^2:b^2:ab:ab & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#combining-the-above-four-results-we-obtain-the-unified-proportion}{\textsf{butterfly theorem trapezoid proportion formula}} \\
+  S_1\times S_3=S_2 \times S_4 & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#area-ratio-for-any-quadrilateral-figure-6%E2%80%9323}{\textsf{any quadrilateral area ratio theorem}} \\
+  S_1:S_3:S_2:S_4=a^2:b^2:ab:ab & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#the-unified-proportion-obtained-from-the-four-results-is}{\textsf{trapezoid area ratio theorem}} \\
   S_\triangle=\frac{1}{2}S_{ABCD} & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#a-triangle-with-the-same-base-and-height-as-a-rectangle-has-an-area-equal-to-of-the-rectangle-s-area}{\textsf{half-area rule for rectangle}}
   \end{array}
   >$
@@ -906,7 +941,7 @@ __The polygon__
   $
   \begin{array}{ll}
   \textsf{divided into }6\textsf{ equilateral triangles} \\
-  S=\frac{\sqrt{3}}{4}a^2 & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#the-area-of-an-equilateral-triangle-is-where-is-the-length-of-the-side}{\textsf{equilateral triangle area formula}} \\
+  S=\frac{\sqrt{3}}{4}a^2 & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#the-area-of-an-equilateral-triangle-is-where-is-the-side-length}{\textsf{equilateral triangle area formula}} \\
   S=\frac{\sqrt{3}}{4}a^2 \times 6 =\frac{3\sqrt{3}}{2}a^2 \\
   \end{array}
   $  
@@ -953,7 +988,7 @@ $
   > According to the Solution, get $S=6\sqrt{3}$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}

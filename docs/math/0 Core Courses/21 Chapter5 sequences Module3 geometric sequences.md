@@ -238,7 +238,7 @@ $
   > $a<0$ The result can be positive or negative.
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -303,7 +303,7 @@ $
   > According to the Solution, get $\textsf{(2)},\textsf{(3)},\textsf{(4)},\textsf{(5)},\textsf{(6)}$ correct, so choose $D$.
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -365,7 +365,7 @@ $
   > According to the Solution, get $\textsf{(1)},\textsf{(2)},\textsf{(3)},\textsf{(4)}$, so choose $E$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -431,7 +431,7 @@ $
   > According to the Solution, get $a_{10}=512$, so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -491,7 +491,7 @@ $
   > According to the Solution, get $q=\pm2$, so choose $A$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -587,7 +587,7 @@ $
   > According to the Solution, get $\textsf{(2)},\textsf{(5)},\textsf{(7)}$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -675,7 +675,7 @@ $
   > According to the Solution, get $q=-\frac{\sqrt[3]{4}}{2} \,\textsf{in } q \ne 1$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -725,7 +725,7 @@ $
   > According to the Solution, get $a_4a_7=-6$, so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -773,7 +773,7 @@ $
   > According to the Solution, get $a_3+a_5=5$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -849,7 +849,7 @@ $
   > According to the Solution, get $S_3=63$, so choose $A$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -909,7 +909,7 @@ $
   > According to the Solution, get $q=\pm\sqrt{2}$, so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}

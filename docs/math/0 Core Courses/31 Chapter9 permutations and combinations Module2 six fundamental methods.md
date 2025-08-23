@@ -53,7 +53,7 @@ $
   > According to the Solution, get $3!\times3!\times3!\times3!=(3!)^4$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -99,7 +99,7 @@ $
   > According to the Solution, get $2!\times2!\times5!=480$, so choose $A$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -148,7 +148,7 @@ $
   > According to the Solution, get $2!\times2!\times2!=8$, so choose $A$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -207,13 +207,13 @@ $
   > According to the Solution, get $4!\times C_5^3\times3!=1440$, so choose $E$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
   & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_3-alternating-element-insertion-method}{\textsf{alternating element insertion method}} \\
   m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
-  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{permutation as an ordered combination}} \\
+  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{combination to permutation formula}} \\
   \end{array}
   >$
 
@@ -255,13 +255,13 @@ $
   > According to the Solution, get $4!\times C_5^3\times3!=1440$, so choose $E$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
   & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_3-alternating-element-insertion-method}{\textsf{alternating element insertion method}} \\
   m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
-  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{permutation as an ordered combination}} \\
+  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{combination to permutation formula}} \\
   \end{array}
   >$
 
@@ -305,7 +305,7 @@ $
   > According to the Solution, get $C_6^3=20$, so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -361,14 +361,14 @@ $
   > According to the Solution, get $2!\times4!\times C_5^2 \times 2!=960$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
   & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_1-adjacent-element-bundling-method}{\textsf{adjacent element bundling method}} \\
   & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_3-alternating-element-insertion-method}{\textsf{alternating element insertion method}} \\
   m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
-  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{permutation as an ordered combination}} \\
+  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{combination to permutation formula}} \\
   \end{array}
   >$
 
@@ -417,14 +417,14 @@ $
   > According to the Solution, get $3!\times C_3^2\times2! \times C_4^2 \times 2!=432$, so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
   & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_1-adjacent-element-bundling-method}{\textsf{adjacent element bundling method}} \\
   & \href{/math/0%20Core%20Courses/31%20Chapter9%20permutations%20and%20combinations%20Module2%20six%20fundamental%20methods.html#_3-alternating-element-insertion-method}{\textsf{alternating element insertion method}} \\
   m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#basic-permutation-formula-order-matters-remove-duplicates-from-swapping-identical-elements}{\textsf{basic permutation formula}} \\
-  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{permutation as an ordered combination}} \\
+  P_n^m=C_n^m \cdot m! & \href{/math/0%20Core%20Courses/30%20Chapter9%20permutations%20and%20combinations%20Module1%20fundamental%20theoretical%20knowledge.html#a-permutation-is-a-combination-followed-by-arrangement}{\textsf{combination to permutation formula}} \\
   \end{array}
   >$
 
@@ -484,7 +484,7 @@ $
   > According to the Solution, get $3!\times3!\times2=72$, so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -531,7 +531,7 @@ $
   > According to the Solution, get $4!\times3!=144$, so choose $E$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -621,7 +621,7 @@ $
   > According to the Solution, get $C_{10-1}^{7-1}=84$, so choose $A$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -665,7 +665,7 @@ $
   > According to the Solution, get $C_{11-1}^{7-1}=210$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -709,7 +709,7 @@ $
   > According to the Solution, get $C_{12-1}^{4-1}=165$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -766,7 +766,7 @@ $
   > According to the Solution, get $m-n=202$, so choose $E$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -844,7 +844,7 @@ $
   > According to the Solution, get $m^n=243$, so choose $A$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -893,7 +893,7 @@ $
   > According to the Solution, get $m^n=125$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -932,7 +932,7 @@ $
   > According to the Solution, get $m^n=7^6$, so choose $A$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -1004,7 +1004,7 @@ $
   > According to the Solution, get $C_5^1 \times 9=45$, so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -1046,7 +1046,7 @@ $
   > According to the Solution, get $C_6^2 \times 9=135$, so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -1095,7 +1095,7 @@ $
   > According to the Solution, get $191$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -1171,7 +1171,7 @@ $
   > According to the Solution, get $3$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -1228,7 +1228,7 @@ $
   > According to the Solution, get $7$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -1284,7 +1284,7 @@ $
   > According to the Solution, get $7$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -1345,7 +1345,7 @@ $
   > According to the Solution, get $10$, so choose $E$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}

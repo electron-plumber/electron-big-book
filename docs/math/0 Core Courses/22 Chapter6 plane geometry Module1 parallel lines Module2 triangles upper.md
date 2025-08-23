@@ -56,7 +56,7 @@ $
   > According to the Solution, get $\angle\alpha=65^\circ$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -118,7 +118,7 @@ $
   > According to the Solution, get $\angle \alpha = 85^\circ$, so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -169,7 +169,7 @@ $
   > According to the Solution, get $\angle M = 50^\circ$, so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -221,7 +221,7 @@ $
   > According to the Solution, get $EF=6$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -265,7 +265,7 @@ $
   > According to the Solution, get $AC=12.5$, so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -335,7 +335,7 @@ $
   > According to the Solution, get $x=67.5^\circ$, so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -390,7 +390,7 @@ $
   > According to the Solution, get $\angle A= \frac{\pi}{10}$, so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -511,7 +511,7 @@ $
   > According to the Solution, $13$ types of triangles can be formed, so choose $A$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -541,7 +541,7 @@ $
   \end{array}
   } \\
   \end{array}
-  } & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\textsf{Trilateral relations}} \\
+  } & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\textsf{triangle inequality}} \\
   \end{array}
   >$
 
@@ -585,7 +585,7 @@ $
   > According to the Solution, get the longest side length, which is $5$, so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -615,7 +615,7 @@ $
   \end{array}
   } \\
   \end{array}
-  } & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\textsf{Trilateral relations}} \\
+  } & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\textsf{triangle inequality}} \\
   \end{array}
   >$
 
@@ -671,7 +671,7 @@ $
   > According to the Solution, get $\frac{3}{2} \lt a \lt 5$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -701,7 +701,7 @@ $
   \end{array}
   } \\
   \end{array}
-  } & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\textsf{Trilateral relations}} \\
+  } & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\textsf{triangle inequality}} \\
   \end{array}
   >$
 
@@ -751,7 +751,7 @@ $
   > According to the Solution, get $1 < AD < 4$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -781,7 +781,7 @@ $
   \end{array}
   } \\
   \end{array}
-  } & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\textsf{Trilateral relations}} \\
+  } & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\textsf{triangle inequality}} \\
   \frac{|AB-AC|}{2} < AD < \frac{AB+AC}{2}  & \textsf{The formula for the median range of the third side in a triangle} \\
   \end{array}
   >$

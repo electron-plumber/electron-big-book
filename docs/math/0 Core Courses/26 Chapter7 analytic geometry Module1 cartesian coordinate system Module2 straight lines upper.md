@@ -83,7 +83,7 @@ $
   > According to the Solution, get $\begin{cases} x=4 \\ y=-3 \\ \end{cases}$, so choose $A$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -141,7 +141,7 @@ $
   > According to the Solution, get $x=8 \lor x=-4 \\$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -206,7 +206,7 @@ $
   > According to the Solution, get $AB=AC=BC=6$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -333,7 +333,7 @@ $
   > According to the Solution, get $\textsf{(3)}$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -397,7 +397,7 @@ $
   > According to the Solution, get $k=-\frac{1}{3}$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -500,7 +500,7 @@ $
   \end{array}
   \end{cases} \\
   \textsf{calculate the area of the triangle formed by the intercept form} \\
-  \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{S=\frac{1}{2}ah} \\
+  \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-altitude-to-side}{S=\frac{1}{2}ah} \\
   S=\frac{1}{2} \times -\frac{c}{a} \times -\frac{c}{b} \\
   S=\frac{c^2}{2|ab|} \\
   \end{array}
@@ -552,7 +552,7 @@ $
   > According to the Solution, get $\textsf{(2)},\textsf{(4)}$, so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -609,7 +609,7 @@ $
   > According to the Solution, get $x=\frac{1}{2}$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -655,7 +655,7 @@ $
   > According to the Solution, get $x-y+3=0 \lor 8x-5y=0$, so choose $E$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -727,7 +727,7 @@ $
   > According to the Solution, get $b=-5$, so choose $E$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -773,7 +773,7 @@ $
   > According to the Solution, get $4\times (-6)=-24$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -881,7 +881,7 @@ $
   > According to the Solution, get $\textsf{(1)}\,✅\;,\textsf{(2)}\,❌\;$, so choose $A$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}

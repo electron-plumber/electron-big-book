@@ -105,7 +105,7 @@ $
   > According to the Solution, get $\begin{cases}k=3\\k=5\end{cases} \; l_1\textsf{ and }l_2\textsf{ are parallel}$, so choose $E$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap  
   >$
   \begin{array}{ll}
@@ -161,7 +161,7 @@ $
   > According to the Solution, get $\textsf{(1)}\,✅\;,\textsf{(2)}\,✅\;$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -205,7 +205,7 @@ $
   > According to the Solution, get $4 \textsf{ sets}$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -267,7 +267,7 @@ $
   > According to the Solution, get $m=3$, so choose $A$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -357,7 +357,7 @@ $
   > According to the Solution, get $x=2$, so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -415,7 +415,7 @@ $
   > According to the Solution, get $\textsf{(2)}\,✅\;$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -464,7 +464,7 @@ $
   > According to the Solution, get $d=\sqrt{5}$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -506,7 +506,7 @@ $
 __The positional relationship between a point and a line__   
 - First convert the line into the form $\boldsymbol{y=kx+b}$, and __then substitute the point into the line for verification__.
 - Note: make sure the coefficient of $y$ is positive; otherwise, the result of the judgment will be reversed.
-- general form: $ax+by+c=0$  
+- ###### general form: $ax+by+c=0$  
   ::: wrap  
   $
   \begin{array}{ll}
@@ -560,11 +560,11 @@ $
   > According to the Solution, get $m>-1$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  y=kx+b & \href{/math/0%20Core%20Courses/27%20Chapter7%20analytic%20geometry%20Module2%20straight%20lines%20lower.html#_16-focus-7}{\textsf{point-line position}} \\
+  ax+by+c=0 & \href{/math/0%20Core%20Courses/27%20Chapter7%20analytic%20geometry%20Module2%20straight%20lines%20lower.html#general-form}{\textsf{point-line position}} \\
   \end{array}
   >$
 
@@ -610,7 +610,7 @@ $
   > According to the Solution, get $d=\frac{23}{5}$, so choose $A$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -661,7 +661,7 @@ $
   > According to the Solution, get $d=\frac{1}{2}$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}

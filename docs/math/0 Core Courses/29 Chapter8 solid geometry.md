@@ -67,12 +67,12 @@ $
   > According to the Solution, get $V=4500$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  l=4(a+b+c) & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#_4-sum-of-edge-lengths}{\textsf{sum of edge lengths of a cuboid}} \\
-  V=abc & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#_1-volume}{\textsf{volume of a cuboid}} \\
+  l=4(a+b+c) & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#_4-sum-of-edge-lengths}{\textsf{cuboid edge length sum formula}} \\
+  V=abc & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#_1-volume}{\textsf{cuboid volume formula}} \\
   \end{array}
   >$
 
@@ -111,11 +111,11 @@ $
   > According to the Solution, get $\textsf{longest}=6$, so choose $E$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  F=2(ab + bc +ac) & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#_4-sum-of-edge-lengths}{\textsf{total surface area of a cuboid}} \\
+  F=2(ab + bc +ac) & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#_4-sum-of-edge-lengths}{\textsf{cuboid total surface area formula}} \\
   \end{array}
   >$
 
@@ -171,12 +171,12 @@ $
   > According to the Solution, get $V=6$, so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  F=2(ab + bc +ac) & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#_4-sum-of-edge-lengths}{\textsf{total surface area of a cuboid}} \\
-  V=abc & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#_1-volume}{\textsf{volume of a cuboid}} \\
+  F=2(ab + bc +ac) & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#_4-sum-of-edge-lengths}{\textsf{cuboid total surface area formula}} \\
+  V=abc & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#_1-volume}{\textsf{cuboid volume formula}} \\
   \end{array}
   >$
 
@@ -217,12 +217,12 @@ $
   > According to the Solution, get $S=18$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  d=\sqrt{3}a & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#_3-space-diagonal-body-diagonal-1}{\textsf{body diagonal of a cube}} \\
-  F=6a^2 & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#_2-total-surface-area-1}{\textsf{total surface area of a cube}} \\
+  d=\sqrt{3}a & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#_3-space-diagonal-body-diagonal-1}{\textsf{cube body diagonal formula}} \\
+  F=6a^2 & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#_2-total-surface-area-1}{\textsf{cube total surface area formula}} \\
   \end{array}
   >$
 
@@ -285,11 +285,11 @@ $
   > According to the Solution, get $\textsf{scale factor}=6.75$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  V=\pi r^2h & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#volume}{\textsf{volume of a cylinder}} \\
+  V=\pi r^2h & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#volume}{\textsf{cylinder volume formula}} \\
   \end{array}
   >$
 
@@ -327,7 +327,7 @@ $
   > According to the Solution, get $\frac{S_{\textsf{lateral}}}{S_{\textsf{base}}}=4\pi$, so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -377,14 +377,14 @@ $
   > According to the Solution, get $S=36$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  (3,4,5) & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\textsf{commonly used pythagorean numbers}} \\
-  S=\textsf{base perimeter} \times \textsf{height} & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#lateral-surface-area}{\textsf{lateral area of a prism or cylinder}} \\
-  S=\frac{1}{2}ah & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-height-of-side}{\textsf{triangle area formula}} \\
-  F=S_{\textsf{lateral}}+2S_{\textsf{base}} & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#total-surface-area}{\textsf{total surface area of a prism or cylinder}} \\
+  (3,4,5) & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#common-pythagorean-triples}{\textsf{common pythagorean triples}} \\
+  S=\textsf{base perimeter} \times \textsf{height} & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#lateral-surface-area}{\textsf{prism or cylinder lateral area formula}} \\
+  S=\frac{1}{2}ah & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-altitude-to-side}{\textsf{triangle area formula}} \\
+  F=S_{\textsf{lateral}}+2S_{\textsf{base}} & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#total-surface-area}{\textsf{prism or cylinder total surface area formula}} \\
   \end{array}
   >$
 
@@ -421,12 +421,12 @@ $
   > According to the Solution, get $V=4000$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
   S=a^2 & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_4-square}{\textsf{square area formula}} \\
-  V=\textsf{base area} \times \textsf{height} & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#volume}{\textsf{volume of a prism or cylinder}} \\
+  V=\textsf{base area} \times \textsf{height} & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#volume}{\textsf{prism or cylinder volume formula}} \\
   \end{array}
   >$
 
@@ -448,11 +448,11 @@ $
 ## 3.Circumscribed Sphere and Inscribed Sphere
 - Let the radius of the cylinder's base be $r$, the radius of the sphere be $R$, and the height of the cylinder be $h$.  
 
-| Solid             | Inscribed Sphere (conditional)                                                                | Circumscribed Sphere (unconditional)                                      |
-|-------------------|-----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
-| Rectangular Prism | None (__only a cube has one__)                                                                | Body diagonal $\boldsymbol{l=2R}$                                         |
-| Cube              | Edge length $\boldsymbol{a=2R}$                                                               | Body diagonal $\boldsymbol{l=2R}$  (that is, $\boldsymbol{2R=\sqrt{3}a}$) |
-| Cylinder          | Only a cylinder whose __axial section__ is __a square__ has one, where $\boldsymbol{2r=h=2R}$ | Body diagonal $\boldsymbol{\sqrt{h^2+(2r)^2}=2R}$                         |
+| Solid    | Inscribed Sphere (conditional)                                                                | Circumscribed Sphere (unconditional)                                      |
+|----------|-----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| Cuboid   | None (__only a cube has one__)                                                                | Body diagonal $\boldsymbol{l=2R}$                                         |
+| Cube     | Edge length $\boldsymbol{a=2R}$                                                               | Body diagonal $\boldsymbol{l=2R}$  (that is, $\boldsymbol{2R=\sqrt{3}a}$) |
+| Cylinder | Only a cylinder whose __axial section__ is __a square__ has one, where $\boldsymbol{2r=h=2R}$ | Body diagonal $\boldsymbol{\sqrt{h^2+(2r)^2}=2R}$                         |
 
 ![Solid circumscribed sphere and inscribed sphere.svg](../../public/math/Core%20Courses/Solid%20circumscribed%20sphere%20and%20inscribed%20sphere.svg)
 
@@ -501,12 +501,12 @@ $
   > According to the Solution, get $V_2=V_1\times27$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{S_1}{S_2}=(\frac{r_1}{r_2})^2 & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#note-that-the-surface-area-is-proportional-to-the-square-of-the-radius-and-the-volume-is-proportional-to-the-cube-of-the-radius}{\textsf{surface area proportionality relation}} \\
-  \frac{V_1}{V_2}=(\frac{r_1}{r_2})^3 & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#note-that-the-surface-area-is-proportional-to-the-square-of-the-radius-and-the-volume-is-proportional-to-the-cube-of-the-radius}{\textsf{volume proportionality relation}} \\
+  \frac{S_1}{S_2}=(\frac{r_1}{r_2})^2 & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#note-that-the-surface-area-is-proportional-to-the-square-of-the-radius-and-the-volume-is-proportional-to-the-cube-of-the-radius}{\textsf{sphere surface area ratio formula}} \\
+  \frac{V_1}{V_2}=(\frac{r_1}{r_2})^3 & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#note-that-the-surface-area-is-proportional-to-the-square-of-the-radius-and-the-volume-is-proportional-to-the-cube-of-the-radius}{\textsf{sphere volume ratio formula}} \\
   \end{array}
   >$
 
@@ -548,13 +548,13 @@ $
   > According to the Solution, get $S=14\pi$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  l=2R & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#_3-circumscribed-sphere-and-inscribed-sphere}{\textsf{circumscribed sphere diameter of a rectangular prism}} \\
-  d=\sqrt{a^2+b^2+c^2} & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#_3-space-diagonal-body-diagonal-1}{\textsf{body diagonal of a cuboid}} \\
-  S=4\pi r^2 & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#_1-volume-and-surface-area}{\textsf{surface area of a sphere}} \\ 
+  l=2R & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#_3-circumscribed-sphere-and-inscribed-sphere}{\textsf{circumscribed sphere diameter (cuboid)}} \\
+  d=\sqrt{a^2+b^2+c^2} & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#_3-space-diagonal-body-diagonal-1}{\textsf{cuboid body diagonal formula}} \\
+  S=4\pi r^2 & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#_1-volume-and-surface-area}{\textsf{sphere surface area formula}} \\ 
   \end{array}
   >$
 
@@ -594,13 +594,13 @@ $
   > According to the Solution, get $\frac{S_{\textsf{removed}}}{S_{\textsf{sphere}}}=\frac{1}{2}$, so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
   h=2r & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#equilateral-cylinder-the-axial-section-is-a-square}{\textsf{axial section height (equilateral cylinder)}} \\
-  V=\pi r^2h & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#volume}{\textsf{volume of a cylinder}} \\
-  V=\frac{4}{3}\pi r^3 & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#_1-volume-and-surface-area}{\textsf{volume of a sphere}} \\
+  V=\pi r^2h & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#volume}{\textsf{cylinder volume formula}} \\
+  V=\frac{4}{3}\pi r^3 & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#_1-volume-and-surface-area}{\textsf{sphere volume formula}} \\
   \end{array}
   >$
 
@@ -646,13 +646,13 @@ $
   > According to the Solution, get $\frac{V_{\textsf{hemisphere}}}{V_{\textsf{cylinder}}}=16:3\sqrt{3}$, so choose $E$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  1:\sqrt{3}:2 & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#in-a-triangle-with-angles-the-sides-are-always-in-the-ratio}{\textsf{special right triangle: 30-60-90}} \\
-  V=\frac{4}{3}\pi r^3 & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#_1-volume-and-surface-area}{\textsf{volume of a sphere}} \\
-  V=\pi r^2h & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#volume}{\textsf{volume of a cylinder}} \\
+  1:\sqrt{3}:2 & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#in-a-right-triangle-the-ratio-of-the-three-sides-is}{\textsf{30-60-90 right triangle}} \\
+  V=\frac{4}{3}\pi r^3 & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#_1-volume-and-surface-area}{\textsf{sphere volume formula}} \\
+  V=\pi r^2h & \href{/math/0%20Core%20Courses/29%20Chapter8%20solid%20geometry.html#volume}{\textsf{cylinder volume formula}} \\
   \end{array}
   >$
 
@@ -710,12 +710,12 @@ $
   > According to the Solution, get $d=1\lor7$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
   S=\pi r^2 & \textsf{circle area formula} \\
-  (3,4,5)& \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#right-triangle}{\textsf{commonly used pythagorean numbers}} \\
+  (3,4,5)& \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#common-pythagorean-triples}{\textsf{common pythagorean triples}} \\
   \end{array}
   >$
 

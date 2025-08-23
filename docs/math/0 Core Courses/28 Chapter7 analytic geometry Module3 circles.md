@@ -111,7 +111,7 @@ $
   > According to the Solution, get $m<13$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -248,7 +248,7 @@ $
   > According to the Solution, get $(x+2)^2+(y-3)^2=4$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -349,7 +349,7 @@ $
   > According to the Solution, get $f(x)<0 \longrightarrow \frac{1}{5} < m < 1$, so choose $A$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -459,7 +459,7 @@ $
   > According to the Solution, get $k=\pm\frac{\sqrt{3}}{3}$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -478,7 +478,7 @@ $
   (a-b)^2=a^2-2ab+b^2
   \end{cases} & \textsf{perfect square formula} \\
   30^\circ=\frac{\sqrt{3}}{3} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_3-common-inclination-angles-and-slope}{\textsf{inclination angle–slope}} \\
-  1:\sqrt{3}:2 & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#in-a-triangle-with-angles-the-sides-are-always-in-the-ratio}{\textsf{special right triangle: 30-60-90}} \\
+  1:\sqrt{3}:2 & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#in-a-right-triangle-the-ratio-of-the-three-sides-is}{\textsf{30-60-90 right triangle}} \\
   (x-x_0)^2+(y-y_0)^2=r^2 & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#standard-form}{\textsf{standard form of a circle}} \\
   \end{array}
   >$
@@ -521,7 +521,7 @@ $
   > According to the Solution, get $(x+1)^2+y^2=2$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -568,7 +568,7 @@ $
   > According to the Solution, get $\textsf{chord length}=4$, so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -646,7 +646,7 @@ $
   > According to the Solution, get $-3 \le a \le 1$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -708,7 +708,7 @@ $
   > According to the Solution, get $d=r_1+r_2 \Longrightarrow \textsf{externally tangent}$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -755,7 +755,7 @@ $
   > According to the Solution, get $(a-b)^2=2r^2$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -805,7 +805,7 @@ $
   > According to the Solution, get $\textsf{intersecting} \Rightarrow \textsf{only 2 common tangents}$, so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -858,7 +858,7 @@ $
   > According to the Solution, get $5-\sqrt{10} \le r \le 5+\sqrt{10}$, so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -918,7 +918,7 @@ $
   > so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -977,7 +977,7 @@ $
   > According to the Solution, get $a=\pm1$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}

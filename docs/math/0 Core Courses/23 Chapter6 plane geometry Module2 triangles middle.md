@@ -3,61 +3,54 @@ title: Chapter6 Plane Geometry – Module2 Triangles Middle
 lang: en-US
 ---
 
-## 5.Basic Area Formulas  
+## 5.Basic Area Formulas
 
-::: wrap
-### $\textcolor{#1E3A5F}{\fbox{1}}\: \small S=\frac{1}{2}ah$, where $\small h$ is the height of side $\small a$. 
-- Application   
-  When the base and height are known, this formula can be used to calculate the area.  
+### $\textcolor{#1E3A5F}{\fbox{1}}\: \small S=\frac{1}{2}ah$, where $\small h$ is the altitude to side $\small a$
+- Application: when __the base and the height__ are known, this formula can be __used to find the area__.  
 
-::: 
 
-::: wrap
-### $\textcolor{#1E3A5F}{\fbox{2}}\: \small S=\frac{1}{2}absinC$, where $\small C$ is the angle between sides $\small a,b$.
-- Angle-sine Chart   
+### $\textcolor{#1E3A5F}{\fbox{2}}\: \small S=\frac{1}{2}ab\textsf{sin}C$, where $\small C$ is the included angle between sides $\small a$ and $\small b$
+- __angle-sine table__   
 
-  | $C$    |  $30^\circ \, \lor \, 150^\circ$  |  $45^\circ \, \lor \, 135^\circ$  |  $60^\circ \, \lor \, 120^\circ$  |  $90^\circ$  |
-  |--------|:---------------------------------:|:---------------------------------:|:---------------------------------:|:------------:|
-  | $sinC$ |           $\frac{1}{2}$           |       $\frac{\sqrt{2}}{2}$        |       $\frac{\sqrt{3}}{2}$        |      1       |
+  | $\boldsymbol{C}$ | $\boldsymbol{30^\circ \, \lor \, 150^\circ}$ | $\boldsymbol{45^\circ \, \lor \, 135^\circ}$ | $\boldsymbol{60^\circ \, \lor \, 120^\circ}$ | $\boldsymbol{90^\circ}$ |
+  |------------------|:--------------------------------------------:|:--------------------------------------------:|:--------------------------------------------:|:-----------------------:|
+  | $\textsf{sin}C$  |                $\frac{1}{2}$                 |             $\frac{\sqrt{2}}{2}$             |             $\frac{\sqrt{3}}{2}$             |    $\boldsymbol{1}$     |
 
-- Application  
-  When two sides and the angle are known, this formula can be used to calculate the area.  
+- Application: when __two sides and the included angle__ are known, this formula can be __used to find the area__.  
   ![Triangle Area formula two sides angle.svg](../../public/math/Core%20Courses/Triangle%20Area%20formula%20two%20sides%20angle.svg)     
 
-:::     
 
-::: wrap
-### $\textcolor{#1E3A5F}{\fbox{3}\:}\: \small S=\sqrt{p(p-a)(p-b)(p-c)}$, where $\small p=\frac{1}{2}(a+b+c)$.
-- Application  
-  When the three sides of a triangle are known, this formula can be used to calculate the area.
+### $\textcolor{#1E3A5F}{\fbox{3}\:}\: \small S=\sqrt{p(p-a)(p-b)(p-c)}$, where $\small p=\frac{1}{2}(a+b+c)$
+- Application: when __all three sides of the triangle__ are known, this formula can be __used to find the area__.    
   ![Triangle area formula three sides.svg](../../public/math/Core%20Courses/Triangle%20area%20formula%20three%20sides.svg)      
 
-:::   
+  
 
 ## 6.Focus 3
-__Use the relationship between base and height to calculate area.__  
-- When two triangles have the same height, the ratio of their areas is equal to the ratio of their bases.    
+__The calculating area using the base–height relationship__  
+- When two triangles have __the same height__, __the ratio of their areas equals the ratio of their bases__.    
   ![Ratio of areas of two triangles with same height.svg](../../public/math/Core%20Courses/Ratio%20of%20areas%20of%20two%20triangles%20with%20same%20height.svg)      
-- When two triangles have the same base, the ratio of their areas is equal to the ratio of their heights.   
+- When two triangles have __the same base__, __the ratio of their areas equals the ratio of their heights__.   
   ![Ratio of areas of two triangles with same base.svg](../../public/math/Core%20Courses/Ratio%20of%20areas%20of%20two%20triangles%20with%20same%20base.svg)      
-- When two triangles have the same base and the same height, their areas are equal.      
+- When two triangles have __the same base and the same height__, __their areas are equal__.  
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  S=\frac{1}{2}ah
+  \begin{cases}
+  \frac{S_1}{S_2}=\frac{a_1}{a_2} & h\textsf{ are equal} \\
+  \frac{S_1}{S_2}=\frac{h_1}{h_2} & a\textsf{ are equal} \\
+  S_1=S_2 & a,h\textsf{ are equal} \\
+  \end{cases}
+  \end{array}  
+  $  
+  :::
 
+
+
+### $\fbox{12}\:$Figure 6–13, if the area of $\small \triangle ABC$ is $\small 1$, and the areas of $\small \triangle AEC, \triangle DEC$, and $\small \triangle BED$ are equal, then what is the area of $\small \triangle AED \,\mathpunct{?}$.
+![Question triangles figure 6-13.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-13.svg)  
 ::: wrap  
-$
-\begin{array}{ll}
-S=\frac{1}{2}ah 
-\begin{cases}
-\frac{S_1}{S_2}=\frac{a_1}{a_2} & \textsf{h same} \\
-\frac{S_1}{S_2}=\frac{h_1}{h_2} & \textsf{a same} \\
-S_1=S_2 & \textsf{a, h same} \\
-\end{cases}
-\end{array}  
-$  
-:::
-
-
-::: wrap
-### $\fbox{12}\:$Figure 6–13, if the area of $\small \triangle ABC$ is $\small 1$, and the areas of $\small \triangle AEC, \triangle DEC, \triangle BED$ are equal, then the area of $\small \triangle AED$ is $\small \, \mathpunct{?}$.
 $
 \begin{array}{lllll}
 \textsf{(A)} \: \frac{1}{3} &
@@ -68,42 +61,36 @@ $
 \end{array}
 $  
 :::  
-![Question triangles figure 6-13.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-13.svg)  
 #### Solution
-::: wrap  
 - Show known conditions  
   ![Question triangles figure 6-13 solve-1.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-13%20solve-1.svg)  
-
+  ::: wrap  
   $
   \begin{array}{ll}
-  S_{\triangle AEC} = S_{\triangle DEC} = S_{\triangle BED} = \frac{1}{3} & \textsf{} \\
+  S_{\triangle AEC} = S_{\triangle DEC} = S_{\triangle BED} = \frac{1}{3} \\
   \end{array}
   $  
-:::   
-::: wrap  
-- $\textcolor{#228B22}{\fbox{1}}\:$Solve according to the position of point D  
-
+  :::  
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve by using the position of point $D$  
+  ::: wrap  
   $
   \begin{array}{ll}
-  S_{\triangle BDE}=S_{\triangle CDE} \Rightarrow D\textsf{ is the midpoint of }BC
-  & S_1=S_2\textsf{ The height and area of the pink and orange triangles are equal}\\
-  S_{\triangle ABD}=\frac{1}{2}S_{\triangle ABC}=\frac{1}{2} & AD\textsf{ is the median line }\triangle ABC\\
+  S_{\triangle BDE}=S_{\triangle CDE} \Longrightarrow D\textsf{ is the midpoint of }BC & S_1=S_2\\
+  S_{\triangle ABD}=\frac{1}{2}S_{\triangle ABC}=\frac{1}{2} & AD\textsf{ is the median of }\triangle ABC\\
   S_{\triangle AED}=\frac{1}{2}-\frac{1}{3}=\frac{1}{6} \\
   \end{array}
   $  
-:::  
-::: wrap
-- $\textcolor{#228B22}{\fbox{2}}\:$Solve according to the position of point E  
-
+  :::  
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve by using the position of point $E$    
+  ::: wrap
   $
   \begin{array}{ll}
-  S_{\triangle BCE}=2S_{\triangle ACE} 
-  & \textsf{The pink + orange triangle is 2x of the green triangle} \\
-  BE=2AE & \frac{S_1}{S_2}=\frac{a_1}{a_2} \textsf{ h same}\\
-  S_{\triangle AED}=\frac{1}{2}S_{\triangle BDE}=\frac{1}{6} & \frac{a_1}{a_2}=\frac{S_1}{S_2} \textsf{ h same}\\
+  S_{\triangle BCE}=2S_{\triangle ACE} \\
+  BE=2AE & \frac{S_1}{S_2}=\frac{a_1}{a_2} h\textsf{ are equal}\\
+  S_{\triangle AED}=\frac{1}{2}S_{\triangle BDE}=\frac{1}{6} & \frac{S_1}{S_2}=\frac{a_1}{a_2}  h\textsf{ are equal}\\
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
@@ -111,23 +98,27 @@ $
   > According to the Solution, get $S_{\triangle AED}=\frac{1}{6}$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
   S=\frac{1}{2}ah
   \begin{cases}
-  \frac{S_1}{S_2}=\frac{a_1}{a_2} & \textsf{h same} \\
-  \frac{S_1}{S_2}=\frac{h_1}{h_2} & \textsf{a same} \\
-  S_1=S_2 & \textsf{a, h same} \\
-  \end{cases} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\textsf{Triangle area formula}} \\
+  \frac{S_1}{S_2}=\frac{a_1}{a_2} & h\textsf{ are equal} \\
+  \frac{S_1}{S_2}=\frac{h_1}{h_2} & a\textsf{ are equal} \\
+  S_1=S_2 & a,h\textsf{ are equal} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\textsf{properties of triangle area formula}} \\
   \end{array}
   >$
 
   :::
 ---
-::: wrap
-### $\fbox{13}\:$Figure 6–14, known $\small CD=5, DE=7, EF=15, FG=6$, the line segment $\small AB$ divides the figure into two parts, the area of the left part is 38, and the area of the right part is 65, then the area of triangle $\small ADG$ is $\small \, \mathpunct{?}$.
+
+
+
+### $\fbox{13}\:$Figure 6–14, given that $\small CD=5, DE=7, EF=15$, and $\small FG=6$, the line segment $\small AB$ divides the figure into two parts. The area of the left part is 38, and the area of the right part is 65. Find the area of triangle $\small ADG$.
+![Question triangles figure 6-14.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-14.svg)  
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 40 &
@@ -137,13 +128,11 @@ $
 \textsf{(E)} \: 31 & \\
 \end{array}
 $  
-:::  
-![Question triangles figure 6-14.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-14.svg)  
+:::
 #### Solution
-::: wrap  
-- Show known conditions and assume that the unknown variable in the overall area     
+- Show known conditions and set the unknown area variables       
   ![Question triangles figure 6-14 solve-1.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-14%20solve-1.svg)  
-
+  ::: wrap  
   $
   \begin{array}{ll}
   \triangle ADE=x \quad \triangle BCE=y \\
@@ -166,7 +155,7 @@ $
   S_{\triangle ADG}=x+3x=4\times10=40
   \end{array}
   $  
-:::  
+  :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
@@ -174,11 +163,16 @@ $
   > According to the Solution, get $S_{\triangle ADG}=40$, so choose $A$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{a}{b}=\frac{c}{d} & \textsf{Proportion} \\
+  S=\frac{1}{2}ah
+  \begin{cases}
+  \frac{S_1}{S_2}=\frac{a_1}{a_2} & h\textsf{ are equal} \\
+  \frac{S_1}{S_2}=\frac{h_1}{h_2} & a\textsf{ are equal} \\
+  S_1=S_2 & a,h\textsf{ are equal} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\textsf{properties of triangle area formula}} \\
   \end{array}
   >$
 
@@ -186,11 +180,15 @@ $
 ---
 
 ## 7.Focus 4
-__Using angle to solve an area.__  
-- We know two sides and the angle between them in a triangle, can use the formula to solve the area $S=\frac{1}{2}absinC$, need to memorize the trigonometric values for common angles.
+__The using the included angle to find the area__  
+- If __two sides and the included angle of a triangle__ are known,
+  the area can be found using the formula: $\boldsymbol{S=\frac{1}{2}ab\textsf{sin}C}$.
+  It is necessary to remember __the trigonometric values of common angles__.
 
-::: wrap
-### $\fbox{14}\:$If a triangle has two sides of length 4 and 6, and the area of the triangle is $\small 6\sqrt{2}$, then the angle between the two sides is $\small \, \mathpunct{?}$. 
+
+
+### $\fbox{14}\:$If a triangle has two sides of lengths $\small 4$ and $\small 6$, and its area is $\small 6\sqrt{2}$, then what is the included angle between these two sides $\small \, \mathpunct{?}$. 
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 30^\circ &
@@ -205,10 +203,10 @@ $
 ::: wrap  
 $
 \begin{array}{ll}
-S=\frac{1}{2}\times 4 \times 6 \times sinC = 6\sqrt{2} \\
-12sinC=6\sqrt{2} \\
-sinC=\frac{6\sqrt{2}}{12}=\frac{√2}{2} \\
-sinC=\frac{√2}{2}=45^\circ \lor 135^\circ \\ 
+S=\frac{1}{2}\times 4 \times 6 \times \textsf{sin}C = 6\sqrt{2} \\
+12\textsf{sin}C=6\sqrt{2} \\
+\textsf{sin}C=\frac{6\sqrt{2}}{12}=\frac{√2}{2} \\
+\textsf{sin}C=\frac{√2}{2}=45^\circ \lor 135^\circ \\ 
 \end{array}
 $  
 :::  
@@ -216,21 +214,24 @@ $
 - Derived Solution  
   ::: wrap
   > $\boldsymbol{(B)}$  
-  > According to the Solution, get $sinC=45^\circ \lor 135^\circ$, so choose $B$. 
+  > According to the Solution, get $\textsf{sin}C=45^\circ \lor 135^\circ$, so choose $B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  S=\frac{1}{2}absinC & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-angle-between-sides}{\textsf{Triangle area formula}} \\
+  S=\frac{1}{2}ab\textsf{sin}C & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-included-angle-between-sides-and}{\textsf{triangle area formula (included angle)}} \\
   \end{array}
   >$
 
   :::
 ---
-::: wrap
-### $\fbox{15}\:$If a triangle has two sides of length 4 and 6, and the length of the third side is changing, then the maximum area of the triangle is $\small \, \mathpunct{?}$. 
+
+
+
+### $\fbox{15}\:$If a triangle has two sides of lengths $\small 4$ and $\small 6$, and the third side length varies, then what is the maximum possible area of the triangle $\small \, \mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 18 &
@@ -245,8 +246,8 @@ $
 ::: wrap  
 $
 \begin{array}{ll}
-S_{max}=\frac{1}{2}\times 4 \times 6 \times sin90^\circ \\
-sin90^\circ= 12 & \textsf{When the area of the triangle reaches its maximum }sinC=1\\
+S_{\textsf{max}}=\frac{1}{2}\times 4 \times 6 \times \textsf{sin}90^\circ \\
+\textsf{sin}90^\circ= 12 & \textsf{max area when }\textsf{sin}C=1 \longrightarrow C=90^\circ \\
 \end{array}
 $  
 :::  
@@ -254,26 +255,30 @@ $
 - Derived Solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the Solution, get $S_{max}=sin90^\circ=12$, so choose $D$. 
+  > According to the Solution, get $S_{\textsf{max}}=\textsf{sin}90^\circ=12$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  S=\frac{1}{2}absinC & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-angle-between-sides}{\textsf{Triangle area formula}} \\
+  S=\frac{1}{2}ab\textsf{sin}C & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-included-angle-between-sides-and}{\textsf{triangle area formula (included angle)}} \\
   \end{array}
   >$
 
   :::
 ---
 
-## 8.Focus 5
-__Given the three sides, use Heron's formula to find the area.__
-- When the three sides of a triangle are known, you can find the area using the formula $S=\sqrt{p(p-a)(p-b)(p-c)}$, where $p=\frac{1}{2}(a+b+c)$. 
 
-::: wrap
-### $\fbox{16}\:$If the three sides of a triangle are 7,8,9 then its area is $\small \, \mathpunct{?}$.
+## 8.Focus 5
+__The using three sides to find the area__
+- When __the three sides of a triangle__ are known, the area can be found using the formula: $\boldsymbol{S=\sqrt{p(p-a)(p-b)(p-c)}}$,
+  where $\boldsymbol{p=\frac{1}{2}(a+b+c)}$. 
+
+
+
+### $\fbox{16}\:$If the three sides of a triangle are $\small 7, 8$, and $\small 9$, then the area of the triangle is $\small \, \mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 16\sqrt{2} &
@@ -301,49 +306,54 @@ $
   > According to the Solution, get $S=12\sqrt{5}$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  \begin{cases}
-  p=\frac{1}{2}(a+b+c) \\
-  S=\sqrt{p(p-a)(p-b)(p-c)} \\
-  \end{cases} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where}{\textsf{Heron's formula}} \\
+  S=\sqrt{p(p-a)(p-b)(p-c)} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where}{\textsf{heron's formula}} \\
   \end{array}
   >$
 
   :::
 ---
 
-## 9.Area of Special Triangles  
+## 9.Special Triangles and Their Areas 
 
-### $\textcolor{#1E3A5F}{\fbox{1}}\:$ Right Triangle  
-- Pythagorean theorem $a^2+b^2=c^2$.      
-- Commonly used pythagorean numbers $(3,4,5)$,$(6,8,10)$,$(5,12,13)$,$(7,24,25)$,$(8,15,17)$,$(9,12,15)$.    
-  - The scaled pythagorean theorem $(ka)^2+(kb)^2=(kc)^2$.  
-- The ratio of the three sides of an isosceles right triangle is $1:1:\sqrt{2}$.  
+### $\textcolor{#1E3A5F}{\fbox{1}}\:$ Right triangles
+- Pythagorean theorem: $a^2+b^2=c^2$      
+- ###### __Common Pythagorean triples__: $\boldsymbol{(3,4,5)}$, $\boldsymbol{(6,8,10)}$, $\boldsymbol{(5,12,13)}$, $\boldsymbol{(7,24,25)}$, $\boldsymbol{(8,15,17)}$, $\boldsymbol{(9,12,15)}$    
+  - __The proportional (scaled) pythagorean triple__ equation is $\boldsymbol{(ka)^2+(kb)^2=(kc)^2}$, where $k\in\mathbb{Z}^+$.  
+- In __an isosceles right triangle__, the ratio of the three sides is $\boldsymbol{1:1:\sqrt{2}}$.  
   ![Side ratio of isosceles right triangle.svg](../../public/math/Core%20Courses/Side%20ratio%20of%20isosceles%20right%20triangle.svg)   
-- The area of an isosceles right triangle is $S=\frac{1}{2}a^2=\frac{1}{4}c^2$, where $a$ is the length of the right angle side, and $c$ is the length of the hypotenuse.     
-- ###### In a triangle with angles $30^\circ,60^\circ,90^\circ$, the sides are always in the ratio $1:\sqrt{3}:2$.   
+- The area of an isosceles right triangle is $S=\frac{1}{2}a^2=\frac{1}{4}c^2$, where __$\boldsymbol{a}$ is the length of a leg__ and __$\boldsymbol{c}$ is the hypotenuse__.     
+- ###### In __a $\boldsymbol{30^\circ,60^\circ,90^\circ}$ right triangle__, the ratio of the three sides is $\boldsymbol{1:\sqrt{3}:2}$.   
   ![Triangle 30-60-90 side ratio.svg](../../public/math/Core%20Courses/Triangle%2030-60-90%20side%20ratio.svg)    
 
-### $\textcolor{#1E3A5F}{\fbox{2}}\:$ Equilateral Triangle
-- The ratio of the height to the side of an equilateral triangle is $\sqrt{3}:2=\frac{\sqrt{3}}{2}:1$.   
+### $\textcolor{#1E3A5F}{\fbox{2}}\:$ Equilateral triangles
+- __The ratio of the height to the side__ is $\boldsymbol{\sqrt{3}:2=\frac{\sqrt{3}}{2}:1}$.   
   - $h=\frac{\sqrt{3}}{2}a$  
-- ###### The area of an equilateral triangle is $S=\frac{\sqrt{3}}{4}a^2$, where $a$ is the length of the side.  
+- ###### The area of an equilateral triangle is $\boldsymbol{S=\frac{\sqrt{3}}{4}a^2}$, where __$\boldsymbol{a}$ is the side length__.
   - $S=\frac{1}{2}a\times\frac{\sqrt{3}}{2}a=\frac{\sqrt{3}}{4}a^2$   
 
 ![Area of equilateral triangle.svg](../../public/math/Core%20Courses/Area%20of%20equilateral%20triangle.svg)  
 
-## 10.Bird's Head Theorem  
-::: wrap
-- Two triangles are called congruent-angle triangles if they share an equal or supplementary angle.    
-- Their area ratio is the same as the ratio of the products of the sides around those angles.   
-- Figure 6–11, in $\angle ABC$ and $\angle ADE$, __the sine of $\boldsymbol{\angle A}$ is the same (same angles)__, so $\boxed{S_{\triangle ABC}:S_{\triangle ADE}=(AB \cdot AC):(AD \cdot AE)}$.     
-  ![Bird's Head Theorem Figure 6-11.svg](../../public/math/Core%20Courses/Bird%27s%20Head%20Theorem%20Figure%206-11.svg)     
-  $\frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{\cancel{\frac{1}{2}}AD\times AE \times \cancel{sinA}}{\cancel{\frac{1}{2}}AB\times AC \times \cancel{sinA}}=\frac{AD\times AE}{AB \times AC}$  
 
-:::  
+
+## 10.Area Ratio Theorem for Common Angle Triangles
+- If two triangles have $\overbrace{\textsf{angle that is equal or supplementary}}^{\href{https://www.mathsisfun.com/sine-cosine-tangent.html}{\textsf{same sine value}}}$, they're called __common-angle triangles__.
+- For common-angle triangles, __the ratio of their areas equals the ratio of the products of the two sides enclosing the equal (or supplementary) angle__.
+- Figure 6–11, in $\angle ABC$ and $\angle ADE$, since __the sine of $\boldsymbol{\angle A}$ has the same sine value__, $\boldsymbol{S_{\triangle ABC}:S_{\triangle ADE}=(AB \cdot AC):(AD \cdot AE)}$.     
+  ![Common angle area ratio theorem figure 6-11.svg](../../public/math/Core%20Courses/Common%20angle%20area%20ratio%20theorem%20figure%206-11.svg)  
+- __Theorem derivation__     
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  S=\frac{1}{2}ab\textsf{sin}C & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#where-is-the-included-angle-between-sides-and}{\textsf{triangle area formula (included angle)}} \\
+  \frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{\cancel{\frac{1}{2}}AD\times AE \times \cancel{\textsf{sin}A}}{\cancel{\frac{1}{2}}AB\times AC \times \cancel{\textsf{sin}A}}=\frac{AD\times AE}{AB \times AC} \\
+  \end{array}
+  $  
+  :::
+
 
 
 ## 11.Focus 6
@@ -387,11 +397,11 @@ $
   > According to the Solution, get $S_{\triangle ABC}=70$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{AD\times AE}{AB \times AC} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_10-bird-s-head-theorem}{\textsf{Bird's Head theorem}} \\
+  \frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{AD\times AE}{AB \times AC} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_10-area-ratio-theorem-for-common-angle-triangles}{\textsf{common angle triangles – area ratio theorem}} \\
   \end{array}
   >$
 
@@ -433,55 +443,50 @@ $
   > According to the Solution, get $S_{\triangle ABC}=50$, so choose $E$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{AD\times AE}{AB \times AC} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_10-bird-s-head-theorem}{\textsf{Bird's Head theorem}} \\
+  \frac{S_{\triangle ADE}}{S_{\triangle ABC}}=\frac{AD\times AE}{AB \times AC} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_10-area-ratio-theorem-for-common-angle-triangles}{\textsf{common angle triangles – area ratio theorem}} \\
   \end{array}
   >$
 
   :::
 ---
 
-## 12.Swallowtail Theorem  
-::: wrap  
-- Figure 6–12, within triangle $ABC$, the lines $AD, AE, CF$ are concurrent at point $O$, then $S_{\triangle ABO}:S_{\triangle ACO}=BD:DC$.   
-  ![Swallowtail theorem figure 6-12.svg](../../public/math/Core%20Courses/Swallowtail%20theorem%20figure%206-12.svg)   
-- This theorem provides a new method for converting an area ratio into a segment ratio,
-  because the shapes of $\triangle ABO$ and $\triangle ACO$ resemble a Swallow's tail,
-  the theorem is known as the __Swallowtail Theorem__. 
-  it is widely applied in various geometric problems;
-  its particular significance lies in the fact that it can exist within any triangle, 
-  offering a way to relate the areas of sub-triangles to the corresponding segments on the base.  
-- __Derivation process: Since $\triangle ABD$ and $\triangle ACD$ have equal altitude__.  
+
+## 12.Area Ratio Theorem for Concurrent Cevians
+- Figure 6–12, in $\triangle ABC$,
+  if __cevians $\boldsymbol{AD, AE}$, and $\boldsymbol{CF}$__ are __concurrent at a single point $\boldsymbol{O}$__,
+  then $\boldsymbol{S_{\triangle ABO}:S_{\triangle ACO}=BD:DC}$.  
+  ![Cevians area ratio theorem figure 6-12.svg](../../public/math/Core%20Courses/Cevians%20area%20ratio%20theorem%20figure%206-12.svg)
+- This theorem provides __a way to transform an area ratio into a segment ratio__.
+  It is widely used in many geometry problems.
+  Its special feature is __that it holds in any triangle__,
+  establishing __a connection between the areas of sub-triangles and the corresponding base segments__.
+- __Theorem derivation__     
+  ![Cevians area ratio theorem derivation.svg](../../public/math/Core%20Courses/Cevians%20area%20ratio%20theorem%20derivation.svg)    
+  ::: wrap  
   $
   \begin{array}{ll}
+  S=\frac{1}{2}ah
+  \begin{cases}
+  \frac{S_1}{S_2}=\frac{a_1}{a_2} & h\textsf{ are equal} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\textsf{property of triangle area formula}} \\
   S_{\triangle ABD}:S_{\triangle ACD} = BD:CD & \triangle ABD \textsf{ and } \triangle ACD \textsf{ have equal altitude} \\
   S_{\triangle BOD}:S_{\triangle COD} = BD:CD & \triangle BOD \textsf{ and } \triangle COD \textsf{ have equal altitude} \\
-  S_{\triangle ABO}:S_{\triangle ACO} = BD:CD & (S_{\triangle ABD}-S_{\triangle BOD}):(S_{\triangle ACD}-S_{\triangle COD})=BD:CD \\
+  \frac{S_{\triangle ABD}}{S_{\triangle ACD}}= \frac{S_{\triangle BOD}}{S_{\triangle COD}}=\frac{BD}{CD} \\
+  \frac{S_{\triangle ABD}-S_{\triangle BOD}}{S_{\triangle ACD}-S_{\triangle COD}}=\frac{S_{\triangle AOB}}{S_{\triangle AOC}} \\
+  (S_{\triangle ABD}-S_{\triangle BOD}):(S_{\triangle ACD}-S_{\triangle COD})=BD:CD \\
+  S_{\triangle AOB}:S_{\triangle AOC}=BD:CD \\
   \end{array}
   $  
-
-:::
+  :::
 
 
 ## 13.Focus 7
 __Solve area using the Swallowtail theorem (equal altitudes).__  
-- When a point inside a triangle is joined to each of the triangle's vertices, the __Swallowtail theorem__ can be applied for analysis.   
-  ![Swallowtail theorem in triangle.svg](../../public/math/Core%20Courses/Swallowtail%20theorem%20in%20triangle.svg)    
-- __Formula derivations__   
-  ::: wrap    
-  ![Swallowtail theorem formula derivations.svg](../../public/math/Core%20Courses/Swallowtail%20theorem%20formula%20derivations.svg)    
-
-  $
-  \begin{array}{ll}
-  \frac{S_{\triangle ABD}}{S_{\triangle ACD}}= \frac{S_{\triangle BOD}}{S_{\triangle COD}}=\frac{BD}{CD} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_6-focus-3}{\textsf{equal altitudes,
-  h same }}\frac{S_1}{S_2}=\frac{a_1}{a_2} \\
-  \frac{S_{\triangle ABD}-S_{\triangle BOD}}{S_{\triangle ACD}-S_{\triangle COD}}=\frac{S_{\triangle AOB}}{S_{\triangle AOC}} \\
-  \end{array}
-  $  
-  :::
+- When a point inside a triangle is joined to each of the triangle's vertices, the __Swallowtail theorem__ can be applied for analysis.
 
 
 ::: wrap
@@ -521,11 +526,11 @@ $
   > According to the Solution, get $\frac{AF}{BF}=\frac{27}{16}$, so choose $E$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{S_{\triangle AOB}}{S_{\triangle AOC}}=\frac{BD}{CD} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_12-swallowtail-theorem}{\textsf{Swallowtail theorem}} \\
+  \frac{S_{\triangle AOB}}{S_{\triangle AOC}}=\frac{BD}{CD} & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#_12-area-ratio-theorem-for-concurrent-cevians}{\textsf{concurrent cevians – area ratio theorem}} \\
   \end{array}
   >$
 

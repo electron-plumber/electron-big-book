@@ -19,8 +19,8 @@
   <path d="M90.398,140.255l783.851,0" style="fill:none;stroke:#9370db;stroke-width:12.5px;"/>
   <g transform="matrix(50,0,0,50,934.108,46.4385)">
     </g>
-  <text x="811.867px" y="46.439px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;fill:#dc143c;stroke:#1e3a5f;stroke-width:0.83px;stroke-linecap:butt;stroke-miterlimit:2;">Items</text>
+  <text x="811.867px" y="46.439px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;fill:#dc143c;stroke:#1e3a5f;stroke-width:0.83px;stroke-linecap:butt;stroke-miterlimit:2;">items</text>
   <g transform="matrix(50,0,0,50,179.518,36.2077)">
     </g>
-  <text x="-0.194px" y="36.208px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;fill:#dc143c;stroke:#1e3a5f;stroke-width:0.83px;stroke-linecap:butt;stroke-miterlimit:2;">W<tspan x="46.095px 73.903px " y="36.208px 36.208px ">ei</tspan>ghts</text>
+  <text x="-0.194px" y="36.208px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;fill:#dc143c;stroke:#1e3a5f;stroke-width:0.83px;stroke-linecap:butt;stroke-miterlimit:2;">weights</text>
 </svg>

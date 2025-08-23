@@ -57,13 +57,13 @@ $
   > According to the Solution, get $\textsf{(1)},\textsf{(2)},\textsf{(3)}$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
   & \href{/math/0%20Core%20Courses/33%20Chapter11%20descriptive%20statistics.html#_2-mode}{\textsf{mode}} \\
   & \href{/math/0%20Core%20Courses/33%20Chapter11%20descriptive%20statistics.html#_3-median}{\textsf{median}} \\
-  \overline{x}=\frac{x_1+x_2+\cdots+x_n}{n} & \href{/math/0%20Core%20Courses/33%20Chapter11%20descriptive%20statistics.html#_1-mean}{\textsf{mean}} \\
+  \overline{x}=\frac{x_1+x_2+\cdots+x_n}{n} & \href{/math/0%20Core%20Courses/33%20Chapter11%20descriptive%20statistics.html#_1-mean}{\textsf{arithmetic mean formula}} \\
   \end{array}
   >$
 
@@ -154,13 +154,13 @@ $
   > According to the Solution, get $9.5\rightarrow3,\frac{9.5+9.5}{2}=9.5,\overline{x}\approx9.52$, so choose $(1)\rightarrow C,(2)\rightarrow C,(3)\rightarrow B$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
   & \href{/math/0%20Core%20Courses/33%20Chapter11%20descriptive%20statistics.html#_2-mode}{\textsf{mode}} \\
   & \href{/math/0%20Core%20Courses/33%20Chapter11%20descriptive%20statistics.html#_3-median}{\textsf{median}} \\
-  \overline{x}=\frac{x_1+x_2+\cdots+x_n}{n} & \href{/math/0%20Core%20Courses/33%20Chapter11%20descriptive%20statistics.html#_1-mean}{\textsf{mean}} \\
+  \overline{x}=\frac{x_1+x_2+\cdots+x_n}{n} & \href{/math/0%20Core%20Courses/33%20Chapter11%20descriptive%20statistics.html#_1-mean}{\textsf{arithmetic mean formula}} \\
   \end{array}
   >$
 
@@ -203,7 +203,7 @@ $
   > According to the Solution, get $\overline{x}=23$, so choose $D$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -244,7 +244,7 @@ $
   > According to the Solution, get $\overline{x}=74$, so choose $C$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
@@ -346,7 +346,7 @@ $
   > According to the Solution, get $C\gt B\gt A$, so choose $E$. 
 
   :::
-- Formula used  
+- Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
