@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="216" height="168" viewBox="0 0 765 562" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;">
-    <path d="M317.145,216.682l162.803,-181.329" style="fill:none;fill-rule:nonzero;stroke:#93278f;stroke-width:8.33px;"/>
-  <path d="M28.958,537.621l288.187,-320.939" style="fill:none;fill-rule:nonzero;stroke:#0071bc;stroke-width:8.33px;"/>
-  <path d="M729.977,293.023l-250.029,-257.67" style="fill:none;fill-rule:nonzero;stroke:#0071bc;stroke-width:8.33px;"/>
-  <path d="M28.958,537.621l701.019,-244.598" style="fill:none;fill-rule:nonzero;stroke:#0071bc;stroke-width:8.33px;"/>
+<svg width="216" height="168" viewBox="0 0 899 661" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;">
+    <path d="M34.068,632.495l339.043,-377.575" style="fill:none;fill-rule:nonzero;stroke:#1e90ff;stroke-width:8.33px;"/>
+  <path d="M34.068,632.495l824.728,-287.762" style="fill:none;fill-rule:nonzero;stroke:#1e90ff;stroke-width:8.33px;"/>
   <g>
-        <text x="467.151px" y="28.141px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:39.313px;fill:#3fa9f5;">A</text>
+        <text x="549.589px" y="33.107px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:46.251px;fill:#0dcaf2;">A</text>
     </g>
   <g>
-        <text x="-2.879px" y="561.743px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:39.313px;fill:#3fa9f5;">B</text>
+        <text x="-3.387px" y="660.874px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:46.251px;fill:#0dcaf2;">B</text>
     </g>
   <g>
-        <text x="615.208px" y="161.62px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:39.313px;fill:#0071bc;">3</text>
+        <text x="723.774px" y="190.141px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:46.251px;fill:#1e90ff;">3</text>
     </g>
-  <path d="M480.919,379.999l-0.971,-344.646" style="fill:none;fill-rule:nonzero;stroke:#c1272d;stroke-width:8.33px;"/>
-  <path d="M317.374,216.567l163.403,163.404" style="fill:none;fill-rule:nonzero;stroke:#c1272d;stroke-width:8.38px;"/>
+  <path d="M331.073,301.738l119.311,185.92" style="fill:none;fill-rule:nonzero;stroke:#dc143c;stroke-width:8.33px;"/>
   <g>
-        <text x="737.3px" y="309.084px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:39.313px;fill:#3fa9f5;">C</text>
-    </g>
-  <g>
-        <text x="470.12px" y="421.006px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:39.313px;fill:#3fa9f5;">D</text>
+        <text x="867.411px" y="363.628px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:46.251px;fill:#0dcaf2;">C</text>
     </g>
   <g>
-        <text x="287.162px" y="209.776px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:39.313px;fill:#3fa9f5;">E</text>
+        <text x="433.734px" y="534.666px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:46.251px;fill:#9370db;">D</text>
     </g>
   <g>
-        <text x="233.753px" y="266.609px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:39.313px;fill:#0071bc;">5</text>
+        <text x="306.806px" y="284.084px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:46.251px;fill:#9370db;">E</text>
     </g>
+  <g>
+        <text x="275.003px" y="313.658px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:46.251px;fill:#1e90ff;">5</text>
+    </g>
+  <path d="M543.477,67.539l3.294,-2.185c3.913,5.85 10.353,9.534 17.396,9.951c7.439,0.44 14.612,-2.816 19.155,-8.695l3.138,2.406c-5.343,6.914 -13.778,10.743 -22.526,10.225c-8.282,-0.491 -15.856,-4.823 -20.457,-11.702Z" style="fill:#ff7bac;"/>
+  <path d="M331.06,301.757l233.296,-260.901" style="fill:none;fill-rule:nonzero;stroke:#9370db;stroke-width:8.33px;"/>
+  <path d="M858.796,344.733l-294.152,-303.141" style="fill:none;fill-rule:nonzero;stroke:#1e90ff;stroke-width:8.33px;"/>
+  <path d="M450.504,487.955l114.228,-447.123" style="fill:none;fill-rule:nonzero;stroke:#8dcc33;stroke-width:8.33px;"/>
 </svg>

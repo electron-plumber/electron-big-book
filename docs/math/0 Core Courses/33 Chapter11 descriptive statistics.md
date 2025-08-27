@@ -23,7 +23,7 @@ lang: en-US
 __The basic concepts__  
 - Analyze and make judgments based on __the concepts of mean, mode, and median__.
 
-### $\fbox{1}\:$Which of the following statements are incorrect $\small \,\mathpunct{?}$.
+### $\fbox{1}\:$Which of the following statements are incorrect $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -87,7 +87,7 @@ __The calculation of the average value for a set of numbers__
 |-------|-------|-------|-------|-------|-------|-------|-------|-------|  
 | Score | $9.3$ | $9.5$ | $9.4$ | $9.6$ | $9.5$ | $9.6$ | $9.5$ | $9.7$ |  
 
-#### (1) What is the mode of the $\small 8$ judges' scores $\small \,\mathpunct{?}$.
+#### (1) What is the mode of the $\small 8$ judges' scores $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -99,7 +99,7 @@ $
 \end{array}
 $  
 :::  
-#### (2) What is the median of the $\small 8$ judges' scores $\small \,\mathpunct{?}$.
+#### (2) What is the median of the $\small 8$ judges' scores $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -111,7 +111,7 @@ $
 \end{array}
 $  
 :::
-#### (3) According to the competition rules, after removing the highest and lowest scores, the final score is the average of the remaining $\small 6$ judges' scores. What is the contestant's final score $\small \,\mathpunct{?}$ (answer rounded to two decimal places).
+#### (3) According to the competition rules, after removing the highest and lowest scores, the final score is the average of the remaining $\small 6$ judges' scores. What is the contestant's final score $\small \mathpunct{?}$ (answer rounded to two decimal places).
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -173,7 +173,7 @@ __The weighted average calculation__
   __the overall average__ can be calculated __using the weighted average formula__.
 
   
-### $\fbox{3}\:$Let the prices of sugars $a,b$, and $c$ be $\small 18$ dollars/kg, $\small 24$ dollars/kg, $\small 36$ dollars/kg, respectively. If the mixing ratio is $\small 3:2:1$, what is the reasonable price of the mixed sugar per kilogram $\small \,\mathpunct{?}$.
+### $\fbox{3}\:$Let the prices of sugars $a,b$, and $c$ be $\small 18$ dollars/kg, $\small 24$ dollars/kg, $\small 36$ dollars/kg, respectively. If the mixing ratio is $\small 3:2:1$, what is the reasonable price of the mixed sugar per kilogram $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -214,7 +214,7 @@ $
   :::
 ---
 
-### $\fbox{4}\:$In a game competition, Class $\small A$ has $\small 20$ participants with an average score of $\small 80$, and Class $\small B$ has $\small 30$ participants with an average score of $\small 70$. What is the overall average score of all participants from both classes $\small \,\mathpunct{?}$.
+### $\fbox{4}\:$In a game competition, Class $\small A$ has $\small 20$ participants with an average score of $\small 80$, and Class $\small B$ has $\small 30$ participants with an average score of $\small 70$. What is the overall average score of all participants from both classes $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -265,7 +265,7 @@ __The comparison of averages__
 
 ### $\fbox{5}\:$The students from Classes $\small A, B$, and $\small C$ participate in an evaluation, and the number of students and their scores are shown in the table below:  
 ![Question average value figure Q-5 solve-1.svg](../../public/math/Core%20Courses/Question%20average%20value%20figure%20Q-5%20solve-1.svg)  
-#### What is the ranking of the three classes based on their average scores, from highest to lowest $\small \,\mathpunct{?}$.
+#### What is the ranking of the three classes based on their average scores, from highest to lowest $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}

@@ -258,7 +258,7 @@ $
 ---
 
 
-### $\fbox{29}\:$Figure 6–26, a square with perimeter $\small 20$ is inscribed in a square with perimeter $\small 28$. What is the maximum distance between a vertex of the smaller square and a vertex of the larger square $\small \, \mathpunct{?}$.
+### $\fbox{29}\:$Figure 6–26, a square with perimeter $\small 20$ is inscribed in a square with perimeter $\small 28$. What is the maximum distance between a vertex of the smaller square and a vertex of the larger square $\small \mathpunct{?}$.
 ![Question quadrilaterals figure 6-26.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-26.svg)    
 ::: wrap  
 $
@@ -360,7 +360,7 @@ __The rectangle__
 - Note: in a rectangle, propositions often involve __a straight line dividing it into several triangles__.
 
 
-### $\fbox{31}\:$Figure 6–28, the two sides of rectangle $\small ABCD$ are $\small 8$ and $\small 6$ respectively, and the area of quadrilateral $\small OEFG$ is $\small 4$, then the area of the shaded part is $\small \, \mathpunct{?}$.
+### $\fbox{31}\:$Figure 6–28, the two sides of rectangle $\small ABCD$ are $\small 8$ and $\small 6$ respectively, and the area of quadrilateral $\small OEFG$ is $\small 4$, then the area of the shaded part is $\small \mathpunct{?}$.
 ![Question quadrilaterals figure 6-28.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-28.svg)   
 ::: wrap  
 $
@@ -412,7 +412,7 @@ $
 ---
 
 
-### $\fbox{32}\:$Figure 6–29, in rectangle $\small ABCD$, points $\small E, F, G, H$ are on $\small AB, BC, CD, DA$ respectively, and point $\small P$ is inside rectangle $\small ABCD$. If $\small AB=4, BC=6$, $\small AE=CG=3, BF=DH=4$, and the area of quadrilateral $\small AEPH$ is $\small 5$, then the area of quadrilateral $\small PFCG$ is $\small \, \mathpunct{?}$.
+### $\fbox{32}\:$Figure 6–29, in rectangle $\small ABCD$, points $\small E, F, G, H$ are on $\small AB, BC, CD, DA$ respectively, and point $\small P$ is inside rectangle $\small ABCD$. If $\small AB=4, BC=6$, $\small AE=CG=3, BF=DH=4$, and the area of quadrilateral $\small AEPH$ is $\small 5$, then the area of quadrilateral $\small PFCG$ is $\small \mathpunct{?}$.
 ![Question quadrilaterals figure 6-29.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-29.svg)  
 ::: wrap  
 $
@@ -462,7 +462,7 @@ $
 ---
 
 
-### $\fbox{33}\:$A farmer wants to build a rectangular sheep pen with a perimeter of $\small 120$ and a diagonal no longer than $\small 50$, What is the minimum possible area of the pen $\small \, \mathpunct{?}$.
+### $\fbox{33}\:$A farmer wants to build a rectangular sheep pen with a perimeter of $\small 120$ and a diagonal no longer than $\small 50$, What is the minimum possible area of the pen $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -529,7 +529,7 @@ __The rhombus__
 
 
 
-### $\fbox{34}\:$If a rhombus has diagonals of lengths $\small 10$ and $\small 24$, then what is the area of the rhombus $\small \, \mathpunct{?}$.
+### $\fbox{34}\:$If a rhombus has diagonals of lengths $\small 10$ and $\small 24$, then what is the area of the rhombus $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -568,7 +568,7 @@ $
 ---
 
 
-### $\fbox{35}\:$If a rhombus has a perimeter of $\small 52$ and one diagonal of length $\small 24$, then what is the area of the rhombus $\small \, \mathpunct{?}$.
+### $\fbox{35}\:$If a rhombus has a perimeter of $\small 52$ and one diagonal of length $\small 24$, then what is the area of the rhombus $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -613,7 +613,7 @@ $
 ---
 
 
-### $\fbox{36}\:$Figure 6–30, in rhombus $\small ABCD$, the lengths of the two diagonals are $\small 6$ and $\small 8$ respectively, point $\small P$ is a moving point on $\small AC$, $\small M, N$ are the midpoints of $\small AB, AC$ respectively, then the minimum value of $\small PM+PN$ is $\small \, \mathpunct{?}$.
+### $\fbox{36}\:$Figure 6–30, in rhombus $\small ABCD$, the lengths of the two diagonals are $\small 6$ and $\small 8$ respectively, point $\small P$ is a moving point on $\small AC$, $\small M, N$ are the midpoints of $\small AB, AC$ respectively, then the minimum value of $\small PM+PN$ is $\small \mathpunct{?}$.
 ![Question quadrilaterals figure 6-30.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-30.svg)  
 ::: wrap  
 $
@@ -633,7 +633,7 @@ $
   $
   \begin{array}{ll}
   \textsf{the symmetric point of }N\textsf{ about }AC\textsf{ is }N^\prime \\
-  PM+PN=PM+PN^\prime \ge MN^\prime & a+b>c \\
+  PM+PN=PM+PN^\prime \ge MN^\prime \\
   MN^\prime=AD & \textsf{let }M, N^\prime\textsf{ be the midpoints of }AB, DC\textsf{ respectively} \\
   (3,4,5) \implies DC=5 \\
   AD=DC=5 \\
@@ -653,7 +653,6 @@ $
   >$
   \begin{array}{ll}
   (3,4,5)& \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#common-pythagorean-triples}{\textsf{common pythagorean triples}} \\
-  a+b>c & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\textsf{triangle inequality}} \\
   \end{array}
   >$
 
@@ -716,7 +715,7 @@ __The trapezoid__
   Pay attention to __the two special cases: right trapezoids and isosceles trapezoids__.
 
 
-### $\fbox{38}\:$Figure 6–32, $\small AB \perp BC$ at point $\small B$, $\small CD \perp BC$ at point $\small C$, the angle bisectors of $\angle BAD$ and $\angle CDA$ intersect at point $\small E$ on $\small BC$, $\small AD=8, BC=6$, then the area of quadrilateral $\small ABCD$ is $\small \, \mathpunct{?}$.
+### $\fbox{38}\:$Figure 6–32, $\small AB \perp BC$ at point $\small B$, $\small CD \perp BC$ at point $\small C$, the angle bisectors of $\angle BAD$ and $\angle CDA$ intersect at point $\small E$ on $\small BC$, $\small AD=8, BC=6$, then the area of quadrilateral $\small ABCD$ is $\small \mathpunct{?}$.
 ![Question quadrilaterals figure 6-32.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-32.svg)   
 ::: wrap  
 $
@@ -737,7 +736,7 @@ $
   \begin{array}{ll}
   ABCD=\textsf{right trapezoid} \\
   AB \parallel CD \\
-  \angle BAD + \angle CDA=180^\circ & \textsf{adjacent interior angles }180^\circ \\
+  \angle BAD + \angle CDA=180^\circ & \textsf{same-side interior angles }180^\circ \\
   S_{ABCD}=\frac{AB+CD}{2}\times BC \\
   \textsf{the points on the angle bisector divide} \\ 
   \textsf{the left and right triangles into two congruent triangles} \\
@@ -762,10 +761,12 @@ $
   >$
   \begin{array}{ll}
   \begin{cases}
-  \angle1=\angle4 \\
-  \angle2=\angle4 \\
-  \angle1+\angle4=180^\circ \\
-  \end{cases} & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angle-between-a-straight-line-and-a-parallel-line}{\textsf{angle relationship}} \\
+  \begin{array}{ll}
+  \angle1=\angle4 & \textsf{corresponding angles}\\
+  \angle2=\angle4 &\textsf{alternate interior angles}\\
+  \angle1+\angle4=180^\circ & \textsf{same-side interior angles}\\
+  \end{array}
+  \end{cases} & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_1-angles-formed-by-a-line-intersecting-parallel-lines}{\textsf{line and parallel lines intersection angles}} \\
   S=\frac{a+b}{2}h & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_5-trapezoid}{\textsf{trapezoid area formula}} \\
   \end{array}
   >$
@@ -774,7 +775,7 @@ $
 ---
 
 
-### $\fbox{39}\:$Figure 6–33, in trapezoid $\small ABCD$, $\small AD \parallel BC$. Points $\small P, Q$ are the midpoints of $\small AD, BC$ respectively. Point $\small O$ is the midpoint of $\small PQ$. A line is drawn through point $\small O$, intersecting $\small AD$ at point $\small M$ and $\small BC$ at point $\small N$. Then the area ratio of quadrilaterals $\small AMNB$ and $\small MDCN$ is $\small \, \mathpunct{?}$. 
+### $\fbox{39}\:$Figure 6–33, in trapezoid $\small ABCD$, $\small AD \parallel BC$. Points $\small P, Q$ are the midpoints of $\small AD, BC$ respectively. Point $\small O$ is the midpoint of $\small PQ$. A line is drawn through point $\small O$, intersecting $\small AD$ at point $\small M$ and $\small BC$ at point $\small N$. Then the area ratio of quadrilaterals $\small AMNB$ and $\small MDCN$ is $\small \mathpunct{?}$. 
 ![Question quadrilaterals figure 6-33.svg](../../public/math/Core%20Courses/Question%20quadrilaterals%20figure%206-33.svg)  
 ::: wrap  
 $

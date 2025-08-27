@@ -48,7 +48,7 @@ __The midpoint formula__
 - Analyze using the midpoint formula $(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2})$.
 
 
-### $\fbox{1}\:$Given three points $\small A(x,5),B(-2,y)$, and $\small C(1,1)$, if point $\small C$ is the midpoint of segment $\small AB$, then $\small \, \mathpunct{?}$.
+### $\fbox{1}\:$Given three points $\small A(x,5),B(-2,y)$, and $\small C(1,1)$, if point $\small C$ is the midpoint of segment $\small AB$, then $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -158,7 +158,7 @@ $
 ---
 
 
-### $\fbox{3}\:$In an equilateral triangle $\small ABC$, two vertices are $\small A(2,0)$ and $\small B(5,3\sqrt{3})$. What are the coordinates of the third vertex $\small \, \mathpunct{?}$.
+### $\fbox{3}\:$In an equilateral triangle $\small ABC$, two vertices are $\small A(2,0)$ and $\small B(5,3\sqrt{3})$. What are the coordinates of the third vertex $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -293,7 +293,7 @@ __The inclination angle and slope__
 
 
 
-### $\fbox{4}\:$How many correct statements are there about the inclination angle and slope $\small \, \mathpunct{?}$.
+### $\fbox{4}\:$How many correct statements are there about the inclination angle and slope $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -518,7 +518,7 @@ __The equation of a line__
 
 
 
-### $\fbox{6}\:$How many of the following statements are correct $\small \, \mathpunct{?}$.
+### $\fbox{6}\:$How many of the following statements are correct $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -621,7 +621,7 @@ $
 ---
 
 
-### $\fbox{8}\:$What is the equation of the line passing through the point $\small (5, 8)$ and having intercepts that are opposites of each other $\small \, \mathpunct{?}$.
+### $\fbox{8}\:$What is the equation of the line passing through the point $\small (5, 8)$ and having intercepts that are opposites of each other $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}

@@ -20,7 +20,7 @@ __The adjacent element bundling method__
 - When applying __the bundling method__ to adjacent elements, be sure to consider __the internal arrangement within the bundle__.   
 - Additionally, some problems may involve __bundling multiple groups__.
 
-### $\fbox{11}\:$Three families of three people each are watching a show. They bought $\small 9$ consecutive seats in one row. How many different ways can they sit if each family sits together $\small \,\mathpunct{?}$.
+### $\fbox{11}\:$Three families of three people each are watching a show. They bought $\small 9$ consecutive seats in one row. How many different ways can they sit if each family sits together $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -66,7 +66,7 @@ $
 ---
 
 
-### $\fbox{12}\:$Seven people are lined up. $\small A$ and $\small B$ must stand together, and so must $\small C$ and $\small D$. How many different arrangements are there$\small \,\mathpunct{?}$.
+### $\fbox{12}\:$Seven people are lined up. $\small A$ and $\small B$ must stand together, and so must $\small C$ and $\small D$. How many different arrangements are there$\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -112,7 +112,7 @@ $
 ---
 
 
-### $\fbox{13}\:$Using the digits $\small 1, 2, 3, 4$, and $\small 5$ without repetition, how many five-digit numbers can be formed where there are two digits between the odd digits $\small 1$ and $\small 5$, and both of those digits are even numbers $\small \,\mathpunct{?}$.
+### $\fbox{13}\:$Using the digits $\small 1, 2, 3, 4$, and $\small 5$ without repetition, how many five-digit numbers can be formed where there are two digits between the odd digits $\small 1$ and $\small 5$, and both of those digits are even numbers $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -170,7 +170,7 @@ __The alternating element insertion method__
 - First __arrange the other elements__, then insert the elements __that mustn't be adjacent__ into __the available gaps__.
 
 
-### $\fbox{14}\:$Seven people are standing in a line for a photo. if $\small A, B$, and $\small C$ mustn't be adjacent to each other, how many different arrangements are possible $\small \,\mathpunct{?}$.
+### $\fbox{14}\:$Seven people are standing in a line for a photo. if $\small A, B$, and $\small C$ mustn't be adjacent to each other, how many different arrangements are possible $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -220,7 +220,7 @@ $
   :::
 ---
 
-### $\fbox{15}\:$A performance has $\small 3$ dances, $\small 2$ dramas, and $\small 2$ solos. The dance performances can't appear consecutively. How many different sequences of performances are possible $\small \,\mathpunct{?}$.
+### $\fbox{15}\:$A performance has $\small 3$ dances, $\small 2$ dramas, and $\small 2$ solos. The dance performances can't appear consecutively. How many different sequences of performances are possible $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -269,7 +269,7 @@ $
 ---
 
 
-### $\fbox{16}\:$The corridor has a row of $\small 8$ light bulbs. To save electricity without affecting the lighting, $\small 3$ bulbs must be turned off at the same time, but no adjacent bulbs can be turned off. How many ways are there to turn off the lights $\small \,\mathpunct{?}$.
+### $\fbox{16}\:$The corridor has a row of $\small 8$ light bulbs. To save electricity without affecting the lighting, $\small 3$ bulbs must be turned off at the same time, but no adjacent bulbs can be turned off. How many ways are there to turn off the lights $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -325,7 +325,7 @@ __The adjacent and non-adjacent cases appear together__
 
 
 
-### $\fbox{17}\:$Seven people stand in a line. If $\small A$ and $\small B$ are adjacent, but neither of them is adjacent to $\small C$, how many different arrangements are there $\small \,\mathpunct{?}$.
+### $\fbox{17}\:$Seven people stand in a line. If $\small A$ and $\small B$ are adjacent, but neither of them is adjacent to $\small C$, how many different arrangements are there $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -376,7 +376,7 @@ $
 ---
 
 
-### $\fbox{18}\:$Six people — three men and three women — stand in a line. If two of the women must stand next to each other, how many different arrangements are possible $\small \,\mathpunct{?}$.
+### $\fbox{18}\:$Six people — three men and three women — stand in a line. If two of the women must stand next to each other, how many different arrangements are possible $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -445,7 +445,7 @@ __The case where both types are non-adjacent__
   $
 
 
-### $\fbox{19}\:$Six people — three men and three women — stand in a line. If the women aren't adjacent to each other and the men aren't adjacent to each other, how many different arrangements are possible $\small \,\mathpunct{?}$.
+### $\fbox{19}\:$Six people — three men and three women — stand in a line. If the women aren't adjacent to each other and the men aren't adjacent to each other, how many different arrangements are possible $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -497,7 +497,7 @@ $
 ---
 
 
-### $\fbox{20}\:$Seven people — four men and three women — stand in a line. If the women aren't adjacent to each other and the men aren't adjacent to each other, how many different arrangements are possible $\small \,\mathpunct{?}$.
+### $\fbox{20}\:$Seven people — four men and three women — stand in a line. If the women aren't adjacent to each other and the men aren't adjacent to each other, how many different arrangements are possible $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -592,7 +592,7 @@ __The identical elements divider method__
   If __empty groups are allowed__, then there are $\boldsymbol{C_{n+m-1}^{m-1}}$ ways.
 
 
-### $\fbox{21}\:$There are $\small 10$ athlete spots to be distributed among $\small 7$ classes, with each class receiving at least one. How many different distribution schemes are possible $\small \,\mathpunct{?}$.
+### $\fbox{21}\:$There are $\small 10$ athlete spots to be distributed among $\small 7$ classes, with each class receiving at least one. How many different distribution schemes are possible $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -634,7 +634,7 @@ $
 ---
 
 
-### $\fbox{22}\:$There are $\small 18$ athlete spots to be distributed among $\small 7$ classes, with each class receiving at least $\small 2$ spots. How many different distribution schemes are possible $\small \,\mathpunct{?}$.
+### $\fbox{22}\:$There are $\small 18$ athlete spots to be distributed among $\small 7$ classes, with each class receiving at least $\small 2$ spots. How many different distribution schemes are possible $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -817,7 +817,7 @@ __The repeated-element exponentiation method__
 - You need to learn how to apply the formula and understand its usage. __Be careful not to mix up the base and the exponent__.
 
 
-### $\fbox{25}\:$Five people are signing up for three different training courses, and each person signs up for only one course. How many different ways can they sign up $\small \,\mathpunct{?}$.
+### $\fbox{25}\:$Five people are signing up for three different training courses, and each person signs up for only one course. How many different ways can they sign up $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -866,7 +866,7 @@ $
 ---
 
 
-### $\fbox{26}\:$Five people sign up for three different competitions. Each competition has only one winner. How many different ways are there to assign the winners $\small \,\mathpunct{?}$.
+### $\fbox{26}\:$Five people sign up for three different competitions. Each competition has only one winner. How many different ways are there to assign the winners $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -905,7 +905,7 @@ $
 ---
 
 
-### $\fbox{27}\:$How many different ways are there to assign $\small 6$ interns to $\small 7$ workshops for their internships $\small \,\mathpunct{?}$.
+### $\fbox{27}\:$How many different ways are there to assign $\small 6$ interns to $\small 7$ workshops for their internships $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -975,7 +975,7 @@ __The correct matching and incorrect matching__
   $5$ incorrect matches: $44$ ways.
 
 
-### $\fbox{28}\:$There are $\small 5$ balls numbered $\small 1, 2, 3, 4, 5$ and $\small 5$ boxes also numbered $\small 1, 2, 3, 4, 5$. Each ball is to be placed into a box, with exactly one ball placed in the box that has the same number as the ball. Each box must contain exactly one ball. How many such arrangements are there in total $\small \,\mathpunct{?}$.
+### $\fbox{28}\:$There are $\small 5$ balls numbered $\small 1, 2, 3, 4, 5$ and $\small 5$ boxes also numbered $\small 1, 2, 3, 4, 5$. Each ball is to be placed into a box, with exactly one ball placed in the box that has the same number as the ball. Each box must contain exactly one ball. How many such arrangements are there in total $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -1017,7 +1017,7 @@ $
 ---
 
 
-### $\fbox{29}\:$There are $\small 6$ teachers, each teaching one of $\small 6$ classes. During the exam, two teachers proctor the classes they themselves teach. How many such proctoring arrangements are there $\small \,\mathpunct{?}$.
+### $\fbox{29}\:$There are $\small 6$ teachers, each teaching one of $\small 6$ classes. During the exam, two teachers proctor the classes they themselves teach. How many such proctoring arrangements are there $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -1059,7 +1059,7 @@ $
 ---
 
 
-### $\fbox{30}\:$There are $\small 6$ teachers, each teaching one of $\small 6$ classes. During the exam, at least two teachers proctor the classes they themselves teach. How many such proctoring arrangements are there $\small \,\mathpunct{?}$.
+### $\fbox{30}\:$There are $\small 6$ teachers, each teaching one of $\small 6$ classes. During the exam, at least two teachers proctor the classes they themselves teach. How many such proctoring arrangements are there $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -1183,7 +1183,7 @@ $
 ---
 
 
-### $\fbox{32}\:$Using a balance scale and one each of $\small 1$ gram, $\small 3$ grams, and $\small 9$ grams weights (without using any other items as weights), how many different weights can be measured when the weights can only be placed on the same pan $\small \,\mathpunct{?}$.
+### $\fbox{32}\:$Using a balance scale and one each of $\small 1$ gram, $\small 3$ grams, and $\small 9$ grams weights (without using any other items as weights), how many different weights can be measured when the weights can only be placed on the same pan $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -1240,7 +1240,7 @@ $
 ---
 
 
-### $\fbox{33}\:$Mike has $\small 1$ five-dollar bill, $\small 4$ two-dollar bills, and $\small 8$ one-dollar bills. Now, he wants to buy an 8-dollar novel. How many different ways can he pay $\small \,\mathpunct{?}$.
+### $\fbox{33}\:$Mike has $\small 1$ five-dollar bill, $\small 4$ two-dollar bills, and $\small 8$ one-dollar bills. Now, he wants to buy an 8-dollar novel. How many different ways can he pay $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -1296,7 +1296,7 @@ $
 ---
 
 
-### $\fbox{34}\:$Using 10-cent, 20-cent, and 50-cent coins (with no limit on the number of each coin), how many different ways can you make $\small 1$ dollar $\small \,\mathpunct{?}$.
+### $\fbox{34}\:$Using 10-cent, 20-cent, and 50-cent coins (with no limit on the number of each coin), how many different ways can you make $\small 1$ dollar $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}

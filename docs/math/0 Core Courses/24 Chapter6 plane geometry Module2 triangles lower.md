@@ -64,7 +64,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  a+b>c & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-relationship-between-the-three-sides-of-a-triangle}{\textsf{triangle inequality}} \\
+  a+b>c & \href{/math/0%20Core%20Courses/22%20Chapter6%20plane%20geometry%20Module1%20parallel%20lines%20Module2%20triangles%20upper.html#_2-triangle-side-relationships}{\textsf{triangle side relationships}} \\
   \end{array}
   >$
 
@@ -420,7 +420,7 @@ __The similar triangles__
 
 
 
-### $\fbox{25}\:$Which of the following statements is correct $\small \, \mathpunct{?}$.
+### $\fbox{25}\:$Which of the following statements is correct $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -477,8 +477,8 @@ $
 ::: wrap
 ### $\fbox{26}\:$Figure 6–21, in triangle $\small \triangle ABC$, $DE, FG$, and $BC$ are parallel to each other, and $\small AD=DF=FB$. What is the ratio of the areas $S_{\triangle ADE}:S_{\textsf{quadrilateral}\,DEGF}:S_{\textsf{quadrilateral}\,FGCB} \,\mathpunct{?}$.
 :::  
-::: wrap  
 ![Question triangles figure 6-21.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%206-21.svg)  
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 1:3:5 &

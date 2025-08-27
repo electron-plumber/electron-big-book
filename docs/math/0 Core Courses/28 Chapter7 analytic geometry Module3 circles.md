@@ -125,7 +125,7 @@ $
 ---
 
 
-### $\fbox{23}\:$If the equation of the circle is $\small x^2+y^2=1$, then the equation of its right semicircle (the part located in the first and fourth quadrants) $\small \,\mathpunct{?}$.
+### $\fbox{23}\:$If the equation of the circle is $\small x^2+y^2=1$, then the equation of its right semicircle (the part located in the first and fourth quadrants) $\small \mathpunct{?}$.
 ::: wrap   
 $
 \begin{array}{lllll}
@@ -185,7 +185,7 @@ __The intersection of a circle and the coordinate axes__
 
 
 
-### $\fbox{24}\:$The two intersection points of the circle $\small x^2+(y-1)^2=4$ with the x-axis are $\small\, \mathpunct{?}$.
+### $\fbox{24}\:$The two intersection points of the circle $\small x^2+(y-1)^2=4$ with the x-axis are $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -218,7 +218,7 @@ $
 ---
 
 
-### $\fbox{25}\:$The equation of a circle with center at $\small P(−2,3)$ and tangent to the y-axis is $\small \, \mathpunct{?}$.
+### $\fbox{25}\:$The equation of a circle with center at $\small P(−2,3)$ and tangent to the y-axis is $\small \mathpunct{?}$.
 ::: wrap   
 $
 \begin{array}{lllll}
@@ -678,7 +678,7 @@ __The positional relationship between two circles__
   pay attention to how __these positional relationships__ correspond to __the number of common tangents__.
 
 
-### $\fbox{31}\:$The radii of two circles are the two roots of the equation $\small x^2-3x+2=0$, and the distance between the centers of the two circles is $\small 3$. What is the positional relationship between the two circles $\small \, \mathpunct{?}$.
+### $\fbox{31}\:$The radii of two circles are the two roots of the equation $\small x^2-3x+2=0$, and the distance between the centers of the two circles is $\small 3$. What is the positional relationship between the two circles $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -720,7 +720,7 @@ $
 ---
 
 
-### $\fbox{32}\:$The two circles $\small (x-a)^2+(y-b)^2=r^2$ and $\small (x-b)^2+(y-a)^2=r^2$ are tangent to each other, then $\small \, \mathpunct{?}$.
+### $\fbox{32}\:$The two circles $\small (x-a)^2+(y-b)^2=r^2$ and $\small (x-b)^2+(y-a)^2=r^2$ are tangent to each other, then $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -772,7 +772,7 @@ $
 ---
 
 
-### $\fbox{33}\:$How many common tangents do the circles $\small C_1: x^2+y^2+2x+2y-2=0$ and $\small C_2: x^2+y^2-4x-2y+1=0$ have $\small \, \mathpunct{?}$.
+### $\fbox{33}\:$How many common tangents do the circles $\small C_1: x^2+y^2+2x+2y-2=0$ and $\small C_2: x^2+y^2-4x-2y+1=0$ have $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -884,7 +884,7 @@ $
 ---
 
 
-### $\fbox{35}\:$How many common tangents do the circles $\small C_1: x^2+y^2-4x+2y+1=0$ and $\small C_2: x^2+y^2+4x-4y-1=0$ have $\small \, \mathpunct{?}$.
+### $\fbox{35}\:$How many common tangents do the circles $\small C_1: x^2+y^2-4x+2y+1=0$ and $\small C_2: x^2+y^2+4x-4y-1=0$ have $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}

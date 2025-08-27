@@ -188,7 +188,7 @@ __The using the included angle to find the area__
 
 
 
-### $\fbox{14}\:$If a triangle has two sides of lengths $\small 4$ and $\small 6$, and its area is $\small 6\sqrt{2}$, then what is the included angle between these two sides $\small \, \mathpunct{?}$. 
+### $\fbox{14}\:$If a triangle has two sides of lengths $\small 4$ and $\small 6$, and its area is $\small 6\sqrt{2}$, then what is the included angle between these two sides $\small \mathpunct{?}$. 
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -231,7 +231,7 @@ $
 
 
 
-### $\fbox{15}\:$If a triangle has two sides of lengths $\small 4$ and $\small 6$, and the third side length varies, then what is the maximum possible area of the triangle $\small \, \mathpunct{?}$.
+### $\fbox{15}\:$If a triangle has two sides of lengths $\small 4$ and $\small 6$, and the third side length varies, then what is the maximum possible area of the triangle $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -278,7 +278,7 @@ __The using three sides to find the area__
 
 
 
-### $\fbox{16}\:$If the three sides of a triangle are $\small 7, 8$, and $\small 9$, then the area of the triangle is $\small \, \mathpunct{?}$.
+### $\fbox{16}\:$If the three sides of a triangle are $\small 7, 8$, and $\small 9$, then the area of the triangle is $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}

@@ -173,7 +173,7 @@ $
 ---
 
 
-### $\fbox{14}\:$If the lines $\small mx+3y+5=0$ and $\small nx−2y+1=0$ are perpendicular to each other, how many pairs of positive integer solutions satisfy this condition $\small \, \mathpunct{?}$.
+### $\fbox{14}\:$If the lines $\small mx+3y+5=0$ and $\small nx−2y+1=0$ are perpendicular to each other, how many pairs of positive integer solutions satisfy this condition $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -281,7 +281,7 @@ $
 ---
 
 
-### $\fbox{16}\:$The equation of line $\small l$ is $\small x+2y−4=0$. Point $\small A$ has coordinates $\small (5,7)$. A line is drawn through $\small A$ perpendicular to $\small l$. What is the x-coordinate of the foot of the perpendicular $\small \, \mathpunct{?}$.
+### $\fbox{16}\:$The equation of line $\small l$ is $\small x+2y−4=0$. Point $\small A$ has coordinates $\small (5,7)$. A line is drawn through $\small A$ perpendicular to $\small l$. What is the x-coordinate of the foot of the perpendicular $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -427,7 +427,7 @@ $
 ---
 
 
-### $\fbox{18}\:$What is the distance from the intersection point of $\small 2x+3y+4=0$ and $\small 3x+y−1=0$ to the origin $\small \, \mathpunct{?}$.
+### $\fbox{18}\:$What is the distance from the intersection point of $\small 2x+3y+4=0$ and $\small 3x+y−1=0$ to the origin $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}

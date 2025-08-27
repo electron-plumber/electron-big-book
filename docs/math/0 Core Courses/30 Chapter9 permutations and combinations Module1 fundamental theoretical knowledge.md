@@ -96,7 +96,7 @@ __The addition principle__
 
 
 
-### $\fbox{1}\:$Student A plans to travel from Sonoma to Cupertino for a trip. On that day, there are $\small 3$ trains, $\small 2$ ferries, and $\small 5$ flights available from Sonoma to Cupertino. How many different travel options does Student A have $\small \, \mathpunct{?}$.
+### $\fbox{1}\:$Student A plans to travel from Sonoma to Cupertino for a trip. On that day, there are $\small 3$ trains, $\small 2$ ferries, and $\small 5$ flights available from Sonoma to Cupertino. How many different travel options does Student A have $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -265,7 +265,7 @@ __The multiplication principle__
 - When encountering multi-step problems, apply the multiplication principle.
 
 
-### $\fbox{3}\:$A class is participating in a $\small 400\textsf{m}$ relay at the school sports meet. Two students can run the first leg, three the second, two the third, and one the final leg. The total number of possible running orders is $\small \, \mathpunct{?}$.
+### $\fbox{3}\:$A class is participating in a $\small 400\textsf{m}$ relay at the school sports meet. Two students can run the first leg, three the second, two the third, and one the final leg. The total number of possible running orders is $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -327,7 +327,7 @@ __The addition and multiplication coexist__
 - When both classification and step-by-step processes appear together, you should __first classify at a macro level__, then __break down into steps at a micro level__.  
 
 
-### $\fbox{4}\:$From $\small 5$ sketches, $\small 3$ oil paintings, and $\small 2$ watercolors, how many different ways can you select two pieces of artwork of different types to decorate the classroom $\small \, \mathpunct{?}$.
+### $\fbox{4}\:$From $\small 5$ sketches, $\small 3$ oil paintings, and $\small 2$ watercolors, how many different ways can you select two pieces of artwork of different types to decorate the classroom $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -510,7 +510,7 @@ $
 ---
 
 
-### $\fbox{6}\:$If $\small C_{m-1}^{m-2}=\frac{3}{n-1}C_{n+1}^{n-2}$, then what $\small\,\mathpunct{?}$.
+### $\fbox{6}\:$If $\small C_{m-1}^{m-2}=\frac{3}{n-1}C_{n+1}^{n-2}$, then what $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -608,7 +608,7 @@ __The applications of permutations and combinations__
 - Calculate using the definitions and formulas of permutations and combinations.
 
 
-### $\fbox{7}\:$How many permutations are there when selecting any two elements from the four distinct elements $\small A, B, C$, and $\small D$ using enumeration $\small \,\mathpunct{?}$.
+### $\fbox{7}\:$How many permutations are there when selecting any two elements from the four distinct elements $\small A, B, C$, and $\small D$ using enumeration $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -665,7 +665,7 @@ $
 ---
 
 
-### $\fbox{8}\:$How many combinations are there when selecting any two elements from the four distinct elements $\small A, B, C$, and $\small D$ using enumeration $\small \,\mathpunct{?}$.
+### $\fbox{8}\:$How many combinations are there when selecting any two elements from the four distinct elements $\small A, B, C$, and $\small D$ using enumeration $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -718,7 +718,7 @@ $
 ---
 
 
-### $\fbox{9}\:$There are $\small 9$ number balls labeled $\small 1$ to $\small 9$. How many groups of three balls can be formed $\small \,\mathpunct{?}$. 
+### $\fbox{9}\:$There are $\small 9$ number balls labeled $\small 1$ to $\small 9$. How many groups of three balls can be formed $\small \mathpunct{?}$. 
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -757,7 +757,7 @@ $
 ---
 
 
-### $\fbox{10}\:$There are $\small 9$ number balls labeled $\small 1$ to $\small 9$. How many three-digit numbers can be formed by selecting any three of them $\small \,\mathpunct{?}$.
+### $\fbox{10}\:$There are $\small 9$ number balls labeled $\small 1$ to $\small 9$. How many three-digit numbers can be formed by selecting any three of them $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}

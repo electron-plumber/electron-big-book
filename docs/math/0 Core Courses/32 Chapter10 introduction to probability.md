@@ -71,7 +71,7 @@ __The basic concepts__
   especially since __the certain event__ and __the impossible event__ are __two special cases__.
 
 
-### $\fbox{1}\:$Which of the following events is a certain event $\small \,\mathpunct{?}$.
+### $\fbox{1}\:$Which of the following events is a certain event $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -114,7 +114,7 @@ $
   :::
 ---
 
-### $\fbox{2}\:$Which of the following events is an impossible event $\small \,\mathpunct{?}$.
+### $\fbox{2}\:$Which of the following events is an impossible event $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -224,7 +224,7 @@ __The ball drawing score__
 - Discuss __the situation of the drawn samples__ based on __the score__ and then write __the probability expression__.
 
 
-### $\fbox{4}\:$A bag contains $\small 6$ red balls and $\small 4$ black balls. Four balls are randomly drawn from the bag. If drawing a red ball scores $\small 2$ points and drawing a black ball scores $\small 1$ point, what is the probability that the total score is no more than $\small 6$ points $\small \,\mathpunct{?}$.
+### $\fbox{4}\:$A bag contains $\small 6$ red balls and $\small 4$ black balls. Four balls are randomly drawn from the bag. If drawing a red ball scores $\small 2$ points and drawing a black ball scores $\small 1$ point, what is the probability that the total score is no more than $\small 6$ points $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -452,7 +452,7 @@ __The template for two independent events__
   ###### __(4)__ The probability __that exactly one of $\boldsymbol{A}$ or $\boldsymbol{B}$ succeeds__: $P_1 \cdot (1-P_2)+(1-P_1) \cdot P_2$.  
 
 
-### $\fbox{7}\:\small A$ and $\small B$ participate in a basketball shooting game. Given that the probabilities of $\small A$ and $\small B$ making a shot are $\small 0.6$ and $\small 0.75$ respectively, if $\small A$ and $\small B$ each take one shot, what is the probability that exactly one of them makes the shot $\small \,\mathpunct{?}$.
+### $\fbox{7}\:\small A$ and $\small B$ participate in a basketball shooting game. Given that the probabilities of $\small A$ and $\small B$ making a shot are $\small 0.6$ and $\small 0.75$ respectively, if $\small A$ and $\small B$ each take one shot, what is the probability that exactly one of them makes the shot $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -502,7 +502,7 @@ __The template for three independent events__
   ###### __(5)__ The probability __that at most two succeed__: $1-P_1 \cdot P_2 \cdot P_3$.  
 :::   
 
-### $\fbox{8}\:$In a set-point shooting contest involving $A,B$, and $C$, the shooting accuracies are $0.9,0.8$, and $0.7$, respectively. Each person shoots once. What is the probability that at most two of them make the shot $\small \,\mathpunct{?}$.
+### $\fbox{8}\:$In a set-point shooting contest involving $A,B$, and $C$, the shooting accuracies are $0.9,0.8$, and $0.7$, respectively. Each person shoots once. What is the probability that at most two of them make the shot $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -547,7 +547,7 @@ __The implicit "at least one" template__
   In such cases, the problem should be solved __using the complement approach__.
 
 ### $\fbox{9}\:$A department assigns $\small A$ and $\small B$ to decrypt a code. Whether each can decrypt the code is independent. The probabilities that $\small A$ and $\small B$ can independently decrypt the code are $\small \frac{1}{3}$ and $\small \frac{1}{4}$, respectively.
-#### (1) What is the probability that exactly one of them decrypts the code $\small \,\mathpunct{?}$.  
+#### (1) What is the probability that exactly one of them decrypts the code $\small \mathpunct{?}$.  
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -559,7 +559,7 @@ $
 \end{array}
 $  
 :::  
-#### (2) What is the probability that they decrypt the code $\small \,\mathpunct{?}$.  
+#### (2) What is the probability that they decrypt the code $\small \mathpunct{?}$.  
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -602,7 +602,7 @@ $
   :::
 ---
 
-### $\fbox{10}\:$An archives building is equipped with three smoke detectors, whose probabilities of triggering an alarm when there is smoke or fire are $0.9,0.8$, and $0.7$, respectively. If smoke or fire occurs, what is the probability that an alarm will be triggered $\small \,\mathpunct{?}$.
+### $\fbox{10}\:$An archives building is equipped with three smoke detectors, whose probabilities of triggering an alarm when there is smoke or fire are $0.9,0.8$, and $0.7$, respectively. If smoke or fire occurs, what is the probability that an alarm will be triggered $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -643,7 +643,7 @@ $
 
 
 ### $\fbox{11}\:$There are two anti-aircraft guns, each with a probability of $\small 0.6$ of hitting an airplane.
-#### (1) What is the probability that the airplane will be hit if both guns fire one shell simultaneously $\small \,\mathpunct{?}$.
+#### (1) What is the probability that the airplane will be hit if both guns fire one shell simultaneously $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -709,7 +709,7 @@ __The competition template__
   then write __the corresponding probabilities__.
 
 
-### $\fbox{12}\:$In a guessing game with $\small 5$ rounds, if a player passes $\small 2$ consecutive rounds, they're considered to have successfully completed the challenge. The probability of Mike passing each round is $\small \frac{1}{2}$. What is the probability that he successfully completes the challenge $\small \,\mathpunct{?}$.
+### $\fbox{12}\:$In a guessing game with $\small 5$ rounds, if a player passes $\small 2$ consecutive rounds, they're considered to have successfully completed the challenge. The probability of Mike passing each round is $\small \frac{1}{2}$. What is the probability that he successfully completes the challenge $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -760,7 +760,7 @@ $
 
 
 ### $\fbox{13}\:\small A, B$, and $\small C$ are participating in a competition where two players compete in each round with no draws; the probability of $\small A$ defeating $\small B$ is $\small \frac{3}{5}$, $\small A$ defeating $\small C$ is $\small \frac{4}{5}$, and $\small B$ defeating $\small C$ is $\small \frac{3}{5}$, with the rule that the first round is between $\small A$ and $\small B$, and the winner of each round competes with the player who didn't participate in that round in the next round, and the competition ends when one player wins two rounds.
-#### (1) What is the probability that $\small A$ wins the competition after only two rounds $\small \,\mathpunct{?}$.
+#### (1) What is the probability that $\small A$ wins the competition after only two rounds $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -772,7 +772,7 @@ $
 \end{array}
 $
 :::  
-#### (2) What is the probability that the competition ends after only two rounds $\small \,\mathpunct{?}$.
+#### (2) What is the probability that the competition ends after only two rounds $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -784,7 +784,7 @@ $
 \end{array}
 $
 :::  
-#### (3) What is the probability that $\small A$ wins the entire competition $\small \,\mathpunct{?}$.
+#### (3) What is the probability that $\small A$ wins the entire competition $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -873,7 +873,7 @@ __The circuit template__
   ![Circuit parallel system probability.svg](../../public/math/Core%20Courses/Circuit%20parallel%20system%20probability.svg)  
 
 
-### $\fbox{14}\:$Figure 10–1, the letters represent the types of components, and components with the same letter but different subscripts belong to the same type. Given that the probabilities of components $\small A, B, C$, and $\small D$ functioning normally are $\small p,q,r$, and $s$ respectively, and the components work independently, what is the probability that the system functions normally $\small \,\mathpunct{?}$.
+### $\fbox{14}\:$Figure 10–1, the letters represent the types of components, and components with the same letter but different subscripts belong to the same type. Given that the probabilities of components $\small A, B, C$, and $\small D$ functioning normally are $\small p,q,r$, and $s$ respectively, and the components work independently, what is the probability that the system functions normally $\small \mathpunct{?}$.
 ![Question independent events figure 10-1.svg](../../public/math/Core%20Courses/Question%20independent%20events%20figure%2010-1.svg)  
 ::: wrap  
 $

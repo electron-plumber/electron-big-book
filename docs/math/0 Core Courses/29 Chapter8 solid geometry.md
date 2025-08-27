@@ -31,7 +31,7 @@ __The cuboid__
 - Master the formulas for the __space diagonal__, __surface area__, and __volume__ of a cuboid.
 
 
-### $\fbox{1}\:$The ratio of the length to the width of a cuboid is $\small 2:1$, and the ratio of the width to the height is $\small 3:2$. If the total length of all the edges of the cuboid is $\small 220$ cm, what is its volume $\small \, \mathpunct{?}$.
+### $\fbox{1}\:$The ratio of the length to the width of a cuboid is $\small 2:1$, and the ratio of the width to the height is $\small 3:2$. If the total length of all the edges of the cuboid is $\small 220$ cm, what is its volume $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -80,7 +80,7 @@ $
 ---
 
 
-### $\fbox{2}\:$The three adjacent edge lengths of a cuboid are in the ratio $\small 3:2:1$, and its surface area is $\small 88$. What is the length of the longest edge $\small \, \mathpunct{?}$.
+### $\fbox{2}\:$The three adjacent edge lengths of a cuboid are in the ratio $\small 3:2:1$, and its surface area is $\small 88$. What is the length of the longest edge $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -123,7 +123,7 @@ $
 ---
 
 
-### $\fbox{3}\:$The areas of three adjacent faces of a cuboid are $\small 2, 6$, and $\small 3$, respectively. What is the volume of the cuboid $\small \, \mathpunct{?}$.
+### $\fbox{3}\:$The areas of three adjacent faces of a cuboid are $\small 2, 6$, and $\small 3$, respectively. What is the volume of the cuboid $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -188,7 +188,7 @@ __The cube__
 - A cube is relatively simple; master the formulas for __its space diagonal, surface area, and volume__.
 
 
-### $\fbox{4}\:$Given that the space diagonal of a cube is $\small 3$, what is its total surface area $\small \, \mathpunct{?}$.
+### $\fbox{4}\:$Given that the space diagonal of a cube is $\small 3$, what is its total surface area $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -258,7 +258,7 @@ __The cylinders__
   ![Equilateral cylinder.svg](../../public/math/Core%20Courses/Equilateral%20cylinder.svg)  
 
 
-### $\fbox{5}\:$If the height of a cylinder is increased to $\small 3$ times its original height, and its base radius is increased to $\small 1.5$ times its original radius, then by what factor does its volume increase compared to the original volume $\small \, \mathpunct{?}$.
+### $\fbox{5}\:$If the height of a cylinder is increased to $\small 3$ times its original height, and its base radius is increased to $\small 1.5$ times its original radius, then by what factor does its volume increase compared to the original volume $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -299,7 +299,7 @@ $
 ---
 
 
-### $\fbox{6}\:$If the lateral development of a cylinder is a square, then its lateral surface area is how many times the area of its base $\small \, \mathpunct{?}$.
+### $\fbox{6}\:$If the lateral development of a cylinder is a square, then its lateral surface area is how many times the area of its base $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -346,7 +346,7 @@ __The prisms__
 - Master the formulas for calculating the __surface area__ and __volume__ of common __triangular and quadrangular prisms__.
 
 
-### $\fbox{7}\:$Figure 8–3, if the top and bottom faces of a right triangular prism are right triangles, what is the surface area of the triangular prism $\small \, \mathpunct{?}$.
+### $\fbox{7}\:$Figure 8–3, if the top and bottom faces of a right triangular prism are right triangles, what is the surface area of the triangular prism $\small \mathpunct{?}$.
 ![Question prisms and cylinders figure 8-3.svg](../../public/math/Core%20Courses/Question%20prisms%20and%20cylinders%20figure%208-3.svg)  
 ::: wrap  
 $
@@ -394,7 +394,7 @@ $
 ---
 
 
-### $\fbox{8}\:$A quadrangular prism has a lateral development in the shape of a square with a side length of $\small 40$, and its base is also a square. What is its volume $\small \, \mathpunct{?}$.
+### $\fbox{8}\:$A quadrangular prism has a lateral development in the shape of a square with a side length of $\small 40$, and its base is also a square. What is its volume $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -470,7 +470,7 @@ __The basic formulas of a sphere__
   - $\frac{V_1}{V_2}=(\frac{r_1}{r_2})^3$.
 
 
-### $\fbox{9}\:$If the surface area of a sphere increases to $\small 9$ times its original value, what its volume $\small \, \mathpunct{?}$.
+### $\fbox{9}\:$If the surface area of a sphere increases to $\small 9$ times its original value, what its volume $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -522,7 +522,7 @@ __The circumscribed sphere and the inscribed sphere__
 
 
 
-### $\fbox{10}\:$If a cuboid is inscribed in a sphere and its edge lengths are $\small 1, 2$, and $\small 3$, what is the surface area of the sphere $\small\,\mathpunct{?}$.
+### $\fbox{10}\:$If a cuboid is inscribed in a sphere and its edge lengths are $\small 1, 2$, and $\small 3$, what is the surface area of the sphere $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -564,7 +564,7 @@ $
 ---
 
 
-### $\fbox{11}\:$What is the minimum value of the ratio between the volume of an equilateral cylinder (excluding its inscribed sphere) and the volume of that sphere $\small \, \mathpunct{?}$.
+### $\fbox{11}\:$What is the minimum value of the ratio between the volume of an equilateral cylinder (excluding its inscribed sphere) and the volume of that sphere $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -610,7 +610,7 @@ $
 ---
 
 
-### $\fbox{12}\:$If a hemisphere is cut into a cylinder with a base radius half of the hemisphere's radius, what is the ratio of the volume of the hemisphere to the volume of the cylinder $\small\,\mathpunct{?}$.
+### $\fbox{12}\:$If a hemisphere is cut into a cylinder with a base radius half of the hemisphere's radius, what is the ratio of the volume of the hemisphere to the volume of the cylinder $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -669,7 +669,7 @@ __The section of a sphere__
 
 
 
-### $\fbox{13}\:$Two parallel planes intersect a sphere of radius $\small 5$, creating circular cross-sections with areas $\small 9\pi$ and $\small 16\pi$. What is the distance between these two planes $\small\,\mathpunct{?}$.
+### $\fbox{13}\:$Two parallel planes intersect a sphere of radius $\small 5$, creating circular cross-sections with areas $\small 9\pi$ and $\small 16\pi$. What is the distance between these two planes $\small \mathpunct{?}$.
 ::: wrap  
 $
 \begin{array}{lllll}
