@@ -3,7 +3,7 @@ title: Chapter3 Polynomials, Rational Expressions, and Functions – Module1 Pol
 lang: en-US
 ---
 
-| Platforms   | Courses                                                                                                              | Coursewares                                                       |
+| Platform   | Course                                                                                                              | Coursewares                                                       |
 |-------------|----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
 | YouTube     | [Watch](https://www.youtube.com/watch?v=b5nQJVdbtbo&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s)                         | [Courseware](../../public/math/Core%20Courses/pdf/Courseware.pdf) |
 | Dailymotion | [Watch](https://www.dailymotion.com/video/x9glvrq?playlist=x9h6d2)                                                   |                                                                   |

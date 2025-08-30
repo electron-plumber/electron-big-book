@@ -3,7 +3,7 @@ title: Chapter1 Real Numbers, Ratios, and Absolute Value – Module3 Absolute Va
 lang: en-US
 ---
 
-| Platforms   | Courses                                                                                      | Coursewares                                                       |
+| Platform   | Course                                                                                      | Coursewares                                                       |
 |-------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
 | YouTube     | [Watch](https://www.youtube.com/watch?v=cL4l9Ed5w-Q&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s) | [Courseware](../../public/math/Core%20Courses/pdf/Courseware.pdf) |
 | Dailymotion | [Watch](https://www.dailymotion.com/video/x9gcnce?playlist=x9h6d2)                           |                                                                   |

@@ -5,194 +5,177 @@ lang: en-US
 
 # Module 5-03 Geometric Sequences
 
-## 1.Definition  
-::: wrap  
-If in the sequence $\left\{ a_n \right\}, \frac{a_{n+1}}{a_n}=q(constant) (n \in N_+)$, 
-called the sequence $\left\{ a_n \right\}$ for Geometric sequence, __q__ is the common ratio.  
-:::
+## 1.Definition
+- If in a sequence $\left\{ a_n \right\}$, $\boldsymbol{\frac{a_{n+1}}{a_n}=q}$ ($\textsf{constant}$, $n \in \mathbb{N}_+$),
+  then the sequence $\left\{ a_n \right\}$ is called __a geometric sequence__, and $\boldsymbol{q}$ is called __the common ratio__.
+- Essence: the ratio is constant __(common ratio)__ — __a multiplicative relationship__.  
 
-Essence: ratio value is constant (common ratio), relationship of multiples.  
-
-| Sequences             | Multiples(Q) | __Q__ Law                                |
-|-----------------------|--------------|------------------------------------------|
-| $2,-6,18,-54,\dots$   | __-3__       | $q<0$ Alternation positive and negative. |
-| $2,6,18,54,\dots$     | __3__        | $q>0$ Same Sign Operators.               |
-| $-2,-6,-18,-54,\dots$ | __3__        | $q>0$ Same Sign Operators.               |
+  | Sequences              | Multiples($q$) | Rule($q$)                           |
+  |------------------------|----------------|-------------------------------------|
+  | $2,-6,18,-54,\cdots$   | __-3__         | $q<0:$ __terms alternate in sign__  |
+  | $2,6,18,54,\cdots$     | __3__          | $q>0:$ __terms have the same sign__ |
+  | $-2,-6,-18,-54,\cdots$ | __3__          | $q>0:$ __terms have the same sign__ |
+  
 
 
+## 2.General Term
+- $a_n=a_1q^{n-1}=a_{k}q^{n-k}=\frac{a_1}{q}q^n$
+- Note: if __two terms are known__, __the common ratio__ can be found by $\boldsymbol{\frac{a_n}{a_m}=q^{n-m}}$.
 
-## 2.General Term  
-::: wrap  
-$$\boldsymbol{a_n=a_1q^{n-1}=a_{k}q^{n-k}=\frac{a_1}{q}q^n}$$
+### $\textcolor{#1E3A5F}{\fbox{1}}\:$Derivations
+- Derivation of $\boldsymbol{a_n=a_1q^{n-1}}$  
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  \frac{a_{n+1}}{a_n}=q \\
+  \frac{\cancel{a_2}}{a_1}=q,\frac{\cancel{a_3}}{\cancel{a_2}}=q,\dots,\frac{a_n}{\cancel{a_{n-1}}}=q \\
+  \frac{a_n}{a_1}=q^{n-1} \\
+  a_n=a_1q^{n-1}
+  \end{array}
+  $  
+  :::
+- Derivation of $\boldsymbol{a_n=a_{k}q^{n-k}}$
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  \frac{a_{n+1}}{a_n}=q \\
+  \frac{\cancel{a_5}}{a_k}=q,\frac{\cancel{a_6}}{\cancel{a_5}}=q,\dots,\frac{a_n}{\cancel{a_{n-1}}}=q\\
+  \frac{a_n}{a_k}=q^{n-k} \\
+  a_n=a_kq^{n-k} \\
+  \end{array}
+  $  
+  :::
+- Derivation of $\boldsymbol{a_n=\frac{a_1}{q}q^n}$
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  a_n=a_1q^{n-1} \\
+  a_n=a_1 \frac{q^n}{q} \\
+  a_n=\frac{a_1}{q}q^n \\
+  \end{array}
+  $  
+  :::
 
-__Remark: If two elements are known, need to know determine a common ratio $\frac{a_n}{a_m}=q^{n-m}$__.  
-:::
+### $\textcolor{#1E3A5F}{\fbox{2}}\:$Applications
 
-### Formula derivations
-::: wrap  
-$\boldsymbol{a_n=a_1q^{n-1}}$  
-
-$
-\begin{array}{ll}
-\frac{a_{n+1}}{a_n}=q \\
-\frac{\cancel{a_2}}{a_1}=q,\frac{\cancel{a_3}}{\cancel{a_2}}=q,\dots,\frac{a_n}{\cancel{a_{n-1}}}=q \\
-\frac{a_n}{a_1}=q^{n-1} \\
-a_n=a_1q^{n-1}
-\end{array}
-$  
-:::
----
-::: wrap  
-$\boldsymbol{a_n=a_{k}q^{n-k}}$
-
-$
-\begin{array}{ll}
-\frac{a_{n+1}}{a_n}=q \\
-\frac{\cancel{a_2}}{a_k}=q,\frac{\cancel{a_3}}{\cancel{a_2}}=q,\dots,\frac{a_n}{\cancel{a_{n-1}}}=q\\
-\frac{a_n}{a_k}=q^{n-k} \\
-a_n=a_kq^{n-k} \\
-a_n=a_1q^{n-1} & k=1 \\
-\end{array}
-$  
-:::
----
-::: wrap  
-$\boldsymbol{a_n=\frac{a_1}{q}q^n}$
-
-$
-\begin{array}{ll}
-a_n=a_1q^{n-1} \\
-a_n=a_1 \frac{q^n}{q} \\
-a_n=\frac{a_1}{q}q^n \\
-\end{array}
-$  
-:::
----
+| Formula                | Conditions for Use                                            | Example Usage        |
+|------------------------|---------------------------------------------------------------|----------------------|
+| $a_n=a_1q^{n-1}$       | Requires $a_1$                                                | $a_5=a_1q^4$         |
+| $a_n=a_kq^{n-k}$       | Works with any $a_n$; when $k=1$, it becomes $a_n=a_1q^{n-1}$ | $a_5=a_3q^2$         |
+| $a_n=\frac{a_1}{q}q^n$ | Requires $a_1$ and $q$                                        | $a_n=2 \times 3^{n}$ |
 
 
+## 3.Sum of the First $n$ Terms
+- $
+  S_n=
+  \begin{cases}
+  \begin{array}{ll}
+  na_1 & q=1 \\
+  \frac{a_{1}(1-q^n)}{1-q}=\frac{a_{1}-a_{n}q}{1-q}=\frac{a_{1}-a_{n+1}}{1-q} & q \neq 1 \\
+  \end{array}
+  \end{cases}
+  $
 
-| Formulas               | Descriptions                                                              | Usages               |
-|------------------------|---------------------------------------------------------------------------|----------------------|
-| $a_n=a_1q^{n-1}$       | Need to know $a_1$ to use                                                 | $a_5=a_1q^4$         |
-| $a_n=a_kq^{n-k}$       | Knowing that any $a_n$ can be use, when $k=1$ it becomes $a_n=a_1q^{n-1}$ | $a_5=a_3q^2$         |
-| $a_n=\frac{a_1}{q}q^n$ | Need to know $a_1$ and $q$ to use, No constant term                       | $a_n=2 \times 3^{n}$ |
-
-
-## 3.Sum of the First N Terms  
-::: wrap  
-$$
-\boldsymbol{
-S_n=
-\begin{cases}
-na_1 & q=1 \\
-\frac{a_{1}(1-q^n)}{1-q}=\frac{a_{1}-a_{n}q}{1-q}=\frac{a_{1}-a_{n+1}}{1-q} & q \neq 1
-\end{cases}
-}
-$$  
-:::
-
-### Formula derivations
-::: wrap  
-$\boldsymbol{S_n=na_1}$
-
-$
-\begin{array}{ll}
-S_n=a_1+a_1+a_1+\dots+a_n & \textsf{Constant sequence} \\ 
-S_n=na_1 \\
-\end{array}
-$  
-:::
----
-::: wrap  
-$\boldsymbol{S_n=\frac{a_{1}-a_{n}q}{1-q}=\frac{a_{1}-a_{n+1}}{1-q}}$
-
-$
-\begin{array}{ll}
-S_n=a_1+a_2+\dots+a_{n-1}+a_n \\
-qS_n=q(a_1+a_2+\dots+a_{n-1}+a_n) \\
-qS_n=a_2+a_3+\dots+a_n+a_nq \\
-(S_n=a_1+a_2+\dots+a_{n-1}+a_n)-(qS_n=a_2+a_3+\dots+a_n+a_nq) & \textsf{Displaced subtraction} \\
-(1-q)S_n=a_1-a_nq \\
-S_n=\frac{a_1-a_nq}{1-q} \lor S_n=\frac{a_1-a_{n+1}}{1-q}\\
-\end{array}
-$  
-:::
----
-::: wrap  
-$\boldsymbol{S_n=\frac{a_{1}(1-q^n)}{1-q}}$
-
-$
-\begin{array}{ll}
-S_n=\frac{a_1-a_nq}{1-q} \\
-a_n=a_1q^{n-1} \\
-S_n=\frac{a_1-a_1q^n}{1-q} \\
-S_n=\frac{a_1(1-q^n)}{1-q} \lor S_n=\frac{a_1}{1-q}(1-q^n) \\
-\end{array}
-$  
-:::
----
+### $\textcolor{#1E3A5F}{\fbox{1}}\:$Derivations
+- Derivation of $\boldsymbol{S_n=na_1}$  
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  S_n=a_1+a_1+a_1+\dots+a_1 & \textsf{constant sequence} \\
+  S_n=na_1 \\
+  \end{array}
+  $  
+  :::
+- Derivation of $\boldsymbol{S_n=\frac{a_{1}-a_{n}q}{1-q}=\frac{a_{1}-a_{n+1}}{1-q}}$  
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  S_n=a_1+a_2+\dots+a_{n-1}+a_n & \textsf{geometric sequence}\\
+  qS_n=a_2+a_3+\dots+a_n+a_nq \\
+  S_n-qS_n & \textsf{term-shifting subtraction} \\
+  (1-q)S_n=a_1-a_nq \\
+  S_n=\frac{a_1-a_nq}{1-q} \lor S_n=\frac{a_1-a_{n+1}}{1-q}\\
+  \end{array}
+  $  
+  :::
+- Derivation of $\boldsymbol{S_n=\frac{a_{1}(1-q^n)}{1-q}}$  
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  S_n=\frac{a_1-a_nq}{1-q} \\
+  a_n=a_1q^{n-1} \\
+  S_n=\frac{a_1-a_1q^n}{1-q} \\
+  S_n=\frac{a_1(1-q^n)}{1-q} \lor S_n=\frac{a_1}{1-q}(1-q^n) \\
+  \end{array}
+  $  
+  :::
 
 
 ## 4.Important Properties
-::: wrap  
-1. __If $m+n=k+t \,\fbox{Arithmetic sequence}$ then $a_ma_n=a_ka_t \, \fbox{Geometric sequence}$.__
-   $
-   \begin{array}{ll}
-   a_3·a_9=a_5·a_7 \\
-   a_3·q^2=a_5 \\
-   a_7·q^2=a_9 \\
-   a_3·a_9=a_5·a_7=a_6^2 \\
-   \end{array}
-   $  
-:::  
-::: wrap  
-2. __$S_n$ is the sum of the first n terms of a geometric sequence,
-   then $S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots$ are still geometric sequences$\fbox{Segment summation}$,
-   and their common ratio is $q^n$.__  
-   $
-   \boxed{
-   \begin{array}{ll}
-   \underbrace{a_1 a_2 a_3}_{S_3} \; \underbrace{a_4 a_5 a_6}_{S_6-S_3} \;
-   \underbrace{a_7 a_8 a_9}_{S_9-S_6} \; \dots \\
-   \frac{a_4+a_5+a_6}{a_1+a_2+a_3}=\frac{(a_1+a_2+a_3)q^3}{a_1+a_2+a_3}=q^3
-   \end{array}
-   }
-   $
 
-   $
-   \boxed{
-   \begin{array}{ll} 
-   S_n = \frac{a_1(1-q^n)}{1-q} \to \frac{S_m}{S_n} = \frac{1-q^m}{1-q^n} \\
-   \textsf{Special case} \: S_m = S_{2n}. \\
-   \frac{S_{2n}}{S_n} = \frac{1-q^{2n}}{1-q^n} = \frac{(1-q^n)(1+q^n)}{1-q^n} = 1+q^n \\
-   \textsf{Proof common ratio}. \\
-   \frac{S_{2n}-S_n}{S_n} = \frac{S_{2n}}{S_n}-1 = 1+q^n-1 = q^n
-   \end{array}
-   }
-   $  
-:::  
-::: wrap  
-3. __If $\left| q \right| < 1$,
-   then the sum of all terms in the geometric sequence is $S=\lim\limits_{n \to \infty } S_n=\frac{a_1}{1-q}$.__  
-   $
-   \begin{array}{ll}
-   \left| q \right| < 1 \implies n \to \infty \implies q^n \to 0 \\
-   \left( \frac{1}{3} \right)^{100} \approx 0 \\
-   S_n = \frac{a_10}{1-q} = \frac{a_1}{1-q}
-   \end{array}
-   $  
-:::
+### $\textcolor{#1E3A5F}{\fbox{1}}\:$If $\small \overbrace{m+n=k+t}^{\textsf{arithmetic sequence}}$, then $\small \overbrace{a_ma_n=a_ka_t}^{\textsf{geometric sequence}}$
+- __Property derivation__  
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  a_3·a_9=a_5·a_7 \\
+  a_3·q^2=a_5 \\
+  a_7·q^2=a_9 \\
+  a_3·a_9=a_5·a_7=a_6^2 \\
+  \end{array}
+  $  
+  :::  
+
+
+### $\textcolor{#1E3A5F}{\fbox{2}}\:$If $\small S_n$ is the sum of the first $\small n$ terms of a geometric sequence, then $\small S_n, S_{2n}-S_n, S_{3n}-S_{2n},\cdots$ also form a geometric sequence with common ratio $\small q^n$
+- __Property derivation__ by grouping and summation  
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  \underbrace{a_1 a_2 a_3}_{S_3} \hspace{0.3cm} \underbrace{a_4 a_5 a_6}_{S_6-S_3} \hspace{0.3cm}
+  \underbrace{a_7 a_8 a_9}_{S_9-S_6} \hspace{0.3cm} \cdots \\
+  \frac{a_4+a_5+a_6}{a_1+a_2+a_3}=\frac{(a_1+a_2+a_3)q^3}{a_1+a_2+a_3}=q^3
+  \end{array}
+  $
+  :::  
+- __Property derivation__ using $S_n=\frac{a_{1}(1-q^n)}{1-q}$  
+  ::: wrap  
+  $
+  \begin{array}{ll} 
+  S_n = \frac{a_1(1-q^n)}{1-q} \longrightarrow \frac{S_m}{S_n} = \frac{1-q^m}{1-q^n} \\
+  \textsf{when }S_m = S_{2n} \\
+  \frac{S_{2n}}{S_n} = \frac{1-q^{2n}}{1-q^n} = \frac{(1-q^n)(1+q^n)}{1-q^n} = 1+q^n \\
+  \textsf{verify common ratio} \\
+  \frac{S_{2n}-S_n}{S_n} = \frac{S_{2n}}{S_n}-1 = 1+q^n-1 = q^n
+  \end{array}
+  $  
+  :::
+
+
+### $\textcolor{#1E3A5F}{\fbox{3}}\:$If $\small \left| q \right| < 1$, then the sum of all terms of the geometric sequence is $\small S=\lim\limits_{n \to \infty }S_n=\frac{a_1}{1-q}$
+- __Property derivation__  
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  \left| q \right| < 1 \implies n \to \infty \implies q^n \to 0 \\
+  \left( \frac{1}{3} \right)^{100} \approx 0 \\
+  S_n = \frac{a_1(1-q^n)}{1-q} \\
+  S_n = \frac{a_1(1-0)}{1-q} = \frac{a_1}{1-q} \\
+  \end{array}
+  $  
+  :::
+
 
 ## 5.Focus 1
-__Determination and definition of Geometric sequence.__  
-::: wrap  
-- If three numbers $a,b,c$ form a geometric sequence, then b is called the geometric mean of a and c, that is $ac=b^2$.   
-  - $b = \pm \sqrt{ac}$  
-  - $a,c$ same sign operators  
-:::
+__The identification and definition of sequences__
+- If __three numbers $\boldsymbol{a,b,c}$__ form a geometric sequence, then $\boldsymbol{b}$ is called __the geometric mean of $\boldsymbol{a}$ and $\boldsymbol{c}$__, i.e., $\boldsymbol{ac=b^2}$.   
+  - $b = \pm \sqrt{ac}$
+  - $a,c$ same sign
 
-::: wrap
-### $\fbox{28}\:$If $\small 2, 2^x-1, 2^x+3$ form a geometric sequence, that is $\small x = \, \mathpunct{?}$.
+
+
+### $\fbox{28}\:$If $\small 2, 2^x-1, 2^x+3$ form a geometric sequence, then $\small x=\,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: \log_{2}5 & 
@@ -204,70 +187,74 @@ $
 $  
 :::
 #### Solution
-::: wrap  
-- $\boldsymbol{2, 2^x-1, 2^x+3}$ form a geometric sequence; it means $\boldsymbol{a+c=b^2}$
-
-  $
-  \begin{array}{ll}
-  2 \times (2^x+3) = (2^x-1)^2 \\ 
-  2(t+3)=(t-1)^2 & t=2^x (t>0) \\
-  2(t+3)=t^2-2t+1 & (a-b)^2=a^2-2ab+b^2 \\
-  2t+6=t^2-2t+1 \\
-  t^2-4t-5=0 \\
-  (t-5)(t+1)=0 \\
-  t= 5 \lor -1 & t \ne -1 \\
-  t=5 \\
-  2^x=5 \\
-  x=\log_{2}5 & b^c=a \implies \log_{b}a=c \\
-  \end{array}
-  $  
+::: wrap
+$
+\begin{array}{ll}
+2 \times (2^x+3) = (2^x-1)^2 & ac=b^2 \\ 
+2(t+3)=(t-1)^2 & t=2^x \land t>0 \\
+2t+6=t^2-2t+1 \\
+t^2-4t-5=0 \\
+(t-5)(t+1)=0 \\
+t= 5 \lor -1 & t \ne -1 \\
+t=5 \\
+2^x=5 \\
+x=\log_{2}5 & b^c=a \longrightarrow \log_{b}a=c \\
+\end{array}
+$  
 :::
 #### Conclusion
-
 - Derived Solution  
   ::: wrap
   > $\boldsymbol{(A)}$  
   > According to the Solution, get $x=\log_{2}5$, so choose $A$.
   
   :::
-- $t>0$   
-  ::: wrap
-  > $t=2^x=a^x$  
-  > $a>0$ The range of the exponential function is $(0,\infty)$.   
-  > $a=0$ The exponent is only useful when $x>0$, and a negative exponent of 0 is undefined.  
-  > $a<0$ The result can be positive or negative.
-
-  :::
 - Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  (a-b)^2=a^2-2ab+b^2 & \textsf{Perfect square formula} \\
-  b^c=a \implies \log_{b}a=c & \href{https://en.wikipedia.org/wiki/Logarithm}{\textsf{Definition of logarithm}} \\
+  ac=b^2 & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_5-focus-1}{\textsf{geometric mean}} \\
+  (a-b)^2=a^2-2ab+b^2 & \textsf{perfect square formula} \\
+  b^c=a \longrightarrow \log_{b}a=c & \href{https://en.wikipedia.org/wiki/Logarithm}{\textsf{definition of logarithm}} \\
   \end{array}
   >$
 
   :::
+- Properties of the exponential function  
+  ::: wrap
+  > $\boldsymbol{f(x)=a^x}$  
+  > $a>0$: range is $(0, \infty)$.   
+  > $a=0$: defined only for $x>0$; $0$ with a negative exponent is undefined.  
+  > $a<0$: result may be positive or negative.
+
+  :::
 ---
 
-## 6.Focus 2
-__General term of geometric sequence.__  
-::: wrap  
-$\boldsymbol{a_n=a_1q^{n-1}=a_{k}q^{n-k}=\frac{a_1}{q}q^n}$  
-- No element in a geometric sequence can be 0, and the common ratio can't be 0.    
-  - $a_n= \textsf{constants} \times \textsf{exponents}$   
-  - $q= \textsf{base}$  
-  - $a_n= \textsf{constants} \quad \textsf{Special case } q=1$  
-:::
 
+## 6.Focus 2
+__The general term of a geometric sequence__
+- $a_n=a_1q^{n-1}=a_{k}q^{n-k}=\boldsymbol{\frac{a_1}{q}}q^n$
+- In a geometric sequence, __no term can be zero__, and __the common ratio can't be zero__.
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  a_n=\textsf{constant} \times \textsf{exponent} \\
+  q=\textsf{base} \\
+  a_n= \textsf{constant} & q=1 \\
+  \end{array}
+  $  
+  :::
+
+
+
+### $\fbox{29}\:$How many of the following can serve as the general term of a geometric sequence $\small \mathpunct{?}$.
 ::: wrap  
-### $\fbox{29}\:$Following there are $\small \mathpunct{?} \:$that can be used as general term in geometric sequence.
 $
 \begin{array}{lllll}
 \textsf{(1)} \: a_n=n^3 &
 \textsf{(2)} \: a_n=3^n &
 \textsf{(3)} \: a_n=\frac{1}{3} &
-\textsf{(4)} \: a_n=\frac{2_n}{3} & \\
+\textsf{(4)} \: a_n=\frac{2^n}{3} & \\
 \textsf{(5)} \: a_n=3^{-n} &
 \textsf{(6)} \: a_n=(-1)^n &
 \textsf{(7)} \: a_n=2^n-1 & \\
@@ -280,61 +267,50 @@ $
 $  
 :::
 #### Solution
-::: wrap
-- Currently, know the Expressions can use characterization analysis $a_n=\textsf{Constant} \times \textsf{Exponent}$
-
+- Find the expression using the feature $a_n=\textsf{constant} \times \textsf{exponent}$  
+  ::: wrap  
   $
   \begin{array}{ll}
-  \textsf{(1)} \: a_n=n^3 & \textsf{This is a power function} \; ❌\\
-  \textsf{(2)} \: a_n=3^n & \boxed{1 \times 3^n} \; q=3 \; ✅\\
-  \textsf{(3)} \: a_n=\frac{1}{3} & \boxed{\frac{1}{3} \times 1^{n-1}} \; q=1 \; ✅\\
-  \textsf{(4)} \: a_n=\frac{2_n}{3} & \boxed{\frac{1}{3} \times 2_n} \; q=2 \; ✅\\
-  \textsf{(5)} \: a_n=3^{-n} & \boxed{1 \times (\frac{1}{3})^n} \; q=\frac{1}{3} \; ✅\\
-  \textsf{(6)} \: a_n=(-1)^n & \boxed{1 \times (-1)^n} \; q=-1 \; ✅\\
-  \textsf{(7)} \: a_n=2^n-1 & \textsf{There is a constant term -1 after the exponent} \; ❌\\
+  \textsf{(1)} \: \textsf{power function} \,❌\;\\
+  \textsf{(2)} \: 1 \times 3^n \longrightarrow q=3  \,✅\;\\
+  \textsf{(3)} \: \frac{1}{3} \times 1^n \longrightarrow q=1 \,✅\;\\
+  \textsf{(4)} \: \frac{1}{3} \times 2^n \longrightarrow q=2 \,✅\;\\
+  \textsf{(5)} \: 1 \times (\frac{1}{3})^n \longrightarrow q=\frac{1}{3} \,✅\;\\
+  \textsf{(6)} \: 1 \times (-1)^n \longrightarrow q=-1 \,✅\;\\
+  \textsf{(7)} \: \textsf{exponential term} + \textsf{constant} \,❌\;\\
   \end{array}
   $  
-:::
+  :::
 #### Conclusion
-
 - Derived Solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the Solution, get $\textsf{(2)},\textsf{(3)},\textsf{(4)},\textsf{(5)},\textsf{(6)}$ correct, so choose $D$.
+  > According to the Solution, get $\textsf{(2)},\textsf{(3)},\textsf{(4)},\textsf{(5)},\textsf{(6)}$, so choose $D$.
 
   :::
 - Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  a_n=
-  \begin{cases}
-  \textsf{Use when know the Expressions} \\
-  a_n=\textsf{Constant} \times \textsf{Exponent}
-  \end{cases} 
-  & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#formula-derivations}{\textsf{General term characteristics}} \\
-  \left\{ a_n \right\}=
-  \begin{cases}
-  \textsf{Use when don't know the Expressions} \\
-  \frac{a_n+1}{a_n}=q
-  \end{cases}
-  & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_1-definition}{\textsf{Geometric sequence definition}} \\
+  a_n=\textsf{constant} \times \textsf{exponent} & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_6-focus-2}{\textsf{general term expression}} \\
+  a_n=a_1q^{n-1}=a_{k}q^{n-k}=\frac{a_1}{q}q^n & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_2-general-term}{\textsf{general term formula}} \\
   \end{array}
   >$
 
   :::
 ---
-::: wrap
-### $\fbox{30}\:$If $\small \left\{ a_n \right\}$ is a geometric sequence, among the following four statements, the number of correct statements is $\small \mathpunct{?}$.  
+
+
+### $\fbox{30}\:$If $\small \left\{ a_n \right\}$ is a geometric sequence, how many of the following are correct $\small \mathpunct{?}$.  
+::: wrap  
 $
 \begin{array}{ll}
-\textsf{(1)} \: \textsf{The sequence} \: \left\{a_n^2 \right\} \: \textsf{is a geometric sequence.} &
-\textsf{(2)} \: \textsf{The sequence} \: \left\{a_{2n} \right\} \: \textsf{is a geometric sequence.} & \\
-\textsf{(3)} \: \textsf{The sequence} \: \left\{ \frac{1}{a_n} \right\} \: \textsf{is a geometric sequence.} &
-\textsf{(4)} \: \textsf{The sequence} \: \left\{ |a_n| \right\} \: \textsf{is a geometric sequence.} & \\
+\textsf{(1)} \: \textsf{the sequence }\left\{a_n^2 \right\}\textsf{ is a geometric sequence} &
+\textsf{(2)} \: \textsf{the sequence }\left\{a_{2n} \right\}\textsf{ is a geometric sequence} & \\
+\textsf{(3)} \: \textsf{the sequence }\left\{ \frac{1}{a_n} \right\}\textsf{ is a geometric sequence} &
+\textsf{(4)} \: \textsf{the sequence }\left\{ |a_n| \right\}\textsf{ is a geometric sequence} & \\
 \end{array}
 $
-
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 0 &  
@@ -346,18 +322,17 @@ $
 $  
 :::
 #### Solution
-::: wrap  
-- Currently, don't know the Expressions, can use Geometric sequence definition analysis $\frac{a_n+1}{a_n}=q$  
-
+- Identify a geometric sequence using the feature $\frac{a_n+1}{a_n}=q$  
+  ::: wrap  
   $
   \begin{array}{ll}
-  \textsf{(1)} \: \left\{ a_n^2 \right\} & \boxed{\frac{a_{n+1}^2}{a_n^2}=(\frac{a_{n+1}}{a_n})^2=q^2} \; ✅\\
-  \textsf{(2)} \: \left\{ a_{2n} \right\} & \boxed{\frac{a_{2(n+1)}}{a_{2n}}=q^2} \; ✅\\
-  \textsf{(3)} \: \left\{ \frac{1}{a_n} \right\} & \boxed{\frac{\frac{1}{a_{n+1}}}{\frac{1}{a_n}}=\frac{a_n}{a_{n+1}}=\frac{1}{q}} \; ✅\\
-  \textsf{(4)} \: \left\{ |a_n| \right\} & \boxed{\frac{|a_{n+1}|}{|a_n|}=\left| \frac{a_{n+1}}{a_n} \right|=|q|} \; ✅\\
+  \textsf{(1)} \: \frac{a_{n+1}^2}{a_n^2}=(\frac{a_{n+1}}{a_n})^2=q^2 \,✅\;\\
+  \textsf{(2)} \: \frac{a_{2(n+1)}}{a_{2n}}=q^2 \,✅\;\\
+  \textsf{(3)} \: \frac{\frac{1}{a_{n+1}}}{\frac{1}{a_n}}=\frac{a_n}{a_{n+1}}=\frac{1}{q} \,✅\;\\
+  \textsf{(4)} \: \frac{|a_{n+1}|}{|a_n|}=\left| \frac{a_{n+1}}{a_n} \right|=|q| \,✅\;\\
   \end{array}
   $  
-:::
+  :::
 #### Conclusion
 - Derived Solution  
   ::: wrap
@@ -369,24 +344,27 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{a_n+1}{a_n}=q & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_1-definition}{\textsf{Geometric sequence definition}} \\
+  \frac{a_{n+1}}{a_n}=q & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_1-definition}{\textsf{definition of geometric sequence}} \\
+  \frac{a_m}{a_n}=q^{m-n} & \textsf{term ratio formula} \\
   \end{array}
   >$
 
   :::
-- Reverse of a geometric sequence        
+- Additionally, if the problem is __reverse reasoning that $\left\{ a_n \right\}$ is a geometric sequence__    
   ::: wrap
   >$
   \begin{array}{ll}
-  \textsf{(1)} \: \left\{ a_n^2 \right\} & a_n^2=x \implies a_n= \pm\sqrt{x} \; ❌\\
-  \textsf{(2)} \: \left\{ a_{2n} \right\} & a_0,a_1,a_2,a_3,a_4,\dots \implies a_{2n} = a_0,a_2,a_4,a_6,\dots \; ❌\\
-  \textsf{(3)} \: \left\{ \frac{1}{a_n} \right\} & a_n=\frac{1}{\frac{1}{a_n}}=a_n \; ✅\\
-  \textsf{(4)} \: \left\{ |a_n| \right\} & a_n=\begin{cases} a_n \quad \textsf{If} a_n \ge 0 \\ -a_n \: \textsf{If} a_n < 0 \end{cases} \; ❌\\
+  \textsf{(1)} \: \left\{ a_n^2 \right\} & \left\{ a_n \right\}=\left\{1,-2,4,8,\cdots\right\} \;\textsf{not necessarily a geometric sequence} \,❌\;\\
+  \textsf{(2)} \: \left\{ a_{2n} \right\} & \left\{ a_n \right\}=\left\{1,2,1,2,\cdots\right\} \;\textsf{not necessarily a geometric sequence} \,❌\;\\
+  \textsf{(3)} \: \left\{ \frac{1}{a_n} \right\} & \frac{a_n}{a_{n+1}}=\frac{1}{q} \;\textsf{necessarily a geometric sequence} \,✅\;\\
+  \textsf{(4)} \: \left\{ |a_n| \right\} & \left\{ a_n \right\}=\left\{1,-2,4,8,\cdots\right\} \;\textsf{not necessarily a geometric sequence} \,❌\;\\
   \end{array}
   >$
 
   :::
 ---
+
+
 ::: wrap
 ### $\fbox{31}\:$In the geometric sequence $\small \left\{ a_n \right\}$, if $\small a_4a_7=-512,a_3+a_8=124$ and the is common ratio is $\small q \in \mathbb{Z}$, then $\small a_{10} = \, \mathpunct{?}$.
 $
@@ -926,7 +904,7 @@ $
   :::
 ---
 
-| Platforms   | Courses                                                                                      | Coursewares                                                       |
+| Platform   | Course                                                                                      | Coursewares                                                       |
 |-------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
 | YouTube     | [Watch](https://www.youtube.com/watch?v=8Bum9KaQM4o&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s) | [Courseware](../../public/math/Core%20Courses/pdf/Courseware.pdf) |
 | Dailymotion | [Watch](https://www.dailymotion.com/video/x9gncjm?playlist=x9h6d2)                           |                                                                   |

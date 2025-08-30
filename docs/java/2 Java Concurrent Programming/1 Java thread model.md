@@ -3,7 +3,7 @@ title: Java thread model
 lang: en-US
 ---
 
-| Platforms | Courses | Coursewares |
+| Platform | Course | Coursewares |
 |-----------|---------|-------------|
 | YouTube   | Pending |             |
 | Dailymotion  | Pending |             |

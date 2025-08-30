@@ -358,7 +358,7 @@ $
   :::
 ---
 
-| Platforms   | Courses                                                                                      | Coursewares                                                       |
+| Platform   | Course                                                                                      | Coursewares                                                       |
 |-------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
 | YouTube     | [Watch](https://www.youtube.com/watch?v=e1eWN0PrWu0&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s) | [Courseware](../../public/math/Core%20Courses/pdf/Courseware.pdf) |
 | Dailymotion | [Watch](https://www.dailymotion.com/video/x9gx64s?playlist=x9h6d2)                           |                                                                   |
