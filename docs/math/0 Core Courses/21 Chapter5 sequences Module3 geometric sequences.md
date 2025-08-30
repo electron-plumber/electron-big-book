@@ -113,7 +113,7 @@ lang: en-US
 
 ## 4.Important Properties
 
-### $\textcolor{#1E3A5F}{\fbox{1}}\:$If $\small \overbrace{m+n=k+t}^{\textsf{arithmetic sequence}}$, then $\small \overbrace{a_ma_n=a_ka_t}^{\textsf{geometric sequence}}$
+### $\textcolor{#1E3A5F}{\fbox{1}}\:$If $\small m+n=k+t$, then $\small a_ma_n=a_ka_t$
 - __Property derivation__  
   ::: wrap  
   $
@@ -365,8 +365,9 @@ $
 ---
 
 
-::: wrap
-### $\fbox{31}\:$In the geometric sequence $\small \left\{ a_n \right\}$, if $\small a_4a_7=-512,a_3+a_8=124$ and the is common ratio is $\small q \in \mathbb{Z}$, then $\small a_{10} = \, \mathpunct{?}$.
+
+### $\fbox{31}\:$In the geometric sequence $\small \left\{ a_n \right\}$, if $\small a_4a_7=-512,a_3+a_8=124$, and the common ratio $\small q \in \mathbb{Z}$, then find $\small a_{10}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 124 &
@@ -378,29 +379,30 @@ $
 $  
 :::
 #### Solution
-::: wrap  
-- According to the characteristics of Vieta's formulas, rearrange the equation  
-
-  $
-  \begin{array}{ll}
-  x^2-124x-512=0
-  \begin{cases} 
-  a_4a_7=a_3a_8=-512 \\
-  a_3+a_8=124
-  \end{cases} \\
-  (1+4)(1-128)=0 \\
-  x=-4 \lor 128 \\
-  q \in \mathbb{z} 
-  \begin{cases}
-  a_3=-4 \\
-  a_8=128
-  \end{cases} \\ 
-  \frac{a_8}{a_3}=\frac{128}{-4}=-32=q^{\frac{\log32}{\log2}}=q^5 \\
-  q^5=-32 \implies \sqrt[5]{-32} \\
-  q=-2 \\
-  a_{10}=a_8q^2=128 \times (-2)^2=512 \\
-  \end{array}
-  $  
+::: wrap
+$
+\begin{array}{ll}
+\begin{cases} 
+a_4a_7=a_3a_8=-512 \\
+a_3+a_8=124 \\
+\end{cases} & a_ma_n=a_ka_t \\
+x^2-124x-512=0 & 
+\begin{cases}
+x_1 + x_2=-\frac{b}{a} \\
+x_1 \cdot x_2=\frac{c}{a} \\
+\end{cases} \\
+(x+4)(x-128)=0 \\
+x=-4 \lor 128 \\
+\begin{cases}
+a_3=-4 \\
+a_8=128 \\
+\end{cases} & q \in \mathbb{z} \\ 
+\frac{a_8}{a_3}=\frac{128}{-4}=-32=q^5 \\
+q^5=-32 \longrightarrow \sqrt[5]{-32} \\
+q=-2 \\
+a_{10}=a_8q^2=128 \times (-2)^2=512 \\
+\end{array}
+$  
 :::
 #### Conclusion
 - Derived Solution  
@@ -413,25 +415,33 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \textsf{Vieta's formulas}
+  a_ma_n=a_ka_t & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#if-then}{\textsf{product property}} \\
   \begin{cases}
-  \textsf{1.Sum of the roots} \\
   x_1 + x_2=-\frac{b}{a} \\
-  \textsf{2.Product of the roots} \\
-  x_1 \cdot x_2=\frac{c}{a}
-  \end{cases} \\
-  b^c=a \implies \log_{b}a=c & \textsf{Definition of logarithm} \\
-  y^2=x \implies \sqrt[2]{x} & \textsf{Definition of square root} \\
-  a_n=a_{k}q^{n-k} & \textsf{General term} \\
+  x_1 \cdot x_2=\frac{c}{a} \\
+  \end{cases} & \textsf{vieta's formulas} \\
+  \frac{a_m}{a_n}=q^{m-n} & \textsf{term ratio formula} \\
+  x^3=a \longrightarrow x=\sqrt[3]{a} & \textsf{definition of cube root} \\
+  a_n=a_{k}q^{n-k} & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_2-general-term}{\textsf{general term formula}}
   \end{array}
   >$
 
   :::
-- $q \in \mathbb{z}$  
-  > $|a_n|$ Monotonically increasing.
+- Monotonicity of $|a_n|$  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  q \in \mathbb{z} & \textsf{monotonically increasing} \\
+  \end{array}
+  >$
+
+  :::
 ---
+
+
+
+### $\fbox{32}\:$Given a geometric sequence $\small \left\{ a_n \right\}$ with $\small a_3+a_9=130$ and $\small a_3-a_9=-126$, find the common ratio $\small q$.
 ::: wrap
-### $\fbox{32}\:$In the known geometric sequence $\small \left\{ a_n \right\}$, if $\small a_3+a_9=130,a_3-a_9=-126$, then common ratio $\small q= \, \mathpunct{?}$.  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 2 \lor -2 &
@@ -446,18 +456,17 @@ $
 ::: wrap  
 $
 \begin{array}{ll}
-a_3+a_9+a_3-a_9=130-126
 \begin{cases}
 a_3+a_9=130 \\
-a_3-a_9=-126
-\end{cases} \\ 
+a_3-a_9=-126 \\
+\end{cases} \\
+a_3+a_9+a_3-a_9=130-126 \\
 2a_3=4 \\ 
 a_3=\frac{4}{2}=2 \\
-a_3+a_9=130 \\
 2+a_9=130 \\
 a_9=130-2=128 \\
-\frac{a_9}{a_3}=\frac{128}{2}=64=q^{\frac{\log64}{\log2}}=q^6 \\
-q^6=64 \implies \pm\sqrt[6]{64} \\
+\frac{a_9}{a_3}=\frac{128}{2}=64=q^6 \\
+q^6=64 \longrightarrow \pm\sqrt[6]{64} \\
 q=\pm2 \\
 \end{array}
 $  
@@ -473,18 +482,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  b^c=a \implies \log_{b}a=c & \textsf{Definition of logarithm} \\
-  y^2=x \implies \sqrt[2]{x} & \textsf{Definition of square root} \\
-  \end{array}
-  >$
-
-  :::
-- Even powers are $\pm\sqrt{x}$  
-  ::: wrap  
-  >$
-  \begin{array}{ll}
-  x^2=\pm\sqrt{x} & 3^2=9 \land -3^2=9 \\
-  x^3=\sqrt{x} & 3^3=27 \lor -3^3=-27 \\
+  \frac{a_m}{a_n}=q^{m-n} & \textsf{term ratio formula} \\
+  x^2=a \longrightarrow x=\pm\sqrt{a} & \textsf{definition of square root} \\
   \end{array}
   >$
 
@@ -663,7 +662,7 @@ $
   \frac{a_{1}(1-q^n)}{1-q}=\frac{a_{1}-a_{n}q}{1-q}=\frac{a_{1}-a_{n+1}}{1-q} & q \neq 1
   \end{cases} & \textsf{Sum of the first n terms} \\ 
   b^c=a \implies \log_{b}a=c & \textsf{Definition of logarithm} \\
-  y^2=x \implies \sqrt[2]{x} & \textsf{Definition of square root} \\
+  x^3=a \longrightarrow x=\sqrt[3]{a} & \textsf{definition of cube root} \\
   \end{array}
   >$
 
@@ -897,7 +896,7 @@ $
   \frac{S_m}{S_n} = \frac{1-q^m}{1-q^n} & S_m \neq S_{2n}
   \end{cases} & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_4-important-properties}{\textsf{The property that }S_n \,\textsf{is the sum of the first n terms}} \\\\
   S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_4-important-properties}{\textsf{The property that }S_n \,\textsf{is the sum of the first n terms}} \\
-  y^2=x \implies \sqrt[2]{x} & \textsf{Definition of square root} \\  
+  x^2=a \longrightarrow x=\pm\sqrt{a} & \textsf{definition of square root} \\  
   \end{array}
   >$
 

@@ -500,9 +500,9 @@ $
   >$
   \begin{array}{ll}
   c^2=a^2+b^2 \Rightarrow c=\sqrt{a^2+b^2} & \textsf{pythagorean theorem} \\
-  S=ab & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_2-rectangle}{\textsf{rectangle area formula}} \\ 
+  S=ab & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_2-rectangle}{\textsf{rectangle area formula}} \\
+  (a-b)^2=a^2-2ab+b^2 & \textsf{perfect square formula} \\
   2ab=(a+b)^2-(a^2+b^2) & \textsf{rectangle area identity} \\
-  y^2=x \implies \sqrt[2]{x} & \textsf{definition of square root} \\
   \end{array}
   >$
 
