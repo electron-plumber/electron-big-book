@@ -71,7 +71,7 @@ lang: en-US
   \begin{cases}
   \begin{array}{ll}
   na_1 & q=1 \\
-  \frac{a_{1}(1-q^n)}{1-q}=\frac{a_{1}-a_{n}q}{1-q}=\frac{a_{1}-a_{n+1}}{1-q} & q \neq 1 \\
+  \frac{a_{1}(1-q^n)}{1-q}=\frac{a_{1}-a_{n}q}{1-q}=\frac{a_{1}-a_{n+1}}{1-q} & q \ne 1 \\
   \end{array}
   \end{cases}
   $
@@ -491,31 +491,28 @@ $
 ---
 
 ## 7.Focus 3
-__Sum of the first n terms of geometric sequence.__  
-::: wrap  
-$
-\boldsymbol{
-S_n=
-\begin{cases}
-na_1 & q=1 \\
-\frac{a_{1}(1-q^n)}{1-q}=\frac{a_{1}-a_{n}q}{1-q}=\frac{a_{1}-a_{n+1}}{1-q} & q \neq 1
-\end{cases}
-}
-$  
-- __$q=1$__
-  - $S_n=na_1 \quad \textsf{linear function}$
-- __$q \neq 1$__
-  - $S_n=\frac{a_1}{1-q} \times (1-q^n)=k(1-q^n)=\boxed{k-kq^n}$    
-- __$S_n=a+bq^n$__  
-  - $a+b \neq 0 \quad \textsf{it is not }S_n$  
-    - Form $a_2$ onwards it is still a geometric sequence.  
-  - $a+b=0 \quad \textsf{it is }S_n$   
-    - $S_n=3-3q^n$ ✅$\quad k-k=0$  
-    - $S_n=5-3q^n$ ❌$\quad k-k\neq0$   
-:::
+__The summation of a geometric sequence__
+- Using the formula:
+  $
+  S_n=
+  \begin{cases}
+  na_1 & q=1 \\
+  \frac{a_{1}(1-q^n)}{1-q}=\frac{a_{1}-a_{n}q}{1-q}=\frac{a_{1}-a_{n+1}}{1-q} & q \ne 1
+  \end{cases}
+  $ to solve.
+- Note: there are __two cases__, $\boldsymbol{q=1}$ and $\boldsymbol{q \ne 1}$.
+- Properties of $S_n$
+  - When $\boldsymbol{q=1}$: $S_n=na_1$ __(a linear function)__
+  - When $\boldsymbol{q\ne1}$: $S_n=\frac{a_1}{1-q} \times (1-q^n)=k(1-q^n)=\boldsymbol{k-k}q^n$
+- Case analysis of $S_n=k-kq^n$ ($\boldsymbol{q\ne1}$)  
+  - $\boldsymbol{S_n=A+B \cdot q^n}$     
+  - If $A+B\ne0$: it __is not $\boldsymbol{S_n}$__; the sequence becomes $S_n$ __only from $\boldsymbol{a_2}$ onward__
+  - If $A+B=0$: it __is $\boldsymbol{S_n}$__
 
+
+
+### $\fbox{33}\:$How many of the following can serve as the sum of the first $\small n$ terms of a geometric sequence $\small \mathpunct{?}$.
 ::: wrap
-### $\fbox{33}\:$Following there are $\small \mathpunct{?}$ that can be used as a sum of the first n terms of a geometric sequence.
 $
 \begin{array}{lllll}
 \textsf{(1)} \: S_n=\frac{1}{3} &
@@ -534,29 +531,27 @@ $
 $  
 :::
 #### Solution
-::: wrap  
-- Currently, know the Expressions can use characterization analysis  
-
+- Find the expression using the feature
   $
   S_n=
   \begin{cases}
   S_n=na_1 & q=1 \\
-  S_n=k-kq^n & q \neq 1 \\
+  S_n=k-kq^n & q \ne 1 \\
   \end{cases}
-  $
-
+  $  
+  ::: wrap  
   $
   \begin{array}{ll}
-  \textsf{(1)} \: S_n=\frac{1}{3} & S_n \,\textsf{cannot be a constant, but } a_n \,\textsf{can be a constant} \; ❌\\
-  \textsf{(2)} \: S_n=2n & \boxed{n2} \; q=1 \; ✅\\
-  \textsf{(3)} \: S_n=2n-1 & 2n-1 \,\textsf{is not the } q^n \,\textsf{exponential} \; ❌\\
-  \textsf{(4)} \: S_n=2^n & \textsf{There is no constant term after }2^n \; ❌\\
-  \textsf{(5)} \: S_n=2^n-1 & \boxed{1-1 \cdot 2^n} \; q=2 \; ✅\\
-  \textsf{(6)} \: S_n=2^n+1 & \textsf{Doesn't satisfy } k-k=0 \; ❌\\
-  \textsf{(7)} \: S_n=3(2^n-1) & \boxed{3-3 \cdot 2^n} \; q=2 \; ✅\\
+  \textsf{(1)} \: S_n\textsf{ cannot be constant} \,❌\;\\
+  \textsf{(2)} \: n2 \longrightarrow q=1 \,✅\;\\
+  \textsf{(3)} \: \textsf{no }q^n\textsf{ exponential} \,❌\;\\
+  \textsf{(4)} \: \textsf{not of the form "exponential term + constant"} \,❌\;\\
+  \textsf{(5)} \: 1-1 \cdot 2^n \longrightarrow q=2 \,✅\;\\
+  \textsf{(6)} \: \textsf{not }k-k=0 \,❌\;\\
+  \textsf{(7)} \: 3-3 \cdot 2^n \longrightarrow q=2 \,✅\;\\
   \end{array}
   $  
-:::
+  :::
 #### Conclusion
 - Derived Solution  
   ::: wrap
@@ -571,21 +566,23 @@ $
   S_n=
   \begin{cases}
   S_n=na_1 & q=1 \\
-  S_n=k-kq^n & q \neq 1 \\
+  S_n=k-kq^n & q \ne 1 \\
   \end{cases}
-  & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_7-focus-3}{\textsf{Characteristics of the sum of the first n terms}} \\
+  & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_7-focus-3}{S_n\textsf{ properties}} \\
   \end{array}
   >$
 
   :::
-- $S_n$ corresponds $a_n$  
+- Additionally, if the problem is reverse reasoning $S_n \Longrightarrow a_n$  
   ::: wrap  
   >$
+  \begin{array}{ll}
   a_n=
   \begin{cases}
   a_1=S_1 & n=1 \\
   S_n-S_{n-1} & n \ge 1 \\
-  \end{cases}
+  \end{cases} & \textsf{formula for }a_n\textsf{ in terms of }S_n \\
+  \end{array}
   >$
 
   >$
@@ -593,14 +590,17 @@ $
   \textsf{(1)} \: S_n=\frac{1}{3} & \boxed{a_n=\begin{cases} \frac{1}{3} & n=1 \\ 0 & n \ge 1 \\ \end{cases}} \\
   \textsf{(2)} \: S_n=2n & \boxed{a_n=2} \\
   \textsf{(3)} \: S_n=2n-1 & \boxed{a_n=\begin{cases} 1 & n=1 \\ 2 & n \ge 1 \\ \end{cases}} \\
-  \textsf{(4)} \: S_n=2^n & \boxed{a_n=\begin{cases} 2 & n=1 \\ 2^n-2^{n-1}=(2 \times 2^{n-1})-2^{n-1}=2^{n-1} & n \ge 1 \\ \end{cases}} \\
-  \textsf{(5)} \: S_n=2^n-1 & \boxed{a_n=1 \times 2^{n-1}} \\
+  \textsf{(4)} \: S_n=2^n & \boxed{a_n=\begin{cases} 2 & n=1 \\ 2^n-2^{n-1}=(2 \cdot 2^{n-1})-2^{n-1}=2^{n-1} & n \ge 1 \\ \end{cases}} \\
+  \textsf{(5)} \: S_n=2^n-1 & \boxed{a_n=1 \times 2^{n-1}} \hspace{1.2cm} a_n=a_1q^{n-1} \\
   \textsf{(6)} \: S_n=2^n+1 & \boxed{a_n=\begin{cases} 3 & n=1 \\ 2^{n-1} & n \ge 1 \\ \end{cases}} \\
-  \textsf{(7)} \: S_n=3(2^n-1) & \boxed{a_n=3 \times 2^{n-1}} \\
+  \textsf{(7)} \: S_n=3(2^n-1) & \boxed{a_n=3 \times 2^{n-1}} \hspace{1.2cm} a_n=a_1q^{n-1} \\
   \end{array}
   >$  
   :::
 ---
+
+
+
 ::: wrap
 ### $\fbox{34}\:$It is known that $\small S_n$ is the sum of the first n terms of the geometric sequence $\small \left\{ a_n \right\}$, if $\small S_2+S_5=2S_8$, then common ratio $\small q= \, \mathpunct{?}$.
 $
@@ -659,7 +659,7 @@ $
   S_n=
   \begin{cases}
   na_1 & q=1 \\
-  \frac{a_{1}(1-q^n)}{1-q}=\frac{a_{1}-a_{n}q}{1-q}=\frac{a_{1}-a_{n+1}}{1-q} & q \neq 1
+  \frac{a_{1}(1-q^n)}{1-q}=\frac{a_{1}-a_{n}q}{1-q}=\frac{a_{1}-a_{n+1}}{1-q} & q \ne 1
   \end{cases} & \textsf{Sum of the first n terms} \\ 
   b^c=a \implies \log_{b}a=c & \textsf{Definition of logarithm} \\
   x^3=a \longrightarrow x=\sqrt[3]{a} & \textsf{definition of cube root} \\
@@ -893,7 +893,7 @@ $
   S_n=
   \begin{cases}
   \frac{S_{2n}}{S_n} = 1+q^n & S_m=S_{2n} \\
-  \frac{S_m}{S_n} = \frac{1-q^m}{1-q^n} & S_m \neq S_{2n}
+  \frac{S_m}{S_n} = \frac{1-q^m}{1-q^n} & S_m \ne S_{2n}
   \end{cases} & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_4-important-properties}{\textsf{The property that }S_n \,\textsf{is the sum of the first n terms}} \\\\
   S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_4-important-properties}{\textsf{The property that }S_n \,\textsf{is the sum of the first n terms}} \\
   x^2=a \longrightarrow x=\pm\sqrt{a} & \textsf{definition of square root} \\  

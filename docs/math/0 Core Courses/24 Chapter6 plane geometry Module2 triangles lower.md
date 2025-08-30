@@ -444,7 +444,7 @@ $
 ::: wrap  
 $
 \begin{array}{ll}
-\textsf{(1)} \: \triangle30^\circ60^\circ90^\circ \neq \triangle45^\circ45^\circ90^\circ \;\textsf{two pairs of corresponding angles unequal} \,❌\;\\
+\textsf{(1)} \: \triangle30^\circ60^\circ90^\circ \ne \triangle45^\circ45^\circ90^\circ \;\textsf{two pairs of corresponding angles unequal} \,❌\;\\
 \textsf{(2)} \: \textsf{two pairs of corresponding angles unequal} \,❌\;\\
 \textsf{(3)} \: \textsf{four pairs of corresponding angles unequal} \,❌\;\\
 \textsf{(4)} \: \triangle60^\circ60^\circ60^\circ = \triangle60^\circ60^\circ60^\circ \;\textsf{two pairs of corresponding angles unequal} \,✅\;\\
