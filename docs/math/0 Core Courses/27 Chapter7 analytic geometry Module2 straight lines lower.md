@@ -273,7 +273,7 @@ $
   \begin{array}{ll}
   (\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}) & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_2-the-coordinates-of-the-midpoint-between-two-points}{\textsf{midpoint formula}} \\
   k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_4-two-point-slope-formula}{\textsf{two-point slope formula}} \\
-  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#remark-the-general-form-is-crucial-as-it-allows-for-quick-calculation-of-the-slope}{\textsf{quickly convert the general form to the slope}} \\
+  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#remark-the-general-form-is-crucial-as-it-allows-for-quick-calculation-of-the-slope}{\textsf{convert general form to slope}} \\
   \end{array}
   >$
 
@@ -362,7 +362,7 @@ $
   >$
   \begin{array}{ll}
   k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_4-two-point-slope-formula}{\textsf{two-point slope formula}} \\
-  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#remark-the-general-form-is-crucial-as-it-allows-for-quick-calculation-of-the-slope}{\textsf{quickly convert the general form to the slope}} \\
+  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#remark-the-general-form-is-crucial-as-it-allows-for-quick-calculation-of-the-slope}{\textsf{convert general form to slope}} \\
   y=y_0+k(x-x_0) & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#point-slope-form}{\textsf{point-slope form}} \\
   \end{array}
   >$
@@ -615,7 +615,7 @@ $
   >$
   \begin{array}{ll}
   k=\frac{y_2-y_1}{x_2-x_1} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_4-two-point-slope-formula}{\textsf{two-point slope formula}} \\
-  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#remark-the-general-form-is-crucial-as-it-allows-for-quick-calculation-of-the-slope}{\textsf{quickly convert the general form to the slope}} \\
+  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#remark-the-general-form-is-crucial-as-it-allows-for-quick-calculation-of-the-slope}{\textsf{convert general form to slope}} \\
   ax+by+c=0 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#general-form}{\textsf{general form of a line}} \\
   d=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}} & \href{/math/0%20Core%20Courses/27%20Chapter7%20analytic%20geometry%20Module2%20straight%20lines%20lower.html#_14-distance-from-a-point-to-a-line}{\textsf{point-to-line distance formula}} \\
   \end{array}

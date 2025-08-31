@@ -641,7 +641,7 @@ $
 \frac{x}{a}-\frac{y}{a}=1 \Rightarrow x-y=a \\
 (5, 8) \rightarrow 5-8=a \\
 a=-3 \rightarrow \frac{x}{-3}-\frac{y}{-3}=1 \Rightarrow x-y+3=0 \\
-\textsf{there is also a case where }\boldsymbol{(a,b=0)}\textsf{ is a line passing through the origin.}\\
+\textsf{there is also a case where }\boldsymbol{(a,b=0)}\textsf{ is a line passing through the origin}\\
 y=kx \quad k=\frac{y}{x} \\
 (5, 8) \rightarrow y=\frac{8}{5}x \\
 5y=8x \Rightarrow 8x-5y=0 \\
@@ -660,8 +660,8 @@ $
   >$
   \begin{array}{ll}
   \frac{x}{a}+\frac{y}{b}=1 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#intercept-form}{\textsf{intercept form}} \\
-  y=kx & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#passing-through-the-origin}{\textsf{passing through the origin}} \\
-  k=\frac{y}{x} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#the-slope-between-and-is}{\textsf{slope of the line passing through the origin}} \\
+  y=kx & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#passing-through-the-origin}{\textsf{passing through origin}} \\
+  k=\frac{y}{x} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#the-slope-between-and-is}{\textsf{slope of line passing through origin}} \\
   \end{array}
   >$
 
@@ -781,7 +781,7 @@ $
   \begin{cases}
   \textsf{y-intercept}=-\frac{c}{b} \\
   \textsf{x-intercept}=-\frac{c}{a} \\
-  \end{cases} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#quickly-calculate-the-intercept-form}{\textsf{quickly convert the general form to the intercept form}} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#quickly-calculate-the-intercept-form}{\textsf{convert general form to intercept form}} \\
   \end{array}
   >$
 
@@ -888,9 +888,9 @@ $
   \begin{cases}
   \textsf{y-intercept}=-\frac{c}{b} \\
   \textsf{x-intercept}=-\frac{c}{a} \\
-  \end{cases} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#quickly-calculate-the-intercept-form}{\textsf{quickly convert the general form to the intercept form}} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#quickly-calculate-the-intercept-form}{\textsf{convert general form to intercept form}} \\
   a=0 \longrightarrow by+c=0 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#horizontal-line}{\textsf{horizontal line}} \\
-  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#remark-the-general-form-is-crucial-as-it-allows-for-quick-calculation-of-the-slope}{\textsf{quickly convert the general form to the slope}} \\
+  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#remark-the-general-form-is-crucial-as-it-allows-for-quick-calculation-of-the-slope}{\textsf{convert general form to slope}} \\
   90^\circ<\alpha<180^\circ, k<0 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_2-definition-of-slope}{\textsf{definition of slope}} \\
   \end{array}
   >$

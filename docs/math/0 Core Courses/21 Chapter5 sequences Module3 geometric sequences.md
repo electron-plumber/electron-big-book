@@ -66,6 +66,7 @@ lang: en-US
 
 
 ## 3.Sum of the First $n$ Terms
+::: wrap  
 - $
   S_n=
   \begin{cases}
@@ -75,6 +76,7 @@ lang: en-US
   \end{array}
   \end{cases}
   $
+:::
 
 ### $\textcolor{#1E3A5F}{\fbox{1}}\:$Derivations
 - Derivation of $\boldsymbol{S_n=na_1}$  
@@ -396,7 +398,7 @@ x=-4 \lor 128 \\
 \begin{cases}
 a_3=-4 \\
 a_8=128 \\
-\end{cases} & q \in \mathbb{z} \\ 
+\end{cases} & q \in \mathbb{Z} \\ 
 \frac{a_8}{a_3}=\frac{128}{-4}=-32=q^5 \\
 q^5=-32 \longrightarrow \sqrt[5]{-32} \\
 q=-2 \\
@@ -431,7 +433,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  q \in \mathbb{z} & \textsf{monotonically increasing} \\
+  q \in \mathbb{Z} & \textsf{monotonically increasing} \\
   \end{array}
   >$
 
@@ -491,7 +493,8 @@ $
 ---
 
 ## 7.Focus 3
-__The summation of a geometric sequence__
+__The summation of a geometric sequence__  
+::: wrap
 - Using the formula:
   $
   S_n=
@@ -499,11 +502,14 @@ __The summation of a geometric sequence__
   na_1 & q=1 \\
   \frac{a_{1}(1-q^n)}{1-q}=\frac{a_{1}-a_{n}q}{1-q}=\frac{a_{1}-a_{n+1}}{1-q} & q \ne 1
   \end{cases}
-  $ to solve.
-- Note: there are __two cases__, $\boldsymbol{q=1}$ and $\boldsymbol{q \ne 1}$.
-- Properties of $S_n$
+  $ to solve.  
+:::
+- Note: there are __two cases__, $\boldsymbol{q=1}$ and $\boldsymbol{q \ne 1}$.  
+::: wrap
+- ###### Properties of $S_n$
   - When $\boldsymbol{q=1}$: $S_n=na_1$ __(a linear function)__
   - When $\boldsymbol{q\ne1}$: $S_n=\frac{a_1}{1-q} \times (1-q^n)=k(1-q^n)=\boldsymbol{k-k}q^n$
+:::
 - Case analysis of $S_n=k-kq^n$ ($\boldsymbol{q\ne1}$)  
   - $\boldsymbol{S_n=A+B \cdot q^n}$     
   - If $A+B\ne0$: it __is not $\boldsymbol{S_n}$__; the sequence becomes $S_n$ __only from $\boldsymbol{a_2}$ onward__
@@ -568,7 +574,7 @@ $
   S_n=na_1 & q=1 \\
   S_n=k-kq^n & q \ne 1 \\
   \end{cases}
-  & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_7-focus-3}{S_n\textsf{ properties}} \\
+  & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#properties-of}{\textsf{properties of geometric series sum formula}} \\
   \end{array}
   >$
 
@@ -601,55 +607,55 @@ $
 
 
 
-::: wrap
-### $\fbox{34}\:$It is known that $\small S_n$ is the sum of the first n terms of the geometric sequence $\small \left\{ a_n \right\}$, if $\small S_2+S_5=2S_8$, then common ratio $\small q= \, \mathpunct{?}$.
+### $\fbox{34}\:$Given $\small S_n$ is the sum of the first $\small n$ terms of the geometric sequence $\small \left\{ a_n \right\}$, if $\small S_2+S_5=2S_8$, then the common ratio is $\small q=\,\mathpunct{?}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 1 \lor -2 &
 \textsf{(B)} \: 2 &
-\textsf{(C)} \: 1 \lor -\frac{\sqrt[3]{4}}{2} &
+\textsf{(C)} \: 1 \lor -\frac{\sqrt[3]{4}}{2} & \\
 \textsf{(D)} \: -\frac{\sqrt[3]{4}}{2} &
 \textsf{(E)} \: -2 \lor -\frac{\sqrt[3]{4}}{2} & \\
 \end{array}
 $  
 :::
 #### Solution
-::: wrap  
-- $q=1$  
-
-  $
-  \begin{array}{ll}
-  2a_1+5a_1=2 \times 8a_1 \\
-  7a_1=16a_1 \\
-  0=9a_1 \\
-  a_1=\frac{0}{9}=0 & \textsf{No any element in a geometric sequence can be 0} \; ❌\\
-  \end{array}
-  $ 
-:::  
-::: wrap  
-- $q \ne 1$  
-
-  $
-  \begin{array}{ll}
-  \frac{a_1(1-q^2)}{1-q}+\frac{a_1(1-q^5)}{1-q}=\frac{2a_1(1-q^8)}{1-q} \\
-  1-q^2+1-q^5=2(1-q^8) \\
-  q^2+q^5=2q^8 \\
-  \frac{q^2+q^5}{q^2}=\frac{2q^8}{q^2} & q \,\textsf{is not 0, divide both sides by } q^2, \textsf{similar to } q^{\frac{\log_{10}x}{\log_{10}2}} \\
-  \frac{q^2}{q^2}+\frac{q^2+q^3}{q^2}=\frac{2(q^2+q^6)}{q^2} \\
-  1+q^3=2q^6 \\
-  2t^2-t-1=0 & t=q^3 \\
-  (1t-1)(2t+1)=0 \\
-  t=1 \lor -\frac{1}{2} & t \ne 1 \,\textsf{if }t=1 \,\textsf{then } q=1 \\
-  q^3=-\frac{1}{2} \\
-  q=-\frac{1}{\sqrt[3]{2}}=-\frac{\sqrt[3]{4}}{\sqrt[3]{8}}=-\frac{\sqrt[3]{4}}{2} \\
-  \end{array}
-  $  
-:::  
+::: wrap
+$
+\begin{array}{ll}
+\boldsymbol{q=1} \\
+\boxed{
+\begin{array}{ll}
+2a_1+5a_1=2 \times 8a_1 \\
+7a_1=16a_1 \\
+0=9a_1 \\
+a_1=\frac{0}{9}=0 & \textsf{no term of a geometric sequence can be zero}  \,❌\;\\
+\end{array}
+} \\
+\boldsymbol{q\ne1} \\
+\boxed{
+\begin{array}{ll}
+\frac{a_1(1-q^2)}{1-q}+\frac{a_1(1-q^5)}{1-q}=\frac{2a_1(1-q^8)}{1-q} \\
+1-q^2+1-q^5=2(1-q^8) & S_n=\bcancel{\frac{a_1}{1-q}}(1-q^n)\\
+q^2+q^5=2q^8 \\
+\frac{q^2+q^5}{q^2}=\frac{2q^8}{q^2} & \textsf{simplify by }q^2 \textsf{ (} q\ne0 \textsf{)} \\
+\frac{q^2}{q^2}+\frac{q^2+q^3}{q^2}=\frac{2(q^2+q^6)}{q^2} \\
+1+q^3=2q^6 \\
+2t^2-t-1=0 & t=q^3 \\
+(1t-1)(2t+1)=0 \\
+t=1 \lor -\frac{1}{2} & t\ne1 \textsf{ (} t=1 \Longrightarrow q=1 \textsf{)} \\
+q^3=-\frac{1}{2} \\
+q=-\frac{1}{\sqrt[3]{2}}=-\frac{1\times\sqrt[3]{4}}{\sqrt[3]{2}\times\sqrt[3]{4}}=-\frac{\sqrt[3]{4}}{\sqrt[3]{8}}=-\frac{\sqrt[3]{4}}{2} \\
+\end{array}
+} \\
+\end{array}
+$  
+:::
 #### Conclusion
 - Derived Solution  
   ::: wrap
   > $\boldsymbol{(D)}$  
-  > According to the Solution, get $q=-\frac{\sqrt[3]{4}}{2} \,\textsf{in } q \ne 1$, so choose $D$. 
+  > According to the Solution, get $q=-\frac{\sqrt[3]{4}}{2}$, so choose $D$. 
 
   :::
 - Formulas used  
@@ -660,8 +666,8 @@ $
   \begin{cases}
   na_1 & q=1 \\
   \frac{a_{1}(1-q^n)}{1-q}=\frac{a_{1}-a_{n}q}{1-q}=\frac{a_{1}-a_{n+1}}{1-q} & q \ne 1
-  \end{cases} & \textsf{Sum of the first n terms} \\ 
-  b^c=a \implies \log_{b}a=c & \textsf{Definition of logarithm} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_3-sum-of-the-first-terms}{\textsf{geometric series sum formula}} \\
+  S_n=\frac{a_1}{1-q} \times (1-q^n)=k(1-q^n) & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#properties-of}{\textsf{properties of geometric series sum formula}} \\
   x^3=a \longrightarrow x=\sqrt[3]{a} & \textsf{definition of cube root} \\
   \end{array}
   >$
@@ -669,14 +675,15 @@ $
   :::
 ---
 
-## 8.Focus 4
-__Properties of geometric sequence elements.__  
-::: wrap  
-- __If $k \in \mathbb{z_+},m+n=k+t$, then $a_m \cdot a_n = a_k \cdot a_t$__.   
-:::
 
-::: wrap
-### $\fbox{35}\:$In the geometric sequence $\small \left\{ a_n \right\}$, $\small a_3,a_8$ are the two roots of the equation $\small 3^x+2x-18=0$, then $\small a_4a_7= \, \mathpunct{?}$.
+## 8.Focus 4
+__The properties of terms in a geometric sequence__  
+- If $\boldsymbol{k \in\mathbb{Z_+}}$ and $\boldsymbol{m+n=k+t}$, then $\boldsymbol{a_m \cdot a_n=a_k \cdot a_t}$.
+
+
+
+### $\fbox{35}\:$In the geometric sequence $\small \left\{ a_n \right\}$, $\small a_3$ and $\small a_8$ are the two roots of the equation $\small 3x^2+2x-18=0$. Find $\small a_4a_7$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: -9 &
@@ -691,7 +698,8 @@ $
 ::: wrap  
 $
 \begin{array}{ll}
-a_4a_7=a_3a_8=\frac{-18}{3}=-6 \\
+x_1 \cdot x_2=\frac{c}{a} \\
+a_4a_7=a_3a_8=\frac{-18}{3}=-6 & \\
 \end{array}
 $  
 :::
@@ -706,21 +714,21 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \textsf{Vieta's formulas}
+  a_ma_n=a_ka_t & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#if-then}{\textsf{product property}} \\
   \begin{cases}
-  \textsf{1.Sum of the roots} \\
   x_1 + x_2=-\frac{b}{a} \\
-  \textsf{2.Product of the roots} \\
-  x_1 \cdot x_2=\frac{c}{a}
-  \end{cases} \\
-  a_n=a_1q^{n-1} & \textsf{General term} \\
+  x_1 \cdot x_2=\frac{c}{a} \\
+  \end{cases} & \textsf{vieta's formulas} \\
   \end{array}
   >$
 
   :::
 ---
-::: wrap
-### $\fbox{36}\:$If the geometric sequence a satisfies $\small a_2a_4+2a_3a_5+a_2a_8=25$ and $\small a_1 > 0$, then $\small a_3+a_5=\,\mathpunct{?}$. 
+
+
+
+### $\fbox{36}\:$If the geometric sequence $\small \left\{ a_n \right\}$ satisfies $\small a_2a_4+2a_3a_5+a_2a_8=25$ with $\small a_1 > 0$, then find $\small a_3+a_5$. 
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 8 &
@@ -735,11 +743,11 @@ $
 ::: wrap  
 $
 \begin{array}{ll}
-a_3^2+2a_3a_5+a_5^2=25 \\
+a_3^2+2a_3a_5+a_5^2=25 & ac=b^2\\
 (a_3+a_5)^2=25 \\
 \sqrt{(a_3+a_5)^2}=\sqrt{25} \\
-a_3+a_5=\pm5 \\
-a_3+a_5=5 & a_1>0 \,\textsf{so }a_1q^{n-1}>0 \\
+a_3+a_5=\pm5 & \ne-5 \textsf{ (} a_1>0 \Longrightarrow a_n\in\mathbb{Z_+} \textsf{)} \\
+a_3+a_5=5 \\
 \end{array}
 $  
 :::  
@@ -754,26 +762,24 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  ac=b^2 & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_5-focus-1}{\textsf{Geometric mean}} \\
-  a_n=a_1q^{n-1} & \textsf{General term} \\
+  ac=b^2 & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_5-focus-1}{\textsf{geometric mean}} \\
+  x^2=a \longrightarrow x=\pm\sqrt{a} & \textsf{definition of square root} \\
   \end{array}
   >$
 
   :::
-- Characteristics of Same sign operators in a geometric sequence   
+- Same-sign property of a geometric sequence     
   ::: wrap  
   >$
   \begin{array}{ll}
-  a_1,a_3,a_5,\dots \\
-  a_1,a_1q^2,a_1q^4,\dots & \textsf{Same sign operators}\\
-  a_2,a_4,a_6,\dots \\
-  a_1q,a_1q^3,a_1q^5,\dots & \textsf{Same sign operators}\\
+  a_1,a_3,a_5,\cdots \Longrightarrow a_1,a_1q^2,a_1q^4,\cdots & \textsf{same sign}\\
+  a_2,a_4,a_6,\cdots \Longrightarrow a_2,a_2q^2,a_2q^4,\cdots & \textsf{same sign}\\
   \end{array}
   >$
 
   :::
-- Trick solution  
-  ::: wrap
+- Solve using the special case $q=1$  
+  ::: wrap  
   >$
   \begin{array}{ll}
   a_3^2+2a_3a_5+a_5^2=25 \\
@@ -788,16 +794,18 @@ $
   :::
 ---
 
-## 9.Focus 5
-__The sum property of the first n terms of geometric sequence.__  
-::: wrap  
-- If $S_n$ is the sum of the first n terms of a geometric sequence,
-  then $S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots$ are still geometric sequences$\fbox{Segment summation}$,
-  and their common ratio is $q^n$.     
-:::
 
-::: wrap
-### $\fbox{37}\:$In the geometric sequence $\small \left\{ a_n \right\}$, knew $\small S_n=36,S_{2n}=54$, then $\small S_{3n}=\,\mathpunct{?}$.
+## 9.Focus 5
+__The property of geometric series summation__
+- If $S_n$ is __the sum of the first $\boldsymbol{n}$ terms of a geometric sequence__,
+  then the sequence $\boldsymbol{S_n, S_{2n}-S_n, S_{3n}-S_{2n},\cdots}$ also form __a geometric sequence__,
+  with __common ratio $\boldsymbol{q^n}$__.
+
+
+
+
+### $\fbox{37}\:$In a geometric sequence $\small \left\{ a_n \right\}$, it is given that $\small S_n=36$ and $\small S_{2n}=54$. Find $\small S_{3n}$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 63 &
@@ -823,21 +831,23 @@ $
 - Derived Solution  
   ::: wrap
   > $\boldsymbol{(A)}$  
-  > According to the Solution, get $S_3=63$, so choose $A$. 
+  > According to the Solution, get $S_3=63$, so choose $A$.
 
   :::
 - Formulas used  
   ::: wrap
   >$
   \begin{array}{ll}
-  S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_4-important-properties}{\textsf{The property that }S_n \,\textsf{is the sum of the first n terms}} \\
+  S_n, S_{2n}-S_n, S_{3n}-S_{2n},\cdots & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#if-is-the-sum-of-the-first-terms-of-a-geometric-sequence-then-also-form-a-geometric-sequence-with-common-ratio}{\textsf{property of geometric series sum}} \\
   \end{array}
   >$
 
   :::
 ---
-::: wrap
-### $\fbox{38}\:$It is known that $\small S_n$ is the sum of the first n terms of the geometric sequence $\small \left\{ a_n \right\}$, if $\small S_4=30,S_8=150$, then common ratio $\small q= \, \mathpunct{?}$.
+
+
+### $\fbox{38}\:$Given that $\small S_n$ is the sum of the first $\small n$ terms of a geometric sequence $\small \left\{ a_n \right\}$, and $\small S_4=30, S_8=150$, find the common ratio $\small q$.
+::: wrap  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: \pm2 &
@@ -849,12 +859,12 @@ $
 $  
 :::
 #### Solution
-::: wrap  
-- $\textcolor{#228B22}{\fbox{1}}\:$All indexs in $S_{\textsf{index}}$ are even numbers  
-
+- $\textcolor{#228B22}{\fbox{1}}\:$For subscripts of $S_n$ in a multiple relationship, solve using $S_n, S_{2n}-S_n, S_{3n}-S_{2n},\cdots$  
+  ::: wrap  
   $
   \begin{array}{ll}
-  \underbrace{S_4}_{30} \; \underbrace{S_8-S_4}_{150-30=120} \; \dots & q^4\\
+  S_n, S_{2n}-S_n, S_{3n}-S_{2n},\cdots & q^n \\
+  \underbrace{S_4}_{30} \; \underbrace{S_8-S_4}_{150-30=120} \; \dots & q^4 \\
   \frac{120}{30}=4 \\
   q^4=4 \\
   \sqrt{q^{2^2}}=\sqrt{2^2} \\
@@ -862,14 +872,14 @@ $
   q=\pm\sqrt{2}
   \end{array}
   $   
-:::  
-::: wrap  
-- $\textcolor{#228B22}{\fbox{2}}\:$All indexs in $S_{\textsf{index}}$ aren't even numbers   
-
+  :::  
+- $\textcolor{#228B22}{\fbox{2}}\:$For subscripts of $S_n$ not in a multiple relationship, solve using $\frac{S_m}{S_n} = \frac{1-q^m}{1-q^n}$  
+  ::: wrap  
   $
   \begin{array}{ll}
   \frac{S_m}{S_n} = \frac{1-q^m}{1-q^n} \\
-  \frac{S_8}{S_4}=1+q^4 & S_m=S_{2n} \\
+  \frac{S_{2n}}{S_n} = 1+q^n & S_m=S_{2n} \\
+  \frac{S_8}{S_4}=1+q^4  \\
   \frac{150}{30}=5 \\
   5=1+q^4 \\
   q^4=4 \\
@@ -878,7 +888,7 @@ $
   q=\pm\sqrt{2}
   \end{array}
   $   
-:::  
+  :::  
 #### Conclusion
 - Derived Solution  
   ::: wrap
@@ -890,12 +900,10 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  S_n=
   \begin{cases}
-  \frac{S_{2n}}{S_n} = 1+q^n & S_m=S_{2n} \\
-  \frac{S_m}{S_n} = \frac{1-q^m}{1-q^n} & S_m \ne S_{2n}
-  \end{cases} & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_4-important-properties}{\textsf{The property that }S_n \,\textsf{is the sum of the first n terms}} \\\\
-  S_n, S_{2n}-S_n, S_{3n}-S_{2n},\dots & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_4-important-properties}{\textsf{The property that }S_n \,\textsf{is the sum of the first n terms}} \\
+  \frac{S_m}{S_n} = \frac{1-q^m}{1-q^n} \\
+  S_n, S_{2n}-S_n, S_{3n}-S_{2n},\cdots\\
+  \end{cases} & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#if-is-the-sum-of-the-first-terms-of-a-geometric-sequence-then-also-form-a-geometric-sequence-with-common-ratio}{\textsf{property of geometric series sum}} \\
   x^2=a \longrightarrow x=\pm\sqrt{a} & \textsf{definition of square root} \\  
   \end{array}
   >$
@@ -903,7 +911,7 @@ $
   :::
 ---
 
-| Platform   | Course                                                                                      | Coursewares                                                       |
+| Platform    | Course                                                                                       | Coursewares                                                       |
 |-------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
 | YouTube     | [Watch](https://www.youtube.com/watch?v=8Bum9KaQM4o&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s) | [Courseware](../../public/math/Core%20Courses/pdf/Courseware.pdf) |
 | Dailymotion | [Watch](https://www.dailymotion.com/video/x9gncjm?playlist=x9h6d2)                           |                                                                   |
