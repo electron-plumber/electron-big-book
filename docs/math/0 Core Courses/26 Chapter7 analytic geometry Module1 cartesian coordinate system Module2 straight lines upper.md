@@ -825,8 +825,7 @@ $
 \end{array}
 $  
 :::
-#### Solution 
- 
+#### Solution
 - $\textcolor{#9333EA}{\textsf{verify condition }(1)}$   
   ![Question straight lines figure Q-11 solve-1.svg](../../public/math/Core%20Courses/Question%20straight%20lines%20figure%20Q-11%20solve-1.svg)  
   ::: wrap  

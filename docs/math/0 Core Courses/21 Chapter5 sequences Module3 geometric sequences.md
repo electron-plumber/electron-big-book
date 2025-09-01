@@ -587,7 +587,7 @@ $
   \begin{cases}
   a_1=S_1 & n=1 \\
   S_n-S_{n-1} & n \ge 1 \\
-  \end{cases} & \textsf{formula for }a_n\textsf{ in terms of }S_n \\
+  \end{cases} & \href{/math/0%20Core%20Courses/18%20Chapter5%20sequences%20Module1%20definition%20of%20sequences.html#given-find}{\textsf{formula for relationship between }a_n\textsf{ and }S_n} \\
   \end{array}
   >$
 
