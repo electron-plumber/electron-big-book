@@ -586,19 +586,19 @@ $
   a_n=
   \begin{cases}
   a_1=S_1 & n=1 \\
-  S_n-S_{n-1} & n \ge 1 \\
+  S_n-S_{n-1} & n \ge 2 \\
   \end{cases} & \href{/math/0%20Core%20Courses/18%20Chapter5%20sequences%20Module1%20definition%20of%20sequences.html#given-find}{\textsf{formula for relationship between }a_n\textsf{ and }S_n} \\
   \end{array}
   >$
 
   >$
   \begin{array}{ll}
-  \textsf{(1)} \: S_n=\frac{1}{3} & \boxed{a_n=\begin{cases} \frac{1}{3} & n=1 \\ 0 & n \ge 1 \\ \end{cases}} \\
+  \textsf{(1)} \: S_n=\frac{1}{3} & \boxed{a_n=\begin{cases} \frac{1}{3} & n=1 \\ 0 & n \ge 2 \\ \end{cases}} \\
   \textsf{(2)} \: S_n=2n & \boxed{a_n=2} \\
-  \textsf{(3)} \: S_n=2n-1 & \boxed{a_n=\begin{cases} 1 & n=1 \\ 2 & n \ge 1 \\ \end{cases}} \\
-  \textsf{(4)} \: S_n=2^n & \boxed{a_n=\begin{cases} 2 & n=1 \\ 2^n-2^{n-1}=(2 \cdot 2^{n-1})-2^{n-1}=2^{n-1} & n \ge 1 \\ \end{cases}} \\
+  \textsf{(3)} \: S_n=2n-1 & \boxed{a_n=\begin{cases} 1 & n=1 \\ 2 & n \ge 2 \\ \end{cases}} \\
+  \textsf{(4)} \: S_n=2^n & \boxed{a_n=\begin{cases} 2 & n=1 \\ 2^n-2^{n-1}=(2 \cdot 2^{n-1})-2^{n-1}=2^{n-1} & n \ge 2 \\ \end{cases}} \\
   \textsf{(5)} \: S_n=2^n-1 & \boxed{a_n=1 \times 2^{n-1}} \hspace{1.2cm} a_n=a_1q^{n-1} \\
-  \textsf{(6)} \: S_n=2^n+1 & \boxed{a_n=\begin{cases} 3 & n=1 \\ 2^{n-1} & n \ge 1 \\ \end{cases}} \\
+  \textsf{(6)} \: S_n=2^n+1 & \boxed{a_n=\begin{cases} 3 & n=1 \\ 2^{n-1} & n \ge 2 \\ \end{cases}} \\
   \textsf{(7)} \: S_n=3(2^n-1) & \boxed{a_n=3 \times 2^{n-1}} \hspace{1.2cm} a_n=a_1q^{n-1} \\
   \end{array}
   >$  
