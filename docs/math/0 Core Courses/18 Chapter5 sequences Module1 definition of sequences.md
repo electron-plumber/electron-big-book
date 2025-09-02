@@ -3,13 +3,6 @@ title: Chapter5 Sequences – Module1 Definition of Sequences
 lang: en-US
 ---
 
-| Platform    | Course                                                                                       | Coursewares                                                       |
-|-------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| YouTube     | [Watch](https://www.youtube.com/watch?v=qzTFCMGohoM&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s) | [Courseware](../../public/math/Core%20Courses/pdf/Courseware.pdf) |
-| Dailymotion | [Watch](https://www.dailymotion.com/video/x9glvry?playlist=x9h6d2)                           |                                                                   |
-| Rumble      | [Watch](https://rumble.com/v6s95bz-19-chapter5-sequence-module1-sequence-definition.html)    |                                                                   |
-
-
 # Module 5-01 Sequences
 
 ## 1.Definition
@@ -251,3 +244,192 @@ $
 
   :::
 ---
+
+
+## 6.Focus 2
+__For the given $a_n$, find $S_n$__
+- Use the formula $\boldsymbol{S_n=a_1+a_2+\cdots+a_n=\sum_{i=1}^{n}a_i}$ together with __the decomposition of the general term__,
+  we apply __the method of telescoping sums__ (__cancellation method__).
+  This is a concrete application of __the idea of decomposition and recombination in summing sequences__.
+  The essence of the telescoping method is __to decompose each term (the general term) of the sequence__,
+  then __recombine them__ so that __certain terms cancel out__,
+  __ultimately yielding the sum__.
+  
+
+
+### $\fbox{5}\:$In the sequence $\small \left\{ a_n \right\}$, $\small a_n＝\frac{n}{2}$. Define $\small b_n=\frac{2}{a_n \cdot a_{n+1}}$. Find the sum of the first $\small 99$ terms of the sequence $\small {b_n}$.
+::: wrap  
+$
+\begin{array}{lllll}
+\textsf{(A)} \: \frac{99}{25} &
+\textsf{(B)} \: \frac{101}{25} &
+\textsf{(C)} \: \frac{202}{25} &
+\textsf{(D)} \: \frac{198}{25} &
+\textsf{(E)} \: \frac{298}{25} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+a_n＝\frac{n}{2} \\
+b_n=\frac{2}{\frac{n}{2} \cdot \frac{n+1}{2}}=\frac{2}{\frac{n(n+1)}{4}}=\frac{8}{n(n+1)} \\
+8\cdot\frac{1}{n(n+1)}=8(\frac{1}{n}-\frac{1}{n+1}) & \frac{1}{n(n+k)}=\frac{1}{k}(\frac{1}{n}-\frac{1}{n+k}) \\
+S_{99}=8[(1-\bcancel{\frac{1}{2}})+(\bcancel{\frac{1}{2}}-\bcancel{\frac{1}{3}})+\cdots+(\bcancel{\frac{1}{99}}-\frac{1}{100})]=8(1-\frac{1}{100}) \\
+8(1-\frac{1}{100})=8\cdot\frac{99}{100}=\frac{792}{100}=\frac{198}{25} \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(D)}$  
+  > According to the Solution, get $S_{99}=\frac{198}{25}$, so choose $D$. 
+
+  :::
+- Formulas used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \frac{1}{n(n+k)}=\frac{1}{k}(\frac{1}{n}-\frac{1}{n+k}) & \textsf{partial fraction telescoping identity} \\
+  S_n=a_1+a_2+\cdots+a_n=\sum_{i=1}^{n}a_i & \href{/math/0%20Core%20Courses/18%20Chapter5%20sequences%20Module1%20definition%20of%20sequences.html#_3-sum-of-the-first-terms}{\textsf{sum of first }n\textsf{ terms}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+### $\fbox{6}\:$In the sequence $\small \left\{ a_n \right\}$, the general term is $\small a_n=\frac{1}{\sqrt{n}+\sqrt{n+1}}$. If the sum of the first $\small n$ terms equals $\small 10$, find $\small n$.
+::: wrap  
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 119 &
+\textsf{(B)} \: 120 &
+\textsf{(C)} \: 121 &
+\textsf{(D)} \: 122 &
+\textsf{(E)} \: 124 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+a_n=\frac{1}{\sqrt{n}+\sqrt{n+1}}=\sqrt{n+1}-\sqrt{n} & \frac{1}{\sqrt{n}+\sqrt{n+k}}=\frac{1}{k}(\sqrt{n+k}-\sqrt{n}) \\
+S_n=(\bcancel{\sqrt{2}}-1)+(\bcancel{\sqrt{3}}-\bcancel{\sqrt{2}})+\cdots+(\sqrt{n+1}-\bcancel{\sqrt{n}})=10 \\
+\sqrt{n+1}-1=10 \\
+\sqrt{n+1}=11 \\
+(\sqrt{n+1})^2=11^2 \\
+n+1=121 \\
+n=120 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(B)}$  
+  > According to the Solution, get $n=120$, so choose $B$. 
+
+  :::
+- Formulas used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \frac{1}{\sqrt{n}+\sqrt{n+k}}=\frac{1}{k}(\sqrt{n+k}-\sqrt{n}) & \textsf{square-root telescoping identity} \\
+  S_n=a_1+a_2+\cdots+a_n=\sum_{i=1}^{n}a_i & \href{/math/0%20Core%20Courses/18%20Chapter5%20sequences%20Module1%20definition%20of%20sequences.html#_3-sum-of-the-first-terms}{\textsf{sum of first }n\textsf{ terms}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+### $\fbox{7}\:$Find the value of $S_{99}=\frac{1}{2!}+\frac{2}{3!}+\frac{3}{4!}+\cdots+\frac{99}{100!}$.
+::: wrap  
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 1-\frac{1}{100!} &
+\textsf{(B)} \: 2-\frac{1}{100!} &
+\textsf{(C)} \: \frac{1}{2}-\frac{1}{100!} &
+\textsf{(D)} \: 1-\frac{1}{99!} &
+\textsf{(E)} \: 1-\frac{99}{100!} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+a_n=\frac{n}{(n+1)!}=\frac{1}{n!}-\frac{1}{(n+1)!} \\
+S_{99}=(\frac{1}{1!}-\bcancel{\frac{1}{2!}})+(\bcancel{\frac{1}{2!}}-\bcancel{\frac{1}{3!}})+\cdots+(\bcancel{\frac{1}{99!}}-\frac{1}{100!})=1-\frac{1}{100!} \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(A)}$  
+  > According to the Solution, get $S_{99}=1-\frac{1}{100!}$, so choose $A$. 
+
+  :::
+- Formulas used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  a_n=f(n) & \href{/math/0%20Core%20Courses/18%20Chapter5%20sequences%20Module1%20definition%20of%20sequences.html#_2-general-term}{\textsf{definition of general term}} \\
+  \frac{n}{(n+1)!}=\frac{1}{n!}-\frac{1}{(n+1)!} & \textsf{factorial fraction telescoping identity} \\
+  S_n=a_1+a_2+\cdots+a_n=\sum_{i=1}^{n}a_i & \href{/math/0%20Core%20Courses/18%20Chapter5%20sequences%20Module1%20definition%20of%20sequences.html#_3-sum-of-the-first-terms}{\textsf{sum of first }n\textsf{ terms}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+### $\fbox{8}\:$Find the value of $\small S_{99}=1\times1!+2\times2!+3\times3!+\cdots+99\times99!$.
+::: wrap  
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 100!-2 &
+\textsf{(B)} \: 100!+1 &
+\textsf{(C)} \: 100!-1 &
+\textsf{(D)} \: 99!-1 &
+\textsf{(E)} \: 99!-2 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+a_n=n \cdot n!=(n+1)!-n! & n \times n! = (n+1)!-n! \\
+S_{99}=(\bcancel{2!}-1!)+(\bcancel{3!}-\bcancel{2!})+\cdots+(100!-\bcancel{99!})=100!-1 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(C)}$  
+  > According to the Solution, get $S_{99}=100!-1$, so choose $C$. 
+
+  :::
+- Formulas used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  a_n=f(n) & \href{/math/0%20Core%20Courses/18%20Chapter5%20sequences%20Module1%20definition%20of%20sequences.html#_2-general-term}{\textsf{definition of general term}} \\
+  n \times n! = (n+1)!-n! & \textsf{factorial difference telescoping identity} \\
+  S_n=a_1+a_2+\cdots+a_n=\sum_{i=1}^{n}a_i & \href{/math/0%20Core%20Courses/18%20Chapter5%20sequences%20Module1%20definition%20of%20sequences.html#_3-sum-of-the-first-terms}{\textsf{sum of first }n\textsf{ terms}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+
+| Platform    | Course                                                                                       | Coursewares                                                       |
+|-------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| YouTube     | [Watch](https://www.youtube.com/watch?v=qzTFCMGohoM&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s) | [Courseware](../../public/math/Core%20Courses/pdf/Courseware.pdf) |
+| Dailymotion | [Watch](https://www.dailymotion.com/video/x9glvry?playlist=x9h6d2)                           |                                                                   |
+| Rumble      | [Watch](https://rumble.com/v6s95bz-19-chapter5-sequence-module1-sequence-definition.html)    |                                                                   |
