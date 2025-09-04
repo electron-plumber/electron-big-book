@@ -55,14 +55,24 @@ lang: en-US
   \end{array}
   $  
   :::
+- Derivation of $\boldsymbol{\frac{a_n}{a_m}=q^{n-m}}$
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  a_n=a_{k}q^{n-k} \\
+  a_m=a_{k}q^{m-k} \\
+  \frac{a_n}{a_m}=\frac{a_{k}q^{n-k}}{a_{k}q^{m-k}}=\frac{q^n}{q^m}=q^{n-m} \\
+  \end{array}
+  $  
+  :::
 
 ### $\textcolor{#1E3A5F}{\fbox{2}}\:$Applications
 
 | Formula                | Conditions for Use                                            | Example Usage        |
 |------------------------|---------------------------------------------------------------|----------------------|
 | $a_n=a_1q^{n-1}$       | Requires $a_1$                                                | $a_5=a_1q^4$         |
-| $a_n=a_kq^{n-k}$       | Works with any $a_n$; when $k=1$, it becomes $a_n=a_1q^{n-1}$ | $a_5=a_3q^2$         |
-| $a_n=\frac{a_1}{q}q^n$ | Requires $a_1$ and $q$                                        | $a_n=2 \times 3^{n}$ |
+| $a_n=a_kq^{n-k}$       | Works with any $a_k$; when $k=1$, it becomes $a_n=a_1q^{n-1}$ | $a_5=a_3q^2$         |
+| $a_n=\frac{a_1}{q}q^n$ | Requires $a_1$                                                | $a_n=2 \times 3^{n}$ |
 
 
 ## 3.Sum of the First $n$ Terms
@@ -417,7 +427,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  a_ma_n=a_ka_t & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#if-then}{\textsf{product property}} \\
+  a_ma_n=a_ka_t & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#if-then}{\textsf{geometric sequence product property}} \\
   \begin{cases}
   x_1 + x_2=-\frac{b}{a} \\
   x_1 \cdot x_2=\frac{c}{a} \\
@@ -714,7 +724,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  a_ma_n=a_ka_t & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#if-then}{\textsf{product property}} \\
+  a_ma_n=a_ka_t & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#if-then}{\textsf{geometric sequence product property}} \\
   \begin{cases}
   x_1 + x_2=-\frac{b}{a} \\
   x_1 \cdot x_2=\frac{c}{a} \\
