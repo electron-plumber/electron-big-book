@@ -117,7 +117,7 @@ $
   \begin{cases}
   a_1=S_1 & n=1 \\
   S_n-S_{n-1} & n \ge 2 \\
-  \end{cases} & \href{/math/0%20Core%20Courses/18%20Chapter5%20sequences%20Module1%20definition%20of%20sequences.html#given-find}{\textsf{formula for relationship between }a_n\textsf{ and }S_n} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/18%20Chapter5%20sequences%20Module1%20definition%20of%20sequences.html#given-find}{S_n\textsf{ to general term }a_n\textsf{ formula}} \\
   \end{array}
   >$
 
@@ -162,7 +162,7 @@ $
   \begin{cases}
   a_1=S_1 & n=1 \\
   S_n-S_{n-1} & n \ge 2 \\
-  \end{cases} & \href{/math/0%20Core%20Courses/18%20Chapter5%20sequences%20Module1%20definition%20of%20sequences.html#given-find}{\textsf{formula for relationship between }a_n\textsf{ and }S_n} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/18%20Chapter5%20sequences%20Module1%20definition%20of%20sequences.html#given-find}{S_n\textsf{ to general term }a_n\textsf{ formula}} \\
   \end{array}
   >$
 
@@ -207,7 +207,7 @@ $
   \begin{cases}
   a_1=S_1 & n=1 \\
   S_n-S_{n-1} & n \ge 2 \\
-  \end{cases} & \href{/math/0%20Core%20Courses/18%20Chapter5%20sequences%20Module1%20definition%20of%20sequences.html#given-find}{\textsf{formula for relationship between }a_n\textsf{ and }S_n} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/18%20Chapter5%20sequences%20Module1%20definition%20of%20sequences.html#given-find}{S_n\textsf{ to general term }a_n\textsf{ formula}} \\
   \end{array}
   >$
 
@@ -223,8 +223,8 @@ $
 a_1=S_1=10-1=9 & n=1 \\
 a_n=S_n-S_{n-1}=10^n-10^{n-1} & n \ge 2 \\
 (10\cdot10^{n-1})-10^{n-1}=9\cdot10^{n-1} \\
-a_1=9\cdot10^{1-1}=9\cdot1=9 & \textsf{substitute }a_1 \textsf{ to verify} \\
-a_n=a_1=9\cdot10^{n-1} \\
+a_n=a_1=9\cdot10^{1-1}=9\cdot1=9 & \textsf{substitute }a_1 \textsf{ to verify} \\
+a_n=9\cdot10^{n-1} \\
 \end{array}
 $  
 :::  
@@ -237,7 +237,7 @@ $
   \begin{cases}
   a_1=S_1 & n=1 \\
   S_n-S_{n-1} & n \ge 2 \\
-  \end{cases} & \href{/math/0%20Core%20Courses/18%20Chapter5%20sequences%20Module1%20definition%20of%20sequences.html#given-find}{\textsf{formula for relationship between }a_n\textsf{ and }S_n} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/18%20Chapter5%20sequences%20Module1%20definition%20of%20sequences.html#given-find}{S_n\textsf{ to general term }a_n\textsf{ formula}} \\
   a_n=f(n) & \href{/math/0%20Core%20Courses/18%20Chapter5%20sequences%20Module1%20definition%20of%20sequences.html#_2-general-term}{\textsf{definition of general term}} \\
   \end{array}
   >$

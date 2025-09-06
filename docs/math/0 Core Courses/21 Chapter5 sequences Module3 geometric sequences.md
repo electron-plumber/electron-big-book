@@ -20,7 +20,7 @@ lang: en-US
 
 ## 2.General Term
 - $a_n=a_1q^{n-1}=a_{k}q^{n-k}=\frac{a_1}{q}q^n$
-- Note: if __two terms are known__, __the common ratio__ can be found by $\boldsymbol{\frac{a_n}{a_m}=q^{n-m}}$.
+- ###### Note: if __two terms are known__, __the common ratio__ can be found by $\boldsymbol{\frac{a_n}{a_m}=q^{n-m}}$.
 
 ### $\textcolor{#1E3A5F}{\fbox{1}}\:$Derivations
 - Derivation of $\boldsymbol{a_n=a_1q^{n-1}}$  
@@ -357,7 +357,7 @@ $
   >$
   \begin{array}{ll}
   \frac{a_{n+1}}{a_n}=q & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_1-definition}{\textsf{definition of geometric sequence}} \\
-  \frac{a_m}{a_n}=q^{m-n} & \textsf{term ratio formula} \\
+  \frac{a_m}{a_n}=q^{m-n} & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#note-if-two-terms-are-known-the-common-ratio-can-be-found-by}{\textsf{term ratio formula}} \\
   \end{array}
   >$
 
@@ -432,7 +432,7 @@ $
   x_1 + x_2=-\frac{b}{a} \\
   x_1 \cdot x_2=\frac{c}{a} \\
   \end{cases} & \textsf{vieta's formulas} \\
-  \frac{a_m}{a_n}=q^{m-n} & \textsf{term ratio formula} \\
+  \frac{a_m}{a_n}=q^{m-n} & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#note-if-two-terms-are-known-the-common-ratio-can-be-found-by}{\textsf{term ratio formula}} \\
   x^3=a \longrightarrow x=\sqrt[3]{a} & \textsf{definition of cube root} \\
   a_n=a_{k}q^{n-k} & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#_2-general-term}{\textsf{general term formula}}
   \end{array}
@@ -494,7 +494,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \frac{a_m}{a_n}=q^{m-n} & \textsf{term ratio formula} \\
+  \frac{a_m}{a_n}=q^{m-n} & \href{/math/0%20Core%20Courses/21%20Chapter5%20sequences%20Module3%20geometric%20sequences.html#note-if-two-terms-are-known-the-common-ratio-can-be-found-by}{\textsf{term ratio formula}} \\
   x^2=a \longrightarrow x=\pm\sqrt{a} & \textsf{definition of square root} \\
   \end{array}
   >$
@@ -597,7 +597,7 @@ $
   \begin{cases}
   a_1=S_1 & n=1 \\
   S_n-S_{n-1} & n \ge 2 \\
-  \end{cases} & \href{/math/0%20Core%20Courses/18%20Chapter5%20sequences%20Module1%20definition%20of%20sequences.html#given-find}{\textsf{formula for relationship between }a_n\textsf{ and }S_n} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/18%20Chapter5%20sequences%20Module1%20definition%20of%20sequences.html#given-find}{S_n\textsf{ to general term }a_n\textsf{ formula}} \\
   \end{array}
   >$
 
