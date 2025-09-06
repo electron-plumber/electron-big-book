@@ -289,7 +289,7 @@ $
   \textsf{(4)} \: \frac{1}{3} \times 2^n \longrightarrow q=2 \,✅\;\\
   \textsf{(5)} \: 1 \times (\frac{1}{3})^n \longrightarrow q=\frac{1}{3} \,✅\;\\
   \textsf{(6)} \: 1 \times (-1)^n \longrightarrow q=-1 \,✅\;\\
-  \textsf{(7)} \: \textsf{exponential term} + \textsf{constant} \,❌\;\\
+  \textsf{(7)} \: +\textsf{constant term} \,❌\;\\
   \end{array}
   $  
   :::
@@ -558,10 +558,10 @@ $
   ::: wrap  
   $
   \begin{array}{ll}
-  \textsf{(1)} \: S_n\textsf{ cannot be constant} \,❌\;\\
+  \textsf{(1)} \: \textsf{constant term} \,❌\;\\
   \textsf{(2)} \: n2 \longrightarrow q=1 \,✅\;\\
-  \textsf{(3)} \: \textsf{no }q^n\textsf{ exponential} \,❌\;\\
-  \textsf{(4)} \: \textsf{not of the form "exponential term + constant"} \,❌\;\\
+  \textsf{(3)} \: \textsf{no }q^n\textsf{ exponential term} \,❌\;\\
+  \textsf{(4)} \: \textsf{no }-k\textsf{ constant term} \,❌\;\\
   \textsf{(5)} \: 1-1 \cdot 2^n \longrightarrow q=2 \,✅\;\\
   \textsf{(6)} \: \textsf{not }k-k=0 \,❌\;\\
   \textsf{(7)} \: 3-3 \cdot 2^n \longrightarrow q=2 \,✅\;\\

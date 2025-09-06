@@ -3,12 +3,6 @@ title: Chapter5 Sequences – Module2 Arithmetic Sequences Upper
 lang: en-US
 ---
 
-| Platform    | Course                                                                                            | Coursewares                                                       |
-|-------------|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| YouTube     | [Watch](https://www.youtube.com/watch?v=TXfq-SIghJE&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s)      | [Courseware](../../public/math/Core%20Courses/pdf/Courseware.pdf) |
-| Dailymotion | [Watch](https://www.dailymotion.com/video/x9glvs4?playlist=x9h6d2)                                |                                                                   |
-| Rumble      | [Watch](https://rumble.com/v6s95c7-20-chapter5-sequences-module2-arithmetic-sequences-upper.html) |                                                                   |
-
 
 # Module 5-01 Arithmetic Sequences
 
@@ -108,7 +102,8 @@ lang: en-US
 ::: wrap  
 - $S_n=\frac{a_1+a_n}{2}n=na_1+\frac{n(n-1)}{2}d=\frac{d}{2}n^2+(a_1-\frac{d}{2})n$  
 :::
-- $S_n=\frac{d}{2}n^2+(a_1-\frac{d}{2})n$ can be regarded as __a quadratic function $\boldsymbol{y=ax^2+bx+c}$__.  
+- Special case: $\boldsymbol{d=0}$, $S_n=na_1$ is __a linear function__.
+- ###### $S_n=\frac{d}{2}n^2+(a_1-\frac{d}{2})n$ can be regarded as __a quadratic function $\boldsymbol{y=ax^2+bx+c}$__.  
   ::: wrap  
   $
   \begin{array}{ll}
@@ -119,6 +114,7 @@ lang: en-US
   \end{array}
   $  
   :::
+
 
 
 ### $\textcolor{#1E3A5F}{\fbox{1}}\:$Derivations
@@ -623,3 +619,172 @@ $
 
   :::
 ---
+
+## 7.Focus 3
+__The summation of an arithmetic sequence__
+::: wrap  
+- Using the formula: $S_n=\frac{a_1+a_n}{2}n=na_1+\frac{n(n-1)}{2}d=\frac{d}{2}n^2+(a_1-\frac{d}{2})n$ to solve.  
+:::
+
+### $\fbox{16}\:$How many of the following can serve as the sum of the first $\small n$ terms of an arithmetic sequence $\small \mathpunct{?}$.
+::: wrap
+$
+\begin{array}{lllll}
+\textsf{(1)} \: S_n=\frac{1}{n} &
+\textsf{(2)} \: S_n=\frac{1}{3} &
+\textsf{(3)} \: S_n=2n &
+\textsf{(4)} \: S_n=2n-1 & \\
+\textsf{(5)} \: S_n=2n^2-n &
+\textsf{(6)} \: S_n=n^2 &
+\textsf{(7)} \: S_n=n^2-1 & \\
+\textsf{(A)} \: 2 &
+\textsf{(B)} \: 3 &
+\textsf{(C)} \: 4 &
+\textsf{(D)} \: 5 &
+\textsf{(E)} \: 6 & \\
+\end{array}
+$  
+:::
+#### Solution
+- Find the expression using the feature
+  $
+  S_n=
+  \begin{cases}
+  S_n=na_1 & d=0 \\
+  an^2+bn & d \ne 0 \\
+  \end{cases}
+  $  
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  \textsf{(1)} \: \textsf{reciprocal function} \,❌\;\\
+  \textsf{(2)} \: \textsf{constant term} \,❌\;\\
+  \textsf{(3)} \: 2n \longrightarrow d=0 \,✅\;\\
+  \textsf{(4)} \: +\textsf{constant term} \,❌\;\\
+  \textsf{(5)} \: \frac{4}{2}n^2-n \longrightarrow d=4,a_n=4n-3 \,✅\;\\
+  \textsf{(6)} \: \frac{2}{2}n^2 \longrightarrow d=2,a_n=2n-1 \,✅\;\\
+  \textsf{(7)} \: +\textsf{constant term} \,❌\;\\
+  \end{array}
+  $  
+  :::
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(B)}$  
+  > According to the Solution, get $\textsf{(3)},\textsf{(5)},\textsf{(6)}$, so choose $B$. 
+
+  :::
+- Formulas used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  S_n=
+  \begin{cases}
+  S_n=na_1 & d=0 \\
+  an^2+bn & d \ne 0 \\
+  \end{cases}
+  & \href{/math/0%20Core%20Courses/19%20Chapter5%20sequences%20Module2%20arithmetic%20sequences%20upper.html#can-be-regarded-as-a-quadratic-function}{\textsf{arithmetic series sum as a quadratic function}} \\
+  S_n=an^2+bn \longrightarrow a_n=2an+(b-a) & \href{/math/0%20Core%20Courses/19%20Chapter5%20sequences%20Module2%20arithmetic%20sequences%20upper.html#derivation-of-the-formula-from-quadratic-to-linear}{\textsf{quadratic }S_n\textsf{ to linear }a_n\textsf{ formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+### $\fbox{17}\:$Insert $\small n$ numbers between $\small -12$ and $\small 6$ so that these $\small n+2$ numbers form an arithmetic sequence with sum $\small -21$. Find $\small n$.
+::: wrap  
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 4 &
+\textsf{(B)} \: 5 &
+\textsf{(C)} \: 6 &
+\textsf{(D)} \: 7 &
+\textsf{(E)} \: 8 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+S_{n+2}=\frac{-12+6}{2}(n+2)=-21 \\
+-3(n+2)=-21 \\
+-3n-6=-21 \\
+-3n=-15 \\
+n=\frac{-15}{-3}=5 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(B)}$  
+  > According to the Solution, get $n=5$, so choose $B$. 
+
+  :::
+- Formulas used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  S_n=\frac{a_1+a_n}{2}n & \href{/math/0%20Core%20Courses/19%20Chapter5%20sequences%20Module2%20arithmetic%20sequences%20upper.html#_3-sum-of-the-first-terms}{\textsf{arithmetic series sum formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+### $\fbox{18}\:$In the arithmetic sequence $\small \left\{ a_n \right\}$, if $\small a_4=9$ and $\small a_9=-6$, then for which values of $\small n$ does $\small S_n=54$ hold $\small \mathpunct{?}$.
+::: wrap  
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 4\lor9 &
+\textsf{(B)} \: 4 &
+\textsf{(C)} \: 9 &
+\textsf{(D)} \: 3\lor8 &
+\textsf{(E)} \: 8 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+d=\frac{-6-9}{9-4}=\frac{-15}{5}=-3 \\
+a_1=9+(1-4)\cdot-3=9+9=18 \\
+S_n=\frac{-3}{2}n^2+(18-\frac{-3}{2})n=54 \\
+18-\frac{-3}{2}=\frac{18\cdot2}{2}+\frac{3}{2}=\frac{39}{2} \\
+\frac{-3}{2}n^2+\frac{39}{2}n=54 \\
+-3n^2+39n=108 \\
+\frac{-3n^2+39n-108}{-3}=\frac{0}{-3} \\
+n^2-13n+36=0 \\
+(n-4)(n-9)=0 \\
+n=4 \lor 9 \\
+\end{array}
+$  
+:::
+![Question arithmetic sequences figure Q-18 solve-1.svg](../../public/math/Core%20Courses/Question%20arithmetic%20sequences%20figure%20Q-18%20solve-1.svg)  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(A)}$  
+  > According to the Solution, get $n=4 \lor 9$, so choose $A$. 
+
+  :::
+- Formulas used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  d=\frac{a_n-a_m}{n-m} & \href{/math/0%20Core%20Courses/19%20Chapter5%20sequences%20Module2%20arithmetic%20sequences%20upper.html#note-if-two-terms-are-known-the-common-ratio-can-be-found-by}{\textsf{common difference formula}} \\
+  a_n=a_k+(n-k)d & \href{/math/0%20Core%20Courses/19%20Chapter5%20sequences%20Module2%20arithmetic%20sequences%20upper.html#_2-general-term}{\textsf{general term formula}} \\
+  S_n=na_1+\frac{n(n-1)}{2}d=\frac{d}{2}n^2+(a_1-\frac{d}{2})n & \href{/math/0%20Core%20Courses/19%20Chapter5%20sequences%20Module2%20arithmetic%20sequences%20upper.html#_3-sum-of-the-first-terms}{\textsf{arithmetic series sum formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+| Platform    | Course                                                                                            | Coursewares                                                       |
+|-------------|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| YouTube     | [Watch](https://www.youtube.com/watch?v=TXfq-SIghJE&list=PLm0MFkgiW1JgKq1kku2WxmrElFbDl7p_s)      | [Courseware](../../public/math/Core%20Courses/pdf/Courseware.pdf) |
+| Dailymotion | [Watch](https://www.dailymotion.com/video/x9glvs4?playlist=x9h6d2)                                |                                                                   |
+| Rumble      | [Watch](https://rumble.com/v6s95c7-20-chapter5-sequences-module2-arithmetic-sequences-upper.html) |                                                                   |
