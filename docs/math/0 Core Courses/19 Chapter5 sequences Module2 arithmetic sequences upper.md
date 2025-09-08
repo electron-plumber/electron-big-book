@@ -26,7 +26,7 @@ lang: en-US
 ::: wrap
 - $a_n=a_1+(n-1)d=a_k+(n-k)d=nd+a_1-d$
 :::
-- ###### Note: if __two terms are known__, __the common ratio__ can be found by $\boldsymbol{d=\frac{a_n-a_m}{n-m}}$.
+- ###### Note: if __two terms are known__, __the common difference__ can be found by $\boldsymbol{d=\frac{a_n-a_m}{n-m}}$.
 - Special case: $\boldsymbol{d=0}$, $a_n$ is __a constant__.
 - ###### $\boldsymbol{a_n=nd+a_1-d}$ can be regarded as __a linear function $\href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#slope-intercept-form}{\boldsymbol{y=kx+b}}$__.  
   ::: wrap  
@@ -106,7 +106,8 @@ lang: en-US
 ::: wrap  
 - $S_n=\frac{a_1+a_n}{2}n=na_1+\frac{n(n-1)}{2}d=\frac{d}{2}n^2+(a_1-\frac{d}{2})n$  
 :::
-- Special case: $\boldsymbol{d=0}$, $S_n=na_1$ is __a linear function__.
+- ###### Note: If the sums of the first $n$ and $m$ terms are known, then the common difference $d$ of the arithmetic sequence can be found using $\boldsymbol{\frac{S_n}{n}-\frac{S_m}{m}=\frac{n-m}{2}d}$.
+- ###### Special case: $\boldsymbol{d=0}$, $S_n=na_1$ is __a linear function__.
 - ###### $S_n=\frac{d}{2}n^2+(a_1-\frac{d}{2})n$ can be regarded as __a quadratic function $\boldsymbol{y=ax^2+bx+c}$__.  
   ::: wrap  
   $
@@ -155,7 +156,17 @@ lang: en-US
   \end{array}
   $  
   :::
-
+- Derivation of $\boldsymbol{\frac{S_n}{n}-\frac{S_m}{m}=\frac{n-m}{2}d}$  
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  S_n=na_1+\frac{n(n-1)}{2}d \\
+  \frac{S_n}{n}=a_1+\frac{n-1}{2}d \\
+  \frac{S_m}{m}=a_1+\frac{m-1}{2}d \\
+  \frac{S_n}{n}-\frac{S_m}{m}=\frac{n-m}{2}d \\
+  \end{array}
+  $  
+  :::
 
 ## 4.Important Properties
 
@@ -167,7 +178,7 @@ lang: en-US
   a_3+a_9=a_5+a_7 \\
   a_3+2d=a_5 \\
   a_7+2d=a_9 \\
-  a_3·a_9=a_5·a_7=2a_6 \\
+  a_3+a_9=a_5+a_7=2a_6 \\
   \end{array}
   $  
   :::
@@ -193,7 +204,7 @@ lang: en-US
   \begin{array}{ll}
   S_n=\frac{a_1+a_n}{2}n \\
   \frac{S_{2k-1}}{T_{2k-1}}=\frac{\frac{a_1+a_{2k-1}}{2}(2k-1)}{\frac{b_1+b_{2k-1}}{2}(2k-1)} \\
-  a_1+a_{2k-1}=2a_k & \href{/math/0%20Core%20Courses/19%20Chapter5%20sequences%20Module2%20arithmetic%20sequences%20upper.html#if-then}{\textsf{arithmetic sequence sum property}} \\
+  a_1+a_{2k-1}=2a_k & \href{/math/0%20Core%20Courses/19%20Chapter5%20sequences%20Module2%20arithmetic%20sequences%20upper.html#if-then}{\textsf{arithmetic sequence terms property}} \\
   \frac{\frac{\bcancel{2}a_k}{\bcancel{2}}\bcancel{(2k-1)}}{\frac{\bcancel{2}b_k}{\bcancel{2}}\bcancel{(2k-1)}}=\frac{a_k}{b_k} \\
   \end{array}
   $  
@@ -442,7 +453,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  a_m+a_n=a_k+a_t & \href{/math/0%20Core%20Courses/19%20Chapter5%20sequences%20Module2%20arithmetic%20sequences%20upper.html#if-then}{\textsf{arithmetic sequence sum property}} \\
+  a_m+a_n=a_k+a_t & \href{/math/0%20Core%20Courses/19%20Chapter5%20sequences%20Module2%20arithmetic%20sequences%20upper.html#if-then}{\textsf{arithmetic sequence terms property}} \\
   \end{array}
   >$
 
@@ -496,7 +507,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  a_m+a_n=a_k+a_t & \href{/math/0%20Core%20Courses/19%20Chapter5%20sequences%20Module2%20arithmetic%20sequences%20upper.html#if-then}{\textsf{arithmetic sequence sum property}} \\
+  a_m+a_n=a_k+a_t & \href{/math/0%20Core%20Courses/19%20Chapter5%20sequences%20Module2%20arithmetic%20sequences%20upper.html#if-then}{\textsf{arithmetic sequence terms property}} \\
   \end{array}
   >$
 
@@ -900,7 +911,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  a_m+a_n=a_k+a_t & \href{/math/0%20Core%20Courses/19%20Chapter5%20sequences%20Module2%20arithmetic%20sequences%20upper.html#if-then}{\textsf{arithmetic sequence sum property}} \\
+  a_m+a_n=a_k+a_t & \href{/math/0%20Core%20Courses/19%20Chapter5%20sequences%20Module2%20arithmetic%20sequences%20upper.html#if-then}{\textsf{arithmetic sequence terms property}} \\
   S_n=\frac{a_1+a_n}{2}n & \href{/math/0%20Core%20Courses/19%20Chapter5%20sequences%20Module2%20arithmetic%20sequences%20upper.html#_3-sum-of-the-first-terms}{\textsf{arithmetic series sum formula}} \\
   \end{array}
   >$
