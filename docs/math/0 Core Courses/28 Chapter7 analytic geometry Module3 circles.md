@@ -335,9 +335,9 @@ P(2m, m) \\
 5m^2-6m+1\Rightarrow(1m-1)(5m-1)=0 \\
 m=1 \lor m=\frac{1}{5} \\
 \textsf{parabola analysis} \\
-5>0:\, \textsf{opens upward} \\
-\textsf{roots}:\, \textsf{intersects x-axis at }x=\frac{1}{5}\textsf{ and }x=1 \\
-\textsf{range}:\, f(x)<0\textsf{ between the two roots} \\
+5>0\textsf{:}\, \textsf{opens upward} \\
+\textsf{roots}\textsf{:}\, \textsf{intersects x-axis at }x=\frac{1}{5}\textsf{ and }x=1 \\
+\textsf{range}\textsf{:}\, f(x)<0\textsf{ between the two roots} \\
 f(x)<0 \longrightarrow \frac{1}{5} < m < 1 \\
 \end{array}
 $  
@@ -632,9 +632,9 @@ $
   a^2+2a-3\Rightarrow(a+3)(a-1)=0 \\
   a=-3 \lor a=1 \\
   \textsf{parabola analysis} \\
-  1>0:\, \textsf{opens upward} \\
-  \textsf{roots}:\, \textsf{intersects x-axis at }x=-3\textsf{ and }x=1 \\
-  \textsf{range}:\, f(x)\le0\textsf{ between the two roots} \\
+  1>0\textsf{:}\, \textsf{opens upward} \\
+  \textsf{roots}\textsf{:}\, \textsf{intersects x-axis at }x=-3\textsf{ and }x=1 \\
+  \textsf{range}\textsf{:}\, f(x)\le0\textsf{ between the two roots} \\
   f(x)\le0 \longrightarrow -3 \le a \le 1 \\
   \end{array}
   $   

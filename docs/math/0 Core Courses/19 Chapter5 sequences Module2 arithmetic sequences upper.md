@@ -12,16 +12,20 @@ lang: en-US
   then the sequence $\boldsymbol{\left\{ a_n \right\}}$ is called __an arithmetic sequence__,
   and $\boldsymbol{d}$ is called __the common difference__.
 - Essence: obtaining __the constant difference__ through __the recurrence relation__.  
+  ::: wrap  
   $
   \begin{array}{ll}
   \left\{ a_n \right\}=\left\{ 1,4,7,10,13,\cdots \right\} \\
   a_2-a_1=4-1=3 & a_{n+1}-a_n=d\\
   \end{array}
-  $
+  $  
+  :::
 
 
 ## 2.General Term
+::: wrap
 - $a_n=a_1+(n-1)d=a_k+(n-k)d=nd+a_1-d$
+:::
 - ###### Note: if __two terms are known__, __the common ratio__ can be found by $\boldsymbol{d=\frac{a_n-a_m}{n-m}}$.
 - Special case: $\boldsymbol{d=0}$, $a_n$ is __a constant__.
 - ###### $\boldsymbol{a_n=nd+a_1-d}$ can be regarded as __a linear function $\href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#slope-intercept-form}{\boldsymbol{y=kx+b}}$__.  
@@ -247,8 +251,10 @@ $
 
 
 ## 6.Focus 2
-__The general term of an arithmetic sequence__
+__The general term of an arithmetic sequence__  
+::: wrap
 - $a_n=a_1+(n-1)d=\boldsymbol{a_k+(n-k)d}=nd+a_1-d$
+:::
 
 
 ### $\fbox{10}\:$How many of the following can serve as the general term of an arithmetic sequence $\small \mathpunct{?}$.
@@ -759,6 +765,9 @@ S_n=\frac{-3}{2}n^2+(18-\frac{-3}{2})n=54 \\
 n^2-13n+36=0 \\
 (n-4)(n-9)=0 \\
 n=4 \lor 9 \\
+\textsf{parabola analysis} \\
+-3>0\textsf{:}\, \textsf{opens downward} \\
+c=0\textsf{:}\, \textsf{passes through origin }(0, 0) \\
 \end{array}
 $  
 :::
@@ -777,6 +786,122 @@ $
   d=\frac{a_n-a_m}{n-m} & \href{/math/0%20Core%20Courses/19%20Chapter5%20sequences%20Module2%20arithmetic%20sequences%20upper.html#note-if-two-terms-are-known-the-common-ratio-can-be-found-by}{\textsf{common difference formula}} \\
   a_n=a_k+(n-k)d & \href{/math/0%20Core%20Courses/19%20Chapter5%20sequences%20Module2%20arithmetic%20sequences%20upper.html#_2-general-term}{\textsf{general term formula}} \\
   S_n=na_1+\frac{n(n-1)}{2}d=\frac{d}{2}n^2+(a_1-\frac{d}{2})n & \href{/math/0%20Core%20Courses/19%20Chapter5%20sequences%20Module2%20arithmetic%20sequences%20upper.html#_3-sum-of-the-first-terms}{\textsf{arithmetic series sum formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+### $\fbox{19}\:$In the arithmetic sequence $\small \left\{ a_n \right\}$, let $\small S_n$ denote the sum of the first $\small n$ terms. If $\small a_1=13$ and $\small S_3=S_{11}$, then what is the maximum value of $\small S_n \,\mathpunct{?}$.
+::: wrap  
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 42 &
+\textsf{(B)} \: 49 &
+\textsf{(C)} \: 59 &
+\textsf{(D)} \: 133 &
+\textsf{(E)} \: \textsf{none} & \\
+\end{array}
+$  
+:::
+#### Solution
+- Show known conditions  
+  ![Question arithmetic sequences figure Q-19 solve-1.svg](../../public/math/Core%20Courses/Question%20arithmetic%20sequences%20figure%20Q-19%20solve-1.svg)  
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  S_n=\frac{d}{2}n^2+(a_1-\frac{d}{2})n \\
+  \textsf{parabola analysis} \\
+  S_n=\textsf{maximum:}\, \textsf{opens downward} \\
+  c=0\textsf{:}\, \textsf{passes through origin }(0, 0) \\
+  \textsf{axis of symmetry:}\, -\frac{a_1-\frac{d}{2}}{2\frac{d}{2}}=\frac{-a_1+\frac{d}{2}}{d}=\frac{-a_1}{d}+\frac{\frac{d}{2}}{d}=\frac{1}{2}-\frac{a_1}{d} \\
+  S_3=S_{11} \Longrightarrow \frac{1}{2}-\frac{a_1}{d}=\frac{3+11}{2}=7 \\
+  \frac{1}{2}-\frac{13}{d}=7 & \textsf{substitute }a_1=13 \\
+  -\frac{13}{d}=7-\frac{1}{2} \\
+  -\frac{13}{d}=\frac{13}{2} \\
+  -13\cdot2=13d \\
+  d=-\frac{26}{13}=-2 \\
+  S_7=7\cdot13+\frac{7(7-1)}{2}(-2) \\
+  91+\frac{42}{2}(-2) \\
+  S_7=91-42=49 \\
+  3+11=0+14 \Longrightarrow S_{14}=0 \
+  \end{array}
+  $  
+  :::
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(B)}$  
+  > According to the Solution, get $S_7=49$, so choose $B$.
+
+  :::
+- Formulas used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  S_n=na_1+\frac{n(n-1)}{2}d=\frac{d}{2}n^2+(a_1-\frac{d}{2})n & \href{/math/0%20Core%20Courses/19%20Chapter5%20sequences%20Module2%20arithmetic%20sequences%20upper.html#_3-sum-of-the-first-terms}{\textsf{arithmetic series sum formula}} \\
+  x=-\frac{b}{2a} & \textsf{axis of symmetry formula} \\
+  \end{array}
+  >$
+
+  :::
+- Symmetry properties of arithmetic series sums  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  S_m=S_k & \textsf{(} d\ne0 \textsf{)} \\
+  ① \;\, \frac{m+k}{2}=\frac{1}{2}-\frac{a_1}{d} & \textsf{axis of symmetry formula} \\
+  ② \;\, S_{m+k}=0 \\
+  \end{array}
+  >$
+
+  :::
+---
+
+### $\fbox{20}\:$In the arithmetic sequence $\small \left\{ a_n \right\}$, $\small a_5<0$, $\small a_6>0$, and $\small a_6>|a_5|$. Let $\small S_n$ denote the sum of the first $\small n$ terms. Then:
+::: wrap  
+$
+\begin{array}{lllll}
+\textsf{(A)} \: S_1,S_2,S_3\textsf{ are all less than }0\textsf{, while }S_4,S_5,\cdots\textsf{ are all greater than }0 & \\
+\textsf{(B)} \: S_1,S_2,\cdots,S_5\textsf{ are all less than }0\textsf{, while }S_6,S_7,\cdots\textsf{ are all greater than }0 & \\
+\textsf{(C)} \: S_1,S_2,\cdots,S_9\textsf{ are all less than }0\textsf{, while }S_{10},S_{11},\cdots\textsf{ are all greater than }0 & \\
+\textsf{(D)} \: S_1,S_2,\cdots,S_{10}\textsf{ are all less than }0\textsf{, while }S_{11},S_{12},\cdots\textsf{ are all greater than }0 & \\
+\textsf{(E)} \: \textsf{none} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+a_5<0 \quad a_6>0 \\
+a_6>|a_5| \Longrightarrow a_5+a_6>0 \\
+a_5+a_6=a_1+a_{10} >0 \\
+a_1+a_{10} \Longrightarrow S_n=\frac{a_1+a_n}{2}n \\
+S_{10}=\frac{a_1+a_{10}}{2}10>0 \\
+S_9=\frac{a_1+a_9}{2}9=9a_5<0 & a_5<0 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(C)}$  
+  > According to the Solution, get
+  >$
+  \begin{cases}
+  S_9<0 \\
+  S_{10}>0 \\
+  \end{cases} \\  
+  >$, so choose $C$.
+
+  :::
+- Formulas used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  a_m+a_n=a_k+a_t & \href{/math/0%20Core%20Courses/19%20Chapter5%20sequences%20Module2%20arithmetic%20sequences%20upper.html#if-then}{\textsf{arithmetic sequence sum property}} \\
+  S_n=\frac{a_1+a_n}{2}n & \href{/math/0%20Core%20Courses/19%20Chapter5%20sequences%20Module2%20arithmetic%20sequences%20upper.html#_3-sum-of-the-first-terms}{\textsf{arithmetic series sum formula}} \\
   \end{array}
   >$
 
