@@ -195,7 +195,17 @@ lang: en-US
   \end{array}
   $  
   :::
-
+- __Property derivation__ using $\frac{S_n}{n}-\frac{S_m}{m}=\frac{n-m}{2}d$  
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  \frac{S_n}{n}, \frac{S_{2n}}{2n}, \frac{S_{3n}}{3n}, \cdots \\
+  \textsf{verify common difference} \\
+  \frac{S_{2n}}{2n}-\frac{S_n}{n}=\frac{n}{2}d \\
+  \frac{S_{3n}}{3n}-\frac{S_{2n}}{2n}=\frac{n}{2}d \\
+  \end{array}
+  $  
+  :::
 
 ### $\textcolor{#1E3A5F}{\fbox{3}}\:$For two arithmetic sequences $\small \left\{ a_n \right\}$ and $\small \left\{ b_n \right\}$, if their first $\small n$-term sums are denoted by $\small S_n$ and $\small T_n$ respectively, then $\small \frac{a_k}{b_k}=\frac{S_{2k-1}}{T_{2k-1}}$
 - __Property derivation__  

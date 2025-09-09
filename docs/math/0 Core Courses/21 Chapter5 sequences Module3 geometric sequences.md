@@ -687,7 +687,7 @@ $
 
 
 ## 8.Focus 4
-__The properties of terms in a geometric sequence__  
+__The property of terms in a geometric sequence__  
 - If $\boldsymbol{k \in\mathbb{Z_+}}$ and $\boldsymbol{m+n=k+t}$, then $\boldsymbol{a_m \cdot a_n=a_k \cdot a_t}$.
 
 
