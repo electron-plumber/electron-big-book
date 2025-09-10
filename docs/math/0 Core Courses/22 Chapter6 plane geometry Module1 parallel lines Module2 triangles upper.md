@@ -672,7 +672,7 @@ $
 $  
 :::
 #### Solution
-- $\textcolor{#228B22}{\fbox{1}}\:$Solve using the triangle side relationships  
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve by using the triangle side relationships  
   ![Question triangles figure Q-11 solve-1.svg](../../public/math/Core%20Courses/Question%20triangles%20figure%20Q-11%20solve-1.svg)  
   ::: wrap  
   $
@@ -685,7 +685,7 @@ $
   \end{array}
   $  
   :::  
-- $\textcolor{#228B22}{\fbox{2}}\:$Solve using the triangle median inequality  
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve by using the triangle median inequality  
   ::: wrap  
   $
   \begin{array}{ll}

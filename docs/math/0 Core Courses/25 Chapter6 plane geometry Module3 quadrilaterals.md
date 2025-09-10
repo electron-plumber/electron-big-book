@@ -501,7 +501,7 @@ $
   \begin{array}{ll}
   c^2=a^2+b^2 \Rightarrow c=\sqrt{a^2+b^2} & \textsf{pythagorean theorem} \\
   S=ab & \href{/math/0%20Core%20Courses/25%20Chapter6%20plane%20geometry%20Module3%20quadrilaterals.html#_2-rectangle}{\textsf{rectangle area formula}} \\
-  (a-b)^2=a^2-2ab+b^2 & \textsf{perfect square formula} \\
+  (a-b)^2=a^2-2ab+b^2 & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_1-six-fundamental-formulas}{\textsf{perfect square formula}} \\
   2ab=(a+b)^2-(a^2+b^2) & \textsf{rectangle area identity} \\
   \end{array}
   >$

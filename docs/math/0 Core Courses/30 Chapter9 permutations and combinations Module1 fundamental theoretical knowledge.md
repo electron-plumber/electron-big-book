@@ -154,7 +154,7 @@ $
 $  
 :::
 #### Solution
-- $\textcolor{#228B22}{\fbox{1}}\:$Solve using enumeration  
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve by using enumeration  
   ::: wrap  
   $
   \begin{array}{ll}
@@ -168,7 +168,7 @@ $
   \end{array}
   $   
   :::  
-- $\textcolor{#228B22}{\fbox{2}}\:$Solve using the permutation formula    
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve by using the permutation formula    
   ::: wrap  
   $
   \begin{array}{ll}
@@ -544,7 +544,7 @@ $
   \end{array}
   $   
   :::  
-- $\textcolor{#228B22}{\fbox{2}}\:$Solve using the symmetric property of combinations: $C_n^m=C_n^{n-m}$    
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve by using the symmetric property of combinations: $C_n^m=C_n^{n-m}$    
   ::: wrap  
   $
   \begin{array}{ll}
@@ -621,7 +621,7 @@ $
 $  
 :::
 #### Solution 
-- $\textcolor{#228B22}{\fbox{1}}\:$Solve using enumeration  
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve by using enumeration  
   ::: wrap  
   $
   \begin{array}{ll}
@@ -634,7 +634,7 @@ $
   \end{array}
   $   
   :::
-- $\textcolor{#228B22}{\fbox{2}}\:$Solve using the permutation formula  
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve by using the permutation formula  
   ::: wrap  
   $
   \begin{array}{ll}
@@ -678,7 +678,7 @@ $
 $  
 :::
 #### Solution
-- $\textcolor{#228B22}{\fbox{1}}\:$Solve using enumeration  
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve by using enumeration  
   ::: wrap  
   $
   \begin{array}{ll}
@@ -691,7 +691,7 @@ $
   \end{array}
   $   
   :::  
-- $\textcolor{#228B22}{\fbox{2}}\:$Solve using the combination formula
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve by using the combination formula
   ::: wrap  
   $
   \begin{array}{ll}

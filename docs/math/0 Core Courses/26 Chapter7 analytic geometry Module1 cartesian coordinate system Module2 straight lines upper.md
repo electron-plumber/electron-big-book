@@ -150,7 +150,7 @@ $
   \begin{cases}
   (a+b)^2=a^2+2ab+b^2 \\
   (a-b)^2=a^2-2ab+b^2
-  \end{cases} & \textsf{perfect square formula} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_1-six-fundamental-formulas}{\textsf{perfect square formula}} \\
   \end{array}
   >$
 
@@ -694,7 +694,7 @@ $
 $  
 :::
 #### Solution   
-- $\textcolor{#228B22}{\fbox{1}}\:$Solve using the point-slope form     
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve by using the point-slope form     
   ::: wrap  
   $
   \begin{array}{ll}
@@ -707,7 +707,7 @@ $
   \end{array}
   $  
   :::    
-- $\textcolor{#228B22}{\fbox{2}}\:$Solve using the three-point collinearity method            
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve by using the three-point collinearity method            
   ::: wrap  
   $
   \begin{array}{ll}

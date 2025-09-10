@@ -91,7 +91,7 @@ $
   \end{array}
   $   
   :::    
-- $\textcolor{#228B22}{\fbox{2}}\:$Solve using the condition for the general form of a circle   
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve by using the condition for the general form of a circle   
   ::: wrap   
   $
   \begin{array}{ll}
@@ -476,7 +476,7 @@ $
   \begin{cases}
   (a+b)^2=a^2+2ab+b^2 \\
   (a-b)^2=a^2-2ab+b^2
-  \end{cases} & \textsf{perfect square formula} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_1-six-fundamental-formulas}{\textsf{perfect square formula}} \\
   30^\circ=\frac{\sqrt{3}}{3} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_3-common-inclination-angles-and-slope}{\textsf{inclination angle–slope}} \\
   1:\sqrt{3}:2 & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#in-a-right-triangle-the-ratio-of-the-three-sides-is}{\textsf{30-60-90 right triangle}} \\
   (x-x_0)^2+(y-y_0)^2=r^2 & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#standard-form}{\textsf{standard form of a circle}} \\
@@ -662,7 +662,7 @@ $
   \begin{cases}
   (a+b)^2=a^2+2ab+b^2 \\
   (a-b)^2=a^2-2ab+b^2
-  \end{cases} & \textsf{perfect square formula} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_1-six-fundamental-formulas}{\textsf{perfect square formula}} \\
   \end{array}
   >$
 

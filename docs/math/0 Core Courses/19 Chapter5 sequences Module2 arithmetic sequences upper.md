@@ -319,7 +319,7 @@ $
   \begin{array}{ll}
   a_n=d\cdot n+b & \href{/math/0%20Core%20Courses/19%20Chapter5%20sequences%20Module2%20arithmetic%20sequences%20upper.html#can-be-regarded-as-a-linear-function}{\textsf{general term as a linear function}} \\
   a_n=a_1+(n-1)d=a_k+(n-k)d=nd+a_1-d & \href{/math/0%20Core%20Courses/19%20Chapter5%20sequences%20Module2%20arithmetic%20sequences%20upper.html#_2-general-term}{\textsf{general term formula}} \\
-  a^2-b^2=(a-b)(a+b) & \textsf{difference of squares formula} \\
+  a^2-b^2=(a-b)(a+b) & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_1-six-fundamental-formulas}{\textsf{difference of squares formula}} \\
   \end{array}
   >$
 
@@ -420,7 +420,7 @@ $
   a+c=2b & \href{/math/0%20Core%20Courses/19%20Chapter5%20sequences%20Module2%20arithmetic%20sequences%20upper.html#_5-focus-1}{\textsf{arithmetic mean}} \\
   \log_b (a \cdot c) = \log_b a + \log_b c & \textsf{logarithm product rule} \\
   \log_b (a^k) = k \cdot \log_b a & \textsf{logarithm power rule} \\
-  (a-b)^2=a^2-2ab+b^2 & \textsf{perfect square formula} \\
+  (a-b)^2=a^2-2ab+b^2 & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_1-six-fundamental-formulas}{\textsf{perfect square formula}} \\
   b^c=a \longrightarrow \log_{b}a=c & \href{https://en.wikipedia.org/wiki/Logarithm}{\textsf{definition of logarithm}} \\
   \end{array}
   >$
@@ -611,7 +611,7 @@ $
   a_1=S_1 & n=1 \\
   S_n-S_{n-1} & n \ge 2 \\
   \end{cases} & \href{/math/0%20Core%20Courses/18%20Chapter5%20sequences%20Module1%20definition%20of%20sequences.html#given-find}{S_n\textsf{ to general term }a_n\textsf{ formula}} \\
-  (a-b)^2=a^2-2ab+b^2 & \textsf{perfect square formula} \\
+  (a-b)^2=a^2-2ab+b^2 & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_1-six-fundamental-formulas}{\textsf{perfect square formula}} \\
   a_n=
   \begin{cases}
   S_1=a+b+c & n=1 \\

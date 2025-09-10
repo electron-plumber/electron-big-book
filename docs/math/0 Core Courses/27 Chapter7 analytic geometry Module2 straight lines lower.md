@@ -243,7 +243,7 @@ $
   \end{array}
   $  
   :::  
-- $\textcolor{#228B22}{\fbox{2}}\:$Solve using slopes  
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve by using slopes  
   ::: wrap  
   $
   \begin{array}{ll}

@@ -122,7 +122,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  (a-b)^2=a^2-2ab+b^2 & \textsf{perfect square formula} \\
+  (a-b)^2=a^2-2ab+b^2 & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_1-six-fundamental-formulas}{\textsf{perfect square formula}} \\
   \end{array}
   >$
 
@@ -212,8 +212,8 @@ $
   \begin{cases}
   (a+b)^2=a^2+2ab+b^2 \\
   (a-b)^2=a^2-2ab+b^2
-  \end{cases} & \textsf{perfect square formula} \\
-  a^2-b^2=(a-b)(a+b) & \textsf{difference of squares formula} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_1-six-fundamental-formulas}{\textsf{perfect square formula}} \\
+  a^2-b^2=(a-b)(a+b) & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_1-six-fundamental-formulas}{\textsf{difference of squares formula}} \\
   a+b \ge 2\sqrt{ab} & \textsf{arithmetic mean-geometric mean inequality} \\
   \end{array}
   >$
