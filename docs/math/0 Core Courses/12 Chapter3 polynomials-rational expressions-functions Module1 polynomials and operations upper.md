@@ -280,10 +280,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \begin{cases}
-  x^2+\frac{1}{x^2}=(x\pm\frac{1}{x})^2\mp2 \\
-  (a+b)^2-(a-b)^2=4ab \\
-  \end{cases} & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_3-focus-2}{\textsf{perfect square formulas for two terms}} \\
+  x^2+\frac{1}{x^2}=(x\pm\frac{1}{x})^2\mp2 & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_3-focus-2}{\textsf{reciprocal form of two-term perfect square formula}} \\
+  (a+b)^2-(a-b)^2=4ab & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_3-focus-2}{\textsf{perfect square formula for two terms}} \\
   a^3\pm b^3=(a\pm b)(a^2\mp ab+b^2) & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_1-six-fundamental-formulas}{\textsf{sum and difference of cubes formula}} \\
   |a|=\sqrt{a^2} & \textsf{definition of absolute value} \\
   \end{array}
@@ -380,10 +378,8 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  \begin{cases}
-  x^2+\frac{1}{x^2}=(x\pm\frac{1}{x})^2\mp2 \\
-  (a+b)^2-(a-b)^2=4ab \\
-  \end{cases} & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_3-focus-2}{\textsf{perfect square formulas for two terms}} \\
+  x^2+\frac{1}{x^2}=(x\pm\frac{1}{x})^2\mp2 & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_3-focus-2}{\textsf{reciprocal form of two-term perfect square formula}} \\
+  (a+b)^2-(a-b)^2=4ab & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_3-focus-2}{\textsf{perfect square formula for two terms}} \\
   a^3\pm b^3=(a\pm b)(a^2\mp ab+b^2) & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_1-six-fundamental-formulas}{\textsf{sum and difference of cubes formula}} \\
   |a|=\sqrt{a^2} & \textsf{definition of absolute value} \\
   \end{array}
@@ -438,7 +434,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  x^2+\frac{1}{x^2}=(x\pm\frac{1}{x})^2\mp2 & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_3-focus-2}{\textsf{perfect square formula for two terms}} \\
+  x^2+\frac{1}{x^2}=(x\pm\frac{1}{x})^2\mp2 & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_3-focus-2}{\textsf{reciprocal form of two-term perfect square formula}} \\
   \end{array}
   >$
 
@@ -572,6 +568,105 @@ $
   (a+b+c)^2=a^2+b^2+c^2+2ab+2ac+2bc & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_1-six-fundamental-formulas}{\textsf{perfect square formula for three terms}} \\
   (a\pm b)^2=a^2\pm2ab+b^2 & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_1-six-fundamental-formulas}{\textsf{perfect square formula}} \\
   (a+b)^2+(a-b)^2=2a^2+2b^2 & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_3-focus-2}{\textsf{perfect square formula for two terms}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+### $\fbox{9}\:$If real numbers $\small a,b,c$ satisfy $\small a+b+c=1$ and $\small \frac{1}{b+2}+\frac{1}{b+3}+\frac{1}{c+4}=0$, then the algebraic expression $(a+2)^2+(b+3)^2+(c+4)^2=\,\mathpunct{?}$.
+::: wrap  
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 10 &
+\textsf{(B)} \: 50 &
+\textsf{(C)} \: 80 &
+\textsf{(D)} \: 100 &
+\textsf{(E)} \: 200 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+a^2+b^2+c^2=(a+b+c)^2 \\
+(a+2)^2+(b+3)^2+(c+4)^2=(a+2+b+3+c+4)^2 \\
+a+b+c=1 \\
+(1+2+3+4)^2=10^2=100 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(D)}$  
+  > According to the Solution, get $(a+2)^2+(b+3)^2+(c+4)^2=100$, so choose $D$. 
+
+  :::
+- Formulas used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  a^2+b^2+c^2=(a+b+c)^2 & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_4-focus-3}{\textsf{reciprocal form of three-term perfect square formula}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+### $\fbox{10}\:$If real numbers $\small a,b,c$ satisfy $\small a^2+b^2+c^2=9$, then what is the maximum value of the algebraic expression $(a-b)^2+(b-c)^2+(c-a)^2\,\mathpunct{?}$.
+::: wrap  
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 21 &
+\textsf{(B)} \: 27 &
+\textsf{(C)} \: 29 &
+\textsf{(D)} \: 32 &
+\textsf{(E)} \: 39 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+a^2-2ab+b^2+b^2-2bc+c^2+c^2-2ac+a^2 \\
+2(a^2+b^2+c^2)-(2ab+2bc+2ac) \\
+-(2ab+2bc+2ac)=(a^2+b^2+c^2)-(a+b+c)^2 \\
+3(a^2+b^2+c^2)-(a+b+c)^2 \\
+3\cdot9-(a+b+c)^2 \\
+27-(a+b+c)^2 \Longrightarrow \le27 \\
+a+b+c=0 \Longrightarrow \textsf{maximum}=27 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(B)}$  
+  > According to the Solution, get $\textsf{maximum}=27$, so choose $B$. 
+
+  :::
+- Formulas used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  (a\pm b)^2=a^2\pm2ab+b^2 & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_1-six-fundamental-formulas}{\textsf{perfect square formula}} \\
+  a^2+b^2+c^2=(a+b+c)^2-2(ab+bc+ac) & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_4-focus-3}{\textsf{perfect square formula for three terms}} \\
+  \end{array}
+  >$
+
+  :::
+- Using non-negativity to find the extremum  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  \textsf{expression}=
+  \begin{cases}
+  \textsf{constant}-\textsf{non-negative term}\le\textsf{constant} & \textsf{maximum} \\
+  \textsf{constant}+\textsf{non-negative term}\ge\textsf{constant} & \textsf{minimum} \\
+  \end{cases}
   \end{array}
   >$
 
