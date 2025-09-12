@@ -217,10 +217,10 @@ $
 
   :::
 - Additionally, if the problem is an isosceles right triangle  
-  ::: wrap  
-  > - [isosceles right triangle](/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#_15-isosceles-right-triangle): $AC=BC=\sqrt{2}AB \implies AB=\sqrt{2}AC=\sqrt{2}BC$            
+  ::: wrap   
   >$
   \begin{array}{ll}
+  \href{/math/0%20Core%20Courses/24%20Chapter6%20plane%20geometry%20Module2%20triangles%20lower.html#_15-isosceles-right-triangle}{\textsf{isosceles right triangle: }}AC=BC=\sqrt{2}AB \implies AB=\sqrt{2}AC=\sqrt{2}BC \\
   \textsf{let }C=(x, y) \\
   \sqrt{3^2+(3\sqrt{3})^2}=\sqrt{2}\times\sqrt{(x-2)^2+y^2}=\sqrt{2}\times\sqrt{(x-5)^2+(y-3\sqrt{3})^2} \\
   \textsf{after that, directly substitute the options}\\
