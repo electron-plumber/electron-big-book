@@ -394,7 +394,7 @@ $
   \end{array}
   $   
   :::
-- $\textcolor{#228B22}{\fbox{3}}\:$Solve by factoring $a^3+b^3+c^3-3abc$ (for the case with unknown conditions)  
+- $\textcolor{#228B22}{\fbox{3}}\:$Solve by factoring $a^3+b^3+c^3-3abc$  
   ::: wrap  
   $
   \begin{array}{ll}
@@ -407,6 +407,7 @@ $
   (a+b+c)[(a+b)^2-ac-bc+c^2-3ab] \\
   (a+b+c)(a^2+2ab+b^2-ac-bc+c^2-3ab) \\
   (a+b+c)(a^2+b^2+c^2-ab-ac-bc) \\
+  a^2+b^2+c^2-ab-ac-bc=\frac{1}{2}[(a-b)^2+(b-c)^2+(a-c)^2] \ge 0 \\
   a+b+c=0 \\
   0\cdot(a^2+b^2+c^2-ab-ac-bc)=0 \\
   \end{array}
