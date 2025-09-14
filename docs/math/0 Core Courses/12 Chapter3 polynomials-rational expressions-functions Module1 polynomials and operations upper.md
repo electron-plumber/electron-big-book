@@ -257,11 +257,11 @@ $
 ::: wrap   
 $
 \begin{array}{ll}
-(1)\; x^2+\frac{1}{x^2}=(x+\frac{1}{x})^2-2=3^2-2=7 \\
-(2)\; x^4+\frac{1}{x^4}=(x^2+\frac{1}{x^2})^2-2=7^2-2=47 \\
-(3)\; x^3+\frac{1}{x^3}=(x+\frac{1}{x})(x^2-1+\frac{1}{x^2})=(x+\frac{1}{x})[(x+\frac{1}{x})^2-3] \\
+\textcolor{#228B22}{\textsf{(1)}}\; x^2+\frac{1}{x^2}=(x+\frac{1}{x})^2-2=3^2-2=7 \\
+\textcolor{#228B22}{\textsf{(2)}}\; x^4+\frac{1}{x^4}=(x^2+\frac{1}{x^2})^2-2=7^2-2=47 \\
+\textcolor{#228B22}{\textsf{(3)}}\; x^3+\frac{1}{x^3}=(x+\frac{1}{x})(x^2-1+\frac{1}{x^2})=(x+\frac{1}{x})[(x+\frac{1}{x})^2-3] \\
 \hspace{0.7cm} (x+\frac{1}{x})^3-3(x+\frac{1}{x})=3^3-3\cdot3=27-9=18 \\
-(4)\; |x-\frac{1}{x}|=\sqrt{(x-\frac{1}{x})^2}=\sqrt{(x+\frac{1}{x})^2-4}=\sqrt{3^2-4}=\sqrt{5} \\
+\textcolor{#228B22}{\textsf{(4)}}\; |x-\frac{1}{x}|=\sqrt{(x-\frac{1}{x})^2}=\sqrt{(x+\frac{1}{x})^2-4}=\sqrt{3^2-4}=\sqrt{5} \\
 \end{array}
 $  
 :::
@@ -355,11 +355,11 @@ $
 ::: wrap   
 $
 \begin{array}{ll}
-(1)\; x^2+\frac{1}{x^2}=(x-\frac{1}{x})^2+2=3^2+2=11 \\
-(2)\; x^4+\frac{1}{x^4}=(x^2+\frac{1}{x^2})^2-2=11^2-2=119 \\
-(3)\; x^3-\frac{1}{x^3}=(x-\frac{1}{x})(x^2+1+\frac{1}{x^2})=(x-\frac{1}{x})[(x-\frac{1}{x})^2+3] \\
+\textcolor{#228B22}{\textsf{(1)}}\; x^2+\frac{1}{x^2}=(x-\frac{1}{x})^2+2=3^2+2=11 \\
+\textcolor{#228B22}{\textsf{(2)}}\; x^4+\frac{1}{x^4}=(x^2+\frac{1}{x^2})^2-2=11^2-2=119 \\
+\textcolor{#228B22}{\textsf{(3)}}\; x^3-\frac{1}{x^3}=(x-\frac{1}{x})(x^2+1+\frac{1}{x^2})=(x-\frac{1}{x})[(x-\frac{1}{x})^2+3] \\
 \hspace{0.7cm} (x-\frac{1}{x})^3+3(x-\frac{1}{x})=3^3+3\cdot3=27+9=36 \\
-(4)\; |x+\frac{1}{x}|=\sqrt{(x+\frac{1}{x})^2}=\sqrt{(x-\frac{1}{x})^2+4}=\sqrt{3^2+4}=\sqrt{13} \\
+\textcolor{#228B22}{\textsf{(4)}}\; |x+\frac{1}{x}|=\sqrt{(x+\frac{1}{x})^2}=\sqrt{(x-\frac{1}{x})^2+4}=\sqrt{3^2+4}=\sqrt{13} \\
 \end{array}
 $  
 :::

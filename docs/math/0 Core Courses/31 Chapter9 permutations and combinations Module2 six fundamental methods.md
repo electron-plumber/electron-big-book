@@ -1078,11 +1078,11 @@ $
   $
   \begin{array}{ll}
   \textsf{at least two teachers} \Longleftrightarrow \ge2 \\
-  \textcolor{#228B22}{\fbox{1}}\:\ge2 & \textsf{direct counting} \\
+  \textcolor{#228B22}{\scriptsize\fbox{1}}\:\ge2 & \textsf{direct counting} \\
   C_6^2\times9 + C_6^3\times2 + C_6^4\times1 + C_6^6 \\
   \frac{6\times5}{2\times1}\times9 + \frac{\bcancel{6}\times5\times4}{\bcancel{3}\times\bcancel{2}\times1}\times2 + \frac{\bcancel{6}\times5\times\bcancel{4}\times3}{\bcancel{4}\times\bcancel{3}\times\bcancel{2}\times1}\times1 + 1 \\
   15\times9 + 20\times2 + 15\times1 +1 = 191 \\
-  \textcolor{#228B22}{\fbox{2}}\:\lt2 & \textsf{complementary counting} \\
+  \textcolor{#228B22}{\scriptsize\fbox{1}}\:\lt2 & \textsf{complementary counting} \\
   6!-C_6^1\times44-265 \\
   720-(6\times44)-265=191 \\
   \end{array}

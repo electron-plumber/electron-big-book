@@ -127,7 +127,7 @@ $
 ::: wrap  
 $
 \begin{array}{ll}
-(1)\;
+\textcolor{#228B22}{\textsf{(1)}}\;
 \begin{cases}
 9.3\rightarrow1 \\
 9.4\rightarrow1 \\
@@ -135,13 +135,13 @@ $
 9.6\rightarrow2 \\
 9.7\rightarrow1 \\
 \end{cases} \\
-(2)\; [9.3,9.4,9.5,\boxed{9.5,9.5},9.6,9.6,9.7] & \textsf{asc} \\
-\frac{9.5+9.5}{2}=9.5 \\
-(3)\; [\bcancel{9.3},9.4,9.5,9.5,9.5,9.6,9.6,\bcancel{9.7}] \\
-\textsf{let }m=9.5 & \textsf{simplify mean calculation} \\
-[(9.4-m),(9.5-m),(9.5-m),(9.5-m),(9.6-m),(9.6-m)] \\
-[-0.1,0,0,0,0.1,0.1] \\
-\overline{x}=\frac{-0.1+0+0+0+0.1+0.1}{6}+9.5=0.016+9.5\approx9.52 \\
+\textcolor{#228B22}{\textsf{(2)}}\; [9.3,9.4,9.5,\boxed{9.5,9.5},9.6,9.6,9.7] & \textsf{asc} \\
+\hspace{0.7cm} \frac{9.5+9.5}{2}=9.5 \\
+\textcolor{#228B22}{\textsf{(3)}}\; [\bcancel{9.3},9.4,9.5,9.5,9.5,9.6,9.6,\bcancel{9.7}] \\
+\hspace{0.7cm} \textsf{let }m=9.5 & \textsf{simplify mean calculation} \\
+\hspace{0.7cm} [(9.4-m),(9.5-m),(9.5-m),(9.5-m),(9.6-m),(9.6-m)] \\
+\hspace{0.7cm} [-0.1,0,0,0,0.1,0.1] \\
+\hspace{0.7cm} \overline{x}=\frac{-0.1+0+0+0+0.1+0.1}{6}+9.5=0.016+9.5\approx9.52 \\
 \end{array}
 $  
 :::  

@@ -575,10 +575,10 @@ $
 ::: wrap  
 $
 \begin{array}{ll}
-(1)\;P_1=\frac{1}{3}\times(1-\frac{1}{4})+(1-\frac{1}{3})\times\frac{1}{4} \\
-\frac{1}{3}\times\frac{3}{4}+\frac{2}{3}\times\frac{1}{4}=\frac{3}{12}+\frac{2}{12}=\frac{5}{12} \\
-(2)\;P_2=1-(1-\frac{1}{3})\times(1-\frac{1}{4}) & \textsf{at least one success} \\
-1-\frac{2}{3}\times\frac{3}{4}=1-\frac{6}{12}=\frac{6}{12}=\frac{1}{2} \\
+\textcolor{#228B22}{\textsf{(1)}}\;P_1=\frac{1}{3}\times(1-\frac{1}{4})+(1-\frac{1}{3})\times\frac{1}{4} \\
+\hspace{0.7cm} \frac{1}{3}\times\frac{3}{4}+\frac{2}{3}\times\frac{1}{4}=\frac{3}{12}+\frac{2}{12}=\frac{5}{12} \\
+\textcolor{#228B22}{\textsf{(2)}}\;P_2=1-(1-\frac{1}{3})\times(1-\frac{1}{4}) & \textsf{at least one success} \\
+\hspace{0.7cm} 1-\frac{2}{3}\times\frac{3}{4}=1-\frac{6}{12}=\frac{6}{12}=\frac{1}{2} \\
 \end{array}
 $  
 :::  
@@ -671,15 +671,15 @@ $
 ::: wrap  
 $
 \begin{array}{ll}
-(1)\;P_1=1-(1-0.6)\times(1-0.6) \\
-1-0.4\times0.4=1-0.16=0.84 \\
-(2)\;P_2=1-(1-0.6)^n \ge 0.99 & \textsf{let }n\textsf{ number of aa guns required} \\
-1-0.4^n \ge 0.99 \\
--0.4^n \ge 0.99-1 \\
--0.4^n \ge -0.01 \\
-0.4^n \le 0.01 \\
-2^{10}=4^5=1024 \\
-0.4^5=0.01024 \gt 0.01 \Longrightarrow n\ge6
+\textcolor{#228B22}{\textsf{(1)}}\;P_1=1-(1-0.6)\times(1-0.6) \\
+\hspace{0.7cm} 1-0.4\times0.4=1-0.16=0.84 \\
+\textcolor{#228B22}{\textsf{(2)}}\;P_2=1-(1-0.6)^n \ge 0.99 & \textsf{let }n\textsf{ number of aa guns required} \\
+\hspace{0.7cm} 1-0.4^n \ge 0.99 \\
+\hspace{0.7cm} -0.4^n \ge 0.99-1 \\
+\hspace{0.7cm} -0.4^n \ge -0.01 \\
+\hspace{0.7cm} 0.4^n \le 0.01 \\
+\hspace{0.7cm} 2^{10}=4^5=1024 \\
+\hspace{0.7cm} 0.4^5=0.01024 \gt 0.01 \Longrightarrow n\ge6
 \end{array}
 $  
 :::  
