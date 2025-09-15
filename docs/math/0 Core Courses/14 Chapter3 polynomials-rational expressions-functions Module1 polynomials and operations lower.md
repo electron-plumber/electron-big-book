@@ -11,10 +11,10 @@ lang: en-US
 
 
 
-## 8.Addition and subtraction of polynomials
+## 8.Addition and Subtraction of Polynomials
 - The addition and subtraction of polynomials are relatively simple: __just combine like terms__.
 
-## 9.Multiplication of polynomials
+## 9.Multiplication of Polynomials
 - Polynomial multiplication can be done using __the distributive law__,
   meaning __each term of one polynomial__ must be __multiplied by each term of the other__,
   and then __like terms are combined__.
@@ -72,7 +72,9 @@ __The equality of polynomials__
   This __is a necessary condition__, but __not a sufficient condition__,
   for two polynomials to be equal.
 
+::: wrap  
 ### $\fbox{19}\:$Given real numbers $\small a,b,c$. If the polynomials $\small f(x)=-7x+4$ and $\small \operatorname{g}(x)=a(x-1)^2-b(x+2)+c(x^2+x-2)$ are equal, then find the value of $\small a+b+c$.
+:::  
 ::: wrap  
 $
 \begin{array}{lllll}
@@ -201,7 +203,9 @@ __The finding coefficients of a polynomial__
 - To find __the sum of coefficients of different terms__ in a polynomial,
   one can substitute __specific values for $\boldsymbol{x}$__, commonly $\boldsymbol{1}$,$\boldsymbol{-1}$, and $\boldsymbol{0}$.
 
+::: wrap  
 ### $\fbox{21}\:$Given that $\small (2x-1)^5=a_5x^5+a_4x^4+a_3x^3+a_2x^2+a_1x+a_0$ is an identity in $\small x$, find:
+:::  
 #### (1) $a_0+a_1+a_2+a_3+a_4+a_5=\,\mathpunct{?}$.
 ::: wrap  
 $
@@ -281,3 +285,80 @@ $
   :::
 ---
 
+## 14.Division of Polynomials
+- If __a polynomial $\boldsymbol{F(x)}$ is divided by a polynomial $\boldsymbol{f(x)}$__,
+  the quotient is denoted as $\boldsymbol{\operatorname{g}(x)}$ and the remainder as $\boldsymbol{r(x)}$.
+  Then $\boldsymbol{F(x)=f(x)\operatorname{g}(x)+r(x)}$,
+  where __the degree of $\boldsymbol{r(x)}$ must be less than the degree of $\boldsymbol{f(x)}$__.
+  - Derivation of polynomial division  
+    ::: wrap  
+    $
+    \begin{array}{ll}
+    a \div b=c\cdots r \longrightarrow F(x)\div f(x)=\operatorname{g}(x)\cdots r(x) \\
+    a=b\cdot c+r \longrightarrow F(x)=f(x)\cdot\operatorname{g}(x)+r(x) \\
+    \end{array}
+    $  
+    ::: 
+
+- When $\boldsymbol{r(x)=0}$, we have $\boldsymbol{F(x)=f(x)\operatorname{g}(x)}$.
+  In this case,
+  __$\boldsymbol{F(x)}$ is said to be divisible by $\boldsymbol{f(x)}$__,
+  denoted as $\boldsymbol{f(x) \mid F(x)}$.
+
+
+## 15.Factor Theorem (Divisibility)
+- $f(x)$ has a factor $(x-a)$ $\Longleftrightarrow$ $f(x)$ is divisible by $(x-a)$ $\Longleftrightarrow$ $f(a)=0$.  
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  f(x)=(x-a)(?) \longrightarrow \frac{f(x)}{(x-a)}=(?) \\
+  f(a)=0 & x=a \\
+  \end{array}
+  $  
+  ::: 
+
+## 16.Remainder Theorem (Non-Divisibility)
+- Since __the degree of the remainder must be less than that of the divisor__,
+  when the divisor is __a linear expression__,
+  the remainder is __a constant__.
+  Thus, the remainder theorem states:
+  __the remainder of a polynomial $\boldsymbol{f(x)}$ divided by $\boldsymbol{ax-b}$ is $\boldsymbol{f(\frac{b}{a})}$__.
+  - __Theorem derivation__  
+    ::: wrap  
+    $
+    \begin{array}{ll}
+    f(x)=(ax-b)\cdot\textsf{quotient}+\textsf{remainder} & \textsf{denominator}=0 \\
+    f(\frac{b}{a})=\textsf{remainder} & \textsf{let }x=\frac{b}{a} \\
+    \end{array}
+    $  
+    :::
+- Note: this can be understood as __the remainder being the function value at that point__.
+  The __factor theorem__ can be seen as __a special case of the remainder theorem__.
+
+
+## 17.Double-Cross Multiplication Method
+- When dealing with __a quadratic trinomial in two variables__ of the form $\boldsymbol{ax^2+bxy+cy^2+dx+ey+f}$,
+  one can use __the double-cross multiplication method__ to factor it.
+  The steps are:
+  1. Use __the cross multiplication method__ to factor $\boldsymbol{ax^2+bxy+cy^2}$,
+     obtaining __a cross-multiplication diagram (with two columns)__.
+  2. Decompose __the constant term $\boldsymbol{f}$__ into __two factors__ and place them in __the third column__.
+     The requirement is that __the sum of the cross-products of the second and third columns__
+     equals __the $\boldsymbol{ey}$ term__ in the original expression,
+     and __the sum of the cross-products of the first and third columns__
+     equals __the $\boldsymbol{dx}$ term__ in the original expression.
+- __Usage__  
+  ![Double-cross multiplication.svg](../../public/math/Core%20Courses/Double-cross%20multiplication.svg)  
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  (a_1x+c_1y+f_1)(a_2x+c_2y+f_2) \\
+  a_1x(a_2x+c_2y+f_2)+c_1y(a_2x+c_2y+f_2)+f_1(a_2x+c_2y+f_2) \\
+  a_1a_2x^2+a_1c_2xy+a_1f_2x+c_1a_2xy+c_1c_2y^2+c_1f_2y+f_1a_2x+f_1c_2y+f_1f_2 \\
+  a_1a_2x^2+(a_1c_2+a_2c_1)xy+c_1c_2y^2+(a_1f_2+a_2f_1)x+(c_1f_2+c_2f_1)y+f_1f_2 \\
+  b=a_1c_2+a_2c_1 \\
+  d=a_1f_2+a_2f_1 \\
+  e=c_1f_2+c_2f_1 \\
+  \end{array}
+  $  
+  :::
