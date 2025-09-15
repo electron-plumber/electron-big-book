@@ -311,7 +311,7 @@ $
   ::: wrap  
   $
   \begin{array}{ll}
-  f(x)=(x-a)(?) \longrightarrow \frac{f(x)}{(x-a)}=(?) \\
+  f(x)=(x-a)(\cdots) \longrightarrow \frac{f(x)}{(x-a)}=(\cdots) \\
   f(a)=0 & x=a \\
   \end{array}
   $  
@@ -362,3 +362,144 @@ $
   \end{array}
   $  
   :::
+
+## 18.Focus 11
+__The divisibility and factors__  
+- When divisibility occurs, __the factor theorem__ can be used to solve the problem.
+  The factor theorem can be cleverly understood as:
+  __when the factor equals zero, the original expression also equals zero__.
+
+
+### $\fbox{22}\:$If the polynomial $\small f(x)=x^3+a^2x^2+x-3a$ is divisible by $\small x-1$, then find the real number $\small a$.
+::: wrap  
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 0 &
+\textsf{(B)} \: 1 &
+\textsf{(C)} \: 0\lor1 &
+\textsf{(D)} \: 2\lor-1 &
+\textsf{(E)} \: 2\lor1 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+x-1=0 \Longrightarrow x=1 \\
+f(1)=1^3+a^2\cdot1^2+1-3a=0 \\
+a^2-3a+2=0 \\
+(a-2)(a-1)=0 \\
+a=2 \lor 1 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(E)}$  
+  > According to the Solution, get $a=2 \lor 1$, so choose $E$. 
+
+  :::
+- Formulas used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  f(x)=(x-a)(\cdots) \longrightarrow \frac{f(x)}{(x-a)}=(\cdots) & \href{/math/0%20Core%20Courses/14%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20lower.html#_15-factor-theorem-divisibility}{\textsf{factor theorem for divisibility}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+### $\fbox{23}\:$If $\small x^3+x^2+ax+b$ is divisible by $\small x^2-3x+2$, then what can be concluded $\small \mathpunct{?}$.
+::: wrap  
+$
+\begin{array}{lllll}
+\textsf{(A)} \: a=4,b=4 &
+\textsf{(B)} \: a=-4,b=-4 &
+\textsf{(C)} \: a=10,b=-8 & \\
+\textsf{(D)} \: a=-10,b=8 &
+\textsf{(E)} \: a=2,b=0 & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+x^2-3x+2=0 \\
+(x-2)(x-1)=0 \\
+x=1,2 \\
+\begin{cases}
+f(1)=1+1+a+b=0 \\
+f(2)=8+4+2a+b=0 \\
+\end{cases} \\
+(8+4+2a+b)-(1+1+a+b)=0 & f(2)-f(1) \\
+10+a=0 \\
+a=-10 \\
+1+1-10+b=0 & \textsf{substitute }a \\
+b=8 \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(D)}$  
+  > According to the Solution, get $a=-10,b=8$, so choose $D$. 
+
+  :::
+- Formulas used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  f(x)=(x-a)(\cdots) \longrightarrow \frac{f(x)}{(x-a)}=(\cdots) & \href{/math/0%20Core%20Courses/14%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20lower.html#_15-factor-theorem-divisibility}{\textsf{factor theorem for divisibility}} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+### $\fbox{24}\:$The polynomial $\small x^3+ax^2+bx-6$ has two factors $\small x-1$ and $\small x-2$. What is its third linear factor $\small \mathpunct{?}$.
+::: wrap  
+$
+\begin{array}{lllll}
+\textsf{(A)} \: x-6 &
+\textsf{(B)} \: x-3 &
+\textsf{(C)} \: x+1 &
+\textsf{(D)} \: x+2 &
+\textsf{(E)} \: x+3 & \\
+\end{array}
+$  
+:::
+#### Solution
+- Solve by using the method of undetermined coefficients  
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  x^3+ax^2+bx-6=(x-1)(x-2)(\cdots) \\
+  x^3=x\cdot x\cdot x \Longrightarrow (x+A)(x+B)(x+C) \\
+  A=-1 \\
+  B=-2 \\
+  -6=A\cdot B\cdot C=-1\cdot-2\cdot-3=-6 \\
+  C=-3 \\
+  (x-1)(x-2)(x-3) \\
+  \end{array}
+  $  
+  :::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(B)}$  
+  > According to the Solution, get $(x-1)(x-2)(x-3)$, so choose $B$. 
+
+  :::
+- Usage of undetermined coefficients  
+  > - First,
+      look at __the highest degree term__ and __the constant term__ to __determine the form of the unknown factors__
+      (essentially making use of the structural constraints of the polynomial).
+  >   - __Suppose__ the highest degree term is $\boldsymbol{2x^3}$. When factored into __linear factors__: $2x^3=2x\cdot x\cdot x \Longrightarrow (2x+A)(x+B)(x+C)$
+  >   - __Suppose__ the constant term is $\boldsymbol{6}$. When factored into __linear factors__: $6=A\cdot B\cdot C$
+
+---
