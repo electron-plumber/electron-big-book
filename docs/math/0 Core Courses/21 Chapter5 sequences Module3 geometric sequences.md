@@ -322,7 +322,7 @@ $
 \textsf{(3)} \: \textsf{the sequence }\left\{ \frac{1}{a_n} \right\}\textsf{ is a geometric sequence} &
 \textsf{(4)} \: \textsf{the sequence }\left\{ |a_n| \right\}\textsf{ is a geometric sequence} & \\
 \end{array}
-$
+$  
 $
 \begin{array}{lllll}
 \textsf{(A)} \: 0 &  
