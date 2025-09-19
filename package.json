@@ -1,5 +1,5 @@
 {
-  "name": "apple-big-book",
+  "name": "electron-big-book",
   "packageManager": "pnpm@8.15.9",
   "description": "Free open source books for learners of MAT and Java",
   "scripts": {

@@ -1,5 +1,5 @@
 {
-  "index_name": "apple-big-book",
+  "index_name": "electron-book",
   "start_urls": ["https://book.dolphinx.org"],
   "sitemap_urls": ["https://book.dolphinx.org/sitemap.xml"],
   "stop_urls": ["/search"],
