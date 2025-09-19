@@ -5,9 +5,9 @@ import '@vue/runtime-core'
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    ElectronBookSvg: typeof import('./.vitepress/vitepress/components/home/svg/electron-book-svg.vue')['default']
     Dark: typeof import('./.vitepress/vitepress/components/icons/dark.vue')['default']
     DotSvg: typeof import('./.vitepress/vitepress/components/home/svg/dot-svg.vue')['default']
+    ElectronBookSvg: typeof import('./.vitepress/vitepress/components/home/svg/electron-book-svg.vue')['default']
     EnglishSvg: typeof import('./.vitepress/vitepress/components/home/svg/english-svg.vue')['default']
     Home: typeof import('./.vitepress/vitepress/components/globals/home.vue')['default']
     HomeCards: typeof import('./.vitepress/vitepress/components/home/home-cards.vue')['default']
