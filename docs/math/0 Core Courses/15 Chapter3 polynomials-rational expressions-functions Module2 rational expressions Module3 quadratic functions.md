@@ -68,3 +68,12 @@ lang: en-US
 - A rational expression is in simplest form when __its numerator and denominator have no common factors__.
   The final form of a rational expression must be __its simplest form__,
   and simplifying a rational expression usually involves __canceling common factors (reduction)__.
+
+
+## 5.Focus 1
+__The simplifying and evaluating rational expressions__  
+- To simplify and evaluate a rational expression,
+  one can first transform it into __a polynomial expression__ to determine __the relationships among the parameters__,
+  and then __substitute these values back into the rational expression__ for simplification.
+
+

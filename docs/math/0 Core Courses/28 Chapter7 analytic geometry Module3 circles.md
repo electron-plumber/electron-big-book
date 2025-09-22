@@ -80,7 +80,7 @@ $
 $  
 :::
 #### Solution
-- $\textcolor{#228B22}{\fbox{1}}\:$Solve by completing the square to convert the general form into the standard form    
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve by completing the square to transform the general form into the standard form    
   ::: wrap   
   $
   \begin{array}{ll}

@@ -504,7 +504,7 @@ $
 
 ## 16.Focus 7
 __The positional relationship between a point and a line__   
-- First convert the line into the form $\boldsymbol{y=kx+b}$, and __then substitute the point into the line for verification__.
+- First transform the line into the form $\boldsymbol{y=kx+b}$, and __then substitute the point into the line for verification__.
 - Note: make sure the coefficient of $y$ is positive; otherwise, the result of the judgment will be reversed.
 - ###### general form: $ax+by+c=0$  
   ::: wrap  
@@ -573,7 +573,7 @@ $
 
 ## 17.Focus 8
 __The distance from a point to a line__
-- First convert the line equation into the general form, and then use the point-to-line distance formula.  
+- First transform the line equation into the general form, and then use the point-to-line distance formula.  
 
 
 ### $\fbox{20}\:$Given points $\small C(2,−3),M(5,5)$, and $\small N(−3,−1)$, what is the distance from point $\small C$  to line $\small MN \,\mathpunct{?}$.

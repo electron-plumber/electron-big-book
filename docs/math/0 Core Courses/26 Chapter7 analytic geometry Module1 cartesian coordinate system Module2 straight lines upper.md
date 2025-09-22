@@ -781,7 +781,7 @@ $
   \begin{cases}
   \textsf{y-intercept}=-\frac{c}{b} \\
   \textsf{x-intercept}=-\frac{c}{a} \\
-  \end{cases} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#quickly-calculate-the-intercept-form}{\textsf{convert general form to intercept form}} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#quickly-calculate-the-intercept-form}{\textsf{transform general form to intercept form}} \\
   \end{array}
   >$
 
@@ -887,7 +887,7 @@ $
   \begin{cases}
   \textsf{y-intercept}=-\frac{c}{b} \\
   \textsf{x-intercept}=-\frac{c}{a} \\
-  \end{cases} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#quickly-calculate-the-intercept-form}{\textsf{convert general form to intercept form}} \\
+  \end{cases} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#quickly-calculate-the-intercept-form}{\textsf{transform general form to intercept form}} \\
   a=0 \longrightarrow by+c=0 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#horizontal-line}{\textsf{horizontal line}} \\
   k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#remark-the-general-form-is-crucial-as-it-allows-for-quick-calculation-of-the-slope}{\textsf{convert general form to slope}} \\
   90^\circ<\alpha<180^\circ, k<0 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_2-definition-of-slope}{\textsf{definition of slope}} \\
