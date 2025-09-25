@@ -236,3 +236,68 @@ $
 
   :::
 ---
+
+## 6.Focus 3
+__The rational expression as a constant__  
+- For a rational expression that equals __a constant__,
+  one can first substitute __a specific value__ to find __that constant__,
+  and then use __the ratio theorem__ or __an identity transformation__ to determine __the parameter values__.
+  Additionally, if the expression is a constant, it means __the variables can be canceled out__,
+  leaving only a constant.
+
+
+### $\fbox{31}\:$Given that $\small a,b$ are nonzero real numbers, for all values of $\small x$ that make $\small \frac{ax+7}{bx+11}$ well-defined, this rational expression is a constant. Then what holds $\small \mathpunct{?}$.
+::: wrap  
+$
+\begin{array}{lllll}
+\textsf{(A)} \: 7a-11b=0 &
+\textsf{(B)} \: 11a-7b=0 &
+\textsf{(C)} \: 7a+11b=0 & \\
+\textsf{(D)} \: 11a+7b=0 &
+\textsf{(E)} \: 7a-11b=1 & \\
+\end{array}
+$  
+:::
+#### Solution
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve by using the method of assigning specific values  
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  \textsf{let }x=0 \quad x=1 \\
+  f(0)=f(1) \\
+  \frac{7}{11}=\frac{a+7}{b+11}=\frac{a}{b} & \textsf{proportional geometric property} \\
+  7b=11a \\
+  b=\frac{11}{7}a \quad a=\frac{7}{11} & \textsf{property of proportions holds} \\
+  11a-7b=0 \\
+  \end{array}
+  $  
+  :::  
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve by using cancelable common factors  
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  \frac{ax+7}{bx+11}=\frac{a\bcancel{(x+\frac{7}{a})}}{b\bcancel{(x+\frac{11}{b})}}=\textsf{constant} \\
+  x+\frac{7}{a}=x+\frac{11}{b} \\
+  \frac{7}{a}=\frac{11}{b} \\
+  7b=11a \\
+  11a-7b=0 \\
+  \end{array}
+  $  
+  :::
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(B)}$  
+  > According to the Solution, get $11a-7b=0$, so choose $B$. 
+
+  :::
+- Formulas used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  & \href{/math/0%20Core%20Courses/15%20Chapter3%20polynomials-rational%20expressions-functions%20Module2%20rational%20expressions%20Module3%20quadratic%20functions.html#_2-properties-of-rational-expressions}{\textsf{properties of rational expressions}} \\
+  \end{array}
+  >$
+
+  :::
+---

@@ -371,7 +371,7 @@ $
 $  
 :::
 #### Solution
-- $\textcolor{#228B22}{\fbox{1}}\:$`Solve by using` the method of assigning specific values  
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve by using the method of assigning specific values  
   ::: wrap  
   $
   \begin{array}{ll}

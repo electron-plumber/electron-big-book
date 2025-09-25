@@ -719,7 +719,7 @@ $
   >$
 
   :::
-- In addition, if the problem is about non-negative integers (i.e., __object can be empty__) 
+- Additionally, if the problem is about non-negative integers (i.e., __object can be empty__) 
   > ![Question six fundamental methods figure Q-22 solve-1.svg](../../public/math/Core%20Courses/Question%20six%20fundamental%20methods%20figure%20Q-22%20solve-1.svg)
   ::: wrap  
   >$
@@ -853,7 +853,7 @@ $
   >$
 
   :::
-- In addition, if the problem is that each person signs up for at least two courses   
+- Additionally, if the problem is that each person signs up for at least two courses   
   ::: wrap  
   >$
   \begin{array}{ll}
