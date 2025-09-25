@@ -371,12 +371,12 @@ $
 $  
 :::
 #### Solution
-- $\textcolor{#228B22}{\fbox{1}}\:$Solve by using the method of assigning specific values  
+- $\textcolor{#228B22}{\fbox{1}}\:$`Solve by using` the method of assigning specific values  
   ::: wrap  
   $
   \begin{array}{ll}
   a+b+c=0 \\
-  a=b=1 \quad c=-2 \\
+  \textsf{let }a=b=1 \quad c=-2 \\
   1^3+1^3+(-2)^3-3\cdot1\cdot1\cdot-2 \\
   1+1-8+6=0 \\
   \end{array}

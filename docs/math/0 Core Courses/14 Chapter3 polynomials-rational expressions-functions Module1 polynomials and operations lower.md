@@ -110,17 +110,17 @@ $
   ::: wrap  
   $
   \begin{array}{ll}
-  \textcolor{#228B22}{\scriptsize\fbox{1}}\:x=1 \\
+  \textcolor{#228B22}{\scriptsize\fbox{1}}\:\textsf{let }x=1 \\
   f(1)=\operatorname{g}(1) \\
   -7\cdot1+4=a(1-1)^2-b(1+2)+c(1^2+1-2) \\
   -3=-3b \\
   b=\frac{-3}{-3}=1 \\
-  \textcolor{#228B22}{\scriptsize\fbox{2}}\:x=-2 \\
+  \textcolor{#228B22}{\scriptsize\fbox{2}}\:\textsf{let }x=-2 \\
   f(-2)=\operatorname{g}(-2) \\
   -7\cdot-2+4=a(-2-1)^2-b(-2+2)+c[(-2)^2-2-2] \\
   18=9a \\
   a=\frac{18}{9}=2 \\
-  \textcolor{#228B22}{\scriptsize\fbox{3}}\:x=0 \\
+  \textcolor{#228B22}{\scriptsize\fbox{3}}\:\textsf{let }x=0 \\
   f(0)=\operatorname{g}(0) \\
   -7\cdot0+4=a(0-1)^2-b(0+2)+c(0^2+0-2) \\
   4=a-2b-2c \\
@@ -668,7 +668,7 @@ $
   ::: wrap
   >$
   \begin{array}{ll}
-  (a_1x+c_1y+f_1)(a_2x+c_2y+f_2) & \href{/math/0%20Core%20Courses/14%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20lower.html#_17-double-cross-multiplication-method}{\textsf{double-cross multiplication method}} \\
+  (a_1x+c_1y+f_1)(a_2x+c_2y+f_2) & \href{/math/0%20Core%20Courses/14%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20lower.html#_17-double-cross-multiplication-method}{\textsf{double-cross multiplication factorization method}} \\
   \end{array}
   >$
 

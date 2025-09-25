@@ -77,3 +77,162 @@ __The simplifying and evaluating rational expressions__
   and then __substitute these values back into the rational expression__ for simplification.
 
 
+### $\fbox{29}\:$If $\small a,b$ are real numbers and $\small \frac{a^2b^2}{a^4-2b^4}=1$, then $\small \frac{a^2-b^2}{19a^2+96b^2}=\,\mathpunct{?}$.
+::: wrap  
+$
+\begin{array}{lllll}
+\textsf{(A)} \: \frac{1}{114} &
+\textsf{(B)} \: \frac{1}{124} &
+\textsf{(C)} \: \frac{1}{130} &
+\textsf{(D)} \: \frac{1}{132} &
+\textsf{(E)} \: \frac{1}{134} & \\
+\end{array}
+$  
+:::
+#### Solution
+::: wrap  
+$
+\begin{array}{ll}
+a^2b^2=a^4-2b^4 \\
+a^4-a^2b^2-2b^4=0 \\
+(a^2+b^2)(a^2-2b^2)=0 \\
+a^2+b^2=0 \lor a^2=2b^2 \\
+a^2=2b^2 & a^2+b^2\ne0 \textsf{ (nonzero denominator)} \\
+\textsf{let }b=1 \quad a=2 \\
+\frac{2^2-1^2}{19\cdot2^2+96\cdot1^2}=\frac{2-1}{19\cdot2+96}=\frac{1}{134} \\
+\end{array}
+$  
+:::  
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(E)}$  
+  > According to the Solution, get $\frac{1}{134}$, so choose $E$. 
+
+  :::
+- Formulas used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  & \href{/math/0%20Core%20Courses/15%20Chapter3%20polynomials-rational%20expressions-functions%20Module2%20rational%20expressions%20Module3%20quadratic%20functions.html#_2-properties-of-rational-expressions}{\textsf{properties of rational expressions}} \\
+  abx^2+(bp+aq)x+pq=(ax+p)(bx+q) & \href{/math/0%20Core%20Courses/14%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20lower.html#_19-focus-12}{\textsf{cross-multiplication factorization method}} \\
+  x^2=a \longrightarrow x=\pm\sqrt{a} & \textsf{definition of square root} \\
+  \end{array}
+  >$
+
+  :::
+---
+
+## 5.Focus 2
+__The comparing the size of rational expressions__  
+- When both the numerator and denominator are __different__,
+  one often __fixes either the numerator or the denominator__,
+  and then compares their values. 
+
+### $\fbox{30}\:$If $\small a>b>0$ and $\small k>0$, then which of the following inequalities can hold $\small \mathpunct{?}$.
+::: wrap  
+$
+\begin{array}{lllll}
+\textsf{(A)} \: -\frac{b}{a}<-\frac{b+k}{a+k} &
+\textsf{(B)} \: \frac{a}{b}>\frac{a-k}{b-k} &
+\textsf{(C)} \: -\frac{b}{a}>-\frac{b+k}{a+k} & \\
+\textsf{(D)} \: \frac{a}{b}<\frac{a-k}{b-k} &
+\textsf{(E)} \: \frac{a}{b}<\frac{a-2k}{b-2k} & \\
+\end{array}
+$  
+:::
+#### Solution
+- $\textcolor{#228B22}{\fbox{1}}\:$Solve by using subtraction to compare the difference with $0$  
+  ::: wrap   
+  $
+  \begin{array}{ll}
+  \textsf{(A)} \:\,❌\;\\
+  (-\frac{b}{a}\cdot-1) < (-\frac{b+k}{a+k}\cdot-1)  = \frac{b}{a} > \frac{b+k}{a+k} \\
+  \frac{b}{a}-\frac{b+k}{a+k}=\frac{b(a+k)-a(b+k)}{a(a+k)}=\frac{k(b-a)}{a(a+k)} \\
+  a>b \Longrightarrow \textsf{numerator}<0 \\
+  \frac{k(b-a)}{a(a+k)} < 0 \Longrightarrow \frac{b}{a}<\frac{b+k}{a+k} \\
+  (\frac{b}{a}\cdot-1)<(\frac{b+k}{a+k}\cdot-1)=-\frac{b}{a}>-\frac{b+k}{a+k} \\
+  \textsf{(B)} \:\,❌\;\\
+  \frac{a}{b}>\frac{a-k}{b-k} \\
+  \frac{a}{b}-\frac{a-k}{b-k}=\frac{a(b-k)-b(a-k)}{b(b-k)}=\frac{k(b-a)}{b(b-k)} \\
+  b>0,k>0 \Longrightarrow \textsf{denominator }\pm \\
+  \textsf{denominator has multiple cases, size undetermined} \\
+  \textsf{use limit method: examine sign change near }0\textsf{ to compare sizes} \\
+  \textsf{let }a=2 \quad b=1 \quad k=0.999 & \boldsymbol{\gt}\textsf{set denominator}\rightarrow0 \\
+  f(k)=\frac{a-k}{b-k}=\frac{2-0.999}{1-0.999}=\frac{1.001}{0.001}=1001 \\
+  f(0.999) \Longrightarrow \frac{a}{b}<\frac{a-k}{b-k} \\
+  \textsf{(D)} \:\,❌\;\\
+  \frac{a}{b}<\frac{a-k}{b-k} \\
+  \textsf{let }a=2 \quad b=1 \quad k=2 & \boldsymbol{\lt}\textsf{set numerator}=0 \\
+  f(k)=\frac{a-k}{b-k}=\frac{2-2}{1-2}=\frac{0}{-1}=0 \\
+  f(2) \Longrightarrow \frac{a}{b}>\frac{a-k}{b-k} \\
+  \textsf{both are incorrect, leading to a deadlock with mutual holding} \\
+  \textsf{(E)} \:\,❌\;\\
+  \frac{a}{b}<\frac{a-2k}{b-2k} \\
+  \textsf{let }a=2 \quad b=1 \quad k=1 & \boldsymbol{\lt}\textsf{set numerator}=0 \\
+  f(k)=\frac{a-2k}{b-2k}=\frac{2-2\cdot1}{1-2\cdot1}=\frac{0}{-1}=0 \\
+  f(1) \Longrightarrow\frac{a}{b}>\frac{a-2k}{b-2k} \\
+  \end{array}
+  $   
+  :::
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve by using division to compare the ratio with $1$  
+  ::: wrap   
+  $
+  \begin{array}{ll}
+  \textsf{(A)} \:\,❌\;\\
+  (-\frac{b}{a}\cdot-1) < (-\frac{b+k}{a+k}\cdot-1) = \frac{b}{a} > \frac{b+k}{a+k} \\
+  \frac{\frac{b}{a}}{\frac{b+k}{a+k}}=\frac{b}{a}\cdot\frac{a+k}{b+k}=\frac{ab+bk}{ab+ak}=\frac{bk}{ak} \\
+  a>b \Longrightarrow \textsf{proper fraction}<1 \\
+  \frac{bk}{ak} < 1 \Longrightarrow \frac{b}{a}<\frac{b+k}{a+k} \\
+  (\frac{b}{a}\cdot-1)<(\frac{b+k}{a+k}\cdot-1)=-\frac{b}{a}>-\frac{b+k}{a+k} \\
+  \textsf{(B)} \:\,❌\;\\
+  \frac{a}{b}>\frac{a-k}{b-k} \\
+  \frac{a}{b}-\frac{a-k}{b-k}=\frac{a(b-k)-b(a-k)}{b(b-k)}=\frac{k(b-a)}{b(b-k)} \\
+  b>0,k>0 \Longrightarrow \textsf{denominator }\pm \\
+  \textsf{denominator has multiple cases, size undetermined} \\
+  \textsf{use limit method: examine sign change near }0\textsf{ to compare sizes} \\
+  \textsf{let }a=2 \quad b=1 \quad k=0.999 & \boldsymbol{\gt}\textsf{set denominator}\rightarrow0 \\
+  f(k)=\frac{a-k}{b-k}=\frac{2-0.999}{1-0.999}=\frac{1.001}{0.001}=1001 \\
+  f(0.999) \Longrightarrow \frac{a}{b}<\frac{a-k}{b-k} \\
+  \textsf{(D)},\textsf{(E)} \cdots \\
+  \end{array}
+  $   
+  :::
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(C)}$  
+  > According to the Solution, get $(\frac{b}{a}\cdot-1)<(\frac{b+k}{a+k}\cdot-1)=-\frac{b}{a}>-\frac{b+k}{a+k}$, so choose $C$. 
+
+  :::
+- Methods for comparing rational expressions  
+  ::: wrap  
+  > - (1) __Using subtraction__$^{\textsf{positive integers only}}$: compare the difference with $0$.  
+  > - (2) __Using division__$^{\textsf{positive integers only}}$: compare the ratio with $1$; this method is an extension of subtraction.  
+  > - (3) __Using the limit method__$^{\textsf{exclude}}$: examine the sign change near a certain point to compare sizes.  
+  >   - Find a counterexample: if one can be found, then it is incorrect. If they reference each other and a deadlock occurs, then both are incorrect.  
+  >   - Sign rule for rational inequalities:
+  >$
+        \begin{cases} 
+        \begin{array}{ll}
+        \textsf{set numerator}=0 & \boldsymbol{\lt} \\
+        \textsf{set denominator}\rightarrow0 & \boldsymbol{\gt} \\
+        \end{array}
+        \end{cases}
+  >$  
+  > - (4) __Using the method of assigning specific values__:
+  > substitute specific values for verification (may involve letting multiple specific values again).  
+
+  :::
+- The change in size of proper and improper fractions after adding $k$  
+  ::: wrap  
+  >$
+  \begin{array}{ll}
+  \textsf{let }a,b,k\textsf{ are positive} \\
+  \frac{b}{a} \lt \frac{b+k}{a+k} & a \gt b \\
+  \frac{b}{a} \gt \frac{b+k}{a+k} & a \lt b \\
+  \end{array}
+  >$
+
+  :::
+---
