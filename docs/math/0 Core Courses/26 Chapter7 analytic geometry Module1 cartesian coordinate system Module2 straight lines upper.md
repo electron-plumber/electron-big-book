@@ -13,7 +13,7 @@ lang: en-US
   - points on y-axis $(0,y)$.
 
 ## 2.The Coordinates of the Midpoint Between Two Points
-- The coordinates of the midpoint between two points $p_1(x_1,y_1)$ and $p_2(x_2,y_2)$ are $(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2})\boxed{\textsf{Average}}$.
+- The coordinates of the midpoint between two points $p_1(x_1,y_1)$ and $p_2(x_2,y_2)$ are $(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2})$,average.
   - Special case: the midpoint between point $p_1(x_1,y_1)$ and the origin $(0,0)$ is $(\frac{x_1}{2},\frac{y_1}{2})$.
   - __Formula derivation__  
     ![Midpoint coordinates formula derivations.svg](../../public/math/Core%20Courses/Midpoint%20coordinates%20formula%20derivations.svg)       
@@ -251,7 +251,7 @@ $
 - The tangent of the inclination angle is the slope, denoted as $k=\textsf{tan}\alpha, \alpha=\frac{\pi}{2}$.  
   - $\boldsymbol{\alpha=\frac{\textsf{opposite}}{\textsf{adjacent}}}$  
   ![Tan alpha slope figure 7-2.svg](../../public/math/Core%20Courses/Tan%20alpha%20slope%20figure%207-2.svg)  
-- __Remarks__  
+- __Notes__  
   - When $\alpha=0, \boldsymbol{k=0}$; __zero numerator__.
   - When $0<\alpha<90^\circ, \boldsymbol{k>0}$.
   - When $\alpha=90^\circ$, __$\boldsymbol{k}$ is undefined__; __zero denominator__.
@@ -346,7 +346,7 @@ $
   >$
 
   :::  
-- $y=kx+b$ [Variation of the slope-intercept line](https://phet.colorado.edu/sims/html/graphing-slope-intercept/latest/graphing-slope-intercept_all.html)  
+- $y=kx+b$ [variation of the slope-intercept line](https://phet.colorado.edu/sims/html/graphing-slope-intercept/latest/graphing-slope-intercept_all.html)  
   ::: wrap  
   > counterclockwise rotation: $k\uparrow$.  
   > clockwise rotation: $k\downarrow$.  
@@ -417,7 +417,7 @@ $
   - ###### $b=0: y=kx$ (passing through the origin)   
   - $k=0: y=b$ (horizontal line)   
 - [slope-intercept demo](https://phet.colorado.edu/sims/html/graphing-slope-intercept/latest/graphing-slope-intercept_all.html)       
-![Slope-intercept form.svg](../../public/math/Core%20Courses/Slope-intercept%20form.svg)  
+  ![Slope-intercept form.svg](../../public/math/Core%20Courses/Slope-intercept%20form.svg)  
 
 ### $\textcolor{#1E3A5F}{\fbox{2}}\:$Point-slope form
 - If __the slope $\boldsymbol{k}$__ and __a point $\boldsymbol{(x_0, y_0)}$__ are known,
@@ -465,7 +465,7 @@ $
 ### $\textcolor{#1E3A5F}{\fbox{5}}\:$General form
 - The above equations can all be transformed into __the form of a linear equation $\boldsymbol{ax+by+c=0}$__,
   which is called __the general form of the equation of a line__.  
-- ###### Remark: the general form is crucial, as it allows for quick calculation of the slope, $k=-\frac{a}{b}$.
+- ###### Note: the general form is crucial, as it allows for quick calculation of the slope, $k=-\frac{a}{b}$.
   - __$k=-\frac{a}{b}$ derivation__   
     ::: wrap  
     $
@@ -889,7 +889,7 @@ $
   \textsf{x-intercept}=-\frac{c}{a} \\
   \end{cases} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#quickly-calculate-the-intercept-form}{\textsf{transform general form to intercept form}} \\
   a=0 \longrightarrow by+c=0 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#horizontal-line}{\textsf{horizontal line}} \\
-  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#remark-the-general-form-is-crucial-as-it-allows-for-quick-calculation-of-the-slope}{\textsf{convert general form to slope}} \\
+  k=-\frac{a}{b} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#note-the-general-form-is-crucial-as-it-allows-for-quick-calculation-of-the-slope}{\textsf{convert general form to slope}} \\
   90^\circ<\alpha<180^\circ, k<0 & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_2-definition-of-slope}{\textsf{definition of slope}} \\
   \end{array}
   >$

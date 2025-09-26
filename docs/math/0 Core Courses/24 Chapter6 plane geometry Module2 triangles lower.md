@@ -267,7 +267,7 @@ $
 
 ### $\textcolor{#1E3A5F}{\fbox{4}}\:$Applications
 - When __parallel lines appear__, __similarity can be used__ for analysis.
-- Remark: the properties of similar triangles can be __fully extended to other similar figures__, such as __quadrilaterals__.   
+- Note: the properties of similar triangles can be __fully extended to other similar figures__, such as __quadrilaterals__.   
   ![Triangles similarity applications.svg](../../public/math/Core%20Courses/Triangles%20similarity%20applications.svg)      
 
 

@@ -123,7 +123,7 @@ $
   :::
 ---
 
-## 5.Focus 2
+## 6.Focus 2
 __The comparing the size of rational expressions__  
 - When both the numerator and denominator are __different__,
   one often __fixes either the numerator or the denominator__,
@@ -237,7 +237,7 @@ $
   :::
 ---
 
-## 6.Focus 3
+## 7.Focus 3
 __The rational expression as a constant__  
 - For a rational expression that equals __a constant__,
   one can first substitute __a specific value__ to find __that constant__,
@@ -301,3 +301,35 @@ $
 
   :::
 ---
+
+# Module 3-03 Quadratic Functions
+
+## 1.Three Forms of a Quadratic Function
+1. Standard Form: $\boldsymbol{y=ax^2+bx+c}$.
+::: wrap  
+2. Vertex form ([completed square form](/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_1-six-fundamental-formulas)): $\boldsymbol{y=a(x+\frac{b}{2a})^2+\frac{4ac-b^2}{4a}}$.
+   - Example: $y=x^2+4x+10=(x+2)^2+6$
+:::  
+3. Root form: $\boldsymbol{y=a(x-x_1)(x-x_2)}$.
+   - Example: $f(3)=a(x+2)(x-3)=0$
+- Note: $\boldsymbol{x_1}$ and $\boldsymbol{x_2}$ represent the __two intersection points__ of the quadratic function with the x-axis, or the __two roots__ of the equation.  
+  ![Quadratic function two intersections.svg](../../public/math/Core%20Courses/Quadratic%20function%20two%20intersections.svg)
+
+
+## 2.Properties
+- Opening direction: determined by $a$. When $\boldsymbol{a>0}$, the parabola __opens upward__; when $\boldsymbol{a<0}$, it __opens downward__.  
+  ![Quadratic function opening directions.svg](../../public/math/Core%20Courses/Quadratic%20function%20opening%20directions.svg)
+- Axis of symmetry: $\boldsymbol{x=\frac{b}{2a}}$.
+  - Note: when $\boldsymbol{b=0}$, the graph of the quadratic function is __symmetric about the y-axis__.
+  - $y=ax^2+c$  
+    <iframe src="https://www.desmos.com/calculator/3juw4onztz?embed" width="250" height="250" style="border: 1px solid #ccc; margin: 10px 0" frameborder=0></iframe>
+- Vertex: $\boldsymbol{(-\frac{b}{2a},\frac{4ac-b^2}{4a})}$.
+- [y-intercept](/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#slope-intercept-form): $\boldsymbol{y=c}$.
+  - Note: when $\boldsymbol{c=0}$, the graph of the quadratic function __passes through the origin__.
+  - $y=ax^2+bx$  
+    <iframe src="https://www.desmos.com/calculator/f9fr6i5mzv?embed" width="250" height="250" style="border: 1px solid #ccc; margin: 10px 0" frameborder=0></iframe>
+- Extrema:  
+  - When $\boldsymbol{a>0}$, the function has __a minimum value__ of $\boldsymbol{\frac{4ac-b^2}{4a}}$, but __no maximum__.
+  - When $\boldsymbol{a<0}$, the function has __a maximum value__ of $\boldsymbol{\frac{4ac-b^2}{4a}}$, but __no minimum__.
+- [quadratic function demo](https://phet.colorado.edu/sims/html/graphing-quadratics/latest/graphing-quadratics_all.html)
+
