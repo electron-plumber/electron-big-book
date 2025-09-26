@@ -6,7 +6,7 @@ lang: en-US
 # Module 5-03 Geometric Sequences
 
 ## 1.Definition
-- If in a sequence $\left\{ a_n \right\}$, $\boldsymbol{\frac{a_{n+1}}{a_n}=q}$ ($\textsf{constant}$, $n \in \mathbb{N}_+$),
+- If in a sequence $\left\{ a_n \right\}$, $\boldsymbol{\frac{a_{n+1}}{a_n}=q}$ ($\textsf{constant}$, $n \in \mathbb{N_+}$),
   then the sequence $\left\{ a_n \right\}$ is called __a geometric sequence__, and $\boldsymbol{q}$ is called __the common ratio__.
 - Essence: the ratio is constant __(common ratio)__ — __a multiplicative relationship__.  
 

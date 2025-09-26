@@ -166,7 +166,7 @@ $
 
 ## 9.Focus 5
 __The property of terms in an arithmetic sequence__  
-- If $\boldsymbol{k\in\mathbb{Z}_+}$ and $\boldsymbol{m+n=k+t}$, then $\boldsymbol{a_m+a_n=a_k+a_t}$.
+- If $\boldsymbol{k\in\mathbb{Z_+}}$ and $\boldsymbol{m+n=k+t}$, then $\boldsymbol{a_m+a_n=a_k+a_t}$.
 
 ### $\fbox{23}\:$In the arithmetic sequence $\small \left\{ a_n \right\}$, $\small a_1$ and $\small a_{10}$ are the two roots of the equation $\small x^2-3x-5=0$. Find $\small a_3+a_8$.
 ::: wrap  

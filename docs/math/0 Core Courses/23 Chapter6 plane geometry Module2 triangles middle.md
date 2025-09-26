@@ -323,7 +323,7 @@ $
 ### $\textcolor{#1E3A5F}{\fbox{1}}\:$Right triangles
 - Pythagorean theorem: $a^2+b^2=c^2$      
 - ###### __Common Pythagorean triples__: $\boldsymbol{(3,4,5)}$, $\boldsymbol{(6,8,10)}$, $\boldsymbol{(5,12,13)}$, $\boldsymbol{(7,24,25)}$, $\boldsymbol{(8,15,17)}$, $\boldsymbol{(9,12,15)}$    
-  - __The proportional (scaled) pythagorean triple__ equation is $\boldsymbol{(ka)^2+(kb)^2=(kc)^2}$, where $k\in\mathbb{Z}^+$.  
+  - __The proportional (scaled) pythagorean triple__ equation is $\boldsymbol{(ka)^2+(kb)^2=(kc)^2}$, where $k\in\mathbb{Z_+}$.  
 - In __an isosceles right triangle__, the ratio of the three sides is $\boldsymbol{1:1:\sqrt{2}}$.  
   ![Side ratio of isosceles right triangle.svg](../../public/math/Core%20Courses/Side%20ratio%20of%20isosceles%20right%20triangle.svg)   
 - The area of an isosceles right triangle is $S=\frac{1}{2}a^2=\frac{1}{4}c^2$, where __$\boldsymbol{a}$ is the length of a leg__ and __$\boldsymbol{c}$ is the hypotenuse__.     

@@ -305,7 +305,7 @@ $
 # Module 3-03 Quadratic Functions
 
 ## 1.Three Forms of a Quadratic Function
-1. Standard Form: $\boldsymbol{y=ax^2+bx+c}$.
+1. Standard form: $\boldsymbol{y=ax^2+bx+c}$.
 ::: wrap  
 2. Vertex form ([completed square form](/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_1-six-fundamental-formulas)): $\boldsymbol{y=a(x+\frac{b}{2a})^2+\frac{4ac-b^2}{4a}}$.
    - Example: $y=x^2+4x+10=(x+2)^2+6$
@@ -319,11 +319,11 @@ $
 ## 2.Properties
 - Opening direction: determined by $a$. When $\boldsymbol{a>0}$, the parabola __opens upward__; when $\boldsymbol{a<0}$, it __opens downward__.  
   ![Quadratic function opening directions.svg](../../public/math/Core%20Courses/Quadratic%20function%20opening%20directions.svg)
-- Axis of symmetry: $\boldsymbol{x=\frac{b}{2a}}$.
+- Axis of symmetry: $\boldsymbol{x=-\frac{b}{2a}}$.
   - Note: when $\boldsymbol{b=0}$, the graph of the quadratic function is __symmetric about the y-axis__.
   - $y=ax^2+c$  
     <iframe src="https://www.desmos.com/calculator/3juw4onztz?embed" width="250" height="250" style="border: 1px solid #ccc; margin: 10px 0" frameborder=0></iframe>
-- Vertex: $\boldsymbol{(-\frac{b}{2a},\frac{4ac-b^2}{4a})}$.
+- Vertex coordinates: $\boldsymbol{(-\frac{b}{2a},\frac{4ac-b^2}{4a})}$.
 - [y-intercept](/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#slope-intercept-form): $\boldsymbol{y=c}$.
   - Note: when $\boldsymbol{c=0}$, the graph of the quadratic function __passes through the origin__.
   - $y=ax^2+bx$  
@@ -333,3 +333,109 @@ $
   - When $\boldsymbol{a<0}$, the function has __a maximum value__ of $\boldsymbol{\frac{4ac-b^2}{4a}}$, but __no minimum__.
 - [quadratic function demo](https://phet.colorado.edu/sims/html/graphing-quadratics/latest/graphing-quadratics_all.html)
 
+
+## 3.Focus 1
+__About the graph__  
+- Focus mainly on __the opening direction__,
+  __the axis of symmetry__,
+  __the intersections__ with the x-axis,
+  and __the intersection__ with the y-axis.
+
+
+### $\fbox{32}\:$Figure 3–1, what is the expression of the quadratic function $\small \mathpunct{?}$.
+![Question quadratic functions figure 3-1.svg](../../public/math/Core%20Courses/Question%20quadratic%20functions%20figure%203-1.svg)  
+::: wrap  
+$
+\begin{array}{lllll}
+\textsf{(A)} \: y=-2x^2-x &
+\textsf{(B)} \: y=-2x^2-4x & \\
+\textsf{(C)} \: y=-2x^2-3x &
+\textsf{(D)} \: y=-2x^2-5x & \\
+\textsf{(E)} \: y=2x^2-4x & \\
+\end{array}
+$  
+:::
+#### Solution
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve by using the standard form  
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  y=ax^2+bx+c \\
+  \textsf{parabola analysis} \\
+  \begin{cases}
+  c=0 & \textsf{passes through the origin} \\
+  -\frac{b}{2a}=-1 & \textsf{axis of symmetry} \\
+  \frac{4ac-b^2}{4a}=2 & \textsf{vertex} \\
+  \end{cases} \\
+  -\frac{b}{2a}=-1 & ② \\
+  b=2a \\
+  \frac{4ac-b^2}{4a}=2 & ③ \\
+  \frac{4a0-(2a)^2}{4a}=2 & \textsf{substitute }b,c \\
+  \frac{-4a^2}{4a}=2 \\
+  a=-2 \\
+  b=2\cdot-2=-4 \\
+  y=-2x^2-4x \\
+  \end{array}
+  $   
+  :::
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve by using the vertex form  
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  y=a(x+\frac{b}{2a})^2+\frac{4ac-b^2}{4a} \\
+  \textsf{parabola analysis} \\
+  -\frac{b}{2a}=-1 & \textsf{axis of symmetry} \\
+  \frac{4ac-b^2}{4a}=2 & \textsf{vertex} \\
+  y=a(x+1)^2+2 \\
+  \textsf{let }x=0 & x=\mathbb{R} \\
+  x=0 \longrightarrow y=0 \\
+  a(0+1)^2+2=0 \\
+  a+2=0 \\
+  a=-2 \\
+  y=-2(x+1)^2+2 & \textsf{substitute }a \\
+  -2(x^2+2x+1)+2 \\
+  -2x^2-4x-2+2 \\
+  -2x^2-4x \\
+  \end{array}
+  $   
+  :::
+- $\textcolor{#228B22}{\fbox{2}}\:$Solve by using the root form  
+  ::: wrap  
+  $
+  \begin{array}{ll}
+  y=a(x-x_1)(x-x_2) \\
+  \textsf{parabola analysis} \\
+  x_1=-2 \\
+  x_2=0 \\
+  y=a(x+2)\cdot x \\
+  \textsf{let }x=-1 & x=\mathbb{R} \\
+  x=-1 \longrightarrow y=2 \\
+  a(-1+2)\cdot -1=2 \\
+  a=-2 \\
+  y=-2(x+2)\cdot x & \textsf{substitute }a \\
+  x(-2x-4) \\
+  -2x^2-4x \\
+  \end{array}
+  $   
+  :::
+#### Conclusion
+- Derived Solution  
+  ::: wrap
+  > $\boldsymbol{(B)}$  
+  > According to the Solution, get $y=-2x^2-4x$, so choose $B$. 
+
+  :::
+- Formulas used  
+  ::: wrap
+  >$
+  \begin{array}{ll}
+  & \href{/math/0%20Core%20Courses/15%20Chapter3%20polynomials-rational%20expressions-functions%20Module2%20rational%20expressions%20Module3%20quadratic%20functions.html#_2-properties}{\textsf{properties of quadratic functions}} \\
+  y=ax^2+bx+c & \href{/math/0%20Core%20Courses/15%20Chapter3%20polynomials-rational%20expressions-functions%20Module2%20rational%20expressions%20Module3%20quadratic%20functions.html#_1-three-forms-of-a-quadratic-function}{\textsf{standard form of a quadratic function}} \\
+  y=a(x+\frac{b}{2a})^2+\frac{4ac-b^2}{4a} & \href{/math/0%20Core%20Courses/15%20Chapter3%20polynomials-rational%20expressions-functions%20Module2%20rational%20expressions%20Module3%20quadratic%20functions.html#_1-three-forms-of-a-quadratic-function}{\textsf{vertex form of a quadratic function}} \\
+  y=a(x-x_1)(x-x_2) & \href{/math/0%20Core%20Courses/15%20Chapter3%20polynomials-rational%20expressions-functions%20Module2%20rational%20expressions%20Module3%20quadratic%20functions.html#_1-three-forms-of-a-quadratic-function}{\textsf{root form of a quadratic function}} \\
+  (a+b)^2=a^2+2ab+b^2 & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_1-six-fundamental-formulas}{\textsf{perfect square formula}} \\
+  \end{array}
+  >$
+
+  :::
+---

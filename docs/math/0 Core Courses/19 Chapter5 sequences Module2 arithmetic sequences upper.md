@@ -8,7 +8,7 @@ lang: en-US
 
 ## 1.Definition
 - in the sequence $\boldsymbol{\left\{ a_n \right\}}$,
-  $\boldsymbol{a_{n+1}-a_n=d}$ ($\textsf{constant}$, $n\in\mathbb{N}_+$),
+  $\boldsymbol{a_{n+1}-a_n=d}$ ($\textsf{constant}$, $n\in\mathbb{N_+}$),
   then the sequence $\boldsymbol{\left\{ a_n \right\}}$ is called __an arithmetic sequence__,
   and $\boldsymbol{d}$ is called __the common difference__.
 - Essence: obtaining __the constant difference__ through __the recurrence relation__.  

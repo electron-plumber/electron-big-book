@@ -147,9 +147,9 @@ $
   x^2=1-y^2 \\
   x=\sqrt{1-y^2} & x > 0 \textsf{ since it's the right half} \\
   x-\sqrt{1-y^2}=0 & \textsf{right semicircle}\\
-  y-\sqrt{1-x^2}=0 \rightarrow y=\sqrt{1-x^2} & y \in \mathbb{R}^{+} \textsf{ upper semicircle} \\
-  y+\sqrt{1-x^2}=0 \rightarrow y=-\sqrt{1-x^2} & y \in \mathbb{R}^{-} \textsf{ lower semicircle} \\
-  x+\sqrt{1-y^2}=0 \rightarrow x=-\sqrt{1-y^2} & x \in \mathbb{R}^{-} \textsf{ left semicircle} \\
+  y-\sqrt{1-x^2}=0 \rightarrow y=\sqrt{1-x^2} & y \in \mathbb{R_+} \textsf{ upper semicircle} \\
+  y+\sqrt{1-x^2}=0 \rightarrow y=-\sqrt{1-x^2} & y \in \mathbb{R_-} \textsf{ lower semicircle} \\
+  x+\sqrt{1-y^2}=0 \rightarrow x=-\sqrt{1-y^2} & x \in \mathbb{R_-} \textsf{ left semicircle} \\
   \end{array}
   $  
   :::  
@@ -473,10 +473,7 @@ $
   =0:\,\textsf{one real root (a repeated root) → tangent} \\
   \lt0:\,\textsf{no real roots → separate} \\
   \end{cases} & \href{https://en.wikipedia.org/wiki/Discriminant}{\textsf{quadratic discriminant}} \\
-  \begin{cases}
-  (a+b)^2=a^2+2ab+b^2 \\
-  (a-b)^2=a^2-2ab+b^2
-  \end{cases} & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_1-six-fundamental-formulas}{\textsf{perfect square formula}} \\
+  (a\pm b)^2=a^2\pm2ab+b^2 & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_1-six-fundamental-formulas}{\textsf{perfect square formula}} \\
   30^\circ=\frac{\sqrt{3}}{3} & \href{/math/0%20Core%20Courses/26%20Chapter7%20analytic%20geometry%20Module1%20cartesian%20coordinate%20system%20Module2%20straight%20lines%20upper.html#_3-common-inclination-angles-and-slope}{\textsf{inclination angle–slope}} \\
   1:\sqrt{3}:2 & \href{/math/0%20Core%20Courses/23%20Chapter6%20plane%20geometry%20Module2%20triangles%20middle.html#in-a-right-triangle-the-ratio-of-the-three-sides-is}{\textsf{30-60-90 right triangle}} \\
   (x-x_0)^2+(y-y_0)^2=r^2 & \href{/math/0%20Core%20Courses/28%20Chapter7%20analytic%20geometry%20Module3%20circles.html#standard-form}{\textsf{standard form of a circle}} \\
@@ -659,10 +656,7 @@ $
   =0:\,\textsf{one real root (a repeated root) → tangent} \\
   \lt0:\,\textsf{no real roots → separate} \\
   \end{cases} & \href{https://en.wikipedia.org/wiki/Discriminant}{\textsf{quadratic discriminant}} \\
-  \begin{cases}
-  (a+b)^2=a^2+2ab+b^2 \\
-  (a-b)^2=a^2-2ab+b^2
-  \end{cases} & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_1-six-fundamental-formulas}{\textsf{perfect square formula}} \\
+  (a\pm b)^2=a^2\pm2ab+b^2 & \href{/math/0%20Core%20Courses/12%20Chapter3%20polynomials-rational%20expressions-functions%20Module1%20polynomials%20and%20operations%20upper.html#_1-six-fundamental-formulas}{\textsf{perfect square formula}} \\
   \end{array}
   >$
 
